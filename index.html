@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude AI Daily Brief</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+
+    /* NAV */
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      color: #fff;
+      text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px;
+      background: #a78bfa;
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+    .nav-sub { font-size: 12px; color: #64748b; }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      padding: 5px 12px;
+      border-radius: 100px;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-size: 42px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+    }
+    .hero h1 span { color: #a78bfa; }
+    .hero p {
+      font-size: 16px;
+      color: #94a3b8;
+      max-width: 480px;
+      margin: 0 auto 28px;
+      line-height: 1.6;
+    }
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+    .stat { text-align: center; }
+    .stat-num { font-size: 24px; font-weight: 700; color: #fff; }
+    .stat-label { font-size: 11px; color: #64748b; text-transform: uppercase; letter-spacing: 1px; margin-top: 2px; }
+
+    /* MAIN */
+    .main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 32px;
+    }
+
+    /* LATEST REPORT */
+    .section-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #64748b;
+      margin-bottom: 16px;
+    }
+    .latest-card {
+      background: #16213e;
+      border: 1px solid #1e3a5f;
+      border-radius: 12px;
+      padding: 28px 32px;
+      margin-bottom: 48px;
+      position: relative;
+      overflow: hidden;
+    }
+    .latest-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #7c3aed, #a78bfa);
+    }
+    .latest-card .date-badge {
+      display: inline-block;
+      background: rgba(124, 58, 237, 0.15);
+      color: #a78bfa;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 6px;
+      margin-bottom: 12px;
+    }
+    .latest-card h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+    .tldr-items { margin-bottom: 20px; }
+    .tldr-item {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      color: #94a3b8;
+      line-height: 1.5;
+    }
+    .tldr-item .num {
+      color: #7c3aed;
+      font-weight: 700;
+      flex-shrink: 0;
+      width: 18px;
+    }
+    .tldr-item strong { color: #e2e8f0; }
+    .read-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #7c3aed;
+      color: #fff;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background 0.2s;
+    }
+    .read-btn:hover { background: #6d28d9; }
+
+    /* ARCHIVE */
+    .archive-grid {
+      display: grid;
+      gap: 12px;
+    }
+    .archive-item {
+      background: #16213e;
+      border: 1px solid #1e293b;
+      border-radius: 10px;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-decoration: none;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .archive-item:hover {
+      border-color: #7c3aed;
+      background: #1a1f3a;
+    }
+    .archive-item-left { display: flex; align-items: center; gap: 14px; }
+    .archive-icon {
+      width: 36px; height: 36px;
+      background: rgba(124, 58, 237, 0.1);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+    .archive-date {
+      font-size: 14px;
+      font-weight: 600;
+      color: #e2e8f0;
+    }
+    .archive-sub { font-size: 12px; color: #64748b; margin-top: 2px; }
+    .archive-arrow { color: #475569; font-size: 16px; }
+    .archive-item:hover .archive-arrow { color: #a78bfa; }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid #1e1e3a;
+      padding: 24px 32px;
+      text-align: center;
+      font-size: 12px;
+      color: #334155;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-brand">
+    <div class="dot"></div>
+    Claude AI Brief
+  </a>
+  <span class="nav-sub">Daily intelligence for Claude &amp; Anthropic</span>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge">
+    <span>●</span> Updated daily at 8am
+  </div>
+  <h1>Claude AI <span>Daily Brief</span></h1>
+  <p>The morning report on Claude AI news, Anthropic announcements, developer updates, and community buzz.</p>
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num" id="report-count">1</div>
+      <div class="stat-label">Reports Published</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">Daily</div>
+      <div class="stat-label">Update Frequency</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">8am</div>
+      <div class="stat-label">Published Each Day</div>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+
+  <div class="section-label">Latest Report</div>
+  <div class="latest-card">
+    <div class="date-badge">February 28, 2026</div>
+    <h2>Today's Top Stories</h2>
+    <div class="tldr-items">
+      <div class="tldr-item">
+        <span class="num">1.</span>
+        <span><strong>The Anthropic-Pentagon standoff</strong> — Anthropic refused military demands for unrestricted Claude use, got blacklisted from the federal government, and is preparing a legal fight. OpenAI stepped in immediately.</span>
+      </div>
+      <div class="tldr-item">
+        <span class="num">2.</span>
+        <span><strong>Claude Cowork enterprise expansion</strong> — New domain-specific plugins for finance, HR, engineering and design launched. Software stocks dropped up to 16% on the news.</span>
+      </div>
+      <div class="tldr-item">
+        <span class="num">3.</span>
+        <span><strong>Developer ecosystem maturing fast</strong> — Apple Xcode now supports the Claude Agent SDK, MCP in public beta, Go/Ruby SDKs now GA.</span>
+      </div>
+    </div>
+    <a href="reports/claude-ai-daily-2026-02-28.html" class="read-btn">
+      Read Full Report →
+    </a>
+  </div>
+
+  <div class="section-label">Archive</div>
+  <div class="archive-grid">
+    <a href="reports/claude-ai-daily-2026-02-28.html" class="archive-item">
+      <div class="archive-item-left">
+        <div class="archive-icon">📋</div>
+        <div>
+          <div class="archive-date">February 28, 2026</div>
+          <div class="archive-sub">Pentagon ban · Cowork expansion · Apple Xcode SDK</div>
+        </div>
+      </div>
+      <span class="archive-arrow">→</span>
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  Claude AI Brief &nbsp;·&nbsp; Generated automatically each morning &nbsp;·&nbsp; Not affiliated with Anthropic
+</footer>
+
+</body>
+</html>
