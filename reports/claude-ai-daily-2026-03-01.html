@@ -18,6 +18,7 @@
     .hero-badge { display: inline-flex; align-items: center; gap: 6px; background: rgba(167,139,250,0.1); border: 1px solid rgba(167,139,250,0.3); color: #a78bfa; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; padding: 5px 12px; border-radius: 100px; margin-bottom: 16px; }
     .hero h1 { font-size: 32px; font-weight: 800; color: #fff; margin-bottom: 8px; letter-spacing: -0.5px; }
     .hero h1 span { color: #a78bfa; }
+    .hero h1 .brand { color: #D97757; }
     .hero-sub { font-size: 14px; color: #64748b; }
     .tldr-banner { background: #16213e; border-bottom: 1px solid #1e3a5f; padding: 24px 32px; position: relative; }
     .tldr-banner::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #7c3aed, #a78bfa); }
@@ -48,14 +49,14 @@
 <body>
 
 <nav>
-  <a href="../index.html" class="nav-brand"><div class="dot"></div>Claude AI Brief</a>
+  <a href="../index.html" class="nav-brand"><div class="dot"></div><span style="color:#D97757">Claude AI</span>&nbsp;Brief</a>
   <a href="../index.html" class="nav-back">← Back to Home</a>
 </nav>
 
 <div class="hero">
   <div class="hero-inner">
     <div class="hero-badge">📋 Daily Report</div>
-    <h1>Claude AI Brief — <span>March 1, 2026</span></h1>
+    <h1><span class="brand">Claude AI</span> Brief — <span>March 1, 2026</span></h1>
     <div class="hero-sub">Covering the last 24 hours · Generated automatically at 8am</div>
   </div>
 </div>
