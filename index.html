@@ -96,7 +96,7 @@
     .main {
       max-width: 860px;
       margin: 0 auto;
-      padding: 48px 32px;
+      padding: 48px 32px 64px;
     }
 
     /* LATEST REPORT */
@@ -171,44 +171,84 @@
     }
     .read-btn:hover { background: #6d28d9; }
 
-    /* ARCHIVE */
-    .archive-grid {
-      display: grid;
-      gap: 12px;
+    /* ARCHIVE — month-grouped */
+    .archive-section { margin-bottom: 32px; }
+
+    .month-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      user-select: none;
     }
+    .month-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #7c3aed;
+    }
+    .month-count {
+      font-size: 11px;
+      color: #475569;
+      background: rgba(124,58,237,0.08);
+      padding: 2px 8px;
+      border-radius: 20px;
+    }
+    .month-toggle {
+      margin-left: auto;
+      font-size: 11px;
+      color: #475569;
+      transition: transform 0.2s;
+    }
+    .month-header:hover .month-label { color: #a78bfa; }
+    .month-header:hover .month-toggle { color: #a78bfa; }
+
+    .month-rows { display: grid; gap: 8px; }
+    .month-rows.collapsed { display: none; }
+
     .archive-item {
       background: #16213e;
       border: 1px solid #1e293b;
       border-radius: 10px;
-      padding: 16px 20px;
+      padding: 14px 18px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       text-decoration: none;
-      transition: border-color 0.2s, background 0.2s;
+      transition: border-color 0.15s, background 0.15s;
     }
     .archive-item:hover {
       border-color: #7c3aed;
       background: #1a1f3a;
     }
     .archive-item-left { display: flex; align-items: center; gap: 14px; }
-    .archive-icon {
-      width: 36px; height: 36px;
-      background: rgba(124, 58, 237, 0.1);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 16px;
+    .archive-day {
+      font-size: 12px;
+      font-weight: 700;
+      color: #94a3b8;
+      width: 28px;
+      flex-shrink: 0;
+      text-align: center;
+    }
+    .archive-divider {
+      width: 1px;
+      height: 28px;
+      background: #1e293b;
       flex-shrink: 0;
     }
+    .archive-text { min-width: 0; }
     .archive-date {
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 600;
       color: #e2e8f0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
-    .archive-sub { font-size: 12px; color: #64748b; margin-top: 2px; }
-    .archive-arrow { color: #475569; font-size: 16px; }
+    .archive-sub { font-size: 12px; color: #64748b; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .archive-arrow { color: #475569; font-size: 14px; flex-shrink: 0; margin-left: 12px; }
     .archive-item:hover .archive-arrow { color: #a78bfa; }
 
     /* FOOTER */
@@ -279,27 +319,49 @@
   </div>
 
   <div class="section-label">Archive</div>
-  <div class="archive-grid">
-    <a href="reports/claude-ai-daily-2026-03-01.html" class="archive-item">
-      <div class="archive-item-left">
-        <div class="archive-icon">📋</div>
-        <div>
-          <div class="archive-date">March 1, 2026</div>
-          <div class="archive-sub">Claude #1 App Store · Iran strike despite ban · Haiku 3 retirement</div>
+
+  <!-- MARCH 2026 -->
+  <div class="archive-section">
+    <div class="month-header" onclick="toggleMonth('mar-2026')">
+      <span class="month-label">March 2026</span>
+      <span class="month-count" id="mar-2026-count">1 report</span>
+      <span class="month-toggle" id="mar-2026-toggle">▲</span>
+    </div>
+    <div class="month-rows" id="mar-2026">
+      <a href="reports/claude-ai-daily-2026-03-01.html" class="archive-item">
+        <div class="archive-item-left">
+          <div class="archive-day">1</div>
+          <div class="archive-divider"></div>
+          <div class="archive-text">
+            <div class="archive-date">March 1, 2026</div>
+            <div class="archive-sub">Claude #1 App Store · Iran strike despite ban · Haiku 3 retirement</div>
+          </div>
         </div>
-      </div>
-      <span class="archive-arrow">→</span>
-    </a>
-    <a href="reports/claude-ai-daily-2026-02-28.html" class="archive-item">
-      <div class="archive-item-left">
-        <div class="archive-icon">📋</div>
-        <div>
-          <div class="archive-date">February 28, 2026</div>
-          <div class="archive-sub">Pentagon ban · Cowork expansion · Apple Xcode SDK</div>
+        <span class="archive-arrow">→</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- FEBRUARY 2026 -->
+  <div class="archive-section">
+    <div class="month-header" onclick="toggleMonth('feb-2026')">
+      <span class="month-label">February 2026</span>
+      <span class="month-count" id="feb-2026-count">1 report</span>
+      <span class="month-toggle" id="feb-2026-toggle">▲</span>
+    </div>
+    <div class="month-rows" id="feb-2026">
+      <a href="reports/claude-ai-daily-2026-02-28.html" class="archive-item">
+        <div class="archive-item-left">
+          <div class="archive-day">28</div>
+          <div class="archive-divider"></div>
+          <div class="archive-text">
+            <div class="archive-date">February 28, 2026</div>
+            <div class="archive-sub">Pentagon ban · Cowork expansion · Apple Xcode SDK</div>
+          </div>
         </div>
-      </div>
-      <span class="archive-arrow">→</span>
-    </a>
+        <span class="archive-arrow">→</span>
+      </a>
+    </div>
   </div>
 
 </div>
@@ -307,6 +369,16 @@
 <footer>
   Claude AI Brief &nbsp;·&nbsp; Generated automatically each morning &nbsp;·&nbsp; Not affiliated with Anthropic
 </footer>
+
+<script>
+  function toggleMonth(id) {
+    const rows = document.getElementById(id);
+    const toggle = document.getElementById(id + '-toggle');
+    const isCollapsed = rows.classList.contains('collapsed');
+    rows.classList.toggle('collapsed');
+    toggle.textContent = isCollapsed ? '▲' : '▼';
+  }
+</script>
 
 </body>
 </html>
