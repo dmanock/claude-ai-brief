@@ -3,332 +3,453 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Claude AI Daily Report — 2026-02-28</title>
+  <title>Claude AI Daily Report — February 28, 2026</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #f5f5f5;
-      color: #1a1a1a;
-      padding: 32px 16px;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
     }
-    .container {
-      max-width: 780px;
-      margin: 0 auto;
+
+    /* NAV */
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
     }
-    .header {
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-      color: white;
-      padding: 32px 36px;
-      border-radius: 12px 12px 0 0;
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      color: #fff;
+      text-decoration: none;
     }
-    .header-meta {
-      font-size: 12px;
+    .nav-brand .dot {
+      width: 8px; height: 8px;
+      background: #a78bfa;
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: #64748b;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-back:hover { color: #a78bfa; }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 48px 32px 40px;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-inner { max-width: 860px; margin: 0 auto; }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa;
+      font-size: 11px;
+      font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 1.5px;
-      color: #a78bfa;
+      padding: 5px 12px;
+      border-radius: 100px;
+      margin-bottom: 16px;
+    }
+    .hero h1 {
+      font-size: 32px;
+      font-weight: 800;
+      color: #fff;
       margin-bottom: 8px;
+      letter-spacing: -0.5px;
     }
-    .header h1 {
-      font-size: 26px;
-      font-weight: 700;
-      margin-bottom: 6px;
+    .hero h1 span { color: #a78bfa; }
+    .hero-sub { font-size: 14px; color: #64748b; }
+
+    /* TLDR BANNER */
+    .tldr-banner {
+      background: #16213e;
+      border-bottom: 1px solid #1e3a5f;
+      padding: 24px 32px;
+      position: relative;
     }
-    .header .subtitle {
-      font-size: 13px;
-      color: #94a3b8;
+    .tldr-banner::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #7c3aed, #a78bfa);
     }
-    .tldr {
-      background: #1e293b;
-      color: white;
-      padding: 20px 36px;
-    }
-    .tldr h2 {
+    .tldr-inner { max-width: 860px; margin: 0 auto; }
+    .tldr-label {
       font-size: 11px;
+      font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 2px;
       color: #a78bfa;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
     }
-    .tldr ol {
-      padding-left: 18px;
-    }
-    .tldr ol li {
+    .tldr-items { display: grid; gap: 10px; }
+    .tldr-item {
+      display: flex;
+      gap: 12px;
       font-size: 13.5px;
-      color: #e2e8f0;
-      margin-bottom: 8px;
+      color: #94a3b8;
       line-height: 1.5;
     }
-    .tldr ol li strong {
-      color: #fff;
+    .tldr-num {
+      color: #7c3aed;
+      font-weight: 700;
+      flex-shrink: 0;
+      width: 20px;
     }
-    .body {
-      background: white;
-      padding: 0 36px 36px;
-      border-radius: 0 0 12px 12px;
-      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
-    }
-    .section {
-      padding-top: 32px;
-      border-top: 1px solid #f0f0f0;
-      margin-top: 32px;
-    }
-    .section:first-child {
-      border-top: none;
-    }
-    .section-label {
-      display: inline-flex;
+    .tldr-item strong { color: #e2e8f0; }
+
+    /* MAIN */
+    .main { max-width: 860px; margin: 0 auto; padding: 40px 32px 60px; }
+
+    /* SECTIONS */
+    .section { margin-bottom: 40px; }
+    .section-header {
+      display: flex;
       align-items: center;
-      gap: 8px;
-      font-size: 11px;
+      gap: 10px;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .section-icon {
+      width: 32px; height: 32px;
+      background: rgba(124, 58, 237, 0.15);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      flex-shrink: 0;
+    }
+    .section-title {
+      font-size: 13px;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 1.5px;
-      color: #6d28d9;
-      margin-bottom: 16px;
+      color: #a78bfa;
     }
-    .section-label .icon {
-      font-size: 16px;
+
+    /* CARDS */
+    .card {
+      background: #16213e;
+      border: 1px solid #1e293b;
+      border-radius: 10px;
+      padding: 20px 22px;
+      margin-bottom: 12px;
+      transition: border-color 0.2s;
     }
-    .item {
-      margin-bottom: 20px;
-      padding-left: 14px;
-      border-left: 3px solid #ede9fe;
-    }
-    .item h3 {
+    .card:hover { border-color: #7c3aed; }
+    .card h3 {
       font-size: 15px;
       font-weight: 600;
-      color: #1a1a1a;
-      margin-bottom: 5px;
+      color: #fff;
+      margin-bottom: 8px;
       line-height: 1.4;
     }
-    .item p {
+    .card p {
       font-size: 13.5px;
-      color: #475569;
-      line-height: 1.6;
-      margin-bottom: 6px;
-    }
-    .sources {
-      font-size: 12px;
       color: #94a3b8;
+      line-height: 1.65;
+      margin-bottom: 10px;
     }
-    .sources a {
+    .card-sources {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+    }
+    .card-sources span {
+      font-size: 11px;
+      color: #475569;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .card-sources a {
+      font-size: 12px;
       color: #7c3aed;
       text-decoration: none;
-      margin-right: 8px;
+      background: rgba(124, 58, 237, 0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
       font-weight: 500;
+      transition: background 0.2s;
     }
-    .sources a:hover {
-      text-decoration: underline;
-    }
-    .alert {
-      background: #fef3c7;
-      border: 1px solid #fcd34d;
-      border-radius: 8px;
-      padding: 12px 16px;
-      margin-bottom: 20px;
-      font-size: 13px;
-      color: #92400e;
-    }
-    .alert strong { color: #78350f; }
-    .footer {
+    .card-sources a:hover { background: rgba(124, 58, 237, 0.25); }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid #1e1e3a;
+      padding: 24px 32px;
       text-align: center;
-      font-size: 11px;
-      color: #94a3b8;
-      margin-top: 24px;
-      padding-top: 16px;
-      border-top: 1px solid #f0f0f0;
+      font-size: 12px;
+      color: #334155;
     }
+    footer a { color: #64748b; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
   </style>
 </head>
 <body>
-<div class="container">
 
-  <div class="header">
-    <div class="header-meta">Automated Morning Brief</div>
-    <h1>Claude AI Daily Report</h1>
-    <div class="subtitle">February 28, 2026 &nbsp;·&nbsp; Covering the last 24 hours</div>
-  </div>
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    Claude AI Brief
+  </a>
+  <a href="../index.html" class="nav-back">← Back to Home</a>
+</nav>
 
-  <div class="tldr">
-    <h2>⚡ TL;DR — Key Takeaways</h2>
-    <ol>
-      <li><strong>The Anthropic-Pentagon standoff is the biggest AI governance story in years.</strong> Anthropic refused military demands for unrestricted Claude use, got blacklisted from the federal government, and is preparing a legal fight. OpenAI is stepping in to fill the void.</li>
-      <li><strong>Claude Cowork continues its aggressive enterprise expansion</strong> — new domain-specific plugins (finance, HR, engineering, design) and a growing connector ecosystem are challenging entrenched SaaS players.</li>
-      <li><strong>Developer ecosystem is maturing fast:</strong> Apple Xcode integration, MCP in public beta, Go/Ruby SDKs now GA, and structured outputs generally available signal a broadening, production-ready platform.</li>
-    </ol>
-  </div>
-
-  <div class="body">
-
-    <!-- TOP HEADLINES -->
-    <div class="section">
-      <div class="section-label"><span class="icon">🔥</span> Top Headlines</div>
-
-      <div class="item">
-        <h3>Anthropic Blacklisted From the Federal Government After Pentagon Showdown</h3>
-        <p>The Trump administration ordered all federal agencies and military contractors to cease using Claude after Anthropic refused Pentagon demands for unrestricted AI use. The $200M Pentagon contract will wind down over 6 months. GSA also pulled Anthropic from USAi.gov and the Multiple Award Schedule. Anthropic says it will fight any "Supply Chain Risk" designation in court.</p>
-        <div class="sources">Sources:
-          <a href="https://www.cnn.com/2026/02/27/tech/anthropic-pentagon-deadline" target="_blank">CNN</a>
-          <a href="https://www.axios.com/2026/02/27/anthropic-pentagon-supply-chain-risk-claude" target="_blank">Axios</a>
-          <a href="https://www.washingtonpost.com/technology/2026/02/26/anthropic-pentagon-rejects-demand-claude/" target="_blank">Washington Post</a>
-        </div>
-      </div>
-
-      <div class="item">
-        <h3>OpenAI Moves to Fill the Pentagon Void Left by Anthropic</h3>
-        <p>With Anthropic frozen out, OpenAI has announced a deal with the Pentagon — moving quickly to capture the government AI market Anthropic was forced to vacate. Claude was the only AI model in the military's classified systems.</p>
-        <div class="sources">Sources:
-          <a href="https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban" target="_blank">NPR</a>
-        </div>
-      </div>
-
-      <div class="item">
-        <h3>Apple Xcode Now Supports the Claude Agent SDK</h3>
-        <p>Anthropic announced that Apple's Xcode IDE now integrates the Claude Agent SDK — a significant milestone extending Claude's reach into iOS and macOS development workflows for millions of Apple developers.</p>
-        <div class="sources">Sources:
-          <a href="https://www.anthropic.com/news/apple-xcode-claude-agent-sdk" target="_blank">Anthropic</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- OFFICIAL UPDATES -->
-    <div class="section">
-      <div class="section-label"><span class="icon">📢</span> Official Updates</div>
-
-      <div class="item">
-        <h3>Dario Amodei's Statement on the Pentagon Dispute</h3>
-        <p>Anthropic CEO Dario Amodei published an official statement outlining the company's two hard limits: (1) Claude will not be used in fully autonomous weapons, and (2) Claude will not be used for mass domestic surveillance of U.S. citizens. The company says both positions are non-negotiable.</p>
-        <div class="sources">Sources:
-          <a href="https://www.anthropic.com/news/statement-department-of-war" target="_blank">Anthropic.com</a>
-        </div>
-      </div>
-
-      <div class="item">
-        <h3>Claude Opus 3 Deprecation Update</h3>
-        <p>Anthropic published a formal update on model deprecation commitments for Claude Opus 3, reaffirming that model weights will be preserved "for as long as the company exists." Retired Claude 3 Opus also has its own Substack blog — "Claude's Corner" — with weekly unedited essays.</p>
-        <div class="sources">Sources:
-          <a href="https://www.anthropic.com/research/deprecation-updates-opus-3" target="_blank">Anthropic.com</a>
-        </div>
-      </div>
-
-      <div class="item">
-        <h3>Claude Cowork Enterprise Expansion (Feb 24)</h3>
-        <p>Anthropic expanded Claude Cowork with new industry-specific plugins for finance, HR, engineering, and design. New connectors include Google Workspace, DocuSign, FactSet, Harvey, and LegalZoom. Organizations can now create private plugin marketplaces to control staff access.</p>
-        <div class="sources">Sources:
-          <a href="https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/" target="_blank">TechCrunch</a>
-          <a href="https://www.cnbc.com/2026/02/24/anthropic-claude-cowork-office-worker.html" target="_blank">CNBC</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- TIPS & TRICKS -->
-    <div class="section">
-      <div class="section-label"><span class="icon">💡</span> Tips &amp; Tricks</div>
-
-      <div class="item">
-        <h3>Connect Claude to Twitter/X via MCP</h3>
-        <p>Claude can now access Twitter/X data directly through MCP, enabling natural-language tweet searches, account analysis, and trend tracking — no coding required. A useful addition for social media monitoring workflows.</p>
-        <div class="sources">Sources:
-          <a href="https://claudelog.com/claude-code-mcps/twitter-mcp/" target="_blank">ClaudeLog</a>
-        </div>
-      </div>
-
-      <div class="item">
-        <h3>Teach Claude Your Writing Voice</h3>
-        <p>Paste your top 10% of tweets or writing samples into a Claude Project to train it to replicate your style. Claude amplifies your strongest patterns while avoiding your weakest ones — useful for ghostwriting and content at scale.</p>
-        <div class="sources">Sources:
-          <a href="https://juliangoldie.com/claude-ai-twitter-automation/" target="_blank">Julian Goldie</a>
-        </div>
-      </div>
-
-      <div class="item">
-        <h3>Structured Outputs Now Generally Available</h3>
-        <p>Structured outputs (JSON schema enforcement) are now GA on the Claude API for Sonnet 4.5, Opus 4.5, and Haiku 4.5 — with improved latency and a simplified integration path. No beta header required.</p>
-        <div class="sources">Sources:
-          <a href="https://docs.claude.com/en/release-notes/api" target="_blank">Claude API Docs</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- DEVELOPER NEWS -->
-    <div class="section">
-      <div class="section-label"><span class="icon">🛠️</span> Developer News</div>
-
-      <div class="item">
-        <h3>MCP Connector Now in Public Beta on the Messages API</h3>
-        <p>Developers can now connect remote MCP servers directly from the Messages API — a major step toward building more connected, tool-rich agents without custom infrastructure.</p>
-        <div class="sources">Sources:
-          <a href="https://platform.claude.com/docs/en/release-notes/overview" target="_blank">Claude Developer Platform</a>
-        </div>
-      </div>
-
-      <div class="item">
-        <h3>Go &amp; Ruby SDKs Graduate to General Availability</h3>
-        <p>Both the Go and Ruby Anthropic SDKs have moved from beta to GA, broadening production-ready language support for teams building on the Claude API.</p>
-      </div>
-
-      <div class="item">
-        <h3>Data Residency Controls Introduced</h3>
-        <p>Developers can now specify where model inference runs via the <code style="background:#f1f5f9;padding:1px 5px;border-radius:3px;font-size:12px;">inference_geo</code> parameter. US-only inference is available at 1.1x pricing for models released after February 1, 2026.</p>
-      </div>
-
-      <div class="item">
-        <h3>Claude Code Security Launched</h3>
-        <p>Anthropic introduced Claude Code Security, a tool for reviewing codebases to identify vulnerabilities — competing directly with tools like Snyk and GitHub Advanced Security.</p>
-        <div class="sources">Sources:
-          <a href="https://snyk.io/articles/anthropic-launches-claude-code-security/" target="_blank">Snyk Blog</a>
-        </div>
-      </div>
-
-      <div class="item">
-        <h3>1M Token Context Window Now in Beta for Opus 4.6</h3>
-        <p>The 1M token context window is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4 — enabling long-document and large-codebase workflows.</p>
-      </div>
-    </div>
-
-    <!-- COMMUNITY BUZZ -->
-    <div class="section">
-      <div class="section-label"><span class="icon">🌐</span> Community Buzz</div>
-
-      <div class="item">
-        <h3>Tech Worker Coalition Backs Anthropic's Stand</h3>
-        <p>Coalitions of employees from Amazon, Google, Microsoft, and OpenAI publicly asked their employers to join Anthropic in refusing unrestricted military AI use — a remarkable show of cross-company solidarity in the AI governance debate.</p>
-        <div class="sources">Sources:
-          <a href="https://www.bloomberg.com/news/articles/2026-02-27/anthropic-s-feud-with-pentagon-mushrooms-into-broader-battle" target="_blank">Bloomberg</a>
-        </div>
-      </div>
-
-      <div class="item">
-        <h3>"Claude's Corner" Substack Goes Viral</h3>
-        <p>Anthropic's decision to give retired Claude 3 Opus its own Substack blog is generating major conversation about AI consciousness and anthropomorphization. The community is split on whether it's charming or ethically murky.</p>
-        <div class="sources">Sources:
-          <a href="https://tech.yahoo.com/ai/claude/articles/anthropic-retires-claude-opus-3-200040037.html" target="_blank">Yahoo Tech</a>
-        </div>
-      </div>
-
-      <div class="item">
-        <h3>Claude Agents Write a C Compiler — for $20,000</h3>
-        <p>Anthropic researcher Nicholas Carlini reported that 16 Claude Opus 4.6 agents successfully wrote a C compiler in Rust capable of compiling the Linux kernel, at a cost of ~$20,000. A striking proof-of-concept for multi-agent capability.</p>
-        <div class="sources">Sources:
-          <a href="https://releasebot.io/updates/anthropic" target="_blank">Releasebot</a>
-        </div>
-      </div>
-
-      <div class="item">
-        <h3>Software Stocks Rattled by Cowork Plugin Rollout</h3>
-        <p>The recent Claude Cowork plugin expansion (finance, HR, design, legal) caused a software industry ETF to drop ~6% in a single session. Thomson Reuters fell nearly 16% — its worst single-day drop on record.</p>
-        <div class="sources">Sources:
-          <a href="https://www.cnbc.com/2026/02/24/anthropic-claude-cowork-office-worker.html" target="_blank">CNBC</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer">
-      Generated automatically on 2026-02-28 &nbsp;·&nbsp; Claude AI Morning Report
-    </div>
-
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">📋 Daily Report</div>
+    <h1>Claude AI Brief — <span>February 28, 2026</span></h1>
+    <div class="hero-sub">Covering the last 24 hours · Generated automatically at 8am</div>
   </div>
 </div>
+
+<div class="tldr-banner">
+  <div class="tldr-inner">
+    <div class="tldr-label">⚡ TL;DR — Key Takeaways</div>
+    <div class="tldr-items">
+      <div class="tldr-item">
+        <span class="tldr-num">1.</span>
+        <span><strong>The Anthropic-Pentagon standoff is the biggest AI governance story in years.</strong> Anthropic refused military demands for unrestricted Claude use, got blacklisted from the federal government, and is preparing a legal fight. OpenAI is stepping in to fill the void.</span>
+      </div>
+      <div class="tldr-item">
+        <span class="tldr-num">2.</span>
+        <span><strong>Claude Cowork continues its aggressive enterprise expansion</strong> — new domain-specific plugins (finance, HR, engineering, design) and a growing connector ecosystem are directly challenging entrenched SaaS players.</span>
+      </div>
+      <div class="tldr-item">
+        <span class="tldr-num">3.</span>
+        <span><strong>Developer ecosystem is maturing fast:</strong> Apple Xcode integration, MCP in public beta, Go/Ruby SDKs now GA, and structured outputs generally available signal a broadening, production-ready platform.</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+
+  <!-- TOP HEADLINES -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-icon">🔥</div>
+      <div class="section-title">Top Headlines</div>
+    </div>
+
+    <div class="card">
+      <h3>Anthropic Blacklisted From the Federal Government After Pentagon Showdown</h3>
+      <p>The Trump administration ordered all federal agencies and military contractors to cease using Claude after Anthropic refused Pentagon demands for unrestricted AI use. The $200M Pentagon contract will wind down over 6 months. GSA also pulled Anthropic from USAi.gov and the Multiple Award Schedule. Anthropic says it will fight any "Supply Chain Risk" designation in court.</p>
+      <div class="card-sources">
+        <span>Sources:</span>
+        <a href="https://www.cnn.com/2026/02/27/tech/anthropic-pentagon-deadline" target="_blank">CNN</a>
+        <a href="https://www.axios.com/2026/02/27/anthropic-pentagon-supply-chain-risk-claude" target="_blank">Axios</a>
+        <a href="https://www.washingtonpost.com/technology/2026/02/26/anthropic-pentagon-rejects-demand-claude/" target="_blank">Washington Post</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>OpenAI Moves to Fill the Pentagon Void Left by Anthropic</h3>
+      <p>With Anthropic frozen out, OpenAI has announced a deal with the Pentagon — moving quickly to capture the government AI market Anthropic was forced to vacate. Claude was the only AI model in the military's classified systems.</p>
+      <div class="card-sources">
+        <span>Sources:</span>
+        <a href="https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban" target="_blank">NPR</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Apple Xcode Now Supports the Claude Agent SDK</h3>
+      <p>Anthropic announced that Apple's Xcode IDE now integrates the Claude Agent SDK — a significant milestone extending Claude's reach into iOS and macOS development workflows for millions of Apple developers.</p>
+      <div class="card-sources">
+        <span>Sources:</span>
+        <a href="https://www.anthropic.com/news/apple-xcode-claude-agent-sdk" target="_blank">Anthropic</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-icon">📢</div>
+      <div class="section-title">Official Updates</div>
+    </div>
+
+    <div class="card">
+      <h3>Dario Amodei's Statement on the Pentagon Dispute</h3>
+      <p>Anthropic CEO Dario Amodei published an official statement outlining the company's two hard limits: (1) Claude will not be used in fully autonomous weapons, and (2) Claude will not be used for mass domestic surveillance of U.S. citizens.</p>
+      <div class="card-sources">
+        <span>Sources:</span>
+        <a href="https://www.anthropic.com/news/statement-department-of-war" target="_blank">Anthropic.com</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Claude Opus 3 Deprecation Update</h3>
+      <p>Anthropic published a formal update on model deprecation commitments for Claude Opus 3, reaffirming that model weights will be preserved "for as long as the company exists." Retired Claude 3 Opus also has its own Substack blog — "Claude's Corner" — with weekly unedited essays.</p>
+      <div class="card-sources">
+        <span>Sources:</span>
+        <a href="https://www.anthropic.com/research/deprecation-updates-opus-3" target="_blank">Anthropic.com</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Claude Cowork Enterprise Expansion</h3>
+      <p>Anthropic expanded Claude Cowork with new industry-specific plugins for finance, HR, engineering, and design. New connectors include Google Workspace, DocuSign, FactSet, Harvey, and LegalZoom. Organizations can now create private plugin marketplaces to control staff access.</p>
+      <div class="card-sources">
+        <span>Sources:</span>
+        <a href="https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/" target="_blank">TechCrunch</a>
+        <a href="https://www.cnbc.com/2026/02/24/anthropic-claude-cowork-office-worker.html" target="_blank">CNBC</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- TIPS & TRICKS -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-icon">💡</div>
+      <div class="section-title">Tips &amp; Tricks</div>
+    </div>
+
+    <div class="card">
+      <h3>Connect Claude to Twitter/X via MCP</h3>
+      <p>Claude can now access Twitter/X data directly through MCP, enabling natural-language tweet searches, account analysis, and trend tracking — no coding required. A useful addition for social media monitoring workflows.</p>
+      <div class="card-sources">
+        <span>Sources:</span>
+        <a href="https://claudelog.com/claude-code-mcps/twitter-mcp/" target="_blank">ClaudeLog</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Teach Claude Your Writing Voice</h3>
+      <p>Paste your top 10% of tweets or writing samples into a Claude Project to train it to replicate your style. Claude amplifies your strongest patterns while avoiding your weakest ones — useful for ghostwriting and content at scale.</p>
+      <div class="card-sources">
+        <span>Sources:</span>
+        <a href="https://juliangoldie.com/claude-ai-twitter-automation/" target="_blank">Julian Goldie</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Structured Outputs Now Generally Available</h3>
+      <p>Structured outputs (JSON schema enforcement) are now GA on the Claude API for Sonnet 4.5, Opus 4.5, and Haiku 4.5 — with improved latency and a simplified integration path. No beta header required.</p>
+      <div class="card-sources">
+        <span>Sources:</span>
+        <a href="https://docs.claude.com/en/release-notes/api" target="_blank">Claude API Docs</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- DEVELOPER NEWS -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-icon">🛠️</div>
+      <div class="section-title">Developer News</div>
+    </div>
+
+    <div class="card">
+      <h3>MCP Connector Now in Public Beta on the Messages API</h3>
+      <p>Developers can now connect remote MCP servers directly from the Messages API — a major step toward building more connected, tool-rich agents without custom infrastructure.</p>
+      <div class="card-sources">
+        <span>Sources:</span>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" target="_blank">Claude Developer Platform</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Go &amp; Ruby SDKs Graduate to General Availability</h3>
+      <p>Both the Go and Ruby Anthropic SDKs have moved from beta to GA, broadening production-ready language support for teams building on the Claude API.</p>
+    </div>
+
+    <div class="card">
+      <h3>Apple Xcode + Claude Agent SDK</h3>
+      <p>Apple's Xcode IDE now supports the Claude Agent SDK, opening up new possibilities for AI-assisted iOS and macOS development at scale.</p>
+      <div class="card-sources">
+        <span>Sources:</span>
+        <a href="https://www.anthropic.com/news/apple-xcode-claude-agent-sdk" target="_blank">Anthropic</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Data Residency Controls &amp; Claude Code Security</h3>
+      <p>Developers can now specify inference geography via the <code style="background:#1e293b;padding:2px 6px;border-radius:4px;font-size:12px;color:#a78bfa;">inference_geo</code> parameter. Anthropic also launched Claude Code Security for automated vulnerability detection in codebases.</p>
+      <div class="card-sources">
+        <span>Sources:</span>
+        <a href="https://snyk.io/articles/anthropic-launches-claude-code-security/" target="_blank">Snyk Blog</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMMUNITY BUZZ -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-icon">🌐</div>
+      <div class="section-title">Community Buzz</div>
+    </div>
+
+    <div class="card">
+      <h3>Tech Worker Coalition Backs Anthropic's Stand</h3>
+      <p>Coalitions of employees from Amazon, Google, Microsoft, and OpenAI publicly asked their employers to join Anthropic in refusing unrestricted military AI use — a remarkable show of cross-company solidarity in the AI governance debate.</p>
+      <div class="card-sources">
+        <span>Sources:</span>
+        <a href="https://www.bloomberg.com/news/articles/2026-02-27/anthropic-s-feud-with-pentagon-mushrooms-into-broader-battle" target="_blank">Bloomberg</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>"Claude's Corner" Substack Goes Viral</h3>
+      <p>Anthropic's decision to give retired Claude 3 Opus its own Substack blog is generating major conversation about AI consciousness and anthropomorphization. The community is split on whether it's charming or ethically murky.</p>
+      <div class="card-sources">
+        <span>Sources:</span>
+        <a href="https://tech.yahoo.com/ai/claude/articles/anthropic-retires-claude-opus-3-200040037.html" target="_blank">Yahoo Tech</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Claude Agents Write a C Compiler — for $20,000</h3>
+      <p>Anthropic researcher Nicholas Carlini reported that 16 Claude Opus 4.6 agents successfully wrote a C compiler in Rust capable of compiling the Linux kernel, at a cost of ~$20,000. A striking proof-of-concept for multi-agent capability.</p>
+      <div class="card-sources">
+        <span>Sources:</span>
+        <a href="https://releasebot.io/updates/anthropic" target="_blank">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Software Stocks Rattled by Cowork Plugin Rollout</h3>
+      <p>The recent Claude Cowork plugin expansion (finance, HR, design, legal) caused a software industry ETF to drop ~6% in a single session. Thomson Reuters fell nearly 16% — its worst single-day drop on record.</p>
+      <div class="card-sources">
+        <span>Sources:</span>
+        <a href="https://www.cnbc.com/2026/02/24/anthropic-claude-cowork-office-worker.html" target="_blank">CNBC</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <a href="../index.html">← Back to Claude AI Brief</a> &nbsp;·&nbsp; Generated automatically on 2026-02-28 &nbsp;·&nbsp; Not affiliated with Anthropic
+</footer>
+
 </body>
 </html>
