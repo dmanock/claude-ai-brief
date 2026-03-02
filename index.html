@@ -256,6 +256,108 @@
     .archive-arrow { color: #475569; font-size: 14px; flex-shrink: 0; margin-left: 12px; }
     .archive-item:hover .archive-arrow { color: #a78bfa; }
 
+    /* SUBSCRIBE SECTION */
+    .subscribe-section {
+      background: linear-gradient(135deg, rgba(124, 58, 237, 0.08) 0%, rgba(217, 119, 87, 0.06) 100%);
+      border: 1px solid rgba(124, 58, 237, 0.2);
+      border-radius: 16px;
+      padding: 36px 32px;
+      margin-bottom: 48px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .subscribe-section::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, #D97757, #7c3aed, #a78bfa);
+    }
+    .subscribe-section h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+    .subscribe-section p {
+      font-size: 14px;
+      color: #94a3b8;
+      margin-bottom: 20px;
+      max-width: 440px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5;
+    }
+    .subscribe-form {
+      display: flex;
+      gap: 10px;
+      max-width: 440px;
+      margin: 0 auto;
+    }
+    .subscribe-form input[type="email"] {
+      flex: 1;
+      padding: 12px 16px;
+      border-radius: 8px;
+      border: 1px solid #1e293b;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      font-size: 14px;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .subscribe-form input[type="email"]:focus {
+      border-color: #7c3aed;
+    }
+    .subscribe-form input[type="email"]::placeholder {
+      color: #475569;
+    }
+    .subscribe-form button {
+      padding: 12px 24px;
+      border-radius: 8px;
+      border: none;
+      background: #D97757;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+    .subscribe-form button:hover {
+      background: #c4684a;
+    }
+    .subscribe-note {
+      font-size: 11px;
+      color: #475569;
+      margin-top: 12px;
+    }
+
+    /* HERO SUBSCRIBE CTA */
+    .hero-cta {
+      margin-top: 20px;
+    }
+    .hero-cta a {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(217, 119, 87, 0.15);
+      border: 1px solid rgba(217, 119, 87, 0.3);
+      color: #D97757;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 8px 18px;
+      border-radius: 100px;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .hero-cta a:hover {
+      background: rgba(217, 119, 87, 0.25);
+      border-color: rgba(217, 119, 87, 0.5);
+    }
+
     /* FOOTER */
     footer {
       border-top: 1px solid #1e1e3a;
@@ -282,6 +384,9 @@
   </div>
   <h1><span>Claude AI</span> Daily Brief</h1>
   <p>The morning report on Claude AI news, Anthropic announcements, developer updates, and community buzz.</p>
+  <div class="hero-cta">
+    <a href="#subscribe">Get it in your inbox every morning →</a>
+  </div>
 </div>
 
 <div class="main">
@@ -307,6 +412,17 @@
     <a href="reports/claude-ai-daily-2026-03-02.html" class="read-btn">
       Read Full Report →
     </a>
+  </div>
+
+  <!-- SUBSCRIBE -->
+  <div class="subscribe-section" id="subscribe">
+    <h2>Get the brief in your inbox</h2>
+    <p>Top Claude AI stories, developer news, and tips delivered every morning. Free, no spam, unsubscribe anytime.</p>
+
+    <script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>
+    <iframe src="https://subscribe-forms.beehiiv.com/68aaa849-a055-4ec6-9ef4-1125dec95fa3" class="beehiiv-embed" data-test-id="beehiiv-embed" frameborder="0" scrolling="no" style="width: 100%; height: 220px; margin: 0; border-radius: 0px; background-color: transparent; box-shadow: 0 0 #0000; max-width: 100%;"></iframe>
+
+    <div class="subscribe-note">Join free — delivered daily at 8am</div>
   </div>
 
   <div class="section-label">Archive</div>

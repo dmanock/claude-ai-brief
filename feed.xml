@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Claude AI Daily Brief</title>
+    <link>https://dmanock.github.io/claude-ai-brief</link>
+    <description>Daily intelligence report on Claude AI news, Anthropic announcements, developer updates, and community buzz.</description>
+    <language>en-us</language>
+    <atom:link href="https://dmanock.github.io/claude-ai-brief/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>Claude AI Daily Brief — March 2, 2026</title>
+      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-02.html</link>
+      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-02.html</guid>
+      <pubDate>Mon, 02 Mar 2026 08:00:00 -0600</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Global Outage</strong> — Anthropic confirmed a worldwide outage hitting claude.ai, the console, and Claude Code starting at 11:49 UTC. Auth infrastructure failed; core API stayed online.</p>
+        <p><strong>2. Pentagon Feud → #1 App Store</strong> — After Trump banned Anthropic products from federal agencies, Claude shot to #1 on Apple's App Store, breaking daily sign-up records every day this week.</p>
+        <p><strong>3. Sonnet 4.6 + Auto Caching Live</strong> — Claude Sonnet 4.6 ships with a 1M-token context window (beta). Automatic prompt caching also launched, simplifying long-context workflows for developers.</p>
+        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-02.html">Read the full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>Claude AI Daily Brief — March 1, 2026</title>
+      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-01.html</link>
+      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-01.html</guid>
+      <pubDate>Sun, 01 Mar 2026 08:00:00 -0600</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Tops App Store</strong> — Users flooded to Claude after the Pentagon ban, pushing it past ChatGPT to #1 on Apple's free apps chart. Daily sign-ups at all-time highs.</p>
+        <p><strong>2. Claude Used in Iran Strike Despite Ban</strong> — The WSJ reports US military commands used Claude for targeting and combat simulation in a strike on Iran, even after Trump ordered the phase-out.</p>
+        <p><strong>3. Haiku 3 End-of-Life Announced</strong> — Claude Haiku 3 retires April 19, 2026. Developers on claude-3-haiku need to migrate to Haiku 4.5 now.</p>
+        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-01.html">Read the full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>Claude AI Daily Brief — February 28, 2026</title>
+      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-02-28.html</link>
+      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-02-28.html</guid>
+      <pubDate>Sat, 28 Feb 2026 08:00:00 -0600</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Pentagon ban</strong> — Trump orders all federal agencies to cease using Anthropic products.</p>
+        <p><strong>2. Cowork expansion</strong> — Cowork mode gets major upgrades in the latest Claude desktop release.</p>
+        <p><strong>3. Apple Xcode SDK</strong> — Apple integrates Claude Agent SDK natively into Xcode.</p>
+        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-02-28.html">Read the full report →</a></p>
+      ]]></description>
+    </item>
+
+  </channel>
+</rss>
