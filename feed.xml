@@ -8,6 +8,19 @@
     <atom:link href="https://dmanock.github.io/claude-ai-brief/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — March 3, 2026</title>
+      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-03.html</link>
+      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-03.html</guid>
+      <pubDate>Tue, 03 Mar 2026 08:00:00 -0600</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Memory Goes Free for All</strong> — Anthropic opened cross-session memory to free users and launched a ChatGPT import tool so new arrivals can carry their conversation history straight into Claude.</p>
+        <p><strong>2. Amodei Holds the Line</strong> — In a CBS News exclusive, Dario Amodei says Anthropic will work with the US military only within ethical red lines. The Pentagon supply-chain designation is heading to court.</p>
+        <p><strong>3. Structured Outputs Hit GA</strong> — JSON schema enforcement exits beta for Claude Sonnet 4.5, Opus 4.5, and Haiku 4.5 — no beta header required, with expanded schema support and faster compilation.</p>
+        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-03.html">Read the full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — March 2, 2026</title>
       <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-02.html</link>
       <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-02.html</guid>
