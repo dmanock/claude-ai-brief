@@ -3,7 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Claude AI Daily Brief</title>
+  <title>Claude AI Daily Brief — Daily News, Updates &amp; Developer Insights</title>
+  <meta name="description" content="Your morning briefing on Claude AI — news, Anthropic announcements, developer updates, and community insights delivered daily at 8am.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude news, AI daily brief, Claude updates, Claude API, Claude developer news, AI newsletter">
+  <meta name="author" content="Claude AI Daily Brief">
+  <link rel="canonical" href="https://dmanock.github.io/claude-ai-brief/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dmanock.github.io/claude-ai-brief/">
+  <meta property="og:title" content="Claude AI Daily Brief — Daily News, Updates &amp; Developer Insights">
+  <meta property="og:description" content="Your morning briefing on Claude AI — news, Anthropic announcements, developer updates, and community insights delivered daily at 8am.">
+  <meta property="og:image" content="https://dmanock.github.io/claude-ai-brief/brand/thumbnail-1200x630.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — Daily News, Updates &amp; Developer Insights">
+  <meta name="twitter:description" content="Your morning briefing on Claude AI — news, Anthropic announcements, developer updates, and community insights delivered daily at 8am.">
+  <meta name="twitter:image" content="https://dmanock.github.io/claude-ai-brief/brand/thumbnail-1200x630.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- RSS Feed -->
+  <link rel="alternate" type="application/rss+xml" title="Claude AI Daily Brief" href="https://dmanock.github.io/claude-ai-brief/feed.xml">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="brand/publication-logo-800x800.png">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Claude AI Daily Brief",
+    "url": "https://dmanock.github.io/claude-ai-brief/",
+    "description": "Your morning briefing on Claude AI — news, Anthropic announcements, developer updates, and community insights delivered daily at 8am.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dmanock.github.io/claude-ai-brief/brand/publication-logo-800x800.png"
+      }
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Claude AI Daily Brief Archive",
+    "description": "Daily intelligence reports covering Claude AI news, Anthropic updates, and developer insights.",
+    "url": "https://dmanock.github.io/claude-ai-brief/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Claude AI Daily Brief",
+      "url": "https://dmanock.github.io/claude-ai-brief/"
+    }
+  }
+  </script>
+
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -378,21 +439,22 @@
   <span class="nav-sub">Daily intelligence for Claude &amp; Anthropic</span>
 </nav>
 
-<div class="hero">
+<header class="hero" role="banner">
   <div class="hero-badge">
     <span>●</span> Updated daily at 8am
   </div>
   <h1><span>Claude AI</span> Daily Brief</h1>
   <p>The morning report on Claude AI news, Anthropic announcements, developer updates, and community buzz.</p>
   <div class="hero-cta">
-    <a href="https://claude-ai-daily-brief.beehiiv.com/" target="_blank">Get it in your inbox every morning →</a>
+    <a href="https://claude-ai-daily-brief.beehiiv.com/" target="_blank" rel="noopener">Get it in your inbox every morning →</a>
   </div>
-</div>
+</header>
 
-<div class="main">
+<main class="main">
 
+  <section aria-label="Latest Report">
   <div class="section-label">Latest Report</div>
-  <div class="latest-card">
+  <article class="latest-card">
     <div class="date-badge">March 3, 2026</div>
     <h2>Today's Top Stories</h2>
     <div class="tldr-items">
@@ -412,18 +474,20 @@
     <a href="reports/claude-ai-daily-2026-03-03.html" class="read-btn">
       Read Full Report →
     </a>
-  </div>
+  </article>
+  </section>
 
   <!-- SUBSCRIBE -->
-  <div class="subscribe-section" id="subscribe">
+  <section class="subscribe-section" id="subscribe" aria-label="Subscribe">
     <h2>Get the brief in your inbox</h2>
     <p>Top Claude AI stories, developer news, and tips delivered every morning. Free, no spam, unsubscribe anytime.</p>
 
-    <a href="https://claude-ai-daily-brief.beehiiv.com/" target="_blank" class="read-btn" style="background:#D97757; margin-top: 4px;">Subscribe Free →</a>
+    <a href="https://claude-ai-daily-brief.beehiiv.com/" target="_blank" rel="noopener" class="read-btn" style="background:#D97757; margin-top: 4px;">Subscribe Free →</a>
 
     <div class="subscribe-note">Delivered daily at 8am — unsubscribe anytime</div>
-  </div>
+  </section>
 
+  <section aria-label="Archive">
   <div class="section-label">Archive</div>
 
   <!-- MONTH PILL NAVIGATION -->
@@ -483,8 +547,9 @@
       <span class="archive-arrow">→</span>
     </a>
   </div>
+  </section>
 
-</div>
+</main>
 
 <footer>
   Claude AI Daily Brief &nbsp;·&nbsp; Generated automatically each morning &nbsp;·&nbsp; Not affiliated with Anthropic
