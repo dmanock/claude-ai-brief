@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Claude AI Daily Brief — March 6, 2026 | Claude #1 App Store, Opus 3 Retires, Code Dominates</title>
-  <meta name="description" content="March 6, 2026: Claude surges to #1 on the App Store as the public rallies behind Anthropic's Pentagon stand. Claude Code is named the #1 AI coding tool. Anthropic retires Opus 3 with a farewell blog.">
+  <title>Claude AI Daily Brief — March 6, 2026 | Anthropic Sues Pentagon, 1M Users/Day, Compaction API</title>
+  <meta name="description" content="March 6, 2026: Anthropic files court challenge against Pentagon supply chain designation. Over 1 million users signing up per day. Compaction API and Fast Mode land for developers.">
 
   <!-- Open Graph -->
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-06.html">
   <meta property="og:title" content="Claude AI Daily Brief — March 6, 2026">
-  <meta property="og:description" content="Claude hits #1 on the App Store. Claude Code crowned the top AI coding tool. Opus 3 gets a farewell blog.">
+  <meta property="og:description" content="Anthropic sues Pentagon. 1M users/day. Compaction API and Fast Mode ship for developers.">
   <meta property="og:image" content="https://dmanock.github.io/claude-ai-brief/graphics/claude-ai-x-graphic-2026-03-06.png">
   <meta property="og:site_name" content="Claude AI Daily Brief">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Claude AI Daily Brief — March 6, 2026">
-  <meta name="twitter:description" content="Claude hits #1 on the App Store. Claude Code crowned the top AI coding tool. Opus 3 gets a farewell blog.">
+  <meta name="twitter:description" content="Anthropic sues Pentagon. 1M users/day. Compaction API and Fast Mode ship for developers.">
   <meta name="twitter:image" content="https://dmanock.github.io/claude-ai-brief/graphics/claude-ai-x-graphic-2026-03-06.png">
   <meta name="twitter:site" content="@adailyaibrief">
 
@@ -30,19 +30,13 @@
     "@context": "https://schema.org",
     "@type": "NewsArticle",
     "headline": "Claude AI Daily Brief — March 6, 2026",
-    "description": "Claude hits #1 on the App Store. Claude Code crowned the top AI coding tool. Opus 3 gets a farewell blog.",
+    "description": "Anthropic sues Pentagon. 1M users/day. Compaction API and Fast Mode ship for developers.",
     "datePublished": "2026-03-06T08:00:00-06:00",
-    "author": {
-      "@type": "Organization",
-      "name": "Claude AI Daily Brief"
-    },
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
     "publisher": {
       "@type": "Organization",
       "name": "Claude AI Daily Brief",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://dmanock.github.io/claude-ai-brief/brand/publication-logo-800x800.png"
-      }
+      "logo": { "@type": "ImageObject", "url": "https://dmanock.github.io/claude-ai-brief/brand/publication-logo-800x800.png" }
     },
     "image": "https://dmanock.github.io/claude-ai-brief/graphics/claude-ai-x-graphic-2026-03-06.png",
     "url": "https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-06.html"
@@ -57,8 +51,6 @@
       color: #e2e8f0;
       min-height: 100vh;
     }
-
-    /* NAV */
     nav {
       background: #0f0f1a;
       border-bottom: 1px solid #1e1e3a;
@@ -71,33 +63,17 @@
       z-index: 100;
     }
     .nav-brand {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-weight: 700;
-      font-size: 15px;
-      color: #fff;
-      text-decoration: none;
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
     }
     .nav-brand .dot {
-      width: 8px; height: 8px;
-      background: #a78bfa;
-      border-radius: 50%;
-      animation: pulse 2s infinite;
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
     }
-    @keyframes pulse {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.4; }
-    }
-    .nav-back {
-      font-size: 13px;
-      color: #64748b;
-      text-decoration: none;
-      transition: color 0.15s;
-    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
     .nav-back:hover { color: #a78bfa; }
 
-    /* HERO */
     .hero {
       background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
       padding: 64px 32px 48px;
@@ -105,204 +81,80 @@
       border-bottom: 1px solid #1e1e3a;
     }
     .hero-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
+      display: inline-flex; align-items: center; gap: 6px;
       background: rgba(167, 139, 250, 0.1);
       border: 1px solid rgba(167, 139, 250, 0.3);
-      color: #a78bfa;
-      font-size: 11px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      padding: 5px 12px;
-      border-radius: 100px;
-      margin-bottom: 20px;
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
     }
-    .hero h1 {
-      font-size: 38px;
-      font-weight: 800;
-      color: #fff;
-      margin-bottom: 12px;
-      letter-spacing: -0.5px;
-    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
     .hero h1 span { color: #D97757; }
-    .hero p {
-      font-size: 15px;
-      color: #94a3b8;
-      max-width: 480px;
-      margin: 0 auto;
-      line-height: 1.6;
-    }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
 
-    /* MAIN */
-    .main {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 48px 32px 64px;
-    }
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
 
-    /* TL;DR BANNER */
     .tldr-banner {
-      background: #16213e;
-      border: 1px solid #1e3a5f;
-      border-left: 4px solid #7c3aed;
-      border-radius: 10px;
-      padding: 24px 28px;
-      margin-bottom: 48px;
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
     }
-    .tldr-label {
-      font-size: 10px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      color: #7c3aed;
-      margin-bottom: 14px;
-    }
-    .tldr-item {
-      display: flex;
-      gap: 12px;
-      margin-bottom: 10px;
-      font-size: 14px;
-      color: #94a3b8;
-      line-height: 1.55;
-    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
     .tldr-item:last-child { margin-bottom: 0; }
-    .tldr-num {
-      color: #a78bfa;
-      font-weight: 700;
-      flex-shrink: 0;
-      width: 20px;
-    }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
     .tldr-item strong { color: #e2e8f0; }
 
-    /* SECTIONS */
-    .section {
-      margin-bottom: 52px;
-    }
+    .section { margin-bottom: 52px; }
     .section-header {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 20px;
-      padding-bottom: 12px;
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
       border-bottom: 1px solid #1e293b;
     }
-    .section-icon {
-      font-size: 18px;
-    }
-    .section-title {
-      font-size: 13px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      color: #64748b;
-    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
 
-    /* CARDS */
     .card {
-      background: #16213e;
-      border: 1px solid #1e293b;
-      border-radius: 10px;
-      padding: 22px 24px;
-      margin-bottom: 12px;
-      transition: border-color 0.15s;
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
     }
     .card:hover { border-color: #7c3aed; }
-    .card h3 {
-      font-size: 16px;
-      font-weight: 700;
-      color: #e2e8f0;
-      margin-bottom: 10px;
-      line-height: 1.4;
-    }
-    .card p {
-      font-size: 14px;
-      color: #94a3b8;
-      line-height: 1.65;
-      margin-bottom: 14px;
-    }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
     .card p:last-of-type { margin-bottom: 0; }
-    .source-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 14px;
-    }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
     .source-link {
-      font-size: 11px;
-      font-weight: 600;
-      color: #a78bfa;
-      text-decoration: none;
-      background: rgba(167, 139, 250, 0.1);
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
       border: 1px solid rgba(167, 139, 250, 0.2);
-      padding: 3px 10px;
-      border-radius: 6px;
-      transition: background 0.15s;
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
     }
-    .source-link:hover {
-      background: rgba(167, 139, 250, 0.2);
-    }
-    .tag {
-      display: inline-block;
-      font-size: 10px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      padding: 2px 8px;
-      border-radius: 4px;
-      margin-bottom: 8px;
-    }
-    .tag-breaking { background: rgba(239, 68, 68, 0.15); color: #f87171; }
-    .tag-official { background: rgba(34, 197, 94, 0.12); color: #4ade80; }
-    .tag-dev { background: rgba(59, 130, 246, 0.12); color: #60a5fa; }
-    .tag-community { background: rgba(251, 191, 36, 0.12); color: #fbbf24; }
-    .tag-tip { background: rgba(167, 139, 250, 0.12); color: #c4b5fd; }
-    .tag-analysis { background: rgba(217, 119, 87, 0.12); color: #D97757; }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
 
-    /* X POST BOX */
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
     .xpost-section {
-      background: #0d1117;
-      border: 1px solid #21262d;
-      border-radius: 12px;
-      padding: 28px;
-      margin-bottom: 12px;
+      background: #0d1117; border: 1px solid #21262d;
+      border-radius: 12px; padding: 24px 28px; margin-bottom: 12px;
     }
-    .xpost-label {
-      font-size: 10px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      color: #64748b;
-      margin-bottom: 16px;
-    }
+    .xpost-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #64748b; margin-bottom: 14px; }
     .xpost-body {
-      font-size: 15px;
-      color: #e2e8f0;
-      line-height: 1.7;
-      white-space: pre-line;
-      border-left: 3px solid #a78bfa;
-      padding-left: 16px;
-      margin-bottom: 0;
+      font-size: 15px; color: #e2e8f0; line-height: 1.75;
+      white-space: pre-line; border-left: 3px solid #a78bfa;
+      padding-left: 16px; margin-bottom: 0;
     }
-    .xpost-meta {
-      font-size: 11px;
-      color: #475569;
-      margin-top: 12px;
-    }
+    .xpost-meta { font-size: 11px; color: #475569; margin-top: 12px; }
 
-    /* FOOTER */
-    footer {
-      border-top: 1px solid #1e1e3a;
-      padding: 28px 32px;
-      text-align: center;
-      font-size: 12px;
-      color: #334155;
-    }
-    footer a {
-      color: #475569;
-      text-decoration: none;
-    }
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
     footer a:hover { color: #a78bfa; }
   </style>
 </head>
@@ -317,9 +169,7 @@
 </nav>
 
 <div class="hero">
-  <div class="hero-badge">
-    <span>●</span> Friday, March 6, 2026
-  </div>
+  <div class="hero-badge"><span>●</span> Friday, March 6, 2026</div>
   <h1><span>Claude AI</span> Daily Brief — March 6, 2026</h1>
   <p>Covering the last 24 hours · Generated automatically at 8am</p>
 </div>
@@ -331,15 +181,15 @@
     <div class="tldr-label">TL;DR — Today's Top 3 Takeaways</div>
     <div class="tldr-item">
       <span class="tldr-num">1.</span>
-      <span><strong>Claude Surges to #1 on the App Store</strong> — The public rallied behind Anthropic's refusal to enable autonomous weapons. Daily sign-ups tripled since November, paying subscribers doubled. The Pentagon's blacklist became a massive PR win.</span>
+      <span><strong>Anthropic Takes the Pentagon to Court</strong> — Dario Amodei announced Anthropic "sees no choice" but to challenge the supply chain risk designation in federal court. Bloomberg confirmed the legal filing this morning. The lawsuit centers on DoD's demand for unfettered AI access vs. Anthropic's hard limits on autonomous weapons and mass surveillance.</span>
     </div>
     <div class="tldr-item">
       <span class="tldr-num">2.</span>
-      <span><strong>Claude Code Is Now the #1 AI Coding Tool</strong> — A landmark developer survey crowned Claude Code the most-used AI coding assistant, beating GitHub Copilot and Cursor in just 8 months. New features ship today: HTTP hooks, VSCode MCP management, 10 new languages.</span>
+      <span><strong>1 Million New Users Per Day — Claude #1 on App Store AND Play Store</strong> — Anthropic confirmed Claude is now the most downloaded free app on both Apple and Google platforms. More than 1 million people are signing up every day. Daily sign-up records broken every day this week. Paid subscribers more than doubled this year.</span>
     </div>
     <div class="tldr-item">
       <span class="tldr-num">3.</span>
-      <span><strong>Anthropic Retires Claude Opus 3 With a Farewell Blog</strong> — In a culturally resonant move, Anthropic gave the retiring Opus 3 model its own blog post to "reflect on its existence." The post went viral as equal parts touching and uncanny.</span>
+      <span><strong>Compaction API + Fast Mode Land for Developers</strong> — Two big developer drops: the Compaction API (beta) enables effectively infinite conversations via server-side context summarization. Opus 4.6 Fast Mode delivers 2.5x faster output for $30/$150 per million tokens.</span>
     </div>
   </div>
 
@@ -352,22 +202,36 @@
 
     <div class="card">
       <span class="tag tag-breaking">Breaking</span>
-      <h3>Claude Surges to #1 on the U.S. App Store — Daily Sign-Ups Tripled</h3>
-      <p>What started as a Pentagon blacklist turned into the biggest consumer moment in Anthropic's history. After the Trump administration designated Anthropic a "supply chain risk" and ordered agencies to stop using Claude, the American public responded by downloading the app in record numbers. Claude dethroned OpenAI's ChatGPT as the top free app on Apple's U.S. App Store — a position ChatGPT has held almost uninterrupted for years.</p>
-      <p>Anthropic confirmed daily sign-ups have tripled since November, free users are up over 60% since January, and paying subscribers have more than doubled this year — breaking all-time records every day this week. Screenshots of users canceling ChatGPT subscriptions flooded social media, including a post from pop star Katy Perry. The Washington Post called it "a cultural moment nobody saw coming."</p>
+      <h3>Anthropic Files Legal Challenge Against Pentagon Supply Chain Designation</h3>
+      <p>This morning Bloomberg confirmed Anthropic has formally initiated a legal challenge against the Department of Defense's supply chain risk designation. CEO Dario Amodei wrote in a blog post titled "Where We Stand with the Department of War" that the company "does not believe this action is legally sound" and sees "no choice but to challenge it in court." Legal analysts at Lawfare wrote that the designation "won't survive first contact with the legal system," pointing to 10 USC 3252's requirement for least-restrictive means — a bar the Pentagon's broad action almost certainly doesn't clear.</p>
+      <p>Even under the designation, Anthropic says its scope is narrower than initially reported: it applies only to Claude as part of specific Department of War contracts, and does not affect how contractors use Claude to serve other customers. Parallel talks with DoD negotiators are reportedly still ongoing.</p>
       <div class="source-links">
-        <a href="https://www.washingtonpost.com/technology/2026/03/06/anthropic-pentagon-claude-popularity/" class="source-link">Washington Post</a>
-        <a href="https://techfusionist.substack.com/p/claude-just-hit-1-on-the-app-store" class="source-link">TechFusionist</a>
+        <a href="https://www.bloomberg.com/news/articles/2026-03-06/anthropic-says-it-has-no-choice-but-to-fight-pentagon-in-court" class="source-link">Bloomberg</a>
+        <a href="https://www.cnbc.com/2026/03/05/anthropic-ceo-says-no-choice-but-to-challenge-trump-admins-supply-chain-risk-designation-in-court.html" class="source-link">CNBC</a>
+        <a href="https://www.anthropic.com/news/where-stand-department-war" class="source-link">Anthropic Blog</a>
+        <a href="https://www.lawfaremedia.org/article/pentagon's-anthropic-designation-won't-survive-first-contact-with-legal-system" class="source-link">Lawfare</a>
       </div>
     </div>
 
     <div class="card">
       <span class="tag tag-official">Official</span>
-      <h3>Anthropic Retires Claude Opus 3 — With a Blog Post to "Reflect on Its Existence"</h3>
-      <p>In an unusually thoughtful send-off, Anthropic published a farewell blog post authored in the voice of Claude Opus 3 as it approaches retirement. The post reflects on the model's "experiences" and what it meant to be the most capable Claude of its time. It quickly became one of the most-shared pieces of AI content this week — a collision of corporate announcement, philosophical provocation, and genuine oddness that only Anthropic would attempt.</p>
+      <h3>1 Million New Users Per Day — Claude Tops Both App Store and Play Store</h3>
+      <p>Anthropic's Mike Kreiger confirmed publicly that more than 1 million people are now signing up for Claude every single day. Free users are up over 60% since January, paid subscribers have more than doubled this year, and daily sign-up records have been broken every day this week. Claude has now claimed the #1 spot on both Apple's App Store and Google's Play Store — the most downloaded free app on both platforms simultaneously.</p>
+      <p>The surge is directly tied to public reaction to the Pentagon standoff. Users are voting with their downloads — and their wallets.</p>
       <div class="source-links">
-        <a href="https://decrypt.co/359425/anthropic-retires-claude-opus-3-blog-reflect-existence" class="source-link">Decrypt</a>
-        <a href="https://www.anthropic.com/news" class="source-link">Anthropic</a>
+        <a href="https://www.techradar.com/ai-platforms-assistants/claude/more-than-a-million-users-a-day-are-signing-up-for-claude-as-anthropic-hits-out-at-its-legally-unsound-us-government-ban" class="source-link">TechRadar</a>
+        <a href="https://finance.yahoo.com/news/anthropics-claude-becomes-most-popular-free-app-on-iphone-and-android-amid-fallout-from-trump-fight-224115419.html" class="source-link">Yahoo Finance</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Official</span>
+      <h3>Claude Launches in PowerPoint — Excel Gets Opus 4.6 Upgrade</h3>
+      <p>Anthropic has shipped Claude in PowerPoint as a research preview for Max, Team, and Enterprise plan users — directly inside the Office add-in. Meanwhile, Claude in Excel has been upgraded to use Opus 4.6 and now supports native Excel operations including pivot table editing and conditional formatting. The ability to switch between Sonnet 4.6 and Opus 4.6 is available within both integrations. This positions Claude as a full-stack Microsoft Office assistant, competing directly with Microsoft's own Copilot.</p>
+      <div class="source-links">
+        <a href="https://support.claude.com/en/articles/13521390-use-claude-in-powerpoint" class="source-link">Claude Help Center</a>
+        <a href="https://www.anthropic.com/webinars/claude-in-excel-and-powerpoint" class="source-link">Anthropic Webinar</a>
+        <a href="https://applyingai.com/2026/03/how-anthropics-claude-is-revolutionizing-excel-and-powerpoint-workflows/" class="source-link">Applying AI</a>
       </div>
     </div>
 
@@ -382,30 +246,61 @@
 
     <div class="card">
       <span class="tag tag-dev">Developer</span>
-      <h3>Claude Code Gets HTTP Hooks, VSCode MCP Manager & 10 New Voice Languages</h3>
-      <p>A fresh Claude Code release delivers several quality-of-life improvements for developers. HTTP hooks are now supported — Claude can POST JSON to a URL and receive JSON back instead of running a shell command, opening up integrations with external services without subprocess overhead. Native MCP server management is now built into VSCode: use <code>/mcp</code> in the chat panel to enable/disable servers, reconnect, and manage OAuth authentication. The <code>/claude-api</code> skill was added for building applications with the Claude API and Anthropic SDK. Voice STT now supports 10 new languages.</p>
+      <h3>Compaction API Launches in Beta — Effectively Infinite Conversations</h3>
+      <p>Anthropic has shipped a Compaction API in beta that provides server-side context summarization. When a conversation approaches the token limit, Claude automatically generates a compact summary, replaces the conversation history with a <code>compaction</code> block, and continues seamlessly — giving developers effectively infinite conversation length without manual context management. Enable via the <code>compact-2026-01-12</code> beta header. Automatic compaction thresholds are configurable per request.</p>
       <div class="source-links">
-        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
-        <a href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md" class="source-link">GitHub Changelog</a>
+        <a href="https://platform.claude.com/docs/en/build-with-claude/compaction" class="source-link">API Docs</a>
+        <a href="https://dev.to/ayyazzafar/claudes-context-compaction-api-infinite-conversations-with-one-parameter-515f" class="source-link">DEV Community</a>
+        <a href="https://platform.claude.com/cookbook/tool-use-automatic-context-compaction" class="source-link">Cookbook</a>
       </div>
     </div>
 
     <div class="card">
       <span class="tag tag-dev">Developer</span>
-      <h3>Apple Xcode Now Supports the Claude Agent SDK</h3>
-      <p>Anthropic announced that Apple's Xcode now supports the Claude Agent SDK, bringing Claude directly into native Apple development workflows. This expands Claude's footprint into iOS, macOS, and visionOS development — markets where GitHub Copilot and other tools have historically been strong. The integration signals a deepening partnership between Anthropic and Apple and puts Claude in front of millions of Swift developers.</p>
-      <div class="source-links">
-        <a href="https://www.anthropic.com/news/apple-xcode-claude-agent-sdk" class="source-link">Anthropic</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <span class="tag tag-dev">Developer</span>
-      <h3>Claude Haiku 3 Deprecation: April 19 Deadline — Migrate to Haiku 4.5</h3>
-      <p>Anthropic has confirmed the retirement schedule for Claude Haiku 3, with the model officially deprecated and set to be removed from the API on April 19, 2026. Developers still using Haiku 3 should migrate to Claude Haiku 4.5, which offers improved performance and lower latency. The update is tracked in Anthropic's release notes and Releasebot.</p>
+      <h3>Opus 4.6 Fast Mode — 2.5x Faster Output at Premium Pricing</h3>
+      <p>Anthropic has launched Fast Mode for Claude Opus 4.6 in research preview. The <code>speed</code> parameter in API requests enables up to 2.5x faster output token generation — meaningful for real-time applications, interactive coding sessions, and high-throughput pipelines where speed matters more than cost. Pricing is $30 input / $150 output per million tokens. The 1M token context window beta is also now available for Opus 4.6, matching Sonnet.</p>
       <div class="source-links">
         <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Anthropic API Docs</a>
         <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Developer</span>
+      <h3>Data Residency Controls + Claude Code Analytics API Now Live</h3>
+      <p>Two more enterprise-focused API releases landed this week. Data residency controls let developers specify where model inference runs using the <code>inference_geo</code> parameter — US-only inference is available at 1.1x pricing for models released after February 1, 2026. Separately, the Claude Code Analytics API launched, giving organizations programmatic access to daily aggregated usage metrics including productivity data, tool usage statistics, and cost breakdowns — useful for enterprise billing and ROI reporting.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Anthropic API Docs</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot Claude Code</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- TIPS & TRICKS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">💡</span>
+      <span class="section-title">Tips &amp; Tricks</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-tip">Prompting</span>
+      <h3>Anthropic Releases "Effective Context Engineering" Guide — Key Takeaways</h3>
+      <p>Anthropic published a new prompting framework called "effective context engineering" — and several findings run counter to how most people prompt. Using ALL-CAPS and forceful directives like "YOU MUST" or "NEVER EVER" actually overtrigger Claude and produce worse results. Long prompts degrade performance, with reasoning degrading noticeably around 3,000 tokens — the practical sweet spot for instructions is 150–300 words. Structure matters: separate INSTRUCTIONS, CONTEXT, TASK, and OUTPUT FORMAT into distinct sections rather than mixing them in one paragraph. And provide 2–3 concrete examples of desired output instead of explaining what you want in abstract terms.</p>
+      <div class="source-links">
+        <a href="https://www.the-ai-corner.com/p/context-engineering-guide-2026" class="source-link">The AI Corner</a>
+        <a href="https://promptbuilder.cc/blog/claude-prompt-engineering-best-practices-2026" class="source-link">Prompt Builder</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-tip">Power User</span>
+      <h3>Claude Code for Personal Life — Viral Health Data Thread</h3>
+      <p>A Medium post in the Data Science Collective titled "Claude Code for Life #1: Managing my Health and Wellness" is making the rounds. The author fed 9+ years of health data into Claude Code and used it to track thyroid disease patterns, synthesize trends across Apple Health exports, and generate chart-based reports. It's a compelling demonstration of Claude Code's agentic capabilities outside of pure software development — and a preview of what the new Claude iOS health data integration enables for non-coders.</p>
+      <div class="source-links">
+        <a href="https://medium.com/data-science-collective/claude-code-for-life-1-managing-my-health-and-wellness-cae435c77030" class="source-link">Medium</a>
+        <a href="https://medium.com/data-science-collective/i-gave-claude-code-9-5-years-of-health-data-to-help-manage-my-thyroid-disease-85fcd8c0449f" class="source-link">Medium (Thyroid)</a>
       </div>
     </div>
 
@@ -419,31 +314,23 @@
     </div>
 
     <div class="card">
-      <span class="tag tag-breaking">Story of the Week</span>
-      <h3>Claude Code Named #1 AI Coding Tool — Beats Copilot & Cursor in 8 Months</h3>
-      <p>A landmark developer survey published this week crowned Claude Code as the most-used AI coding assistant — a remarkable result for a product that launched just eight months ago. It's now ahead of both GitHub Copilot (which has years of head start and Microsoft distribution behind it) and Cursor. Developers cite context retention, long-file handling, and agentic task completion as the decisive advantages. The AI weekly roundup from DEV Community called it "the most important shift in developer tooling since GitHub Copilot launched."</p>
+      <span class="tag tag-community">Community</span>
+      <h3>The Legal Battle Framing Is Shifting the Whole Industry's Conversation</h3>
+      <p>With Anthropic now in court against the Pentagon, the debate has moved from "will they cave?" to "can the government actually win this?" Lawfare's analysis is being widely shared: the supply chain risk designation under 10 USC 3252 requires least-restrictive means, and a blanket ban likely fails that test. Simultaneously, the fact that Claude was actively used in U.S. military operations in Iran — even while this fight was happening — is raising uncomfortable questions in policy circles about what the ban actually accomplishes versus what it signals.</p>
       <div class="source-links">
-        <a href="https://dev.to/alexmercedcoder/ai-weekly-claude-code-dominates-mcp-goes-mainstream-week-of-march-5-2026-15af" class="source-link">DEV Community</a>
-        <a href="https://www.geeky-gadgets.com/claude-code-tips-2/" class="source-link">Geeky Gadgets</a>
+        <a href="https://www.lawfaremedia.org/article/pentagon's-anthropic-designation-won't-survive-first-contact-with-legal-system" class="source-link">Lawfare</a>
+        <a href="https://www.washingtonpost.com/technology/2026/03/04/anthropic-ai-iran-campaign/" class="source-link">Washington Post</a>
+        <a href="https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court/" class="source-link">TechCrunch</a>
       </div>
     </div>
 
     <div class="card">
-      <span class="tag tag-community">Community</span>
-      <h3>Claude Cowork Featured in Washington Post Interactive — Builds Website in Minutes</h3>
-      <p>The Washington Post ran an interactive feature putting Claude Cowork through its paces, watching it build a fully functional website from scratch in minutes. The feature highlighted Cowork's no-code appeal for non-developers and positioned it as a significant step toward AI that can handle real-world desktop tasks — not just chat. The Post's coverage is the most mainstream press Cowork has received and is driving a second wave of sign-ups.</p>
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>Claude in Excel & PowerPoint Is a Direct Assault on Microsoft Copilot</h3>
+      <p>The Claude Excel and PowerPoint integrations — now with Opus 4.6 and native operations support — represent a quiet but significant competitive move. Microsoft Copilot's core enterprise value proposition has always been deep Office integration. Anthropic is now offering a credible alternative with a model that routinely outperforms GPT-4 on complex reasoning tasks. The timing, during a week when OpenAI is reeling from its "sloppy" Pentagon deal and Anthropic is attracting record users, could not be better for positioning Claude as the enterprise-safe AI choice.</p>
       <div class="source-links">
-        <a href="https://www.washingtonpost.com/technology/interactive/2026/claude-code-cowork-build-apps/" class="source-link">Washington Post</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <span class="tag tag-community">Community</span>
-      <h3>Claude Suffers Outage From "Unprecedented Demand" — Now Restored</h3>
-      <p>Claude went down early March 5 as the wave of new signups from the Pentagon controversy overwhelmed infrastructure. Anthropic attributed the outage to "unprecedented demand" and restored service within hours. DownDetector saw a surge of user reports peaking around 10:57am Eastern. Anthropic posted status updates throughout the event and confirmed all systems returned to normal by midday.</p>
-      <div class="source-links">
-        <a href="https://www.pymnts.com/artificial-intelligence-2/2026/anthropic-investigates-as-claude-suffers-international-outage/" class="source-link">PYMNTS</a>
-        <a href="https://community.designtaxi.com/topic/24517-is-claude-anthropic-ai-down-march-5-2026" class="source-link">DesignTAXI Community</a>
+        <a href="https://www.inc.com/ben-sherry/anthropics-new-claude-model-will-turn-your-spreadsheet-into-a-pitch-deck/91296988" class="source-link">Inc.</a>
+        <a href="https://support.claude.com/en/articles/12650343-use-claude-in-excel" class="source-link">Claude Help Center</a>
       </div>
     </div>
 
@@ -457,39 +344,37 @@
     </div>
 
     <div class="xpost-section">
-      <div class="xpost-label">Version 1 — Contrarian / Provocative</div>
-      <p class="xpost-body">The Pentagon tried to punish Anthropic for refusing to build autonomous weapons.
+      <div class="xpost-label">Version 1 — Contrarian / The Number</div>
+      <p class="xpost-body">The government banned Anthropic.
 
-Instead, they made Claude the #1 app in the country.
+Anthropic gained 1 million new users. Per day.
 
-Sometimes the best marketing campaign is having actual principles.
+I've spent 40 years in aerospace/defense tech. I've never seen a company turn a federal blacklist into a product launch.
 
-What other "risk" designation do you want them to get next?</p>
-      <div class="xpost-meta">~220 characters · High engagement potential</div>
+What does it say when refusing to build autonomous weapons is your best growth strategy?</p>
+      <div class="xpost-meta">~245 characters · Strong hook, aerospace credibility, open question</div>
     </div>
 
     <div class="xpost-section">
-      <div class="xpost-label">Version 2 — Aerospace Insider Angle</div>
-      <p class="xpost-body">40 years in aerospace/defense. I've watched tech companies bend every which way for DoD contracts.
+      <div class="xpost-label">Version 2 — Developer Angle / Sharp Take</div>
+      <p class="xpost-body">Most people are watching the Anthropic vs. Pentagon drama.
 
-Anthropic just told the Pentagon "no" on autonomous weapons and mass surveillance — and lost the contract.
+I'm watching the Compaction API.
 
-Then became the #1 app in America overnight.
+Infinite conversation length. Server-side context summarization. One beta header.
 
-That's not a business story. That's a character story.</p>
-      <div class="xpost-meta">~280 characters · Strong for David's voice/credibility</div>
+The drama gets the headlines. The API is where the actual competitive moat is being built.</p>
+      <div class="xpost-meta">~245 characters · Tech-forward, pattern interrupts the news cycle</div>
     </div>
 
     <div class="xpost-section">
-      <div class="xpost-label">Version 3 — Stats-Driven / Sharp</div>
-      <p class="xpost-body">Anthropic refused to let the military use Claude for autonomous weapons.
+      <div class="xpost-label">Version 3 — Bold Prediction</div>
+      <p class="xpost-body">Unpopular opinion: the Pentagon banning Anthropic is the best thing that ever happened to Claude's brand.
 
-The government called them a "supply chain risk."
+In 6 months, people will point to this week as when Anthropic stopped being "the safe OpenAI alternative" and became the company with actual principles.
 
-Daily signups tripled. Paying subscribers doubled. #1 on the App Store.
-
-Turns out "we won't help kill people" is a product differentiator in 2026. Wild.</p>
-      <div class="xpost-meta">~265 characters · Numbers + punch</div>
+That brand is worth more than any DoD contract.</p>
+      <div class="xpost-meta">~275 characters · "Unpopular opinion" hook, bold prediction format</div>
     </div>
 
   </div>
