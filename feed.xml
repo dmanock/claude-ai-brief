@@ -8,6 +8,19 @@
     <atom:link href="https://dmanock.github.io/claude-ai-brief/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — March 7, 2026</title>
+      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-07.html</link>
+      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-07.html</guid>
+      <pubDate>Sat, 07 Mar 2026 08:00:00 -0600</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Marketplace Launches — Enterprise Ecosystem Goes Live</strong> — Anthropic launches Claude Marketplace in limited preview with GitLab, Harvey, Lovable, Replit, Rogo, and Snowflake. Enterprise spend commitments now apply to third-party Claude-powered tools.</p>
+        <p><strong>2. Claude Opus 4.6 Finds 22 High-Severity Firefox Vulnerabilities</strong> — Two-week red team with Mozilla: ~6,000 C++ files scanned, 112 bug reports filed, 22 high-severity. Most patched in Firefox 148.</p>
+        <p><strong>3. Claude Code v2.1.71: /loop Command Ships</strong> — New /loop command runs recurring prompts on a schedule within a session. Full cron syntax supported. Claude Code becomes a background worker.</p>
+        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-07.html">Read the full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — March 6, 2026</title>
       <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-06.html</link>
       <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-06.html</guid>
