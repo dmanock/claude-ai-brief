@@ -8,6 +8,19 @@
     <atom:link href="https://dmanock.github.io/claude-ai-brief/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — March 8, 2026</title>
+      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-08.html</link>
+      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-08.html</guid>
+      <pubDate>Sun, 08 Mar 2026 08:00:00 -0600</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Publishes Landmark Labor Market Study</strong> — Using real Claude usage data across 800+ occupations, Anthropic finds 75% of programming tasks are AI-exposed but actual job displacement remains minimal. The gap between theory and reality is the headline.</p>
+        <p><strong>2. API Spring Cleaning — Model Retirements and New Features Ship</strong> — Sonnet 3.7 and Haiku 3.5 retired. Haiku 3 sunset April 19. Structured outputs, compaction API, data residency, and auto-caching go GA or open beta.</p>
+        <p><strong>3. Tom's Guide Tests Claude Inside Slack, Figma, and Asana</strong> — Hands-on review of Claude's MCP-powered workplace integrations finds real workflow value across design, messaging, and project management.</p>
+        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-08.html">Read the full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — March 7, 2026</title>
       <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-07.html</link>
       <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-07.html</guid>
