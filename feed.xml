@@ -2,138 +2,138 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Claude AI Daily Brief</title>
-    <link>https://dmanock.github.io/claude-ai-brief</link>
+    <link>https://www.cadb.info</link>
     <description>Daily intelligence report on Claude AI news, Anthropic announcements, developer updates, and community buzz.</description>
     <language>en-us</language>
-    <atom:link href="https://dmanock.github.io/claude-ai-brief/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
       <title>Claude AI Daily Brief — March 9, 2026</title>
-      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-09.html</link>
-      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-09.html</guid>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-09.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-09.html</guid>
       <pubDate>Mon, 09 Mar 2026 08:00:00 -0600</pubDate>
       <description><![CDATA[
         <p><strong>1. Anthropic Launches Global Community Ambassadors Program</strong> — Developers, educators, and organizers worldwide can apply to host local Claude meetups and hackathons with event funding, API credits, and direct Anthropic support.</p>
         <p><strong>2. Claude Code Crowned Most-Used AI Coding Tool</strong> — Pragmatic Engineer survey names Claude Code #1, overtaking Copilot and Cursor in eight months. 75% of smaller-company engineers use it as primary tool. AI coding daily usage hits 73%.</p>
         <p><strong>3. Daylight Saving Time Bug Hits Scheduled Tasks</strong> — Cowork and Claude Code users hit infinite loop when clocks sprang forward. Tasks in the skipped hour triggered repeated execution. Fix rolling out.</p>
-        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-09.html">Read the full report →</a></p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-09.html">Read the full report →</a></p>
       ]]></description>
     </item>
 
     <item>
       <title>Claude AI Daily Brief — March 8, 2026</title>
-      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-08.html</link>
-      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-08.html</guid>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-08.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-08.html</guid>
       <pubDate>Sun, 08 Mar 2026 08:00:00 -0600</pubDate>
       <description><![CDATA[
         <p><strong>1. Anthropic Publishes Landmark Labor Market Study</strong> — Using real Claude usage data across 800+ occupations, Anthropic finds 75% of programming tasks are AI-exposed but actual job displacement remains minimal. The gap between theory and reality is the headline.</p>
         <p><strong>2. API Spring Cleaning — Model Retirements and New Features Ship</strong> — Sonnet 3.7 and Haiku 3.5 retired. Haiku 3 sunset April 19. Structured outputs, compaction API, data residency, and auto-caching go GA or open beta.</p>
         <p><strong>3. Tom's Guide Tests Claude Inside Slack, Figma, and Asana</strong> — Hands-on review of Claude's MCP-powered workplace integrations finds real workflow value across design, messaging, and project management.</p>
-        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-08.html">Read the full report →</a></p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-08.html">Read the full report →</a></p>
       ]]></description>
     </item>
 
     <item>
       <title>Claude AI Daily Brief — March 7, 2026</title>
-      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-07.html</link>
-      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-07.html</guid>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-07.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-07.html</guid>
       <pubDate>Sat, 07 Mar 2026 08:00:00 -0600</pubDate>
       <description><![CDATA[
         <p><strong>1. Claude Marketplace Launches — Enterprise Ecosystem Goes Live</strong> — Anthropic launches Claude Marketplace in limited preview with GitLab, Harvey, Lovable, Replit, Rogo, and Snowflake. Enterprise spend commitments now apply to third-party Claude-powered tools.</p>
         <p><strong>2. Claude Opus 4.6 Finds 22 High-Severity Firefox Vulnerabilities</strong> — Two-week red team with Mozilla: ~6,000 C++ files scanned, 112 bug reports filed, 22 high-severity. Most patched in Firefox 148.</p>
         <p><strong>3. Claude Code v2.1.71: /loop Command Ships</strong> — New /loop command runs recurring prompts on a schedule within a session. Full cron syntax supported. Claude Code becomes a background worker.</p>
-        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-07.html">Read the full report →</a></p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-07.html">Read the full report →</a></p>
       ]]></description>
     </item>
 
     <item>
       <title>Claude AI Daily Brief — March 6, 2026</title>
-      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-06.html</link>
-      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-06.html</guid>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-06.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-06.html</guid>
       <pubDate>Fri, 06 Mar 2026 08:00:00 -0600</pubDate>
       <description><![CDATA[
         <p><strong>1. Anthropic Takes the Pentagon to Court</strong> — Dario Amodei says Anthropic "sees no choice" but to sue over the supply chain designation. Bloomberg confirmed the legal filing this morning. Lawfare: the designation "won't survive first contact with the legal system."</p>
         <p><strong>2. 1 Million New Users Per Day — #1 on App Store AND Play Store</strong> — Claude is now the most downloaded free app on both platforms. Paid subscribers more than doubled this year. Daily sign-up records broken every day this week.</p>
         <p><strong>3. Compaction API + Fast Mode Land for Developers</strong> — Infinite conversations via server-side context compaction (beta). Opus 4.6 Fast Mode delivers 2.5x faster output for $30/$150 per million tokens.</p>
-        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-06.html">Read the full report →</a></p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-06.html">Read the full report →</a></p>
       ]]></description>
     </item>
 
     <item>
       <title>Claude AI Daily Brief — March 5, 2026</title>
-      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-05.html</link>
-      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-05.html</guid>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-05.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-05.html</guid>
       <pubDate>Thu, 05 Mar 2026 08:00:00 -0600</pubDate>
       <description><![CDATA[
         <p><strong>1. Anthropic &amp; Pentagon Resume Talks</strong> — Dario Amodei is back at the negotiating table with DoD's Emil Michael, pushing for a deal that "works for us and works for them." The standoff may be closer to resolution than it looks.</p>
         <p><strong>2. Web Search &amp; Code Execution Hit GA</strong> — Web search, web fetch, and programmatic tool calling are now generally available on the Claude API. No beta headers required, with free code execution when bundled with search.</p>
         <p><strong>3. OpenAI Walks Back Pentagon Deal</strong> — Sam Altman admits the deal was "opportunistic and sloppy" and says OpenAI is renegotiating. Anthropic's principled stand is reshaping the entire AI-defense conversation.</p>
-        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-05.html">Read the full report →</a></p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-05.html">Read the full report →</a></p>
       ]]></description>
     </item>
 
     <item>
       <title>Claude AI Daily Brief — March 4, 2026</title>
-      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-04.html</link>
-      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-04.html</guid>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-04.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-04.html</guid>
       <pubDate>Wed, 04 Mar 2026 08:00:00 -0600</pubDate>
       <description><![CDATA[
         <p><strong>1. Voice Mode Lands for Claude Code</strong> — Anthropic rolls out hands-free coding via spacebar-hold voice commands, with free transcription tokens flowing directly into the cursor in real time.</p>
         <p><strong>2. ChatGPT Uninstalls Surge 295%</strong> — OpenAI's Pentagon deal triggered a user exodus. ChatGPT US uninstalls jumped 295% as Claude held #1 on the App Store and kept breaking daily sign-up records.</p>
         <p><strong>3. Claude Code Crosses $2.5B Run-Rate</strong> — Claude Code's annualized revenue more than doubled since January, with weekly active users also doubling, making it Anthropic's fastest-growing product.</p>
-        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-04.html">Read the full report →</a></p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-04.html">Read the full report →</a></p>
       ]]></description>
     </item>
 
     <item>
       <title>Claude AI Daily Brief — March 3, 2026</title>
-      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-03.html</link>
-      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-03.html</guid>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-03.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-03.html</guid>
       <pubDate>Tue, 03 Mar 2026 08:00:00 -0600</pubDate>
       <description><![CDATA[
         <p><strong>1. Memory Goes Free for All</strong> — Anthropic opened cross-session memory to free users and launched a ChatGPT import tool so new arrivals can carry their conversation history straight into Claude.</p>
         <p><strong>2. Amodei Holds the Line</strong> — In a CBS News exclusive, Dario Amodei says Anthropic will work with the US military only within ethical red lines. The Pentagon supply-chain designation is heading to court.</p>
         <p><strong>3. Structured Outputs Hit GA</strong> — JSON schema enforcement exits beta for Claude Sonnet 4.5, Opus 4.5, and Haiku 4.5 — no beta header required, with expanded schema support and faster compilation.</p>
-        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-03.html">Read the full report →</a></p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-03.html">Read the full report →</a></p>
       ]]></description>
     </item>
 
     <item>
       <title>Claude AI Daily Brief — March 2, 2026</title>
-      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-02.html</link>
-      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-02.html</guid>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-02.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-02.html</guid>
       <pubDate>Mon, 02 Mar 2026 08:00:00 -0600</pubDate>
       <description><![CDATA[
         <p><strong>1. Claude Global Outage</strong> — Anthropic confirmed a worldwide outage hitting claude.ai, the console, and Claude Code starting at 11:49 UTC. Auth infrastructure failed; core API stayed online.</p>
         <p><strong>2. Pentagon Feud → #1 App Store</strong> — After Trump banned Anthropic products from federal agencies, Claude shot to #1 on Apple's App Store, breaking daily sign-up records every day this week.</p>
         <p><strong>3. Sonnet 4.6 + Auto Caching Live</strong> — Claude Sonnet 4.6 ships with a 1M-token context window (beta). Automatic prompt caching also launched, simplifying long-context workflows for developers.</p>
-        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-02.html">Read the full report →</a></p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-02.html">Read the full report →</a></p>
       ]]></description>
     </item>
 
     <item>
       <title>Claude AI Daily Brief — March 1, 2026</title>
-      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-01.html</link>
-      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-01.html</guid>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-01.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-01.html</guid>
       <pubDate>Sun, 01 Mar 2026 08:00:00 -0600</pubDate>
       <description><![CDATA[
         <p><strong>1. Claude Tops App Store</strong> — Users flooded to Claude after the Pentagon ban, pushing it past ChatGPT to #1 on Apple's free apps chart. Daily sign-ups at all-time highs.</p>
         <p><strong>2. Claude Used in Iran Strike Despite Ban</strong> — The WSJ reports US military commands used Claude for targeting and combat simulation in a strike on Iran, even after Trump ordered the phase-out.</p>
         <p><strong>3. Haiku 3 End-of-Life Announced</strong> — Claude Haiku 3 retires April 19, 2026. Developers on claude-3-haiku need to migrate to Haiku 4.5 now.</p>
-        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-01.html">Read the full report →</a></p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-01.html">Read the full report →</a></p>
       ]]></description>
     </item>
 
     <item>
       <title>Claude AI Daily Brief — February 28, 2026</title>
-      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-02-28.html</link>
-      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-02-28.html</guid>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-02-28.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-02-28.html</guid>
       <pubDate>Sat, 28 Feb 2026 08:00:00 -0600</pubDate>
       <description><![CDATA[
         <p><strong>1. Pentagon ban</strong> — Trump orders all federal agencies to cease using Anthropic products.</p>
         <p><strong>2. Cowork expansion</strong> — Cowork mode gets major upgrades in the latest Claude desktop release.</p>
         <p><strong>3. Apple Xcode SDK</strong> — Apple integrates Claude Agent SDK natively into Xcode.</p>
-        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-02-28.html">Read the full report →</a></p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-02-28.html">Read the full report →</a></p>
       ]]></description>
     </item>
 

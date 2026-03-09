@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dmanock.github.io/claude-ai-brief/sitemap.xml
+Sitemap: https://www.cadb.info/sitemap.xml
