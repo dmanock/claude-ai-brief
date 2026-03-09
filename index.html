@@ -267,55 +267,29 @@
       vertical-align: middle;
     }
 
-    .month-rows { display: none; grid-gap: 8px; }
-    .month-rows.active { display: grid; }
+    .month-rows { display: none; }
+    .month-rows.active { display: flex; flex-wrap: wrap; gap: 8px; }
 
-    .archive-item {
+    .day-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
       background: #16213e;
       border: 1px solid #1e293b;
       border-radius: 10px;
-      padding: 14px 18px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
       text-decoration: none;
-      transition: border-color 0.15s, background 0.15s;
-    }
-    .archive-item:hover {
-      border-color: #7c3aed;
-      background: #1a1f3a;
-    }
-    .archive-item-left { display: flex; align-items: center; gap: 14px; }
-    .archive-day {
-      font-size: 12px;
+      font-size: 14px;
       font-weight: 700;
       color: #94a3b8;
-      width: 28px;
-      flex-shrink: 0;
-      text-align: center;
+      transition: border-color 0.15s, background 0.15s, color 0.15s;
     }
-    .archive-divider {
-      width: 1px;
-      height: 28px;
-      background: #1e293b;
-      flex-shrink: 0;
+    .day-link:hover {
+      border-color: #7c3aed;
+      background: #1a1f3a;
+      color: #a78bfa;
     }
-    .archive-text { min-width: 0; }
-    .archive-date {
-      font-size: 13px;
-      font-weight: 600;
-      color: #e2e8f0;
-    }
-    .archive-sub {
-      font-size: 12px;
-      color: #64748b;
-      margin-top: 2px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    .archive-arrow { color: #475569; font-size: 14px; flex-shrink: 0; margin-left: 12px; }
-    .archive-item:hover .archive-arrow { color: #a78bfa; }
 
     /* SUBSCRIBE SECTION */
     .subscribe-section {
@@ -498,120 +472,20 @@
 
   <!-- MARCH 2026 -->
   <div class="month-rows active" id="mar-2026">
-    <a href="reports/claude-ai-daily-2026-03-09.html" class="archive-item">
-      <div class="archive-item-left">
-        <div class="archive-day">9</div>
-        <div class="archive-divider"></div>
-        <div class="archive-text">
-          <div class="archive-date">March 9, 2026</div>
-          <div class="archive-sub">Community Ambassadors · Claude Code #1 · DST bug</div>
-        </div>
-      </div>
-      <span class="archive-arrow">→</span>
-    </a>
-    <a href="reports/claude-ai-daily-2026-03-08.html" class="archive-item">
-      <div class="archive-item-left">
-        <div class="archive-day">8</div>
-        <div class="archive-divider"></div>
-        <div class="archive-text">
-          <div class="archive-date">March 8, 2026</div>
-          <div class="archive-sub">Labor market study · API spring cleaning · Claude in Slack/Figma/Asana</div>
-        </div>
-      </div>
-      <span class="archive-arrow">→</span>
-    </a>
-    <a href="reports/claude-ai-daily-2026-03-07.html" class="archive-item">
-      <div class="archive-item-left">
-        <div class="archive-day">7</div>
-        <div class="archive-divider"></div>
-        <div class="archive-text">
-          <div class="archive-date">March 7, 2026</div>
-          <div class="archive-sub">Claude Marketplace · Firefox 22 vulns · Code /loop command</div>
-        </div>
-      </div>
-      <span class="archive-arrow">→</span>
-    </a>
-    <a href="reports/claude-ai-daily-2026-03-06.html" class="archive-item">
-      <div class="archive-item-left">
-        <div class="archive-day">6</div>
-        <div class="archive-divider"></div>
-        <div class="archive-text">
-          <div class="archive-date">March 6, 2026</div>
-          <div class="archive-sub">Anthropic sues Pentagon · 1M users/day · Compaction API + Fast Mode</div>
-        </div>
-      </div>
-      <span class="archive-arrow">→</span>
-    </a>
-    <a href="reports/claude-ai-daily-2026-03-05.html" class="archive-item">
-      <div class="archive-item-left">
-        <div class="archive-day">5</div>
-        <div class="archive-divider"></div>
-        <div class="archive-text">
-          <div class="archive-date">March 5, 2026</div>
-          <div class="archive-sub">Pentagon talks resume · Web search GA · OpenAI renegotiates</div>
-        </div>
-      </div>
-      <span class="archive-arrow">→</span>
-    </a>
-    <a href="reports/claude-ai-daily-2026-03-04.html" class="archive-item">
-      <div class="archive-item-left">
-        <div class="archive-day">4</div>
-        <div class="archive-divider"></div>
-        <div class="archive-text">
-          <div class="archive-date">March 4, 2026</div>
-          <div class="archive-sub">Voice Mode for Claude Code · ChatGPT uninstalls +295% · $2.5B run-rate</div>
-        </div>
-      </div>
-      <span class="archive-arrow">→</span>
-    </a>
-    <a href="reports/claude-ai-daily-2026-03-03.html" class="archive-item">
-      <div class="archive-item-left">
-        <div class="archive-day">3</div>
-        <div class="archive-divider"></div>
-        <div class="archive-text">
-          <div class="archive-date">March 3, 2026</div>
-          <div class="archive-sub">Memory free for all · Amodei holds the line · Structured outputs GA</div>
-        </div>
-      </div>
-      <span class="archive-arrow">→</span>
-    </a>
-    <a href="reports/claude-ai-daily-2026-03-02.html" class="archive-item">
-      <div class="archive-item-left">
-        <div class="archive-day">2</div>
-        <div class="archive-divider"></div>
-        <div class="archive-text">
-          <div class="archive-date">March 2, 2026</div>
-          <div class="archive-sub">Global outage · Pentagon feud &amp; #1 App Store · Sonnet 4.6</div>
-        </div>
-      </div>
-      <span class="archive-arrow">→</span>
-    </a>
-    <a href="reports/claude-ai-daily-2026-03-01.html" class="archive-item">
-      <div class="archive-item-left">
-        <div class="archive-day">1</div>
-        <div class="archive-divider"></div>
-        <div class="archive-text">
-          <div class="archive-date">March 1, 2026</div>
-          <div class="archive-sub">Claude #1 App Store · Iran strike despite ban · Haiku 3 retirement</div>
-        </div>
-      </div>
-      <span class="archive-arrow">→</span>
-    </a>
+    <a href="reports/claude-ai-daily-2026-03-09.html" class="day-link">9</a>
+    <a href="reports/claude-ai-daily-2026-03-08.html" class="day-link">8</a>
+    <a href="reports/claude-ai-daily-2026-03-07.html" class="day-link">7</a>
+    <a href="reports/claude-ai-daily-2026-03-06.html" class="day-link">6</a>
+    <a href="reports/claude-ai-daily-2026-03-05.html" class="day-link">5</a>
+    <a href="reports/claude-ai-daily-2026-03-04.html" class="day-link">4</a>
+    <a href="reports/claude-ai-daily-2026-03-03.html" class="day-link">3</a>
+    <a href="reports/claude-ai-daily-2026-03-02.html" class="day-link">2</a>
+    <a href="reports/claude-ai-daily-2026-03-01.html" class="day-link">1</a>
   </div>
 
   <!-- FEBRUARY 2026 -->
   <div class="month-rows" id="feb-2026">
-    <a href="reports/claude-ai-daily-2026-02-28.html" class="archive-item">
-      <div class="archive-item-left">
-        <div class="archive-day">28</div>
-        <div class="archive-divider"></div>
-        <div class="archive-text">
-          <div class="archive-date">February 28, 2026</div>
-          <div class="archive-sub">Pentagon ban · Cowork expansion · Apple Xcode SDK</div>
-        </div>
-      </div>
-      <span class="archive-arrow">→</span>
-    </a>
+    <a href="reports/claude-ai-daily-2026-02-28.html" class="day-link">28</a>
   </div>
   </section>
 
