@@ -8,6 +8,19 @@
     <atom:link href="https://dmanock.github.io/claude-ai-brief/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — March 9, 2026</title>
+      <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-09.html</link>
+      <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-09.html</guid>
+      <pubDate>Mon, 09 Mar 2026 08:00:00 -0600</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Launches Global Community Ambassadors Program</strong> — Developers, educators, and organizers worldwide can apply to host local Claude meetups and hackathons with event funding, API credits, and direct Anthropic support.</p>
+        <p><strong>2. Claude Code Crowned Most-Used AI Coding Tool</strong> — Pragmatic Engineer survey names Claude Code #1, overtaking Copilot and Cursor in eight months. 75% of smaller-company engineers use it as primary tool. AI coding daily usage hits 73%.</p>
+        <p><strong>3. Daylight Saving Time Bug Hits Scheduled Tasks</strong> — Cowork and Claude Code users hit infinite loop when clocks sprang forward. Tasks in the skipped hour triggered repeated execution. Fix rolling out.</p>
+        <p><a href="https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-09.html">Read the full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — March 8, 2026</title>
       <link>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-08.html</link>
       <guid>https://dmanock.github.io/claude-ai-brief/reports/claude-ai-daily-2026-03-08.html</guid>
