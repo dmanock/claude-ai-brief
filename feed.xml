@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — March 10, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-10.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-10.html</guid>
+      <pubDate>Tue, 10 Mar 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Microsoft Launches Copilot Cowork Powered by Claude</strong> — Claude Cowork technology enters Microsoft 365. New AI agent executes multi-step tasks across Outlook, Teams, and Excel. New M365 E7 tier at $99/user/month. Broader rollout late March.</p>
+        <p><strong>2. Anthropic Launches Code Review for Claude Code</strong> — Multi-agent PR review system dispatches parallel AI reviewers that cross-verify findings. Teams and Enterprise, $15-$25 per review. Claude Code run-rate tops $2.5B.</p>
+        <p><strong>3. Trump Prepares EO to Ban Anthropic Across All Federal Agencies</strong> — White House formalizing government-wide ban. Anthropic files two federal lawsuits challenging supply chain risk designation as "unprecedented and unlawful."</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-10.html">Read the full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — March 9, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-09.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-09.html</guid>
