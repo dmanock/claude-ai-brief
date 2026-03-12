@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — March 12, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-12.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-12.html</guid>
+      <pubDate>Thu, 12 Mar 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. TIME Names Anthropic "Most Disruptive Company in the World"</strong> — Claude Code revenue hit $2.5B by February. A COBOL blog post wiped $40B off IBM's market cap. Pentagon feud turned Anthropic into a consumer darling overnight.</p>
+        <p><strong>2. Claude Code Auto Mode Launches in Research Preview</strong> — Claude now decides which permission prompts to surface vs. auto-approve. Ships with prompt injection safeguards. Available today.</p>
+        <p><strong>3. Claude for Excel &amp; PowerPoint Now Share Live Context</strong> — New beta: one session reads cell values, writes formulas, and edits slides across both add-ins. New Skills feature for reusable workflows. Available to paid users now.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-12.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — March 11, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-11.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-11.html</guid>
