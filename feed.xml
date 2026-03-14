@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — March 14, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-14.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-14.html</guid>
+      <pubDate>Sat, 14 Mar 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. 1M Context Window Goes GA at Standard Pricing</strong> — Opus 4.6 and Sonnet 4.6 now support 1M tokens with no premium. Media limit jumps to 600 images/PDFs per request. Available on all major clouds today.</p>
+        <p><strong>2. Pentagon Memo Sets 180-Day Deadline to Remove Claude from Military Systems</strong> — Internal DoD memo orders commanders to strip Anthropic products. Claude is currently the only AI deployed on classified Pentagon systems.</p>
+        <p><strong>3. Palantir Defies Pentagon Blacklist, Keeps Using Claude</strong> — Defense contractor maintains its Claude integration despite the supply chain designation, highlighting how deeply embedded Anthropic's models are in military ops.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-14.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — March 13, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-13.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-13.html</guid>
