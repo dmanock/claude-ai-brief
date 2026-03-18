@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — March 18, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-18.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-18.html</guid>
+      <pubDate>Wed, 18 Mar 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. AWS Shifts Defense Workloads Off Claude</strong> — Amazon confirms it is transitioning Pentagon-related workloads to alternative models after the DoD supply chain risk designation. Non-defense AWS customers are unaffected.</p>
+        <p><strong>2. Cowork Gets Persistent Agent Threads</strong> — Anthropic begins rolling out persistent agent thread support in Cowork for Max plans today, with Pro plan access following within 48 hours.</p>
+        <p><strong>3. Claude Code Voice Mode Expands to 5% of Users</strong> — Push-to-talk voice coding is live for an initial slice of Pro, Max, Team, and Enterprise subscribers. Hold spacebar to speak, release to send — now in 20 languages.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-18.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — March 17, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-17.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-17.html</guid>
