@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — March 20, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-20.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-20.html</guid>
+      <pubDate>Fri, 20 Mar 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. DoD Claims It Can Replace Claude in 6 Months</strong> — Pentagon CTO says they're "pretty confident" they can phase out Claude by fall 2026, pointing to active OpenAI and Gemini deployments. March 24 court hearing will be decisive.</p>
+        <p><strong>2. Claude Code Voice Mode &amp; /loop Fully Rolling Out</strong> — Push-to-talk voice mode is expanding to all users, alongside the /loop command for recurring task automation and new /effort and /batch controls.</p>
+        <p><strong>3. 2x Usage Promo Enters Final Week</strong> — Anthropic's bonus usage promotion doubles limits for Free, Pro, Max, and Team plans during off-peak hours through March 27.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-20.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — March 19, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-19.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-19.html</guid>
