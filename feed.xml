@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — March 22, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-22.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-22.html</guid>
+      <pubDate>Sun, 22 Mar 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Denies Kill Switch Exists as Monday's Hearing Approaches</strong> — Sworn court declaration states Anthropic has no back door, no remote kill switch, and no ability to alter Claude once deployed in DoD systems. Judge Rita Lin hears the injunction case on March 24.</p>
+        <p><strong>2. Microsoft &amp; 22 Retired Generals Back Anthropic; DoD Claims 6-Month Transition</strong> — Former service secretaries and flag officers call the Pentagon designation "retribution." Military users on the ground say replacing Claude is far harder than leadership admits.</p>
+        <p><strong>3. Extended Thinking Display Field Ships; 2x Usage Promo Ends March 27</strong> — Developers can now omit thinking blocks for faster streaming with thinking.display: "omitted". The off-peak 2x usage boost for Free, Pro, Max, and Team plans has five days left.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-22.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — March 21, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-21.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-21.html</guid>
