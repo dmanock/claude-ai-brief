@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — March 23, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-23.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-23.html</guid>
+      <pubDate>Mon, 23 Mar 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Code Channels Ships as Research Preview</strong> — Text Claude Code from Discord or Telegram and get replies when it finishes. Plugin runs locally, no open ports. Anthropic's direct answer to OpenClaw. Requires v2.1.80+ and a paid plan.</p>
+        <p><strong>2. DOJ Calls Pentagon Blacklist "Lawful and Reasonable" — Hearing Tomorrow</strong> — Opposition brief filed ahead of Tuesday's 1:30pm PST injunction hearing before Judge Rita Lin. Anthropic fired back in a reply brief calling the designation preemptive retaliation.</p>
+        <p><strong>3. Claude.ai Login Outage Resolved; 2x Promo Ends March 27</strong> — Sunday's auth issues are cleared. Four days left on the off-peak 2x usage boost for Free, Pro, Max, and Team plans.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-23.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — March 22, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-22.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-22.html</guid>
