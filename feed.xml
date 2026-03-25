@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — March 25, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-25.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-25.html</guid>
+      <pubDate>Wed, 25 Mar 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Judge Says Pentagon Blacklist Looks Like "An Attempt to Cripple" Anthropic</strong> — After yesterday's hearing, Judge Rita Lin questioned whether the DOD violated the law. She expects to issue her preliminary injunction ruling within days.</p>
+        <p><strong>2. Claude Code Auto Mode Ships — Safety Classifier Guards Every Action</strong> — A new permissions mode where Claude decides autonomously, with a per-action classifier checking for destructive actions and prompt injection before each tool call runs. Team plan now, Enterprise soon.</p>
+        <p><strong>3. Claude Code Channels: Text Your AI Coder from Telegram or Discord</strong> — Push tasks into a running Claude Code session from your phone. Full filesystem and MCP access. Replies when done. No open ports required.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-25.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — March 24, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-24.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-24.html</guid>
