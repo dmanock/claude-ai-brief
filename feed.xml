@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — March 28, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-28.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-28.html</guid>
+      <pubDate>Sat, 28 Mar 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Mythos Training Complete — Capybara Tier Details Emerge</strong> — Anthropic reportedly finishes training Claude Mythos. New details surface on a 10-trillion parameter "Capybara" tier with dramatically higher benchmark scores in cybersecurity and coding.</p>
+        <p><strong>2. Accenture Launches Cyber.AI Powered by Claude</strong> — The enterprise security platform cuts scan turnaround from days to under an hour. API test coverage jumped from 10% to 80% at Accenture's own infrastructure.</p>
+        <p><strong>3. MCP Hits 97M Monthly Downloads — Moves to Linux Foundation</strong> — Anthropic donates MCP governance to the Agentic AI Foundation, co-founded with OpenAI, Block, Google, and Microsoft. New peak-hour usage limits also take effect today.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-28.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — March 27, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-27.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-27.html</guid>
