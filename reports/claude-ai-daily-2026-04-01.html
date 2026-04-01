@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude AI Daily Brief — April 1, 2026 | Claude Code Source Leak, v2.1.89 Ships, 1M Token Beta Retirement Notice</title>
+  <meta name="description" content="April 1, 2026: Anthropic accidentally exposes 500K lines of Claude Code source via npm. v2.1.89 ships the same day. 1M token beta for Sonnet 4.5 and Claude 4 retires April 30. Q2 begins with a bang.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-04-01.html">
+  <meta property="og:title" content="Claude AI Daily Brief — April 1, 2026">
+  <meta property="og:description" content="Claude Code source code leaked via npm. v2.1.89 ships same day. 1M token beta retiring April 30. Q2 starts wild.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-01.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — April 1, 2026">
+  <meta name="twitter:description" content="Claude Code source code leaked via npm. v2.1.89 ships same day. 1M token beta retiring April 30.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-01.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-04-01.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — April 1, 2026",
+    "description": "Anthropic accidentally exposes ~500K lines of Claude Code source via an npm source map. v2.1.89 ships the same day with new hook and subagent features. The 1M token context beta for Sonnet 4.5 and Claude 4 is retiring April 30. Q2 kicks off with a bang.",
+    "datePublished": "2026-04-01T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-01.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-04-01.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Wednesday, April 1, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; April 1, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #33</p>
+</div>
+
+<div class="main">
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Claude Code Source Code Leaked via npm</strong> &mdash; A packaging error exposed ~500K lines across ~1,900 files. The GitHub backup was forked 41,500+ times before Anthropic could respond. Second major leak in a week.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Claude Code v2.1.89 Ships Same Day</strong> &mdash; New release adds deferred hook permissions, named subagents for @mention typeahead, and a non-blocking MCP connection mode for headless sessions.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>1M Token Beta Retiring April 30</strong> &mdash; The <code>context-1m</code> beta header stops working for Claude Sonnet 4.5 and Claude Sonnet 4 at month&rsquo;s end. Migrate to Sonnet 4.6 or Opus 4.6 to keep extended context.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Breaking</span>
+      <h3>Claude Code Source Code Exposed in npm Packaging Error</h3>
+      <p>Anthropic accidentally published ~500,000 lines of Claude Code source across roughly 1,900 TypeScript files when version 2.1.88 of the npm package shipped with a 59.8 MB source map file attached. A source map reference pointed to a Cloudflare R2 bucket containing the unobfuscated source. Security researcher Chaofan Shou spotted it first and the code spread fast &mdash; a GitHub backup was forked more than 41,500 times before Anthropic could act.</p>
+      <p>Anthropic described it as "a release packaging issue caused by human error, not a security breach," and said no customer data or credentials were exposed. But the leak is significant: it&rsquo;s the second major accidental disclosure in a week, coming just days after ~3,000 internal files including a Mythos draft blog post were made public. Anthropic said it is rolling out measures to prevent recurrence. The code itself has revealed internal details including frustration regexes, undercover mode references, and fake tool behaviors.</p>
+      <div class="source-links">
+        <a href="https://www.theregister.com/2026/03/31/anthropic_claude_code_source_code/" class="source-link">The Register</a>
+        <a href="https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/" class="source-link">Fortune</a>
+        <a href="https://cybersecuritynews.com/claude-code-source-code-leaked/" class="source-link">CyberSecurity News</a>
+        <a href="https://www.bloomberg.com/news/articles/2026-04-01/anthropic-accidentally-releases-source-code-for-claude-ai-agent" class="source-link">Bloomberg</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Partnership</span>
+      <h3>$100M Claude Partner Network Opens Applications</h3>
+      <p>Anthropic&rsquo;s $100 million Claude Partner Network is now open for applications. The program brings enterprise consultancies &mdash; Accenture, Deloitte, Cognizant, Infosys &mdash; into Anthropic&rsquo;s go-to-market channel, with direct investment going to training, sales enablement, and market development. Anthropic is also scaling partner-facing headcount fivefold, adding Applied AI engineers for live deals and technical architects for complex deployments.</p>
+      <p>Any organization bringing Claude to market can apply for free membership. The Claude Certified Architect Foundations certification is available today for partners, with additional certifications for sellers, developers, and architects coming later in 2026. The program reflects Anthropic&rsquo;s push to compete with OpenAI and Google in the enterprise channel ahead of its planned IPO.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/claude-partner-network" class="source-link">Anthropic</a>
+        <a href="https://thenextweb.com/news/anthropic-commits-100m-to-claude-partner-network" class="source-link">The Next Web</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code v2.1.89: Deferred Hooks, Named Subagents, Non-Blocking MCP</h3>
+      <p>Claude Code v2.1.89 dropped today &mdash; somewhat overshadowed by the source code drama. The headline feature is a "defer" option for <code>PreToolUse</code> hooks: headless sessions can now pause at a tool call and resume later with <code>-p --resume</code>, letting the hook re-evaluate on continuation. This is useful for approval workflows where a human needs to greenlight a specific action mid-run.</p>
+      <p>Other additions: named subagents now appear in the <code>@</code> mention typeahead, making multi-agent orchestration much easier to navigate. <code>MCP_CONNECTION_NONBLOCKING=true</code> skips MCP connection waits in <code>-p</code> mode for faster headless startup. A new <code>CLAUDE_CODE_NO_FLICKER=1</code> env var enables flicker-free alt-screen rendering. And a <code>PermissionDenied</code> hook now fires after auto mode classifier denials so you can log or handle rejections programmatically.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://github.com/anthropics/claude-code/releases" class="source-link">GitHub Releases</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">API</span>
+      <h3>1M Token Beta Retiring April 30 &mdash; Migrate to Sonnet 4.6 or Opus 4.6</h3>
+      <p>Anthropic has confirmed that the <code>context-1m-2025-08-07</code> beta header will stop working for Claude Sonnet 4.5 and Claude Sonnet 4 on April 30, 2026. After that date, requests using the header on those models will behave as if the header is absent &mdash; meaning the standard 200K context limit applies. If your app depends on million-token context windows, you need to migrate before the end of the month.</p>
+      <p>The migration path is straightforward: switch to Claude Sonnet 4.6 or Claude Opus 4.6, both of which support the full 1M token context window at standard pricing without a beta header. Sonnet 4.6 also improves agentic search performance and consumes fewer tokens per task, so the upgrade pays dividends beyond just context length. The 1M beta is also now available for Opus 4.6 for the first time.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Claude Platform Docs</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">API</span>
+      <h3>Message Batches API Gets 300K max_tokens Cap</h3>
+      <p>Anthropic raised the <code>max_tokens</code> cap to 300,000 on the Message Batches API for Claude Opus 4.6 and Sonnet 4.6. To enable it, include the <code>output-300k-2026-03-24</code> beta header in your request. This is aimed at long-form content generation, large structured data extraction, and bulk code generation tasks where a single response needs to be very long.</p>
+      <p>Structured outputs are also now generally available on Claude Sonnet 4.5, Opus 4.5, and Haiku 4.5 with no beta header required. The GA release includes expanded JSON schema support, improved grammar compilation latency, and a simplified integration path. Fine-grained tool streaming is GA across all models. Model capability fields (<code>max_input_tokens</code>, <code>max_tokens</code>, <code>capabilities</code>) are now returned by <code>GET /v1/models</code>.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Claude Platform Docs</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Model Watch</span>
+      <h3>Claude Mythos: Still in Early Access, ~25% Odds of April Launch</h3>
+      <p>Claude Mythos remains in limited early-access testing with no confirmed public release date. Polymarket prediction markets give roughly a 25% probability of a general launch by the end of April, with a Q2 release considered the most likely scenario overall at about 45% odds by June 30. Anthropic has said the rollout timeline is "determined by safety evaluation outcomes" rather than a commercial schedule &mdash; a notable stance for a company heading toward an IPO.</p>
+      <p>What makes Mythos different is its autonomous action model. Unlike Claude 4.6 which responds one step at a time, Mythos plans and executes sequences across systems without waiting for human input at each step. That capability is also what prompted the leaked docs to flag "unprecedented cybersecurity risks." Anthropic&rsquo;s caution appears genuine &mdash; this isn&rsquo;t the usual safety theater around a launch.</p>
+      <div class="source-links">
+        <a href="https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/" class="source-link">Fortune</a>
+        <a href="https://polymarket.com/event/claude-mythos-released-by" class="source-link">Polymarket</a>
+        <a href="https://siliconangle.com/2026/03/27/anthropic-launch-new-claude-mythos-model-advanced-reasoning-features/" class="source-link">SiliconAngle</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Ecosystem</span>
+      <h3>Claude Code Source Insights: What Devs Are Finding in the Leaked Code</h3>
+      <p>The developer community has been combing through the leaked Claude Code source and the early findings are interesting. Researcher Alex Kim documented "frustration regexes" &mdash; patterns that detect when users express frustration mid-session &mdash; as well as an "undercover mode" flag and references to fake tool behaviors used in testing. The code also reveals internal architecture around how Claude Code manages permissions, hooks, and multi-agent coordination.</p>
+      <p>Anthropic has been blocking forks and issuing DMCA takedowns, but the code has already spread widely. The 41,500+ fork count means it&rsquo;s effectively in the open. For the developer community, the main takeaway is a clearer picture of how the tool actually works under the hood &mdash; which may inform how people build with it going forward, regardless of Anthropic&rsquo;s enforcement efforts.</p>
+      <div class="source-links">
+        <a href="https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/" class="source-link">Alex Kim's Blog</a>
+        <a href="https://eu.36kr.com/en/p/3747613304193796" class="source-link">36Kr</a>
+        <a href="https://mlq.ai/news/anthropics-claude-code-exposes-source-code-through-packaging-error-for-second-time/" class="source-link">MLQ.ai</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128202;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>Two Leaks in a Week: Anthropic&rsquo;s Velocity Problem</h3>
+      <p>In the span of eight days, Anthropic accidentally made ~3,000 internal files public (including a Mythos blog post draft), then exposed 500,000 lines of Claude Code&rsquo;s source code through a packaging error. Both incidents were chalked up to human error. Both happened against the backdrop of a company shipping 14+ product launches in March alone while racing toward an IPO. The pattern is clear: Anthropic is moving fast and its release infrastructure hasn&rsquo;t kept up.</p>
+      <p>The irony is sharp. A company that has built its entire brand on being the safety-first AI lab &mdash; the one that slows down, thinks carefully, does the hard work &mdash; is now the company that accidentally open-sources its flagship developer tool. The leaks don&rsquo;t expose customer data, and they may not matter much technically. But they are an operational story that investors, partners, and enterprise customers will be watching closely as the IPO road show approaches. For Anthropic, getting release ops right is now as important as getting safety right.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <a href="../index.html">&larr; Back to Claude AI Daily Brief Home</a>
+  &nbsp;&middot;&nbsp; Generated April 1, 2026 at 8:00am &nbsp;&middot;&nbsp; Not affiliated with Anthropic
+</footer>
+
+</body>
+</html>

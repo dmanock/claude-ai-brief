@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-04-01",
+    "title": "Claude AI Daily Brief — April 1, 2026 | Claude Code Source Leak, v2.1.89 Ships, 1M Token Beta Retirement Notice",
+    "description": "April 1, 2026: Anthropic accidentally exposes 500K lines of Claude Code source via npm. v2.1.89 ships the same day. 1M token beta for Sonnet 4.5 and Claude 4 retires April 30. Q2 begins with a bang.",
+    "url": "reports/claude-ai-daily-2026-04-01.html",
+    "headlines": [
+      "Claude Code Source Leak",
+      "v2.1.89 Ships",
+      "1M Token Beta Retirement Notice",
+      "Claude Code Source Code Exposed in npm Packaging Error",
+      "$100M Claude Partner Network Opens Applications",
+      "Claude Code v2.1.89: Deferred Hooks, Named Subagents, Non-Blocking MCP",
+      "1M Token Beta Retiring April 30 &mdash; Migrate to Sonnet 4.6 or Opus 4.6",
+      "Message Batches API Gets 300K max_tokens Cap",
+      "Claude Mythos: Still in Early Access, ~25% Odds of April Launch",
+      "Claude Code Source Insights: What Devs Are Finding in the Leaked Code",
+      "Two Leaks in a Week: Anthropic&rsquo;s Velocity Problem"
+    ],
+    "snippet": "Claude AI Daily Brief — April 1, 2026 | Claude Code Source Leak, v2.1.89 Ships, 1M Token Beta Retirement Notice ● Wednesday, April 1, 2026 Claude AI Daily Brief — April 1, 2026 Covering the last 24 hours · Edition #33 TL;DR — Today’s Top 3 Takeaways 1. Claude Code Source Code Leaked via npm — A pack"
+  },
+  {
     "date": "2026-03-31",
     "title": "Claude AI Daily Brief — March 31, 2026 | Microsoft Pairs GPT + Claude in Copilot Critique, Paid Subs Skyrocket, Madcap March Ends",
     "description": "March 31, 2026: Microsoft ships Copilot Critique pairing GPT drafts with Claude reviews. Claude paid subscriptions more than double in 2026. Anthropic's record-breaking March wraps with 14+ launches and an IPO on the horizon.",
