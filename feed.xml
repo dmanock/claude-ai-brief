@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 2, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-02.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-02.html</guid>
+      <pubDate>Thu, 02 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Congressman Gottheimer Demands Answers on Leaks</strong> — A House Democrat is pressing Anthropic on the Claude Code source leak, Mythos safety risks, and susceptibility to foreign cyberattacks.</p>
+        <p><strong>2. Claw-Code Hits 100K Stars in One Day</strong> — A clean-room Rust rewrite of Claude Code's architecture is now the fastest-growing repo in GitHub history.</p>
+        <p><strong>3. Claude Buddy Easter Egg Goes Live</strong> — Found in the leaked source: an April Fools terminal pet with 18 species, RPG stats, and a 1% shiny rate. Live through April 7.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-02.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 1, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-01.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-01.html</guid>

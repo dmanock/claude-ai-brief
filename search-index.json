@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-04-02",
+    "title": "Claude AI Daily Brief — April 2, 2026 | Gottheimer Congressional Inquiry, Claw-Code Breaks GitHub Records, Claude Buddy Easter Egg",
+    "description": "April 2, 2026: Congressman Gottheimer demands answers from Anthropic on Claude Code leak and Mythos safety. Claw-code rewrite hits 100K GitHub stars in a day. Claude Buddy April Fools pet goes live. Haiku 3 retiring April 19.",
+    "url": "reports/claude-ai-daily-2026-04-02.html",
+    "headlines": [
+      "Gottheimer Congressional Inquiry",
+      "Claw-Code Breaks GitHub Records",
+      "Claude Buddy Easter Egg",
+      "Gottheimer Presses Anthropic on Source Leak and Mythos Safety",
+      "DMCA Takedown Scaled Back After Hitting 8,100 Repos",
+      "Claude Haiku 3 Retiring April 19 &mdash; Migrate Now",
+      "Web Tools Now Generally Available &mdash; Free Code Execution",
+      "Tool Helpers Launch in Beta for Python and TypeScript SDKs",
+      "Claw-Code: Fastest-Growing Repo in GitHub History",
+      "Claude Buddy: 18 Species, RPG Stats, and a 1% Shiny Rate",
+      "The Leak That Keeps on Leaking"
+    ],
+    "snippet": "Claude AI Daily Brief — April 2, 2026 | Gottheimer Congressional Inquiry, Claw-Code Breaks GitHub Records, Claude Buddy Easter Egg ● Thursday, April 2, 2026 Claude AI Daily Brief — April 2, 2026 Covering the last 24 hours · Edition #34 TL;DR — Today’s Top 3 Takeaways 1. Congressman Gottheimer Demand"
+  },
+  {
     "date": "2026-04-01",
     "title": "Claude AI Daily Brief — April 1, 2026 | Claude Code Source Leak, v2.1.89 Ships, 1M Token Beta Retirement Notice",
     "description": "April 1, 2026: Anthropic accidentally exposes 500K lines of Claude Code source via npm. v2.1.89 ships the same day. 1M token beta for Sonnet 4.5 and Claude 4 retires April 30. Q2 begins with a bang.",
