@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-04-03",
+    "title": "Claude AI Daily Brief — April 3, 2026 | 171 Emotion Concepts Mapped, Trojanized Leak Repos Spread Malware, Usage Limits Apology Backfires",
+    "description": "April 3, 2026: Anthropic's interpretability team maps 171 emotion-like concepts inside Claude. Trojanized Claude Code leak repos spread Vidar malware. Usage limits apology fuels user backlash. Claude Operon life sciences mode spotted.",
+    "url": "reports/claude-ai-daily-2026-04-03.html",
+    "headlines": [
+      "171 Emotion Concepts Mapped",
+      "Trojanized Leak Repos Spread Malware",
+      "Usage Limits Apology Backfires",
+      "Anthropic Maps 171 Emotion-like Concepts Inside Claude",
+      "Usage Limits Apology Backfires on Anthropic",
+      "Claude Operon: Life Sciences Mode Spotted in Desktop App",
+      "Message Batches API Gets 300K Token Cap for Opus and Sonnet 4.6",
+      "Model Capability Fields Now Live in the Models API",
+      "Trojanized Claude Code Repos Delivering Vidar Malware on GitHub",
+      "Accenture Training 30,000 Consultants on Claude",
+      "Emotions, Malware, and Apologies: The Week That Won&rsquo;t End"
+    ],
+    "snippet": "Claude AI Daily Brief — April 3, 2026 | 171 Emotion Concepts Mapped, Trojanized Leak Repos Spread Malware, Usage Limits Apology Backfires ● Friday, April 3, 2026 Claude AI Daily Brief — April 3, 2026 Covering the last 24 hours · Edition #35 TL;DR — Today’s Top 3 Takeaways 1. Anthropic Maps 171 Emoti"
+  },
+  {
     "date": "2026-04-02",
     "title": "Claude AI Daily Brief — April 2, 2026 | Gottheimer Congressional Inquiry, Claw-Code Breaks GitHub Records, Claude Buddy Easter Egg",
     "description": "April 2, 2026: Congressman Gottheimer demands answers from Anthropic on Claude Code leak and Mythos safety. Claw-code rewrite hits 100K GitHub stars in a day. Claude Buddy April Fools pet goes live. Haiku 3 retiring April 19.",
