@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-04-04",
+    "title": "Claude AI Daily Brief — April 4, 2026 | OpenClaw Cutoff, 300k Batch Tokens, 1M Context Sunset",
+    "description": "April 4, 2026: Anthropic cuts off OpenClaw and third-party harnesses from Claude subscriptions. Batch API hits 300k output tokens. Web search goes GA. 1M context window retiring April 30.",
+    "url": "reports/claude-ai-daily-2026-04-04.html",
+    "headlines": [
+      "OpenClaw Cutoff",
+      "300k Batch Tokens",
+      "1M Context Sunset",
+      "Anthropic Ends Claude Subscription Support for OpenClaw and Third-Party Harnesses",
+      "1M Context Window Beta Retiring April 30 for Claude Sonnet 4.5 and Claude Sonnet 4",
+      "Message Batches API Hits 300k Output Tokens; Web Search and Web Fetch Go GA",
+      "Claude Code Adds /powerup Lessons, New Hook Events, and Stability Fixes",
+      "Teams Shifting to Multi-Model API Platforms After Claude Code Leak",
+      "Hacker News Reacts to OpenClaw Cutoff: Pricing Trust Takes a Hit",
+      "The OpenClaw Move Is About Control, Not Just Compute"
+    ],
+    "snippet": "Claude AI Daily Brief — April 4, 2026 | OpenClaw Cutoff, 300k Batch Tokens, 1M Context Sunset ● Saturday, April 4, 2026 Claude AI Daily Brief — April 4, 2026 Covering the last 24 hours · Edition #36 TL;DR — Today’s Top 3 Takeaways 1. Anthropic Cuts Off OpenClaw from Claude Subscriptions — Effective "
+  },
+  {
     "date": "2026-04-03",
     "title": "Claude AI Daily Brief — April 3, 2026 | 171 Emotion Concepts Mapped, Trojanized Leak Repos Spread Malware, Usage Limits Apology Backfires",
     "description": "April 3, 2026: Anthropic's interpretability team maps 171 emotion-like concepts inside Claude. Trojanized Claude Code leak repos spread Vidar malware. Usage limits apology fuels user backlash. Claude Operon life sciences mode spotted.",
