@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-04-05",
+    "title": "Claude AI Daily Brief — April 5, 2026 | Mythos Leak, Security CVEs, Skills Marketplace Boom",
+    "description": "April 5, 2026: Claude Mythos frontier model leaks with 'step change' capabilities. Claude Code security CVEs pile up post-leak. Skills ecosystem hits 2,300+ skills across 95+ marketplaces. Together AI open-sources 12 agent skills.",
+    "url": "reports/claude-ai-daily-2026-04-05.html",
+    "headlines": [
+      "Mythos Leak",
+      "Security CVEs",
+      "Skills Marketplace Boom",
+      "Claude Mythos: Anthropic&rsquo;s Frontier Model Leak Reveals Autonomous Agent Capabilities",
+      "Claude Code Source Leak Fallout: DMCA Takedowns Scaled Back After Overcorrection",
+      "CVE-2026-21852 and 50+ Subcommand Bypass: Two New Claude Code Vulnerabilities",
+      "Together AI Open-Sources 12 Agent Skills for Claude Code and Codex",
+      "Agent Skills Ecosystem Hits 2,300+ Skills Across 95+ Marketplaces",
+      "OpenClaw Cutoff Day One: Developer Community Weighs API Migration Paths",
+      "Anthropic&rsquo;s Security Week Exposes the AI Tooling Paradox"
+    ],
+    "snippet": "Claude AI Daily Brief — April 5, 2026 | Mythos Leak, Security CVEs, Skills Marketplace Boom ● Sunday, April 5, 2026 Claude AI Daily Brief — April 5, 2026 Covering the last 24 hours · Edition #37 TL;DR — Today’s Top 3 Takeaways 1. Claude Mythos Leak Reveals Anthropic’s Next Frontier Model — A data le"
+  },
+  {
     "date": "2026-04-04",
     "title": "Claude AI Daily Brief — April 4, 2026 | OpenClaw Cutoff, 300k Batch Tokens, 1M Context Sunset",
     "description": "April 4, 2026: Anthropic cuts off OpenClaw and third-party harnesses from Claude subscriptions. Batch API hits 300k output tokens. Web search goes GA. 1M context window retiring April 30.",
