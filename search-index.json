@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-04-06",
+    "title": "Claude AI Daily Brief — April 6, 2026 | Pentagon Appeals Anthropic Ruling, UK Woos AI Firm, API Gets Major Updates",
+    "description": "April 6, 2026: Pentagon appeals court ruling blocking Anthropic blacklist. UK pitches London expansion as US tensions rise. Claude API gains model capability fields, 300k token batches, and data residency controls.",
+    "url": "reports/claude-ai-daily-2026-04-06.html",
+    "headlines": [
+      "Pentagon Appeals Anthropic Ruling",
+      "UK Woos AI Firm",
+      "API Gets Major Updates",
+      "Pentagon Appeals Court Ruling That Blocked Anthropic&rsquo;s National Security Designation",
+      "UK Courts Anthropic with London Expansion Pitch and Dual Stock Listing Offer",
+      "Models API Gets Capability Fields; Message Batches Hit 300k Token Cap",
+      "Claude Sonnet 3.7 and Haiku 3.5 Retired; 1M Token Beta Ends April 30",
+      "Claude Code Adds Bedrock Setup Wizard, Cost Breakdown, and Interactive Release Notes",
+      "Claude Can Now Search Outlook and Teams for Free",
+      "Claude Mythos Timeline: Polymarket at 40% for Q2, April Still on the Table",
+      "The Anthropic-Pentagon Battle Is a Preview of Every AI Company&rsquo;s Future Dilemma"
+    ],
+    "snippet": "Claude AI Daily Brief — April 6, 2026 | Pentagon Appeals Anthropic Ruling, UK Woos AI Firm, API Gets Major Updates ● Monday, April 6, 2026 Claude AI Daily Brief — April 6, 2026 Covering the last 24 hours · Edition #38 TL;DR — Today’s Top 3 Takeaways 1. Pentagon Appeals Ruling That Blocked Anthropic "
+  },
+  {
     "date": "2026-04-05",
     "title": "Claude AI Daily Brief — April 5, 2026 | Mythos Leak, Security CVEs, Skills Marketplace Boom",
     "description": "April 5, 2026: Claude Mythos frontier model leaks with 'step change' capabilities. Claude Code security CVEs pile up post-leak. Skills ecosystem hits 2,300+ skills across 95+ marketplaces. Together AI open-sources 12 agent skills.",

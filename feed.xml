@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 6, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-06.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-06.html</guid>
+      <pubDate>Mon, 06 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Pentagon Appeals Ruling That Blocked Anthropic Blacklist</strong> — The Dept of War challenged the court order blocking Anthropic's supply-chain risk designation — the first ever applied to a US company under a law meant for foreign threats.</p>
+        <p><strong>2. UK Moves to Woo Anthropic Amid US Defense Clash</strong> — Britain is pitching Anthropic on a London expansion and dual LSE listing. The GOV.UK AI assistant, already powered by Claude, anchors the offer.</p>
+        <p><strong>3. Claude API Gets 300k Token Batches, Capability Fields, Data Residency</strong> — A wave of API improvements landed this week, plus model retirements for Sonnet 3.7 and Haiku 3.5. The 1M token beta ends April 30.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-06.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 5, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-05.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-05.html</guid>
