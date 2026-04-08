@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 8, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-08.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-08.html</guid>
+      <pubDate>Wed, 08 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Project Glasswing Launches With $100M to Secure Critical Software</strong> — Anthropic deployed Claude Mythos Preview to find thousands of zero-day vulnerabilities across major OSes and browsers, then launched a coalition with Apple, AWS, Microsoft, and Google to fix them.</p>
+        <p><strong>2. Claude Goes Down for Third Consecutive Day</strong> — Users reported login failures, chat errors, and degraded performance on April 8, less than 24 hours after the previous major outage.</p>
+        <p><strong>3. Anthropic Revenue Run Rate Passes $30 Billion</strong> — Bloomberg reports annualized revenue has tripled since end of 2025, with over 1,000 enterprise customers spending $1M+ annually.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-08.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 7, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-07.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-07.html</guid>

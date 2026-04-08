@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-04-08",
+    "title": "Claude AI Daily Brief — April 8, 2026 | Project Glasswing Launches, Third Day of Outages, Anthropic Hits $30B Run Rate",
+    "description": "April 8, 2026: Anthropic launches Project Glasswing with $100M in credits to secure critical software using Claude Mythos. Claude hits third consecutive day of outages. Anthropic's revenue run rate passes $30 billion.",
+    "url": "reports/claude-ai-daily-2026-04-08.html",
+    "headlines": [
+      "Project Glasswing Launches",
+      "Third Day of Outages",
+      "Anthropic Hits $30B Run Rate",
+      "Project Glasswing Launches &mdash; Anthropic Deploys Mythos to Find Thousands of Zero-Days",
+      "Google/Broadcom Compute Deal Revealed as 3.5 Gigawatts of TPU Capacity",
+      "Anthropic Revenue Run Rate Passes $30 Billion",
+      "Claude Code Ships Session ID Headers, /powerup Lessons, and Performance Fixes",
+      "Simon Willison: Restricting Mythos to Security Researchers &ldquo;Sounds Necessary&rdquo;",
+      "Claude Down for Third Consecutive Day &mdash; Users Report Login Failures, Chat Errors",
+      "NBCNews: Anthropic Struggling to Meet Surging Demand for Claude",
+      "The Glasswing Paradox: Too Dangerous to Release, Too Important to Shelve"
+    ],
+    "snippet": "Claude AI Daily Brief — April 8, 2026 | Project Glasswing Launches, Third Day of Outages, Anthropic Hits $30B Run Rate ● Wednesday, April 8, 2026 Claude AI Daily Brief — April 8, 2026 Covering the last 24 hours · Edition #40 TL;DR — Today’s Top 3 Takeaways 1. Project Glasswing Launches With $100M to"
+  },
+  {
     "date": "2026-04-07",
     "title": "Claude AI Daily Brief — April 7, 2026 | Anthropic Acquires Coefficient Bio, OpenClaw Crackdown Fallout, Claude Mythos Early Access",
     "description": "April 7, 2026: Anthropic drops $400M on biotech startup Coefficient Bio. OpenClaw subscribers scramble after subscription ban. Claude Mythos enters limited early access with unprecedented cybersecurity warnings.",
