@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 9, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-09.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-09.html</guid>
+      <pubDate>Thu, 09 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Managed Agents Launches in Public Beta</strong> — Anthropic's new cloud-hosted agent runtime lets enterprises deploy Claude agents without managing infrastructure. Notion, Rakuten, Asana, Vibecode, and Sentry are early adopters.</p>
+        <p><strong>2. Accenture Signs Multi-Year Partnership With Anthropic</strong> — The consulting giant will stand up a dedicated Claude practice and train 30,000 consultants on Anthropic's agentic platform, targeting Fortune 500 rollouts.</p>
+        <p><strong>3. Snowflake Expands Partnership With $200M Commitment</strong> — The expanded deal embeds Claude directly in Snowflake for 12,600+ customers and launches a joint go-to-market for agentic workloads across AWS, Azure, and Google Cloud.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-09.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 8, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-08.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-08.html</guid>
@@ -381,32 +394,6 @@
         <p><strong>2. Claude Marketplace Launches With GitLab, Harvey, Replit, and More</strong> — Enterprise app store with six launch partners. Apply existing Anthropic spending commitments to third-party tools. Anthropic takes no cut.</p>
         <p><strong>3. Claude Hits 11 Million Daily Users, Overtakes ChatGPT</strong> — US daily downloads: Claude 149K vs. ChatGPT 124K. DAUs up 180% since January. #1 free app in 15 countries.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-11.html">Read the full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — March 10, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-10.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-10.html</guid>
-      <pubDate>Tue, 10 Mar 2026 08:00:00 -0500</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Microsoft Launches Copilot Cowork Powered by Claude</strong> — Claude Cowork technology enters Microsoft 365. New AI agent executes multi-step tasks across Outlook, Teams, and Excel. New M365 E7 tier at $99/user/month. Broader rollout late March.</p>
-        <p><strong>2. Anthropic Launches Code Review for Claude Code</strong> — Multi-agent PR review system dispatches parallel AI reviewers that cross-verify findings. Teams and Enterprise, $15-$25 per review. Claude Code run-rate tops $2.5B.</p>
-        <p><strong>3. Trump Prepares EO to Ban Anthropic Across All Federal Agencies</strong> — White House formalizing government-wide ban. Anthropic files two federal lawsuits challenging supply chain risk designation as "unprecedented and unlawful."</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-10.html">Read the full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — March 9, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-09.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-09.html</guid>
-      <pubDate>Mon, 09 Mar 2026 08:00:00 -0600</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Launches Global Community Ambassadors Program</strong> — Developers, educators, and organizers worldwide can apply to host local Claude meetups and hackathons with event funding, API credits, and direct Anthropic support.</p>
-        <p><strong>2. Claude Code Crowned Most-Used AI Coding Tool</strong> — Pragmatic Engineer survey names Claude Code #1, overtaking Copilot and Cursor in eight months. 75% of smaller-company engineers use it as primary tool. AI coding daily usage hits 73%.</p>
-        <p><strong>3. Daylight Saving Time Bug Hits Scheduled Tasks</strong> — Cowork and Claude Code users hit infinite loop when clocks sprang forward. Tasks in the skipped hour triggered repeated execution. Fix rolling out.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-09.html">Read the full report →</a></p>
       ]]></description>
     </item>
 

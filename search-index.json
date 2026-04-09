@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-04-09",
+    "title": "Claude AI Daily Brief — April 9, 2026 | Claude Managed Agents Launch, Accenture Partnership, Snowflake $200M Deal",
+    "description": "April 9, 2026: Anthropic launches Claude Managed Agents in public beta with Notion, Rakuten, Asana, and Sentry as early adopters. Accenture signs multi-year partnership. Snowflake expands Claude rollout with $200M deal.",
+    "url": "reports/claude-ai-daily-2026-04-09.html",
+    "headlines": [
+      "Claude Managed Agents Launch",
+      "Accenture Partnership",
+      "Snowflake $200M Deal",
+      "Claude Managed Agents Goes Public Beta &mdash; Anthropic&rsquo;s Enterprise Agent Runtime Is Here",
+      "Accenture and Anthropic Announce Multi-Year Partnership to Scale Claude Across the Fortune 500",
+      "Snowflake Expands Anthropic Partnership With $200M Commitment",
+      "Claude Code Update: Larger MCP Result Persistence, Multi-Line Deep Links, Skill Shell Hardening",
+      "1M Token Context Window Beta Sunset for Sonnet 4.5 and Sonnet 4 &mdash; April 30 Deadline",
+      "MCP Dev Summit: Anthropic, AWS, Microsoft, OpenAI Lay Out Enterprise Security Roadmap",
+      "Claude Services Back to Green After Three-Day Outage Streak",
+      "Plugin Marketplace Passes 2,500 Listings as Partner Plugins Keep Climbing",
+      "Anthropic&rsquo;s Platform Play Lands &mdash; And It&rsquo;s Bigger Than Today&rsquo;s Headlines"
+    ],
+    "snippet": "Claude AI Daily Brief — April 9, 2026 | Claude Managed Agents Launch, Accenture Partnership, Snowflake $200M Deal ● Thursday, April 9, 2026 Claude AI Daily Brief — April 9, 2026 Covering the last 24 hours · Edition #41 TL;DR — Today’s Top 3 Takeaways 1. Claude Managed Agents Launches in Public Beta "
+  },
+  {
     "date": "2026-04-08",
     "title": "Claude AI Daily Brief — April 8, 2026 | Project Glasswing Launches, Third Day of Outages, Anthropic Hits $30B Run Rate",
     "description": "April 8, 2026: Anthropic launches Project Glasswing with $100M in credits to secure critical software using Claude Mythos. Claude hits third consecutive day of outages. Anthropic's revenue run rate passes $30 billion.",
