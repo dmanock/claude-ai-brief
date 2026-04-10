@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-04-10",
+    "title": "Claude AI Daily Brief — April 10, 2026 | Anthropic Closes CoreWeave GPU Deal, $30B ARR, Advisor Tool Beta",
+    "description": "April 10, 2026: Anthropic signs multi-year CoreWeave GPU deal to scale Claude infrastructure. Revenue hits $30B annualized run rate. Advisor Tool launches in public beta for smarter agentic workloads.",
+    "url": "reports/claude-ai-daily-2026-04-10.html",
+    "headlines": [
+      "Anthropic Closes CoreWeave GPU Deal",
+      "$30B ARR",
+      "Advisor Tool Beta",
+      "Anthropic Signs Multi-Year GPU Deal With CoreWeave to Power Claude at Scale",
+      "Anthropic Revenue Surpasses $30B Annualized Run Rate &mdash; Up 3x From Year-End 2025",
+      "Anthropic Exploring Custom AI Chip Design to Reduce Compute Dependency",
+      "Advisor Tool Launches in Public Beta &mdash; Smarter Agents Without the Cost of Full Opus",
+      "Message Batches API Now Supports 300k max_tokens for Opus 4.6 and Sonnet 4.6",
+      "Claude Code: Vertex AI Setup Wizard, Linux Subprocess Sandboxing, and Monitor Tool",
+      "Anthropic Tightens Claude Subscription Rules for Third-Party Agents",
+      "Claude Cowork Gets Enterprise Features Alongside Managed Agents Push",
+      "Anthropic&rsquo;s Compute Strategy Is Now As Important As Its Model Strategy"
+    ],
+    "snippet": "Claude AI Daily Brief — April 10, 2026 | Anthropic Closes CoreWeave GPU Deal, $30B ARR, Advisor Tool Beta ● Friday, April 10, 2026 Claude AI Daily Brief — April 10, 2026 Covering the last 24 hours · Edition #42 TL;DR — Today’s Top 3 Takeaways 1. Anthropic Signs Multi-Year CoreWeave Deal to Scale GPU"
+  },
+  {
     "date": "2026-04-09",
     "title": "Claude AI Daily Brief — April 9, 2026 | Claude Managed Agents Launch, Accenture Partnership, Snowflake $200M Deal",
     "description": "April 9, 2026: Anthropic launches Claude Managed Agents in public beta with Notion, Rakuten, Asana, and Sentry as early adopters. Accenture signs multi-year partnership. Snowflake expands Claude rollout with $200M deal.",

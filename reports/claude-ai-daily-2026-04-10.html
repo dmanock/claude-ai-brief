@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude AI Daily Brief — April 10, 2026 | Anthropic Closes CoreWeave GPU Deal, $30B ARR, Advisor Tool Beta</title>
+  <meta name="description" content="April 10, 2026: Anthropic signs multi-year CoreWeave GPU deal to scale Claude infrastructure. Revenue hits $30B annualized run rate. Advisor Tool launches in public beta for smarter agentic workloads.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-04-10.html">
+  <meta property="og:title" content="Claude AI Daily Brief — April 10, 2026">
+  <meta property="og:description" content="Anthropic closes multi-year CoreWeave GPU deal. Revenue hits $30B annualized run rate. Advisor Tool launches in public beta for smarter agentic workloads.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-10.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — April 10, 2026">
+  <meta name="twitter:description" content="Anthropic closes multi-year CoreWeave GPU deal. Revenue hits $30B annualized run rate. Advisor Tool launches in public beta for smarter agentic workloads.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-10.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-04-10.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — April 10, 2026",
+    "description": "Anthropic signs multi-year CoreWeave GPU deal to scale Claude infrastructure. Revenue hits $30B annualized run rate. Advisor Tool launches in public beta for smarter agentic workloads.",
+    "datePublished": "2026-04-10T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-10.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-04-10.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Friday, April 10, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; April 10, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #42</p>
+</div>
+
+<div class="main">
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Anthropic Signs Multi-Year CoreWeave Deal to Scale GPU Infrastructure</strong> &mdash; Bloomberg broke the story: Anthropic has agreed to rent data center capacity from CoreWeave across multiple Nvidia chip architectures in US facilities, securing the compute headroom it needs to keep Claude at production scale.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Anthropic&rsquo;s Revenue Hits $30B Annualized Run Rate</strong> &mdash; Up more than 3x from the $9B run rate recorded at the end of 2025, cementing Anthropic as one of the fastest-growing software companies in history. Enterprise makes up roughly 80% of the business.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Advisor Tool Launches in Public Beta</strong> &mdash; The new API feature pairs a fast executor model with a high-intelligence advisor model that provides mid-generation strategic guidance &mdash; designed for long-horizon agentic tasks where quality matters as much as speed.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Breaking</span>
+      <h3>Anthropic Signs Multi-Year GPU Deal With CoreWeave to Power Claude at Scale</h3>
+      <p>Bloomberg reported today that Anthropic has agreed to rent data center capacity from CoreWeave under a multi-year agreement. The deal spans a range of Nvidia chip architectures at US-based CoreWeave facilities, giving Anthropic a dedicated GPU supply outside of its existing cloud commitments with Google and Amazon. CoreWeave confirmed that nine of the ten largest AI model providers now use its platform.</p>
+      <p>The timing is notable: Anthropic just crossed $30B in annualized revenue, launched Claude Managed Agents in public beta, and is running Claude Mythos Preview for Project Glasswing &mdash; all workloads that demand a significant and growing compute footprint. The CoreWeave deal buys headroom and negotiating leverage as Anthropic prepares to scale beyond what any single hyperscaler can absorb.</p>
+      <div class="source-links">
+        <a href="https://www.bloomberg.com/news/articles/2026-04-10/anthropic-agrees-to-rent-coreweave-ai-capacity-to-power-claude" class="source-link">Bloomberg</a>
+        <a href="https://thenextweb.com/news/coreweave-has-agreed-a-multi-year-gpu-cloud-deal-with-anthropic-to-power-claude-at-production-scale-its-second-major-ai-infrastructure-announcement-in-48-hours" class="source-link">The Next Web</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Official</span>
+      <h3>Anthropic Revenue Surpasses $30B Annualized Run Rate &mdash; Up 3x From Year-End 2025</h3>
+      <p>Anthropic&rsquo;s annualized revenue run rate surpassed $30 billion in early April 2026, up more than 3x from the $9 billion figure recorded at the end of 2025. Enterprise contracts account for roughly 80% of total revenue per recent disclosures, driven by expanded deals with Snowflake, Accenture, AWS, and Google &mdash; all announced in the past week. The number underscores how quickly the frontier model market has shifted from API experimentation to mission-critical production deployment.</p>
+      <div class="source-links">
+        <a href="https://thenextweb.com/news/coreweave-has-agreed-a-multi-year-gpu-cloud-deal-with-anthropic-to-power-claude-at-production-scale-its-second-major-ai-infrastructure-announcement-in-48-hours" class="source-link">The Next Web</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Official</span>
+      <h3>Anthropic Exploring Custom AI Chip Design to Reduce Compute Dependency</h3>
+      <p>Anthropic is considering designing its own AI chips to address ongoing GPU supply constraints, according to three sources familiar with the matter. No timeline has been confirmed and the effort appears to be in early exploration, but the move would follow a well-worn path: Google, Amazon, and Meta all developed internal silicon to reduce reliance on Nvidia and gain cost advantages at scale. For Anthropic, custom silicon would also allow tighter hardware-software co-design for Claude&rsquo;s inference and training workloads.</p>
+      <div class="source-links">
+        <a href="https://techbriefly.com/2026/04/10/anthropic-explores-custom-ai-chip-design-to-power-claude-models/" class="source-link">TechBriefly</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Developer</span>
+      <h3>Advisor Tool Launches in Public Beta &mdash; Smarter Agents Without the Cost of Full Opus</h3>
+      <p>Anthropic&rsquo;s new advisor tool is now in public beta. It pairs a fast executor model (typically Sonnet or Haiku) with a high-intelligence advisor model (Opus 4.6) that provides strategic mid-generation guidance for long-horizon agentic tasks &mdash; all within a single API call. The idea: get near-Opus quality on decisions that matter while keeping latency and cost down for routine steps. To use it, include the beta header <code>advisor-tool-2026-03-01</code> and add an advisor tool with type <code>advisor_20260301</code> and <code>model: claude-opus-4-6</code>. Advisor tokens are billed at Opus 4.6 rates; executor tokens at Sonnet or Haiku rates.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Claude Docs</a>
+        <a href="https://www.buildfastwithai.com/blogs/anthropic-advisor-strategy-claude-api" class="source-link">Build Fast With AI</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Developer</span>
+      <h3>Message Batches API Now Supports 300k max_tokens for Opus 4.6 and Sonnet 4.6</h3>
+      <p>Anthropic raised the <code>max_tokens</code> cap to 300,000 on the Message Batches API for Claude Opus 4.6 and Claude Sonnet 4.6. Add the beta header <code>output-300k-2026-03-24</code> to unlock long-form outputs in batch jobs &mdash; useful for generating full documents, large codebases, structured data exports, and other tasks that hit the previous 8K-64K ceiling. Standard Batches API pricing applies, with the 50% cost reduction versus synchronous calls still in effect.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Release Notes</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Developer</span>
+      <h3>Claude Code: Vertex AI Setup Wizard, Linux Subprocess Sandboxing, and Monitor Tool</h3>
+      <p>The latest Claude Code release adds three notable features. An interactive Google Vertex AI setup wizard is now accessible directly from the login screen, making it faster to point Claude Code at a GCP project. Subprocess sandboxing now uses PID namespace isolation on Linux, hardening the execution environment against privilege escalation. And a new Monitor tool lets scripts stream events from background processes in real time, which is useful for long-running build, test, or data pipeline workflows running alongside active Claude Code sessions.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Community</span>
+      <h3>Anthropic Tightens Claude Subscription Rules for Third-Party Agents</h3>
+      <p>Anthropic updated its usage policies to restrict how third-party agents can access Claude through consumer subscription plans. Per PYMNTS reporting, agents built by external developers will need to use the API directly under their own credentials rather than routing through end-user Claude.ai subscriptions. The change closes a grey-area in how automation tools and agent frameworks have historically piggy-backed on personal plans. Developers running agents on behalf of users should review the updated usage policies and migrate to API keys if they haven&rsquo;t already.</p>
+      <div class="source-links">
+        <a href="https://www.pymnts.com/artificial-intelligence-2/2026/third-party-agents-lose-access-as-anthropic-tightens-claude-usage-rules/" class="source-link">PYMNTS</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Community</span>
+      <h3>Claude Cowork Gets Enterprise Features Alongside Managed Agents Push</h3>
+      <p>Alongside this week&rsquo;s Managed Agents launch, Anthropic quietly shipped enterprise-grade updates to Claude Cowork, the desktop AI tool for non-developers. Per 9to5Mac, the updates include centralized admin controls, audit logging, and expanded file-type support &mdash; features that enterprise IT teams have requested since Cowork launched. The move signals Anthropic is positioning Cowork as a serious enterprise productivity tool, not just a consumer companion app, and aligns with the broader enterprise platform push that defined this week&rsquo;s announcements.</p>
+      <div class="source-links">
+        <a href="https://9to5mac.com/2026/04/09/anthropic-scales-up-with-enterprise-features-for-claude-cowork-and-managed-agents/" class="source-link">9to5Mac</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>Anthropic&rsquo;s Compute Strategy Is Now As Important As Its Model Strategy</h3>
+      <p>CoreWeave deal, custom chip exploration, Google partnership, AWS deep integration &mdash; Anthropic is quietly assembling a multi-cloud, multi-vendor compute stack. That&rsquo;s the right play for a company at $30B ARR with ambitions to go higher. A single cloud dependency is both a margin problem and a reliability risk, as anyone who watched the April 6-8 outages can attest. Diversifying compute is how you build the kind of SLA guarantees that enterprise contracts actually require.</p>
+      <p>But there is a real tension here. Anthropic&rsquo;s safety mission has always been about moving carefully. Infrastructure races don&rsquo;t reward careful. Every data center deal, every chip partnership, every managed service layer is a commitment to scale fast and keep scaling. At some point the question isn&rsquo;t whether Anthropic can build a reliable platform &mdash; it&rsquo;s whether the pace of that build is compatible with the cautious deployment culture that made Claude trustworthy in the first place.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
