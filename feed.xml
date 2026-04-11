@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 11, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-11.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-11.html</guid>
+      <pubDate>Sat, 11 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Bessent & Powell Summon Bank CEOs to Emergency Mythos Meeting</strong> — Treasury Secretary and Fed Chair convened the heads of America's largest banks to discuss cybersecurity risks posed by Anthropic's Mythos model.</p>
+        <p><strong>2. Software Stocks Slide 2.6% as Mythos Reignites Disruption Fears</strong> — S&P 500 Software Index extends its 2026 decline to 25.5% YTD. Cybersecurity names CrowdStrike, Cloudflare, and Okta fell 5-6.5%.</p>
+        <p><strong>3. Claude Haiku 3 Retires April 19</strong> — Eight days left to migrate from the original budget model. API calls to claude-3-haiku-20240307 will fail after the deadline.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-11.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 10, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-10.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-10.html</guid>
