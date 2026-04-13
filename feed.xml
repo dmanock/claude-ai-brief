@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 13, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-13.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-13.html</guid>
+      <pubDate>Mon, 13 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Mythos Lands on Amazon Bedrock via Project Glasswing</strong> — Anthropic's most capable model is now a gated research preview on Bedrock, accessible to vetted orgs including Apple, Google, and Microsoft for defensive cybersecurity only.</p>
+        <p><strong>2. Claude.ai and Claude Code Hit by Login Outage</strong> — A 51-minute authentication failure locked users out of Claude.ai and took Claude Code offline for 15 minutes. Now fully resolved.</p>
+        <p><strong>3. Anthropic Consulted 15 Christian Leaders on Claude's Moral Future</strong> — A two-day summit at Anthropic HQ covered grief, self-harm responses, and whether Claude could be a "child of God."</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-13.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 12, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-12.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-12.html</guid>

@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-04-13",
+    "title": "Claude AI Daily Brief — April 13, 2026 | Mythos Hits Amazon Bedrock, Claude Login Outage, Anthropic Consults Christian Leaders",
+    "description": "April 13, 2026: Claude Mythos lands on Amazon Bedrock as a gated research preview via Project Glasswing. Claude.ai suffers a 51-minute login outage. Anthropic hosts 15 Christian leaders for a moral advisory summit.",
+    "url": "reports/claude-ai-daily-2026-04-13.html",
+    "headlines": [
+      "Mythos Hits Amazon Bedrock",
+      "Claude Login Outage",
+      "Anthropic Consults Christian Leaders",
+      "Claude Mythos Preview Arrives on Amazon Bedrock &mdash; Project Glasswing Goes Live",
+      "Claude.ai and Claude Code Login Outage &mdash; 51 Minutes Down, Now Resolved",
+      "Claude Code Ships Major Update &mdash; Focus View, Security Fixes, and 60% Faster Diffs",
+      "Claude Haiku 3 Retires in Six Days &mdash; April 19 Is the Hard Deadline",
+      "Anthropic Hosted 15 Christian Leaders to Advise on Claude&rsquo;s Moral and Spiritual Future",
+      "HumanX Recap &mdash; Dataconomy Digs Deeper Into Agentic AI&rsquo;s Enterprise Moment, OpenAI Counters",
+      "Claude Opus 4.7 Leaks in API References &mdash; Full-Stack AI Studio Also Spotted",
+      "The Church Summit Critics Are Missing the Point"
+    ],
+    "snippet": "Claude AI Daily Brief — April 13, 2026 | Mythos Hits Amazon Bedrock, Claude Login Outage, Anthropic Consults Christian Leaders ● Monday, April 13, 2026 Claude AI Daily Brief — April 13, 2026 Covering the last 24 hours · Edition #45 TL;DR — Today’s Top 3 Takeaways 1. Mythos Lands on Amazon Bedrock vi"
+  },
+  {
     "date": "2026-04-12",
     "title": "Claude AI Daily Brief — April 12, 2026 | Cowork Goes GA With Enterprise Controls, \"Claude Mania\" Sweeps HumanX, Claude Code Ships Team Onboarding",
     "description": "April 12, 2026: Claude Cowork exits preview with RBAC, analytics, and spend controls for enterprise. 'Claude mania' dominates HumanX conference. Claude Code 2.1.101 adds team onboarding and enterprise TLS.",
