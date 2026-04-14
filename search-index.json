@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-04-14",
+    "title": "Claude AI Daily Brief — April 14, 2026 | Claude for Word Launches, Anthropic Eyes Custom Chips, CoreWeave Deal",
+    "description": "April 14, 2026: Claude for Word ships in beta with tracked changes. Anthropic explores designing its own AI chips as Claude revenue surges past $30B run rate. CoreWeave inks multi-year deal to power Claude.",
+    "url": "reports/claude-ai-daily-2026-04-14.html",
+    "headlines": [
+      "Claude for Word Launches",
+      "Anthropic Eyes Custom Chips",
+      "CoreWeave Deal",
+      "Claude for Word Lands in Beta &mdash; Tracked Changes, Comment Replies, Whole-Doc Scanning",
+      "CoreWeave Joins the Claude Compute Stack &mdash; Multi-Year Deal Confirmed",
+      "Claude Code Update &mdash; Worktree Switching, PreCompact Hook Blocking, Background Plugin Monitors",
+      "Claude Managed Agents Are in Public Beta &mdash; $0.08 per Session-Hour",
+      "Five Days Until Claude Haiku 3 Retirement &mdash; April 19 Hard Deadline",
+      "Anthropic Explores Designing Its Own AI Chips as Revenue Tops $30B Run Rate",
+      "Anthropic Opens Bengaluru Office &mdash; India Is Now Claude&rsquo;s #2 Market",
+      "Plugin Marketplace Crosses 500+ Extensions &mdash; And the Ecosystem Is Splintering",
+      "Three Stories, One Throughline: Anthropic Is Becoming an Infrastructure Company"
+    ],
+    "snippet": "Claude AI Daily Brief — April 14, 2026 | Claude for Word Launches, Anthropic Eyes Custom Chips, CoreWeave Deal ● Tuesday, April 14, 2026 Claude AI Daily Brief — April 14, 2026 Covering the last 24 hours · Edition #46 TL;DR — Today’s Top 3 Takeaways 1. Claude for Word Ships in Beta — Anthropic launch"
+  },
+  {
     "date": "2026-04-13",
     "title": "Claude AI Daily Brief — April 13, 2026 | Mythos Hits Amazon Bedrock, Claude Login Outage, Anthropic Consults Christian Leaders",
     "description": "April 13, 2026: Claude Mythos lands on Amazon Bedrock as a gated research preview via Project Glasswing. Claude.ai suffers a 51-minute login outage. Anthropic hosts 15 Christian leaders for a moral advisory summit.",
