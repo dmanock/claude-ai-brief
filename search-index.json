@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-04-15",
+    "title": "Claude AI Daily Brief — April 15, 2026 | Opus 4.7 Imminent, Claude Code Routines Ship, Performance Backlash",
+    "description": "April 15, 2026: Claude Opus 4.7 and a new AI design tool reportedly ship this week. Claude Code Routines launch as cloud automation. Anthropic faces mounting backlash over Claude's reduced default 'effort' level.",
+    "url": "reports/claude-ai-daily-2026-04-15.html",
+    "headlines": [
+      "Opus 4.7 Imminent",
+      "Claude Code Routines Ship",
+      "Performance Backlash",
+      "Claude Code Routines Launch &mdash; Cloud Automations via Schedule, API, and GitHub Triggers",
+      "Claude Cowork Hits General Availability on macOS and Windows",
+      "Claude Opus 4.7 and a New AI Design Tool Could Ship This Week",
+      "API Updates &mdash; Batch Outputs Up to 300k, 1M Context Beta Ending Soon",
+      "Four Days Until Claude Haiku 3 Retirement &mdash; April 19 Hard Deadline",
+      "&ldquo;Is Anthropic Nerfing Claude?&rdquo; &mdash; User Backlash Over Quiet Effort-Level Cut",
+      "Accenture-Anthropic Partnership Expands &mdash; 30,000 Professionals to Be Trained on Claude",
+      "Leaked Roadmap Suggests Claude Builder and &ldquo;Mythos&rdquo; on the Horizon",
+      "Ship Fast, Explain Faster: Anthropic&rsquo;s Transparency Debt Is Coming Due"
+    ],
+    "snippet": "Claude AI Daily Brief — April 15, 2026 | Opus 4.7 Imminent, Claude Code Routines Ship, Performance Backlash ● Wednesday, April 15, 2026 Claude AI Daily Brief — April 15, 2026 Covering the last 24 hours · Edition #47 TL;DR — Today’s Top 3 Takeaways 1. Opus 4.7 and an AI Design Tool Ship This Week — T"
+  },
+  {
     "date": "2026-04-14",
     "title": "Claude AI Daily Brief — April 14, 2026 | Claude for Word Launches, Anthropic Eyes Custom Chips, CoreWeave Deal",
     "description": "April 14, 2026: Claude for Word ships in beta with tracked changes. Anthropic explores designing its own AI chips as Claude revenue surges past $30B run rate. CoreWeave inks multi-year deal to power Claude.",

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude AI Daily Brief — April 15, 2026 | Opus 4.7 Imminent, Claude Code Routines Ship, Performance Backlash</title>
+  <meta name="description" content="April 15, 2026: Claude Opus 4.7 and a new AI design tool reportedly ship this week. Claude Code Routines launch as cloud automation. Anthropic faces mounting backlash over Claude's reduced default 'effort' level.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-04-15.html">
+  <meta property="og:title" content="Claude AI Daily Brief — April 15, 2026">
+  <meta property="og:description" content="Claude Opus 4.7 arrives this week per The Information. Claude Code Routines ship as cloud automation. Users revolt over Claude's quietly reduced 'effort' level.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-15.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — April 15, 2026">
+  <meta name="twitter:description" content="Claude Opus 4.7 arrives this week per The Information. Claude Code Routines ship as cloud automation. Users revolt over Claude's quietly reduced 'effort' level.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-15.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-04-15.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — April 15, 2026",
+    "description": "Claude Opus 4.7 and a new AI design tool reportedly ship this week. Claude Code Routines launch as cloud automation. Anthropic faces mounting backlash over Claude's reduced default 'effort' level.",
+    "datePublished": "2026-04-15T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-15.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-04-15.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Wednesday, April 15, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; April 15, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #47</p>
+</div>
+
+<div class="main">
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Opus 4.7 and an AI Design Tool Ship This Week</strong> &mdash; The Information reports Anthropic is readying Claude Opus 4.7 plus a new website-and-slides design tool for launch as soon as this week. Expected focus: longer-horizon autonomy, multi-agent coordination, stronger reasoning.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Claude Code Routines Go Live</strong> &mdash; Anthropic shipped Routines as a research preview: saved Claude Code configs that run on Anthropic&rsquo;s cloud via schedule, HTTP, or GitHub triggers. No laptop required. Pro 5/day, Max 15, Team/Enterprise 25.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Power Users Revolt Over Quiet &ldquo;Effort&rdquo; Nerf</strong> &mdash; Fortune, The Register, and VentureBeat detail growing backlash after Anthropic reduced Claude&rsquo;s default effort level to &ldquo;medium&rdquo; to save tokens. Boris Cherny confirmed the change; users say it wasn&rsquo;t disclosed.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Developer</span>
+      <h3>Claude Code Routines Launch &mdash; Cloud Automations via Schedule, API, and GitHub Triggers</h3>
+      <p>Anthropic shipped Claude Code Routines as a research preview. A routine is a saved Claude Code configuration &mdash; a prompt, one or more repositories, and a set of connectors &mdash; packaged once and executed automatically on Anthropic&rsquo;s infrastructure. Your Mac doesn&rsquo;t have to be online. Each routine can attach one or more triggers: a recurring schedule (hourly, nightly, weekly), an API trigger that hits a per-routine HTTPS endpoint with a bearer token, or a GitHub trigger that fires on pull requests, pushes, issues, or workflow runs.</p>
+      <p>Daily run limits mirror the pricing tiers: Pro gets 5 routines per day, Max gets 15, and Team or Enterprise gets 25. The pitch is that Claude Code finally behaves like a proper automation backend &mdash; overnight code reviews, scheduled migrations, PR triage, content pipelines &mdash; without babysitting a terminal. Companion feature: the Claude Code desktop app picked up a visual makeover and multi-session support.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/routines" class="source-link">Routines Docs</a>
+        <a href="https://siliconangle.com/2026/04/14/anthropics-claude-code-gets-automated-routines-desktop-makeover/" class="source-link">SiliconANGLE</a>
+        <a href="https://9to5mac.com/2026/04/14/anthropic-adds-repeatable-routines-feature-to-claude-code-heres-how-it-works/" class="source-link">9to5Mac</a>
+        <a href="https://www.implicator.ai/anthropic-ships-claude-code-routines-cloud-automations-that-run-without-your-mac/" class="source-link">Implicator</a>
+        <a href="https://startupnews.fyi/2026/04/15/claude-code-can-now-do-your-job-overnight/" class="source-link">StartupNews</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Official</span>
+      <h3>Claude Cowork Hits General Availability on macOS and Windows</h3>
+      <p>Claude Cowork &mdash; Anthropic&rsquo;s desktop agent surface for non-developer knowledge work &mdash; moved out of research preview and into general availability on both macOS and Windows inside the Claude Desktop app. The GA release lands with Analytics API coverage, OpenTelemetry support, and role-based access controls that let enterprise admins organize users into groups via manual assignment or SCIM, then grant each group a custom capability profile.</p>
+      <p>Pro and Max subscribers also picked up a persistent agent thread reachable from Claude Desktop and Claude for iOS/Android, so Cowork tasks can be managed on the move. This is Anthropic&rsquo;s bet on Claude as a full-time coworker rather than a chat window &mdash; and it lines up directly against Microsoft Copilot&rsquo;s desktop play.</p>
+      <div class="source-links">
+        <a href="https://claude.com/product/cowork" class="source-link">Anthropic</a>
+        <a href="https://support.claude.com/en/articles/12138966-release-notes" class="source-link">Release Notes</a>
+        <a href="https://winbuzzer.com/2026/04/04/anthropic-claude-desktop-control-windows-cowork-dispatch-xcxwbn/" class="source-link">WinBuzzer</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Leak</span>
+      <h3>Claude Opus 4.7 and a New AI Design Tool Could Ship This Week</h3>
+      <p>The Information broke the story, followed by Dataconomy, The Tech Portal, and Geeky Gadgets: Anthropic is preparing to ship Claude Opus 4.7 alongside a new AI-first design tool for building websites and presentations. Both products could land as soon as this week. Opus 4.7 is positioned as an incremental upgrade over Opus 4.6 (Feb 2026, 1M-token context) with a heavier emphasis on long-horizon autonomy, multi-step reasoning, and multi-agent coordination.</p>
+      <p>The design tool appears to be a companion surface to the &ldquo;Claude Builder&rdquo; interface spotted in earlier Anthropic leaks &mdash; template-based design, real-time previews, and baked-in security. Combined with Word integration, Cowork GA, and the new design tool, Anthropic is filling in the enterprise productivity suite piece by piece.</p>
+      <div class="source-links">
+        <a href="https://www.theinformation.com/briefings/exclusive-anthropic-preps-opus-4-7-model-ai-design-tool" class="source-link">The Information</a>
+        <a href="https://dataconomy.com/2026/04/15/anthropic-to-launch-claude-opus-4-7-this-week/" class="source-link">Dataconomy</a>
+        <a href="https://thetechportal.com/2026/04/15/anthropic-could-soon-release-opus-4-7-model-and-ai-design-tool/" class="source-link">Tech Portal</a>
+        <a href="https://www.geeky-gadgets.com/claude-opus-4-7-leak-anthropic-updates/" class="source-link">Geeky Gadgets</a>
+        <a href="https://findskill.ai/blog/claude-opus-4-7-release-tracker/" class="source-link">FindSkill</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Developer</span>
+      <h3>API Updates &mdash; Batch Outputs Up to 300k, 1M Context Beta Ending Soon</h3>
+      <p>The Message Batches API output ceiling was raised to 300k tokens for Claude Opus 4.6 and Sonnet 4.6 behind the <code>output-300k-2026-03-24</code> beta header &mdash; useful for long-form synthesis, code generation, and agent runs that outgrow the old cap. Pair with streaming for better time-to-first-token behavior.</p>
+      <p>Heads-up on two deprecation clocks: the 1M-token context window beta for Claude Sonnet 4.5 and Sonnet 4 retires on April 30, and Claude Opus 4 plus Sonnet 4 both sunset on June 15. Migration path is Opus 4.6 and Sonnet 4.6 &mdash; same API shape, better numbers. Also on the deprecation clock: Claude Haiku 3 hits its hard cutoff on April 19 (four days out), with Haiku 4.5 as the drop-in.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">API Release Notes</a>
+        <a href="https://platform.claude.com/docs/en/about-claude/model-deprecations" class="source-link">Model Deprecations</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-tip">Reminder</span>
+      <h3>Four Days Until Claude Haiku 3 Retirement &mdash; April 19 Hard Deadline</h3>
+      <p>Four days remain on the deprecation clock for <code>claude-3-haiku-20240307</code>. After April 19, API calls against the old model string will fail outright. Migration target is Claude Haiku 4.5 (<code>claude-haiku-4-5-20251001</code>): faster, more capable, same price point.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/about-claude/model-deprecations" class="source-link">Model Deprecations</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Controversy</span>
+      <h3>&ldquo;Is Anthropic Nerfing Claude?&rdquo; &mdash; User Backlash Over Quiet Effort-Level Cut</h3>
+      <p>Fortune, The Register, VentureBeat, and others spent the last 48 hours covering the mounting user complaints that Claude has gotten noticeably worse. Developers report more syntax errors in Claude Code, weaker multi-file refactoring, and shortcut-taking on complex workflows. A viral post alleging a 67% drop in one specific coding benchmark spread widely. The underlying trigger: Anthropic quietly reduced the model&rsquo;s default &ldquo;effort&rdquo; level to economize on tokens.</p>
+      <p>Boris Cherny, who leads Claude Code, confirmed the change on X: Anthropic dropped the default effort setting to &ldquo;medium&rdquo; in response to feedback that Claude was burning too many tokens per task. The backlash is less about the change and more about the disclosure &mdash; or lack of it. Anthropic has built its brand on transparency; silent downgrades land hard with paying power users. Speculation is also building that Anthropic is simply compute-constrained as the $30B run rate keeps climbing.</p>
+      <div class="source-links">
+        <a href="https://fortune.com/2026/04/14/anthropic-claude-performance-decline-user-complaints-backlash-lack-of-transparency-accusations-compute-crunch/" class="source-link">Fortune</a>
+        <a href="https://www.theregister.com/2026/04/13/claude_outage_quality_complaints/" class="source-link">The Register</a>
+        <a href="https://venturebeat.com/technology/is-anthropic-nerfing-claude-users-increasingly-report-performance" class="source-link">VentureBeat</a>
+        <a href="https://creati.ai/ai-news/2026-04-14/anthropic-claude-performance-decline-user-backlash-nerfing/" class="source-link">Creati</a>
+        <a href="https://trend.hulryung.com/en/posts/2026-04-07-1800-claude-code-regression-ai-coding-tool-quality-degradation-user-backlash-2026/" class="source-link">Trend Reader</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Business</span>
+      <h3>Accenture-Anthropic Partnership Expands &mdash; 30,000 Professionals to Be Trained on Claude</h3>
+      <p>Accenture and Anthropic expanded their multi-year partnership with a new Accenture Anthropic Business Group and a commitment to train roughly 30,000 Accenture professionals on Claude. Accenture also becomes a premier AI partner for Claude Code &mdash; which, per the announcement, now holds over half of the AI coding market &mdash; putting the tool in front of tens of thousands of Accenture developers.</p>
+      <p>The partners will co-develop offerings for regulated sectors where security and governance have slowed AI adoption: financial services, life sciences, healthcare, and public sector. A joint offering aimed at CIOs will focus on measuring value and driving large-scale engineering adoption. This is the biggest systems-integrator endorsement Anthropic has scored and it puts Claude inside deal rooms where OpenAI plus Microsoft has dominated.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/anthropic-accenture-partnership" class="source-link">Anthropic</a>
+        <a href="https://techinformed.com/accenture-anthropic-expand-claude-partnership-with-30000-employee-training-program/" class="source-link">TechInformed</a>
+        <a href="https://www.executivebiz.com/articles/accenture-anthropic-business-group-claude-ai" class="source-link">ExecutiveBiz</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Ecosystem</span>
+      <h3>Leaked Roadmap Suggests Claude Builder and &ldquo;Mythos&rdquo; on the Horizon</h3>
+      <p>Alongside the Opus 4.7 leak, references to a &ldquo;Claude Builder&rdquo; interface continue to surface &mdash; positioned as a full-stack app creation surface with template-based design, real-time previews, multi-repo support, and built-in security primitives. Separately, the March 26 CMS misconfiguration that leaked benchmark data for Claude Mythos (SWE-bench 93.9%, strong multimodal scores) is still rippling through the ecosystem after Anthropic confirmed on April 7 that Mythos will be restricted to select partners via &ldquo;Project Glasswing&rdquo; rather than shipped broadly.</p>
+      <p>Taken together: Opus 4.7 for general availability, Mythos for controlled high-risk-capability deployment, Builder for low-code app creation, the design tool for knowledge workers. Anthropic is segmenting its product line faster than any other frontier lab.</p>
+      <div class="source-links">
+        <a href="https://www.geeky-gadgets.com/metis-vs-gpt-5-4-pro-benchmarks/" class="source-link">Geeky Gadgets</a>
+        <a href="https://red.anthropic.com/2026/mythos-preview/" class="source-link">Anthropic Red</a>
+        <a href="https://renovateqr.com/blog/ai-models-april-2026" class="source-link">RenovateQR</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>Ship Fast, Explain Faster: Anthropic&rsquo;s Transparency Debt Is Coming Due</h3>
+      <p>Zoom out on the last 72 hours. Anthropic is shipping at a pace no frontier lab has matched in 2026: Routines, Cowork GA, Word integration last week, Opus 4.7 and a design tool queued for this week, Builder and Mythos on deck. That&rsquo;s the &ldquo;ship&rdquo; side. The &ldquo;explain&rdquo; side is where the cracks are showing. A silent effort-level downgrade to save tokens is exactly the kind of move an infrastructure-stressed research lab makes &mdash; and exactly the kind of move Anthropic built its brand on not making.</p>
+      <p>The interesting read isn&rsquo;t that Claude got slightly dumber for a few weeks. Models get nudged all the time. The interesting read is that the same $30B-run-rate scaling story driving the feature velocity is also creating the compute pressure that forced the silent nerf. You can&rsquo;t triple revenue in a quarter without something giving. Today it was default effort level. Tomorrow it might be rate limits, latency, or cache behavior. The test for Anthropic over the next month is simple: get back to disclosing changes before users reverse-engineer them from benchmarks. The brand is the moat. Don&rsquo;t ship past it.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
