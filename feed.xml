@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 16, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-16.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-16.html</guid>
+      <pubDate>Thu, 16 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Opus 4.7 Model ID Spotted on Google Vertex AI</strong> — A user surfaced anthropic-claude-opus-4-7 in the Vertex AI console quota page, corroborating last week's Information report. Polymarket pegs a launch on or before today at roughly 79%.</p>
+        <p><strong>2. Anthropic Rolls Out Government ID + Selfie Verification</strong> — A quiet help-center update confirms Claude users can now be asked for passport and live selfie via Persona before accessing certain capabilities. Data held by Persona, not used for training.</p>
+        <p><strong>3. Yesterday's Three-Hour Claude Outage Leaves Questions</strong> — Claude.ai, API, and Claude Code hit elevated errors at 10:53 AM ET, returned and broke again, then fully recovered by 1:42 PM ET. 7,000+ users reported problems at peak.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-16.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 15, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-15.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-15.html</guid>
@@ -384,17 +397,5 @@
       ]]></description>
     </item>
 
-    <item>
-      <title>Claude AI Daily Brief — March 17, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-17.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-17.html</guid>
-      <pubDate>Tue, 17 Mar 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Partner Network Launches with $100M Investment</strong> — Anthropic unveils a structured partner program for enterprises, with Deloitte and Accenture as founding members. The partner team is growing 5x and a new Claude Certified Architect certification is now available.</p>
-        <p><strong>2. Anthropic Acquires Vercept to Supercharge Computer Use</strong> — The 9-person AI perception startup joins Anthropic. Claude already hit 72.5% on OSWorld, up from under 15% when computer use launched in late 2024.</p>
-        <p><strong>3. Third Claude Outage This Month Hits Free Users</strong> — Service disruption on March 17 appears limited to free-tier users on Claude.ai. Anthropic has identified the issue and is deploying a fix.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-17.html">Read full report →</a></p>
-      ]]></description>
-    </item>
   </channel>
 </rss>

@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-04-16",
+    "title": "Claude AI Daily Brief — April 16, 2026 | Opus 4.7 Model ID Leaks, ID Verification Arrives, Outage Recap",
+    "description": "April 16, 2026: Claude Opus 4.7 model ID spotted on Google Vertex AI, Anthropic launches Persona-based government ID and selfie verification, and yesterday's Claude outage gets a post-mortem.",
+    "url": "reports/claude-ai-daily-2026-04-16.html",
+    "headlines": [
+      "Opus 4.7 Model ID Leaks",
+      "ID Verification Arrives",
+      "Outage Recap",
+      "Anthropic Quietly Launches Persona-Based Identity Verification for Claude",
+      "Claude Hit by Three-Hour Outage &mdash; Resolved, But Timing Stings",
+      "Opus 4.7 Model ID Found in Google Vertex AI Console &mdash; Launch Imminent",
+      "Three Days Until Claude Haiku 3 Hard Cutoff &mdash; April 19",
+      "Claude Code Routines: Three Days In, Developer Take Has Shifted",
+      "Anthropic in Talks with Blackstone, H&amp;F, Permira for $1B Private Equity Push",
+      "Mythos Fallout Continues &mdash; AISI and Help Net Security Publish Eval Results",
+      "The Privacy-Capability Trade Anthropic Just Made"
+    ],
+    "snippet": "Claude AI Daily Brief — April 16, 2026 | Opus 4.7 Model ID Leaks, ID Verification Arrives, Outage Recap ● Thursday, April 16, 2026 Claude AI Daily Brief — April 16, 2026 Covering the last 24 hours · Edition #48 TL;DR — Today’s Top 3 Takeaways 1. Opus 4.7 Model ID Spotted on Google Vertex AI — A user"
+  },
+  {
     "date": "2026-04-15",
     "title": "Claude AI Daily Brief — April 15, 2026 | Opus 4.7 Imminent, Claude Code Routines Ship, Performance Backlash",
     "description": "April 15, 2026: Claude Opus 4.7 and a new AI design tool reportedly ship this week. Claude Code Routines launch as cloud automation. Anthropic faces mounting backlash over Claude's reduced default 'effort' level.",

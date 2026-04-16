@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude AI Daily Brief — April 16, 2026 | Opus 4.7 Model ID Leaks, ID Verification Arrives, Outage Recap</title>
+  <meta name="description" content="April 16, 2026: Claude Opus 4.7 model ID spotted on Google Vertex AI, Anthropic launches Persona-based government ID and selfie verification, and yesterday's Claude outage gets a post-mortem.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-04-16.html">
+  <meta property="og:title" content="Claude AI Daily Brief — April 16, 2026">
+  <meta property="og:description" content="Opus 4.7 model ID leaks on Vertex AI. Anthropic rolls out passport-and-selfie verification via Persona. Yesterday's three-hour Claude outage gets a post-mortem.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-16.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — April 16, 2026">
+  <meta name="twitter:description" content="Opus 4.7 model ID leaks on Vertex AI. Anthropic rolls out passport-and-selfie verification via Persona. Yesterday's three-hour Claude outage gets a post-mortem.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-16.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-04-16.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — April 16, 2026",
+    "description": "Claude Opus 4.7 model ID spotted on Google Vertex AI, Anthropic launches Persona-based government ID and selfie verification, and yesterday's Claude outage gets a post-mortem.",
+    "datePublished": "2026-04-16T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-16.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-04-16.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Thursday, April 16, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; April 16, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #48</p>
+</div>
+
+<div class="main">
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Opus 4.7 Model ID Spotted on Google Vertex AI</strong> &mdash; A user surfaced <code>anthropic-claude-opus-4-7</code> in the Vertex AI console quota page, corroborating last week&rsquo;s Information report. Polymarket now pegs a launch on or before today at roughly 79%. A design tool is expected in the same wave.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Anthropic Rolls Out Government ID + Selfie Verification</strong> &mdash; A quiet help-center update confirms Claude users can now be asked for passport and live selfie via Persona before accessing certain capabilities. Data is held by Persona, not used for training &mdash; but the privacy debate started overnight.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Yesterday&rsquo;s Three-Hour Claude Outage Leaves Questions</strong> &mdash; Claude.ai, API, and Claude Code hit elevated errors at 10:53 AM ET, returned and broke again, then fully recovered by 1:42 PM ET. 7,000+ users reported problems. Coming right after the &ldquo;nerf&rdquo; backlash, it&rsquo;s bad timing.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Policy</span>
+      <h3>Anthropic Quietly Launches Persona-Based Identity Verification for Claude</h3>
+      <p>Anthropic updated a help-center article on April 14 confirming that some Claude users will now be asked to verify their identity through verification partner Persona before accessing certain capabilities. Requirements: a physical, undamaged government-issued photo ID (passport, driver&rsquo;s license, or national ID) plus, in some cases, a live selfie. Mobile IDs, photocopies, and student credentials don&rsquo;t count. Anthropic says Persona collects and holds the images; Anthropic can access verification records when needed (for example, to review an appeal) but doesn&rsquo;t copy or store the images itself, and the data will not be used to train models or shared for marketing.</p>
+      <p>Stated triggers: accessing certain capabilities, routine platform integrity checks, or safety and compliance measures. The policy is already drawing critical coverage from Decrypt, Yahoo Tech, and Medianama (which flagged an adjacent issue where adult users were being flagged as minors and suspended). For a company whose early adopter base heavily overlaps with the privacy-conscious developer crowd that fled OpenAI, KYC-style verification is a notable brand shift &mdash; even if narrowly scoped.</p>
+      <div class="source-links">
+        <a href="https://support.claude.com/en/articles/14328960-identity-verification-on-claude" class="source-link">Claude Help Center</a>
+        <a href="https://decrypt.co/364509/claude-anthropic-government-id-kyc-privacy" class="source-link">Decrypt</a>
+        <a href="https://tech.yahoo.com/ai/claude/articles/anthropic-may-now-demand-government-000000288.html" class="source-link">Yahoo Tech</a>
+        <a href="https://piunikaweb.com/2026/04/16/anthropic-claude-identity-verification-persona/" class="source-link">Piunikaweb</a>
+        <a href="https://www.medianama.com/2026/04/223-claude-users-accounts-suspended-flagged-minors/" class="source-link">Medianama</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Outage</span>
+      <h3>Claude Hit by Three-Hour Outage &mdash; Resolved, But Timing Stings</h3>
+      <p>On April 15, Anthropic&rsquo;s status page flipped to &ldquo;elevated errors on Claude.ai, API, Claude Code&rdquo; at 10:53 AM ET. A fix rolled at 11:03, then regressed at 11:40 with Claude.ai and Platform fully down. Incident was marked resolved at 1:42 PM ET. Pro users couldn&rsquo;t log in because verification codes weren&rsquo;t generating; free users saw prompt-usage tracking errors. Downdetector logged 7,000+ reports at peak. Claude Code via claude.ai login was also affected.</p>
+      <p>On its own, a three-hour incident is normal cloud AI life. Sitting on top of the &ldquo;effort nerf&rdquo; discourse from last weekend, it reinforces the narrative that Anthropic&rsquo;s $30B run rate is outpacing its infrastructure maturity. Enterprise buyers reading both stories in the same week will be asking harder questions about SLAs and compute headroom.</p>
+      <div class="source-links">
+        <a href="https://status.claude.com/" class="source-link">Anthropic Status</a>
+        <a href="https://www.cnbc.com/2026/04/15/anthropic-outage-elevated-errors-claude-chatbot-code-api.html" class="source-link">CNBC</a>
+        <a href="https://www.techradar.com/news/live/claude-anthropic-down-outage-april-15-2026" class="source-link">TechRadar</a>
+        <a href="https://gvwire.com/2026/04/15/claude-ai-goes-down-for-thousands-of-users-wednesday-downdetector-reports/" class="source-link">GV Wire</a>
+        <a href="https://www.ibtimes.com.au/claude-down-now-claude-ai-outage-hits-users-hard-anthropics-chatbot-down-again-april-15-2026-1866682" class="source-link">IBTimes</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Leak</span>
+      <h3>Opus 4.7 Model ID Found in Google Vertex AI Console &mdash; Launch Imminent</h3>
+      <p>A user spotted an unreleased model ID &mdash; <code>base_model: anthropic-claude-opus-4-7</code> &mdash; in the quota management page of the Google Vertex AI console. The find lines up cleanly with last week&rsquo;s Information report that Anthropic is preparing Opus 4.7 plus a new AI design tool for launch as soon as this week. Polymarket currently assigns roughly a 79% implied probability to Claude 4.7 being released on or before today.</p>
+      <p>Expected positioning: incremental over Opus 4.6, retains the 1M-token context window, heavier emphasis on multi-step reasoning, long-running autonomous tasks, and multi-agent coordination. Target enterprise verticals: finance, legal, research, life sciences. If the drop lands today, the companion design tool for websites and presentations would complete a product surface spanning chat, coding, knowledge work, and creative output &mdash; the full Copilot/ChatGPT-plus-Canvas stack, but Anthropic&rsquo;s version.</p>
+      <div class="source-links">
+        <a href="https://help.apiyi.com/en/claude-opus-4-7-vertex-ai-leak-release-analysis-en.html" class="source-link">Vertex Leak Analysis</a>
+        <a href="https://dataconomy.com/2026/04/15/anthropic-to-launch-claude-opus-4-7-this-week/" class="source-link">Dataconomy</a>
+        <a href="https://www.geeky-gadgets.com/claude-opus-4-7-leak-anthropic-updates/" class="source-link">Geeky Gadgets</a>
+        <a href="https://polymarket.com/event/claude-4pt7-released-by" class="source-link">Polymarket</a>
+        <a href="https://findskill.ai/blog/claude-opus-4-7-release-tracker/" class="source-link">FindSkill</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-tip">Reminder</span>
+      <h3>Three Days Until Claude Haiku 3 Hard Cutoff &mdash; April 19</h3>
+      <p>The deprecation clock on <code>claude-3-haiku-20240307</code> is down to three days. After April 19, API calls against the old model string will fail outright. Drop-in migration: Claude Haiku 4.5 (<code>claude-haiku-4-5-20251001</code>) &mdash; faster, more capable, same price tier. If you still have cron jobs, batch pipelines, or legacy agents pinned to Haiku 3, this week is your last window to migrate cleanly.</p>
+      <p>Also on the calendar: the 1M-token context beta for Sonnet 4.5 and Sonnet 4 expires April 30, and Opus 4 plus Sonnet 4 both sunset June 15. Migration targets are Opus 4.6 and Sonnet 4.6 &mdash; same API shape, better evals, lower price.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/about-claude/model-deprecations" class="source-link">Model Deprecations</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">API Release Notes</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Developer</span>
+      <h3>Claude Code Routines: Three Days In, Developer Take Has Shifted</h3>
+      <p>Claude Code Routines went live in research preview on April 14. Three days of developer hands-on reveals the real story: this isn&rsquo;t Claude Code with a scheduler, it&rsquo;s Claude Code with a web backend. Routines run on Anthropic&rsquo;s infrastructure, not your laptop. A routine is a saved prompt plus one or more repos plus connectors, triggered by schedule (hourly/daily/weekly), an HTTPS endpoint with bearer auth, or GitHub events (PRs, pushes, issues, workflow runs).</p>
+      <p>Daily caps mirror the subscription tier: Pro 5, Max 15, Team/Enterprise 25. Early feedback from VentureBeat and 9to5Mac notes strong fit for overnight code review, scheduled dependency audits, and automated PR triage. Open questions: cold-start latency on scheduled runs, cost transparency when routines chain tool calls, and whether the per-tier caps will become the real bottleneck for agentic workflows. Anthropic says higher-volume tiers are on the roadmap.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/routines" class="source-link">Routines Docs</a>
+        <a href="https://venturebeat.com/orchestration/we-tested-anthropics-redesigned-claude-code-desktop-app-and-routines-heres-what-enterprises-should-know" class="source-link">VentureBeat</a>
+        <a href="https://9to5mac.com/2026/04/14/anthropic-adds-repeatable-routines-feature-to-claude-code-heres-how-it-works/" class="source-link">9to5Mac</a>
+        <a href="https://pasqualepillitteri.it/en/news/851/claude-code-routines-cloud-automation-guide" class="source-link">Pillitteri Guide</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Business</span>
+      <h3>Anthropic in Talks with Blackstone, H&amp;F, Permira for $1B Private Equity Push</h3>
+      <p>Anthropic is in negotiations to anchor a new joint venture with Blackstone, Hellman &amp; Friedman, and Permira that would embed Claude across private equity portfolio companies. Anthropic would commit roughly $200 million of its own capital to the vehicle, which could raise up to $1 billion total from the buyout firms. The structure gives Claude an express lane into thousands of mid-market companies owned by the PE sponsors &mdash; the same companies that have historically been slow AI adopters.</p>
+      <p>Context: Anthropic&rsquo;s run-rate revenue just crossed $30B (up from roughly $9B at end of 2025), with over 1,000 business customers each spending $1M+ annually &mdash; a number that doubled in under two months. The PE play isn&rsquo;t just growth; it&rsquo;s a distribution hack that OpenAI doesn&rsquo;t have through Microsoft, because PE portcos don&rsquo;t uniformly run on Azure.</p>
+      <div class="source-links">
+        <a href="https://thenextweb.com/news/anthropic-private-equity-venture-claude-enterprise" class="source-link">The Next Web</a>
+        <a href="https://www.bloomberg.com/news/articles/2026-04-06/broadcom-confirms-deal-to-ship-google-tpu-chips-to-anthropic" class="source-link">Bloomberg</a>
+        <a href="https://www.outlookbusiness.com/deeptech/tech/anthropic-invests-100mn-in-claude-partner-network-as-saaspocalypse-fears-grip-it" class="source-link">Outlook Business</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Security</span>
+      <h3>Mythos Fallout Continues &mdash; AISI and Help Net Security Publish Eval Results</h3>
+      <p>UK AISI and Help Net Security published independent-ish assessments of Claude Mythos Preview&rsquo;s offensive security capabilities. Both confirm the headline numbers: Mythos reproduced known CVEs and generated working exploits in 83.1% of cases on first try, identified zero-days in every major OS and browser under operator direction, and autonomously chained a 17-year-old FreeBSD NFS bug into a root RCE. AISI notes the model&rsquo;s limits kick in around multi-step novel-exploit chains requiring deep environment reasoning &mdash; but the floor is already well above human journeyman.</p>
+      <p>Anthropic&rsquo;s response &mdash; Project Glasswing &mdash; keeps Mythos out of general release and limits access to a consortium including AWS, Apple, Cisco, CrowdStrike, Google, JPMorgan Chase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks. Industry commentary (Fortune, SecurityWeek) is split: some argue withholding sets a responsible-disclosure precedent; others note that the defenders&rsquo; problem isn&rsquo;t finding bugs, it&rsquo;s fixing them at scale.</p>
+      <div class="source-links">
+        <a href="https://red.anthropic.com/2026/mythos-preview/" class="source-link">Anthropic Red</a>
+        <a href="https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities" class="source-link">UK AISI</a>
+        <a href="https://www.helpnetsecurity.com/2026/04/14/claude-mythos-test-attack-capabilities-limits/" class="source-link">Help Net Security</a>
+        <a href="https://fortune.com/2026/04/13/cybersecurity-anthropic-claude-mythos-dario-amodei-tech-ceo/" class="source-link">Fortune</a>
+        <a href="https://www.securityweek.com/anthropic-unveils-claude-mythos-a-cybersecurity-breakthrough-that-could-also-supercharge-attacks/" class="source-link">SecurityWeek</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>The Privacy-Capability Trade Anthropic Just Made</h3>
+      <p>Zoom out on the last 48 hours and a specific shape emerges. Opus 4.7 is imminent. Mythos &mdash; a model with demonstrated autonomous zero-day capability &mdash; exists behind Project Glasswing. Routines runs Claude Code on Anthropic&rsquo;s cloud while your Mac sleeps. Cowork sits on your desktop with computer use privileges. And starting this week, Anthropic can ask for your passport and a live selfie before unlocking certain capabilities. Each piece is defensible individually. Together they describe a different company than the one that recruited its early user base on &ldquo;the safer, privacy-respecting alternative to OpenAI&rdquo; positioning.</p>
+      <p>The trade is explicit: higher-capability models carry higher-risk misuse surfaces, and the regulatory and liability answer is KYC. Anthropic is choosing that answer early and narrowly &mdash; held by Persona, not trained on, not marketed &mdash; but it&rsquo;s still KYC. The test for the next quarter isn&rsquo;t whether users accept it; most will. It&rsquo;s whether Anthropic holds the line on &ldquo;narrow and disclosed&rdquo; when the next capability jump &mdash; Opus 4.7 today, Opus 5 next &mdash; lands. Silent effort-level nerfs to save compute don&rsquo;t inspire confidence on that front. Ship the models; document the policy; pick one voice.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
