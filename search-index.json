@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-04-17",
+    "title": "Claude AI Daily Brief — April 17, 2026 | Opus 4.7 Ships, Enterprise Seat Unbundled, Managed Agents Land",
+    "description": "April 17, 2026: Claude Opus 4.7 ships and retakes the SWE-bench lead, Anthropic unbundles tokens from enterprise seat deals, and Advisor Strategy plus Managed Agents reshape agent development.",
+    "url": "reports/claude-ai-daily-2026-04-17.html",
+    "headlines": [
+      "Opus 4.7 Ships",
+      "Enterprise Seat Unbundled",
+      "Managed Agents Land",
+      "Claude Opus 4.7 Is Generally Available &mdash; And It&rsquo;s Not a Minor Bump",
+      "Anthropic Concedes Opus 4.7 Trails Mythos &mdash; By Design",
+      "Claude Code Review Ships to Team and Enterprise &mdash; 54% of PRs Now Get Substantive Review",
+      "Advisor Strategy, Monitor Tool, and Managed Agents: The Real Product Story",
+      "Opus 4.7 Developer First Impressions: &ldquo;Genuinely Better, Genuinely More Expensive&rdquo;",
+      "Two Days Until Claude Haiku 3 Hard Cutoff &mdash; April 19",
+      "The Register: Anthropic Ejects Bundled Tokens From Enterprise Seat Deal",
+      "TrendAI Embeds Claude Across Security Platform in New Anthropic Partnership",
+      "Opus 4.7 Is the Wrapper. Managed Agents Is the Product."
+    ],
+    "snippet": "Claude AI Daily Brief — April 17, 2026 | Opus 4.7 Ships, Enterprise Seat Unbundled, Managed Agents Land ● Friday, April 17, 2026 Claude AI Daily Brief — April 17, 2026 Covering the last 24 hours · Edition #49 TL;DR — Today’s Top 3 Takeaways 1. Opus 4.7 Shipped — Retakes the Top Spot on SWE-bench — C"
+  },
+  {
     "date": "2026-04-16",
     "title": "Claude AI Daily Brief — April 16, 2026 | Opus 4.7 Model ID Leaks, ID Verification Arrives, Outage Recap",
     "description": "April 16, 2026: Claude Opus 4.7 model ID spotted on Google Vertex AI, Anthropic launches Persona-based government ID and selfie verification, and yesterday's Claude outage gets a post-mortem.",

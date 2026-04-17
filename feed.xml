@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 17, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-17.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-17.html</guid>
+      <pubDate>Fri, 17 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Opus 4.7 Shipped — Retakes the Top Spot on SWE-bench</strong> — Claude Opus 4.7 is generally available, posting 87.6% on SWE-bench Verified, 64.3% on SWE-bench Pro, and 98.5% visual acuity. New xhigh effort level, same $5/$25 pricing, new tokenizer pushes effective bills up 0–35%.</p>
+        <p><strong>2. Anthropic Unbundles Tokens From Enterprise Seat Deals</strong> — The Register confirms the $20/seat enterprise fee no longer includes bundled usage. Every token now bills at standard API rates on top of the seat — the flat-fee era for enterprise Claude is over.</p>
+        <p><strong>3. Advisor Strategy, Monitor Tool, and Managed Agents Land Alongside Opus 4.7</strong> — Three new agent primitives shipped with the model. Advisor pairs Opus with Sonnet/Haiku for +2.7pp SWE-bench Multilingual at -11.9% cost. Managed Agents is a fully hosted agent harness.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-17.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 16, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-16.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-16.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. "Claudy Day" Vulnerability Chain Disclosed</strong> — Three chained flaws in Claude.ai enable silent data exfiltration and malicious redirects. Primary injection flaw patched; two mitigations still in progress.</p>
         <p><strong>3. Claude Captures 40% of Enterprise LLM Spend</strong> — Business subscriptions up 4.9% MoM while OpenAI fell 1.5%. Claude now holds ~40% of enterprise AI spend, up from 24% a year ago.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-19.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — March 18, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-18.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-18.html</guid>
-      <pubDate>Wed, 18 Mar 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. AWS Shifts Defense Workloads Off Claude</strong> — Amazon confirms it is transitioning Pentagon-related workloads to alternative models after the DoD supply chain risk designation. Non-defense AWS customers are unaffected.</p>
-        <p><strong>2. Cowork Gets Persistent Agent Threads</strong> — Anthropic begins rolling out persistent agent thread support in Cowork for Max plans today, with Pro plan access following within 48 hours.</p>
-        <p><strong>3. Claude Code Voice Mode Expands to 5% of Users</strong> — Push-to-talk voice coding is live for an initial slice of Pro, Max, Team, and Enterprise subscribers. Hold spacebar to speak, release to send — now in 20 languages.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-18.html">Read full report →</a></p>
       ]]></description>
     </item>
 
