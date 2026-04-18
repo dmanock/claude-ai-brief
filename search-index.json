@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-04-18",
+    "title": "Claude AI Daily Brief — April 18, 2026 | Claude Design Launches, Amodei at White House, Figma Shares Slide",
+    "description": "April 18, 2026: Anthropic launches Claude Design and sends Figma and Adobe shares lower, Dario Amodei meets Susie Wiles and Scott Bessent at the White House, and OpenAI counters with GPT-5.4-Cyber.",
+    "url": "reports/claude-ai-daily-2026-04-18.html",
+    "headlines": [
+      "Claude Design Launches",
+      "Amodei at White House",
+      "Figma Shares Slide",
+      "Claude Design Ships &mdash; Anthropic Steps Directly Into Figma&rsquo;s Lane",
+      "Amodei at the White House: First Clear Sign the Pentagon Freeze Is Cracking",
+      "Cyber Verification Program Opens &mdash; Approved Security Researchers Get Unrestricted Opus 4.7",
+      "Claude Code Ships Auto Mode for Max, Plus /ultrareview and /effort Controls",
+      "MCP Connector Roundup: Zoom, Microsoft 365, Sentinel, and Opera All Live This Week",
+      "One Day Left: Claude Haiku 3 Retires Tomorrow, April 19",
+      "OpenAI Ships GPT-5.4-Cyber &mdash; The Anti-Mythos Playbook",
+      "Investor Offers Push Anthropic Valuation Toward $800B &mdash; IPO Talks Heat Up",
+      "Anthropic Is No Longer a Model Lab. It&rsquo;s a Platform Company Now."
+    ],
+    "snippet": "Claude AI Daily Brief — April 18, 2026 | Claude Design Launches, Amodei at White House, Figma Shares Slide ● Saturday, April 18, 2026 Claude AI Daily Brief — April 18, 2026 Covering the last 24 hours · Edition #50 TL;DR — Today’s Top 3 Takeaways 1. Claude Design Launches — Figma and Adobe Shares Sli"
+  },
+  {
     "date": "2026-04-17",
     "title": "Claude AI Daily Brief — April 17, 2026 | Opus 4.7 Ships, Enterprise Seat Unbundled, Managed Agents Land",
     "description": "April 17, 2026: Claude Opus 4.7 ships and retakes the SWE-bench lead, Anthropic unbundles tokens from enterprise seat deals, and Advisor Strategy plus Managed Agents reshape agent development.",
