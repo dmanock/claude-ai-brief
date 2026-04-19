@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 19, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-19.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-19.html</guid>
+      <pubDate>Sun, 19 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Haiku 3 Retires Today — Hard Cutoff for claude-3-haiku-20240307</strong> — Any call to the old Haiku 3 model string fails after today. Drop-in target is Haiku 4.5, same price tier, faster and better. Expect Monday morning broken-cron-job fire drills.</p>
+        <p><strong>2. Power-User "Effort Nerf" Backlash Hits Critical Mass</strong> — Fortune, Axios, and The Register piled on this week. Enterprise customers are asking pricing questions. Opus 4.7's new xhigh effort level looks less like a feature and more like the apology.</p>
+        <p><strong>3. Claude Cowork Goes GA — OpenTelemetry, RBAC, and Scheduled Tasks for Enterprise</strong> — Cowork is out of preview on macOS and Windows with Analytics API, OpenTelemetry, SCIM-driven RBAC, and scheduled tasks. Now a first-class enterprise surface next to Claude Code.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-19.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 18, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-18.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-18.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Claude Code Channels Launches as Research Preview</strong> — Connect Telegram or Discord to a running Claude Code session and control it from anywhere. Plugin runs locally, no open ports, no public webhook. Requires v2.1.80+ and a paid plan.</p>
         <p><strong>3. 1M Context Window Now GA at Standard Pricing</strong> — Opus 4.6 and Sonnet 4.6 get the full 1M token context window at standard rates -- no more 2x premium. Media cap raised to 600 images or PDF pages per request.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-21.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — March 20, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-20.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-20.html</guid>
-      <pubDate>Fri, 20 Mar 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. DoD Claims It Can Replace Claude in 6 Months</strong> — Pentagon CTO says they're "pretty confident" they can phase out Claude by fall 2026, pointing to active OpenAI and Gemini deployments. March 24 court hearing will be decisive.</p>
-        <p><strong>2. Claude Code Voice Mode &amp; /loop Fully Rolling Out</strong> — Push-to-talk voice mode is expanding to all users, alongside the /loop command for recurring task automation and new /effort and /batch controls.</p>
-        <p><strong>3. 2x Usage Promo Enters Final Week</strong> — Anthropic's bonus usage promotion doubles limits for Free, Pro, Max, and Team plans during off-peak hours through March 27.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-20.html">Read full report →</a></p>
       ]]></description>
     </item>
 

@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-04-19",
+    "title": "Claude AI Daily Brief — April 19, 2026 | Haiku 3 Retires Today, Performance Backlash Hits Critical Mass, Cowork Goes GA",
+    "description": "April 19, 2026: Claude Haiku 3 hits its hard retirement cutoff today, the power-user 'effort nerf' backlash spills into mainstream press, and Claude Cowork goes generally available on macOS and Windows with full analytics and RBAC.",
+    "url": "reports/claude-ai-daily-2026-04-19.html",
+    "headlines": [
+      "Haiku 3 Retires Today",
+      "Performance Backlash Hits Critical Mass",
+      "Cowork Goes GA",
+      "Haiku 3 Retires Today &mdash; Last Call for claude-3-haiku-20240307",
+      "Claude Cowork Goes Generally Available &mdash; Analytics, OpenTelemetry, and RBAC",
+      "Claude Design Weekend Momentum &mdash; Export-to-Canva Pipeline Draws First Real Reviews",
+      "Plugin Marketplace Crosses 4,200 Skills and 2,500 Marketplaces",
+      "Xcode 26.3 Ships With Native Claude Agent SDK Integration",
+      "Auditing for Haiku 3 Today &mdash; the 5-Minute Version",
+      "Mainstream Press Piles On Over the &ldquo;Effort Nerf&rdquo; &mdash; This One Isn&rsquo;t Going Away",
+      "Accenture, PwC, Snowflake &mdash; The Enterprise Delivery Layer Solidifies",
+      "Anthropic Is the Software-Sector Disruption Story of Q2",
+      "The &ldquo;Effort Nerf&rdquo; Is Anthropic&rsquo;s First Real Governance Test"
+    ],
+    "snippet": "Claude AI Daily Brief — April 19, 2026 | Haiku 3 Retires Today, Performance Backlash Hits Critical Mass, Cowork Goes GA ● Sunday, April 19, 2026 Claude AI Daily Brief — April 19, 2026 Covering the last 24 hours · Edition #51 TL;DR — Today’s Top 3 Takeaways 1. Haiku 3 Retires Today — Hard Cutoff for "
+  },
+  {
     "date": "2026-04-18",
     "title": "Claude AI Daily Brief — April 18, 2026 | Claude Design Launches, Amodei at White House, Figma Shares Slide",
     "description": "April 18, 2026: Anthropic launches Claude Design and sends Figma and Adobe shares lower, Dario Amodei meets Susie Wiles and Scott Bessent at the White House, and OpenAI counters with GPT-5.4-Cyber.",
