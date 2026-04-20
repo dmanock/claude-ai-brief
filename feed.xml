@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 20, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-20.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-20.html</guid>
+      <pubDate>Mon, 20 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. The Haiku 3 Post-Mortem Starts at 9 AM</strong> — First business morning after claude-3-haiku-20240307 stopped answering. Grep repos, Zapier, Airflow, Lambda. Pull 18 hours of API logs for 404s before the first standup.</p>
+        <p><strong>2. Opus 4.7's MRCR Score Becomes the New Pressure Point — 32.2% vs 4.6's 78.3%</strong> — A 46-point collapse on the long-context retrieval benchmark. Combined with the 1.35x tokenizer inflation, Opus 4.7 now has two concrete regressions enterprise buyers can point at.</p>
+        <p><strong>3. Cowork's Persistent Agent Thread Finishes Rolling Out to Pro and Max Today</strong> — Mobile orchestration goes live. Kick off a task from iOS/Android, let it run on your laptop, manage it from a persistent thread.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-20.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 19, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-19.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-19.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Microsoft &amp; 22 Retired Generals Back Anthropic; DoD Claims 6-Month Transition</strong> — Former service secretaries and flag officers call the Pentagon designation "retribution." Military users on the ground say replacing Claude is far harder than leadership admits.</p>
         <p><strong>3. Extended Thinking Display Field Ships; 2x Usage Promo Ends March 27</strong> — Developers can now omit thinking blocks for faster streaming with thinking.display: "omitted". The off-peak 2x usage boost for Free, Pro, Max, and Team plans has five days left.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-22.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — March 21, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-21.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-21.html</guid>
-      <pubDate>Sat, 21 Mar 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Pentagon's Own Emails Undercut Its Case Before Monday's Hearing</strong> — New court filing reveals DoD told Anthropic they were "very close" on March 4 -- the same day the Pentagon finalized its supply-chain risk designation. Hearing before Judge Rita Lin is Monday.</p>
-        <p><strong>2. Claude Code Channels Launches as Research Preview</strong> — Connect Telegram or Discord to a running Claude Code session and control it from anywhere. Plugin runs locally, no open ports, no public webhook. Requires v2.1.80+ and a paid plan.</p>
-        <p><strong>3. 1M Context Window Now GA at Standard Pricing</strong> — Opus 4.6 and Sonnet 4.6 get the full 1M token context window at standard rates -- no more 2x premium. Media cap raised to 600 images or PDF pages per request.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-21.html">Read full report →</a></p>
       ]]></description>
     </item>
 

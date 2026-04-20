@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-04-20",
+    "title": "Claude AI Daily Brief — April 20, 2026 | Haiku 3 Monday Morning Fire Drill, Opus 4.7 MRCR Regression Hits, Cowork Agent Thread Rolls Out",
+    "description": "April 20, 2026: Monday morning after the Haiku 3 cutoff — who got caught, who migrated. Opus 4.7's MRCR long-context regression becomes the new pressure point. Cowork's persistent agent thread completes rollout to Pro and Max today.",
+    "url": "reports/claude-ai-daily-2026-04-20.html",
+    "headlines": [
+      "Haiku 3 Monday Morning Fire Drill",
+      "Opus 4.7 MRCR Regression Hits",
+      "Cowork Agent Thread Rolls Out",
+      "Haiku 3 Is Gone &mdash; Monday Morning Is the Real Test",
+      "Cowork&rsquo;s Persistent Agent Thread Completes Rollout &mdash; Mobile Orchestration Goes Live",
+      "Claude Design &mdash; Second Weekend, and the Design-System Ingest Story Gets Louder",
+      "Opus 4.7&rsquo;s MRCR Collapse &mdash; 32.2% vs 4.6&rsquo;s 78.3%",
+      "Claude Code Hits 2.1.101 &mdash; 32 Releases in Five Weeks",
+      "Claude Code Routines One Week In &mdash; The Early Enterprise Playbook",
+      "Monday Checklist &mdash; Five Grep Patterns Before Standup",
+      "The OpenClaw Aftermath &mdash; Third-Party Harness Policy Hardens",
+      "Mythos Preview &mdash; The Cybersecurity Consortium Builds Out",
+      "$800B Valuation Talk &mdash; The IPO Timeline Comes Into Focus",
+      "Two Numbers That Should Worry the IPO Desk This Week"
+    ],
+    "snippet": "Claude AI Daily Brief — April 20, 2026 | Haiku 3 Monday Morning Fire Drill, Opus 4.7 MRCR Regression Hits, Cowork Agent Thread Rolls Out ● Monday, April 20, 2026 Claude AI Daily Brief — April 20, 2026 Covering the last 24 hours · Edition #52 TL;DR — Today’s Top 3 Takeaways 1. The Haiku 3 Post-Mortem"
+  },
+  {
     "date": "2026-04-19",
     "title": "Claude AI Daily Brief — April 19, 2026 | Haiku 3 Retires Today, Performance Backlash Hits Critical Mass, Cowork Goes GA",
     "description": "April 19, 2026: Claude Haiku 3 hits its hard retirement cutoff today, the power-user 'effort nerf' backlash spills into mainstream press, and Claude Cowork goes generally available on macOS and Windows with full analytics and RBAC.",

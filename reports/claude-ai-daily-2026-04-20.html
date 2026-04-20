@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude AI Daily Brief — April 20, 2026 | Haiku 3 Monday Morning Fire Drill, Opus 4.7 MRCR Regression Hits, Cowork Agent Thread Rolls Out</title>
+  <meta name="description" content="April 20, 2026: Monday morning after the Haiku 3 cutoff — who got caught, who migrated. Opus 4.7's MRCR long-context regression becomes the new pressure point. Cowork's persistent agent thread completes rollout to Pro and Max today.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-04-20.html">
+  <meta property="og:title" content="Claude AI Daily Brief — April 20, 2026">
+  <meta property="og:description" content="Haiku 3 Monday morning fire drill. Opus 4.7 MRCR long-context regression. Cowork agent thread rollout completes. Claude Design's second weekend review wave.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-20.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — April 20, 2026">
+  <meta name="twitter:description" content="Haiku 3 Monday morning fire drill. Opus 4.7 MRCR long-context regression. Cowork agent thread rollout completes. Claude Design's second weekend review wave.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-20.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-04-20.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — April 20, 2026",
+    "description": "Monday morning after the Haiku 3 cutoff. Opus 4.7 MRCR long-context regression hits. Cowork agent thread rollout completes for Pro and Max.",
+    "datePublished": "2026-04-20T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-20.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-04-20.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Monday, April 20, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; April 20, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #52</p>
+</div>
+
+<div class="main">
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>The Haiku 3 Post-Mortem Starts at 9 AM &mdash; Check Cron, CI, and Any Zapier Flow You Forgot About</strong> &mdash; Today is the first business morning after <code>claude-3-haiku-20240307</code> stopped answering. Monday standups are the tripwire. If you ship anything with a Claude dependency, pull logs from the last 12 hours before the first cup of coffee.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Opus 4.7&rsquo;s MRCR Score Becomes the New Pressure Point &mdash; 32.2% vs 4.6&rsquo;s 78.3%</strong> &mdash; A Vibe Coding teardown over the weekend spread a number Anthropic hasn&rsquo;t addressed directly: a 46-point collapse on the long-context retrieval benchmark. Combined with the 1.35x tokenizer inflation, Opus 4.7 now has two concrete regressions that enterprise buyers can point at.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Cowork&rsquo;s Persistent Agent Thread Finishes Rolling Out to Pro and Max Today</strong> &mdash; The mobile orchestration piece &mdash; kick off a Cowork task from iOS/Android, let it run on your laptop &mdash; finishes its staged rollout this morning. Monday is the first day the full Pro/Max base gets the feature at once.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Deprecation</span>
+      <h3>Haiku 3 Is Gone &mdash; Monday Morning Is the Real Test</h3>
+      <p>Anthropic&rsquo;s hard cutoff for <code>claude-3-haiku-20240307</code> hit at the end of Sunday. The weekend was quiet &mdash; low traffic, low stakes. Monday morning is when the scheduled jobs, the CI runs, the customer-facing chat handoffs, and the legacy Zapier flows actually fire. Early reports from AIOps channels are showing the expected shape: a long tail of small shops hitting 404s on scheduled summarization and enrichment jobs they forgot were on the old string.</p>
+      <p>The migration target is still Claude Haiku 4.5 (<code>claude-haiku-4-5-20251001</code>) &mdash; same price tier, better eval scores, vision and tool use with no caveats. Next two dates on the retirement calendar: the 1M-token context beta on Sonnet 4.5 and Sonnet 4 expires April 30, then Opus 4 and Sonnet 4 fully retire June 15. If you survived today, pencil those in.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/about-claude/model-deprecations" class="source-link">Model Deprecations</a>
+        <a href="https://platform.claude.com/docs/en/about-claude/models/migration-guide" class="source-link">Migration Guide</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">API Release Notes</a>
+        <a href="https://status.claude.com/" class="source-link">Claude Status</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Product</span>
+      <h3>Cowork&rsquo;s Persistent Agent Thread Completes Rollout &mdash; Mobile Orchestration Goes Live</h3>
+      <p>Anthropic staged the Cowork persistent-agent-thread rollout over 48 hours starting with Max plans Saturday, Pro plans through Sunday. Today is the first workday where the entire Pro/Max base has the feature turned on. What changes: a Cowork task kicked off from your iPhone keeps executing on your desktop while the phone screen is locked, and you can check status, interrupt, or redirect it from a persistent thread in Claude Desktop or the iOS/Android app. For field sales, customer success, and anyone who drives a Mac from a hotel, this is the first version of Cowork that behaves like a real agent rather than a foregrounded session.</p>
+      <p>Also shipped over the weekend: the unified <strong>Customize</strong> panel inside Claude Desktop that groups skills, plugins, and connectors in one place, and scheduled recurring tasks are first-class now. Combined with last week&rsquo;s OpenTelemetry and SCIM-RBAC additions, Cowork has moved in about ten days from &ldquo;research preview&rdquo; to &ldquo;buyable enterprise surface.&rdquo;</p>
+      <div class="source-links">
+        <a href="https://support.claude.com/en/articles/12138966-release-notes" class="source-link">Release Notes</a>
+        <a href="https://anthemcreation.com/en/artificial-intelligence/claude-cowork-ga-ai-collaboration-subscribers/" class="source-link">Cowork GA Coverage</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Product</span>
+      <h3>Claude Design &mdash; Second Weekend, and the Design-System Ingest Story Gets Louder</h3>
+      <p>Claude Design entered its second weekend with a wave of more skeptical, deeper reviews. The Register went first with a dry &ldquo;who needs designers&rdquo; framing; the interesting point buried in the coverage is that the tool&rsquo;s ingest-your-design-system mode is the real story. Multiple reviewers ran the same test: point Claude Design at a Figma library or a Tailwind config and ask it to produce a marketing page, a login flow, and a settings screen. The failure modes &mdash; wrong corner radius, off-by-one spacing, missing dark-mode variants &mdash; were the ones a design engineer would catch in review, not the ones a junior would produce cold.</p>
+      <p>Market signal: Figma&rsquo;s 7% Friday drop held through Monday open in pre-market. Adobe recovered about a point. The category isn&rsquo;t over, but it&rsquo;s getting priced differently. Every enterprise design-system lead reading this weekend&rsquo;s coverage is asking one internal question: do we still need the Figma Enterprise seat budget we approved in Q1?</p>
+      <div class="source-links">
+        <a href="https://www.theregister.com/2026/04/17/anthropic_debuts_claude_design/" class="source-link">The Register</a>
+        <a href="https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/" class="source-link">TechCrunch</a>
+        <a href="https://www.nadcab.com/blog/anthropic-launches-claude-design" class="source-link">Nadcab</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Regression</span>
+      <h3>Opus 4.7&rsquo;s MRCR Collapse &mdash; 32.2% vs 4.6&rsquo;s 78.3%</h3>
+      <p>A Vibe Coding post over the weekend pulled together three unresolved Opus 4.7 complaints into one chart. The headline number that&rsquo;s getting passed around devtools Slacks: Opus 4.7 scores 32.2% on MRCR (Multi-Round Context Retrieval) versus Opus 4.6&rsquo;s 78.3%. For a model positioned as the coding and agent workhorse, a 46-point regression on long-context retrieval is not a subtle tradeoff. It&rsquo;s the kind of number that explains why Claude Code sessions longer than an hour have felt different since last Thursday.</p>
+      <p>Combine that with the confirmed 1.35x tokenizer inflation on input costs, plus the &ldquo;malware false-positives&rdquo; thread running on Claude Code since Saturday, and Opus 4.7 now has three concrete complaints instead of a vague vibes problem. Anthropic&rsquo;s product team acknowledged &ldquo;real configuration changes that objectively reduced default thinking depth&rdquo; last week; the MRCR number is the first piece of evidence the community has that something measurable shifted in the architecture, not just the effort dial. Expect a formal response this week.</p>
+      <div class="source-links">
+        <a href="https://medium.com/vibe-coding/opus-4-7-is-the-worst-release-anthropic-has-ever-shipped-12772c21ca1e" class="source-link">Vibe Coding</a>
+        <a href="https://www.digitaltoday.co.kr/en/view/48976/anthropic-claude-opus-47-faces-backlash-after-launch-over-performance-and-token-costs" class="source-link">Digital Today</a>
+        <a href="https://venturebeat.com/technology/is-anthropic-nerfing-claude-users-increasingly-report-performance" class="source-link">VentureBeat</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code Hits 2.1.101 &mdash; 32 Releases in Five Weeks</h3>
+      <p>The Claude Code team has shipped from 2.1.69 to 2.1.101 since the beginning of March &mdash; 32 releases in five weeks, one of the most intensive iteration cycles any CLI devtool has had this year. The highlights that matter for day-to-day: the Monitor tool streams background events into the main conversation; <code>/loop</code> self-paces when no interval is provided; <code>/team-onboarding</code> packages a setup flow into a replayable guide for new hires; <code>/autofix-pr</code> kicks off PR auto-fix from the terminal. The <code>/plugin</code> tab was also reworked &mdash; favorites float to the top, disabled items hide behind a fold, and install recovery now handles interrupted prior installs.</p>
+      <p>Quieter but important: MCP OAuth now supports RFC 9728, the Hooks subsystem got 500K result persistence and conditional filtering, and the permission-dialog-crash-on-teammate-request bug (frustrating ones since Team mode launched) got fixed in the Sunday build. If you haven&rsquo;t updated Claude Code in more than a week, you&rsquo;re now several platforms behind.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md" class="source-link">GitHub Releases</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+        <a href="https://help.apiyi.com/en/claude-code-changelog-2026-april-updates-en.html" class="source-link">Apiyi Roundup</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Routines</span>
+      <h3>Claude Code Routines One Week In &mdash; The Early Enterprise Playbook</h3>
+      <p>Claude Code Routines shipped April 14 &mdash; configure a prompt, a repo, and a set of connectors once, then schedule it, trigger it from an API call, or fire it on a GitHub event. A week in, the usage patterns that are sticking: overnight documentation-drift scans, weekly dependency audits, morning-meeting briefs that summarize yesterday&rsquo;s PRs and ticket movement before standup, and per-repo webhook routines that open a draft PR against any push to a pattern-matched branch. Limits: Pro 5/day, Max 15/day, Team and Enterprise 25/day.</p>
+      <p>The Register&rsquo;s framing &mdash; &ldquo;mildly clever cron jobs&rdquo; &mdash; is deliberately underselling it. What Routines actually replaces is the glue layer between a company&rsquo;s Slack, GitHub, and ticketing &mdash; the half-built internal automations that two engineers maintain and everyone else is scared to touch. If you&rsquo;re a platform team, the Q2 question is whether those get migrated onto Routines or rebuilt on something like Temporal. The answer probably depends on whether your AI governance team has a posture on routines that execute in Anthropic&rsquo;s cloud.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/introducing-routines-in-claude-code" class="source-link">Anthropic Blog</a>
+        <a href="https://www.theregister.com/2026/04/14/claude_code_routines/" class="source-link">The Register</a>
+        <a href="https://venturebeat.com/orchestration/we-tested-anthropics-redesigned-claude-code-desktop-app-and-routines-heres-what-enterprises-should-know" class="source-link">VentureBeat</a>
+        <a href="https://siliconangle.com/2026/04/14/anthropics-claude-code-gets-automated-routines-desktop-makeover/" class="source-link">SiliconANGLE</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-tip">Migration Tip</span>
+      <h3>Monday Checklist &mdash; Five Grep Patterns Before Standup</h3>
+      <p>Before your 10 AM: grep production and staging repos for <code>claude-3-haiku-20240307</code>, <code>claude-3-haiku</code>, and the unqualified model string <code>haiku</code>. Check Zapier/Make/n8n workflows, Airflow DAGs, Lambda env vars, Kubernetes ConfigMaps, and Vercel/Netlify deploy configs. Pull API logs for the last 18 hours and filter on <code>model_not_found</code> and <code>404</code> against the Claude endpoint. For anything you maintain on behalf of a customer, a pre-emptive &ldquo;already migrated&rdquo; note goes further than a Tuesday incident.</p>
+      <p>While you&rsquo;re in there: audit for any pinned model strings without explicit version dates. The Sonnet 4.5 and Sonnet 4 1M-token context beta expires April 30 &mdash; ten business days away &mdash; and the Sonnet 4 + Opus 4 full retirement is June 15. Anything critical still on an unversioned <code>claude-sonnet-4</code> string is your next fire drill, not a future one.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/about-claude/models/migration-guide" class="source-link">Migration Guide</a>
+        <a href="https://platform.claude.com/docs/en/about-claude/model-deprecations" class="source-link">Deprecation Schedule</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Policy</span>
+      <h3>The OpenClaw Aftermath &mdash; Third-Party Harness Policy Hardens</h3>
+      <p>Two weeks after Anthropic restricted Claude subscriptions from powering third-party agent harnesses &mdash; and the brief, walked-back suspension of OpenClaw creator Peter Steinberger &mdash; the dust is settling into a clearer policy shape. Subscription plans are now explicitly for interactive use; anything that looks like an autonomous agent burning tokens 24/7 is expected to move to API billing. Anthropic&rsquo;s stated logic (OpenClaw users were pulling $1,000&ndash;$5,000 in API value on a $200 seat) is hard to argue with, but the community takeaway is the part worth tracking: if your product stack depends on another company&rsquo;s model, billing policy, and abuse system, you are never fully in control of your own roadmap.</p>
+      <p>The piece to watch this week: Anthropic&rsquo;s newly GA&rsquo;d Managed Agents product is the intended replacement path for the third-party harness use case. Whether indie devtool builders can actually make the economics work on Managed Agents &mdash; or whether this accelerates migration to OpenAI or open-source agents &mdash; is the first real test of how Anthropic&rsquo;s platform policies land on the ecosystem.</p>
+      <div class="source-links">
+        <a href="https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/" class="source-link">TechCrunch</a>
+        <a href="https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/" class="source-link">TechCrunch (Policy)</a>
+        <a href="https://www.mindstudio.ai/blog/anthropic-openclaw-ban-oauth-authentication" class="source-link">MindStudio</a>
+        <a href="https://news.ycombinator.com/item?id=47633396" class="source-link">Hacker News</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Security</span>
+      <h3>Mythos Preview &mdash; The Cybersecurity Consortium Builds Out</h3>
+      <p>Claude Mythos Preview, the unreleased frontier model Anthropic announced April 7, is still the highest-variance story in the ecosystem. It&rsquo;s not generally available; access is through Project Glasswing, Anthropic&rsquo;s industry consortium for &ldquo;finding and fixing vulnerabilities in foundational software.&rdquo; AISI&rsquo;s independent evaluation &mdash; released over the weekend &mdash; confirmed Mythos can execute multi-stage attacks on vulnerable networks and autonomously discover and exploit vulnerabilities, tasks that would take human pros days. Anthropic has already used Mythos to identify thousands of zero-days in every major OS and browser.</p>
+      <p>Council on Foreign Relations and the Centre for Emerging Technology and Security both published inflection-point framings over the weekend. The policy community&rsquo;s line is now pretty aligned: Mythos is the first model where access control is the product, not a feature. If you&rsquo;re on a security team that isn&rsquo;t in the Glasswing tent, the question is whether your existing fuzzing + SAST + pen-test stack holds up when attackers on the other side have something equivalent &mdash; open-source or otherwise &mdash; inside 18 months.</p>
+      <div class="source-links">
+        <a href="https://red.anthropic.com/2026/mythos-preview/" class="source-link">Anthropic Red</a>
+        <a href="https://www.anthropic.com/glasswing" class="source-link">Project Glasswing</a>
+        <a href="https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities" class="source-link">AISI Evaluation</a>
+        <a href="https://www.cfr.org/articles/six-reasons-claude-mythos-is-an-inflection-point-for-ai-and-global-security" class="source-link">CFR</a>
+        <a href="https://www.securityweek.com/anthropic-unveils-claude-mythos-a-cybersecurity-breakthrough-that-could-also-supercharge-attacks/" class="source-link">SecurityWeek</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Market</span>
+      <h3>$800B Valuation Talk &mdash; The IPO Timeline Comes Into Focus</h3>
+      <p>Reporting over the weekend firmed up the shape of the Anthropic IPO story. Sacra pegs Anthropic at $30B in annualized revenue as of March, up from $9B at the end of 2025 &mdash; roughly 14x year over year. Investor offers reported by The Next Web have arrived at an $800B valuation, double the $380B Series G from two months ago. S-1 filing is now expected late summer, Nasdaq listing targeted for Q4. Anthropic&rsquo;s 2026 plan: $12B on training, $7B on inference &mdash; a $19B spend against that $30B revenue base.</p>
+      <p>The spread between the $400&ndash;500B initial IPO target (techi/MarketWise) and the $800B private bid (TNW/Trading Key) is the underwriter fight that shapes the whole roadshow. If Mythos lands commercially before Q4, the ask moves up; if the effort-nerf narrative is still the dominant enterprise-sales story, it doesn&rsquo;t. Six months of product decisions are now being made with one eye on the banker&rsquo;s model.</p>
+      <div class="source-links">
+        <a href="https://thenextweb.com/news/anthropic-800-billion-valuation-revenue-30-billion-ipo" class="source-link">The Next Web</a>
+        <a href="https://sacra.com/c/anthropic/" class="source-link">Sacra</a>
+        <a href="https://www.tradingkey.com/analysis/stocks/us-stocks/261783377-anthropic-ipo-vs-openai-ipo-800-billion-valuation-first-large-model-ipo" class="source-link">Trading Key</a>
+        <a href="https://www.techi.com/anthropic-ipo/" class="source-link">techi</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>Two Numbers That Should Worry the IPO Desk This Week</h3>
+      <p>The Anthropic story has two numbers colliding. $30B in annualized revenue, up 14x year-over-year. And 32.2% on MRCR for Opus 4.7, down from 78.3% on Opus 4.6. The first is what the banker pitch deck is built on. The second is what the enterprise architect at a Fortune 500 customer is going to ask about in their next renewal call. Every hyperscaler eventually hits the gap where revenue is growing faster than trust, and the exit ramp is a disciplined comms response plus an observable, reproducible fix. Anthropic has neither yet.</p>
+      <p>The &ldquo;effort nerf&rdquo; story was a soft-tissue injury &mdash; embarrassing but healable. The MRCR number is different. It&rsquo;s a specific, measurable, published benchmark regression on the exact capability (long-context reasoning) that justifies the $5/$25 Opus price tier in the first place. The technical response shipped Thursday with <code>xhigh</code> effort and per-task budgets. The organizational response still hasn&rsquo;t. The next five business days &mdash; culminating in the Q2 partner pipeline reviews at Accenture and PwC that land late next week &mdash; are when Anthropic either gets ahead of this or lets it become the story the IPO roadshow has to answer to. The $800B valuation has less room for trust debt than the $380B one did.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
