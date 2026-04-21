@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 21, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-21.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-21.html</guid>
+      <pubDate>Tue, 21 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Amazon Doubles Down: Up to $25B More Into Anthropic, $100B Over 10 Years to AWS, 5GW of Trainium</strong> — $5B lands now, $20B more tied to commercial milestones, on top of the $8B already in. Anthropic commits $100B+ to AWS over ten years and secures up to 5 gigawatts of Trainium capacity.</p>
+        <p><strong>2. Anthropic Publicly Concedes Infrastructure Strain — "Inevitable" After a Month of Outages</strong> — First official acknowledgment that demand has caused "inevitable strain" on reliability and performance. It's the explanation the April 6 ten-hour outage and April 15 double-outage never got.</p>
+        <p><strong>3. Claude Code 2.1.116 Ships — /resume 67% Faster on 40MB+ Sessions, 500K MCP Ceiling</strong> — Big-session resume perf, smoother fullscreen scroll in VS Code/Cursor/Windsurf, and the 500K-character MCP result cap that unblocks database-schema and log-dump tools.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-21.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 20, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-20.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-20.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. DOJ Calls Pentagon Blacklist "Lawful and Reasonable" — Hearing Tomorrow</strong> — Opposition brief filed ahead of Tuesday's 1:30pm PST injunction hearing before Judge Rita Lin. Anthropic fired back in a reply brief calling the designation preemptive retaliation.</p>
         <p><strong>3. Claude.ai Login Outage Resolved; 2x Promo Ends March 27</strong> — Sunday's auth issues are cleared. Four days left on the off-peak 2x usage boost for Free, Pro, Max, and Team plans.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-23.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — March 22, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-22.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-22.html</guid>
-      <pubDate>Sun, 22 Mar 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Denies Kill Switch Exists as Monday's Hearing Approaches</strong> — Sworn court declaration states Anthropic has no back door, no remote kill switch, and no ability to alter Claude once deployed in DoD systems. Judge Rita Lin hears the injunction case on March 24.</p>
-        <p><strong>2. Microsoft &amp; 22 Retired Generals Back Anthropic; DoD Claims 6-Month Transition</strong> — Former service secretaries and flag officers call the Pentagon designation "retribution." Military users on the ground say replacing Claude is far harder than leadership admits.</p>
-        <p><strong>3. Extended Thinking Display Field Ships; 2x Usage Promo Ends March 27</strong> — Developers can now omit thinking blocks for faster streaming with thinking.display: "omitted". The off-peak 2x usage boost for Free, Pro, Max, and Team plans has five days left.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-22.html">Read full report →</a></p>
       ]]></description>
     </item>
 

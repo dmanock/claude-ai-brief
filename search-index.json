@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-04-21",
+    "title": "Claude AI Daily Brief — April 21, 2026 | Amazon Doubles Down With $25B and 5GW, Anthropic Admits Infrastructure Strain, Claude Code 2.1.116 Ships",
+    "description": "April 21, 2026: Amazon pours up to $25B more into Anthropic and locks in a $100B 10-year AWS deal with 5GW of Trainium capacity. Anthropic publicly concedes &lsquo;inevitable strain&rsquo; on infrastructure after a month of outages. Claude Code 2.1.116 ships resume speedups and a 500K MCP ceiling.",
+    "url": "reports/claude-ai-daily-2026-04-21.html",
+    "headlines": [
+      "Amazon Doubles Down With $25B and 5GW",
+      "Anthropic Admits Infrastructure Strain",
+      "Claude Code 2.1.116 Ships",
+      "Amazon Pours Up to $25B More Into Anthropic &mdash; And Locks In a $100B, 10-Year AWS Commitment",
+      "&ldquo;Inevitable Strain&rdquo; &mdash; Anthropic&rsquo;s First Real Mea Culpa on Reliability",
+      "Opus 4.7 Lands on Bedrock With 1M Context and Adaptive Thinking",
+      "Claude Code 2.1.116 &mdash; Big-Session /resume Gets Real, Fullscreen Scroll Gets Fixed",
+      "Managed Agents and Advisor Tool &mdash; The Two Betas Worth Actually Trying This Week",
+      "Zoom Meeting Intelligence Lands as an MCP &mdash; And the Enterprise Connector Flywheel Picks Up",
+      "Post-Haiku-3 Tuesday &mdash; What Yesterday&rsquo;s Grep Should Have Found",
+      "Claude Partner Network Goes Live &mdash; $100M to Make Enterprise Adoption Less of a Fight",
+      "Mythos Preview Third Week &mdash; The Policy Debate Breaks Into the Mainstream Press",
+      "IPO Desk Reads the AWS Deal &mdash; $800B Valuation Talk Gets Firmer",
+      "The Amazon Deal Is a Bet That Compute Scarcity &mdash; Not Model Quality &mdash; Is the Real Moat"
+    ],
+    "snippet": "Claude AI Daily Brief — April 21, 2026 | Amazon Doubles Down With $25B and 5GW, Anthropic Admits Infrastructure Strain, Claude Code 2.1.116 Ships ● Tuesday, April 21, 2026 Claude AI Daily Brief — April 21, 2026 Covering the last 24 hours · Edition #53 TL;DR — Today’s Top 3 Takeaways 1. Amazon Double"
+  },
+  {
     "date": "2026-04-20",
     "title": "Claude AI Daily Brief — April 20, 2026 | Haiku 3 Monday Morning Fire Drill, Opus 4.7 MRCR Regression Hits, Cowork Agent Thread Rolls Out",
     "description": "April 20, 2026: Monday morning after the Haiku 3 cutoff — who got caught, who migrated. Opus 4.7's MRCR long-context regression becomes the new pressure point. Cowork's persistent agent thread completes rollout to Pro and Max today.",
