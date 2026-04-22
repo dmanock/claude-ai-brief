@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 22, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-22.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-22.html</guid>
+      <pubDate>Wed, 22 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Mythos Breached — A Discord Group Got Into Anthropic's Most Restricted Model Through a Third-Party Vendor</strong> — A group of unauthorized users accessed Claude Mythos Preview the day it was announced through Project Glasswing, using a contractor's credentials. They've been using it ever since and showed Bloomberg the screenshots.</p>
+        <p><strong>2. Anthropic Briefly Yanks Claude Code From Pro — Then Reverses Amid a Developer Revolt</strong> — Pricing pages quietly moved Claude Code into the $100/mo Max tier. Head of growth Amol Avasare called it a "~2% A/B test on new prosumer signups." The web pages were rolled back inside 24 hours.</p>
+        <p><strong>3. 3.5GW of Google TPU Capacity From 2027 — The Other Half of the Compute Story</strong> — Broadcom and Alphabet expanded their TPU partnership; Anthropic gets 3.5GW of next-gen TPUs starting 2027, on top of the existing $21B TPU order. With Monday's 5GW Trainium deal, Claude's 2027 compute floor now spans three silicon stacks.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-22.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 21, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-21.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-21.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Pentagon Injunction Hearing Today at 1:30pm PST</strong> — Judge Rita Lin hears oral arguments in San Francisco. First judicial test of whether the Pentagon's supply-chain risk designation is lawful or unconstitutional retaliation.</p>
         <p><strong>3. Ramp AI Index: Nearly 1 in 4 Businesses Now Pay for Anthropic</strong> — Adoption hit 24.4% with 4.9% MoM growth. Anthropic wins 70% of head-to-head matchups against OpenAI among first-time buyers. OpenAI saw its biggest monthly decline.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-24.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — March 23, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-23.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-23.html</guid>
-      <pubDate>Mon, 23 Mar 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Code Channels Ships as Research Preview</strong> — Text Claude Code from Discord or Telegram and get replies when it finishes. Plugin runs locally, no open ports. Anthropic's direct answer to OpenClaw. Requires v2.1.80+ and a paid plan.</p>
-        <p><strong>2. DOJ Calls Pentagon Blacklist "Lawful and Reasonable" — Hearing Tomorrow</strong> — Opposition brief filed ahead of Tuesday's 1:30pm PST injunction hearing before Judge Rita Lin. Anthropic fired back in a reply brief calling the designation preemptive retaliation.</p>
-        <p><strong>3. Claude.ai Login Outage Resolved; 2x Promo Ends March 27</strong> — Sunday's auth issues are cleared. Four days left on the off-peak 2x usage boost for Free, Pro, Max, and Team plans.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-23.html">Read full report →</a></p>
       ]]></description>
     </item>
 

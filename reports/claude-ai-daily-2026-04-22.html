@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude AI Daily Brief — April 22, 2026 | Mythos Breach Through a Vendor, Anthropic Yanks Claude Code From Pro (Then Reverses), 3.5GW TPU Tier Lands</title>
+  <meta name="description" content="April 22, 2026: A Discord group claims unauthorized access to Mythos via a third-party vendor. Anthropic briefly pulls Claude Code from the $20 Pro plan and reverses after a developer revolt. Anthropic locks in 3.5GW of Google TPUs from 2027 alongside the AWS deal. Claude Code 2.1.117 ships.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-04-22.html">
+  <meta property="og:title" content="Claude AI Daily Brief — April 22, 2026">
+  <meta property="og:description" content="Mythos accessed by an unauthorized Discord group through a third-party vendor. Anthropic briefly pulls Claude Code from Pro, reverses. 3.5GW Google TPU expansion through Broadcom from 2027. Claude Code 2.1.117 ships.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-22.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — April 22, 2026">
+  <meta name="twitter:description" content="Mythos accessed by an unauthorized Discord group through a third-party vendor. Anthropic briefly pulls Claude Code from Pro, reverses. 3.5GW Google TPU expansion through Broadcom from 2027. Claude Code 2.1.117 ships.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-22.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-04-22.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — April 22, 2026",
+    "description": "Discord group claims Mythos access through a third-party vendor. Anthropic briefly pulls Claude Code from Pro, reverses after developer backlash. 3.5GW Google TPU tier from 2027. Claude Code 2.1.117 ships.",
+    "datePublished": "2026-04-22T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-22.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-04-22.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Wednesday, April 22, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; April 22, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #54</p>
+</div>
+
+<div class="main">
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Mythos Breached &mdash; A Discord Group Got Into Anthropic&rsquo;s Most Restricted Model Through a Third-Party Vendor</strong> &mdash; A group of unauthorized users accessed Claude Mythos Preview the same day it was announced through Project Glasswing, using a third-party contractor&rsquo;s credentials. They&rsquo;ve been using it ever since, and they showed Bloomberg the screenshots. Anthropic confirms the investigation but says no internal systems were touched.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Anthropic Briefly Yanks Claude Code From Pro &mdash; Then Reverses Amid a Developer Revolt</strong> &mdash; Pricing pages quietly moved Claude Code into the $100/month Max tier yesterday. Head of growth Amol Avasare called it a &ldquo;~2% A/B test on new prosumer signups.&rdquo; The web pages were rolled back inside 24 hours. The signal stays.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>3.5GW of Google TPU Capacity From 2027 &mdash; The Other Half of the Compute Story</strong> &mdash; Broadcom and Alphabet announced an expansion of their TPU partnership; Anthropic gets 3.5GW of next-gen TPUs starting 2027, on top of the existing $21B TPU order for this year. With Monday&rsquo;s 5GW Trainium deal, Claude&rsquo;s 2027 compute floor now spans three silicon stacks.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Security</span>
+      <h3>An Unauthorized Group Has Been Using Mythos for Two Weeks &mdash; Through a Third-Party Vendor</h3>
+      <p>TechCrunch broke it Monday night and the wires picked it up through Tuesday: a group operating out of a Discord channel that hunts unreleased AI models claims it has had working access to Claude Mythos Preview since April 7, the day Anthropic announced the model under Project Glasswing. The group made an &ldquo;educated guess&rdquo; about the model&rsquo;s URL based on Anthropic&rsquo;s naming patterns for other releases, then layered on credentials from a person who works at one of Anthropic&rsquo;s third-party contractors. They gave Bloomberg screenshots and a live demo of the software running.</p>
+      <p>Anthropic&rsquo;s statement: &ldquo;We&rsquo;re investigating a report claiming unauthorized access to Claude Mythos Preview through one of our third-party vendor environments,&rdquo; with the company saying no evidence yet shows internal systems were impacted. The architecture matters here. Mythos was never meant to ship to general developers; the entire Glasswing model is access-as-product, with roughly 40 vetted defenders inside the tent. A third-party contractor environment was apparently outside the threat model that justified the gating in the first place. Expect Glasswing partners to ask hard questions about vendor key management and access logs by EOD.</p>
+      <div class="source-links">
+        <a href="https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/" class="source-link">TechCrunch</a>
+        <a href="https://cybernews.com/security/anthropic-mythos-ai-unauthorized-access/" class="source-link">Cybernews</a>
+        <a href="https://www.prismnews.com/news/anthropic-probes-claims-of-unauthorized-access-to" class="source-link">Prism News</a>
+        <a href="https://cybersecuritynews.com/anthropic-mythos-access/" class="source-link">Cybersecurity News</a>
+        <a href="https://red.anthropic.com/2026/mythos-preview/" class="source-link">Anthropic Red</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Compute</span>
+      <h3>Broadcom and Alphabet Expand the TPU Pact &mdash; Anthropic Locks In 3.5GW From 2027</h3>
+      <p>The Motley Fool reported it Tuesday and the indexing services confirmed: Broadcom signed a fresh five-year deal with Alphabet to develop and build the next several generations of Google&rsquo;s Tensor Processing Units, and Anthropic is the headline customer for the expansion. Anthropic gets access to 3.5 gigawatts of next-gen TPUs starting in 2027. That&rsquo;s on top of the existing $21B TPU order Anthropic placed for delivery this year. Broadcom&rsquo;s AI semiconductor division did $8.4B last quarter (up 106% YoY) and the company is now publicly guiding to a $100B+ annualized AI chip business by end of 2027.</p>
+      <p>Read it next to Monday&rsquo;s Amazon announcement. With 5GW of Trainium and 3.5GW of TPU committed by 2027, plus continued Nvidia GPU usage, Anthropic&rsquo;s 2027 compute floor now spans three silicon vendors. The strategic point: Nvidia capacity is reportedly sold out through 2027, so the additive capacity has to come from custom silicon partners. That&rsquo;s the end of the &ldquo;single-vendor lock-in&rdquo; story for Claude inference. It&rsquo;s also a tell on what Anthropic expects 2027 demand to look like &mdash; you do not contractually commit to multi-gigawatt floors without an internal demand model that justifies it.</p>
+      <div class="source-links">
+        <a href="https://www.fool.com/investing/2026/04/22/anthropic-just-announced-huge-news-for-alphabet-an/" class="source-link">Motley Fool</a>
+        <a href="https://www.indexbox.io/blog/broadcom-alphabet-extend-tpu-partnership-expand-deal-with-anthropic/" class="source-link">IndexBox</a>
+        <a href="https://www.fool.com/investing/2026/04/14/did-anthropic-alphabet-broadcom-just-say-check/" class="source-link">Motley Fool (Apr 14)</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Government</span>
+      <h3>Trump Says a Pentagon Deal With Anthropic Is &ldquo;Possible&rdquo; &mdash; The Mythos Thaw Is Working</h3>
+      <p>President Trump told CNBC Monday afternoon that his administration had &ldquo;some very good talks&rdquo; with Anthropic at the White House last week and that a Department of Defense deal is &ldquo;possible.&rdquo; Context: the Pentagon labeled Anthropic a supply-chain risk in early March after the GenAI.mil negotiations broke down over Anthropic&rsquo;s refusal to allow fully autonomous weapons or domestic mass surveillance use. Friday&rsquo;s meeting between Dario Amodei, White House chief Susie Wiles, and Treasury Secretary Bessent is what unstuck it. The trigger was Mythos: CISA and parts of the intel community are already running it, and Treasury wants in.</p>
+      <p>The deal economics matter for the IPO desk reading this. Anthropic already had a $200M July contract with the Pentagon before the freeze; the GenAI.mil placement is a multi-year reference logo on the order of mid-nine-figures and the gate to the broader DoD inventory. With the Glasswing breach now in the news, the calculus on either side gets sharper. The administration gets to tout an indigenous frontier-AI vendor for defense; Anthropic gets revenue and policy cover. The unanswered question is what specific use-case carve-outs end up in the contract language &mdash; the autonomous-weapons line is what Anthropic walked away over in September.</p>
+      <div class="source-links">
+        <a href="https://www.cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html" class="source-link">CNBC</a>
+        <a href="https://www.bloomberg.com/news/articles/2026-04-21/trump-says-us-will-get-along-with-anthropic-after-pentagon-spat" class="source-link">Bloomberg</a>
+        <a href="https://thenextweb.com/news/trump-anthropic-pentagon-deal-possible-mythos" class="source-link">The Next Web</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Pricing</span>
+      <h3>Anthropic Pulled Claude Code From Pro &mdash; Then Walked It Back. The &ldquo;A/B Test&rdquo; Excuse Did Not Land.</h3>
+      <p>The Register caught it first: Anthropic&rsquo;s pricing pages and a couple of help-center articles quietly moved Claude Code into the $100/month Max 5x tier and removed it from the $20/month Pro plan. Simon Willison wrote the &ldquo;Claude Code going to cost $100/month? Probably not&mdash;it&rsquo;s all very confusing&rdquo; explainer that anchored the developer-side coverage. Head of growth Amol Avasare posted within hours: &ldquo;We&rsquo;re running a small test on ~2% of new prosumer signups. Existing Pro and Max subscribers aren&rsquo;t affected.&rdquo; The web pages were rolled back inside 24 hours. The damage to the &ldquo;Pro is the gateway tier&rdquo; story is not.</p>
+      <p>Read the underlying message. Avasare&rsquo;s explanation &mdash; &ldquo;the way people actually use a Claude subscription has changed fundamentally, current plans weren&rsquo;t built for this&rdquo; &mdash; is the most candid public admission that Pro-tier Claude Code usage is unprofitable on the current pricing. The Cowork rollout last week and the Routines launch on April 14 both made it easier to spawn long-running Claude Code workflows without keeping a laptop open. If you&rsquo;re a Pro user running daily Claude Code routines, expect a real plan change inside ninety days. The 2% test will not be the last test. Existing Pro and Max subscribers are safe today; new Pro signups are the first cohort that gets a different deal.</p>
+      <div class="source-links">
+        <a href="https://www.theregister.com/2026/04/22/anthropic_removes_claude_code_pro/" class="source-link">The Register</a>
+        <a href="https://simonwillison.net/2026/Apr/22/claude-code-confusion/" class="source-link">Simon Willison</a>
+        <a href="https://www.wheresyoured.at/news-anthropic-removes-pro-cc/" class="source-link">Where&#39;s Your Ed At</a>
+        <a href="https://www.xda-developers.com/anthropic-cut-claude-code-new-pro-subscriptions/" class="source-link">XDA Developers</a>
+        <a href="https://startupfortune.com/anthropic-quietly-pulls-claude-code-from-pro-plan-and-hands-local-model-advocates-their-strongest-argument-yet/" class="source-link">Startup Fortune</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code 2.1.117 &mdash; Forked Subagents on External Builds, /resume Summarizes Stale Sessions, Faster MCP Cold Start</h3>
+      <p>Today&rsquo;s build follows yesterday&rsquo;s 2.1.116 with a polish-and-control release. Headline: forked subagents are now enableable on external builds via <code>CLAUDE_CODE_FORK_SUBAGENT=1</code>, which removes the last reason most enterprise teams were waiting on the official build before they could run their own subagent fleets. <code>/model</code> selections persist across restarts even when the project pins a different model &mdash; a quietly important fix for teams that route different work to different model strings. <code>/resume</code> on stale, large sessions now offers to summarize before re-reading, which combined with yesterday&rsquo;s 67% perf bump on 40MB+ sessions makes the &ldquo;come back to a long-running agent&rdquo; story actually work.</p>
+      <p>Smaller wins worth noting: agent frontmatter <code>mcpServers</code> are loaded for main-thread agent sessions via <code>--agent</code> (the missing piece for one-shot agent invocations); cold start is faster when both local and claude.ai MCP servers are configured (the dual-source enterprise default); the fullscreen-mode duplicate-message-on-scroll bug got another pass; and the &ldquo;<code>/clear</code> to save X tokens&rdquo; idle hint now reports current context size instead of cumulative session tokens, which had been confusing daily users. Plugin MCP servers stuck at &ldquo;connecting&rdquo; on session start &mdash; finally fixed. <code>claude upgrade</code>.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Changelog</a>
+        <a href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md" class="source-link">GitHub</a>
+        <a href="https://www.claudeupdates.dev/version/2.1.116" class="source-link">Claude Updates</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">API</span>
+      <h3>Task Budgets in Public Beta &mdash; And the &ldquo;ant&rdquo; CLI Lands as Anthropic&rsquo;s Official API Client</h3>
+      <p>Two API-side updates worth a Wednesday-morning look. <strong>Task budgets</strong> entered public beta: a way to give Claude an explicit token budget so it can prioritize work across longer agent runs instead of burning the budget on a single subtask. For Managed Agents and Routines users running multi-hour workflows, this is the cost-control knob that was missing &mdash; you can now set a hard ceiling and have the model self-pace within it. <strong>The <code>ant</code> CLI</strong> shipped as the official command-line client for the Claude API: faster interaction with the API, native Claude Code integration, and YAML-based versioning of API resources (prompts, tools, agents, model configurations). It&rsquo;s the &ldquo;<code>kubectl</code> for Claude&rdquo; piece the platform team had been telegraphing.</p>
+      <p>The combined picture across the last week of API releases: Managed Agents (beta, header <code>managed-agents-2026-04-01</code>), Advisor tool (beta, header <code>advisor-tool-2026-03-01</code>), web search and programmatic tool calling now GA, code execution free with either, task budgets in beta, and the ant CLI as the connective tissue. If you started an agent build six weeks ago and shelved the harness work because the bill was unpredictable, this is the week to revisit. The economic story on long-horizon agents has materially improved.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">API Release Notes</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+        <a href="https://code.claude.com/docs/en/routines" class="source-link">Routines Docs</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-tip">Migration Tip</span>
+      <h3>Audit Your Pinned Model Strings Today &mdash; The April 30 Deadline Is Eight Business Days Out</h3>
+      <p>The 1M-token context beta on Sonnet 4.5 and Sonnet 4 expires April 30. That&rsquo;s eight working days from today. Two specific things to check by EOD: (1) any production code path that sets the <code>context-1m-2025-08-07</code> beta header on the API &mdash; either move to Opus 4.7 (which has 1M-context as a first-class capability) or scope down the prompt to fit 200K; (2) any pinned use of unversioned <code>claude-sonnet-4</code> or <code>claude-sonnet-4-5</code> for long-doc retrieval &mdash; pin to a dated version this week so you control the migration window instead of having it controlled for you.</p>
+      <p>Next dates after April 30: Opus 4 and Sonnet 4 fully retire June 15, which is the bigger compatibility cut. Anthropic&rsquo;s migration guide is current as of yesterday with the Opus 4.7 mappings, and the deprecation schedule page lists every dated string with its sunset date. If you don&rsquo;t already have an internal model-allowlist with EOL dates wired into CI, this is the week to write it. The Pro-plan A/B test today is a reminder that pricing and access can move; you want the model-string discipline in place before the next surprise.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/about-claude/models/migration-guide" class="source-link">Migration Guide</a>
+        <a href="https://platform.claude.com/docs/en/about-claude/model-deprecations" class="source-link">Deprecation Schedule</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Product</span>
+      <h3>Claude Design Picks Up Real Usage &mdash; Handoff Bundles Land in Claude Code</h3>
+      <p>The Claude Design rollout that started Friday is in real use this week. The piece getting attention from design-engineering teams: when a design is ready to build, Claude Design packages a handoff bundle (HTML, CSS, design tokens, component spec) that you can pass to Claude Code with one instruction. That&rsquo;s the design-to-code seam that has historically been the friction point for prompt-to-prototype tools. Anthropic&rsquo;s positioning is that Claude Design is the upstream of Claude Code, not a separate Figma-killer. The web-capture tool that grabs elements directly from a live site is the surprise sleeper feature; it makes &ldquo;clone our existing design system, then redesign this one screen&rdquo; a one-prompt workflow.</p>
+      <p>Adoption signal: the research preview is rolling out gradually to Pro, Max, Team, and Enterprise users on Opus 4.7. Figma stock held last Friday&rsquo;s -7% drop through Tuesday close. The honest read is that Claude Design is not yet good enough to replace a design tool for most teams &mdash; the failure modes are at the design-engineer tier, not the senior-IC tier. But the Claude Code handoff loop is genuinely new, and the &ldquo;design system from your codebase&rdquo; ingest at onboarding is the kind of feature that compounds over the next two model releases.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/claude-design-anthropic-labs" class="source-link">Anthropic</a>
+        <a href="https://9to5mac.com/2026/04/17/anthropic-launches-claude-design-for-mac-following-opus-4-7-model-upgrade/" class="source-link">9to5Mac</a>
+        <a href="https://almcorp.com/blog/claude-design-anthropic-labs/" class="source-link">ALM Corp</a>
+        <a href="https://blockchain.news/ainews/claude-design-launch-anthropic-labs-debuts-opus-4-7-vision-workflow-for-rapid-prototypes-slides-and-one-pagers" class="source-link">Blockchain.news</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Market</span>
+      <h3>The $800B Valuation Talk Hardens &mdash; And the Compute Math Now Pencils</h3>
+      <p>Bloomberg&rsquo;s reporting last week that Anthropic was attracting investor offers at a roughly $800B valuation has quietly become the working number on most IPO desks this week. The Caplight secondary mark is at $688B, up 75% in three months. The argument that justified the doubling: Anthropic&rsquo;s annualized revenue went from $1B at end of 2024 to $30B by early April 2026 &mdash; a 30x in fifteen months. With Monday&rsquo;s 5GW Amazon Trainium commitment and Tuesday&rsquo;s 3.5GW Google TPU expansion both on the books, the planned $19B 2026 spend on training and inference now has a defensible physical-capacity backing.</p>
+      <p>What changed this week: the IPO timing conversation moved from &ldquo;possibly Q4&rdquo; to &ldquo;Goldman, JPMorgan, and Morgan Stanley already in early talks for an October roadshow.&rdquo; The Mythos breach is the swing variable. If Anthropic can demonstrate that the third-party vendor compromise was contained and that no model weights or fine-tuning data leaked, the IPO narrative survives. If the breach turns into a model-weight exfiltration story, the conversation gets harder fast. Watch the Wednesday and Thursday news cycle for either an Anthropic post-mortem or for the Discord group to publish more.</p>
+      <div class="source-links">
+        <a href="https://thenextweb.com/news/anthropic-800-billion-valuation-revenue-30-billion-ipo" class="source-link">The Next Web</a>
+        <a href="https://www.bloomberg.com/news/articles/2026-04-14/anthropic-attracts-investor-offers-at-a-800-billion-valuation" class="source-link">Bloomberg</a>
+        <a href="https://www.tradingkey.com/analysis/stocks/us-stocks/261783377-anthropic-ipo-vs-openai-ipo-800-billion-valuation-first-large-model-ipo" class="source-link">TradingKey</a>
+        <a href="https://www.euronews.com/business/2026/04/18/the-rapid-ascent-of-anthropic-inside-the-strategy-behind-an-800-billion-valuation" class="source-link">Euronews</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Workflow</span>
+      <h3>Routines Hit Their Second Week &mdash; Email Triage and Daily Briefings Are the Top Use Cases</h3>
+      <p>Routines launched April 14 and the second-week usage data has started landing. The top use cases reported across the dev community: email triage, proposal generation, daily briefings, CRM hygiene, and content publishing. The trigger model is what made the difference &mdash; routines run on a cron schedule, on a webhook from an external system, or on a GitHub repo event, and they execute on Anthropic&rsquo;s managed infrastructure (no laptop required). Plan tier limits: Pro 5/day, Max 15/day, Team and Enterprise 25/day.</p>
+      <p>The connection to today&rsquo;s Pro-plan story is direct. Routines are the kind of feature that turns &ldquo;I run Claude Code occasionally&rdquo; into &ldquo;Claude Code runs me five times a day.&rdquo; That&rsquo;s the usage shift Avasare was talking about when he said current plans &ldquo;weren&rsquo;t built for this.&rdquo; The Pro tier&rsquo;s 5-runs/day routine ceiling is the load-bearing limit; if Anthropic moves it, Pro-plan economics change. If they don&rsquo;t move it, Pro stays the gateway tier and the heavy-use cohort moves to Max. Either way, the next pricing change will likely target routine quotas, not Claude Code itself.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/routines" class="source-link">Routines Docs</a>
+        <a href="https://winbuzzer.com/2026/04/16/anthropic-claude-code-routines-scheduled-ai-automation-xcxwbn/" class="source-link">Winbuzzer</a>
+        <a href="https://www.aimagicx.com/blog/claude-code-routines-scheduled-automation-2026" class="source-link">AI Magicx</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>The Mythos Breach Is the Story Anthropic Cannot Spin &mdash; And the IPO Clock Just Started Ticking on the Response</h3>
+      <p>Three things happened in 48 hours. Anthropic locked in a $125B compute partnership with Amazon. Anthropic locked in 3.5GW of TPUs with Google and Broadcom from 2027. Anthropic admitted it lost control of its most restricted model through a contractor&rsquo;s credentials. The first two are the IPO bull case. The third is the IPO bear case, in one news cycle. Project Glasswing was sold on the premise that access control was the product &mdash; that Anthropic could ship cyber-offense capability safely because it picked the 40 defenders inside the tent. A Discord group with a contractor login is exactly the kind of failure mode that makes that premise unfalsifiable. If the gating model fails through the most boring threat vector (third-party vendor key reuse), the premise that gating works at all is the question.</p>
+      <p>The Pro-plan flap is the smaller version of the same dynamic. Anthropic ran an A/B test in production on 2% of paid signups for a $20-month price-tier change without a public disclosure. That&rsquo;s well within startup norms, but it&rsquo;s outside the norm for a company three quarters from a $60B+ IPO raise. Both stories share a structural pattern: Anthropic&rsquo;s operational maturity is not yet at the level the IPO-prospectus narrative implies. The next ninety days are the window to prove otherwise. The Mythos post-mortem, the Pro-plan messaging, and the next infrastructure outage will each be read as a data point. Goldman&rsquo;s S-1 desk is reading them too.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

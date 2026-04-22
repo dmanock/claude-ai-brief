@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-04-22",
+    "title": "Claude AI Daily Brief — April 22, 2026 | Mythos Breach Through a Vendor, Anthropic Yanks Claude Code From Pro (Then Reverses), 3.5GW TPU Tier Lands",
+    "description": "April 22, 2026: A Discord group claims unauthorized access to Mythos via a third-party vendor. Anthropic briefly pulls Claude Code from the $20 Pro plan and reverses after a developer revolt. Anthropic locks in 3.5GW of Google TPUs from 2027 alongside the AWS deal. Claude Code 2.1.117 ships.",
+    "url": "reports/claude-ai-daily-2026-04-22.html",
+    "headlines": [
+      "Mythos Breach Through a Vendor",
+      "Anthropic Yanks Claude Code From Pro (Then Reverses)",
+      "3.5GW TPU Tier Lands",
+      "An Unauthorized Group Has Been Using Mythos for Two Weeks &mdash; Through a Third-Party Vendor",
+      "Broadcom and Alphabet Expand the TPU Pact &mdash; Anthropic Locks In 3.5GW From 2027",
+      "Trump Says a Pentagon Deal With Anthropic Is &ldquo;Possible&rdquo; &mdash; The Mythos Thaw Is Working",
+      "Anthropic Pulled Claude Code From Pro &mdash; Then Walked It Back. The &ldquo;A/B Test&rdquo; Excuse Did Not Land.",
+      "Claude Code 2.1.117 &mdash; Forked Subagents on External Builds, /resume Summarizes Stale Sessions, Faster MCP Cold Start",
+      "Task Budgets in Public Beta &mdash; And the &ldquo;ant&rdquo; CLI Lands as Anthropic&rsquo;s Official API Client",
+      "Audit Your Pinned Model Strings Today &mdash; The April 30 Deadline Is Eight Business Days Out",
+      "Claude Design Picks Up Real Usage &mdash; Handoff Bundles Land in Claude Code",
+      "The $800B Valuation Talk Hardens &mdash; And the Compute Math Now Pencils",
+      "Routines Hit Their Second Week &mdash; Email Triage and Daily Briefings Are the Top Use Cases",
+      "The Mythos Breach Is the Story Anthropic Cannot Spin &mdash; And the IPO Clock Just Started Ticking on the Response"
+    ],
+    "snippet": "Claude AI Daily Brief — April 22, 2026 | Mythos Breach Through a Vendor, Anthropic Yanks Claude Code From Pro (Then Reverses), 3.5GW TPU Tier Lands ● Wednesday, April 22, 2026 Claude AI Daily Brief — April 22, 2026 Covering the last 24 hours · Edition #54 TL;DR — Today’s Top 3 Takeaways 1. Mythos Br"
+  },
+  {
     "date": "2026-04-21",
     "title": "Claude AI Daily Brief — April 21, 2026 | Amazon Doubles Down With $25B and 5GW, Anthropic Admits Infrastructure Strain, Claude Code 2.1.116 Ships",
     "description": "April 21, 2026: Amazon pours up to $25B more into Anthropic and locks in a $100B 10-year AWS deal with 5GW of Trainium capacity. Anthropic publicly concedes &lsquo;inevitable strain&rsquo; on infrastructure after a month of outages. Claude Code 2.1.116 ships resume speedups and a 500K MCP ceiling.",
