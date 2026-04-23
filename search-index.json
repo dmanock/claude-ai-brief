@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-04-23",
+    "title": "Claude AI Daily Brief — April 23, 2026 | NEC Picks Claude for 30K Engineers, Mythos Rolls to European Banks, Claude Code 2.1.118 Adds Vim Visual Mode",
+    "description": "April 23, 2026: NEC bets one of Japan's largest AI-native engineering teams on Claude Code, with Opus 4.7 going to 30,000 employees. Anthropic prepares to ship Mythos to European banks within days as Australia and APAC regulators scramble. Claude Code 2.1.118 ships vim visual mode, /usage merger, and MCP-tool hooks.",
+    "url": "reports/claude-ai-daily-2026-04-23.html",
+    "headlines": [
+      "NEC Picks Claude for 30K Engineers",
+      "Mythos Rolls to European Banks",
+      "Claude Code 2.1.118 Adds Vim Visual Mode",
+      "NEC and Anthropic Sign Strategic Collaboration &mdash; Claude Goes to 30,000 Employees and Inside BluStellar",
+      "Mythos Heads to European Banks Within Days &mdash; UK and EU Rollout Subject to Vendor Security Checks",
+      "Australia Confirms Direct Mythos Working Relationship &mdash; Banking Association Says Banks Are Engaged With Regulators",
+      "Claude Code 2.1.118 &mdash; Vim Visual Mode, /usage Replaces /cost and /stats, Hooks Can Now Call MCP Tools Directly",
+      "Managed Agents First-Cohort Numbers Land &mdash; Notion, Rakuten, Asana on the Reference Page; $0.08/Session-Hour Holds",
+      "One Week to the April 30 Deadline &mdash; If Your CI Doesn&rsquo;t Have a Model-Allowlist Yet, Today Is the Day",
+      "GIC and Anthropic Co-Host Asia Pacific Innovation Day in Singapore &mdash; 150 Senior Leaders, Closed-Door Demos, and a 5.5x Per-Capita Number",
+      "The CISA-vs-NSA Mythos Split Hardens &mdash; America&rsquo;s Cyber Defense Agency Is Still Locked Out",
+      "Last Night&rsquo;s MCP Apps Outage on Claude.ai Was Resolved at 02:09 UTC &mdash; Six-Hour Window, No Data Impact Reported",
+      "Mythos Is Quietly Becoming Critical Infrastructure &mdash; And Nobody Has the Right Vendor Model for That Yet"
+    ],
+    "snippet": "Claude AI Daily Brief — April 23, 2026 | NEC Picks Claude for 30K Engineers, Mythos Rolls to European Banks, Claude Code 2.1.118 Adds Vim Visual Mode ● Thursday, April 23, 2026 Claude AI Daily Brief — April 23, 2026 Covering the last 24 hours · Edition #55 TL;DR — Today’s Top 3 Takeaways 1. NEC Bets"
+  },
+  {
     "date": "2026-04-22",
     "title": "Claude AI Daily Brief — April 22, 2026 | Mythos Breach Through a Vendor, Anthropic Yanks Claude Code From Pro (Then Reverses), 3.5GW TPU Tier Lands",
     "description": "April 22, 2026: A Discord group claims unauthorized access to Mythos via a third-party vendor. Anthropic briefly pulls Claude Code from the $20 Pro plan and reverses after a developer revolt. Anthropic locks in 3.5GW of Google TPUs from 2027 alongside the AWS deal. Claude Code 2.1.117 ships.",

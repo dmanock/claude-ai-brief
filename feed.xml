@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 23, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-23.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-23.html</guid>
+      <pubDate>Thu, 23 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. NEC Bets a 30,000-Engineer Workforce on Claude</strong> — NEC and Anthropic announced a strategic collaboration this morning Tokyo time: Claude Opus 4.7 and Claude Code roll out to roughly 30,000 NEC Group employees globally, and the BluStellar consulting platform will route customer transformation work through Claude. Biggest enterprise deal Anthropic has booked in Asia.</p>
+        <p><strong>2. Mythos Heads to European Banks Within Days — Australia's Treasury Confirms Direct Working Relationship</strong> — Reuters reports Anthropic plans to ship Mythos Preview to UK and EU banks within days, gated on additional vendor security checks. Australia's Home Affairs minister confirmed Thursday the federal government is now working directly with Anthropic on vulnerability tracking.</p>
+        <p><strong>3. Claude Code 2.1.118 — Vim Visual Mode, /usage Replaces /cost and /stats, Hooks Get Direct MCP Tool Calls</strong> — Full vim visual selection and operators, named themes via /theme and ~/.claude/themes/, type: "mcp_tool" hooks for direct MCP invocation, DISABLE_UPDATES for locked-down installs, WSL inherits Windows-side managed settings.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-23.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 22, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-22.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-22.html</guid>
@@ -384,18 +397,6 @@
       ]]></description>
     </item>
 
-    <item>
-      <title>Claude AI Daily Brief — March 24, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-24.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-24.html</guid>
-      <pubDate>Tue, 24 Mar 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Computer Use Ships for Cowork and Claude Code</strong> — Claude can now control your Mac desktop autonomously. Open apps, click, type, navigate browsers. Available to Pro and Max subscribers on macOS. Dispatch lets you assign tasks from your phone.</p>
-        <p><strong>2. Pentagon Injunction Hearing Today at 1:30pm PST</strong> — Judge Rita Lin hears oral arguments in San Francisco. First judicial test of whether the Pentagon's supply-chain risk designation is lawful or unconstitutional retaliation.</p>
-        <p><strong>3. Ramp AI Index: Nearly 1 in 4 Businesses Now Pay for Anthropic</strong> — Adoption hit 24.4% with 4.9% MoM growth. Anthropic wins 70% of head-to-head matchups against OpenAI among first-time buyers. OpenAI saw its biggest monthly decline.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-24.html">Read full report →</a></p>
-      ]]></description>
-    </item>
 
 
   </channel>
