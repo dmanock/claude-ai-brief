@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 24, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-24.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-24.html</guid>
+      <pubDate>Fri, 24 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Plugs Into the Consumer Stack — 15+ App Connectors, All Plans, Today</strong> — Anthropic flipped on personal connectors for Spotify, Uber, Uber Eats, Instacart, TurboTax, Credit Karma, Booking.com, Audible, AllTrails, TripAdvisor, Viator, Resy, StubHub, Taskrabbit, and Thumbtack. Every Claude plan, no Enterprise gate — the most direct consumer shot at ChatGPT and Gemini since the chat launch.</p>
+        <p><strong>2. India's Finance Minister Summons Bank CEOs on Mythos — UK Rollout Still Has No Date</strong> — Nirmala Sitharaman convened scheduled commercial banks, RBI, and CERT-In Thursday to assess Mythos-class exploit risk. Reuters' "within days" UK rollout is now a week old with no timeline commit; Bundesbank's Nagel keeps publicly pressing for universal access.</p>
+        <p><strong>3. Pro-Pricing Hangover Keeps Burning — Willison's Trust "Shaken"</strong> — Three days after the "2% A/B test" silently pulled Claude Code from $20 Pro, the support-doc change was universal and the Internet Archive caught the pricing grid. Pages rolled back in hours; developer trust didn't bounce as fast.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-24.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 23, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-23.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-23.html</guid>
@@ -379,25 +392,4 @@
       <description><![CDATA[
         <p><strong>1. Claude Hit by 3.5-Hour Outage — Opus 4.6 and Cowork Hardest Hit</strong> — Yesterday's outage peaked at 5,300+ Downdetector reports. Anthropic identified the root cause and deployed a fix. Service fully restored.</p>
         <p><strong>2. Pentagon Ruling Imminent — Anthropic Requested Decision by Today</strong> — Judge Rita Lin called the ban "troubling" and said she'd rule within days. Meanwhile, Pentagon CIO confirmed Claude is being used in Operation Epic Fury.</p>
-        <p><strong>3. Economic Index: Experienced Users 10% More Successful</strong> — Anthropic's March report shows 6+ month users do harder work and get better results. Each year of usage correlates with tackling more complex tasks.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-26.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — March 25, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-25.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-25.html</guid>
-      <pubDate>Wed, 25 Mar 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Judge Says Pentagon Blacklist Looks Like "An Attempt to Cripple" Anthropic</strong> — After yesterday's hearing, Judge Rita Lin questioned whether the DOD violated the law. She expects to issue her preliminary injunction ruling within days.</p>
-        <p><strong>2. Claude Code Auto Mode Ships — Safety Classifier Guards Every Action</strong> — A new permissions mode where Claude decides autonomously, with a per-action classifier checking for destructive actions and prompt injection before each tool call runs. Team plan now, Enterprise soon.</p>
-        <p><strong>3. Claude Code Channels: Text Your AI Coder from Telegram or Discord</strong> — Push tasks into a running Claude Code session from your phone. Full filesystem and MCP access. Replies when done. No open ports required.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-25.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-
-
-  </channel>
-</rss>
+        <p><strong>3. Economic Index: Experienced Users 10% More Successful</s

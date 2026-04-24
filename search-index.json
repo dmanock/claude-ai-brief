@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-04-24",
+    "title": "Claude AI Daily Brief — April 24, 2026 | Consumer Connectors Launch, India FinMin Convenes Banks on Mythos, Pro-Pricing Fallout Continues",
+    "description": "April 24, 2026: Anthropic opens Claude to 15+ consumer apps — Spotify, Uber, Instacart, TurboTax, Booking.com, AllTrails and more — in a direct shot at ChatGPT and Gemini. India's finance minister convened bank CEOs Thursday over Mythos risk. UK bank rollout still stalled. Pro-pricing trust hangover keeps burning.",
+    "url": "reports/claude-ai-daily-2026-04-24.html",
+    "headlines": [
+      "Consumer Connectors Launch",
+      "India FinMin Convenes Banks on Mythos",
+      "Pro-Pricing Fallout Continues",
+      "Claude Now Connects to Spotify, Uber, Instacart, TurboTax and a Dozen More &mdash; Every Plan, Today",
+      "India&rsquo;s Finance Minister Convenes Bank CEOs on Mythos &mdash; CERT-In and RBI at the Table",
+      "Anthropic Publishes the &ldquo;Ad-Free&rdquo; Policy &mdash; Why Advertising Is Incompatible With a Helpful Claude",
+      "The Pro-Pricing Hangover &mdash; &ldquo;My Trust in Anthropic&rsquo;s Transparency Has Been Shaken&rdquo;",
+      "Three Short Opus 4.7 Blips This Morning &mdash; 3 to 5 Minutes Each, All Resolved",
+      "Zilliz Ships claude-context &mdash; A Dedicated MCP Server for Codebase Search",
+      "NEC Becomes Anthropic&rsquo;s First Japan-Based Global Partner &mdash; The Fine Print From Yesterday",
+      "Amazon&rsquo;s $5B-Plus-$20B-Plus-$100B-AWS Deal &mdash; What the Trainium Fine Print Actually Says",
+      "Anthropic Fellows Program Applications Close Saturday &mdash; If You&rsquo;re Going to Apply, This Is the Weekend",
+      "Today Is the Day Anthropic Stopped Being an Enterprise-and-Developer Company"
+    ],
+    "snippet": "Claude AI Daily Brief — April 24, 2026 | Consumer Connectors Launch, India FinMin Convenes Banks on Mythos, Pro-Pricing Fallout Continues ● Friday, April 24, 2026 Claude AI Daily Brief — April 24, 2026 Covering the last 24 hours · Edition #56 TL;DR — Today’s Top 3 Takeaways 1. Claude Plugs Into the "
+  },
+  {
     "date": "2026-04-23",
     "title": "Claude AI Daily Brief — April 23, 2026 | NEC Picks Claude for 30K Engineers, Mythos Rolls to European Banks, Claude Code 2.1.118 Adds Vim Visual Mode",
     "description": "April 23, 2026: NEC bets one of Japan's largest AI-native engineering teams on Claude Code, with Opus 4.7 going to 30,000 employees. Anthropic prepares to ship Mythos to European banks within days as Australia and APAC regulators scramble. Claude Code 2.1.118 ships vim visual mode, /usage merger, and MCP-tool hooks.",
