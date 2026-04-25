@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-04-25",
+    "title": "Claude AI Daily Brief — April 25, 2026 | Google Pledges $40B to Anthropic, Project Deal Goes Public, Claude Code Postmortem Published",
+    "description": "April 25, 2026: Alphabet commits up to $40B more to Anthropic — $10B now, $30B on milestones — completing the three-hyperscaler compute hedge. Anthropic publishes its Project Deal marketplace experiment: 186 Claude-run deals, $4K total. The Claude Code monthlong-decline postmortem names three engineering changes. Mythos UK rollout still has no date.",
+    "url": "reports/claude-ai-daily-2026-04-25.html",
+    "headlines": [
+      "Google Pledges $40B to Anthropic",
+      "Project Deal Goes Public",
+      "Claude Code Postmortem Published",
+      "Google&rsquo;s $40B Pledge to Anthropic &mdash; The Three-Silicon Hedge Is Now Fully Built",
+      "Project Deal Goes Public &mdash; What Happens When Both Buyer and Seller Are Claude",
+      "Bank of England Tells UK Lenders to &ldquo;Strengthen AI Defences&rdquo; &mdash; Mythos Access Still Has No Date",
+      "The Claude Code Postmortem &mdash; Three Changes, One Compounding Decline",
+      "Claude Code Warning Status Logged Overnight &mdash; Six-Hour Window, No Outage Trigger",
+      "The Consumer-Connector Directory Crosses 200 &mdash; What That Number Actually Means",
+      "The Hyperscaler Capital Race &mdash; Amazon, Google, and the New Anthropic Cap Table",
+      "India&rsquo;s RBI Goes Cross-Border on Mythos &mdash; Comparing Notes With Other Central Banks",
+      "Salesforce Bundles Claude Sonnet 4.5 Into Every Developer Edition Org &mdash; Free, Today",
+      "The Week That Anthropic Locked the Cap Table and Opened the Front Door"
+    ],
+    "snippet": "Claude AI Daily Brief — April 25, 2026 | Google Pledges $40B to Anthropic, Project Deal Goes Public, Claude Code Postmortem Published ● Saturday, April 25, 2026 Claude AI Daily Brief — April 25, 2026 Covering the last 24 hours · Edition #57 TL;DR — Today’s Top 3 Takeaways 1. Google Commits Up to $40"
+  },
+  {
     "date": "2026-04-24",
     "title": "Claude AI Daily Brief — April 24, 2026 | Consumer Connectors Launch, India FinMin Convenes Banks on Mythos, Pro-Pricing Fallout Continues",
     "description": "April 24, 2026: Anthropic opens Claude to 15+ consumer apps — Spotify, Uber, Instacart, TurboTax, Booking.com, AllTrails and more — in a direct shot at ChatGPT and Gemini. India's finance minister convened bank CEOs Thursday over Mythos risk. UK bank rollout still stalled. Pro-pricing trust hangover keeps burning.",

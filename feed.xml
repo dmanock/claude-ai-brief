@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 25, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-25.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-25.html</guid>
+      <pubDate>Sat, 25 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Google Commits Up to $40B More to Anthropic — $10B Now, $30B on Milestones</strong> — Alphabet's tranche lands 96 hours after Amazon's $25B add-on, completing the NVIDIA + AWS Trainium + Google TPU compute hedge. Anthropic's 2027 training plan is now structurally hard to pinch on supply.</p>
+        <p><strong>2. Anthropic Goes Public With Project Deal — A Claude-Run Marketplace, 186 Trades, ~$4K Total</strong> — Anthropic posted the writeup on Project Deal: a classified internal experiment where Claude agents bought, sold, and negotiated employee belongings autonomously. Agent-pairs converged on prices faster than humans, but skewed seller-side in 60% of trades.</p>
+        <p><strong>3. The Claude Code Postmortem Lands — Three Engineering Changes Named</strong> — Anthropic's formal investigation pins the monthlong decline to a March 4 reasoning-effort downgrade, a March 26 caching bug that wiped session data every turn, and an April 16 system-prompt cap that knocked 3% off coding evals. All fixed in 2.1.116; usage limits reset Thursday.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-25.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 24, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-24.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-24.html</guid>
@@ -377,19 +390,4 @@
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-27.html</guid>
       <pubDate>Fri, 27 Mar 2026 08:00:00 -0400</pubDate>
       <description><![CDATA[
-        <p><strong>1. Claude Mythos Leaked — Anthropic's Most Powerful Model Accidentally Revealed</strong> — A CMS misconfiguration exposed nearly 3,000 unpublished assets including drafts for "Claude Mythos," a next-gen model outperforming Opus in cybersecurity, coding, and reasoning.</p>
-        <p><strong>2. Anthropic Weighs October IPO at $60B+ Valuation</strong> — Bloomberg reports early talks with Goldman Sachs, JPMorgan, and Morgan Stanley. Racing OpenAI to go public first.</p>
-        <p><strong>3. Judge Blocks Pentagon Ban — Calls It First Amendment Retaliation</strong> — Judge Rita Lin granted the injunction, suspending the supply-chain risk designation and calling it an "Orwellian notion."</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-27.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — March 26, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-26.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-26.html</guid>
-      <pubDate>Thu, 26 Mar 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Hit by 3.5-Hour Outage — Opus 4.6 and Cowork Hardest Hit</strong> — Yesterday's outage peaked at 5,300+ Downdetector reports. Anthropic identified the root cause and deployed a fix. Service fully restored.</p>
-        <p><strong>2. Pentagon Ruling Imminent — Anthropic Requested Decision by Today</strong> — Judge Rita Lin called the ban "troubling" and said she'd rule within days. Meanwhile, Pentagon CIO confirmed Claude is being used in Operation Epic Fury.</p>
-        <p><strong>3. Economic Index: Experienced Users 10% More Successful</s
+        <p><strong>1. Claude Mythos Leaked — Anthropic's Most Powerful Model Accidentally Revealed</strong> — A CMS misconfiguration exposed nearly 3,000 unpublished assets including drafts for "Claude Mythos,

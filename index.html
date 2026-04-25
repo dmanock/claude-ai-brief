@@ -566,23 +566,23 @@
   <section aria-label="Latest Report">
   <div class="section-label">Latest Report</div>
   <article class="latest-card">
-    <div class="date-badge">April 24, 2026</div>
+    <div class="date-badge">April 25, 2026</div>
     <h2>Today's Top Stories</h2>
     <div class="tldr-items">
       <div class="tldr-item">
         <span class="num">1.</span>
-        <span><strong>Claude Plugs Into the Consumer Stack — 15+ App Connectors, All Plans, Today</strong> — Anthropic flipped on personal connectors this morning for Spotify, Uber, Uber Eats, Instacart, TurboTax, Credit Karma, Booking.com, Audible, AllTrails, TripAdvisor, Viator, Resy, StubHub, Taskrabbit, and Thumbtack. Every Claude plan, no Enterprise gate. It's the most direct consumer shot Anthropic has taken at ChatGPT and Gemini since launching the chat interface.</span>
+        <span><strong>Google Commits Up to $40B More to Anthropic — $10B Now, $30B on Milestones</strong> — Alphabet's new tranche lands the day after Amazon's $25B add-on. Anthropic's 2027 compute floor now spans NVIDIA GPUs, AWS Trainium, and Google TPUs — the three-hyperscaler hedge is fully built. Both backers want the next-frontier model trained on their silicon.</span>
       </div>
       <div class="tldr-item">
         <span class="num">2.</span>
-        <span><strong>India's Finance Minister Summoned Bank CEOs on Mythos Thursday — UK Rollout Still Has No Date</strong> — Nirmala Sitharaman convened heads of scheduled commercial banks, RBI, and CERT-In to assess Mythos-class exploit risk. Meanwhile the UK rollout Reuters said was coming "within days" is now a week old with Anthropic refusing to commit to a timeline, and Bundesbank's Nagel keeps publicly pressing for universal access.</span>
+        <span><strong>Anthropic Goes Public With Project Deal — A Claude-Run Marketplace, 186 Trades, ~$4K Total</strong> — Anthropic posted the writeup on Project Deal: an internal experiment where Claude models bought, sold, and negotiated employee belongings autonomously. The numbers are small. The implications — agent-to-agent commerce, negotiation drift, and what happens when both buyer and seller are LLMs — are not.</span>
       </div>
       <div class="tldr-item">
         <span class="num">3.</span>
-        <span><strong>The Pro-Pricing Hangover Keeps Burning — Simon Willison Says His Trust in Anthropic's Transparency Is Shaken</strong> — Three days after the "2% A/B test" that silently pulled Claude Code from $20 Pro, the dev-community read is hardening. The support docs were updated for everyone while the policy change was officially "limited" — and the Internet Archive caught it. Anthropic's biggest trust asset with developers just took a visible hit.</span>
+        <span><strong>The Claude Code Postmortem Lands — Three Engineering Changes Named, Trust Repair Job Begins</strong> — Anthropic's formal investigation pins the monthlong decline to: a March 4 reasoning-effort downgrade for UI latency, a March 26 caching bug that wiped session data every turn, and an April 16 system-prompt verbosity cap that knocked 3% off coding evals. All three resolved in 2.1.116. Usage limits reset Thursday.</span>
       </div>
     </div>
-    <a href="reports/claude-ai-daily-2026-04-24.html" class="read-btn">
+    <a href="reports/claude-ai-daily-2026-04-25.html" class="read-btn">
       Read Full Report →
     </a>
   </article>
@@ -610,6 +610,7 @@
 
   <!-- APRIL 2026 -->
   <div class="month-rows active" id="apr-2026">
+    <a href="reports/claude-ai-daily-2026-04-25.html" class="day-link">25</a>
     <a href="reports/claude-ai-daily-2026-04-24.html" class="day-link">24</a>
     <a href="reports/claude-ai-daily-2026-04-23.html" class="day-link">23</a>
     <a href="reports/claude-ai-daily-2026-04-22.html" class="day-link">22</a>
@@ -837,4 +838,5 @@
 
     // "/" shortcut to focus search
     document.addEventListener('keydown', function(e) {
-      if (e.key === '/' && document.activeElement !== input && !e.ctrlKe
+      if (e.key === '/' && document.activeElement !== input && !e.ctrlKey && !e.metaKey) {
+        if (document.activeElement.tagName !== '
