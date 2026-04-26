@@ -566,23 +566,23 @@
   <section aria-label="Latest Report">
   <div class="section-label">Latest Report</div>
   <article class="latest-card">
-    <div class="date-badge">April 25, 2026</div>
+    <div class="date-badge">April 26, 2026</div>
     <h2>Today's Top Stories</h2>
     <div class="tldr-items">
       <div class="tldr-item">
         <span class="num">1.</span>
-        <span><strong>Google Commits Up to $40B More to Anthropic — $10B Now, $30B on Milestones</strong> — Alphabet's new tranche lands the day after Amazon's $25B add-on. Anthropic's 2027 compute floor now spans NVIDIA GPUs, AWS Trainium, and Google TPUs — the three-hyperscaler hedge is fully built. Both backers want the next-frontier model trained on their silicon.</span>
+        <span><strong>Anthropic Tells a Federal Court It Cannot Control Claude Once Deployed — The AI Liability Map Just Moved</strong> — A federal court filing has Anthropic admitting it has no technical ability to control Claude 4 after it lands on customer infrastructure. The legal read: the "deployer takes the risk" doctrine is now on the record from a frontier lab. Every enterprise contract written this week will reference this filing by Monday.</span>
       </div>
       <div class="tldr-item">
         <span class="num">2.</span>
-        <span><strong>Anthropic Goes Public With Project Deal — A Claude-Run Marketplace, 186 Trades, ~$4K Total</strong> — Anthropic posted the writeup on Project Deal: an internal experiment where Claude models bought, sold, and negotiated employee belongings autonomously. The numbers are small. The implications — agent-to-agent commerce, negotiation drift, and what happens when both buyer and seller are LLMs — are not.</span>
+        <span><strong>Claude Code 2.1.120 Auto-Rolls Back to 2.1.119 After Eight Regressions Filed in 24 Hours</strong> — A --resume / --continue crash, a sandbox-required false alarm, an Antigravity spawn failure, a UI-duplication bug, a WSL2 freeze, and a silent model swap. Anthropic resolved the incident overnight and triggered an auto-update back to 2.1.119. The postmortem-trust deposit just got tested.</span>
       </div>
       <div class="tldr-item">
         <span class="num">3.</span>
-        <span><strong>The Claude Code Postmortem Lands — Three Engineering Changes Named, Trust Repair Job Begins</strong> — Anthropic's formal investigation pins the monthlong decline to: a March 4 reasoning-effort downgrade for UI latency, a March 26 caching bug that wiped session data every turn, and an April 16 system-prompt verbosity cap that knocked 3% off coding evals. All three resolved in 2.1.116. Usage limits reset Thursday.</span>
+        <span><strong>Rate Limits API Ships — Programmatic Org and Workspace Limits Are Now Queryable</strong> — The Claude Developer Platform released the Rate Limits API on Saturday. Admins can now pull configured limits per org and per workspace via the API instead of the console. Small surface change, big operational unlock for finops teams running Claude across multiple workspaces.</span>
       </div>
     </div>
-    <a href="reports/claude-ai-daily-2026-04-25.html" class="read-btn">
+    <a href="reports/claude-ai-daily-2026-04-26.html" class="read-btn">
       Read Full Report →
     </a>
   </article>
@@ -610,6 +610,7 @@
 
   <!-- APRIL 2026 -->
   <div class="month-rows active" id="apr-2026">
+    <a href="reports/claude-ai-daily-2026-04-26.html" class="day-link">26</a>
     <a href="reports/claude-ai-daily-2026-04-25.html" class="day-link">25</a>
     <a href="reports/claude-ai-daily-2026-04-24.html" class="day-link">24</a>
     <a href="reports/claude-ai-daily-2026-04-23.html" class="day-link">23</a>
@@ -838,5 +839,4 @@
 
     // "/" shortcut to focus search
     document.addEventListener('keydown', function(e) {
-      if (e.key === '/' && document.activeElement !== input && !e.ctrlKey && !e.metaKey) {
-        if (document.activeElement.tagName !== '
+      if (e.key === '/' && document.activeElement

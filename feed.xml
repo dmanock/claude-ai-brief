@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 26, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-26.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-26.html</guid>
+      <pubDate>Sun, 26 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Tells a Federal Court It Cannot Control Claude Once Deployed — The AI Liability Map Just Moved</strong> — A federal court filing has Anthropic admitting it has no technical ability to control Claude 4 after it lands on customer infrastructure. The "deployer takes the risk" doctrine is now on the record from a frontier lab.</p>
+        <p><strong>2. Claude Code 2.1.120 Auto-Rolls Back to 2.1.119 After Eight Regressions Filed in 24 Hours</strong> — A --resume / --continue crash, sandbox false alarm, Antigravity spawn fail, UI-duplication bug, WSL2 freeze, and silent model swap. Anthropic resolved overnight; auto-update channel reverted to 2.1.119.</p>
+        <p><strong>3. Rate Limits API Ships</strong> — The Claude Developer Platform released programmatic org and workspace rate-limit queries Saturday. Foundational telemetry for finops teams running Claude across many workspaces.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-26.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 25, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-25.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-25.html</guid>
@@ -371,23 +384,5 @@
       ]]></description>
     </item>
 
-    <item>
-      <title>Claude AI Daily Brief — March 28, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-28.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-28.html</guid>
-      <pubDate>Sat, 28 Mar 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Mythos Training Complete — Capybara Tier Details Emerge</strong> — Anthropic reportedly finishes training Claude Mythos. New details surface on a 10-trillion parameter "Capybara" tier with dramatically higher benchmark scores in cybersecurity and coding.</p>
-        <p><strong>2. Accenture Launches Cyber.AI Powered by Claude</strong> — The enterprise security platform cuts scan turnaround from days to under an hour. API test coverage jumped from 10% to 80% at Accenture's own infrastructure.</p>
-        <p><strong>3. MCP Hits 97M Monthly Downloads — Moves to Linux Foundation</strong> — Anthropic donates MCP governance to the Agentic AI Foundation, co-founded with OpenAI, Block, Google, and Microsoft. New peak-hour usage limits also take effect today.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-28.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — March 27, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-27.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-27.html</guid>
-      <pubDate>Fri, 27 Mar 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Mythos Leaked — Anthropic's Most Powerful Model Accidentally Revealed</strong> — A CMS misconfiguration exposed nearly 3,000 unpublished assets including drafts for "Claude Mythos,
+  </channel>
+</rss>

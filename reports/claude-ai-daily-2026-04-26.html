@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude AI Daily Brief — April 26, 2026 | Anthropic Tells Court It Cannot Control Claude Once Deployed, Claude Code 2.1.120 Rollback, Rate Limits API Lands</title>
+  <meta name="description" content="April 26, 2026: Anthropic told a federal court it has no technical ability to control Claude 4 once it lands on customer infrastructure — the AI liability map just moved. Claude Code 2.1.120 is being auto-rolled back to 2.1.119 after eight regressions, including a --resume crash. Rate Limits API ships. Mythos UK rollout still no timeline. $800B valuation chatter and an October IPO target keep building.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-04-26.html">
+  <meta property="og:title" content="Claude AI Daily Brief — April 26, 2026">
+  <meta property="og:description" content="Anthropic tells a federal court it cannot control Claude once deployed — the liability map just shifted. Claude Code 2.1.120 auto-rollback after eight regressions. Rate Limits API ships. Mythos UK still has no date. $800B valuation, October IPO chatter builds.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-26.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — April 26, 2026">
+  <meta name="twitter:description" content="Anthropic tells a federal court it cannot control Claude once deployed — the liability map just shifted. Claude Code 2.1.120 auto-rollback after eight regressions. Rate Limits API ships. Mythos UK still has no date. $800B valuation, October IPO chatter builds.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-26.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-04-26.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — April 26, 2026",
+    "description": "Anthropic tells a federal court it cannot control Claude once deployed — the liability map just shifted. Claude Code 2.1.120 auto-rollback after eight regressions. Rate Limits API ships. Mythos UK still has no date. $800B valuation, October IPO chatter builds.",
+    "datePublished": "2026-04-26T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-26.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-04-26.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Sunday, April 26, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; April 26, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #58</p>
+</div>
+
+<div class="main">
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Anthropic Tells a Federal Court It Cannot Control Claude Once Deployed &mdash; The AI Liability Map Just Moved</strong> &mdash; A federal court filing has Anthropic admitting it has no technical ability to control Claude 4 after it lands on customer infrastructure. The legal read: the &ldquo;deployer takes the risk&rdquo; doctrine is now on the record from a frontier lab. Every enterprise contract written this week will reference this filing by Monday.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Claude Code 2.1.120 Auto-Rolls Back to 2.1.119 After Eight Regressions Filed in 24 Hours</strong> &mdash; A <code>--resume</code> / <code>--continue</code> crash, a sandbox-required false alarm, an Antigravity spawn failure, a UI-duplication bug, a WSL2 freeze, and a silent model swap. Anthropic resolved the incident overnight and triggered an auto-update back to 2.1.119. The postmortem-trust deposit just got tested.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Rate Limits API Ships &mdash; Programmatic Org and Workspace Limits Are Now Queryable</strong> &mdash; The Claude Developer Platform released the Rate Limits API on Saturday. Admins can now pull configured limits per org and per workspace via the API instead of the console. Small surface change, big operational unlock for finops teams running Claude across multiple workspaces.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Legal</span>
+      <h3>Anthropic to a Federal Court: We Cannot Control Claude Once It&rsquo;s Deployed</h3>
+      <p>A federal court filing surfaced this week has Anthropic stating, on the record, that the company has no technical ability to control Claude 4 after it has been deployed to customer infrastructure. The framing matters. It is not a marketing position. It is a sworn legal posture, and it shifts the responsibility map for AI deployment in a way enterprise counsel has been waiting two years to see formally written down. If the model is the firearm, the deployer is the operator &mdash; that is the doctrine the filing pushes toward. The downstream implication for indemnification clauses, SOC 2 carve-outs, and AI-specific E&amp;O policies is going to be the busiest contract-redline conversation Anthropic&rsquo;s legal partners will have all month.</p>
+      <p>The harder read: this is also the lab signaling that &ldquo;model behavior is the user&rsquo;s problem once the API key is provisioned&rdquo; is the hill they will defend. That posture is consistent with the Acceptable Use Policy and the Responsible Scaling Policy, but it is structurally different from what plaintiffs in product-liability cases will want to hear, and it is the opposite of what some sovereign supervisors are asking for around Mythos. Watch for the same language to appear in the next round of enterprise master service agreements, and watch for the EU AI Act enforcement trajectory to use this filing as evidence in either direction. The map didn&rsquo;t just move &mdash; it got drawn for the first time.</p>
+      <div class="source-links">
+        <a href="https://startupfortune.com/anthropic-told-a-federal-court-it-cannot-control-claude-once-deployed-and-the-liability-map-for-ai-just-changed/" class="source-link">Startup Fortune</a>
+        <a href="https://www.anthropic.com/legal/aup" class="source-link">Anthropic AUP</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Mythos</span>
+      <h3>UK Mythos Rollout Still No Date &mdash; BoE and UK Finance Operational Resilience Group Met This Week</h3>
+      <p>Ten days after Reuters reported the UK Mythos rollout would land &ldquo;within days,&rdquo; there is still no timeline. What did happen this week: the Bank of England and UK Finance&rsquo;s cross-market operational resilience group convened to discuss Mythos and broader AI cyber risk, and the working communique committed firms to use AI &ldquo;to strengthen cyber defence.&rdquo; Technology Minister Liz Kendall and Security Minister Dan Jarvis went on the record warning that frontier-AI cyber capability is accelerating faster than the threat models the public sector was working against last quarter. The UK AI Security Institute&rsquo;s own evaluation, published earlier in the week, said Mythos can exploit vulnerabilities that would take human professionals &ldquo;days of work.&rdquo;</p>
+      <p>The framing this weekend is consistent across G7 supervisors: nobody is committing to dates, everybody is convening, and the institutional posture is that frontier-AI cyber risk now belongs on quarterly review cycles rather than annual ones. The UK government remains the only non-US state to have had AISI access to a Mythos preview. India&rsquo;s RBI is comparing notes with peer central banks. Germany&rsquo;s Bundesbank chief is still arguing publicly for universal access. The Mythos negotiation is the most consequential regulator-by-regulator AI policy process since the EU AI Act &mdash; and it continues to play out in slow motion in public.</p>
+      <div class="source-links">
+        <a href="https://www.resultsense.com/news/2026-04-24-uk-banks-mythos-access-ongoing-talks" class="source-link">ResultSense</a>
+        <a href="https://www.finextra.com/newsarticle/47630/uk-government-in-talks-with-anthropic-for-mythos-uk-release-amidst-warnings" class="source-link">Finextra</a>
+        <a href="https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities" class="source-link">UK AISI</a>
+        <a href="https://www.businesstoday.in/technology/story/bt-explainer-inside-claude-mythos-the-ai-is-forcing-a-rethink-of-global-cybersecurity-527461-2026-04-26" class="source-link">BusinessToday</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Copyright</span>
+      <h3>Music Publishers Brief &mdash; Anthropic Asks the Court to Find Lyric Training Transformative</h3>
+      <p>Anthropic filed a brief Monday in the Universal Music Group / publishers lawsuit arguing the publishers cannot &ldquo;meaningfully dispute that training on lyrics (and other copyrighted text) is transformative,&rdquo; and asking the court to wrap the case on summary judgment. The legal posture is consistent with the Bartz authors-class settlement that closed last fall and with the June 2025 Northern District of California fair-use ruling that found training on copyrighted text fair use in principle while leaving piracy claims open. UMG&rsquo;s read is the opposite: that lyrics are a uniquely creative-economy artifact and that the fair-use argument that worked for books shouldn&rsquo;t carry over.</p>
+      <p>What to watch: the final approval hearing in Bartz happened earlier this month with the $1.5B settlement on track for sign-off; that case&rsquo;s structure (training fair use, piracy not) is the template Anthropic is extending into music. If the publishers can&rsquo;t differentiate lyrics from books in a way the court accepts, the music-industry plaintiff bar loses leverage on every other AI training case in the queue. If they can, the cost of training data goes up across the entire frontier lab cohort. The brief is the opening move in the case that decides which way it goes.</p>
+      <div class="source-links">
+        <a href="https://www.billboard.com/pro/anthropic-claude-ai-music-lawsuit-argues-fair-use-finding/" class="source-link">Billboard</a>
+        <a href="https://www.classaction.org/news/1.5b-anthropic-settlement-ends-authors-class-action-lawsuit-over-alleged-ai-copyright-infringement" class="source-link">ClassAction.org</a>
+        <a href="https://ailawsuittracker.com/" class="source-link">AI Lawsuit Tracker</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Regression</span>
+      <h3>Claude Code 2.1.120 &mdash; Eight Regressions, Auto-Rollback to 2.1.119 Overnight</h3>
+      <p>The 2.1.120 release that shipped over the weekend went sideways fast. The headline regression is a JavaScript runtime crash on <code>claude --resume</code> and <code>claude --continue</code>: the REPL component throws &ldquo;<code>g9H is not a function</code>&rdquo; (or <code>UKH</code>, depending on minified-symbol drift) on session restore, and the workaround is to start a new session and run <code>/resume</code> from the REPL. Beyond that one, the survival checklist that landed on GitHub Friday names eight separate regressions across 2.1.119 and 2.1.120: a sandbox-required false alarm even with <code>sandbox.enabled=false</code>, an Antigravity spawn failure that exits the bundled binary with code 1, a silent model swap, a UI-duplication bug, a WSL2 freeze, an auto-update break, and the resume crashes. The status page acknowledged the issue at 02:35 UTC Saturday. Anthropic has since rolled the auto-update channel back to 2.1.119; users on 2.1.120 can manually run <code>claude install 2.1.119</code> if they don&rsquo;t want to wait for the next check.</p>
+      <p>The trust read on Saturday is more interesting than the bug list. Forty-eight hours after the postmortem that named the three changes behind the monthlong Claude Code decline, the next release ships with eight regressions. Some of those are the cost of moving fast on a CLI that&rsquo;s now installed in every Fortune 500 dev environment; the rest belong in the &ldquo;why didn&rsquo;t the canary catch this&rdquo; column. The practical takeaway for teams: pin <code>2.1.117</code> until the next clean release if you cannot tolerate weekend rollback drama, and keep an eye on the Claude Code GitHub issue tracker rather than the marketing channels &mdash; that&rsquo;s where the real signal lives now.</p>
+      <div class="source-links">
+        <a href="https://github.com/anthropics/claude-code/issues/53086" class="source-link">Issue 53086</a>
+        <a href="https://github.com/anthropics/claude-code/issues/53085" class="source-link">Issue 53085</a>
+        <a href="https://github.com/anthropics/claude-code/issues/53044" class="source-link">Issue 53044</a>
+        <a href="https://gist.github.com/yurukusa/a866b4cd2976486156a00c190c39cef6" class="source-link">Survival Checklist</a>
+        <a href="https://status.claude.com/" class="source-link">Claude Status</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">API</span>
+      <h3>Rate Limits API Lands &mdash; Programmatic Queries for Org and Workspace Limits</h3>
+      <p>The Claude Developer Platform shipped the Rate Limits API on Saturday. The endpoint lets administrators pull the configured rate limits for an organization or for any of its workspaces directly via the API rather than reading them out of the console. For finops and platform teams running Claude across many workspaces &mdash; an increasingly common pattern as Enterprise self-serve and Cowork roll out &mdash; this is the kind of foundational telemetry that turns &ldquo;why did this team get throttled this morning&rdquo; from a Slack archaeology project into a one-line script. It also makes capacity-planning automation possible for the first time without scraping the dashboard.</p>
+      <p>What it doesn&rsquo;t do, yet: programmatically modify those limits. Reads first, writes later is the standard Anthropic API pattern, and a write-side companion is the obvious follow-up the request-budgeting community will be asking for inside a quarter. The other thing to watch: how this API plays with the Enterprise Analytics API that&rsquo;s been live for several weeks now. Together they form the building blocks of an internal &ldquo;Claude observability&rdquo; layer that until now has been the province of vendor middleware.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/api/rate-limits" class="source-link">Rate Limits Docs</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Release Notes</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-tip">Reliability Tip</span>
+      <h3>Pinning Claude Code: The 2.1.117 Strategy for Production Teams</h3>
+      <p>If your team is running Claude Code in CI or as part of an agent workload, the lesson of this weekend is that auto-update is a liability. The pattern that worked through the March 4 / March 26 / April 16 window and is now working through the 2.1.120 episode is: pin a known-good version, watch the GitHub issue tracker for two days after each minor release, and only roll forward when there&rsquo;s a clean week of no new regressions filed. The community-maintained &ldquo;survival checklist&rdquo; gist that surfaced Friday is currently the best single source for which versions are stable and which to skip. <code>2.1.117</code> is the consensus &ldquo;safe&rdquo; pin as of this morning.</p>
+      <p>Operationally: set <code>DISABLE_UPDATES=1</code> in your shell profile for Claude Code, ship the version pin in your dotfiles, and run a weekly &ldquo;is the new release safe yet&rdquo; check rather than letting auto-update decide. The Bedrock and Vertex paths continue to be the most resilient surfaces for teams that need uptime over latest-features. None of this is news to platform engineers who lived through the npm semver wars; what&rsquo;s newer is treating an AI agent CLI with the same supply-chain discipline as a runtime dependency.</p>
+      <div class="source-links">
+        <a href="https://gist.github.com/yurukusa/a866b4cd2976486156a00c190c39cef6" class="source-link">Survival Checklist Gist</a>
+        <a href="https://code.claude.com/docs/en/troubleshooting" class="source-link">Claude Code Troubleshooting</a>
+        <a href="https://code.claude.com/docs/en/whats-new" class="source-link">What&rsquo;s New</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Capital Markets</span>
+      <h3>$800B Valuation Chatter, October IPO Window &mdash; What Last Week&rsquo;s Capital Stack Implies</h3>
+      <p>Stack the week. Amazon&rsquo;s $5B-immediate-plus-$20B-on-milestones add-on Monday. Google&rsquo;s $10B-immediate-plus-$30B-on-milestones tranche Friday. The $100B AWS commitment and the 3.5GW Broadcom/Alphabet TPU expansion sitting underneath both. Reporting through the weekend has secondary venture markets pricing Anthropic at up to $800B &mdash; double the $380B Series G mark from February &mdash; and tracking an October IPO window with a target raise of more than $60B, which would make it the second-largest U.S. IPO ever after SpaceX. The annualized revenue base behind that pricing is north of $30B, with enterprise accounts spending $1M-plus annually having doubled in two months and eight of the Fortune 10 named as customers.</p>
+      <p>The structural read: the cap table is now built to absorb a public listing without a single hyperscaler holding majority influence. Three-silicon supply hedge, three anchor investors, ARR scale that has pulled ahead of OpenAI for the first time, and a regulator-by-regulator process that looks slow from the outside but is producing the right kind of relationships for a public company that needs to keep operating in the EU, UK, and Asia. The thing that would still give a public-market diligence team pause is the consumer-trust posture (Pro-pricing wobble, Claude Code regression weekend) and the legal exposure surface from this week&rsquo;s &ldquo;cannot control Claude once deployed&rdquo; filing. Both are durable but neither is a deal-breaker. October is plausible.</p>
+      <div class="source-links">
+        <a href="https://marketwise.com/investing/anthropic-ipo-2026-claude-ai-enterprise-software-disruption/" class="source-link">MarketWise</a>
+        <a href="https://www.tradingkey.com/analysis/stocks/us-stocks/261756528-anthropic-openai-ipo-tradingkey" class="source-link">TradingKey</a>
+        <a href="https://en.cryptonomist.ch/2026/04/15/anthropic-valuation-funding-talks/" class="source-link">Cryptonomist</a>
+        <a href="https://sacra.com/c/anthropic/" class="source-link">Sacra</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Ecosystem</span>
+      <h3>StackAdapt MCP Server, Zoom Meeting Intelligence &mdash; Vertical Connectors Keep Filling In</h3>
+      <p>Two ecosystem moves worth flagging this weekend. StackAdapt brought its campaign-intelligence MCP server to general availability this week, putting programmatic ad-platform telemetry inside Claude Cowork and Claude Code workflows for the marketing-ops cohort. Zoom shipped meeting-intelligence integration into Claude that lets agents act on transcript summaries, action-item extraction, and call analytics from a Cowork session directly &mdash; the kind of integration that until last quarter would have required a custom RAG pipeline and a Zoom developer account.</p>
+      <p>Both fit the pattern from yesterday&rsquo;s consumer connector launch: vertical apps shipping first-party MCP servers because being inside Claude is now the most productive distribution surface for an SMB product to win at. The 200+ connector directory is a count, but the more useful metric is how often two connectors get used together in the same Cowork session &mdash; the multi-connector composite is where the agent actually does useful work, not the single-app round-trip. Watch for the next vertical to break through: legal research, healthcare scheduling, or supply-chain procurement are the three categories where the &ldquo;agent that actually does my job&rdquo; thesis has the clearest fit and where Anthropic has not yet picked winners.</p>
+      <div class="source-links">
+        <a href="https://www.businesswire.com/news/home/20260421122109/en/StackAdapt-Brings-Campaign-Intelligence-Into-Claude-and-Other-AI-Workflows-With-Launch-of-MCP-Server" class="source-link">BusinessWire / StackAdapt</a>
+        <a href="https://news.zoom.com/zoom-meeting-intelligence-in-claude/" class="source-link">Zoom Newsroom</a>
+        <a href="https://blog.box.com/mcp-apps-claude-box-mcp-server-blog-post" class="source-link">Box MCP Apps</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Benchmarks</span>
+      <h3>Opus 4.7 Holds SWE-Bench Verified at 87.6% &mdash; The 6.8-Point Gain Over Opus 4.6 Is the Story</h3>
+      <p>Ten days after launch, Opus 4.7 still leads SWE-Bench Verified at 87.6%, with GPT-5.3-Codex at 85.0% in the #2 slot, Gemini 3.1 Pro at 80.6%, the open-weight MiniMax M2.5 at 80.2%, GPT-5.2 at 80.0%, and Sonnet 4.6 hanging in at 79.6%. SWE-Bench Pro, the harder evaluation, has Opus 4.7 at 64.3% &mdash; the highest published number on Pro to date. The 6.8-point Verified gain over Opus 4.6 is the tell: not a marginal upgrade, an actual generation step on the metric that decides where coding workloads route.</p>
+      <p>The cost-quality angle is what platform teams will care about more. Sonnet 4.6 at 79.6% on Verified is one-fifth the price of Opus 4.7 and within striking distance of every non-frontier-tier competitor; that&rsquo;s the model that wins on routing weight when the task fits inside its envelope. Salesforce&rsquo;s decision Friday to bundle Sonnet 4.5 (not Opus 4.7) into every Developer Edition org as the default coding model is the practical read of the same trade-off &mdash; the mid-tier reliability is what production wants. Opus 4.7 is the &ldquo;hardest jobs only&rdquo; tier, and that&rsquo;s how it should be priced on internal cost models.</p>
+      <div class="source-links">
+        <a href="https://www.marc0.dev/en/leaderboard" class="source-link">SWE-Bench Leaderboard</a>
+        <a href="https://www.vellum.ai/blog/claude-opus-4-7-benchmarks-explained" class="source-link">Vellum</a>
+        <a href="https://artificialanalysis.ai/articles/opus-4-7-everything-you-need-to-know" class="source-link">Artificial Analysis</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>The &ldquo;Cannot Control&rdquo; Filing Is the Most Important Document of the Week</h3>
+      <p>Take the week in aggregate and the cap-table-and-compute story dominated the headlines, but the document that will matter most a year from now is the federal court filing in which Anthropic stated, on the record, that it has no technical ability to control Claude 4 once deployed. That sentence reorganizes the AI liability conversation. Until this week, the implicit contract between a frontier lab and an enterprise deployer was &ldquo;the model is yours to use, but the lab will help you keep it safe.&rdquo; The filing changes that to &ldquo;the model is yours, full stop &mdash; safety is your problem on your infra.&rdquo; That posture is intellectually defensible and economically rational from the lab side. It is also exactly the language plaintiffs in product-liability cases will want to read into evidence, and exactly the language regulators in jurisdictions that don&rsquo;t love the U.S. fair-use ruling will want to use to write tighter mandates.</p>
+      <p>Put it next to the Claude Code regression weekend and the picture clarifies. The lab is moving fast on the developer surface. The lab is also drawing a sharper legal perimeter around what it owns and what the deployer owns. Neither of those is bad strategy in isolation. Together they are the operational signature of a company preparing to be a public company &mdash; one that has decided which risks are existential (loss of frontier-model lead, sovereign regulatory shutdown) and which risks are manageable line items (one bad release, one piracy settlement, one liability framework that puts the deployer on the hook). The thing to watch for May is whether the next round of enterprise master service agreements references the &ldquo;cannot control once deployed&rdquo; language explicitly or whether Anthropic walks it back through clarifying briefs. The first version is the public posture. The second version is the contract you sign.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

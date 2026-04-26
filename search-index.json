@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-04-26",
+    "title": "Claude AI Daily Brief — April 26, 2026 | Anthropic Tells Court It Cannot Control Claude Once Deployed, Claude Code 2.1.120 Rollback, Rate Limits API Lands",
+    "description": "April 26, 2026: Anthropic told a federal court it has no technical ability to control Claude 4 once it lands on customer infrastructure — the AI liability map just moved. Claude Code 2.1.120 is being auto-rolled back to 2.1.119 after eight regressions, including a --resume crash. Rate Limits API ships. Mythos UK rollout still no timeline. $800B valuation chatter and an October IPO target keep building.",
+    "url": "reports/claude-ai-daily-2026-04-26.html",
+    "headlines": [
+      "Anthropic Tells Court It Cannot Control Claude Once Deployed",
+      "Claude Code 2.1.120 Rollback",
+      "Rate Limits API Lands",
+      "Anthropic to a Federal Court: We Cannot Control Claude Once It&rsquo;s Deployed",
+      "UK Mythos Rollout Still No Date &mdash; BoE and UK Finance Operational Resilience Group Met This Week",
+      "Music Publishers Brief &mdash; Anthropic Asks the Court to Find Lyric Training Transformative",
+      "Claude Code 2.1.120 &mdash; Eight Regressions, Auto-Rollback to 2.1.119 Overnight",
+      "Rate Limits API Lands &mdash; Programmatic Queries for Org and Workspace Limits",
+      "Pinning Claude Code: The 2.1.117 Strategy for Production Teams",
+      "$800B Valuation Chatter, October IPO Window &mdash; What Last Week&rsquo;s Capital Stack Implies",
+      "StackAdapt MCP Server, Zoom Meeting Intelligence &mdash; Vertical Connectors Keep Filling In",
+      "Opus 4.7 Holds SWE-Bench Verified at 87.6% &mdash; The 6.8-Point Gain Over Opus 4.6 Is the Story",
+      "The &ldquo;Cannot Control&rdquo; Filing Is the Most Important Document of the Week"
+    ],
+    "snippet": "Claude AI Daily Brief — April 26, 2026 | Anthropic Tells Court It Cannot Control Claude Once Deployed, Claude Code 2.1.120 Rollback, Rate Limits API Lands ● Sunday, April 26, 2026 Claude AI Daily Brief — April 26, 2026 Covering the last 24 hours · Edition #58 TL;DR — Today’s Top 3 Takeaways 1. Anthr"
+  },
+  {
     "date": "2026-04-25",
     "title": "Claude AI Daily Brief — April 25, 2026 | Google Pledges $40B to Anthropic, Project Deal Goes Public, Claude Code Postmortem Published",
     "description": "April 25, 2026: Alphabet commits up to $40B more to Anthropic — $10B now, $30B on milestones — completing the three-hyperscaler compute hedge. Anthropic publishes its Project Deal marketplace experiment: 186 Claude-run deals, $4K total. The Claude Code monthlong-decline postmortem names three engineering changes. Mythos UK rollout still has no date.",
