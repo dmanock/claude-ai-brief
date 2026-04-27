@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 27, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-27.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-27.html</guid>
+      <pubDate>Mon, 27 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. India Tells Banks to Harden on Mythos — NPCI Seeks Early Access, RBI Consulting Fed and BoE</strong> — The Centre asked Indian banks Monday to step up cyber preparedness on Mythos-class exploit risk. NPCI is negotiating early Mythos access for a small bank cohort to patch UPI before the model goes wide. India is now the second sovereign inside the negotiation behind the UK.</p>
+        <p><strong>2. The $800B-$1T Cap-Table Settles Into Markets</strong> — Forge marking Anthropic at roughly $1T, ahead of OpenAI's $880B for the first time. Friday's Google $10B-now/$30B-on-milestones tranche sits on top of Amazon's add and the $100B AWS commit. October IPO window with $60B raise still the working hypothesis.</p>
+        <p><strong>3. GPT-5.5 vs Opus 4.7, Four Days In</strong> — Opus 4.7 still leads SWE-Bench Verified 87.6% to 85.0%. Two frontier models, two different axes: Spud leads planning-and-execution evals, Opus 4.7 leads codebase-resolution evals.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-27.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 26, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-26.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-26.html</guid>
@@ -366,23 +379,4 @@
       <description><![CDATA[
         <p><strong>1. Anthropic Launches "Claude for Open Source"</strong> — Free Max 20x access for up to 10,000 qualified OSS maintainers and contributors. Applications open through June 30.</p>
         <p><strong>2. Mythos Cyber Fears Hit Washington</strong> — Axios reports Anthropic is privately warning top government officials that Mythos makes large-scale cyberattacks significantly more likely in 2026.</p>
-        <p><strong>3. Pentagon Appeal Clock: 3 Days Left</strong> — DOJ has until ~April 2 to appeal Judge Lin's injunction. Legal experts widely expect a Ninth Circuit filing.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-30.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — March 29, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-29.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-29.html</guid>
-      <pubDate>Sun, 29 Mar 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Weighs October IPO at $60B+ Valuation</strong> — Bloomberg reports early talks with Goldman Sachs, JPMorgan, and Morgan Stanley. Racing OpenAI to go public first, with Mythos as the headline product.</p>
-        <p><strong>2. Claude Paid Subs More Than Double — 1M Signing Up Daily</strong> — Daily signups quadrupled from 250K to over 1M since January. Super Bowl ads and Claude Code are the primary growth drivers.</p>
-        <p><strong>3. Pentagon Has One Week to Appeal Injunction</strong> — Judge Lin delayed implementation by seven days. If no appeal is filed by ~April 2, the supply-chain risk designation stays frozen.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-29.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-  </channel>
-</rss>
+        <p><strong>3. Pen

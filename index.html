@@ -566,23 +566,23 @@
   <section aria-label="Latest Report">
   <div class="section-label">Latest Report</div>
   <article class="latest-card">
-    <div class="date-badge">April 26, 2026</div>
+    <div class="date-badge">April 27, 2026</div>
     <h2>Today's Top Stories</h2>
     <div class="tldr-items">
       <div class="tldr-item">
         <span class="num">1.</span>
-        <span><strong>Anthropic Tells a Federal Court It Cannot Control Claude Once Deployed — The AI Liability Map Just Moved</strong> — A federal court filing has Anthropic admitting it has no technical ability to control Claude 4 after it lands on customer infrastructure. The legal read: the "deployer takes the risk" doctrine is now on the record from a frontier lab. Every enterprise contract written this week will reference this filing by Monday.</span>
+        <span><strong>India Tells Banks to Harden on Mythos — NPCI Seeks Early Access, RBI Consulting the Fed and BoE</strong> — The Centre asked Indian banks Monday to step up cyber preparedness on Mythos-class exploit risk. The National Payments Corporation of India is negotiating early Mythos access for a small bank group so UPI infrastructure can be patched before the model goes wide. India is now the second sovereign inside the Mythos negotiation behind the UK.</span>
       </div>
       <div class="tldr-item">
         <span class="num">2.</span>
-        <span><strong>Claude Code 2.1.120 Auto-Rolls Back to 2.1.119 After Eight Regressions Filed in 24 Hours</strong> — A --resume / --continue crash, a sandbox-required false alarm, an Antigravity spawn failure, a UI-duplication bug, a WSL2 freeze, and a silent model swap. Anthropic resolved the incident overnight and triggered an auto-update back to 2.1.119. The postmortem-trust deposit just got tested.</span>
+        <span><strong>The $800B-$1T Cap-Table Settles Into Markets — Google Tranche, $30B ARR, October IPO Window</strong> — Forge Global secondary marks have Anthropic at roughly $1T, ahead of OpenAI's $880B for the first time. Indian and European business press picked up Friday's Google $10B-now/$30B-on-milestones tranche this morning. The $30B annualized revenue base is doing the actual lifting.</span>
       </div>
       <div class="tldr-item">
         <span class="num">3.</span>
-        <span><strong>Rate Limits API Ships — Programmatic Org and Workspace Limits Are Now Queryable</strong> — The Claude Developer Platform released the Rate Limits API on Saturday. Admins can now pull configured limits per org and per workspace via the API instead of the console. Small surface change, big operational unlock for finops teams running Claude across multiple workspaces.</span>
+        <span><strong>GPT-5.5 vs Opus 4.7, Four Days In — Anthropic Still Leads SWE-Bench Verified 87.6% to 85.0%</strong> — OpenAI shipped GPT-5.5 "Spud" on April 23. Four-day read: the two frontier models are not competing on the same axis. Spud leads planning-and-execution evals (Terminal-Bench, Toolathlon); Opus 4.7 leads codebase-resolution evals (SWE-Bench Pro/Verified, MCP-Atlas, CursorBench).</span>
       </div>
     </div>
-    <a href="reports/claude-ai-daily-2026-04-26.html" class="read-btn">
+    <a href="reports/claude-ai-daily-2026-04-27.html" class="read-btn">
       Read Full Report →
     </a>
   </article>
@@ -610,6 +610,7 @@
 
   <!-- APRIL 2026 -->
   <div class="month-rows active" id="apr-2026">
+    <a href="reports/claude-ai-daily-2026-04-27.html" class="day-link">27</a>
     <a href="reports/claude-ai-daily-2026-04-26.html" class="day-link">26</a>
     <a href="reports/claude-ai-daily-2026-04-25.html" class="day-link">25</a>
     <a href="reports/claude-ai-daily-2026-04-24.html" class="day-link">24</a>
@@ -839,4 +840,6 @@
 
     // "/" shortcut to focus search
     document.addEventListener('keydown', function(e) {
-      if (e.key === '/' && document.activeElement
+      if (e.key === '/' && document.activeElement !== input && !e.ctrlKey && !e.metaKey) {
+        if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+          e.pre

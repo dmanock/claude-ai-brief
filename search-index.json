@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-04-27",
+    "title": "Claude AI Daily Brief — April 27, 2026 | India RBI Steps Up Bank Cyber Prep on Mythos, $800B Cap-Table Settles, GPT-5.5 vs Opus 4.7 Four Days In",
+    "description": "April 27, 2026: India tells banks to harden cyber posture as NPCI quietly seeks early Mythos access — the second sovereign now inside the Mythos negotiation. Markets open with Anthropic's secondary pricing in the $800B-$1T band after Friday's Google add. Four days after GPT-5.5 'Spud' launched, Opus 4.7 still leads SWE-Bench Verified 87.6% to 85.0%. Claude Code auto-rollback to 2.1.119 holds clean.",
+    "url": "reports/claude-ai-daily-2026-04-27.html",
+    "headlines": [
+      "India RBI Steps Up Bank Cyber Prep on Mythos",
+      "$800B Cap-Table Settles",
+      "GPT-5.5 vs Opus 4.7 Four Days In",
+      "India Steps Up Bank Cyber Preparedness on Mythos &mdash; NPCI Seeks Early Access, RBI Consulting Fed and BoE",
+      "UK Mythos Rollout: Eleven Days Past &ldquo;Within Days,&rdquo; Still No Date",
+      "Claude Code 2.1.119 Holds Clean Through Monday Morning &mdash; Pin 2.1.117 Still the Production Recommendation",
+      "Managed Agents Beta Header Live &mdash; managed-agents-2026-04-01 Is Now the Long-Horizon Surface",
+      "Streamable HTTP Is the Final Transport &mdash; SSE Servers Should Migrate Now",
+      "Monday Cap-Table Read &mdash; Forge Pricing $1T, Hiive $955, Google Tranche Settles Into the Tape",
+      "GPT-5.5 &ldquo;Spud&rdquo; vs Opus 4.7, Four Days In &mdash; Two Frontier Models, Two Different Axes",
+      "Consumer Connectors Pass the Weekend Adoption Test &mdash; Mobile Beta Picks Up the Long Tail",
+      "The Mythos Sovereign Pattern Is Now the Permanent Operating Mode"
+    ],
+    "snippet": "Claude AI Daily Brief — April 27, 2026 | India RBI Steps Up Bank Cyber Prep on Mythos, $800B Cap-Table Settles, GPT-5.5 vs Opus 4.7 Four Days In ● Monday, April 27, 2026 Claude AI Daily Brief — April 27, 2026 Covering the last 24 hours · Edition #59 TL;DR — Today’s Top 3 Takeaways 1. India Tells Ban"
+  },
+  {
     "date": "2026-04-26",
     "title": "Claude AI Daily Brief — April 26, 2026 | Anthropic Tells Court It Cannot Control Claude Once Deployed, Claude Code 2.1.120 Rollback, Rate Limits API Lands",
     "description": "April 26, 2026: Anthropic told a federal court it has no technical ability to control Claude 4 once it lands on customer infrastructure — the AI liability map just moved. Claude Code 2.1.120 is being auto-rolled back to 2.1.119 after eight regressions, including a --resume crash. Rate Limits API ships. Mythos UK rollout still no timeline. $800B valuation chatter and an October IPO target keep building.",
