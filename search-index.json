@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-04-28",
+    "title": "Claude AI Daily Brief — April 28, 2026 | AWS \"What's Next\" Drops Cowork in Bedrock, Sydney Office Opens, NEC Builds Japan's Claude Code Team",
+    "description": "April 28, 2026: AWS 'What's Next' event opens today with Claude Cowork in Amazon Bedrock and Trainium co-engineering going production. Anthropic's Sydney office opens with Theo Hourmouzis as ANZ GM. NEC builds one of Japan's largest Claude Code engineering teams. Mythos hits day 12 past 'within days.' Hiive-Forge spread tells the secondary-market story.",
+    "url": "reports/claude-ai-daily-2026-04-28.html",
+    "headlines": [
+      "AWS \"What's Next\" Drops Cowork in Bedrock",
+      "Sydney Office Opens",
+      "NEC Builds Japan's Claude Code Team",
+      "AWS &ldquo;What&rsquo;s Next&rdquo; Opens Today &mdash; Cowork in Bedrock GA, Trainium Co-Engineering Goes Production",
+      "Sydney Office Opens &mdash; Hourmouzis as ANZ GM, Fourth APAC Office, Compute Build-Out on the Roadmap",
+      "Mythos / UK: Day Twelve Past &ldquo;Within Days&rdquo; &mdash; EU and Japan Still Haven&rsquo;t Shown Their Hands",
+      "Claude Code Holds Clean &mdash; Pin 2.1.117 Production Recommendation Stays in Force Through Tuesday",
+      "Cache-Control Simplified, Advisor Tool in Beta, Rate-Limits API Live &mdash; Three Wins on the Platform Surface",
+      "StackAdapt MCP Ships GA, Zilliz &ldquo;Claude-Context&rdquo; Lands &mdash; Two Production-Grade Servers in One Week",
+      "Tuesday Cap-Table Read &mdash; Hiive at $851B, Forge at ~$1T, the Spread Is the Story",
+      "NEC Builds One of Japan&rsquo;s Largest Claude Code Engineering Teams &mdash; Sovereign Enterprise Pattern Goes East",
+      "Claude Design Live for Pro/Max/Team/Enterprise &mdash; Inline Charts Now in Responses",
+      "The APAC Build-Out Is the Q2 Structural Story &mdash; Office, Compute, and Sovereign Distribution All Landed in One Window"
+    ],
+    "snippet": "Claude AI Daily Brief — April 28, 2026 | AWS \"What's Next\" Drops Cowork in Bedrock, Sydney Office Opens, NEC Builds Japan's Claude Code Team ● Tuesday, April 28, 2026 Claude AI Daily Brief — April 28, 2026 Covering the last 24 hours · Edition #60 TL;DR — Today’s Top 3 Takeaways 1. AWS “What’s Next” "
+  },
+  {
     "date": "2026-04-27",
     "title": "Claude AI Daily Brief — April 27, 2026 | India RBI Steps Up Bank Cyber Prep on Mythos, $800B Cap-Table Settles, GPT-5.5 vs Opus 4.7 Four Days In",
     "description": "April 27, 2026: India tells banks to harden cyber posture as NPCI quietly seeks early Mythos access — the second sovereign now inside the Mythos negotiation. Markets open with Anthropic's secondary pricing in the $800B-$1T band after Friday's Google add. Four days after GPT-5.5 'Spud' launched, Opus 4.7 still leads SWE-Bench Verified 87.6% to 85.0%. Claude Code auto-rollback to 2.1.119 holds clean.",

@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 28, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-28.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-28.html</guid>
+      <pubDate>Tue, 28 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. AWS "What's Next" Drops Today — Claude Cowork Lands in Bedrock, Trainium Co-Engineering Goes Production</strong> — Cowork is now deployable inside Amazon Bedrock with data staying inside the customer's AWS account. Anthropic's most advanced foundation models are training on AWS Trainium and Graviton with Annapurna Labs co-engineering at the silicon level.</p>
+        <p><strong>2. Sydney Office Officially Opens — Hourmouzis as ANZ GM, Fourth APAC Office</strong> — Anthropic formally opened its Sydney office Monday and named former Snowflake exec Theo Hourmouzis as GM for Australia and New Zealand. Australia ranks 4th globally in Claude.ai usage per capita; Australian compute capacity expansion is on the public roadmap.</p>
+        <p><strong>3. NEC Builds One of Japan's Largest Claude Code Engineering Teams</strong> — NEC announced a multi-year strategic collaboration with Anthropic to stand up an AI-native engineering team built on Claude Code with joint go-to-market for finance, manufacturing, and Japanese local government. The Accenture pattern, ported east.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-28.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 27, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-27.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-27.html</guid>
@@ -379,4 +392,11 @@
       <description><![CDATA[
         <p><strong>1. Anthropic Launches "Claude for Open Source"</strong> — Free Max 20x access for up to 10,000 qualified OSS maintainers and contributors. Applications open through June 30.</p>
         <p><strong>2. Mythos Cyber Fears Hit Washington</strong> — Axios reports Anthropic is privately warning top government officials that Mythos makes large-scale cyberattacks significantly more likely in 2026.</p>
-        <p><strong>3. Pen
+        <p><strong>3. Pentagon Appeal Clock: 3 Days Left</strong> — DOJ has until ~April 2 to appeal Judge Lin's injunction. Legal experts widely expect a Ninth Circuit filing.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-30.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+  </channel>
+</rss>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
