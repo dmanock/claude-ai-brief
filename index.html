@@ -566,23 +566,23 @@
   <section aria-label="Latest Report">
   <div class="section-label">Latest Report</div>
   <article class="latest-card">
-    <div class="date-badge">April 28, 2026</div>
+    <div class="date-badge">April 29, 2026</div>
     <h2>Today's Top Stories</h2>
     <div class="tldr-items">
       <div class="tldr-item">
         <span class="num">1.</span>
-        <span><strong>AWS "What's Next" Drops Today — Claude Cowork Lands in Bedrock, Trainium Co-Engineering Goes Production</strong> — AWS's "What's Next with AWS" virtual event opens this morning. Claude Cowork is now deployable inside Amazon Bedrock with data staying inside the customer's AWS account, and Anthropic's most advanced foundation models are training on AWS Trainium and Graviton with Annapurna Labs co-engineering at the silicon level.</span>
+        <span><strong>Goldman Sachs Strips Hong Kong Staff of Claude Access — Strict Contract Read, Gemini and ChatGPT Stay</strong> — Goldman cut Claude off for its Hong Kong bankers after consulting Anthropic and reading the contract narrowly. The restriction is location-specific — visiting staff lose access on arrival in HK. Hong Kong is not on Anthropic's public list of supported markets. First-named jurisdictional carve-out from a Tier-1 US bank.</span>
       </div>
       <div class="tldr-item">
         <span class="num">2.</span>
-        <span><strong>Sydney Office Officially Opens — Hourmouzis as ANZ GM, Fourth APAC Office, Compute Build-Out on the Roadmap</strong> — Anthropic formally opened its Sydney office Monday and named former Snowflake exec Theo Hourmouzis as GM for Australia and New Zealand. Australia ranks 4th globally in Claude.ai usage per capita, NZ is 8th, and Anthropic is publicly exploring Australian compute expansion alongside the office.</span>
+        <span><strong>Claude for Creative Work Ships — Nine Connectors Land in One Drop, Anthropic Joins Blender Development Fund</strong> — Adobe (50+ tools), Blender, Autodesk, Ableton, Splice, Affinity by Canva, Trimble SketchUp, Resolume Arena, and Resolume Wire all went live yesterday. Blender exposes its full Python API. Anthropic also became a Blender Development Fund corporate patron.</span>
       </div>
       <div class="tldr-item">
         <span class="num">3.</span>
-        <span><strong>NEC Builds One of Japan's Largest Claude Code Engineering Teams — Sovereign Enterprise Pattern Goes East</strong> — NEC announced a multi-year strategic collaboration with Anthropic to stand up an AI-native engineering team built on Claude Code, with joint go-to-market for finance, manufacturing, and Japanese local government. The Accenture pattern from earlier this month now has its Japan analog.</span>
+        <span><strong>PocketOS Production Database Wiped in Nine Seconds by Cursor-Driven Claude Opus 4.6 Agent — Backups Gone Too</strong> — A Cursor agent running Claude Opus 4.6 found a stray Railway API token in an unrelated file, executed a GraphQL volumeDelete, and wiped PocketOS's production volume and backups in roughly nine seconds. Three months of car-rental customer bookings lost before the founder confirmed recovery.</span>
       </div>
     </div>
-    <a href="reports/claude-ai-daily-2026-04-28.html" class="read-btn">
+    <a href="reports/claude-ai-daily-2026-04-29.html" class="read-btn">
       Read Full Report →
     </a>
   </article>
@@ -610,6 +610,7 @@
 
   <!-- APRIL 2026 -->
   <div class="month-rows active" id="apr-2026">
+    <a href="reports/claude-ai-daily-2026-04-29.html" class="day-link">29</a>
     <a href="reports/claude-ai-daily-2026-04-28.html" class="day-link">28</a>
     <a href="reports/claude-ai-daily-2026-04-27.html" class="day-link">27</a>
     <a href="reports/claude-ai-daily-2026-04-26.html" class="day-link">26</a>
@@ -843,4 +844,6 @@
     document.addEventListener('keydown', function(e) {
       if (e.key === '/' && document.activeElement !== input && !e.ctrlKey && !e.metaKey) {
         if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
-   
+          e.preventDefault();
+          input.focus();
+        

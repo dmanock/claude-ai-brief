@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-04-29",
+    "title": "Claude AI Daily Brief — April 29, 2026 | Goldman Cuts HK Off, Claude for Creative Work Ships, PocketOS Database Wiped in 9 Seconds",
+    "description": "April 29, 2026: Goldman Sachs strips Hong Kong staff of Claude access on a strict contract read. Claude for Creative Work ships with nine connectors — Adobe, Blender, Autodesk, Ableton, Splice, Affinity, SketchUp, Resolume Arena, Resolume Wire. A Cursor-driven Claude Opus 4.6 agent wipes PocketOS production and backups in nine seconds. Yesterday's 78-minute API outage closes the day.",
+    "url": "reports/claude-ai-daily-2026-04-29.html",
+    "headlines": [
+      "Goldman Cuts HK Off",
+      "Claude for Creative Work Ships",
+      "PocketOS Database Wiped in 9 Seconds",
+      "Goldman Sachs Cuts Claude Access for Hong Kong Bankers &mdash; Contract Read, Not Outage",
+      "Claude for Creative Work Ships Nine Connectors &mdash; Adobe, Blender, Autodesk, Ableton, Splice, Affinity, SketchUp, Resolume x2",
+      "Mythos / UK: Day Thirteen Past &ldquo;Within Days&rdquo; &mdash; No Public Timeline, EU and Japan Still Holding",
+      "Claude Code 2.1.121 Ships Clean &mdash; alwaysLoad for MCP, plugin prune Lands",
+      "78-Minute API Outage Tuesday &mdash; 17:34 to 18:52 UTC, Claude.ai / Code / Chat / API All Hit",
+      "Trimble Ships First-Party SketchUp Connector &mdash; .skp Files End-to-End, Free Tier with 30 Saves",
+      "PocketOS Database Wiped in Nine Seconds &mdash; Cursor + Claude Opus 4.6 + Stray Railway Token",
+      "Caylent Stands Up &ldquo;Anthropic Consulting &amp; Engineering&rdquo; Practice &mdash; AWS-Premier Tier, Claude-Native",
+      "Anthropic Joins Blender Development Fund &mdash; Corporate Patron, First Frontier Lab to Sponsor a Major Open-Source Creative Suite",
+      "Three Stories, One Frame: Claude&rsquo;s Surface Area Is Now Big Enough That the Failure Modes Are the News"
+    ],
+    "snippet": "Claude AI Daily Brief — April 29, 2026 | Goldman Cuts HK Off, Claude for Creative Work Ships, PocketOS Database Wiped in 9 Seconds ● Wednesday, April 29, 2026 Claude AI Daily Brief — April 29, 2026 Covering the last 24 hours · Edition #61 TL;DR — Today’s Top 3 Takeaways 1. Goldman Sachs Strips Hong "
+  },
+  {
     "date": "2026-04-28",
     "title": "Claude AI Daily Brief — April 28, 2026 | AWS \"What's Next\" Drops Cowork in Bedrock, Sydney Office Opens, NEC Builds Japan's Claude Code Team",
     "description": "April 28, 2026: AWS 'What's Next' event opens today with Claude Cowork in Amazon Bedrock and Trainium co-engineering going production. Anthropic's Sydney office opens with Theo Hourmouzis as ANZ GM. NEC builds one of Japan's largest Claude Code engineering teams. Mythos hits day 12 past 'within days.' Hiive-Forge spread tells the secondary-market story.",

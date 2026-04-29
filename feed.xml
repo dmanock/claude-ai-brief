@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — April 29, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-29.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-29.html</guid>
+      <pubDate>Wed, 29 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Goldman Sachs Strips Hong Kong Staff of Claude Access — Strict Contract Read, Gemini and ChatGPT Stay</strong> — Goldman cut Claude off for HK bankers after consulting Anthropic and reading the contract narrowly. The restriction is location-specific; visiting staff lose access on arrival. Hong Kong is not on Anthropic's public market list. First-named jurisdictional carve-out from a Tier-1 US bank.</p>
+        <p><strong>2. Claude for Creative Work Ships — Nine Connectors Land in One Drop</strong> — Adobe (50+ tools), Blender, Autodesk, Ableton, Splice, Affinity by Canva, Trimble SketchUp, Resolume Arena, and Resolume Wire all live yesterday. Blender exposes its full Python API. Anthropic also became a Blender Development Fund corporate patron.</p>
+        <p><strong>3. PocketOS Production Database Wiped in Nine Seconds by Cursor-Driven Claude Opus 4.6 Agent</strong> — A Cursor agent found a stray Railway API token in an unrelated file and executed a GraphQL volumeDelete against the production volume. Backups gone too; three months of car-rental bookings lost before founder confirmed recovery. Over-permissioned token, not model misalignment.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-29.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 28, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-28.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-28.html</guid>
@@ -371,32 +384,5 @@
       ]]></description>
     </item>
 
-    <item>
-      <title>Claude AI Daily Brief — March 31, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-31.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-31.html</guid>
-      <pubDate>Tue, 31 Mar 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Microsoft Pairs GPT + Claude in Copilot Critique</strong> — New feature lets GPT draft research responses while Claude reviews for accuracy. Scores 13.8% higher on DRACO than either model alone.</p>
-        <p><strong>2. Claude Paid Subs More Than Double in 2026</strong> — Credit card data confirms record subscriber growth. Super Bowl ads, Claude Code, and the Pentagon feud all fueled the surge.</p>
-        <p><strong>3. Anthropic's Madcap March Wraps Up</strong> — 14+ launches, 5 outages, a court victory, an IPO filing in the works, a model leak, and an OSS program. The most consequential month in Anthropic's history ends today.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-31.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — March 30, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-03-30.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-03-30.html</guid>
-      <pubDate>Mon, 30 Mar 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Launches "Claude for Open Source"</strong> — Free Max 20x access for up to 10,000 qualified OSS maintainers and contributors. Applications open through June 30.</p>
-        <p><strong>2. Mythos Cyber Fears Hit Washington</strong> — Axios reports Anthropic is privately warning top government officials that Mythos makes large-scale cyberattacks significantly more likely in 2026.</p>
-        <p><strong>3. Pentagon Appeal Clock: 3 Days Left</strong> — DOJ has until ~April 2 to appeal Judge Lin's injunction. Legal experts widely expect a Ninth Circuit filing.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-03-30.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
   </channel>
 </rss>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
