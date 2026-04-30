@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-04-30",
+    "title": "Claude AI Daily Brief — April 30, 2026 | White House Opposes Mythos Expansion, 1M Context Beta Retires, iCapital Picks Anthropic",
+    "description": "April 30, 2026: The White House tells Anthropic it opposes the plan to expand Mythos access to ~70 companies, citing compute and security. The 1M context beta on Sonnet 4 / 4.5 retires today — Sonnet 4.6 / Opus 4.6 are the migration path. iCapital picks Claude as its next AI partner. Brief Claude.ai and API blip overnight. Claude Code 2.1.123 lands clean.",
+    "url": "reports/claude-ai-daily-2026-04-30.html",
+    "headlines": [
+      "White House Opposes Mythos Expansion",
+      "1M Context Beta Retires",
+      "iCapital Picks Anthropic",
+      "White House Tells Anthropic It Opposes Plan to Expand Mythos Access to ~70 Companies &mdash; WSJ Scoop, Bloomberg Confirms",
+      "1M Context Beta Retires Today on Sonnet 4 and Sonnet 4.5 &mdash; context-1m-2025-08-07 Header Stops Working",
+      "Mythos UK Track Continues as US Track Tightens &mdash; AISI Eval Public, CETaS Frames Regulator-Vendor Layer",
+      "Claude Code 2.1.123 Lands Clean &mdash; OAuth 401 Retry Loop Fixed, Bedrock Tier Selector Added Yesterday",
+      "Brief Overnight Incident on Claude.ai and API &mdash; 01:20 UTC, Resolved Inside the Window",
+      "Sonnet 4 / 4.5 1M Migration: One-Liner if You Read the Header, Two-Liners If You Wrap a Client",
+      "iCapital Picks Anthropic for Its Next AI Phase &mdash; Compliance-First Posture Cited, Claude Code Already Inside Dev Platform",
+      "$30B ARR Reset Holds Going Into May &mdash; OpenAI CRO Pushback Aside, Investor Narrative Locks In",
+      "MCP Ecosystem Hits 500+ Servers, 97M Monthly SDK Downloads &mdash; OAuth 2.1 Lands in the Spec This Month",
+      "One Building, Two Doors: The White House Is Blocking Mythos Civilian Expansion While Drafting Federal Re-Onboarding"
+    ],
+    "snippet": "Claude AI Daily Brief — April 30, 2026 | White House Opposes Mythos Expansion, 1M Context Beta Retires, iCapital Picks Anthropic ● Thursday, April 30, 2026 Claude AI Daily Brief — April 30, 2026 Covering the last 24 hours · Edition #62 TL;DR — Today’s Top 3 Takeaways 1. White House Opposes Anthropic"
+  },
+  {
     "date": "2026-04-29",
     "title": "Claude AI Daily Brief — April 29, 2026 | Goldman Cuts HK Off, Claude for Creative Work Ships, PocketOS Database Wiped in 9 Seconds",
     "description": "April 29, 2026: Goldman Sachs strips Hong Kong staff of Claude access on a strict contract read. Claude for Creative Work ships with nine connectors — Adobe, Blender, Autodesk, Ableton, Splice, Affinity, SketchUp, Resolume Arena, Resolume Wire. A Cursor-driven Claude Opus 4.6 agent wipes PocketOS production and backups in nine seconds. Yesterday's 78-minute API outage closes the day.",

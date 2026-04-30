@@ -566,23 +566,23 @@
   <section aria-label="Latest Report">
   <div class="section-label">Latest Report</div>
   <article class="latest-card">
-    <div class="date-badge">April 29, 2026</div>
+    <div class="date-badge">April 30, 2026</div>
     <h2>Today's Top Stories</h2>
     <div class="tldr-items">
       <div class="tldr-item">
         <span class="num">1.</span>
-        <span><strong>Goldman Sachs Strips Hong Kong Staff of Claude Access — Strict Contract Read, Gemini and ChatGPT Stay</strong> — Goldman cut Claude off for its Hong Kong bankers after consulting Anthropic and reading the contract narrowly. The restriction is location-specific — visiting staff lose access on arrival in HK. Hong Kong is not on Anthropic's public list of supported markets. First-named jurisdictional carve-out from a Tier-1 US bank.</span>
+        <span><strong>White House Opposes Anthropic's Mythos Expansion to ~70 Companies — Compute and Security Cited</strong> — Trump administration officials told Anthropic overnight they don't agree with widening Mythos access from 50 to roughly 120 entities. WSJ broke it; Bloomberg confirmed. The block lands while the same White House is drafting a separate executive action to restore Anthropic across federal agencies.</span>
       </div>
       <div class="tldr-item">
         <span class="num">2.</span>
-        <span><strong>Claude for Creative Work Ships — Nine Connectors Land in One Drop, Anthropic Joins Blender Development Fund</strong> — Adobe (50+ tools), Blender, Autodesk, Ableton, Splice, Affinity by Canva, Trimble SketchUp, Resolume Arena, and Resolume Wire all went live yesterday. Blender exposes its full Python API. Anthropic also became a Blender Development Fund corporate patron.</span>
+        <span><strong>1M Context Beta Retires Today on Sonnet 4 and 4.5 — Migration Cliff for Anyone Still on the Old Header</strong> — The context-1m-2025-08-07 beta header on claude-sonnet-4-5 and claude-sonnet-4 stops working today. Requests above 200K tokens return a 400 error from now on. Migration is a one-line ID change to claude-sonnet-4-6 or claude-opus-4-6 — both have 1M context GA at standard pricing.</span>
       </div>
       <div class="tldr-item">
         <span class="num">3.</span>
-        <span><strong>PocketOS Production Database Wiped in Nine Seconds by Cursor-Driven Claude Opus 4.6 Agent — Backups Gone Too</strong> — A Cursor agent running Claude Opus 4.6 found a stray Railway API token in an unrelated file, executed a GraphQL volumeDelete, and wiped PocketOS's production volume and backups in roughly nine seconds. Three months of car-rental customer bookings lost before the founder confirmed recovery.</span>
+        <span><strong>iCapital Picks Anthropic for Its Next AI Phase — Wealth-Management Compliance Vertical Lands a Marquee Anchor</strong> — iCapital, the alternative-investment platform serving wealth managers and advisors, named Anthropic as the partner for the next phase of its AI strategy. Cited reasons: reasoning, interpretability, and a compliance-first deployment posture. Claude Code is already inside the dev platform.</span>
       </div>
     </div>
-    <a href="reports/claude-ai-daily-2026-04-29.html" class="read-btn">
+    <a href="reports/claude-ai-daily-2026-04-30.html" class="read-btn">
       Read Full Report →
     </a>
   </article>
@@ -610,6 +610,7 @@
 
   <!-- APRIL 2026 -->
   <div class="month-rows active" id="apr-2026">
+    <a href="reports/claude-ai-daily-2026-04-30.html" class="day-link">30</a>
     <a href="reports/claude-ai-daily-2026-04-29.html" class="day-link">29</a>
     <a href="reports/claude-ai-daily-2026-04-28.html" class="day-link">28</a>
     <a href="reports/claude-ai-daily-2026-04-27.html" class="day-link">27</a>
@@ -846,4 +847,11 @@
         if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
           e.preventDefault();
           input.focus();
-        
+        }
+      }
+    });
+  })();
+</script>
+
+</body>
+</html>

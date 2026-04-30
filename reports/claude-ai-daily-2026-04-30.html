@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude AI Daily Brief — April 30, 2026 | White House Opposes Mythos Expansion, 1M Context Beta Retires, iCapital Picks Anthropic</title>
+  <meta name="description" content="April 30, 2026: The White House tells Anthropic it opposes the plan to expand Mythos access to ~70 companies, citing compute and security. The 1M context beta on Sonnet 4 / 4.5 retires today — Sonnet 4.6 / Opus 4.6 are the migration path. iCapital picks Claude as its next AI partner. Brief Claude.ai and API blip overnight. Claude Code 2.1.123 lands clean.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-04-30.html">
+  <meta property="og:title" content="Claude AI Daily Brief — April 30, 2026">
+  <meta property="og:description" content="White House opposes Mythos expansion to ~70 companies. 1M context beta on Sonnet 4 / 4.5 retires today. iCapital picks Claude as its next AI partner. Brief overnight blip on Claude.ai and API. Claude Code 2.1.123 lands clean.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-30.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — April 30, 2026">
+  <meta name="twitter:description" content="White House opposes Mythos expansion to ~70 cos. 1M context beta retires for Sonnet 4 / 4.5. iCapital picks Claude. Brief overnight Claude.ai blip. Claude Code 2.1.123 clean.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-30.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-04-30.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — April 30, 2026",
+    "description": "The White House tells Anthropic it opposes expanding Mythos access to roughly 70 companies. The 1M context beta on Sonnet 4 / 4.5 retires today. iCapital chooses Anthropic for its next AI phase. Brief overnight Claude.ai and API incident. Claude Code 2.1.123 lands clean.",
+    "datePublished": "2026-04-30T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-04-30.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-04-30.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Thursday, April 30, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; April 30, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #62</p>
+</div>
+
+<div class="main">
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>White House Opposes Anthropic&rsquo;s Mythos Expansion to ~70 Companies &mdash; Compute and Security Cited</strong> &mdash; Trump administration officials told Anthropic overnight that they don&rsquo;t agree with the plan to widen Mythos access from the current 50 to roughly 120 entities. WSJ broke the story; Bloomberg confirmed. The named concerns: compute capacity for government Mythos use, and the unauthorized-access incident that hit a private forum the same day Anthropic announced the expansion. The block lands while the same White House is drafting a separate executive action to <em>restore</em> Anthropic across federal agencies.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>1M Context Beta Retires Today on Sonnet 4 and 4.5 &mdash; Migration Cliff for Anyone Still on the Old Header</strong> &mdash; The <code>context-1m-2025-08-07</code> beta header on <code>claude-sonnet-4-5-20250929</code> and <code>claude-sonnet-4-20250514</code> stops working today. Requests above 200K tokens return a 400 error from now on. The migration is a one-line ID change to <code>claude-sonnet-4-6</code> or <code>claude-opus-4-6</code> &mdash; both have 1M context GA at standard pricing with no header.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>iCapital Picks Anthropic for Its Next AI Phase &mdash; Wealth-Management Compliance Vertical Lands a Marquee Anchor</strong> &mdash; iCapital, the alternative-investment platform serving wealth managers and advisors, named Anthropic as the partner for the next phase of its AI strategy. Cited reasons: reasoning, interpretability, and a compliance-first deployment posture. Claude Code is already inside the dev platform; client-facing apps and the operational stack are next. The first named &ldquo;wealth platform&rdquo; anchor under the Anthropic Partner Network umbrella.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Mythos / Policy</span>
+      <h3>White House Tells Anthropic It Opposes Plan to Expand Mythos Access to ~70 Companies &mdash; WSJ Scoop, Bloomberg Confirms</h3>
+      <p>Wall Street Journal broke the story Wednesday night and Bloomberg confirmed by morning: members of the Trump administration have told Anthropic they oppose the company&rsquo;s plan to grant Mythos access to roughly 70 additional companies and organizations &mdash; a move that would have taken the total Mythos surface from about 50 entities today to around 120. Two named concerns from administration officials: first, that Anthropic doesn&rsquo;t have enough compute to serve the expansion without degrading the government&rsquo;s ability to use Mythos for its own purposes; second, that on the same day Anthropic announced the limited release plan, a small group of unauthorized users in a private online forum gained access to Mythos. The breach line is the part of the story that lands hardest with national-security readers: the gap between Anthropic&rsquo;s controlled-access design and the practical difficulty of containing a model with autonomous-exploit capability is now a documented operating-environment fact, not a theoretical risk.</p>
+      <p>The structural read is the contradiction inside the same administration. The White House is opposing Mythos civilian expansion this week while simultaneously drafting an executive action that would restore Anthropic across federal agencies in a workaround of the Pentagon&rsquo;s national-security supply-chain risk designation from earlier this year. The same building is blocking commercial expansion and rebuilding government access at the same time. For Anthropic this means Mythos commercial revenue is now policy-gated &mdash; not technically gated &mdash; and the IPO narrative for the October window has to hold a position where the company&rsquo;s most cited frontier capability is sold one customer per White House meeting. The UK negotiation continues in parallel; the asymmetry &mdash; block at home, ship abroad &mdash; is now the visible shape of Mythos distribution policy.</p>
+      <div class="source-links">
+        <a href="https://www.bloomberg.com/news/articles/2026-04-30/white-house-opposes-anthropic-plan-for-mythos-access-wsj-says" class="source-link">Bloomberg</a>
+        <a href="https://www.business-standard.com/technology/tech-news/white-house-opposes-anthropic-plan-to-expand-mythos-ai-technology-access-126043000179_1.html" class="source-link">Business Standard</a>
+        <a href="https://thehill.com/policy/technology/5843290-anthropic-mythos-white-house/" class="source-link">The Hill</a>
+        <a href="https://thenextweb.com/news/white-house-opposes-anthropic-mythos-expansion" class="source-link">TNW</a>
+        <a href="https://www.axios.com/2026/04/29/trump-anthropic-pentagon-ai-executive-order-gov" class="source-link">Axios / Exec Action</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">API / Deprecation</span>
+      <h3>1M Context Beta Retires Today on Sonnet 4 and Sonnet 4.5 &mdash; <code>context-1m-2025-08-07</code> Header Stops Working</h3>
+      <p>Today is the cliff. As of April 30, 2026, the <code>context-1m-2025-08-07</code> beta header has no effect on <code>claude-sonnet-4-5-20250929</code> or <code>claude-sonnet-4-20250514</code>. Requests over 200,000 tokens to those models return a 400 error from this morning forward. The header is still accepted syntactically &mdash; that&rsquo;s the silent-fallback trap to watch for &mdash; but the long context surface is gone. Anyone with batch jobs, multi-document ingestion pipelines, or long-trace agent runs still pinned to the old Sonnet 4 / 4.5 model IDs needs to ship the migration before the next prompt lands or take the production failure.</p>
+      <p>The migration itself is a one-line change. Update the model ID to <code>claude-sonnet-4-6</code> or <code>claude-opus-4-6</code>; remove the <code>anthropic-beta: context-1m-2025-08-07</code> header. Both models have 1M context generally available at standard pricing &mdash; no beta gate, no surcharge &mdash; since the March 13 GA flip. For Bedrock and Vertex paths the same model-ID swap applies. Riptide&rsquo;s migration writeup is the cleanest production checklist circulating this week; the Anthropic context-windows doc is the canonical reference. Note for Code users: Sonnet 4.6 1M context still has surface bugs on Max 20x plans where only Opus 1M shows in <code>/model</code> &mdash; the Code issue tracker has the live thread.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Anthropic Release Notes</a>
+        <a href="https://platform.claude.com/docs/en/build-with-claude/context-windows" class="source-link">Context Windows Docs</a>
+        <a href="https://www.riptideconsulting.com/insights/april-30-context-beta-migration" class="source-link">Riptide Migration</a>
+        <a href="https://pasqualepillitteri.it/en/news/1451/anthropic-1m-context-beta-retirement-april-30-2026" class="source-link">Migration Walkthrough</a>
+        <a href="https://github.com/anthropics/claude-code/issues/34773" class="source-link">Code Issue 34773</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Mythos / UK</span>
+      <h3>Mythos UK Track Continues as US Track Tightens &mdash; AISI Eval Public, CETaS Frames Regulator-Vendor Layer</h3>
+      <p>While the White House blocks domestic expansion, the UK side moved another step in the opposite direction. AISI &mdash; the UK AI Security Institute &mdash; published its evaluation of Claude Mythos Preview&rsquo;s cyber capabilities, noting that under explicit direction with network access, Mythos was able to execute multi-stage attacks on vulnerable networks and discover-and-exploit unknown vulnerabilities autonomously, the kind of work that takes human professional teams days. The CETaS piece at the Alan Turing Institute landed yesterday and the framing that&rsquo;s emerging is the one to watch: Mythos forces a new shape of regulator-vendor relationship, not adversarial but interleaved at the eval layer. That&rsquo;s the institutional language the UK working group is building around.</p>
+      <p>The active negotiating surface this morning: UK Treasury, BoE, FCA, NCSC, and AISI on the working group; the Reuters &ldquo;within days&rdquo; report from April 16 is now fourteen days past, and Anthropic has declined to commit to a public timeline through this week&rsquo;s coverage. Project Glasswing remains the named distribution channel. The Bloomsbury Intelligence &amp; Security Institute and ICAEW both ran public-policy framings this week treating Mythos as the shift from &ldquo;model regulation&rdquo; to &ldquo;capability regulation&rdquo; &mdash; the line that ends up in front of the EU AI Office next. Brussels and Tokyo have both still not shown their hand publicly; both are still positioned to do so before mid-May.</p>
+      <div class="source-links">
+        <a href="https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities" class="source-link">AISI Evaluation</a>
+        <a href="https://cetas.turing.ac.uk/publications/claude-mythos-future-cybersecurity" class="source-link">CETaS / Turing</a>
+        <a href="https://bisi.org.uk/reports/claude-mythos-and-the-acceleration-of-cybersecurity-risk" class="source-link">BISI Report</a>
+        <a href="https://www.icaew.com/insights/viewpoints-on-the-news/2026/apr-2026/cyber-should-we-be-afraid-of-mythos" class="source-link">ICAEW</a>
+        <a href="https://red.anthropic.com/2026/mythos-preview/" class="source-link">Anthropic Mythos</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code <code>2.1.123</code> Lands Clean &mdash; OAuth 401 Retry Loop Fixed, Bedrock Tier Selector Added Yesterday</h3>
+      <p>Claude Code shipped <code>2.1.123</code> on April 29 and the canary cycle held overnight. The headline fix is narrow but high-value: OAuth authentication was failing with a 401 retry loop when <code>CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1</code> was set in the environment &mdash; the variable a lot of compliance-controlled shops use as a default. Teams that hit the loop after upgrading to <code>2.1.121</code> or <code>2.1.122</code> can now move clean. The previous day&rsquo;s <code>2.1.122</code> dropped two ergonomics wins worth pinning: an <code>ANTHROPIC_BEDROCK_SERVICE_TIER</code> environment variable for selecting <code>default</code>, <code>flex</code>, or <code>priority</code> on the Bedrock path (the lever finops teams have been asking for since Bedrock pricing tiers landed), and a <code>/resume</code> search box that now finds sessions by pasted PR URL across GitHub, GitHub Enterprise, GitLab, and Bitbucket.</p>
+      <p>Production recommendation: pin moves to <code>2.1.123</code> for any team running with <code>DISABLE_EXPERIMENTAL_BETAS=1</code>; teams without that var can hold on <code>2.1.121</code> through end of week and roll together. The Bedrock tier selector is the upgrade trigger for teams running a multi-tier finops stance &mdash; pair it with the rate-limits API that shipped a week ago Saturday and the routing logic gets simple. Bedrock and Vertex remain the most resilient deployment surface for production-critical paths after this week&rsquo;s outages.</p>
+      <div class="source-links">
+        <a href="https://github.com/anthropics/claude-code/releases" class="source-link">GitHub Releases</a>
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Code Changelog</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+        <a href="https://www.npmjs.com/package/@anthropic-ai/claude-code?activeTab=versions" class="source-link">npm</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Outage</span>
+      <h3>Brief Overnight Incident on Claude.ai and API &mdash; 01:20 UTC, Resolved Inside the Window</h3>
+      <p>Claude.ai and the Anthropic API hit an availability incident at 01:20:26 UTC this morning per the Claude status page. The service was operational by 09:08 UTC. No public root cause yet; a postmortem typically lands inside ten business days. This is the third multi-surface event in roughly seven days after Tuesday&rsquo;s 78-minute API outage and Wednesday&rsquo;s elevated errors on Haiku 4.5 between 12:37 and 13:37 UTC. None of the three has been long enough on its own to be a board-level event &mdash; the cumulative pattern is the part platform engineering teams are flagging.</p>
+      <p>The operational read for finops and SRE: the third incident inside a single rolling week is the threshold where multi-region failover and Bedrock/Vertex secondary deployment paths become a budget conversation, not a posture conversation. The rate-limits API that shipped Saturday gives you the telemetry to instrument it. For shops still on direct API for production-critical paths, this week is the one to use as the case for a secondary deployment surface.</p>
+      <div class="source-links">
+        <a href="https://status.claude.com/" class="source-link">Claude Status</a>
+        <a href="https://status.claude.com/history" class="source-link">Status History</a>
+        <a href="https://statusgator.com/services/claude" class="source-link">StatusGator</a>
+        <a href="https://isdown.app/status/claude-ai" class="source-link">IsDown</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-tip">Migration Tip</span>
+      <h3>Sonnet 4 / 4.5 1M Migration: One-Liner if You Read the Header, Two-Liners If You Wrap a Client</h3>
+      <p>Practical follow-on to today&rsquo;s deprecation. For shops calling the API directly: drop the <code>anthropic-beta: context-1m-2025-08-07</code> header and update the model identifier from <code>claude-sonnet-4-5-20250929</code> or <code>claude-sonnet-4-20250514</code> to <code>claude-sonnet-4-6</code>. For shops using a wrapped Anthropic client (LangChain, LlamaIndex, the OpenClaw shim) the two changes are: bump the model in your config and remove the beta header from any custom transport. Bedrock and Vertex paths take the same model-ID swap. Pricing is identical to standard Sonnet 4.6 / Opus 4.6 &mdash; 1M context is no longer a premium tier; the long-context surcharge ended at March 13 GA.</p>
+      <p>Three pre-flight checks before you ship the change: first, search your codebase for the literal beta header string and confirm it&rsquo;s not silently still in any tool wrapper. Second, run a 250K-token request through the new model ID before the cutover &mdash; the silent-fallback behavior on the old IDs after today is the failure mode that bites production. Third, confirm your output-token limit configuration didn&rsquo;t inherit a &ldquo;1M = bigger budget&rdquo; assumption that shouldn&rsquo;t carry forward. The MindStudio migration guide and the Tygart writeup both have copy-paste diff snippets for the common SDK paths.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/about-claude/models/migration-guide" class="source-link">Anthropic Migration Guide</a>
+        <a href="https://www.mindstudio.ai/blog/claude-sonnet-4-opus-4-deprecation-migration-guide" class="source-link">MindStudio Guide</a>
+        <a href="https://tygartmedia.com/claude-4-deprecation/" class="source-link">Tygart Writeup</a>
+        <a href="https://happycapyguide.com/blog/claude-sonnet-46-opus-46-1m-token-migration-2026" class="source-link">Happycapy / 1M Migration</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Enterprise / Finance</span>
+      <h3>iCapital Picks Anthropic for Its Next AI Phase &mdash; Compliance-First Posture Cited, Claude Code Already Inside Dev Platform</h3>
+      <p>iCapital, the alternative-investment platform serving wealth managers and registered investment advisors, named Anthropic as its AI partner for the next phase of the company&rsquo;s AI strategy. The cited reasons in the announcement track exactly with what Anthropic has been positioning into the regulated-finance segment: reasoning capability, interpretability tooling, and the ability to operate inside a compliance-first deployment posture. Claude Code is already deployed inside iCapital&rsquo;s software development platform; the next phases bring the model into client-facing applications and the operational stack. iCapital is keeping an open AI architecture for the platform overall &mdash; this is a partnership, not a single-vendor lock &mdash; but Anthropic is the named primary for the next investment cycle.</p>
+      <p>Strategic frame: iCapital is the first named &ldquo;wealth platform&rdquo; anchor under the Anthropic Partner Network umbrella, and it lands inside a vertical &mdash; alternative investments &mdash; where the deployment surface (advisor-facing, KYC/AML-adjacent, recordkeeping-bound) is one of the strictest compliance contexts in financial services. The win matters for the IPO narrative: Anthropic has the tier-1 banks (Goldman, JPM, others) on direct contracts; the wealth-platform tier was the next named gap, and iCapital fills it. Watch for advisor-network analogs &mdash; Envestnet, Orion, Addepar &mdash; to be the next named cohort inside the next ninety days.</p>
+      <div class="source-links">
+        <a href="https://www.wealthmanagement.com/artificial-intelligence/icapital-selects-anthropic-for-its-next-ai-phase" class="source-link">WealthManagement.com</a>
+        <a href="https://finance.yahoo.com/sectors/technology/articles/icapital-partners-anthropic-next-ai-100000578.html" class="source-link">Yahoo Finance</a>
+        <a href="https://www.anthropic.com/news/claude-partner-network" class="source-link">Partner Network</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Revenue / IPO</span>
+      <h3>$30B ARR Reset Holds Going Into May &mdash; OpenAI CRO Pushback Aside, Investor Narrative Locks In</h3>
+      <p>Three weeks past the April 7 milestone, the $30B annualized revenue run-rate datapoint is now the headline number every IPO model is being built around. Anthropic crossed it in March, up from $9B at end-2025 &mdash; roughly 1,400% year-over-year and a four-month $9B-to-$30B sprint that&rsquo;s the steepest segment in private-software history. OpenAI&rsquo;s CRO disputed the figure as overstated by ~$8B based on cloud-partner accounting, but Anthropic&rsquo;s position &mdash; principal in the cloud transactions, gross revenue recognition is correct &mdash; has held in coverage. The 1,000+ business customers spending over $1M annually has more than doubled since February.</p>
+      <p>The strategic read into the October window: today&rsquo;s Mythos block, the Goldman HK carve-out, the iCapital pickup, and the $30B reset are four data points in the same investor narrative. Anthropic is now a frontier lab whose risk surface is itself the product of its market position &mdash; and whose revenue is now category-leading. Bull thesis: regulated-enterprise depth plus creative-work breadth plus sovereign-aligned compute. Bear thesis: policy-gated frontier capabilities, jurisdictional exposure, agentic-failure liability. The S-1 narrative has to hold all six positions; the $30B number is the gravity well that holds the bull side together.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation" class="source-link">Series F / $183B</a>
+        <a href="https://sacra.com/c/anthropic/" class="source-link">Sacra Revenue</a>
+        <a href="https://epoch.ai/data-insights/anthropic-openai-revenue" class="source-link">Epoch AI</a>
+        <a href="https://www.saastr.com/anthropic-just-passed-openai-in-revenue-while-spending-4x-less-to-train-their-models/" class="source-link">SaaStr</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">MCP / Ecosystem</span>
+      <h3>MCP Ecosystem Hits 500+ Servers, 97M Monthly SDK Downloads &mdash; OAuth 2.1 Lands in the Spec This Month</h3>
+      <p>The MCP ecosystem rolled past 500 active servers and 97 million monthly SDK downloads heading into May, per the April rollup pieces circulating this week. Official client support is now stable across every major editor (Claude Desktop, Code, VSCode, Cursor, Windsurf, Zed) and the enterprise security story holds up under audit &mdash; the OAuth 2.1 authorization addition with incremental scope consent landed in the protocol spec this month, which is the missing piece for regulated-enterprise deploys. The CVE MCP server out of github.com/mukul975/cve-mcp-server is the standout new third-party server &mdash; 27 tools across 21 vulnerability APIs, configured for both Claude Desktop and Claude Code on first install.</p>
+      <p>The pattern for technical-publications and vertical-tooling teams: the MCP surface is now a credible delivery channel for domain-specific AI capabilities, not a science project. Trimble&rsquo;s SketchUp MCP from earlier this week is the &ldquo;binary file format end-to-end&rdquo; reference architecture. The CVE MCP is the &ldquo;multi-API tool-call orchestration&rdquo; reference. Both ship with first-install configs that work in the major Claude clients without bespoke setup. For S1000D / CGM / IETM-adjacent shops looking at the agentic-publishing roadmap, the MCP path is the one that has the most pattern density to copy from this week.</p>
+      <div class="source-links">
+        <a href="https://www.engineering.com/now-sketchup-has-an-mcp-server-for-claude-based-3d-modeling/" class="source-link">SketchUp MCP</a>
+        <a href="https://cybersecuritynews.com/cve-mcp-server-and-claude/" class="source-link">CVE MCP</a>
+        <a href="https://www.taskade.com/blog/mcp-servers" class="source-link">Taskade / 15 Best</a>
+        <a href="https://www.developersdigest.tech/blog/271-mcp-servers-top-5-that-matter" class="source-link">Developers Digest</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>One Building, Two Doors: The White House Is Blocking Mythos Civilian Expansion While Drafting Federal Re-Onboarding</h3>
+      <p>Today&rsquo;s lead story sits inside a contradiction that has to be named directly. The same Trump administration that is opposing Anthropic&rsquo;s expansion of Mythos to roughly 70 commercial customers this week is also drafting an executive action that would <em>restore</em> Anthropic across federal agencies in a workaround of the Pentagon&rsquo;s national-security supply-chain risk designation. One building, two doors. The civilian door is closing on Mythos this morning; the government door is being unlocked on every Anthropic surface the Pentagon previously walled off. The reason the contradiction is not actually inconsistent &mdash; from the policy planner&rsquo;s seat &mdash; is that the same capability that makes Mythos too dangerous to put behind 70 commercial NDAs is the capability the federal government wants to reserve for its own use first. That is the argument the executive action is going to make, and that is the argument the civilian-expansion block is the first half of.</p>
+      <p>The investor read for the IPO window: this is the day the &ldquo;policy-gated frontier capability&rdquo; bear thesis got its first concrete data point on a US-side action. Anthropic&rsquo;s strongest commercial differentiator at the high end is now bundled under a distribution channel where the gating function is a White House meeting, not a sales process. Two outcomes follow. First: the regulated-enterprise wedge (iCapital, Goldman ex-HK, Accenture / Deloitte / NEC / Caylent depth, $30B ARR) becomes a structurally larger share of the S-1 narrative than the frontier-capability wedge, because the regulated-enterprise surface is sales-process-gated and the Mythos surface is policy-gated. Second: the UK negotiation now matters more, not less &mdash; if the UK becomes the first non-US jurisdiction to take Mythos commercially, the asymmetry &ldquo;blocked at home, shipped abroad&rdquo; becomes the structural shape of the frontier business. That&rsquo;s a different shape of company than the investor narrative was built around six months ago, and the October prospectus will have to read like one.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
