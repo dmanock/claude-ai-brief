@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 1, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-01.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-01.html</guid>
+      <pubDate>Fri, 01 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Security Exits Research Preview into Public Beta on Enterprise — Opus 4.7 Scans Codebases, Traces Data Flows, Generates Patches</strong> — Anthropic shipped Claude Security to public beta after a private preview that ran on hundreds of organizations since February. Each finding ships with a confidence score, severity, likely impact, reproduction steps, and a recommended patch. Available now to Claude Enterprise customers; Team and Max are next.</p>
+        <p><strong>2. Six Major Security Vendors Embed Opus 4.7 — CrowdStrike Falcon, Microsoft Security, Palo Alto Networks, SentinelOne, TrendAI, Wiz</strong> — The launch landed with the channel coalition that matters: every named SOC and posture-management vendor a Fortune 500 CISO already has on the stack. CrowdStrike published a separate release on Project QuiltWorks — Opus 4.7 embedded across the Falcon platform as the reasoning layer.</p>
+        <p><strong>3. AISI Publishes Its Mythos Preview Cyber Eval — 73% on Expert-Level Tasks That No Model Could Complete Before April 2025</strong> — Under explicit direction with network access, Mythos executed multi-stage attacks and discovered-and-exploited vulnerabilities autonomously — work that takes human professionals days. Test environments lacked active defenders; AISI flagged that limit explicitly.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-01.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — April 30, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-30.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-30.html</guid>
@@ -364,25 +377,4 @@
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-03.html</guid>
       <pubDate>Fri, 03 Apr 2026 08:00:00 -0400</pubDate>
       <description><![CDATA[
-        <p><strong>1. Anthropic Maps 171 Emotion-like Concepts Inside Claude</strong> — The interpretability team found internal representations that function like emotions and causally influence Claude's decisions.</p>
-        <p><strong>2. Trojanized Leak Repos Spreading Vidar Malware</strong> — Fake Claude Code source repos on GitHub are delivering infostealers and proxy malware. Hundreds of forks before detection.</p>
-        <p><strong>3. Usage Limits Apology Fuels More Backlash</strong> — Anthropic tried to explain why Pro users hit limits faster. The community response made things worse.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-03.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — April 2, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-02.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-02.html</guid>
-      <pubDate>Thu, 02 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Congressman Gottheimer Demands Answers on Leaks</strong> — A House Democrat is pressing Anthropic on the Claude Code source leak, Mythos safety risks, and susceptibility to foreign cyberattacks.</p>
-        <p><strong>2. Claw-Code Hits 100K Stars in One Day</strong> — A clean-room Rust rewrite of Claude Code's architecture is now the fastest-growing repo in GitHub history.</p>
-        <p><strong>3. Claude Buddy Easter Egg Goes Live</strong> — Found in the leaked source: an April Fools terminal pet with 18 species, RPG stats, and a 1% shiny rate. Live through April 7.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-02.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-  </channel>
-</rss>
+        <p><strong>1
