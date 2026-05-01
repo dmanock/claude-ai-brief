@@ -849,4 +849,15 @@
 
     // "/" shortcut to focus search
     document.addEventListener('keydown', function(e) {
-      if (e.key === '/' && document.
+      if (e.key === '/' && document.activeElement !== input && !e.ctrlKey && !e.metaKey) {
+        if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+          e.preventDefault();
+          input.focus();
+        }
+      }
+    });
+  })();
+</script>
+
+</body>
+</html>
