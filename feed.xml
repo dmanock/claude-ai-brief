@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 2, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-02.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-02.html</guid>
+      <pubDate>Sat, 02 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Eyes $50B Raise at a Valuation Approaching $900B — Final Pre-IPO Round, Board Decision in May, October Window Holds</strong> — Anthropic is fielding multiple preemptive offers between $40B and $50B at a valuation between $850B and $900B. The round is expected to close inside two weeks. The valuation more than doubles the $380B mark from February and lands ahead of OpenAI's $852B post-money.</p>
+        <p><strong>2. Euro-Area Finance Ministers Take Up Mythos with Banking Supervisors Monday — No EU Government Has Access</strong> — The Eurogroup will discuss Mythos with bank supervisors at Monday's meeting. Germany's BaFin chief Theurer has urged the European Commission to demand access from Anthropic or directly from the US administration. The EU is now formally inside the regulator-vendor working frame.</p>
+        <p><strong>3. Day-2 Claude Security Reception Settles — The Panic-Driven Selloff Frame Is Gone, the Structural Read Takes Over</strong> — Forty-eight hours after Wednesday's launch, CSIS, Forrester, and the security-press circuit have moved past the "SAST is dead" reflex to a bounded-disruption frame. Markets did not repeat February's 25% JFrog drop. The vendor coalition has reframed Claude Security from competitor to substrate.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-02.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 1, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-01.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-01.html</guid>
@@ -358,23 +371,5 @@
       ]]></description>
     </item>
 
-    <item>
-      <title>Claude AI Daily Brief — April 4, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-04.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-04.html</guid>
-      <pubDate>Sat, 04 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Cuts Off OpenClaw from Claude Subscriptions</strong> — Effective today at 12pm PT, third-party harnesses no longer run on Claude subscription credits. Anthropic offers a one-time credit and bundle discounts.</p>
-        <p><strong>2. Message Batches API Now Supports 300k Output Tokens</strong> — Claude Opus 4.6 and Sonnet 4.6 unlock 300k output via new beta header. Web search and web fetch graduate out of beta.</p>
-        <p><strong>3. 1M Context Window Retiring April 30 for Older Models</strong> — Claude Sonnet 4.5 and Claude Sonnet 4 lose 1M context on April 30. Migrate to Sonnet 4.6 or Opus 4.6 now.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-04.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — April 3, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-03.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-03.html</guid>
-      <pubDate>Fri, 03 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1
+  </channel>
+</rss>
