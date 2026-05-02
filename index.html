@@ -603,10 +603,10 @@
 
   <!-- MONTH PILL NAVIGATION -->
   <div class="month-pills">
-    <button class="month-pill active" onclick="showMonth('may-2026', this)">May 2026</button>
-    <button class="month-pill" onclick="showMonth('apr-2026', this)">April 2026</button>
-    <button class="month-pill" onclick="showMonth('mar-2026', this)">March 2026</button>
-    <button class="month-pill" onclick="showMonth('feb-2026', this)">February 2026</button>
+    <button class="month-pill active" data-month="may-2026">May 2026</button>
+    <button class="month-pill" data-month="apr-2026">April 2026</button>
+    <button class="month-pill" data-month="mar-2026">March 2026</button>
+    <button class="month-pill" data-month="feb-2026">February 2026</button>
   </div>
 
   <!-- MAY 2026 -->
@@ -696,162 +696,151 @@
   Claude AI Daily Brief &nbsp;·&nbsp; Generated automatically each morning &nbsp;·&nbsp; Not affiliated with Anthropic
 </footer>
 
+<!-- ARCHIVE NAV — self-contained, event-delegated, no global function needed.
+     Kept as the FIRST script so a parse error in any later script cannot break it. -->
 <script>
-  function showMonth(id, btn) {
-    document.querySelectorAll('.month-rows').forEach(el => el.classList.remove('active'));
-    document.querySelectorAll('.month-pill').forEach(el => el.classList.remove('active'));
-    document.getElementById(id).classList.add('active');
-    btn.classList.add('active');
+(function() {
+  var pills = document.querySelectorAll('.month-pill');
+  if (!pills.length) return;
+  function activate(monthId, btn) {
+    var rows = document.querySelectorAll('.month-rows');
+    for (var i = 0; i < rows.length; i++) rows[i].classList.remove('active');
+    for (var j = 0; j < pills.length; j++) pills[j].classList.remove('active');
+    var target = document.getElementById(monthId);
+    if (target) target.classList.add('active');
+    if (btn) btn.classList.add('active');
   }
-
-  /* ── SEARCH ── */
-  (function() {
-    let searchData = [];
-    let activeIdx = -1;
-
-    // Load index
-    fetch('search-index.json')
-      .then(r => r.json())
-      .then(data => { searchData = data; })
-      .catch(() => { /* silently degrade — search just won't work */ });
-
-    const input  = document.getElementById('searchInput');
-    const box    = document.getElementById('searchResults');
-
-    function formatDate(d) {
-      const dt = new Date(d + 'T12:00:00');
-      return dt.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
-    }
-
-    function highlight(text, terms) {
-      if (!terms.length) return escHtml(text);
-      const re = new RegExp('(' + terms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')', 'gi');
-      return escHtml(text).replace(re, '<mark>$1</mark>');
-    }
-
-    function escHtml(s) {
-      return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-    }
-
-    function stripPrefix(title) {
-      // Remove "Claude AI Daily Brief — March 30, 2026 | " prefix to show just headlines
-      const pipeIdx = title.indexOf('|');
-      return pipeIdx > -1 ? title.substring(pipeIdx + 1).trim() : title;
-    }
-
-    function search(query) {
-      if (!query || query.length < 2) { close(); return; }
-      const terms = query.toLowerCase().split(/\s+/).filter(t => t.length >= 2);
-      if (!terms.length) { close(); return; }
-
-      const scored = searchData.map(entry => {
-        let score = 0;
-        const searchable = [
-          entry.title.toLowerCase(),
-          entry.description.toLowerCase(),
-          entry.headlines.join(' ').toLowerCase(),
-          entry.snippet.toLowerCase()
-        ].join(' ');
-
-        terms.forEach(term => {
-          // Title matches weighted heavily
-          if (entry.title.toLowerCase().includes(term)) score += 10;
-          // Headline matches
-          entry.headlines.forEach(h => {
-            if (h.toLowerCase().includes(term)) score += 5;
-          });
-          // Description
-          if (entry.description.toLowerCase().includes(term)) score += 3;
-          // Snippet / body
-          if (entry.snippet.toLowerCase().includes(term)) score += 1;
-        });
-
-        // Find best matching headline for display
-        let bestHeadline = '';
-        let bestHScore = 0;
-        entry.headlines.forEach(h => {
-          let hs = 0;
-          terms.forEach(t => { if (h.toLowerCase().includes(t)) hs++; });
-          if (hs > bestHScore) { bestHScore = hs; bestHeadline = h; }
-        });
-
-        return { ...entry, score, bestHeadline };
-      }).filter(e => e.score > 0).sort((a, b) => b.score - a.score);
-
-      render(scored, terms);
-    }
-
-    function render(results, terms) {
-      activeIdx = -1;
-      if (!results.length) {
-        box.innerHTML = '<div class="sr-empty">No matching reports found</div>';
-        box.classList.add('open');
-        return;
-      }
-
-      const count = results.length;
-      let html = '<div class="sr-count">' + count + ' report' + (count !== 1 ? 's' : '') + ' found</div>';
-
-      results.slice(0, 12).forEach((r, i) => {
-        const headlines = stripPrefix(r.title);
-        const matchLine = r.bestHeadline
-          ? highlight(r.bestHeadline, terms)
-          : highlight(r.description.substring(0, 120), terms);
-
-        html += '<a class="sr-item" href="' + r.url + '" data-idx="' + i + '" role="option">'
-          + '<div class="sr-date">' + formatDate(r.date) + '</div>'
-          + '<div class="sr-title">' + highlight(headlines, terms) + '</div>'
-          + '<div class="sr-match">' + matchLine + '</div>'
-          + '</a>';
+  for (var k = 0; k < pills.length; k++) {
+    (function(p) {
+      p.addEventListener('click', function() {
+        activate(p.getAttribute('data-month'), p);
       });
+    })(pills[k]);
+  }
+})();
+</script>
 
-      box.innerHTML = html;
+<!-- SEARCH — isolated. If this block ever truncates, archive nav above still works. -->
+<script>
+(function() {
+  var searchData = [];
+  var activeIdx = -1;
+  var input = document.getElementById('searchInput');
+  var box   = document.getElementById('searchResults');
+  if (!input || !box) return;
+
+  fetch('search-index.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) { searchData = data; })
+    .catch(function() { /* silently degrade */ });
+
+  function formatDate(d) {
+    var dt = new Date(d + 'T12:00:00');
+    return dt.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
+  }
+  function escHtml(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+  function highlight(text, terms) {
+    if (!terms.length) return escHtml(text);
+    var re = new RegExp('(' + terms.map(function(t){ return t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }).join('|') + ')', 'gi');
+    return escHtml(text).replace(re, '<mark>$1</mark>');
+  }
+  function stripPrefix(title) {
+    var pipeIdx = title.indexOf('|');
+    return pipeIdx > -1 ? title.substring(pipeIdx + 1).trim() : title;
+  }
+  function search(query) {
+    if (!query || query.length < 2) { close(); return; }
+    var terms = query.toLowerCase().split(/\s+/).filter(function(t){ return t.length >= 2; });
+    if (!terms.length) { close(); return; }
+    var scored = searchData.map(function(entry) {
+      var score = 0;
+      terms.forEach(function(term) {
+        if (entry.title.toLowerCase().indexOf(term) > -1) score += 10;
+        entry.headlines.forEach(function(h) { if (h.toLowerCase().indexOf(term) > -1) score += 5; });
+        if (entry.description.toLowerCase().indexOf(term) > -1) score += 3;
+        if (entry.snippet.toLowerCase().indexOf(term) > -1) score += 1;
+      });
+      var bestHeadline = '';
+      var bestHScore = 0;
+      entry.headlines.forEach(function(h) {
+        var hs = 0;
+        terms.forEach(function(t) { if (h.toLowerCase().indexOf(t) > -1) hs++; });
+        if (hs > bestHScore) { bestHScore = hs; bestHeadline = h; }
+      });
+      var copy = {};
+      for (var key in entry) copy[key] = entry[key];
+      copy.score = score;
+      copy.bestHeadline = bestHeadline;
+      return copy;
+    }).filter(function(e){ return e.score > 0; }).sort(function(a, b){ return b.score - a.score; });
+    render(scored, terms);
+  }
+  function render(results, terms) {
+    activeIdx = -1;
+    if (!results.length) {
+      box.innerHTML = '<div class="sr-empty">No matching reports found</div>';
       box.classList.add('open');
+      return;
     }
-
-    function close() {
-      box.classList.remove('open');
-      activeIdx = -1;
-    }
-
-    // Debounced input
-    let debounce;
-    input.addEventListener('input', function() {
-      clearTimeout(debounce);
-      debounce = setTimeout(() => search(this.value.trim()), 150);
+    var count = results.length;
+    var html = '<div class="sr-count">' + count + ' report' + (count !== 1 ? 's' : '') + ' found</div>';
+    results.slice(0, 12).forEach(function(r, i) {
+      var headlines = stripPrefix(r.title);
+      var matchLine = r.bestHeadline ? highlight(r.bestHeadline, terms) : highlight(r.description.substring(0, 120), terms);
+      html += '<a class="sr-item" href="' + r.url + '" data-idx="' + i + '" role="option">'
+        + '<div class="sr-date">' + formatDate(r.date) + '</div>'
+        + '<div class="sr-title">' + highlight(headlines, terms) + '</div>'
+        + '<div class="sr-match">' + matchLine + '</div>'
+        + '</a>';
     });
-
-    // Keyboard navigation
-    input.addEventListener('keydown', function(e) {
-      const items = box.querySelectorAll('.sr-item');
-      if (e.key === 'ArrowDown') {
+    box.innerHTML = html;
+    box.classList.add('open');
+  }
+  function close() {
+    box.classList.remove('open');
+    activeIdx = -1;
+  }
+  var debounce;
+  input.addEventListener('input', function() {
+    var self = this;
+    clearTimeout(debounce);
+    debounce = setTimeout(function() { search(self.value.trim()); }, 150);
+  });
+  input.addEventListener('keydown', function(e) {
+    var items = box.querySelectorAll('.sr-item');
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      activeIdx = Math.min(activeIdx + 1, items.length - 1);
+      for (var i = 0; i < items.length; i++) items[i].classList.toggle('active', i === activeIdx);
+      if (items[activeIdx]) items[activeIdx].scrollIntoView({ block: 'nearest' });
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      activeIdx = Math.max(activeIdx - 1, 0);
+      for (var j = 0; j < items.length; j++) items[j].classList.toggle('active', j === activeIdx);
+      if (items[activeIdx]) items[activeIdx].scrollIntoView({ block: 'nearest' });
+    } else if (e.key === 'Enter' && activeIdx >= 0 && items[activeIdx]) {
+      e.preventDefault();
+      items[activeIdx].click();
+    } else if (e.key === 'Escape') {
+      close();
+      input.blur();
+    }
+  });
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.search-wrap')) close();
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === '/' && document.activeElement !== input && !e.ctrlKey && !e.metaKey) {
+      if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
         e.preventDefault();
-        activeIdx = Math.min(activeIdx + 1, items.length - 1);
-        items.forEach((el, i) => el.classList.toggle('active', i === activeIdx));
-        if (items[activeIdx]) items[activeIdx].scrollIntoView({ block: 'nearest' });
-      } else if (e.key === 'ArrowUp') {
-        e.preventDefault();
-        activeIdx = Math.max(activeIdx - 1, 0);
-        items.forEach((el, i) => el.classList.toggle('active', i === activeIdx));
-        if (items[activeIdx]) items[activeIdx].scrollIntoView({ block: 'nearest' });
-      } else if (e.key === 'Enter' && activeIdx >= 0 && items[activeIdx]) {
-        e.preventDefault();
-        items[activeIdx].click();
-      } else if (e.key === 'Escape') {
-        close();
-        input.blur();
+        input.focus();
       }
-    });
+    }
+  });
+})();
+</script>
 
-    // Close on click outside
-    document.addEventListener('click', function(e) {
-      if (!e.target.closest('.search-wrap')) close();
-    });
-
-    // "/" shortcut to focus search
-    document.addEventListener('keydown', function(e) {
-      if (e.key === '/' && document.activeElement !== input && !e.ctrlKey && !e.metaKey) {
-        if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
-          e.preventDefault();
-          input.focus();
- 
+</body>
+</html>
