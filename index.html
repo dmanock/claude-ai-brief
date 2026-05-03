@@ -741,7 +741,6 @@
     .then(function(data) {
       if (!Array.isArray(data)) throw new Error('Index is not an array');
       searchData = data;
-      // If user already typed something, run the search now that data is here.
       if (input.value.trim().length >= 2) search(input.value.trim());
     })
     .catch(function(err) {
@@ -839,4 +838,34 @@
     if (e.key === 'ArrowDown') {
       e.preventDefault();
       activeIdx = Math.min(activeIdx + 1, items.length - 1);
-      for (var i = 0; i < items.length; i++) items[i].classList.t
+      for (var i = 0; i < items.length; i++) items[i].classList.toggle('active', i === activeIdx);
+      if (items[activeIdx]) items[activeIdx].scrollIntoView({ block: 'nearest' });
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      activeIdx = Math.max(activeIdx - 1, 0);
+      for (var j = 0; j < items.length; j++) items[j].classList.toggle('active', j === activeIdx);
+      if (items[activeIdx]) items[activeIdx].scrollIntoView({ block: 'nearest' });
+    } else if (e.key === 'Enter' && activeIdx >= 0 && items[activeIdx]) {
+      e.preventDefault();
+      items[activeIdx].click();
+    } else if (e.key === 'Escape') {
+      close();
+      input.blur();
+    }
+  });
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.search-wrap')) close();
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === '/' && document.activeElement !== input && !e.ctrlKey && !e.metaKey) {
+      if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+        e.preventDefault();
+        input.focus();
+      }
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
