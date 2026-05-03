@@ -800,9 +800,9 @@
       copy.bestHeadline = bestHeadline;
       return copy;
     }).filter(function(e){ return e.score > 0; }).sort(function(a, b){ return b.score - a.score; });
-    render(scored, terms);
+    render(scored, terms, query);
   }
-  function render(results, terms) {
+  function render(results, terms, query) {
     activeIdx = -1;
     if (!results.length) {
       box.innerHTML = '<div class="sr-empty">No matching reports found</div>';
@@ -814,7 +814,15 @@
     results.slice(0, 12).forEach(function(r, i) {
       var headlines = stripPrefix(r.title);
       var matchLine = r.bestHeadline ? highlight(r.bestHeadline, terms) : highlight(r.description.substring(0, 120), terms);
-      html += '<a class="sr-item" href="' + r.url + '" data-idx="' + i + '" role="option">'
+      // Build a Scroll-To-Text Fragment so the browser scrolls to and highlights the match in the report.
+      // Prefer the best-matching headline (more specific), fall back to the user's query.
+      var fragSource = r.bestHeadline || query || '';
+      // Trim to a short, distinctive phrase: first ~60 chars, ending on a word boundary.
+      if (fragSource.length > 60) {
+        fragSource = fragSource.substring(0, 60).replace(/\s+\S*$/, '');
+      }
+      var hrefWithFrag = r.url + (fragSource ? '#:~:text=' + encodeURIComponent(fragSource) : '');
+      html += '<a class="sr-item" href="' + hrefWithFrag + '" data-idx="' + i + '" role="option">'
         + '<div class="sr-date">' + formatDate(r.date) + '</div>'
         + '<div class="sr-title">' + highlight(headlines, terms) + '</div>'
         + '<div class="sr-match">' + matchLine + '</div>'
