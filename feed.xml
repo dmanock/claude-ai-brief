@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 3, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-03.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-03.html</guid>
+      <pubDate>Sun, 03 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Eurogroup-Mythos Preview Sunday — Germany Leads, France and Italy Expected to Back Access Parity Monday</strong> — The Eurogroup will discuss Mythos with banking supervisors Monday May 4. Germany's BaFin chief Theurer drives the access push; France and Italy are expected to align. The European Banking Authority and the EU AI Office have not pre-staked positions; Monday is their first inflection. UK banks are reportedly poised to gain Mythos access in the coming weeks.</p>
+        <p><strong>2. Code with Claude SF Three Days Out — Sonnet 4.8 Watch Window Narrows Into the May 6-13 Corridor</strong> — The Sonnet 4.8 expected window now overlaps with the SF developer conference Wednesday May 6. The leaked source-map references that named KAIROS persistent agents and Undercover Mode point at the same surface. In-person seats long closed; livestream registration open. The agentic-SDLC track is the announced agenda spine.</p>
+        <p><strong>3. $50B-at-$900B Round Inside the Two-Week Close Window — Board Decision Still Expected This Month</strong> — The Friday-night funding round news held cleanly through Saturday and into Sunday with no walkbacks. Board decision still expected at the May meeting; close target inside two weeks. The S-1 narrative now has the private-market mark in place ahead of the Eurogroup, the conference, and any Sonnet ship.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-03.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 2, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-02.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-02.html</guid>
@@ -351,25 +364,4 @@
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-06.html</guid>
       <pubDate>Mon, 06 Apr 2026 08:00:00 -0400</pubDate>
       <description><![CDATA[
-        <p><strong>1. Pentagon Appeals Ruling That Blocked Anthropic Blacklist</strong> — The Dept of War challenged the court order blocking Anthropic's supply-chain risk designation — the first ever applied to a US company under a law meant for foreign threats.</p>
-        <p><strong>2. UK Moves to Woo Anthropic Amid US Defense Clash</strong> — Britain is pitching Anthropic on a London expansion and dual LSE listing. The GOV.UK AI assistant, already powered by Claude, anchors the offer.</p>
-        <p><strong>3. Claude API Gets 300k Token Batches, Capability Fields, Data Residency</strong> — A wave of API improvements landed this week, plus model retirements for Sonnet 3.7 and Haiku 3.5. The 1M token beta ends April 30.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-06.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — April 5, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-05.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-05.html</guid>
-      <pubDate>Sun, 05 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Mythos Leak Reveals Anthropic's Next Frontier Model</strong> — A data leak exposed "Claude Mythos," described as a step change in capabilities with autonomous multi-system execution. Anthropic is warning officials about its cybersecurity implications.</p>
-        <p><strong>2. Claude Code Security Vulnerabilities Stack Up After Source Leak</strong> — CVE-2026-21852 let malicious repos steal API keys before trust confirmation. A separate 50+ subcommand bypass evades security analysis.</p>
-        <p><strong>3. Agent Skills Ecosystem Explodes Past 2,300 Skills</strong> — Together AI open-sourced 12 agent skills for Claude Code and Codex. Community marketplaces now list 2,300+ skills and 770+ MCP servers.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-05.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-  </channel>
-</rss>
+        <p><strong>1. Pentagon Appeals Ruling That Blocked Anthropic Blacklist</strong> — The Dept of War challenged the court order blocking Anthropic's supply-chain risk designation — the first ever applied to a US company under a law meant for foreign threa
