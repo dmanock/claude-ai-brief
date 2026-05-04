@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 4, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-04.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-04.html</guid>
+      <pubDate>Mon, 04 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Pentagon Picks Seven AI Vendors for Classified-Network Contracts — Anthropic Stays Excluded, Mythos Treated Separately</strong> — DOD awarded classified-network deals to OpenAI, Google, Microsoft, AWS, Nvidia, SpaceX, and Reflection AI on May 1. Anthropic is the only frontier lab off the list, kept on the supply-chain-risk designation. CTO Emil Michael called Mythos a "separate national security moment" — the NSA is already running it under a parallel track.</p>
+        <p><strong>2. $1.5B Wall Street Joint Venture Nears Close — Blackstone, Goldman Sachs, Hellman &amp; Friedman Anchor an AI Consulting Arm for PE Portfolios</strong> — Anthropic, Blackstone, and Hellman &amp; Friedman each contribute roughly $300M; Goldman Sachs around $150M; General Atlantic among additional investors. Vehicle helps PE portfolio companies integrate Claude into finance, ops, customer service, analytics, and enterprise software. Announcement could land this week.</p>
+        <p><strong>3. Eurogroup Discusses Mythos with Banking Supervisors Today — Code with Claude SF Two Days Out</strong> — Euro-area finance ministers meet bank supervisors today on Mythos access; Germany's BaFin chief drives the push, France and Italy expected to align. Code with Claude SF lands Wednesday with the Sonnet 4.8 watch window inside May 6–13. The Briefing Financial Services livestream tomorrow puts a third inflection in the same week.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-04.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 3, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-03.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-03.html</guid>
@@ -364,4 +377,4 @@
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-06.html</guid>
       <pubDate>Mon, 06 Apr 2026 08:00:00 -0400</pubDate>
       <description><![CDATA[
-        <p><strong>1. Pentagon Appeals Ruling That Blocked Anthropic Blacklist</strong> — The Dept of War challenged the court order blocking Anthropic's supply-chain risk designation — the first ever applied to a US company under a law meant for foreign threa
+        <p><strong>1. Pentagon Appeals Ruling That Blocked Anthropic Blacklist</strong> — The Dept of War challenged the court order blocking Anthropic's supply-chain risk designation — the first ever ap
