@@ -722,149 +722,161 @@
 })();
 </script>
 
-<!-- SEARCH — isolated. If this block ever truncates, archive nav above still works. -->
+<!-- SEARCH — Pagefind-backed.
+     Static, sharded, lazy-loaded full-text index built from report HTML at deploy time.
+     Index lives at /pagefind/. The library is loaded only after the user focuses the
+     input, so there's zero cost for visitors who never search.
+     Isolated IIFE — if Pagefind fails to load, the archive nav above still works. -->
 <script>
 (function() {
-  var searchData = null;       // null = not loaded yet, [] = empty/error, [...] = loaded
-  var loadError = null;
-  var activeIdx = -1;
   var input = document.getElementById('searchInput');
   var box   = document.getElementById('searchResults');
   if (!input || !box) return;
 
-  // Cache-bust the index so stale CDN copies don't break search after a deploy.
-  var indexUrl = 'search-index.json?v=' + Date.now();
-  fetch(indexUrl)
-    .then(function(r) {
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      return r.json();
-    })
-    .then(function(data) {
-      if (!Array.isArray(data)) throw new Error('Index is not an array');
-      searchData = data;
-      if (input.value.trim().length >= 2) search(input.value.trim());
-    })
-    .catch(function(err) {
-      loadError = err && err.message ? err.message : 'load failed';
-      searchData = [];
-      console.error('[search] index load failed:', err);
-    });
+  var pagefind = null;     // resolved module
+  var loading  = null;     // in-flight Promise (dedupes concurrent loads)
+  var loadErr  = null;
+  var activeIdx = -1;
+  var pendingQuery = null;
+  var lastQuery = '';
 
-  function formatDate(d) {
-    var dt = new Date(d + 'T12:00:00');
+  // Lazy-load Pagefind on first interaction. Cache-bust via a stable build version
+  // (the entry.json is tiny; the heavy chunks have content-hashed filenames so they
+  // self-invalidate when the index changes — no Date.now() bombing needed).
+  function loadPagefind() {
+    if (pagefind) return Promise.resolve(pagefind);
+    if (loading)  return loading;
+    loading = import('/pagefind/pagefind.js')
+      .then(function(mod) {
+        return mod.options({ baseUrl: '/' }).then(function(){ return mod; });
+      })
+      .then(function(mod) {
+        pagefind = mod;
+        loadErr = null;
+        return mod;
+      })
+      .catch(function(err) {
+        loadErr = err && err.message ? err.message : 'load failed';
+        loading = null;  // allow retry
+        console.error('[search] Pagefind load failed:', err);
+        throw err;
+      });
+    return loading;
+  }
+
+  // Best-effort warm-up the moment the user focuses the input.
+  input.addEventListener('focus', function(){ loadPagefind().catch(function(){}); }, { once: true });
+
+  function escHtml(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+  function formatDate(iso) {
+    if (!iso) return '';
+    var dt = new Date(iso + 'T12:00:00');
+    if (isNaN(dt)) return iso;
     return dt.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
   }
-  function escHtml(s) {
-    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  function dateFromUrl(url) {
+    var m = (url || '').match(/(\d{4}-\d{2}-\d{2})/);
+    return m ? m[1] : '';
   }
-  function highlight(text, terms) {
-    if (!terms.length) return escHtml(text);
-    var re = new RegExp('(' + terms.map(function(t){ return t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }).join('|') + ')', 'gi');
-    return escHtml(text).replace(re, '<mark>$1</mark>');
-  }
+  // Pull the headline portion out of "Claude AI Daily Brief — May 3, 2026 | Headline | Headline2"
   function stripPrefix(title) {
+    if (!title) return '';
     var pipeIdx = title.indexOf('|');
     return pipeIdx > -1 ? title.substring(pipeIdx + 1).trim() : title;
   }
-  function search(query) {
+  // Pagefind already wraps matched terms in <mark>. Sanitize everything else.
+  // We allow only <mark>...</mark> through, escape the rest.
+  function sanitizeMarked(html) {
+    if (!html) return '';
+    return String(html)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')
+      .replace(/&lt;mark&gt;/g, '<mark>')
+      .replace(/&lt;\/mark&gt;/g, '</mark>');
+  }
+
+  function open(html) { box.innerHTML = html; box.classList.add('open'); }
+  function close() { box.classList.remove('open'); activeIdx = -1; }
+
+  function doSearch(query) {
+    lastQuery = query;
     if (!query || query.length < 2) { close(); return; }
-    var terms = query.toLowerCase().split(/\s+/).filter(function(t){ return t.length >= 2; });
-    if (!terms.length) { close(); return; }
-    if (searchData === null) {
-      box.innerHTML = '<div class="sr-empty">Loading search index...</div>';
-      box.classList.add('open');
+
+    if (loadErr) {
+      open('<div class="sr-empty">Search failed to load (' + escHtml(loadErr) + '). Try refreshing.</div>');
       return;
     }
-    if (loadError) {
-      box.innerHTML = '<div class="sr-empty">Search index failed to load (' + loadError + '). Try refreshing.</div>';
-      box.classList.add('open');
+
+    if (!pagefind) {
+      open('<div class="sr-empty">Loading search...</div>');
+      pendingQuery = query;
+      loadPagefind()
+        .then(function() {
+          if (pendingQuery === query && lastQuery === query) doSearch(query);
+        })
+        .catch(function(err) {
+          open('<div class="sr-empty">Search failed to load (' + escHtml(err.message || 'unknown') + '). Try refreshing.</div>');
+        });
       return;
     }
-    var scored = searchData.map(function(entry) {
-      var score = 0;
-      terms.forEach(function(term) {
-        if (entry.title.toLowerCase().indexOf(term) > -1) score += 10;
-        entry.headlines.forEach(function(h) { if (h.toLowerCase().indexOf(term) > -1) score += 5; });
-        if (entry.description.toLowerCase().indexOf(term) > -1) score += 3;
-        if (entry.snippet.toLowerCase().indexOf(term) > -1) score += 1;
-      });
-      var bestHeadline = '';
-      var bestHScore = 0;
-      entry.headlines.forEach(function(h) {
-        var hs = 0;
-        terms.forEach(function(t) { if (h.toLowerCase().indexOf(t) > -1) hs++; });
-        if (hs > bestHScore) { bestHScore = hs; bestHeadline = h; }
-      });
-      var copy = {};
-      for (var key in entry) copy[key] = entry[key];
-      copy.score = score;
-      copy.bestHeadline = bestHeadline;
-      return copy;
-    }).filter(function(e){ return e.score > 0; }).sort(function(a, b){ return b.score - a.score; });
-    render(scored, terms, query);
-  }
-  function render(results, terms, query) {
-    activeIdx = -1;
-    if (!results.length) {
-      box.innerHTML = '<div class="sr-empty">No matching reports found</div>';
-      box.classList.add('open');
-      return;
-    }
-    var count = results.length;
-    var html = '<div class="sr-count">' + count + ' report' + (count !== 1 ? 's' : '') + ' found</div>';
-    results.slice(0, 12).forEach(function(r, i) {
-      var headlines = stripPrefix(r.title);
-      var matchLine = r.bestHeadline ? highlight(r.bestHeadline, terms) : highlight(r.description.substring(0, 120), terms);
-      // Build a Scroll-To-Text Fragment so the browser scrolls to and highlights the match in the report.
-      // Prefer the best-matching headline (more specific), fall back to the user's query.
-      var fragSource = r.bestHeadline || query || '';
-      // Trim to a short, distinctive phrase: first ~60 chars, ending on a word boundary.
-      if (fragSource.length > 60) {
-        fragSource = fragSource.substring(0, 60).replace(/\s+\S*$/, '');
-      }
-      var hrefWithFrag = r.url + (fragSource ? '#:~:text=' + encodeURIComponent(fragSource) : '');
-      html += '<a class="sr-item" href="' + hrefWithFrag + '" data-idx="' + i + '" role="option">'
-        + '<div class="sr-date">' + formatDate(r.date) + '</div>'
-        + '<div class="sr-title">' + highlight(headlines, terms) + '</div>'
-        + '<div class="sr-match">' + matchLine + '</div>'
-        + '</a>';
+
+    pagefind.search(query).then(function(result) {
+      // Race guard: only render if this is still the latest query.
+      if (lastQuery !== query) return;
+      var hits = result.results || [];
+      // Resolve the top 12 in parallel.
+      Promise.all(hits.slice(0, 12).map(function(r){ return r.data(); }))
+        .then(function(items) {
+          // Filter to /reports/ pages only (skip homepage matches).
+          var reports = items.filter(function(it){ return /\/reports\/claude-ai-daily-/.test(it.url); });
+          if (lastQuery !== query) return;  // re-check after async
+          render(reports, hits.length, query);
+        });
+    }).catch(function(err) {
+      console.error('[search] query failed:', err);
+      open('<div class="sr-empty">Search error: ' + escHtml(err.message || 'unknown') + '</div>');
     });
-    box.innerHTML = html;
-    box.classList.add('open');
   }
-  function close() {
-    box.classList.remove('open');
+
+  function render(items, totalCount, query) {
     activeIdx = -1;
+    if (!items.length) {
+      open('<div class="sr-empty">No matching reports found</div>');
+      return;
+    }
+    var html = '<div class="sr-count">' + totalCount + ' report' + (totalCount !== 1 ? 's' : '') + ' found</div>';
+    items.forEach(function(it, i) {
+      var date = (it.meta && it.meta.date) || dateFromUrl(it.url);
+      var titleSrc = (it.meta && it.meta.title) || it.url;
+      var headline = stripPrefix(titleSrc);
+      // Pagefind puts a contextual snippet with <mark> tags in `excerpt`.
+      var excerpt  = sanitizeMarked(it.excerpt || '');
+
+      // Scroll-To-Text fragment so the browser jumps to the match in the report.
+      var frag = (query || '').substring(0, 60).replace(/\s+\S*$/, '');
+      var href = it.url + (frag ? '#:~:text=' + encodeURIComponent(frag) : '');
+
+      html += '<a class="sr-item" href="' + escHtml(href) + '" data-idx="' + i + '" role="option">'
+            +   '<div class="sr-date">' + escHtml(formatDate(date)) + '</div>'
+            +   '<div class="sr-title">' + escHtml(headline) + '</div>'
+            +   '<div class="sr-match">' + excerpt + '</div>'
+            + '</a>';
+    });
+    open(html);
   }
+
+  // Debounced input handler.
   var debounce;
   input.addEventListener('input', function() {
-    var self = this;
+    var v = this.value.trim();
     clearTimeout(debounce);
-    debounce = setTimeout(function() { search(self.value.trim()); }, 150);
+    debounce = setTimeout(function(){ doSearch(v); }, 120);
   });
+
   input.addEventListener('keydown', function(e) {
     var items = box.querySelectorAll('.sr-item');
     if (e.key === 'ArrowDown') {
       e.preventDefault();
       activeIdx = Math.min(activeIdx + 1, items.length - 1);
-      for (var i = 0; i < items.length; i++) items[i].classList.toggle('active', i === activeIdx);
-      if (items[activeIdx]) items[activeIdx].scrollIntoView({ block: 'nearest' });
-    } else if (e.key === 'ArrowUp') {
-      e.preventDefault();
-      activeIdx = Math.max(activeIdx - 1, 0);
-      for (var j = 0; j < items.length; j++) items[j].classList.toggle('active', j === activeIdx);
-      if (items[activeIdx]) items[activeIdx].scrollIntoView({ block: 'nearest' });
-    } else if (e.key === 'Enter' && activeIdx >= 0 && items[activeIdx]) {
-      e.preventDefault();
-      items[activeIdx].click();
-    } else if (e.key === 'Escape') {
-      close();
-      input.blur();
-    }
-  });
-  document.addEventListener('click', function(e) {
-    if (!e.target.closest('.search-wrap')) close();
-  });
-  document.addEventListener('keydown', function(e) {
-    if (e.key === '/' && document.activeElement !== input && !e.ctrlKey && !e.metaKey) {
-      if
+ 
