@@ -724,50 +724,62 @@
 
 <!-- SEARCH — Pagefind-backed.
      Static, sharded, lazy-loaded full-text index built from report HTML at deploy time.
-     Index lives at /pagefind/. The library is loaded only after the user focuses the
-     input, so there's zero cost for visitors who never search.
+     Index lives at /pagefind/. Heavily instrumented — every checkpoint logs with the
+     "[search]" prefix so failures are diagnosable straight from DevTools console.
      Isolated IIFE — if Pagefind fails to load, the archive nav above still works. -->
 <script>
 (function() {
+  var TAG = '[search]';
+  console.log(TAG, 'init: script running');
+
   var input = document.getElementById('searchInput');
   var box   = document.getElementById('searchResults');
-  if (!input || !box) return;
+  if (!input || !box) {
+    console.error(TAG, 'init failed: missing #searchInput or #searchResults');
+    return;
+  }
+  console.log(TAG, 'init: input + box bound');
 
   var pagefind = null;     // resolved module
   var loading  = null;     // in-flight Promise (dedupes concurrent loads)
   var loadErr  = null;
   var activeIdx = -1;
-  var pendingQuery = null;
   var lastQuery = '';
 
-  // Lazy-load Pagefind on first interaction. The heavy chunks are content-hashed
-  // by Pagefind itself, so they self-invalidate when the index changes — no
-  // cache-busting query strings needed.
+  // Eagerly import on script load. Lazy-loading on focus was failing for some
+  // visitors when CDN cache or page-load timing dropped the focus event before
+  // the listener was attached. A few hundred KB up-front is cheap insurance.
   function loadPagefind() {
     if (pagefind) return Promise.resolve(pagefind);
     if (loading)  return loading;
+    console.log(TAG, 'loadPagefind: importing /pagefind/pagefind.js');
+    var t0 = Date.now();
     loading = import('/pagefind/pagefind.js')
       .then(function(mod) {
-        // pagefind.options() is SYNCHRONOUS in v1.x — it just stores config.
-        // Don't .then() its return value (undefined would throw TypeError).
-        // baseUrl auto-detects from the import URL, so this call is optional;
-        // we keep it for explicitness in case the site is reverse-proxied.
-        try { mod.options && mod.options({ baseUrl: '/' }); } catch(e) {}
+        console.log(TAG, 'loadPagefind: imported in', (Date.now()-t0)+'ms; exports:', Object.keys(mod));
+        // The exported options() IS async, but we don't need to await it —
+        // it just stores config that pagefind.search() will consume on first call.
+        try {
+          if (typeof mod.options === 'function') mod.options({ baseUrl: '/' });
+        } catch (e) {
+          console.warn(TAG, 'options() threw (non-fatal):', e);
+        }
         pagefind = mod;
         loadErr = null;
         return mod;
       })
       .catch(function(err) {
-        loadErr = err && err.message ? err.message : 'load failed';
+        loadErr = (err && err.message) ? err.message : String(err);
         loading = null;  // allow retry
-        console.error('[search] Pagefind load failed:', err);
+        console.error(TAG, 'loadPagefind: import failed:', err);
         throw err;
       });
     return loading;
   }
 
-  // Best-effort warm-up the moment the user focuses the input.
-  input.addEventListener('focus', function(){ loadPagefind().catch(function(){}); }, { once: true });
+  // Kick the load now — don't wait for focus. If we error, store and surface
+  // when the user actually searches.
+  loadPagefind().catch(function(){ /* error already logged + stored */ });
 
   function escHtml(s) {
     return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -798,46 +810,50 @@
       .replace(/&lt;\/mark&gt;/g, '</mark>');
   }
 
-  function open(html) { box.innerHTML = html; box.classList.add('open'); }
+  function showBox(html) { box.innerHTML = html; box.classList.add('open'); }
   function close() { box.classList.remove('open'); activeIdx = -1; }
 
   function doSearch(query) {
     lastQuery = query;
+    console.log(TAG, 'doSearch:', JSON.stringify(query), '| pagefind=', !!pagefind, '| loadErr=', loadErr);
+
     if (!query || query.length < 2) { close(); return; }
 
     if (loadErr) {
-      open('<div class="sr-empty">Search failed to load (' + escHtml(loadErr) + '). Try refreshing.</div>');
+      showBox('<div class="sr-empty">Search failed to load (' + escHtml(loadErr) + '). Try refreshing the page.</div>');
       return;
     }
 
     if (!pagefind) {
-      open('<div class="sr-empty">Loading search...</div>');
-      pendingQuery = query;
+      showBox('<div class="sr-empty">Loading search...</div>');
       loadPagefind()
         .then(function() {
-          if (pendingQuery === query && lastQuery === query) doSearch(query);
+          if (lastQuery === query) doSearch(query);
         })
         .catch(function(err) {
-          open('<div class="sr-empty">Search failed to load (' + escHtml(err.message || 'unknown') + '). Try refreshing.</div>');
+          showBox('<div class="sr-empty">Search failed to load (' + escHtml(err.message || 'unknown') + '). Try refreshing.</div>');
         });
       return;
     }
 
+    var t0 = Date.now();
     pagefind.search(query).then(function(result) {
-      // Race guard: only render if this is still the latest query.
-      if (lastQuery !== query) return;
-      var hits = result.results || [];
-      // Resolve the top 12 in parallel.
+      if (lastQuery !== query) return;  // race guard
+      var hits = (result && result.results) || [];
+      console.log(TAG, 'pagefind.search returned', hits.length, 'hits for', JSON.stringify(query), 'in', (Date.now()-t0)+'ms');
       Promise.all(hits.slice(0, 12).map(function(r){ return r.data(); }))
         .then(function(items) {
-          // Filter to /reports/ pages only (skip homepage matches).
+          if (lastQuery !== query) return;
           var reports = items.filter(function(it){ return /\/reports\/claude-ai-daily-/.test(it.url); });
-          if (lastQuery !== query) return;  // re-check after async
-          render(reports, hits.length, query);
+          render(reports, reports.length, query);
+        })
+        .catch(function(err) {
+          console.error(TAG, 'data() resolution failed:', err);
+          showBox('<div class="sr-empty">Search error resolving results: ' + escHtml(err.message || 'unknown') + '</div>');
         });
     }).catch(function(err) {
-      console.error('[search] query failed:', err);
-      open('<div class="sr-empty">Search error: ' + escHtml(err.message || 'unknown') + '</div>');
+      console.error(TAG, 'pagefind.search failed:', err);
+      showBox('<div class="sr-empty">Search error: ' + escHtml(err.message || 'unknown') + '</div>');
     });
   }
 
@@ -856,22 +872,4 @@
       var excerpt  = sanitizeMarked(it.excerpt || '');
 
       // Scroll-To-Text fragment so the browser jumps to the match in the report.
-      var frag = (query || '').substring(0, 60).replace(/\s+\S*$/, '');
-      var href = it.url + (frag ? '#:~:text=' + encodeURIComponent(frag) : '');
-
-      html += '<a class="sr-item" href="' + escHtml(href) + '" data-idx="' + i + '" role="option">'
-            +   '<div class="sr-date">' + escHtml(formatDate(date)) + '</div>'
-            +   '<div class="sr-title">' + escHtml(headline) + '</div>'
-            +   '<div class="sr-match">' + excerpt + '</div>'
-            + '</a>';
-    });
-    open(html);
-  }
-
-  // Debounced input handler.
-  var debounce;
-  input.addEventListener('input', function() {
-    var v = this.value.trim();
-    clearTimeout(debounce);
-    debounce = setTimeout(function(){ doSearch(v); }, 120);
-  }
+      
