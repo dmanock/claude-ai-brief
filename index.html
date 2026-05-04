@@ -740,17 +740,19 @@
   var pendingQuery = null;
   var lastQuery = '';
 
-  // Lazy-load Pagefind on first interaction. Cache-bust via a stable build version
-  // (the entry.json is tiny; the heavy chunks have content-hashed filenames so they
-  // self-invalidate when the index changes — no Date.now() bombing needed).
+  // Lazy-load Pagefind on first interaction. The heavy chunks are content-hashed
+  // by Pagefind itself, so they self-invalidate when the index changes — no
+  // cache-busting query strings needed.
   function loadPagefind() {
     if (pagefind) return Promise.resolve(pagefind);
     if (loading)  return loading;
     loading = import('/pagefind/pagefind.js')
       .then(function(mod) {
-        return mod.options({ baseUrl: '/' }).then(function(){ return mod; });
-      })
-      .then(function(mod) {
+        // pagefind.options() is SYNCHRONOUS in v1.x — it just stores config.
+        // Don't .then() its return value (undefined would throw TypeError).
+        // baseUrl auto-detects from the import URL, so this call is optional;
+        // we keep it for explicitness in case the site is reverse-proxied.
+        try { mod.options && mod.options({ baseUrl: '/' }); } catch(e) {}
         pagefind = mod;
         loadErr = null;
         return mod;
@@ -872,11 +874,4 @@
     var v = this.value.trim();
     clearTimeout(debounce);
     debounce = setTimeout(function(){ doSearch(v); }, 120);
-  });
-
-  input.addEventListener('keydown', function(e) {
-    var items = box.querySelectorAll('.sr-item');
-    if (e.key === 'ArrowDown') {
-      e.preventDefault();
-      activeIdx = Math.min(activeIdx + 1, items.length - 1);
- 
+  }
