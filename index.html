@@ -861,7 +861,7 @@
   function render(items, totalCount, query) {
     activeIdx = -1;
     if (!items.length) {
-      open('<div class="sr-empty">No matching reports found</div>');
+      showBox('<div class="sr-empty">No matching reports found</div>');
       return;
     }
     var html = '<div class="sr-count">' + totalCount + ' report' + (totalCount !== 1 ? 's' : '') + ' found</div>';
@@ -870,4 +870,67 @@
       var titleSrc = (it.meta && it.meta.title) || it.url;
       var headline = stripPrefix(titleSrc);
       // Pagefind puts a contextual snippet with <mark> tags in `excerpt`.
-      var exc
+      var excerpt  = sanitizeMarked(it.excerpt || '');
+
+      // Scroll-To-Text fragment so the browser jumps to the match in the report.
+      var frag = (query || '').substring(0, 60).replace(/\s+\S*$/, '');
+      var href = it.url + (frag ? '#:~:text=' + encodeURIComponent(frag) : '');
+
+      html += '<a class="sr-item" href="' + escHtml(href) + '" data-idx="' + i + '" role="option">'
+            +   '<div class="sr-date">' + escHtml(formatDate(date)) + '</div>'
+            +   '<div class="sr-title">' + escHtml(headline) + '</div>'
+            +   '<div class="sr-match">' + excerpt + '</div>'
+            + '</a>';
+    });
+    showBox(html);
+  }
+
+  // Debounced input handler.
+  var debounce;
+  input.addEventListener('input', function() {
+    var v = this.value.trim();
+    console.log(TAG, 'input event, value:', JSON.stringify(v));
+    clearTimeout(debounce);
+    debounce = setTimeout(function(){ doSearch(v); }, 120);
+  });
+  input.addEventListener('focus', function() {
+    console.log(TAG, 'focus event');
+  });
+
+  input.addEventListener('keydown', function(e) {
+    var items = box.querySelectorAll('.sr-item');
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      activeIdx = Math.min(activeIdx + 1, items.length - 1);
+      for (var i = 0; i < items.length; i++) items[i].classList.toggle('active', i === activeIdx);
+      if (items[activeIdx]) items[activeIdx].scrollIntoView({ block: 'nearest' });
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      activeIdx = Math.max(activeIdx - 1, 0);
+      for (var j = 0; j < items.length; j++) items[j].classList.toggle('active', j === activeIdx);
+      if (items[activeIdx]) items[activeIdx].scrollIntoView({ block: 'nearest' });
+    } else if (e.key === 'Enter' && activeIdx >= 0 && items[activeIdx]) {
+      e.preventDefault();
+      items[activeIdx].click();
+    } else if (e.key === 'Escape') {
+      close();
+      input.blur();
+    }
+  });
+
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.search-wrap')) close();
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === '/' && document.activeElement !== input && !e.ctrlKey && !e.metaKey) {
+      if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+        e.preventDefault();
+        input.focus();
+      }
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
