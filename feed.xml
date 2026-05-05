@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 5, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-05.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-05.html</guid>
+      <pubDate>Tue, 05 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. The Briefing: Financial Services Livestream Lands Today at 11am EST — Wall Street Week Anchor</strong> — Anthropic leadership and named institutions deploying Claude at scale take the same stage in New York. Opens a week stacked with the $1.5B JV that landed yesterday, the FIS Financial Crimes AI Agent partnership, the Eurogroup readout, and Code with Claude SF tomorrow.</p>
+        <p><strong>2. FIS and Anthropic Ship a Financial Crimes AI Agent — BMO and Amalgamated Bank as Pilots, FIS Stock Jumps 7% After-Hours</strong> — Built by Anthropic's Applied AI team and forward-deployed engineers embedded with FIS. The agent assembles AML evidence across core systems in minutes. Broader release in 2H 2026; credit decisioning, deposit retention, customer onboarding, and fraud prevention next on the roadmap with Claude.</p>
+        <p><strong>3. $1.5B Wall Street JV Officially Announced — Apollo, GIC, General Atlantic, Sequoia, Leonard Green Round Out the Cap Table</strong> — Anthropic, Blackstone, and Hellman &amp; Friedman each at $300M; Goldman $150M. Standalone Palantir-style forward-deployment entity. OpenAI is reportedly running a near-identical play with TPG and Bain. Eurogroup readout: ministers will revisit Mythos; EU now in formal talks with Anthropic on bank testing.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-05.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 4, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-04.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-04.html</guid>
@@ -359,22 +372,4 @@
     </item>
 
     <item>
-      <title>Claude AI Daily Brief — April 7, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-07.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-07.html</guid>
-      <pubDate>Tue, 07 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Drops $400M on Biotech Startup Coefficient Bio</strong> — The acquisition brings computational drug discovery experts from Genentech into Anthropic's healthcare group to extend Claude for Life Sciences with molecular biology capabilities.</p>
-        <p><strong>2. Claude Mythos Enters Limited Early Access With Cybersecurity Warning</strong> — Anthropic confirmed its most powerful model yet is being tested with enterprise partners, flagging "unprecedented cybersecurity risks" after an accidental source code leak.</p>
-        <p><strong>3. OpenClaw Fallout Continues as Devs Scramble for Alternatives</strong> — Anthropic's subscription ban on third-party harnesses has sparked community backlash and a migration wave, with OpenClaw's open-source fork seeing a surge in GitHub stars.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-07.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — April 6, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-06.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-06.html</guid>
-      <pubDate>Mon, 06 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Pentagon Appeals Ruling That Blocked Anthropic Blacklist</strong> — The Dept of War challenged the court order blocking Anthropic's supply-chain risk designation — the first ever ap
+      <title>Claud

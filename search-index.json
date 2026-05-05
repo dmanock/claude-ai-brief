@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-05-05",
+    "title": "Claude AI Daily Brief — May 5, 2026 | Briefing FS Today, FIS Crime-Agent Lands, $1.5B JV Official, Eurogroup Readout",
+    "description": "May 5, 2026: The Briefing Financial Services livestream lands at 11am EST — anchor of a Wall Street week. FIS and Anthropic ship a Financial Crimes AI Agent with BMO and Amalgamated Bank as pilots; FIS stock jumped 7%. The $1.5B Blackstone/Goldman/Hellman &amp; Friedman JV is officially announced with Apollo, GIC, General Atlantic, Sequoia, and Leonard Green added. Eurogroup readout: ministers will revisit Mythos; EU now in formal talks with Anthropic. Code with Claude SF is tomorrow. Sonnet 4.8 watch window holds. Claude Code 2.1.128 ships.",
+    "url": "reports/claude-ai-daily-2026-05-05.html",
+    "headlines": [
+      "Briefing FS Today",
+      "FIS Crime-Agent Lands",
+      "$1.5B JV Official",
+      "Eurogroup Readout",
+      "The Briefing: Financial Services Lands Today at 11am EST &mdash; Anthropic Leadership Plus Named Institutions on the Same Stage in New York",
+      "FIS and Anthropic Ship a Financial Crimes AI Agent &mdash; BMO and Amalgamated Bank as Launch Pilots, FIS Stock Jumps 7% After-Hours",
+      "$1.5B Wall Street JV Officially Announced &mdash; Apollo, GIC, General Atlantic, Sequoia, and Leonard Green Round Out the Cap Table; OpenAI Runs a Near-Identical Play with TPG and Bain",
+      "Eurogroup Readout: Ministers Will Revisit Mythos &mdash; EU Now in Formal Talks with Anthropic to Test European Banks",
+      "Code with Claude SF Lands Tomorrow &mdash; Sonnet 4.8 Watch Window Now Inside the Conference Week, Agentic-SDLC Track Is the Spine",
+      "Claude Code 2.1.128 Ships &mdash; --plugin-dir Accepts ZIP Archives, MCP Tool Counts in /mcp, Project Purge Lands",
+      "Managed Agents and Rate Limits API Together Are Still the Operational Spine &mdash; What to Pin Before Conference Day",
+      "IBM Think 2026 Boston Day 2 &mdash; Agentic AI and the Anthropic Partnership Inside the watsonx Stack",
+      "Singapore MAS Keeps the Pressure on Banks &mdash; Mythos Has No Local Access, Cyber Posture Has to Carry the Load",
+      "Higher-Ed Channel Holds &mdash; Harvard FAS Adds Claude, Drops ChatGPT Edu; RISD, Ringling, and Goldsmiths Anchor the Creative-Curriculum Push",
+      "Wall Street Week: The Three-Layer Financial-Services Stack Is Now the Visible Anthropic Story"
+    ],
+    "snippet": "Claude AI Daily Brief — May 5, 2026 | Briefing FS Today, FIS Crime-Agent Lands, $1.5B JV Official, Eurogroup Readout ● Tuesday, May 5, 2026 Claude AI Daily Brief — May 5, 2026 Covering the last 24 hours · Edition #67 TL;DR — Today’s Top 3 Takeaways 1. The Briefing: Financial Services Livestream Land"
+  },
+  {
     "date": "2026-05-04",
     "title": "Claude AI Daily Brief — May 4, 2026 | Pentagon Picks 7 AI Vendors Without Anthropic, $1.5B Wall Street JV Nears, Eurogroup-Mythos Today",
     "description": "May 4, 2026: Pentagon awards classified-network AI contracts to OpenAI, Google, Microsoft, AWS, Nvidia, SpaceX, and Reflection AI — Anthropic excluded over the &lsquo;all lawful purposes&rsquo; standoff. Mythos kept on a separate national-security track. Anthropic is finalizing a $1.5B joint venture with Blackstone, Goldman Sachs, and Hellman &amp; Friedman; announcement could land this week. Eurogroup takes up Mythos with banking supervisors today; Code with Claude SF is two days out.",
