@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-05-06",
+    "title": "Claude AI Daily Brief — May 6, 2026 | Code with Claude SF Today, $200B Google Deal, Ten Finance Agents Ship, Sonnet 4.8 Watch",
+    "description": "May 6, 2026: Code with Claude SF goes live today — Sonnet 4.8 watch is now inside the keynote window and Jupiter-v1-p was caught in console testing. The Information reports Anthropic has committed $200B to Google Cloud and Broadcom TPUs over five years. Yesterday&rsquo;s Briefing: Financial Services shipped ten ready-to-run finance agents, the Microsoft 365 add-ins for Excel, PowerPoint, and Word, and the first shared-stage appearance of Dario Amodei and JPMorgan&rsquo;s Jamie Dimon. Claude Code 2.1.129 lands with <code>--plugin-url</code> and a Monitor tool. Amodei&rsquo;s &lsquo;moment of danger&rsquo; cyber-window framing now drives the regulator track.",
+    "url": "reports/claude-ai-daily-2026-05-06.html",
+    "headlines": [
+      "Code with Claude SF Today",
+      "$200B Google Deal",
+      "Ten Finance Agents Ship",
+      "Sonnet 4.8 Watch",
+      "Code with Claude SF Goes Live Today &mdash; 8am to 8pm PT, Free Livestream Open, Sonnet 4.8 Watch Window Now Inside the Keynote",
+      "$200B Google Cloud Commitment Confirmed &mdash; Anthropic Is &gt;40% of Google&rsquo;s Disclosed Revenue Backlog, Alphabet Up 2% After-Hours",
+      "Briefing FS Recap &mdash; Ten Finance Agents Ship, Microsoft 365 Add-ins Live, Amodei + Dimon on the Same Stage, &lsquo;Moment of Danger&rsquo; Frame Lands",
+      "Both JVs Now in Talks to Acquire AI Services Firms &mdash; OpenAI&rsquo;s Deployment Company Has Three Deals in Advanced Stages, Anthropic&rsquo;s Capital Targets Engineering and Consulting Tuck-Ins",
+      "Claude Code 2.1.129 Ships &mdash; --plugin-url Pulls ZIPs from URLs, Monitor Tool Streams Background Events, Linux Subprocess Sandboxing Lands",
+      "Claude Code Auto Mode Holds &mdash; Long-Running Permissions With Human Approval Gates, Team Research Preview Today, Enterprise and API Next",
+      "Managed Agents and Rate Limits API Hold the Operational Spine &mdash; Claude Status Clean Going Into the Conference",
+      "Claude Cowork Enterprise Capabilities Roll Out &mdash; &ldquo;In 2026, Claude Will Do for Knowledge Work What It Did for Developers in 2025&rdquo;",
+      "Fed&rsquo;s Bowman Outlines Three Steps Banks Should Take on Mythos Risk &mdash; The US Regulator Side Joins the EU and MAS Posture",
+      "Higher-Ed Channel Holds &mdash; Harvard FAS Claude Migration On Track, Creative-Curriculum Wins Stack Behind It",
+      "Wall Street Week, Day Three: The Compute Floor, the Application Layer, and the Keynote All Land Inside 72 Hours"
+    ],
+    "snippet": "Claude AI Daily Brief — May 6, 2026 | Code with Claude SF Today, $200B Google Deal, Ten Finance Agents Ship, Sonnet 4.8 Watch ● Wednesday, May 6, 2026 Claude AI Daily Brief — May 6, 2026 Covering the last 24 hours · Edition #68 TL;DR — Today’s Top 3 Takeaways 1. Code with Claude SF Goes Live Today —"
+  },
+  {
     "date": "2026-05-05",
     "title": "Claude AI Daily Brief — May 5, 2026 | Briefing FS Today, FIS Crime-Agent Lands, $1.5B JV Official, Eurogroup Readout",
     "description": "May 5, 2026: The Briefing Financial Services livestream lands at 11am EST — anchor of a Wall Street week. FIS and Anthropic ship a Financial Crimes AI Agent with BMO and Amalgamated Bank as pilots; FIS stock jumped 7%. The $1.5B Blackstone/Goldman/Hellman &amp; Friedman JV is officially announced with Apollo, GIC, General Atlantic, Sequoia, and Leonard Green added. Eurogroup readout: ministers will revisit Mythos; EU now in formal talks with Anthropic. Code with Claude SF is tomorrow. Sonnet 4.8 watch window holds. Claude Code 2.1.128 ships.",

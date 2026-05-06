@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 6, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-06.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-06.html</guid>
+      <pubDate>Wed, 06 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Code with Claude SF Goes Live Today — Sonnet 4.8 Watch Inside the Keynote, Jupiter-v1-p Spotted in Console Testing</strong> — Full-day developer conference opens 8am PT in San Francisco with a free livestream and an agentic-SDLC track spine. Ami Vora, Boris Cherny, and Angela Jiang are the named on-stage leads. The May 6–13 Sonnet corridor is squarely in scope.</p>
+        <p><strong>2. $200B Google Cloud Commitment Confirmed — Anthropic Is Now &gt;40% of Google's Disclosed Revenue Backlog</strong> — The Information reported Tuesday that Anthropic has committed to spend $200B with Google Cloud and Broadcom TPUs over five years. Pairs with the April gigawatt-scale TPU deal and Alphabet's up-to-$40B investment back into Anthropic. Alphabet up about 2% after-hours.</p>
+        <p><strong>3. Briefing FS Recap: Ten Finance Agents + M365 Add-ins Ship, Amodei + Dimon Take the Same Stage</strong> — Yesterday's livestream produced ten ready-to-run finance agents (pitchbook, KYC, month-end close, credit memo, audit), Excel/PowerPoint/Word add-ins live, and new connectors for Moody's, FactSet, S&amp;P Capital IQ, MSCI, PitchBook, D&amp;B, Verisk. Q1 ARR up 80x year-over-year per Amodei.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-06.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 5, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-05.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-05.html</guid>
@@ -345,30 +358,5 @@
       ]]></description>
     </item>
 
-    <item>
-      <title>Claude AI Daily Brief — April 9, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-09.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-09.html</guid>
-      <pubDate>Thu, 09 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Managed Agents Launches in Public Beta</strong> — Anthropic's new cloud-hosted agent runtime lets enterprises deploy Claude agents without managing infrastructure. Notion, Rakuten, Asana, Vibecode, and Sentry are early adopters.</p>
-        <p><strong>2. Accenture Signs Multi-Year Partnership With Anthropic</strong> — The consulting giant will stand up a dedicated Claude practice and train 30,000 consultants on Anthropic's agentic platform, targeting Fortune 500 rollouts.</p>
-        <p><strong>3. Snowflake Expands Partnership With $200M Commitment</strong> — The expanded deal embeds Claude directly in Snowflake for 12,600+ customers and launches a joint go-to-market for agentic workloads across AWS, Azure, and Google Cloud.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-09.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — April 8, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-08.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-08.html</guid>
-      <pubDate>Wed, 08 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Project Glasswing Launches With $100M to Secure Critical Software</strong> — Anthropic deployed Claude Mythos Preview to find thousands of zero-day vulnerabilities across major OSes and browsers, then launched a coalition with Apple, AWS, Microsoft, and Google to fix them.</p>
-        <p><strong>2. Claude Goes Down for Third Consecutive Day</strong> — Users reported login failures, chat errors, and degraded performance on April 8, less than 24 hours after the previous major outage.</p>
-        <p><strong>3. Anthropic Revenue Run Rate Passes $30 Billion</strong> — Bloomberg reports annualized revenue has tripled since end of 2025, with over 1,000 enterprise customers spending $1M+ annually.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-08.html">Read full report →</a></p>
-      ]]></description>
-    </item>
   </channel>
 </rss>
