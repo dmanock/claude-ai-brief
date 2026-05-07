@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 7, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-07.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-07.html</guid>
+      <pubDate>Thu, 07 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Code with Claude SF Keynote Recap — Dreaming, Outcomes, Multi-Agent Orchestration Ship for Managed Agents; Claude Code Desktop, Code Review, and Cloud Routines Anchor the Agentic-SDLC Spine</strong> — Ami Vora, Boris Cherny, and Angela Jiang headlined yesterday's keynote. The Advisor Strategy lands as the named pricing/quality lever — Sonnet with Opus advisor +2.7pp on SWE-bench Multilingual at -11.9% cost; Haiku jumps from 19.7% to 41.2% on BrowseComp.</p>
+        <p><strong>2. Anthropic + SpaceX Colossus 1 Compute Deal — Claude Code Rate Limits Double, Peak-Hour Throttling Removed for Pro and Max</strong> — Anthropic takes all of the compute at SpaceX/xAI's Colossus 1 in Memphis (~300MW, ~220K Nvidia GPUs). Five-hour rate limits double across Pro/Max/Team/Enterprise; higher API limits land on Opus. Companies flagged interest in "multiple gigawatts of orbital AI compute capacity" as a follow-on track.</p>
+        <p><strong>3. Bloomberg: Claude Is the #2 Free App in the US App Store — Anthropic Pivots to a Consumer Push, Mobile Cold-Start Cut from ~5–6s to ~1s</strong> — Anthropic, originally enterprise-first, is going harder at consumers. Claude now sits between ChatGPT (#1) and Gemini (#3). Health, travel, and recipes are the named query lanes. Code with Claude: Extended runs today.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-07.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 6, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-06.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-06.html</guid>
@@ -329,32 +342,6 @@
         <p><strong>2. "Claude Mania" Sweeps HumanX Conference</strong> — 6,500 attendees and one consensus: Anthropic has stolen the spotlight from OpenAI. Claude Code was the tool on everyone's lips.</p>
         <p><strong>3. Claude Code 2.1.101 Ships Team Onboarding</strong> — New /team-onboarding command, auto-trust for OS CA certificates, and smarter remote-session setup.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-12.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — April 11, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-11.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-11.html</guid>
-      <pubDate>Sat, 11 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Bessent & Powell Summon Bank CEOs to Emergency Mythos Meeting</strong> — Treasury Secretary and Fed Chair convened the heads of America's largest banks to discuss cybersecurity risks posed by Anthropic's Mythos model.</p>
-        <p><strong>2. Software Stocks Slide 2.6% as Mythos Reignites Disruption Fears</strong> — S&P 500 Software Index extends its 2026 decline to 25.5% YTD. Cybersecurity names CrowdStrike, Cloudflare, and Okta fell 5-6.5%.</p>
-        <p><strong>3. Claude Haiku 3 Retires April 19</strong> — Eight days left to migrate from the original budget model. API calls to claude-3-haiku-20240307 will fail after the deadline.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-11.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — April 10, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-10.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-10.html</guid>
-      <pubDate>Fri, 10 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Signs Multi-Year CoreWeave Deal to Scale GPU Infrastructure</strong> — Bloomberg broke the story: Anthropic is renting data center capacity from CoreWeave across multiple Nvidia chip architectures to keep Claude running at production scale.</p>
-        <p><strong>2. Anthropic Revenue Hits $30B Annualized Run Rate</strong> — Up more than 3x from $9B at year-end 2025, with enterprise contracts making up roughly 80% of the business.</p>
-        <p><strong>3. Advisor Tool Launches in Public Beta</strong> — New API feature pairs a fast executor model with Opus 4.6 as a mid-generation advisor for long-horizon agentic tasks.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-10.html">Read full report →</a></p>
       ]]></description>
     </item>
 

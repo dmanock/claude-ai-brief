@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-05-07",
+    "title": "Claude AI Daily Brief — May 7, 2026 | Code with Claude Keynote Recap, Sonnet 4.8 Watch, SpaceX Colossus Deal Doubles Rate Limits, Dreaming Agents Ship",
+    "description": "May 7, 2026: The Code with Claude SF keynote landed Dreaming, multi-agent orchestration, and Outcomes for Managed Agents; the redesigned Claude Code Desktop, Code Review, and cloud Routines as the agentic-SDLC spine; and the Advisor Strategy (Opus advising Sonnet/Haiku) for frontier-quality at executor cost. Anthropic announced a SpaceX Colossus 1 compute deal that doubles Claude Code rate limits across Pro/Max/Team/Enterprise and removes peak-hour throttling. Bloomberg: Claude is now the #2 free app in the US App Store between ChatGPT and Gemini. Code with Claude: Extended runs today.",
+    "url": "reports/claude-ai-daily-2026-05-07.html",
+    "headlines": [
+      "Code with Claude Keynote Recap",
+      "Sonnet 4.8 Watch",
+      "SpaceX Colossus Deal Doubles Rate Limits",
+      "Dreaming Agents Ship",
+      "Code with Claude SF Keynote Recap &mdash; Vora, Cherny, Jiang Anchor the Agentic-SDLC Spine; Boris Demos Web UI Catching an Edge-Case Bug",
+      "Dreaming, Outcomes, and Multi-Agent Orchestration Ship to Managed Agents &mdash; Memory + Dreaming Form a Self-Improving Agent Stack; Harvey Reports ~6x Completion-Rate Lift",
+      "SpaceX Colossus 1 Deal Lands &mdash; Anthropic Doubles Claude Code Rate Limits, Peak-Hour Throttling Removed on Pro and Max, Higher Opus API Limits",
+      "Bloomberg: Anthropic Pivots to a Consumer Push &mdash; Claude Is #2 Free App in the US App Store, Mobile Cold-Start Cut from ~5&ndash;6s to ~1s",
+      "The Advisor Strategy Lands &mdash; Opus Coaches Sonnet or Haiku in Shared Context for Frontier-Quality Output at Executor-Tier Cost",
+      "Claude Code Desktop Goes GA, Code Review Hits Team and Enterprise Research Preview, Cloud Routines Run with the Laptop Closed",
+      "Higher Opus API Rate Limits Land Alongside the Colossus Capacity &mdash; Bedrock and Vertex Tiers Hold Status-Page Clean Going Into Extended",
+      "Code with Claude: Extended Runs Today &mdash; Indie Devs and Early-Stage Founders Get the Builder Track After Yesterday&rsquo;s Keynote",
+      "Mercado Libre and Shopify Target 90% Autonomous Coding by Q3 &mdash; Spotify and Epic Anchor the Cowork Story, Harvey and Netflix Anchor Managed Agents",
+      "Claude Partner Network Adds ICODA &mdash; Web3 / Blockchain Marketing Joins the Roster as the Vertical-Channel Build-Out Continues",
+      "Wall Street Week, Day Four: The Self-Improving Agent Stack Lands on Top of a Doubled Compute Floor &mdash; the IPO Narrative Now Has a Consumer Line"
+    ],
+    "snippet": "Claude AI Daily Brief — May 7, 2026 | Code with Claude Keynote Recap, Sonnet 4.8 Watch, SpaceX Colossus Deal Doubles Rate Limits, Dreaming Agents Ship ● Thursday, May 7, 2026 Claude AI Daily Brief — May 7, 2026 Covering the last 24 hours · Edition #69 TL;DR — Today’s Top 3 Takeaways 1. Code with Cla"
+  },
+  {
     "date": "2026-05-06",
     "title": "Claude AI Daily Brief — May 6, 2026 | Code with Claude SF Today, $200B Google Deal, Ten Finance Agents Ship, Sonnet 4.8 Watch",
     "description": "May 6, 2026: Code with Claude SF goes live today — Sonnet 4.8 watch is now inside the keynote window and Jupiter-v1-p was caught in console testing. The Information reports Anthropic has committed $200B to Google Cloud and Broadcom TPUs over five years. Yesterday&rsquo;s Briefing: Financial Services shipped ten ready-to-run finance agents, the Microsoft 365 add-ins for Excel, PowerPoint, and Word, and the first shared-stage appearance of Dario Amodei and JPMorgan&rsquo;s Jamie Dimon. Claude Code 2.1.129 lands with <code>--plugin-url</code> and a Monitor tool. Amodei&rsquo;s &lsquo;moment of danger&rsquo; cyber-window framing now drives the regulator track.",

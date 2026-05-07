@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-05-07">
+  <title>Claude AI Daily Brief — May 7, 2026 | Code with Claude Keynote Recap, Sonnet 4.8 Watch, SpaceX Colossus Deal Doubles Rate Limits, Dreaming Agents Ship</title>
+  <meta name="description" content="May 7, 2026: The Code with Claude SF keynote landed Dreaming, multi-agent orchestration, and Outcomes for Managed Agents; the redesigned Claude Code Desktop, Code Review, and cloud Routines as the agentic-SDLC spine; and the Advisor Strategy (Opus advising Sonnet/Haiku) for frontier-quality at executor cost. Anthropic announced a SpaceX Colossus 1 compute deal that doubles Claude Code rate limits across Pro/Max/Team/Enterprise and removes peak-hour throttling. Bloomberg: Claude is now the #2 free app in the US App Store between ChatGPT and Gemini. Code with Claude: Extended runs today.">
+  <meta name="keywords" content="Claude AI, Anthropic, Code with Claude, Sonnet 4.8, Managed Agents, Dreaming, Claude Code Desktop, SpaceX, Colossus, rate limits, Advisor Strategy, Opus 4.7">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-05-07.html">
+  <meta property="og:title" content="Claude AI Daily Brief — May 7, 2026">
+  <meta property="og:description" content="Code with Claude SF keynote recap: Dreaming, multi-agent orchestration, Outcomes ship for Managed Agents; Claude Code Desktop, Code Review, and cloud Routines anchor the SDLC spine; the Advisor Strategy lands. SpaceX Colossus deal doubles Claude Code rate limits. Claude is #2 free app in US App Store. Extended runs today.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-07.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — May 7, 2026">
+  <meta name="twitter:description" content="Code with Claude keynote recap: Dreaming, multi-agent orchestration, Outcomes ship. Claude Code Desktop + Code Review + Routines anchor the SDLC spine. Advisor Strategy lands. SpaceX Colossus deal doubles Claude Code rate limits. Claude #2 free in App Store.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-07.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-05-07.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — May 7, 2026",
+    "description": "Code with Claude SF keynote recap: Dreaming, multi-agent orchestration, Outcomes ship for Managed Agents. Claude Code Desktop, Code Review, and cloud Routines anchor the agentic-SDLC spine. The Advisor Strategy delivers frontier-quality at executor cost. Anthropic and SpaceX strike a Colossus 1 compute deal; Claude Code rate limits double across paid plans. Bloomberg confirms Claude is the #2 free app in the US App Store. Code with Claude: Extended runs today.",
+    "datePublished": "2026-05-07T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-07.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-05-07.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav data-pagefind-ignore="all">
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Thursday, May 7, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; May 7, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #69</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Code with Claude SF Keynote Recap &mdash; Dreaming, Outcomes, Multi-Agent Orchestration Ship for Managed Agents; Claude Code Desktop, Code Review, and Cloud Routines Anchor the Agentic-SDLC Spine</strong> &mdash; Ami Vora, Boris Cherny, and Angela Jiang anchored the keynote. Managed Agents picked up Dreaming (research preview, agents review past sessions and self-improve overnight), Outcomes (define success and let Claude iterate to it), and Multi-Agent Orchestration (a lead agent breaks tasks into sub-agents, public beta). The Advisor Strategy &mdash; Opus advising Sonnet or Haiku in shared context &mdash; landed as the named pricing/quality lever (+2.7pp on SWE-bench Multilingual at &minus;11.9% cost; Haiku 41.2% vs 19.7% on BrowseComp).</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Anthropic + SpaceX Colossus 1 Compute Deal &mdash; Claude Code Rate Limits Double Across Pro, Max, Team, and Seat-Based Enterprise; Peak-Hour Throttling Removed for Pro and Max</strong> &mdash; Anthropic takes all of the compute at the Colossus 1 data center in Memphis (~300MW, ~220,000 Nvidia GPUs &mdash; under half of xAI&rsquo;s ~500K fleet) and is doubling the five-hour rate limits effective immediately. Higher API limits on Opus too. The companies also flagged interest in &ldquo;multiple gigawatts of orbital AI compute capacity&rdquo; as a follow-on track.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Claude Is the #2 Free App in the US App Store &mdash; Bloomberg: Anthropic Pivots to a Consumer Push, Mobile Latency Cut from ~5&ndash;6s to ~1s</strong> &mdash; Bloomberg reported Thursday that Anthropic, originally enterprise-first, is going harder at consumers. Claude now sits between ChatGPT (#1) and Gemini (#3) in US App Store rankings, with employees pointed at health, travel, and recipe queries and a focus on quality, polish, and mobile cold-start time.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Keynote Recap</span>
+      <h3>Code with Claude SF Keynote Recap &mdash; Vora, Cherny, Jiang Anchor the Agentic-SDLC Spine; Boris Demos Web UI Catching an Edge-Case Bug</h3>
+      <p>Yesterday&rsquo;s opening keynote at Code with Claude SF held the agentic-SDLC line from start to finish. Chief Product Officer Ami Vora opened, Head of Claude Code Boris Cherny ran the marquee demo &mdash; Claude adding refunds to ACME&rsquo;s dashboard with idempotency, multi-currency handling, and audit logging for the compliance team, working in the in-development Claude Code Web UI and discovering an edge-case bug live on stage &mdash; and Head of Claude Platform Product Angela Jiang anchored the platform track. The named customer marker that traveled the wire fastest: Mercado Libre&rsquo;s 23,000-engineer org and Shopify both targeting &ldquo;90% autonomous coding by Q3 this year.&rdquo; Cherny&rsquo;s framing on stage and on the morning CNBC hit was that the work has shifted from writing code to designing the harness around an agent that writes it.</p>
+      <p>The product spine across the keynote: Claude Code on Desktop generally available on Mac and Windows for paid plans, the &ldquo;full-screen GUI for Claude Code&rdquo; with drag-and-drop workspaces, integrated terminal and file editor, faster diffs, expanded previews, and SSH support on Mac. Code Review &mdash; the multi-agent PR pipeline Anthropic runs on nearly every internal PR &mdash; is now in Team and Enterprise research preview. Cloud Routines and the web/mobile entry points keep long-horizon work going while the laptop is closed. Both the IDE and Desktop surfaces are built on the same Claude Agent SDK external developers can use. Sonnet 4.8 was the watched model surface going in; the search wire as of this morning shows the Sonnet 4.8 announcement still tracking through third-party coverage rather than a confirmed Anthropic blog post, which puts the formal model line in the May 6&ndash;13 corridor we already had circled.</p>
+      <div class="source-links">
+        <a href="https://claude.com/code-with-claude/san-francisco" class="source-link">Code with Claude SF</a>
+        <a href="https://www.youtube.com/watch?v=GMIWm5y90xA" class="source-link">Opening Keynote (YouTube)</a>
+        <a href="https://www.youtube.com/watch?v=SlGRN8jh2RI" class="source-link">Cherny: Why Coding Is Solved</a>
+        <a href="https://www.cnbc.com/video/2026/05/06/head-of-claude-code-on-the-future-of-work-and-productivity.html" class="source-link">CNBC: Head of Claude Code</a>
+        <a href="https://code.claude.com/docs/en/desktop" class="source-link">Claude Code Desktop Docs</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Managed Agents</span>
+      <h3>Dreaming, Outcomes, and Multi-Agent Orchestration Ship to Managed Agents &mdash; Memory + Dreaming Form a Self-Improving Agent Stack; Harvey Reports ~6x Completion-Rate Lift</h3>
+      <p>Anthropic&rsquo;s most surprising keynote drop: Managed Agents now &ldquo;dream.&rdquo; Dreaming is a scheduled review pass over an agent&rsquo;s past sessions and memory store &mdash; it surfaces recurring mistakes, common workflows the agent converges on, and shared preferences across a team, then curates memory between runs. Memory captures what an agent learns inside a session; Dreaming refines that memory between sessions and keeps it in sync across an agent fleet. Operators choose whether dreaming updates memory automatically or routes proposed updates through a human review gate before they land. Dreaming launches in research preview. The same release lands Outcomes (you define what success looks like and Claude iterates the run to it) and Multi-Agent Orchestration (a lead agent decomposes work, dispatches sub-agents, and the Claude Console renders each sub-agent&rsquo;s actions and outputs for review) &mdash; both in public beta.</p>
+      <p>Customer markers from the on-stage and post-keynote cycle: Harvey reports ~6x completion-rate lift on legal work since adopting the new orchestration; Netflix&rsquo;s platform team uses multi-agent orchestration to analyze batch jobs in parallel and surface only the patterns worth acting on. Read structurally: this is the &ldquo;long-horizon, low-supervision&rdquo; corner of the Anthropic agent thesis put on a product surface. The Auto Mode work on the Claude Code side and the Dreaming/Outcomes work on the Managed Agents side are now the two halves of the same idea &mdash; tunable human-in-the-loop gates plus an explicit self-improvement loop &mdash; one for code, one for knowledge work.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/new-in-claude-managed-agents" class="source-link">Anthropic Blog</a>
+        <a href="https://sdtimes.com/ai/new-in-claude-managed-agents-dreaming-outcomes-and-multiagent-orchestration/" class="source-link">SD Times</a>
+        <a href="https://thenewstack.io/anthropic-managed-agents-dreaming-outcomes/" class="source-link">The New Stack</a>
+        <a href="https://siliconangle.com/2026/05/06/anthropic-letting-claude-agents-dream-dont-sleep-job/" class="source-link">SiliconANGLE</a>
+        <a href="https://www.androidauthority.com/claude-managed-agents-dreaming-3664455/" class="source-link">Android Authority</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Compute</span>
+      <h3>SpaceX Colossus 1 Deal Lands &mdash; Anthropic Doubles Claude Code Rate Limits, Peak-Hour Throttling Removed on Pro and Max, Higher Opus API Limits</h3>
+      <p>Anthropic and SpaceX disclosed a compute partnership giving Anthropic all of the compute capacity at the Colossus 1 data center in Memphis &mdash; ~300MW across roughly 220,000 Nvidia GPUs, just under half of xAI&rsquo;s estimated 500K-GPU fleet, online inside the month. The capacity directly funds an immediate doubling of the Claude Code five-hour rate limits across Pro, Max, Team, and seat-based Enterprise plans, with peak-hour throttling removed for Pro and Max. Higher API limits land on Opus alongside. The companies also disclosed an interest in working together on &ldquo;multiple gigawatts of orbital AI compute capacity&rdquo; &mdash; a follow-on track that reads as an option, not a commitment, but is the first time orbital AI compute has shown up in a first-party Anthropic announcement.</p>
+      <p>Read it next to the Google line that landed Tuesday. Inside 48 hours Anthropic has put one of the largest compute floors in cloud history on the books with Google ($200B over five years, including Broadcom TPUs starting 2027) and locked in immediate, near-term GPU capacity from a competitor&rsquo;s data center to clear the rate-limit complaints that piled up after the April incident cluster. The structure separates the long-horizon strategic supply (Google/Broadcom) from the short-horizon tactical capacity (SpaceX Colossus). It also drops one of the cleanest examples yet of frontier-lab compute being sold across vendor lines: Anthropic gets the GPUs, xAI gets the cash, both get to run faster.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/higher-limits-spacex" class="source-link">Anthropic Announcement</a>
+        <a href="https://x.ai/news/anthropic-compute-partnership" class="source-link">xAI Announcement</a>
+        <a href="https://www.cnbc.com/2026/05/06/anthropic-spacex-data-center-capacity.html" class="source-link">CNBC</a>
+        <a href="https://www.engadget.com/2166315/anthropic-is-doubling-claude-code-rate-limits-after-deal-with-spacex/" class="source-link">Engadget</a>
+        <a href="https://www.datacenterdynamics.com/en/news/anthropic-to-use-all-of-spacex-xais-colossus-1-data-center-compute/" class="source-link">DCD</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Consumer</span>
+      <h3>Bloomberg: Anthropic Pivots to a Consumer Push &mdash; Claude Is #2 Free App in the US App Store, Mobile Cold-Start Cut from ~5&ndash;6s to ~1s</h3>
+      <p>Bloomberg reported Thursday morning that Anthropic, originally enterprise-first, is going harder at consumers. Since late last year, employees have been pointed at how the chatbot handles personal queries &mdash; health, travel, recipes &mdash; with explicit focus on &ldquo;quality, polish, and performance.&rdquo; Mobile cold-start time, the Claude product team&rsquo;s named target, has dropped from five or six seconds to about a second from app open to first query. The rankings line is the eye-catcher: Claude is currently the #2 free app in the US App Store, sitting between ChatGPT (#1) and Gemini (#3) &mdash; the first time a frontier-lab consumer app has held that slot.</p>
+      <p>Read for the IPO clock and the surface area. Anthropic&rsquo;s model-vendor revenue mix has been overwhelmingly enterprise; the consumer line was a footnote on the S-1 narrative through Q1. The combination of Cowork on the knowledge-worker side, the M365 add-ins on the productivity layer, the SpaceX-funded rate-limit increase removing the most-cited complaint from Pro and Max users, and a #2 App Store slot resets the consumer-revenue line into a separately-defendable narrative for the prospectus. Next watch: paid-subscriber disclosure cadence and any early signal on a free-tier feature push to harvest the App Store ranking.</p>
+      <div class="source-links">
+        <a href="https://www.bloomberg.com/news/articles/2026-05-07/anthropic-is-making-claude-chatbot-more-appealing-to-consumers" class="source-link">Bloomberg</a>
+        <a href="https://finance.yahoo.com/news/anthropic-is-making-its-claude-chatbot-more-appealing-to-consumers-001336445.html" class="source-link">Yahoo Finance</a>
+        <a href="https://www.thestar.com.my/tech/tech-news/2026/05/07/anthropic-is-making-its-claude-chatbot-more-appealing-to-consumers" class="source-link">The Star</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Advisor Strategy</span>
+      <h3>The Advisor Strategy Lands &mdash; Opus Coaches Sonnet or Haiku in Shared Context for Frontier-Quality Output at Executor-Tier Cost</h3>
+      <p>The Advisor Strategy is now the named pricing/quality lever for production agents. Pattern: Opus 4.6 (or 4.7) generates a short plan (typically 400&ndash;700 tokens) and answers escalations on demand; Sonnet or Haiku does the bulk of the run at executor pricing. No decomposition, no orchestrator, no worker pool &mdash; just a server-side advisor tool that the executor invokes when it needs guidance. Anthropic&rsquo;s published numbers: Sonnet with Opus as advisor scored +2.7 percentage points higher on SWE-bench Multilingual than Sonnet alone, while reducing per-task cost by 11.9%. The Haiku numbers are the headline: Haiku with an Opus advisor scored 41.2% on BrowseComp versus 19.7% solo &mdash; a more-than-2x lift on a hard benchmark at near-Haiku cost.</p>
+      <p>Read for the next quarter of platform conversations. Most production agent stacks are still over-spending on Opus across the entire run because routing logic is brittle. The Advisor Strategy reframes the choice as &ldquo;cheap by default, expensive only when the executor flags a hard step,&rdquo; which is much closer to how teams already think about senior-engineer time on a real project. Pair with the new Multi-Agent Orchestration release and the same shape repeats one layer up &mdash; a lead agent calling Opus only at decomposition and review checkpoints, with Sonnet or Haiku sub-agents executing the rest. One named customer cited &ldquo;frontier model quality at 5x lower cost&rdquo; on stage. The first 30-day production traces from shops adopting the pattern will be the read.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/the-advisor-strategy" class="source-link">Anthropic Blog</a>
+        <a href="https://www.builder.io/blog/the-claude-advisor-pattern" class="source-link">Builder.io Deep Dive</a>
+        <a href="https://www.mindstudio.ai/blog/claude-code-advisor-strategy-opus-sonnet-haiku" class="source-link">MindStudio</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code Desktop Goes GA, Code Review Hits Team and Enterprise Research Preview, Cloud Routines Run with the Laptop Closed</h3>
+      <p>The Claude Code surfaces shipped earlier in April are now the operational spine the keynote points at. Claude Code on Desktop is generally available on Mac and Windows for all paid plans &mdash; full-screen GUI, drag-and-drop session sidebar, integrated terminal and file editor, faster diffs, expanded previews, SSH support on Mac, with the Claude Agent SDK underneath. Code Review dispatches a multi-agent harness on every pull request to catch bugs the way Anthropic runs it on nearly every internal PR &mdash; available in research preview for Team and Enterprise plans. Cloud Routines run on Anthropic&rsquo;s web infrastructure (4 vCPUs, 16GB RAM, 30GB disk against a cloned copy of a GitHub repo) on schedules, API calls, or events &mdash; the named patterns are nightly Linear-bug triage, automatic SDK ports between language clients, and bespoke PR review checklists.</p>
+      <p>Pinning advice for shops walking out of the keynote: turn on Code Review on a single repo first to calibrate against your own PR baseline; scope the first Routine to a low-stakes recurring job (release-notes drafting, dependency-update PRs, weekly tech-debt summary); leave Auto Mode in explicit-confirm for production changes for at least the first sprint. Auto Mode + Cloud Routines + Multi-Agent Orchestration on Managed Agents is the full Anthropic agent stack as of this morning, and the rate-limit doubling makes the per-developer cost ceiling materially less of a blocker than it was on Tuesday.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/desktop" class="source-link">Claude Code Desktop Docs</a>
+        <a href="https://claude.com/blog/code-review" class="source-link">Code Review</a>
+        <a href="https://claude.com/blog/introducing-routines-in-claude-code" class="source-link">Routines</a>
+        <a href="https://venturebeat.com/orchestration/we-tested-anthropics-redesigned-claude-code-desktop-app-and-routines-heres-what-enterprises-should-know" class="source-link">VentureBeat</a>
+        <a href="https://thenewstack.io/anthropic-launches-a-multi-agent-code-review-tool-for-claude-code/" class="source-link">The New Stack</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-tip">Platform</span>
+      <h3>Higher Opus API Rate Limits Land Alongside the Colossus Capacity &mdash; Bedrock and Vertex Tiers Hold Status-Page Clean Going Into Extended</h3>
+      <p>The same announcement that doubled Claude Code rate limits also raised the API ceiling on Opus, the most-pinched surface for shops running the advisor pattern at scale. The Rate Limits API (live since April 25) lets administrators query the new ceilings programmatically &mdash; which is the right primitive for the rolling-7-day budget conversation that emerged after the April incident cluster. The Claude status page is clean going into Code with Claude: Extended this morning &mdash; eight consecutive incident-free days for Claude.ai, the Anthropic API, Claude Code, and the Bedrock and Vertex tiers. The April 28 78-minute multi-surface postmortem is still the next operational document on the calendar; the typical inside-ten-business-days cadence puts publication into the May 8&ndash;11 window.</p>
+      <p>Operational stack to pin for shops planning load through Friday and the weekend: Managed Agents on the harness layer with Multi-Agent Orchestration enabled selectively, Rate Limits API on the budget layer, <code>flex</code> tier on Bedrock and a secondary failover to Vertex on the inference layer. Pricing for Opus 4.7 still sits at <code>$5 / $25</code> per MTok and Sonnet 4.6 at <code>$3 / $15</code> per MTok. The new tokenizer that ships with Opus 4.7 can produce up to 35% more tokens for the same input text &mdash; reset cost telemetry baselines accordingly before drawing month-over-month comparisons.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Release Notes</a>
+        <a href="https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-7" class="source-link">Opus 4.7 Notes</a>
+        <a href="https://status.claude.com/" class="source-link">Claude Status</a>
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic News</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Event</span>
+      <h3>Code with Claude: Extended Runs Today &mdash; Indie Devs and Early-Stage Founders Get the Builder Track After Yesterday&rsquo;s Keynote</h3>
+      <p>Code with Claude: Extended SF runs today, May 7. The format is the indie-developer and early-stage-founder day: founder stories, builder deep-dives, and laptops-open workshops led by Anthropic&rsquo;s Applied AI team &mdash; no livestream, sessions recorded for post-event publication. The frame is &ldquo;Code with Claude is where you hear what&rsquo;s new; Extended is where you see it in the wild,&rdquo; which lines up with the keynote-day product wave (Dreaming, Outcomes, Multi-Agent Orchestration, Code Review, and the Desktop GA) hitting the practitioner cohort the day after the announcement.</p>
+      <p>The Extended pattern repeats in London on May 20 and Tokyo on June 11. Read for the channel: Anthropic&rsquo;s 2026 conference cadence is paired-day, three-region &mdash; one keynote day for the wire, one builder day for the product surface adoption. The same rhythm shows up in the cap-table announcements (the Wall Street JV Monday, the FS keynote Tuesday, the developer keynote Wednesday) and now in the field-marketing track. The structural read is that Anthropic is running a calendar that intentionally stacks story arcs rather than scattering them.</p>
+      <div class="source-links">
+        <a href="https://claude.com/code-with-claude/san-francisco-extended" class="source-link">Extended SF</a>
+        <a href="https://claude.com/code-with-claude" class="source-link">Code with Claude</a>
+        <a href="https://claude.com/code-with-claude/london-extended" class="source-link">London Extended</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Customer Markers</span>
+      <h3>Mercado Libre and Shopify Target 90% Autonomous Coding by Q3 &mdash; Spotify and Epic Anchor the Cowork Story, Harvey and Netflix Anchor Managed Agents</h3>
+      <p>Customer markers across the keynote and the keynote week formed a usefully complete picture of where the agent stack is being adopted. Mercado Libre&rsquo;s 23,000-engineer org and Shopify both went on record with a Q3 target of &ldquo;90% autonomous coding&rdquo; using the Code Review and Multi-Agent harnesses. Harvey&rsquo;s legal team reported a ~6x completion-rate lift on Multi-Agent Orchestration. Netflix&rsquo;s platform team uses Multi-Agent Orchestration to analyze batch jobs in parallel. On the Cowork side from Tuesday&rsquo;s Briefing FS keynote, Spotify reported any engineer can now &ldquo;kick off a large-scale migration just by describing what they need in plain English,&rdquo; and Epic noted more than half of its Claude Code usage is now from non-developer roles.</p>
+      <p>Read for the S-1 narrative. The case-study layer is no longer a thin column &mdash; it&rsquo;s a stack: code automation (Mercado Libre, Shopify), agent orchestration (Harvey, Netflix), knowledge work (Spotify, Epic), and finance verticals (the Briefing FS roster). The pattern these references share is depth-of-deployment, not breadth-of-pilot, which is what enterprise procurement buyers will look for in any Q2 vendor review.</p>
+      <div class="source-links">
+        <a href="https://venturebeat.com/orchestration/anthropic-says-claude-code-transformed-programming-now-claude-cowork-is" class="source-link">VentureBeat (Cowork)</a>
+        <a href="https://claude.com/blog/new-in-claude-managed-agents" class="source-link">Anthropic (Managed Agents)</a>
+        <a href="https://thenewstack.io/anthropic-managed-agents-dreaming-outcomes/" class="source-link">The New Stack</a>
+        <a href="https://www.anthropic.com/customers" class="source-link">Anthropic Customers</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Partner Network</span>
+      <h3>Claude Partner Network Adds ICODA &mdash; Web3 / Blockchain Marketing Joins the Roster as the Vertical-Channel Build-Out Continues</h3>
+      <p>ICODA, a blockchain and web3 marketing agency, joined the Claude Partner Network this week. The Partner Network is Anthropic&rsquo;s program for organizations helping enterprises deploy Claude in production &mdash; the same channel layer that is doing most of the heavy lifting on Cowork and the financial-services agent rollouts. Specialist agency announcements like this one are below the wire-news fold individually, but they mark the channel-coverage pattern Anthropic has been building behind the named system-integrator partners and the JV-funded acquisition track Reuters surfaced this week.</p>
+      <p>Read with the Reuters M&amp;A line: both the Anthropic and OpenAI joint ventures are now in active talks to acquire AI services firms &mdash; OpenAI&rsquo;s Deployment Company has three deals in advanced stages, Anthropic&rsquo;s $1.5B Wall Street JV is funding tuck-ins of engineering and consulting shops. Specialist Partner Network adds (ICODA on web3, the financial-data partners landing on Tuesday, the named system integrators) plus a JV-funded acquisition track is a two-pronged channel build-out: organic for breadth, M&amp;A for depth. Watch the next two weeks for the first named acquisition target on either side.</p>
+      <div class="source-links">
+        <a href="https://www.mykxlg.com/online_features/press_releases/icoda-becomes-an-official-claude-partner/article_08735944-2761-578b-838c-0f7c31442151.html" class="source-link">ICODA Press</a>
+        <a href="https://kfgo.com/2026/05/05/openai-anthropic-ventures-in-talks-to-buy-ai-services-firms-sources-say/" class="source-link">Reuters (M&amp;A)</a>
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic News</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>Wall Street Week, Day Four: The Self-Improving Agent Stack Lands on Top of a Doubled Compute Floor &mdash; the IPO Narrative Now Has a Consumer Line</h3>
+      <p>Step back from the wire feed and the picture going into Code with Claude: Extended is unusually coherent for a single conference week. Inside 96 hours Anthropic has put the $200B Google Cloud and Broadcom-TPU compute floor on the books, closed the $1.5B Wall Street JV, shipped ten ready-to-run finance agents and the Microsoft 365 add-ins, run the first shared-stage moment with JPMorgan&rsquo;s Jamie Dimon, anchored the &ldquo;moment of danger&rdquo; cyber-window narrative through Mythos and the Fed&rsquo;s Bowman, taken all of the SpaceX Colossus 1 capacity to double Claude Code rate limits and remove peak-hour throttling on Pro and Max, and shipped Dreaming, Outcomes, Multi-Agent Orchestration, Code Review, the Claude Code Desktop GA, the Advisor Strategy, and the consumer push that put Claude at #2 in the US App Store. The structural shape is four layers economic-stacking on each other inside one week: long-horizon compute, vertical agents, developer platform, and consumer surface.</p>
+      <p>What changes today versus Tuesday morning: the IPO narrative now has a consumer line that is independently defendable, the agent stack has a self-improvement loop on its product surface that the bear case will have to argue against rather than around, and the per-developer cost ceiling that piled up complaints across Pro and Max is structurally lower as of this morning. The bear case still notes the same lines &mdash; concentrated cloud-vendor commitment, the Pentagon-blacklist drag, an October S-1 timeline against an active lawsuit, and the Mythos cyber-window asymmetry &mdash; but the bull case now reads with a four-layer stack on the cap-stack page, customer markers (Mercado Libre, Shopify, Harvey, Netflix, Spotify, Epic) that read as depth not breadth, and a consumer line that did not exist as a story 30 days ago. Watch the formal Sonnet 4.8 announcement (still inside the May 6&ndash;13 corridor at the time of this brief), the first 30-day production traces from shops adopting the Advisor Strategy, the April 28 postmortem inside the next four business days, and any named JV-funded acquisition target.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
