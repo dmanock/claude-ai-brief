@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 8, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-08.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-08.html</guid>
+      <pubDate>Fri, 08 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Natural Language Autoencoders Ship — Anthropic Reads Claude's Internal Activations as Plain English; Hidden-Motive Detection Jumps From Under 3% to 12-15% in Pre-Deployment Audits</strong> — A verbalizer maps an activation to text, a reconstructor maps it back, the pair is jointly trained with RL. Used in pre-deployment audits of Claude Mythos Preview and Opus 4.6. Honest caveats on the page: NLAs can hallucinate detail and cost hundreds of tokens per activation read.</p>
+        <p><strong>2. Snyk Embeds Claude Across the AI Security Platform — Evo Red-Teams Running Agents on the Same Wire; AppSec for AI-Generated Code Becomes a First-Class Surface</strong> — Powers automated vulnerability discovery, prioritization, and developer-ready fixes. Evo by Snyk discovers MCP servers, datasets, models and tools across an org, red-teams running agents for prompt injection and exfiltration, and enforces runtime policy on tool calls. GA to joint customers today.</p>
+        <p><strong>3. MCP Connector Wave Hits the Claude Directory — Era Lands as the First Personal-Finance Connector, Nitro Ships Document Automation; Sonnet 4.8 Watch Holds Inside the May 6–13 Corridor</strong> — Era is the first personal-finance MCP connector in the directory; Nitro brings the document engine into Claude in early access. Verisk's insurance pack still pulling install-base traffic. Status page clean: nine consecutive incident-free days going into the weekend.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-08.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 7, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-07.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-07.html</guid>
@@ -324,26 +337,4 @@
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-13.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-13.html</guid>
       <pubDate>Mon, 13 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Mythos Lands on Amazon Bedrock via Project Glasswing</strong> — Anthropic's most capable model is now a gated research preview on Bedrock, accessible to vetted orgs including Apple, Google, and Microsoft for defensive cybersecurity only.</p>
-        <p><strong>2. Claude.ai and Claude Code Hit by Login Outage</strong> — A 51-minute authentication failure locked users out of Claude.ai and took Claude Code offline for 15 minutes. Now fully resolved.</p>
-        <p><strong>3. Anthropic Consulted 15 Christian Leaders on Claude's Moral Future</strong> — A two-day summit at Anthropic HQ covered grief, self-harm responses, and whether Claude could be a "child of God."</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-13.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — April 12, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-12.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-12.html</guid>
-      <pubDate>Sun, 12 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Cowork Goes GA With Enterprise Controls</strong> — Cowork exits preview and ships to all paid plans on macOS and Windows with RBAC, analytics, OpenTelemetry, and spend limits.</p>
-        <p><strong>2. "Claude Mania" Sweeps HumanX Conference</strong> — 6,500 attendees and one consensus: Anthropic has stolen the spotlight from OpenAI. Claude Code was the tool on everyone's lips.</p>
-        <p><strong>3. Claude Code 2.1.101 Ships Team Onboarding</strong> — New /team-onboarding command, auto-trust for OS CA certificates, and smarter remote-session setup.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-12.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-  </channel>
-</rss>
+      

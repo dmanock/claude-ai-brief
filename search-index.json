@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-05-08",
+    "title": "Claude AI Daily Brief — May 8, 2026 | Natural Language Autoencoders Land, Snyk Embeds Claude into AI Security Platform, MCP Ecosystem Floods In, Sonnet 4.8 Watch Holds",
+    "description": "May 8, 2026: Anthropic's interpretability team ships Natural Language Autoencoders — a method that reads Claude's internal activations as plain English and lifted hidden-motive detection from under 3% to 12-15% in audits of Mythos Preview and Opus 4.6. Snyk embeds Claude across vulnerability discovery, prioritization, and developer-ready fixes; Evo by Snyk red-teams running agents for prompt injection on the same wire. MCP connector wave hits the directory: Era (first personal finance), Nitro (document automation), and the four-day-old Verisk insurance pack still pulling enterprise install-base traffic. Sonnet 4.8 watch holds inside the May 6-13 corridor; status page logs nine consecutive incident-free days; Code with Claude: Extended SF wraps and the London May 20 / Tokyo June 11 dates are next.",
+    "url": "reports/claude-ai-daily-2026-05-08.html",
+    "headlines": [
+      "Natural Language Autoencoders Land",
+      "Snyk Embeds Claude into AI Security Platform",
+      "MCP Ecosystem Floods In",
+      "Sonnet 4.8 Watch Holds",
+      "Natural Language Autoencoders &mdash; Anthropic Translates Claude&rsquo;s Activations Into Readable Text; Audits Lift Hidden-Motive Detection From Under 3% to 12&ndash;15%",
+      "Snyk Embeds Claude Across the AI Security Platform &mdash; Evo by Snyk Red-Teams Running Agents for Prompt Injection and Exfiltration on the Same Wire",
+      "Status Page Holds Clean &mdash; Nine Consecutive Incident-Free Days Going Into the Weekend; New Rate Limits Settle In, April 28 Postmortem Window Still Open",
+      "MCP Connector Wave Hits the Directory &mdash; Era Lands as the First Personal-Finance Connector; Nitro Brings the Document Engine Into Claude",
+      "Code with Claude Wave Settles Into the Operational Baseline &mdash; Desktop GA, Code Review, Cloud Routines, the Advisor Strategy Are Now the &ldquo;What Most Shops Will Ship This Quarter&rdquo; Stack",
+      "Advisor Tool Beta Is Live on the Claude Platform &mdash; Add the Beta Header and the Executor Calls a Frontier-Tier Coach Only When It Needs One",
+      "Code with Claude: Extended SF Wraps &mdash; London May 20 and Tokyo June 11 Are the Next Two Stops on the Builder-Day Cadence",
+      "Bloomberg Consumer Push Carries Into Friday &mdash; Mobile Cold-Start at ~1s, App Store #2 Slot Holds, Health/Travel/Recipes the Named Lanes",
+      "Customer-Marker Stack After the Keynote Week &mdash; Mercado Libre, Shopify, Harvey, Netflix, Spotify, Epic; the S-1 Case-Study Layer Reads as Depth, Not Breadth",
+      "Wall Street Week, Day Five: The Interpretability Story Lands on Top of the Agent Stack &mdash; the IPO Narrative Now Has an Auditor Line, and the Security Channel Has a Vendor"
+    ],
+    "snippet": "Claude AI Daily Brief — May 8, 2026 | Natural Language Autoencoders Land, Snyk Embeds Claude into AI Security Platform, MCP Ecosystem Floods In, Sonnet 4.8 Watch Holds ● Friday, May 8, 2026 Claude AI Daily Brief — May 8, 2026 Covering the last 24 hours · Edition #70 TL;DR — Today’s Top 3 Takeaways 1"
+  },
+  {
     "date": "2026-05-07",
     "title": "Claude AI Daily Brief — May 7, 2026 | Code with Claude Keynote Recap, Sonnet 4.8 Watch, SpaceX Colossus Deal Doubles Rate Limits, Dreaming Agents Ship",
     "description": "May 7, 2026: The Code with Claude SF keynote landed Dreaming, multi-agent orchestration, and Outcomes for Managed Agents; the redesigned Claude Code Desktop, Code Review, and cloud Routines as the agentic-SDLC spine; and the Advisor Strategy (Opus advising Sonnet/Haiku) for frontier-quality at executor cost. Anthropic announced a SpaceX Colossus 1 compute deal that doubles Claude Code rate limits across Pro/Max/Team/Enterprise and removes peak-hour throttling. Bloomberg: Claude is now the #2 free app in the US App Store between ChatGPT and Gemini. Code with Claude: Extended runs today.",
