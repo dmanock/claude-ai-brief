@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 10, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-10.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-10.html</guid>
+      <pubDate>Sun, 10 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Reportedly Targets a $900B Valuation in a $50B Round — the Largest Single AI Raise on the Public Record; the Sunday Wire Frames the Cap-Stack Page Going Into the IPO Window</strong> — Reports surfacing late Saturday and into the Sunday cycle peg Anthropic at a $900B target valuation in a $50B fundraising round. Reads as the financial-disclosure shoe to drop after the Google/Broadcom $200B floor, the SpaceX Colossus deal, and the Akamai $1.8B compute layer landed across keynote week.</p>
+        <p><strong>2. Fortune Publishes the Amodei Sit-Down — 80-Fold Quarterly Growth, ~$30B Annualized Revenue, the SpaceX Colossus Deal Positioned as the Operational Answer to Demand That Outran the Plan by 8x</strong> — CEO Dario Amodei on record: the company planned for 10x growth and instead grew 80-fold in a single quarter on an annualized basis. Annualized revenue at roughly $30B, three-fold over the prior year. SpaceX Colossus 1 is the explicit operational answer.</p>
+        <p><strong>3. Claude Design Ships from Anthropic Labs — a Polished Visual-Work Surface for Designs, Prototypes, Slides, and One-Pagers; Sonnet 4.8 Watch Day Five of Seven, Status Page Clean for Day Eleven</strong> — Anthropic Labs releases Claude Design, a collaborative visual-work product. Pairs naturally with the Microsoft 365 add-ins and the Opus 4.7 vision lift. Sonnet 4.8 is at day five of seven inside the May 6-13 corridor. Status page logs eleven consecutive incident-free days.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-10.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 9, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-09.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-09.html</guid>
@@ -346,4 +359,7 @@
     </item>
 
     <item>
-      <title>Claude AI Daily Brief — April 13, 2026<
+      <title>Claude AI Daily Brief — April 13, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-13.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-13.html</guid>
+      <pubDate>Mon, 13 Apr 2026 08:0
