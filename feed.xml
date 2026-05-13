@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 13, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-13.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-13.html</guid>
+      <pubDate>Wed, 13 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude for Legal Goes Live — 20+ MCP Connectors and 12 Practice-Area Plugins Ship; Thomson Reuters CoCounsel, Westlaw, Practical Law, Harvey, Everlaw, iManage, NetDocuments, Ironclad, DocuSign, Relativity, Box and Datasite Named, Freshfields the Co-Development Reference</strong> — A packaged legal offering built on Claude plus Cowork, surfaced inside Microsoft Word, Outlook, Excel, and PowerPoint with context carrying across all four. The twelve plugins cover commercial, corporate, employment, privacy, regulatory, AI governance, IP, and litigation work.</p>
+        <p><strong>2. SAP Sapphire 2026 Names Claude the Primary Reasoning and Agentic Capability for the New SAP Business AI Platform — Joule Agents Now Route Through Claude Across S/4HANA, SuccessFactors, and Ariba via MCP</strong> — The expanded partnership lands inside the Tuesday Sapphire keynote alongside SAP's "Autonomous Enterprise" framing and the Nvidia/Palantir co-billing; custom agents for public sector, healthcare, education, life sciences, and utilities are on the roadmap.</p>
+        <p><strong>3. Claude Code v2.1.140 Ships With Worktree baseRef Controls, Custom Sandbox Paths on Linux/WSL, Admin Policy Merge Options, and Effort Level Exposed to Hooks; Sonnet 4.8 Watch Slips Past the May 6-13 Corridor, London Extended May 20 Now the Working Frame</strong> — The governance-and-platform release after Monday's outcomes wave. Sonnet 4.8 didn't ship inside the corridor; the working read shifts to a paired London launch or a held-for-round-close release wave. Status returns to clean after two short Tuesday-evening incidents resolved.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-13.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 12, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-12.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-12.html</guid>
@@ -365,4 +378,24 @@
       <pubDate>Wed, 15 Apr 2026 08:00:00 -0400</pubDate>
       <description><![CDATA[
         <p><strong>1. Opus 4.7 and an AI Design Tool Ship This Week</strong> — The Information reports Anthropic is readying Claude Opus 4.7 plus a new website-and-slides design tool for launch as soon as this week. Expected focus: longer-horizon autonomy, multi-agent coordination, and stronger reasoning.</p>
-        <p><strong>2. Claude Code Routines Go Live</strong> — Anthropic shipped Routines as a research preview: sa
+        <p><strong>2. Claude Code Routines Go Live</strong> — Anthropic shipped Routines as a research preview: saved Claude Code configs that run on Anthropic's cloud via schedule, HTTP, or GitHub triggers. Pro 5/day, Max 15, Team/Enterprise 25.</p>
+        <p><strong>3. Power Users Revolt Over Quiet "Effort" Nerf</strong> — Fortune, The Register, and VentureBeat detail growing backlash after Anthropic reduced Claude's default effort level to "medium" to save tokens. Boris Cherny confirmed; users say it wasn't disclosed.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-15.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>Claude AI Daily Brief — April 14, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-14.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-14.html</guid>
+      <pubDate>Tue, 14 Apr 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude for Word Ships in Beta</strong> — Anthropic launches a Word add-in that drops AI edits as native tracked changes, replies in comment threads, and scans whole docs for mismatched terms and broken cross-references. Team and Enterprise plans only.</p>
+        <p><strong>2. Anthropic Eyes Custom AI Chips as Revenue Hits $30B Run Rate</strong> — Three sources confirm early-stage talks on Anthropic-designed silicon. Annualized revenue tripled since end of 2025; over 1,000 customers now spend $1M+/year on Claude.</p>
+        <p><strong>3. CoreWeave Inks Multi-Year Deal to Power Claude</strong> — Anthropic adds CoreWeave to its compute roster on top of Google TPUs, AWS Trainium, and Nvidia. Stock popped 11%; nine of the top 10 model labs now run on its platform.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-14.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+  </channel>
+</rss>
