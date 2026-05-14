@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-05-14",
+    "title": "Claude AI Daily Brief — May 14, 2026 | Claude for Small Business Launches With 10-City Tour and 15 Ready-Run Workflows, Anthropic Reinstates Third-Party Agent Tools on a Separate Credit Meter, Pentagon IL6/IL7 Deals Go to Eight Vendors With Anthropic Excluded, Sonnet 4.8 Read Now Pinned to London May 20",
+    "description": "May 14, 2026: Anthropic launches Claude for Small Business — a packaged set of connectors and 15 ready-run agentic workflows across Intuit QuickBooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365 — plus a 10-city free AI fluency tour kicking off in Chicago. The reinstated third-party agent tool support on paid Claude plans moves to a separate, non-rollover monthly credit meter ($20-$200 by plan) billed at API rates. The Pentagon's IL6/IL7 classified AI contracts go to eight vendors with Anthropic excluded over its insistence on warfare-use guardrails. Sonnet 4.8 watch now pinned firmly to London Extended May 20; Claude Platform on AWS GA holds; Code with Claude London T-minus 6 days.",
+    "url": "reports/claude-ai-daily-2026-05-14.html",
+    "headlines": [
+      "Claude for Small Business Launches With 10-City Tour and 15 Ready-Run Workflows",
+      "Anthropic Reinstates Third-Party Agent Tools on a Separate Credit Meter",
+      "Pentagon IL6/IL7 Deals Go to Eight Vendors With Anthropic Excluded",
+      "Sonnet 4.8 Read Now Pinned to London May 20",
+      "Claude for Small Business Launches &mdash; 15 Ready-Run Agentic Workflows Across Intuit QuickBooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365; a 10-City Free AI Fluency Tour Kicks Off Today in Chicago, 100 SMB Leaders per Stop, Free Half-Day Hands-On Training",
+      "Third-Party Agent Tools Are Back on Paid Claude Plans &mdash; But Behind a Separate, Non-Rollover Monthly Credit Meter Worth $20&ndash;$200 by Plan, Billed at API Token Rates; Programmatic Usage No Longer Subsidized by the General Subscription Pool",
+      "Pentagon Awards IL6/IL7 Classified-Network AI Agreements to Eight Big-Tech Vendors on May 1 &mdash; Anthropic Deliberately Excluded Over Its Insistence on Warfare-Use Guardrails; the Trump Administration &ldquo;Blacklist&rdquo; Holds Through the S-1 Window",
+      "Claude Platform on AWS GA Holds &mdash; Full Messages, Files, Batches, Managed Agents, Skills, Code Execution, and Tool Use Through Native AWS Endpoints; AWS Billing and IAM Auth; Opus 4.7, Sonnet 4.6, and Haiku 4.5 Available, New Models Ship on the AWS Surface as They Launch",
+      "Sonnet 4.8 Watch &mdash; The Read Now Firmly Pinned to a Paired London Extended Launch May 20; the 512K-Line Source Map and the Colossus 1 Capacity Stay the Pre-Read, the Advisor Tool Beta Stays the Cost-Efficiency Frame, the Round-Close Wave Becomes the Secondary Scenario",
+      "Thursday Pinning &mdash; Status Page Holds Clean for a Second Post-Incident Shift After Tuesday Evening&rsquo;s Two Short Events; Claude Code v2.1.140 Worktree baseRef Is the Highest-Priority Script-It-In; the Third-Party Agent Credit Meter Mechanics Are the New Cost-Modeling Variable",
+      "Ramp AI Index May Release &mdash; Claude Crosses OpenAI in U.S. Business Adoption: Anthropic 34.4% (+3.8% in April), OpenAI 32.3% (&minus;2.9%); the First Time Paid-Business Adoption Tips the Anthropic Way, the Three Threats the Coverage Names Are the Bear-Case Sheet",
+      "Code with Claude London T-Minus 6 Business Days &mdash; the SF Extended Recordings Still the Open Practitioner-Side Document; London Now Anchored as the Sonnet 4.8 Coordinated-Drop Slot",
+      "Thomson Reuters MCP Integration With CoCounsel Legal Carries From Wednesday &mdash; CoCounsel Reasons Across 1.9B Westlaw + Practical Law Docs and 1.4B KeyCite Validity Signals; Free Law Project / CourtListener Lands the Open-Access Counterpart Through the MCP Surface",
+      "Thursday Read &mdash; The Five-Anchor Demand Story Is Now Visible; SMB / Legal / SAP / M365 / API Agent-Credit Are the Five Named Surfaces, the Ramp Crossover Is the Quantitative Validation, the Pentagon Exclusion Is the Federal-Side Hole the S-1 Has to Name"
+    ],
+    "snippet": "Claude AI Daily Brief — May 14, 2026 | Claude for Small Business Launches With 10-City Tour and 15 Ready-Run Workflows, Anthropic Reinstates Third-Party Agent Tools on a Separate Credit Meter, Pentagon IL6/IL7 Deals Go to Eight Vendors With Anthropic Excluded, Sonnet 4.8 Read Now Pinned to London Ma"
+  },
+  {
     "date": "2026-05-13",
     "title": "Claude AI Daily Brief — May 13, 2026 | Claude for Legal Goes Live With 20+ MCP Connectors and 12 Practice-Area Plugins, SAP Sapphire Embeds Claude Across the Business AI Platform, Claude Code v2.1.140 Ships Worktree baseRef and Custom Sandbox Paths, Sonnet 4.8 Watch Slips Past the May 6-13 Corridor",
     "description": "May 13, 2026: Claude for Legal goes live with more than 20 MCP connectors, 12 practice-area plugins, and integrations across Thomson Reuters/Westlaw/Practical Law/Harvey/Everlaw/iManage/NetDocuments/Ironclad/DocuSign/Relativity/Box; Freshfields named as the co-development reference. SAP Sapphire 2026 names Claude the primary reasoning and agentic layer for the new SAP Business AI Platform with Joule agents routing through Claude across S/4HANA, SuccessFactors, and Ariba via MCP. Claude Code v2.1.140 ships worktree baseRef controls, custom sandbox paths on Linux/WSL, admin policy merge, and effort level exposed to hooks. Sonnet 4.8 watch slips past the May 6-13 corridor; the read flips to a paired London launch May 20. Status page returns to clean after Tuesday evening's two short Vaults and Sonnet 4.6/Haiku 4.5 incidents resolved.",
