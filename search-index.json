@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-05-16",
+    "title": "Claude AI Daily Brief — May 16, 2026 | Benioff Pegs Salesforce 2026 Claude Spend at $300M and Names a Slack-Embedded Coding Surface, Anthropic Publishes the Six-Week Claude Code Quality Postmortem Tracing the Regression to Three Overlapping Product Changes, May 15 Elevated-Error Window Streaks the Status Page, Sonnet 4.8 Watch T-Minus 4 Business Days to London Extended",
+    "description": "May 16, 2026: Marc Benioff on the All-In podcast pegs Salesforce's 2026 Claude token spend at roughly $300M for coding and product work and names a new Slack-embedded coding surface. Anthropic publishes a six-week postmortem on Claude Code quality complaints, tracing the regression to three overlapping product changes (load-balancer routing, default-effort-level tweak, and a context-cache TTL change). Friday's status page logs an elevated-error window across Opus 4.6 and Sonnet 4.6 with Opus 4.7 returning to normal first — the model-tier divergence is the operational read. Sonnet 4.8 watch holds firm on London Extended May 20 — T-minus 4 business days. Anthropic Fellows applications open for May and July 2026 cohorts with $15k/month compute and weekly $3,850 stipends.",
+    "url": "reports/claude-ai-daily-2026-05-16.html",
+    "headlines": [
+      "Benioff Pegs Salesforce 2026 Claude Spend at $300M and Names a Slack-Embedded Coding Surface",
+      "Anthropic Publishes the Six-Week Claude Code Quality Postmortem Tracing the Regression to Three Overlapping Product Changes",
+      "May 15 Elevated-Error Window Streaks the Status Page",
+      "Sonnet 4.8 Watch T-Minus 4 Business Days to London Extended",
+      "Benioff Names the Salesforce 2026 Anthropic Spend at Roughly $300M for Coding and Product Work, Previews a Slack-Embedded Coding Surface That Uses Claude as the Underlying Model &mdash; the Demand-Side Bookend on the Five-Anchor Week",
+      "Anthropic Publishes a Postmortem Tracing Six Weeks of Claude Code Quality Complaints to Three Overlapping Product Changes &mdash; the Load-Balancer Routing Tweak, the Default-Effort-Level Adjustment, and a Context-Cache TTL Change Combined to Degrade Output Quality in Subtle, Hard-to-Reproduce Ways",
+      "Anthropic Fellows Program Applications Open for the May and July 2026 Cohorts &mdash; Four-Month Stints, $3,850 Weekly Stipend and Roughly $15K/Month of Compute Plus Researcher Mentorship; Scope Broadens to Scalable Oversight and Adversarial Robustness",
+      "Sonnet 4.8 Watch &mdash; T-Minus 4 Business Days to London Extended May 20; Paired-Drop Read Holds, the 512K-Line Source Map Pre-Read Stays Pinned, the Advisor Tool Beta Stays the Cost-Efficiency Frame, Held-for-Round-Close Stays the Secondary Path",
+      "Friday May 15 Logs an Elevated-Error Window with Opus 4.6 and Sonnet 4.6 Dragging the Recovery Curve While Opus 4.7 Returns to Normal First &mdash; the Model-Tier Divergence Is the Operational Read of the Weekend; Status Page Now Clean Into Saturday Morning",
+      "Saturday Pinning &mdash; Migrate Production Traffic to Opus 4.7 Before Monday; Rehearse Advisor Tool on Sonnet-4.6 Executor With Opus-4.7 Advisor; Confirm Claude Code v2.1.140+; Pin ant CLI; Run the Credit-Meter Cost Model Rework on the Weekend",
+      "Claude for Small Business Tour Moves to Tulsa on Day Three &mdash; Chicago Workshop Wraps with First Reported Participant Outcomes Hitting the Trade Press; the 14-Lecture Free AI Fluency Course Plus the 15 Connector Workflows Continue as the Mid-Market Demand Funnel",
+      "MCP Ecosystem Crosses 2,300+ Public Servers and 4,200+ Skills Indexed in the Plugin-and-Skill Directory; the Creative-Work Connector Wave (Ableton, Autodesk Fusion, Blender, Resolume, SketchUp, Splice) Stays the Weekend Open-Surface for the Indie-Practitioner Cohort",
+      "Code with Claude London T-Minus 4 Business Days &mdash; the SF Extended Recordings Drop Stays the Open Practitioner-Side Document, the Bundled London-Week Catch-Up Post Remains the Working Frame; Tokyo Extended Pinned to June 10",
+      "Saturday Read &mdash; the Five-Anchor Demand Story Now Has a Salesforce-Sized Bookend, the Postmortem Cadence Is Starting to Look Deliberate, and the Model-Tier Operational Divergence Is the Tactical Migration Signal; London May 20 Remains the Convergence Date"
+    ],
+    "snippet": "Claude AI Daily Brief — May 16, 2026 | Benioff Pegs Salesforce 2026 Claude Spend at $300M and Names a Slack-Embedded Coding Surface, Anthropic Publishes the Six-Week Claude Code Quality Postmortem Tracing the Regression to Three Overlapping Product Changes, May 15 Elevated-Error Window Streaks the S"
+  },
+  {
     "date": "2026-05-15",
     "title": "Claude AI Daily Brief — May 15, 2026 | PwC Expands the Anthropic Alliance to 30,000 Claude-Code-Certified US Staff and the Full 364,000 Global Workforce, Anthropic / Gates Foundation Forge $200M Four-Year Partnership Across Health and Education, Agent-Credit-Meter Discourse Settles Into the Second Day, Sonnet 4.8 Watch T-Minus 5 Business Days to London Extended",
     "description": "May 15, 2026: PwC and Anthropic announce a major alliance expansion — 30,000 US employees to be Claude-Code-certified, with Claude Code rolling out across PwC's 364,000 global workforce, the consulting-side counterpart to the demand-anchor wave. Anthropic / Gates Foundation forge a $200M four-year partnership in grant funding, Claude credits, and technical support across global health, life sciences, education, and economic mobility. The third-party agent credit-meter discourse hits its second day. Sonnet 4.8 watch holds firm on London Extended May 20 — T-minus 5 business days. Claude for Small Business Chicago stop wraps day two of the 10-city tour.",

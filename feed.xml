@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 16, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-16.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-16.html</guid>
+      <pubDate>Sat, 16 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Benioff Names the Salesforce 2026 Anthropic Spend at Roughly $300M for Coding and Product Work and Previews a Slack-Embedded Coding Surface with Claude Underneath — the Demand-Side Bookend on the Five-Anchor Week</strong> — Marc Benioff on the All-In podcast puts the dollar figure on the record and previews a new Slack-native coding tool that uses Claude as the underlying model. The named spend gives the agentic-coding category its single largest publicly disclosed customer commitment to date.</p>
+        <p><strong>2. Anthropic Publishes a Postmortem Tracing Six Weeks of Claude Code Quality Complaints to Three Overlapping Product Changes — Load-Balancer Routing, Default Effort Level, and Context-Cache TTL Combined to Degrade Output Quality in Subtle, Hard-to-Reproduce Ways</strong> — The InfoQ-relayed write-up names three concurrent changes that interacted to produce the late-March-through-early-May "Claude got dumber" discourse. Reversion on all three is the working fix. The transparency cadence is starting to look deliberate.</p>
+        <p><strong>3. Friday's May 15 Elevated-Error Window Logged Opus 4.6 and Sonnet 4.6 Dragging the Recovery Curve While Opus 4.7 Returned to Normal First — the Model-Tier Divergence Is the Operational Read of the Weekend, and Sonnet 4.8 Watch Is Now T-Minus 4 Business Days to London Extended May 20</strong> — Third recent incident with the same recovery-curve pattern. The migration call to production teams is direct: move off Opus 4.6 and Sonnet 4.6 before the May 20 Sonnet 4.8 paired-drop.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-16.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 15, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-15.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-15.html</guid>
@@ -377,25 +390,4 @@
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-17.html</guid>
       <pubDate>Fri, 17 Apr 2026 08:00:00 -0400</pubDate>
       <description><![CDATA[
-        <p><strong>1. Opus 4.7 Shipped — Retakes the Top Spot on SWE-bench</strong> — Claude Opus 4.7 is generally available, posting 87.6% on SWE-bench Verified, 64.3% on SWE-bench Pro, and 98.5% visual acuity. New xhigh effort level, same $5/$25 pricing, new tokenizer pushes effective bills up 0–35%.</p>
-        <p><strong>2. Anthropic Unbundles Tokens From Enterprise Seat Deals</strong> — The Register confirms the $20/seat enterprise fee no longer includes bundled usage. Every token now bills at standard API rates on top of the seat — the flat-fee era for enterprise Claude is over.</p>
-        <p><strong>3. Advisor Strategy, Monitor Tool, and Managed Agents Land Alongside Opus 4.7</strong> — Three new agent primitives shipped with the model. Advisor pairs Opus with Sonnet/Haiku for +2.7pp SWE-bench Multilingual at -11.9% cost. Managed Agents is a fully hosted agent harness.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-17.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — April 16, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-16.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-16.html</guid>
-      <pubDate>Thu, 16 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Opus 4.7 Model ID Spotted on Google Vertex AI</strong> — A user surfaced anthropic-claude-opus-4-7 in the Vertex AI console quota page, corroborating last week's Information report. Polymarket pegs a launch on or before today at roughly 79%.</p>
-        <p><strong>2. Anthropic Rolls Out Government ID + Selfie Verification</strong> — A quiet help-center update confirms Claude users can now be asked for passport and live selfie via Persona before accessing certain capabilities. Data held by Persona, not used for training.</p>
-        <p><strong>3. Yesterday's Three-Hour Claude Outage Leaves Questions</strong> — Claude.ai, API, and Claude Code hit elevated errors at 10:53 AM ET, returned and broke again, then fully recovered by 1:42 PM ET. 7,000+ users reported problems at peak.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-16.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-  </channel>
-</rss>
+        <p><strong>1. Opus 4.7 Shipped — Retakes the Top Spot on SWE-bench</strong> — Claude Opus 4.7 is generally available, posting 87.6% on SWE-bench Verified, 64.3% on SWE-bench Pro, and 98.5% visual acuity. New xhigh effort level, same $5/$25 pricing, new tokenizer pushes effective bills up 0–35%
