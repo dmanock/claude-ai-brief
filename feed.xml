@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 18, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-18.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-18.html</guid>
+      <pubDate>Mon, 18 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Monday Morning Haiku 4.5 Elevated-Error Window Resolves at 08:07 UTC — Fifth Recent Incident With the Same Model-Tier Recovery Pattern</strong> — Investigation opened 06:12 UTC, fix implemented 07:28 UTC, full resolution 08:07 UTC. Two-hour window is the longest in the streak. Opus 4.7 unaffected. Migration call to production teams unchanged: move off the 4.6 and 4.5 pool before Wednesday's Sonnet 4.8 paired-drop.</p>
+        <p><strong>2. Sonnet 4.8 Watch T-Minus 2 Business Days to London Extended May 20 — Sunday Positioning Post Did Not Land, Tuesday Window Is Now the Pre-Keynote Signal</strong> — Pre-read holds: 512K-line source map leak, vision approaching Opus 4.7's 98.5%, +12 pts coding bench, X-high effort level, KAIROS persistent agents and Mythos framework references.</p>
+        <p><strong>3. Claude for Small Business Dallas Workshop Opens Day Four of the 10-City Tour — Gates Foundation $200M Mission Stamp Holds the Demand-Anchor Pairing</strong> — QuickBooks + PayPal + HubSpot connector stack inside Cowork mode remains the SMB first-test surface. SAP / Joule embedded reasoning anchors the enterprise day-one read.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-18.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 17, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-17.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-17.html</guid>
@@ -384,19 +397,5 @@
       ]]></description>
     </item>
 
-    <item>
-      <title>Claude AI Daily Brief — April 18, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-18.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-18.html</guid>
-      <pubDate>Sat, 18 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Design Launches — Figma and Adobe Shares Slide on the News</strong> — Anthropic Labs shipped a prompt-to-prototype tool built on Opus 4.7, with Canva as the named launch partner. Figma closed -7%, Adobe -4%. Research preview for Pro, Max, Team, and Enterprise.</p>
-        <p><strong>2. Amodei at the White House — Pentagon Feud Thaws Over Mythos</strong> — Dario Amodei met White House chief Susie Wiles and Treasury Sec Bessent Friday. CISA and parts of the intel community are already testing Mythos. Treasury wants in.</p>
-        <p><strong>3. OpenAI Ships GPT-5.4-Cyber — A Direct Shot at Anthropic's Mythos Playbook</strong> — A cyber-specialized GPT-5.4 variant with binary reverse engineering, gated to thousands of vetted defenders. Anthropic picks 40 for Mythos. OpenAI picks thousands.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-18.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
   </channel>
 </rss>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
