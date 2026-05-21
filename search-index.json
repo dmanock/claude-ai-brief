@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-05-21",
+    "title": "Claude AI Daily Brief — May 21, 2026 | Code with Claude London Wraps With Extended Founder Day, SAP Makes Claude Its Primary Reasoning Engine, Claude Developer Platform Ships Cache Diagnostics and Fast Mode for Opus 4.7",
+    "description": "May 21, 2026: Code with Claude London closes with an Extended day built for indie developers and early-stage founders — workshops, founder stories, and office hours with Anthropic's Applied AI team. SAP names Claude the primary reasoning and agentic engine across its new Business AI Platform. The Claude Developer Platform ships cache diagnostics in public beta to explain prompt-cache misses and extends fast mode to Opus 4.7 with up to 2.5x output speed. Plus Claude Code's background-session and plugin updates, the $1.5B Blackstone-Goldman enterprise-services JV, and the $200M Gates Foundation partnership.",
+    "url": "reports/claude-ai-daily-2026-05-21.html",
+    "headlines": [
+      "Code with Claude London Wraps With Extended Founder Day",
+      "SAP Makes Claude Its Primary Reasoning Engine",
+      "Claude Developer Platform Ships Cache Diagnostics and Fast Mode for Opus 4.7",
+      "Code with Claude London Closes With &ldquo;Extended&rdquo; &mdash; A Full Day for Indie Devs and Founders, Not Enterprise Buyers",
+      "SAP Names Claude Its Primary Reasoning Engine &mdash; Anthropic&rsquo;s Models Get Embedded Across the SAP Business AI Platform",
+      "Cache Diagnostics Hits Public Beta &mdash; the API Now Tells You Exactly Why a Prompt-Cache Prefix Missed",
+      "Fast Mode Comes to Opus 4.7 &mdash; Up to 2.5x Faster Output Tokens From the Same Model, at a Premium",
+      "Claude Code Sharpens Background-Session and Plugin Management &mdash; /resume for Background Agents, agents --json, and Pre-Install Plugin Inspection",
+      "Anthropic Backs a $1.5B AI-Native Enterprise Services Firm With Blackstone, Hellman &amp; Friedman, and Goldman Sachs",
+      "The $200M Gates Foundation Partnership Keeps Surfacing &mdash; Claude Aimed at Global Health, Education, and Smallholder Farming",
+      "Thursday Read &mdash; The Same Week, Two Audiences: SAP at the Top of the Funnel, Extended London at the Bottom"
+    ],
+    "snippet": "Claude AI Daily Brief — May 21, 2026 | Code with Claude London Wraps With Extended Founder Day, SAP Makes Claude Its Primary Reasoning Engine, Claude Developer Platform Ships Cache Diagnostics and Fast Mode for Opus 4.7 ● Thursday, May 21, 2026 Claude AI Daily Brief — May 21, 2026 Covering the last "
+  },
+  {
     "date": "2026-05-20",
     "title": "Claude AI Daily Brief — May 20, 2026 | Code with Claude London Keynote Day, Anthropic Acquires Stainless to Lock Down SDK and MCP Tooling, KPMG Signs Global Claude Alliance Across 276,000 Staff",
     "description": "May 20, 2026: Code with Claude London Day-1 keynote livestreams today across three tracks — Research, Claude Platform, and Claude Code — with an Extended edition for indie devs and founders. Anthropic acquires Stainless, the SDK and MCP startup behind every official Claude library, in a deal reported above $300M, and Stainless winds down its hosted products. KPMG signs a global alliance embedding Claude into Digital Gateway across 276,000 staff and names Anthropic a preferred private-equity partner. Plus Claude Mythos and Project Glasswing, Claude Code Week 20 updates, Claude staying ad-free, and the vertical-bundle expansion.",

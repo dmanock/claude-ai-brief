@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 21, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-21.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-21.html</guid>
+      <pubDate>Thu, 21 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Code with Claude London Wraps With an Extended Founder Day</strong> — The European tour stop closes with a hands-on day for indie devs and early-stage founders: workshops, founder stories, and office hours with Anthropic's Applied AI team.</p>
+        <p><strong>2. SAP Makes Claude Its Primary Reasoning Engine</strong> — At SAP Sapphire, Anthropic's models get embedded across the new SAP Business AI Platform, putting Claude inside the enterprise system of record for finance, supply chain, and HR workflows.</p>
+        <p><strong>3. Cache Diagnostics + Fast Mode for Opus 4.7</strong> — The Claude Developer Platform ships cache diagnostics in public beta to explain prompt-cache misses, and extends fast mode to Opus 4.7 with up to 2.5x higher output tokens per second.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-21.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 20, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-20.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-20.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Anthropic Briefly Yanks Claude Code From Pro — Then Reverses Amid a Developer Revolt</strong> — Pricing pages quietly moved Claude Code into the $100/mo Max tier. Head of growth Amol Avasare called it a "~2% A/B test on new prosumer signups." The web pages were rolled back inside 24 hours.</p>
         <p><strong>3. 3.5GW of Google TPU Capacity From 2027 — The Other Half of the Compute Story</strong> — Broadcom and Alphabet expanded their TPU partnership; Anthropic gets 3.5GW of next-gen TPUs starting 2027, on top of the existing $21B TPU order. With Monday's 5GW Trainium deal, Claude's 2027 compute floor now spans three silicon stacks.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-22.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — April 21, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-21.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-21.html</guid>
-      <pubDate>Tue, 21 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Amazon Doubles Down: Up to $25B More Into Anthropic, $100B Over 10 Years to AWS, 5GW of Trainium</strong> — $5B lands now, $20B more tied to commercial milestones, on top of the $8B already in. Anthropic commits $100B+ to AWS over ten years and secures up to 5 gigawatts of Trainium capacity.</p>
-        <p><strong>2. Anthropic Publicly Concedes Infrastructure Strain — "Inevitable" After a Month of Outages</strong> — First official acknowledgment that demand has caused "inevitable strain" on reliability and performance. It's the explanation the April 6 ten-hour outage and April 15 double-outage never got.</p>
-        <p><strong>3. Claude Code 2.1.116 Ships — /resume 67% Faster on 40MB+ Sessions, 500K MCP Ceiling</strong> — Big-session resume perf, smoother fullscreen scroll in VS Code/Cursor/Windsurf, and the 500K-character MCP result cap that unblocks database-schema and log-dump tools.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-21.html">Read full report →</a></p>
       ]]></description>
     </item>
 
