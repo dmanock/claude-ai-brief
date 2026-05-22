@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 22, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-22.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-22.html</guid>
+      <pubDate>Fri, 22 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Code with Claude Ships Managed Agents</strong> — Multiagent Orchestration delegates work to parallel specialist agents, Outcomes lets you define success criteria to iterate against, and Dreaming lets Claude recall and build on past sessions.</p>
+        <p><strong>2. Self-Hosted Sandboxes + MCP Tunnels</strong> — Run agents on your own infrastructure and let them reach internal systems without touching the public internet — the plumbing that unblocks enterprise pilots.</p>
+        <p><strong>3. Claude Design Debuts From Anthropic Labs</strong> — A new tool to collaborate with Claude on designs, prototypes, slides, and one-pagers, pushing Claude into the visual-output layer.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-22.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 21, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-21.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-21.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Mythos Heads to European Banks Within Days — Australia's Treasury Confirms Direct Working Relationship</strong> — Reuters reports Anthropic plans to ship Mythos Preview to UK and EU banks within days, gated on additional vendor security checks. Australia's Home Affairs minister confirmed Thursday the federal government is now working directly with Anthropic on vulnerability tracking.</p>
         <p><strong>3. Claude Code 2.1.118 — Vim Visual Mode, /usage Replaces /cost and /stats, Hooks Get Direct MCP Tool Calls</strong> — Full vim visual selection and operators, named themes via /theme and ~/.claude/themes/, type: "mcp_tool" hooks for direct MCP invocation, DISABLE_UPDATES for locked-down installs, WSL inherits Windows-side managed settings.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-23.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — April 22, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-22.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-22.html</guid>
-      <pubDate>Wed, 22 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Mythos Breached — A Discord Group Got Into Anthropic's Most Restricted Model Through a Third-Party Vendor</strong> — A group of unauthorized users accessed Claude Mythos Preview the day it was announced through Project Glasswing, using a contractor's credentials. They've been using it ever since and showed Bloomberg the screenshots.</p>
-        <p><strong>2. Anthropic Briefly Yanks Claude Code From Pro — Then Reverses Amid a Developer Revolt</strong> — Pricing pages quietly moved Claude Code into the $100/mo Max tier. Head of growth Amol Avasare called it a "~2% A/B test on new prosumer signups." The web pages were rolled back inside 24 hours.</p>
-        <p><strong>3. 3.5GW of Google TPU Capacity From 2027 — The Other Half of the Compute Story</strong> — Broadcom and Alphabet expanded their TPU partnership; Anthropic gets 3.5GW of next-gen TPUs starting 2027, on top of the existing $21B TPU order. With Monday's 5GW Trainium deal, Claude's 2027 compute floor now spans three silicon stacks.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-22.html">Read full report →</a></p>
       ]]></description>
     </item>
 

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-05-22">
+  <title>Claude AI Daily Brief — May 22, 2026 | Code with Claude Ships Managed Agents — Orchestration, Outcomes, and Dreaming; Self-Hosted Sandboxes and MCP Tunnels Land for Production Agents; Claude Design Debuts From Anthropic Labs</title>
+  <meta name="description" content="May 22, 2026: Code with Claude wraps with the agent platform front and center — Managed Agents bring Multiagent Orchestration, Outcomes, and Dreaming to production. Self-hosted sandboxes and MCP tunnels let agents run on your infrastructure and reach internal systems without touching the public internet. Claude Design launches from Anthropic Labs for designs, prototypes, and slides. Plus Claude Code's /goal and Routines, Anthropic's 20+ legal MCP connectors, and the press taking AI coding mainstream.">
+  <meta name="keywords" content="Claude AI, Anthropic, Code with Claude, Managed Agents, Multiagent Orchestration, Outcomes, Dreaming, self-hosted sandboxes, MCP tunnels, Claude Design, Anthropic Labs, Claude Code, goal command, Routines, legal MCP connectors, Opus 4.7">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-05-22.html">
+  <meta property="og:title" content="Claude AI Daily Brief — May 22, 2026">
+  <meta property="og:description" content="Code with Claude ships Managed Agents — Orchestration, Outcomes, Dreaming. Self-hosted sandboxes and MCP tunnels land for production agents. Claude Design debuts from Anthropic Labs.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-22.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — May 22, 2026">
+  <meta name="twitter:description" content="Managed Agents bring Orchestration, Outcomes, and Dreaming to production. Self-hosted sandboxes and MCP tunnels let agents reach internal systems securely. Claude Design launches.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-22.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-05-22.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — May 22, 2026",
+    "description": "Code with Claude wraps with Managed Agents — Multiagent Orchestration, Outcomes, and Dreaming — plus self-hosted sandboxes and MCP tunnels for production agents. Claude Design launches from Anthropic Labs for designs, prototypes, and slides.",
+    "datePublished": "2026-05-22T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-22.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-05-22.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav data-pagefind-ignore="all">
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Friday, May 22, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; May 22, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #84</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Code with Claude Ships Managed Agents &mdash; Multiagent Orchestration, Outcomes, and Dreaming</strong> &mdash; The keynote&rsquo;s headline wasn&rsquo;t a model. It was three agent primitives: a lead agent that fans work out to specialist sub-agents in parallel, an Outcomes system that lets you define success criteria so agents iterate toward them, and Dreaming, which lets Claude recall prior sessions and build on past work.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Self-Hosted Sandboxes and MCP Tunnels Land for Production Agents</strong> &mdash; Anthropic shipped two pieces of enterprise plumbing: sandboxes that run agents on your own infrastructure, and MCP tunnels that let those agents reach internal systems without exposing them to the public internet &mdash; all while staying observable in the console.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Claude Design Debuts From Anthropic Labs</strong> &mdash; A new Labs product lets you collaborate with Claude to produce visual outputs &mdash; designs, prototypes, slides, and one-pagers &mdash; turning the model from a text engine into a hands-on design partner.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Agents</span>
+      <h3>Managed Agents Arrive &mdash; Multiagent Orchestration, Outcomes, and Dreaming Move Agents From Demo to Production</h3>
+      <p>The Code with Claude keynote put the agent platform, not a new model, at the center. Three features anchored it. Multiagent Orchestration lets a lead agent break a complex job into pieces and delegate each to a specialist sub-agent &mdash; each with its own model, prompts, and tools &mdash; that work in parallel on a shared file system and feed results back into the lead&rsquo;s context. Outcomes lets you define success criteria up front so an agent can iterate and improve against them over time rather than stopping at the first attempt.</p>
+      <p>The third, Dreaming, is the one that raised eyebrows: it lets Claude recall previous sessions and build on past work instead of starting cold every time. Taken together, these aren&rsquo;t consumer features &mdash; they&rsquo;re the scaffolding teams need to run fleets of agents reliably. The throughline of the whole 2026 tour is now explicit: Anthropic is competing on the agent runtime, and the model is increasingly a component inside it.</p>
+      <div class="source-links">
+        <a href="https://www.infoq.com/news/2026/05/code-with-claude/" class="source-link">InfoQ</a>
+        <a href="https://www.mindstudio.ai/blog/code-with-claude-2026-new-agent-features" class="source-link">MindStudio</a>
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic News</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Product</span>
+      <h3>Claude Design Launches From Anthropic Labs &mdash; Collaborate With Claude on Designs, Prototypes, and Slides</h3>
+      <p>Anthropic Labs shipped Claude Design, a new product that lets you work with Claude to create visual outputs &mdash; designs, prototypes, slides, and one-pagers &mdash; rather than just text. It&rsquo;s a notable expansion of where Claude shows up: from a chat box and a coding agent into the visual-output layer, where most knowledge work actually gets delivered.</p>
+      <p>The strategic read is that Anthropic keeps widening the surface area of &ldquo;things you finish in Claude.&rdquo; Pair it with this week&rsquo;s agent announcements and the picture is consistent &mdash; the company wants Claude to be the place where the work gets done end to end, not a smart suggestion you copy-paste somewhere else. Worth a look for anyone who builds decks and one-pagers on a deadline.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic News</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Infra</span>
+      <h3>Self-Hosted Sandboxes and MCP Tunnels &mdash; Run Agents on Your Own Infrastructure, Reach Internal Systems Without the Public Internet</h3>
+      <p>Two of the most practical announcements from London target the exact thing that blocks enterprise agent rollouts: security and data boundaries. Self-hosted sandboxes let companies run Claude agents on their own infrastructure rather than Anthropic&rsquo;s, and MCP tunnels let those agents reach internal systems &mdash; databases, internal APIs, ticketing &mdash; without ever exposing them to the public internet. A live-style demo showed a proactive growth agent operating in Slack, querying internal data through a tunnel and executing code in a self-hosted sandbox, all observable from the console.</p>
+      <p>This is the unglamorous infrastructure that makes the flashy agent features deployable inside a regulated company. If your security team has been the reason agents stayed in a sandbox demo, these are the two checkboxes they&rsquo;ve been asking for. Expect this to be the part of the keynote that actually unblocks pilots stuck in review.</p>
+      <div class="source-links">
+        <a href="https://fortune.com/2026/05/21/claude-code-london-anthropic-ai-software-engineering/" class="source-link">Fortune</a>
+        <a href="https://www.mindstudio.ai/blog/code-with-claude-2026-new-agent-features" class="source-link">MindStudio</a>
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic News</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code Gets Proactive &mdash; <code>/goal</code> Keeps Working Across Turns and Routines Open PRs Before You Open Your Laptop</h3>
+      <p>Claude Code picked up two features that push it from reactive assistant to proactive teammate. The new <code>/goal</code> command keeps Claude working across turns until a completion condition holds &mdash; instead of stopping after one response, it grinds toward the goal you set. Separately, Routines turn Claude Code into something that reads your repo and opens a PR before you&rsquo;ve started your day.</p>
+      <p>Combined with Agent view and background sessions from earlier this week, the direction is clear: less &ldquo;ask, wait, ask again,&rdquo; more &ldquo;set the objective and check the result.&rdquo; That&rsquo;s a different mental model for using a coding agent, and it rewards teams who get comfortable handing over outcomes rather than dictating steps. Start small &mdash; point <code>/goal</code> at a well-scoped task and watch how it iterates.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://www.youtube.com/watch?v=eSP7PLTXNy8" class="source-link">Proactive Workflow Demo</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot (Claude Code)</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Vertical</span>
+      <h3>Anthropic Ships 20+ Legal MCP Connectors and 12 Practice-Area Plugins &mdash; Claude Goes Deep on Legal Work</h3>
+      <p>Anthropic released more than 20 new legal MCP connectors and 12 practice-area plugins, expanding how law firms and in-house teams use Claude across research, contracts, discovery, matter management, and legal aid. The connectors plug Claude into the tools legal teams already live in; the plugins package workflows for specific practice areas rather than leaving every firm to build from scratch.</p>
+      <p>It&rsquo;s a clean example of the connector-graph strategy applied to a single vertical: rather than a generic &ldquo;legal AI&rdquo; pitch, Anthropic is wiring Claude into the specific systems and workflows a practice already runs. Expect the same playbook to repeat across other regulated verticals &mdash; finance, healthcare, government &mdash; where the value is in the integrations, not the chat box.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic News</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Press</span>
+      <h3>The Press Takes AI Coding Mainstream &mdash; MIT Tech Review and Fortune Cover the Anxiety as Much as the Tech</h3>
+      <p>Code with Claude London drew heavyweight coverage, and the framing was telling. MIT Technology Review wrote that the event &ldquo;showed off coding&rsquo;s future &mdash; whether you like it or not,&rdquo; while Fortune noted that AI-powered coding, and the anxieties around it, have gone mainstream. A line from the event &mdash; that Claude is &ldquo;probably as good as a midlevel engineer at writing code&rdquo; &mdash; did a lot of the work in both pieces.</p>
+      <p>The signal for builders: the conversation has shifted from &ldquo;can it write code&rdquo; to &ldquo;what does the job become.&rdquo; That&rsquo;s a healthier debate, and a sign the technology is past the novelty phase. Whether you&rsquo;re excited or wary, the practical move is the same &mdash; get hands-on with the agent workflows now, so you&rsquo;re shaping how they fit your team rather than reacting later.</p>
+      <div class="source-links">
+        <a href="https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/" class="source-link">MIT Technology Review</a>
+        <a href="https://fortune.com/2026/05/21/claude-code-london-anthropic-ai-software-engineering/" class="source-link">Fortune</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>Friday Read &mdash; The Week the Model Stopped Being the Headline</h3>
+      <p>Step back from the individual announcements and the shape of Code with Claude 2026 is unmistakable: there was no marquee model drop, and that was the point. The headlines were Managed Agents, Orchestration, Outcomes, Dreaming, sandboxes, and tunnels &mdash; runtime and infrastructure, not weights. Anthropic is betting that the durable advantage isn&rsquo;t having the smartest model next quarter; it&rsquo;s owning the layer where agents are built, deployed, and trusted inside real companies.</p>
+      <p>That bet rhymes with the rest of the week &mdash; the SAP integration, the legal connectors, the services JV. Each one is distribution and plumbing, not a benchmark. For anyone building on Claude, the takeaway is concrete: the moat you should care about is the connector graph and the agent runtime, because that&rsquo;s where switching costs accumulate. The model number will keep ticking up, but the work of the next year is wiring agents into systems of record and giving security teams a reason to say yes. This week handed them several. The homework is to go use them.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

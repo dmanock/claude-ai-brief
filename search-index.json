@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-05-22",
+    "title": "Claude AI Daily Brief — May 22, 2026 | Code with Claude Ships Managed Agents — Orchestration, Outcomes, and Dreaming; Self-Hosted Sandboxes and MCP Tunnels Land for Production Agents; Claude Design Debuts From Anthropic Labs",
+    "description": "May 22, 2026: Code with Claude wraps with the agent platform front and center — Managed Agents bring Multiagent Orchestration, Outcomes, and Dreaming to production. Self-hosted sandboxes and MCP tunnels let agents run on your infrastructure and reach internal systems without touching the public internet. Claude Design launches from Anthropic Labs for designs, prototypes, and slides. Plus Claude Code's /goal and Routines, Anthropic's 20+ legal MCP connectors, and the press taking AI coding mainstream.",
+    "url": "reports/claude-ai-daily-2026-05-22.html",
+    "headlines": [
+      "Code with Claude Ships Managed Agents — Orchestration",
+      "Outcomes",
+      "and Dreaming; Self-Hosted Sandboxes and MCP Tunnels Land for Production Agents; Claude Design Debuts From Anthropic Labs",
+      "Managed Agents Arrive &mdash; Multiagent Orchestration, Outcomes, and Dreaming Move Agents From Demo to Production",
+      "Claude Design Launches From Anthropic Labs &mdash; Collaborate With Claude on Designs, Prototypes, and Slides",
+      "Self-Hosted Sandboxes and MCP Tunnels &mdash; Run Agents on Your Own Infrastructure, Reach Internal Systems Without the Public Internet",
+      "Claude Code Gets Proactive &mdash; /goal Keeps Working Across Turns and Routines Open PRs Before You Open Your Laptop",
+      "Anthropic Ships 20+ Legal MCP Connectors and 12 Practice-Area Plugins &mdash; Claude Goes Deep on Legal Work",
+      "The Press Takes AI Coding Mainstream &mdash; MIT Tech Review and Fortune Cover the Anxiety as Much as the Tech",
+      "Friday Read &mdash; The Week the Model Stopped Being the Headline"
+    ],
+    "snippet": "Claude AI Daily Brief — May 22, 2026 | Code with Claude Ships Managed Agents — Orchestration, Outcomes, and Dreaming; Self-Hosted Sandboxes and MCP Tunnels Land for Production Agents; Claude Design Debuts From Anthropic Labs ● Friday, May 22, 2026 Claude AI Daily Brief — May 22, 2026 Covering the la"
+  },
+  {
     "date": "2026-05-21",
     "title": "Claude AI Daily Brief — May 21, 2026 | Code with Claude London Wraps With Extended Founder Day, SAP Makes Claude Its Primary Reasoning Engine, Claude Developer Platform Ships Cache Diagnostics and Fast Mode for Opus 4.7",
     "description": "May 21, 2026: Code with Claude London closes with an Extended day built for indie developers and early-stage founders — workshops, founder stories, and office hours with Anthropic's Applied AI team. SAP names Claude the primary reasoning and agentic engine across its new Business AI Platform. The Claude Developer Platform ships cache diagnostics in public beta to explain prompt-cache misses and extends fast mode to Opus 4.7 with up to 2.5x output speed. Plus Claude Code's background-session and plugin updates, the $1.5B Blackstone-Goldman enterprise-services JV, and the $200M Gates Foundation partnership.",
