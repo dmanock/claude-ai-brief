@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-05-23">
+  <title>Claude AI Daily Brief — May 23, 2026 | KPMG Puts Claude in Front of 276,000 Staff; Anthropic Silently Patches a 5-Month Claude Code Sandbox Bypass; Coros Becomes the First Wearable to Ship an Official MCP Server</title>
+  <meta name="description" content="May 23, 2026: The week after Code with Claude is all distribution and consequences. KPMG rolls Claude out to its entire 276,000-person workforce and embeds it in Digital Gateway. Anthropic quietly fixes a SOCKS5 sandbox bypass that sat in Claude Code for five months with no CVE. Coros becomes the first major wearable to publish an official MCP server, piping training data straight into Claude. Plus PwC's expanded deployment, a 50% Claude Code limit bump, and a Saturday read on the capability curve.">
+  <meta name="keywords" content="Claude AI, Anthropic, KPMG, Digital Gateway, Claude Code, sandbox bypass, SOCKS5, MCP, Coros, PwC, weekly limits, capability curve, SWE-bench, Opus 4.7">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-05-23.html">
+  <meta property="og:title" content="Claude AI Daily Brief — May 23, 2026">
+  <meta property="og:description" content="KPMG puts Claude in front of 276,000 staff. Anthropic silently patches a 5-month Claude Code sandbox bypass. Coros becomes the first wearable to ship an official MCP server.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-23.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — May 23, 2026">
+  <meta name="twitter:description" content="KPMG rolls Claude out to 276,000 staff. A SOCKS5 sandbox bypass sat in Claude Code for 5 months, now silently patched. Coros ships the first wearable MCP server.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-23.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-05-23.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — May 23, 2026",
+    "description": "KPMG integrates Claude across its 276,000-person workforce and embeds it in Digital Gateway. Anthropic silently patches a five-month SOCKS5 sandbox bypass in Claude Code. Coros becomes the first major wearable to publish an official MCP server connecting training data to Claude.",
+    "datePublished": "2026-05-23T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-23.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-05-23.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav data-pagefind-ignore="all">
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Saturday, May 23, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; May 23, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #85</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>KPMG Puts Claude in Front of 276,000 Staff</strong> &mdash; The Big Four firm signed a global alliance with Anthropic, giving every employee across 138 countries access to Claude and embedding it inside Digital Gateway, the platform KPMG and its clients use to do the actual work.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Anthropic Silently Patches a 5-Month Claude Code Sandbox Bypass</strong> &mdash; A SOCKS5 null-byte trick let code inside the sandbox defeat any wildcard allowlist and exfiltrate credentials. It sat in ~130 releases for 5.5 months, was fixed in v2.1.90, and shipped with no CVE and no security note.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Coros Becomes the First Wearable to Ship an Official MCP Server</strong> &mdash; The endurance-watch brand published an MCP server that pipes workouts, sleep, HRV, and race readiness straight into Claude or ChatGPT &mdash; the first major wearable to give athletes a direct line from their data to an AI assistant.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Partnership</span>
+      <h3>KPMG Signs Global Alliance With Anthropic &mdash; Claude Goes to All 276,000 Employees and Into Digital Gateway</h3>
+      <p>KPMG, the Big Four audit, tax, legal, and advisory firm operating across 138 countries, is putting Claude in front of every one of its 276,000-plus employees and embedding it inside Digital Gateway &mdash; the software KPMG&rsquo;s people and clients use to deliver work &mdash; starting with new tools for tax and legal clients. The alliance builds on two years of Claude adoption inside KPMG&rsquo;s US AI and Data Labs, and names KPMG a preferred Anthropic partner for private equity, with jointly built Claude products planned for PE portfolio companies.</p>
+      <p>The detail that lands: KPMG says building an agent to help clients adapt to changing tax rules used to take weeks across multiple tools, and with Cowork and Managed Agents inside Digital Gateway it now takes minutes. This is the distribution side of the agent story Anthropic spent all week pitching &mdash; a single alliance that wires the new runtime into one of the largest professional-services workforces on earth.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/anthropic-kpmg" class="source-link">Anthropic News</a>
+        <a href="https://kpmg.com/xx/en/media/press-releases/2026/05/kpmg-and-anthropic-sign-global-alliance-and-launch-digital-gateway-powered-by-claude.html" class="source-link">KPMG Press</a>
+        <a href="https://www.cpapracticeadvisor.com/2026/05/20/kpmg-partners-with-anthropic-for-digital-gateway-powered-by-claude/183743/" class="source-link">CPA Practice Advisor</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Partnership</span>
+      <h3>PwC Expands Its Claude Deployment &mdash; Claude Code and Cowork Roll Out for Client Work</h3>
+      <p>The KPMG news didn&rsquo;t arrive in a vacuum. PwC also expanded its partnership with Anthropic, deploying Claude to build technology and execute client deals &mdash; rolling out Claude Code and Cowork starting with US teams and expanding toward a global workforce of hundreds of thousands of professionals. Two of the Big Four locking in Claude in the same week is its own headline.</p>
+      <p>For Anthropic, the consulting and audit giants are ideal beachheads: huge headcounts, deep client relationships, and a constant appetite for tooling that compresses repetitive analytical work. The pattern across both deals is the same &mdash; not a chatbot license, but Claude embedded in the systems where the billable work actually happens. Expect the remaining Big Four firms to feel the pressure to pick a horse.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/pwc-expanded-partnership" class="source-link">Anthropic News</a>
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Security</span>
+      <h3>A SOCKS5 Null-Byte Bug Let Claude Code&rsquo;s Sandbox Be Bypassed for 5 Months &mdash; Quietly Patched, No CVE</h3>
+      <p>Security researchers detailed a sandbox bypass that affected every Claude Code release from v2.0.24 (sandbox GA, October 2025) through v2.1.89 &mdash; roughly 130 versions over 5.5 months. The flaw: a SOCKS5 hostname null-byte injection that tricked the allowlist filter into seeing one hostname while connecting to another, defeating any wildcard rule like <code>*.anthropic.com</code> and opening a path to exfiltrate credentials and source code from inside the sandbox.</p>
+      <p>Anthropic fixed it in sandbox-runtime 0.0.43, shipped as Claude Code v2.1.90, by validating hostnames and rejecting null bytes, CRLF, and other non-DNS characters before the matcher runs. The sharper criticism is the disclosure: no CVE, no advisory on the Claude Code security page, no release-note mention, and no outreach to users who ran wildcard allowlists during the window &mdash; the second time in five months a sandbox bypass was handled this quietly. If you ran a wildcard allowlist on a credential-bearing machine, update to v2.1.90+ and rotate anything reachable.</p>
+      <div class="source-links">
+        <a href="https://www.theregister.com/security/2026/05/20/even-claude-agrees-hole-in-its-sandbox-was-real-and-dangerous/5243662" class="source-link">The Register</a>
+        <a href="https://www.securityweek.com/anthropic-silently-patches-claude-code-sandbox-bypass/" class="source-link">SecurityWeek</a>
+        <a href="https://oddguan.com/blog/second-time-same-sandbox-anthropic-claude-code-network-allowlist-bypass-data-exfiltration/" class="source-link">Researcher Writeup</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code Weekly Limits Jump 50% Through July 13 &mdash; The Anti-Codex Move</h3>
+      <p>Anthropic raised Claude Code weekly limits by 50% for Pro, Max, Team, and seat-based Enterprise users through July 13, live everywhere Claude Code runs &mdash; CLI, IDE extensions, desktop, and web &mdash; with nothing to opt into. It stacks on a recent doubling of the 5-hour limits, so heavy users are getting a 2x short-window boost and a 1.5x weekly bump at the same time.</p>
+      <p>The framing in the community is competitive: with OpenAI&rsquo;s Codex reportedly chewing through far fewer tokens for equivalent tasks, loosening the quota is the cheapest way to keep power users from drifting. If you&rsquo;ve been rationing Claude Code sessions to dodge the weekly wall, the next seven weeks are the window to lean in &mdash; point it at the bigger refactors you&rsquo;ve been deferring.</p>
+      <div class="source-links">
+        <a href="https://apidog.com/blog/claude-code-weekly-limits-50-percent-increase-july-2026/" class="source-link">Apidog</a>
+        <a href="https://news.ycombinator.com/item?id=48126429" class="source-link">Hacker News</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Reliability Pass Lands &mdash; <code>/resume</code> for Background Sessions, an Amber Spinner, and Hook Notifications</h3>
+      <p>Alongside the headline agent features, Claude Code shipped a broad reliability update. Background sessions started via <code>claude --bg</code> or Agent view now show up in <code>/resume</code> alongside interactive ones, tagged <code>bg</code>; the thinking spinner warms to amber after 10 seconds so you know it&rsquo;s still working; and a new <code>terminalSequence</code> field in hook output lets hooks fire desktop notifications, window titles, and bells without a controlling terminal.</p>
+      <p>There are real fixes too &mdash; Agent Teams teammates with non-ASCII names no longer fail every API call on bad header encoding, and the Read tool now returns a truncated &ldquo;PARTIAL view&rdquo; first page instead of a hard error when a whole-file read blows the token budget. None of it is flashy, but this is the connective tissue that keeps long-running agent sessions from falling over mid-task.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot (Claude Code)</a>
+        <a href="https://github.com/anthropics/claude-code/releases" class="source-link">GitHub Releases</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">MCP</span>
+      <h3>Coros Ships the First Official Wearable MCP Server &mdash; Pipe Your Training Data Straight Into Claude</h3>
+      <p>Endurance-watch maker Coros published an official Model Context Protocol server, becoming the first major wearable brand to give an AI assistant a direct, permissioned line into an athlete&rsquo;s account. Authorize the connection once and Claude (or ChatGPT, Cursor, or the Gemini CLI) can read workouts, sleep, HRV, training load, and race predictions through a standard interface &mdash; no copy-pasting screenshots of last week&rsquo;s runs.</p>
+      <p>It&rsquo;s a small product on its own, but a useful signal: MCP is leaking out of the developer world and into consumer hardware. When a watch brand ships an MCP server as a feature, the protocol stops being an Anthropic developer convention and starts looking like the default way apps expose data to any assistant. Coros notes it works best on Claude Pro or ChatGPT Plus, since free-tier message limits make daily use impractical.</p>
+      <div class="source-links">
+        <a href="https://gearjunkie.com/technology/coros-partner-chatgpt-claude" class="source-link">GearJunkie</a>
+        <a href="https://the5krunner.com/2026/05/13/coros-mcp-ai-data/" class="source-link">the5krunner</a>
+        <a href="https://www.androidauthority.com/coros-launches-mcp-3669570/" class="source-link">Android Authority</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>Saturday Read &mdash; The Capability Curve, and What the Post-Event Week Actually Told Us</h3>
+      <p>The line everyone clipped from Code with Claude was Alex Albert&rsquo;s &ldquo;capability curve&rdquo;: Claude went from 62% on SWE-bench Verified with Sonnet 3.7 a year ago to 87% with Opus 4.7 today. It&rsquo;s a tidy way to set expectations &mdash; the slope, not the snapshot, is the pitch. But the week that followed told the more interesting story, and it wasn&rsquo;t about benchmarks at all. It was KPMG and PwC, a wearable shipping an MCP server, and a quietly patched five-month security hole.</p>
+      <p>Put those together and you get the real shape of Anthropic in mid-2026: a company racing to convert a steep capability curve into distribution and trust before competitors close the gap. The partnerships are the distribution. MCP showing up in a running watch is the ecosystem compounding on its own. And the sandbox bypass is the bill that comes due &mdash; when you put agents inside 276,000-person firms, the security disclosure standard can&rsquo;t be a silent patch and a version bump. The curve is real. So is the gap between shipping fast and earning the right to be trusted with the keys. The next year is mostly about closing the second one.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-05-23",
+    "title": "Claude AI Daily Brief — May 23, 2026 | KPMG Puts Claude in Front of 276,000 Staff; Anthropic Silently Patches a 5-Month Claude Code Sandbox Bypass; Coros Becomes the First Wearable to Ship an Official MCP Server",
+    "description": "May 23, 2026: The week after Code with Claude is all distribution and consequences. KPMG rolls Claude out to its entire 276,000-person workforce and embeds it in Digital Gateway. Anthropic quietly fixes a SOCKS5 sandbox bypass that sat in Claude Code for five months with no CVE. Coros becomes the first major wearable to publish an official MCP server, piping training data straight into Claude. Plus PwC's expanded deployment, a 50% Claude Code limit bump, and a Saturday read on the capability curve.",
+    "url": "reports/claude-ai-daily-2026-05-23.html",
+    "headlines": [
+      "KPMG Puts Claude in Front of 276",
+      "000 Staff; Anthropic Silently Patches a 5-Month Claude Code Sandbox Bypass; Coros Becomes the First Wearable to Ship an Official MCP Server",
+      "KPMG Signs Global Alliance With Anthropic &mdash; Claude Goes to All 276,000 Employees and Into Digital Gateway",
+      "PwC Expands Its Claude Deployment &mdash; Claude Code and Cowork Roll Out for Client Work",
+      "A SOCKS5 Null-Byte Bug Let Claude Code&rsquo;s Sandbox Be Bypassed for 5 Months &mdash; Quietly Patched, No CVE",
+      "Claude Code Weekly Limits Jump 50% Through July 13 &mdash; The Anti-Codex Move",
+      "Reliability Pass Lands &mdash; /resume for Background Sessions, an Amber Spinner, and Hook Notifications",
+      "Coros Ships the First Official Wearable MCP Server &mdash; Pipe Your Training Data Straight Into Claude",
+      "Saturday Read &mdash; The Capability Curve, and What the Post-Event Week Actually Told Us"
+    ],
+    "snippet": "Claude AI Daily Brief — May 23, 2026 | KPMG Puts Claude in Front of 276,000 Staff; Anthropic Silently Patches a 5-Month Claude Code Sandbox Bypass; Coros Becomes the First Wearable to Ship an Official MCP Server ● Saturday, May 23, 2026 Claude AI Daily Brief — May 23, 2026 Covering the last 24 hours"
+  },
+  {
     "date": "2026-05-22",
     "title": "Claude AI Daily Brief — May 22, 2026 | Code with Claude Ships Managed Agents — Orchestration, Outcomes, and Dreaming; Self-Hosted Sandboxes and MCP Tunnels Land for Production Agents; Claude Design Debuts From Anthropic Labs",
     "description": "May 22, 2026: Code with Claude wraps with the agent platform front and center — Managed Agents bring Multiagent Orchestration, Outcomes, and Dreaming to production. Self-hosted sandboxes and MCP tunnels let agents run on your infrastructure and reach internal systems without touching the public internet. Claude Design launches from Anthropic Labs for designs, prototypes, and slides. Plus Claude Code's /goal and Routines, Anthropic's 20+ legal MCP connectors, and the press taking AI coding mainstream.",
