@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-05-25",
+    "title": "Claude AI Daily Brief — May 25, 2026 | SAP Puts Claude at the Center of Its \"Autonomous Enterprise\"; Security Vendors Pile Into the Compliance API; MCP Tunnels Reach Private Networks",
+    "description": "May 25, 2026: The plumbing of enterprise AI. SAP names Claude the primary reasoning engine for its Autonomous Enterprise and 224 AI agents across S/4HANA, SuccessFactors, and Ariba via MCP. Netskope, SailPoint, Proofpoint, and CrowdStrike all wire into Claude's Compliance API. MCP Tunnels and self-hosted sandboxes ship in research preview for Managed Agents, Opus 4.7's 1M-token context and high-res vision settle in, Claude Code v2.1.142 lands, and Salesforce bakes Claude into Agentforce Vibes.",
+    "url": "reports/claude-ai-daily-2026-05-25.html",
+    "headlines": [
+      "SAP Puts Claude at the Center of Its \"Autonomous Enterprise\"; Security Vendors Pile Into the Compliance API; MCP Tunnels Reach Private Networks",
+      "SAP Names Claude a Reasoning Engine for Its &ldquo;Autonomous Enterprise&rdquo;",
+      "Opus 4.7 Settles In &mdash; 1M-Token Context and High-Resolution Vision Become the Baseline",
+      "MCP Tunnels and Self-Hosted Sandboxes Land for Managed Agents",
+      "Claude Code v2.1.142 &mdash; Opus 4.7 by Default, Dispatched Background Sessions",
+      "Compliance API Goes Mainstream &mdash; Netskope, SailPoint, Proofpoint, and CrowdStrike Plug In",
+      "Salesforce Bakes Claude Into Agentforce Vibes",
+      "The Boring Layer Is the Whole Game"
+    ],
+    "snippet": "Claude AI Daily Brief — May 25, 2026 | SAP Puts Claude at the Center of Its \"Autonomous Enterprise\"; Security Vendors Pile Into the Compliance API; MCP Tunnels Reach Private Networks ● Monday, May 25, 2026 Claude AI Daily Brief — May 25, 2026 Covering the last 24 hours · Edition #87 TL;DR — Today’s "
+  },
+  {
     "date": "2026-05-24",
     "title": "Claude AI Daily Brief — May 24, 2026 | Anthropic Reportedly Raising $30B at a $900B+ Valuation; Claude Partner Network Gets $100M; Claude for Legal Goes All-In",
     "description": "May 24, 2026: The money and the moat. Anthropic is reportedly in talks to raise at least $30B at a pre-money valuation north of $900B. A $100M Claude Partner Network and a $200M Gates Foundation deal show where the capital is pointed. Claude for Legal lands 20+ connectors and 12 practice-area plugins with BigLaw on live matters, Thomson Reuters and Free Law Project wire data into Claude via MCP, Dreaming gives Harvey a 6x task-completion jump, and Claude in Chrome opens to every paid plan.",

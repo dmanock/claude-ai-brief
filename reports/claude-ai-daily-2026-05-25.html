@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-05-25">
+  <title>Claude AI Daily Brief — May 25, 2026 | SAP Puts Claude at the Center of Its "Autonomous Enterprise"; Security Vendors Pile Into the Compliance API; MCP Tunnels Reach Private Networks</title>
+  <meta name="description" content="May 25, 2026: The plumbing of enterprise AI. SAP names Claude the primary reasoning engine for its Autonomous Enterprise and 224 AI agents across S/4HANA, SuccessFactors, and Ariba via MCP. Netskope, SailPoint, Proofpoint, and CrowdStrike all wire into Claude's Compliance API. MCP Tunnels and self-hosted sandboxes ship in research preview for Managed Agents, Opus 4.7's 1M-token context and high-res vision settle in, Claude Code v2.1.142 lands, and Salesforce bakes Claude into Agentforce Vibes.">
+  <meta name="keywords" content="Claude AI, Anthropic, SAP, Autonomous Enterprise, Compliance API, Netskope, SailPoint, Proofpoint, CrowdStrike, MCP Tunnels, Managed Agents, Opus 4.7, Claude Code, Salesforce, Agentforce">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-05-25.html">
+  <meta property="og:title" content="Claude AI Daily Brief — May 25, 2026">
+  <meta property="og:description" content="SAP names Claude the reasoning engine for its Autonomous Enterprise. Security vendors pile into the Compliance API. MCP Tunnels reach private networks.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-25.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — May 25, 2026">
+  <meta name="twitter:description" content="SAP puts Claude at the center of its Autonomous Enterprise. Netskope, SailPoint, Proofpoint, and CrowdStrike wire into the Compliance API. MCP Tunnels ship.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-25.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-05-25.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — May 25, 2026",
+    "description": "SAP named Claude the primary reasoning engine for its Autonomous Enterprise and 224 AI agents across S/4HANA, SuccessFactors, and Ariba via MCP. Netskope, SailPoint, Proofpoint, and CrowdStrike integrated Claude's Compliance API. MCP Tunnels and self-hosted sandboxes shipped in research preview for Managed Agents, Opus 4.7's 1M-token context and high-resolution vision settled in, Claude Code v2.1.142 landed, and Salesforce baked Claude into Agentforce Vibes.",
+    "datePublished": "2026-05-25T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-25.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-05-25.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav data-pagefind-ignore="all">
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Monday, May 25, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; May 25, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #87</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>SAP Puts Claude at the Center of Its &ldquo;Autonomous Enterprise&rdquo;</strong> &mdash; At Sapphire, SAP named Claude a primary reasoning engine for its new Business AI Platform, wiring it through MCP into 224 AI agents that act across S/4HANA, SuccessFactors, and Ariba &mdash; closing books, rerouting supplier orders, and answering HR questions for hundreds of thousands of customers.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Security Vendors Pile Into the Compliance API</strong> &mdash; Netskope, SailPoint, Proofpoint, CrowdStrike, and Cloudflare all shipped integrations with Claude&rsquo;s Compliance API, pulling Claude prompts, responses, and activity logs into the DLP, SIEM, and identity tools enterprises already run.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>MCP Tunnels and Self-Hosted Sandboxes Reach Private Networks</strong> &mdash; The Claude Developer Platform added MCP Tunnels and self-hosted sandboxes for Managed Agents in research preview, letting agents reach MCP servers inside a private network and run code in infrastructure the customer controls.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Partnership</span>
+      <h3>SAP Names Claude a Reasoning Engine for Its &ldquo;Autonomous Enterprise&rdquo;</h3>
+      <p>At SAP Sapphire, SAP unveiled its Autonomous Enterprise blueprint and named Anthropic&rsquo;s Claude a primary reasoning and agentic engine embedded across the new SAP Business AI Platform. Claude connects through MCP to coordinate work across SAP S/4HANA, SuccessFactors, and Ariba &mdash; from closing the books at quarter-end to answering complex employee-leave questions to rerouting supplier orders mid-shipment.</p>
+      <p>This is the enterprise-distribution thesis at full scale. SAP runs the back office for a huge share of the Fortune 500, and folding Claude into 224 platform agents puts the model directly inside finance, HR, procurement, and supply-chain workflows for hundreds of thousands of customers. SAP and Anthropic also said they&rsquo;ll co-build industry-specific agents for healthcare, public sector, utilities, and life sciences &mdash; the regulated verticals where generic automation tends to break.</p>
+      <div class="source-links">
+        <a href="https://news.sap.com/2026/05/sap-anthropic-to-bring-claude-sap-business-ai-platform/" class="source-link">SAP News</a>
+        <a href="https://thenextweb.com/news/sap-autonomous-enterprise-ai-agents-sapphire" class="source-link">TNW</a>
+        <a href="https://erp.today/how-sap-is-using-anthropic-nvidia-and-palantir-to-shape-its-autonomous-enterprise-stack/" class="source-link">ERP Today</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Models</span>
+      <h3>Opus 4.7 Settles In &mdash; 1M-Token Context and High-Resolution Vision Become the Baseline</h3>
+      <p>With Opus 4.7 now generally available and the default for Claude Code&rsquo;s fast mode, two of its headline capabilities are quietly becoming standard issue: a native context window that stretches from 200K to one million tokens, and the first Claude model with high-resolution image support, with maximum image resolution raised to 2576px / 3.75MP.</p>
+      <p>Together those two changes reshape what you can hand the model in a single pass &mdash; an entire repository plus its docs, or a dense schematic read at full fidelity rather than downsampled to mush. Anthropic also published a fresh best-practices guide for pairing Opus 4.7 with Claude Code, a sign the company expects long-horizon, whole-codebase work to be the model&rsquo;s center of gravity.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/claude-opus-4-7" class="source-link">Anthropic News</a>
+        <a href="https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-7" class="source-link">Claude API Docs</a>
+        <a href="https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code" class="source-link">Claude Blog</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Managed Agents</span>
+      <h3>MCP Tunnels and Self-Hosted Sandboxes Land for Managed Agents</h3>
+      <p>The Claude Developer Platform added two infrastructure pieces in research preview. MCP Tunnels lets Claude connect to MCP servers running inside a private network &mdash; no public endpoint required &mdash; so an agent can reach internal tools and data that never touch the open internet. Self-hosted sandboxes let Managed Agents execute code in infrastructure the customer controls rather than Anthropic&rsquo;s.</p>
+      <p>Both target the same objection that stalls enterprise agent rollouts: &ldquo;we can&rsquo;t send that data or run that code outside our perimeter.&rdquo; Pair them with the recent webhooks, multi-agent orchestration, and dreaming releases and the Managed Agents stack starts to look less like a demo and more like something a security team will actually sign off on. Live updates to MCP server and tool settings during active sessions round out the wave.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+        <a href="https://platform.claude.com/docs/en/manage-claude/compliance-api" class="source-link">Claude API Docs</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code v2.1.142 &mdash; Opus 4.7 by Default, Dispatched Background Sessions</h3>
+      <p>Claude Code v2.1.142 continued the post-event reliability cadence. Fast mode now defaults to Opus 4.7 (up from 4.6), and the <code>claude agents</code> command picked up new flags for dispatching background sessions &mdash; spinning off work that keeps running while you move on, then reporting back when it&rsquo;s done or blocked on you.</p>
+      <p>It pairs with this month&rsquo;s broader Claude Code arc: the Agent view that shows every session at a glance, <code>/goal</code> for cross-turn completion conditions, the renamed <code>/code-review</code>, a growing plugin marketplace, and the Windows change that drops the Git-for-Windows requirement in favor of a PowerShell fallback. None of it is flashy; all of it is the unglamorous reliability work that makes the tool trustworthy enough to leave running.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/whats-new" class="source-link">Claude Code Docs</a>
+        <a href="https://github.com/anthropics/claude-code/releases" class="source-link">GitHub Releases</a>
+        <a href="https://pasqualepillitteri.it/en/news/2223/claude-code-may-2026-release-notes-radio-plugin-marketplace" class="source-link">Release Notes</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Security</span>
+      <h3>Compliance API Goes Mainstream &mdash; Netskope, SailPoint, Proofpoint, and CrowdStrike Plug In</h3>
+      <p>A wave of security vendors shipped integrations with Claude&rsquo;s Compliance API, the REST interface that exposes Claude prompts, responses, files, projects, and activity logs to approved third-party governance tools. Netskope and Cloudflare CASB added Claude to their data-security and SaaS-posture stacks; SailPoint brought Claude Enterprise users, groups, and AI agents into its Identity Security Cloud; Proofpoint extended DLP and insider-risk monitoring to Claude; and CrowdStrike began ingesting Claude activity into its Falcon Next-Gen SIEM.</p>
+      <p>This is the quiet enabler underneath every enterprise deal in the brief. Big organizations won&rsquo;t green-light Claude across 276,000 employees unless their existing security tooling can see and govern it like any other SaaS app. With the major DLP, identity, and SIEM vendors now wired in, &ldquo;is it auditable?&rdquo; stops being a blocker &mdash; and that, more than any benchmark, is what unlocks the SAP- and KPMG-scale rollouts.</p>
+      <div class="source-links">
+        <a href="https://www.netskope.com/press-releases/netskope-announces-integration-with-claudes-compliance-api-to-strengthen-data-security-and-governance" class="source-link">Netskope</a>
+        <a href="https://blog.cloudflare.com/casb-anthropic-integration/" class="source-link">Cloudflare</a>
+        <a href="https://idtechwire.com/sailpoint-and-security-vendors-integrate-anthropics-claude-compliance-api-for-ai-governance/" class="source-link">ID Tech Wire</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Integration</span>
+      <h3>Salesforce Bakes Claude Into Agentforce Vibes</h3>
+      <p>Salesforce&rsquo;s Developer Edition now ships with Agentforce Vibes, its agentic IDE, running Claude alongside MCP support so developers can build and wire up Agentforce agents with Claude in the loop. It&rsquo;s another major platform choosing Claude as a default reasoning option rather than a bolt-on.</p>
+      <p>The pattern across SAP, Salesforce, and the legal-research providers is the same: incumbents that own the workflow are reaching for Claude over MCP rather than building the reasoning layer themselves. For Anthropic, every one of these is distribution it doesn&rsquo;t have to sell directly &mdash; the platform brings the customers, Claude brings the brains.</p>
+      <div class="source-links">
+        <a href="https://developer.salesforce.com/blogs/2026/04/new-developer-edition-agentforce-vibes-claude-mcp" class="source-link">Salesforce Developers</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>The Boring Layer Is the Whole Game</h3>
+      <p>It&rsquo;s tempting to read past today&rsquo;s headlines &mdash; a compliance API, network tunnels, a point release of Claude Code &mdash; in search of the &ldquo;real&rdquo; news. Don&rsquo;t. This is the real news. The flashy partnerships announced over the last two weeks (SAP, KPMG, PwC, the legal stack) only convert into deployed revenue if two unglamorous things are true: the data can stay inside the customer&rsquo;s perimeter, and the security team can audit everything Claude does. MCP Tunnels and self-hosted sandboxes answer the first; the Compliance API vendor wave answers the second.</p>
+      <p>That&rsquo;s why the through-line of the post-London period isn&rsquo;t bigger benchmarks &mdash; it&rsquo;s plumbing. Coverage out of Code with Claude framed agentic coding as both inevitable and anxiety-inducing, and the same tension applies to the enterprise push: the capability is clearly there, but adoption at SAP scale is gated by trust and governance, not raw intelligence. Anthropic spent this week building the parts that make a CISO comfortable. If you want to know whether the $900B story holds, watch the boring layer, not the keynote.</p>
+      <div class="source-links">
+        <a href="https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/" class="source-link">MIT Tech Review</a>
+        <a href="https://fortune.com/2026/05/21/claude-code-london-anthropic-ai-software-engineering/" class="source-link">Fortune</a>
+        <a href="https://www.infoq.com/news/2026/05/code-with-claude/" class="source-link">InfoQ</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 25, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-25.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-25.html</guid>
+      <pubDate>Mon, 25 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. SAP Puts Claude at the Center of Its "Autonomous Enterprise"</strong> — At Sapphire, SAP named Claude a primary reasoning engine for its Business AI Platform, wiring it through MCP into 224 agents across S/4HANA, SuccessFactors, and Ariba.</p>
+        <p><strong>2. Security Vendors Pile Into the Compliance API</strong> — Netskope, SailPoint, Proofpoint, CrowdStrike, and Cloudflare all shipped integrations that pull Claude prompts and activity logs into the DLP, SIEM, and identity tools enterprises already run.</p>
+        <p><strong>3. MCP Tunnels and Self-Hosted Sandboxes Reach Private Networks</strong> — The Claude Developer Platform added both in research preview, letting Managed Agents reach internal MCP servers and run code inside the customer's own perimeter.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-25.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 24, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-24.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-24.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Claude Code 2.1.120 Auto-Rolls Back to 2.1.119 After Eight Regressions Filed in 24 Hours</strong> — A --resume / --continue crash, sandbox false alarm, Antigravity spawn fail, UI-duplication bug, WSL2 freeze, and silent model swap. Anthropic resolved overnight; auto-update channel reverted to 2.1.119.</p>
         <p><strong>3. Rate Limits API Ships</strong> — The Claude Developer Platform released programmatic org and workspace rate-limit queries Saturday. Foundational telemetry for finops teams running Claude across many workspaces.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-26.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — April 25, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-25.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-25.html</guid>
-      <pubDate>Sat, 25 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Google Commits Up to $40B More to Anthropic — $10B Now, $30B on Milestones</strong> — Alphabet's tranche lands 96 hours after Amazon's $25B add-on, completing the NVIDIA + AWS Trainium + Google TPU compute hedge. Anthropic's 2027 training plan is now structurally hard to pinch on supply.</p>
-        <p><strong>2. Anthropic Goes Public With Project Deal — A Claude-Run Marketplace, 186 Trades, ~$4K Total</strong> — Anthropic posted the writeup on Project Deal: a classified internal experiment where Claude agents bought, sold, and negotiated employee belongings autonomously. Agent-pairs converged on prices faster than humans, but skewed seller-side in 60% of trades.</p>
-        <p><strong>3. The Claude Code Postmortem Lands — Three Engineering Changes Named</strong> — Anthropic's formal investigation pins the monthlong decline to a March 4 reasoning-effort downgrade, a March 26 caching bug that wiped session data every turn, and an April 16 system-prompt cap that knocked 3% off coding evals. All fixed in 2.1.116; usage limits reset Thursday.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-25.html">Read full report →</a></p>
       ]]></description>
     </item>
 
