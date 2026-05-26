@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-05-26">
+  <title>Claude AI Daily Brief — May 26, 2026 | Mythos Heads for Claude Code and Claude Security; Project Glasswing Finds 10,000+ Critical Bugs; Claude Security Hits Public Beta</title>
+  <meta name="description" content="May 26, 2026: The cyber pivot. Anthropic's restricted Mythos model surfaces in Claude Code references and is being lined up for a gated rollout via Claude Code and Claude Security — a notable reversal from 'no public release.' Project Glasswing's first report says ~50 partners used Claude Mythos Preview to find 10,000+ high- or critical-severity vulnerabilities. Claude Security ships in public beta on Opus 4.7, MIND becomes the first data-security firm in the Cyber Verification Program, and live cyber-safeguard classifiers ship with Opus 4.7.">
+  <meta name="keywords" content="Claude AI, Anthropic, Mythos, Claude Code, Claude Security, Project Glasswing, Opus 4.7, Cyber Verification Program, MIND, vulnerability research, cybersecurity, MCP">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-05-26.html">
+  <meta property="og:title" content="Claude AI Daily Brief — May 26, 2026">
+  <meta property="og:description" content="Mythos heads for Claude Code and Claude Security. Project Glasswing reports 10,000+ critical bugs. Claude Security ships in public beta on Opus 4.7.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-26.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — May 26, 2026">
+  <meta name="twitter:description" content="Anthropic's cyber pivot: Mythos moves toward Claude Code and Claude Security, Project Glasswing finds 10,000+ critical bugs, and Claude Security hits public beta.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-26.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-05-26.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — May 26, 2026",
+    "description": "Anthropic's restricted Mythos model surfaced in Claude Code references and is being lined up for a gated rollout via Claude Code and Claude Security. Project Glasswing's first report said roughly 50 partners used Claude Mythos Preview to find more than 10,000 high- or critical-severity vulnerabilities. Claude Security shipped in public beta on Opus 4.7, MIND became the first data-security company accepted into the Cyber Verification Program, and live cyber-safeguard classifiers shipped with Opus 4.7.",
+    "datePublished": "2026-05-26T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-26.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-05-26.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav data-pagefind-ignore="all">
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Tuesday, May 26, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; May 26, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #88</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Mythos Heads for Claude Code and Claude Security</strong> &mdash; Anthropic&rsquo;s restricted, cyber-capable Mythos model surfaced in public Claude Code references &mdash; users briefly saw a <code>claude-mythos-1-preview</code> toggle before it vanished &mdash; and reporting points to a gated rollout through Claude Code and Claude Security, a sharp reversal from the earlier &ldquo;no public release&rdquo; line.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Project Glasswing&rsquo;s First Report: 10,000+ Critical Bugs</strong> &mdash; Anthropic says roughly 50 partners &mdash; including Microsoft, Apple, Google, and Cloudflare &mdash; used Claude Mythos Preview to find more than 10,000 high- or critical-severity vulnerabilities in the world&rsquo;s most systemically important software in the program&rsquo;s first month.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Claude Security Hits Public Beta</strong> &mdash; Built on Opus 4.7, Claude Security opened in public beta for Enterprise customers and has already helped patch more than 2,100 corporate vulnerabilities by scanning codebases, triaging findings, and generating fixes.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Models</span>
+      <h3>Mythos Moves Toward Public Release via Claude Code and Claude Security</h3>
+      <p>Anthropic&rsquo;s most powerful and most tightly held model is inching out of the lab. References to <code>claude-mythos-1-preview</code> appeared in public Claude Code builds on May 25, and users spotted a Mythos toggle before it disappeared again. Reporting this week describes a deliberate, layered plan: surface Mythos first as a gated capability inside Claude Code and the new Claude Security product, then widen access only once safeguards catch up.</p>
+      <p>That&rsquo;s a real shift in posture. Anthropic previewed Mythos in April as a frontier model with cyber abilities far beyond Opus 4.7 &mdash; capable, by its own account, of developing functional cyberattacks at a professional level &mdash; and framed it as something that might stay restricted indefinitely. The updated framing is now &ldquo;Mythos-class models could reach the public once the right safeguards are in place.&rdquo; The tension between that capability and its dual-use danger is the whole story of the day.</p>
+      <div class="source-links">
+        <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/" class="source-link">BleepingComputer</a>
+        <a href="https://cybersecuritynews.com/claude-mythos-moves-toward-public/" class="source-link">Cyber Security News</a>
+        <a href="https://www.testingcatalog.com/anthropic-prepares-mythos-1-for-claude-code-and-claude-security/" class="source-link">TestingCatalog</a>
+        <a href="https://red.anthropic.com/2026/mythos-preview/" class="source-link">Anthropic (Mythos Preview)</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Research</span>
+      <h3>Project Glasswing&rsquo;s First Report: 10,000+ High- and Critical-Severity Bugs</h3>
+      <p>Anthropic published an initial update on Project Glasswing, its push to harden the world&rsquo;s most critical software before increasingly capable models can be turned against it. Since launch, Anthropic and roughly 50 partners &mdash; reportedly including Microsoft, Apple, Google, and Cloudflare &mdash; have used Claude Mythos Preview to surface more than 10,000 high- or critical-severity vulnerabilities across systemically important codebases, all in the program&rsquo;s first month.</p>
+      <p>The number cuts two ways, and Anthropic leans into both. It&rsquo;s a demonstration that frontier models can find real, severe flaws at a scale human researchers can&rsquo;t match &mdash; and it&rsquo;s the clearest argument yet for why the underlying model has been kept on a short leash. The same capability that patches 10,000 holes could, in the wrong hands, open them.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/research/glasswing-initial-update" class="source-link">Anthropic Research</a>
+        <a href="https://www.csoonline.com/article/4176865/project-glasswing-has-uncovered-10000-vulnerabilities-anthropic.html" class="source-link">CSO Online</a>
+        <a href="https://cybersecuritynews.com/anthropics-claude-mythos-preview-0-days/" class="source-link">Cyber Security News</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Security</span>
+      <h3>Claude Security Ships in Public Beta on Opus 4.7</h3>
+      <p>Anthropic opened Claude Security in public beta for Enterprise customers. Running on Opus 4.7, the tool scans codebases, triages vulnerabilities, and generates fixes &mdash; and Anthropic says it has already helped patch more than 2,100 corporate vulnerabilities ahead of the wider release.</p>
+      <p>This is the productized, defensive face of the same technology behind Glasswing: take the model&rsquo;s knack for finding flaws and point it at the customer&rsquo;s own code before an attacker does. For security teams drowning in alerts, the pitch is less &ldquo;another scanner&rdquo; and more &ldquo;a triage analyst that reads the whole repo and writes the patch.&rdquo;</p>
+      <div class="source-links">
+        <a href="https://www.itpro.com/security/anthropic-targets-vulnerability-detection-gains-with-claude-security-public-beta-heres-what-users-can-expect" class="source-link">IT Pro</a>
+        <a href="https://devops.com/anthropic-brings-ai-powered-security-scanning-to-enterprise-teams-with-claude-security/" class="source-link">DevOps.com</a>
+        <a href="https://www.anthropic.com/news/claude-code-security" class="source-link">Anthropic News</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Safety</span>
+      <h3>Opus 4.7 Ships With Live Cyber-Safeguard Classifiers</h3>
+      <p>The flip side of all this capability is a new layer of guardrails. Opus 4.7 ships with real-time classifiers that evaluate each request and block ones that signal prohibited or high-risk cyber uses &mdash; ransomware development, data exfiltration, and the like &mdash; before the model responds. The checks run inline, not as an after-the-fact review.</p>
+      <p>For legitimate security work, those blocks are a problem, which is why Anthropic pairs them with the Cyber Verification Program: an application-based path that lifts the dual-use restrictions for approved organizations doing defensive vulnerability research, pen-testing, and red-teaming. The net design is &ldquo;blocked by default, unlocked by verification&rdquo; &mdash; the same trust-gated pattern showing up across Anthropic&rsquo;s enterprise stack.</p>
+      <div class="source-links">
+        <a href="https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude" class="source-link">Claude Help Center</a>
+        <a href="https://www.anthropic.com/news/claude-opus-4-7" class="source-link">Anthropic News</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Security</span>
+      <h3>MIND Becomes the First Data-Security Firm in the Cyber Verification Program</h3>
+      <p>Data-security vendor MIND said it&rsquo;s the first company in its category accepted into Anthropic&rsquo;s Cyber Verification Program. Membership lifts the default dual-use blocks for verified defensive work, letting MIND apply Claude to deeper threat modeling, exfiltration-pattern analysis, and adversarial simulation grounded in defensive objectives.</p>
+      <p>It&rsquo;s a small announcement with an outsized signal: the CVP is becoming a real channel, and security companies see being inside Anthropic&rsquo;s verified circle as a competitive edge. Expect a steady drip of &ldquo;first in our category&rdquo; press releases as vendors race to claim the badge.</p>
+      <div class="source-links">
+        <a href="https://www.prnewswire.com/news-releases/mind-becomes-first-data-security-company-accepted-into-anthropics-cyber-verification-program-302776824.html" class="source-link">PR Newswire</a>
+        <a href="https://securityboulevard.com/2026/05/mind-joins-anthropics-cyber-verification-program-a-first-in-data-security/" class="source-link">Security Boulevard</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Ecosystem</span>
+      <h3>Big Tech Lines Up Behind Glasswing</h3>
+      <p>The roster of Glasswing partners reads like a who&rsquo;s-who of platform owners: Microsoft, Apple, Google, and Cloudflare are among the roughly 50 organizations feeding their most critical software through Claude Mythos Preview for vulnerability hunting. These are the companies whose code underpins much of the internet &mdash; and they&rsquo;re effectively beta-testing Anthropic&rsquo;s most dangerous model under controlled access.</p>
+      <p>It&rsquo;s a notable alignment. Rivals in most markets are cooperating here because the upside &mdash; finding the holes first &mdash; is shared, and because Anthropic controls the access. For Anthropic, having the largest software shops vouch for the program&rsquo;s value is exactly the cover it needs to argue a wider release can be done responsibly.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/glasswing" class="source-link">Anthropic (Glasswing)</a>
+        <a href="https://www.investing.com/news/stock-market-news/anthropic-finds-over-10000-software-flaws-in-first-month-of-project-glasswing-93CH-4707347" class="source-link">Investing.com</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>The Mythos Question: Who Gets the Sharpest Knife?</h3>
+      <p>For weeks the enterprise story dominated this brief &mdash; SAP, KPMG, the legal stack, the Compliance API. Today the spotlight swings to the other end of Anthropic&rsquo;s strategy: a model so good at offensive security the company wasn&rsquo;t sure it should ever ship. The pivot from &ldquo;indefinitely restricted&rdquo; to &ldquo;gated rollout via Claude Code and Claude Security&rdquo; isn&rsquo;t a reversal so much as the playbook becoming visible. Build the dangerous capability, prove its defensive value at scale through Glasswing, wrap it in classifiers and a verification program, then let it out a crack at a time.</p>
+      <p>The uncomfortable truth underneath the 10,000-bug headline is that capability is symmetric. A model that finds critical flaws faster than any human team is, by definition, a model that could weaponize them just as fast. Anthropic&rsquo;s bet is that controlled, defense-first distribution &mdash; verified researchers, big-tech partners, inline guardrails &mdash; keeps the advantage on the defenders&rsquo; side. It&rsquo;s a reasonable bet, but it rests entirely on the gates holding. Watch how tightly Mythos is fenced as it lands in Claude Code; that, not the benchmark, is the real test.</p>
+      <div class="source-links">
+        <a href="https://winbuzzer.com/2026/05/26/anthropics-mythos-moves-closer-to-claude-code-xcxwbn/" class="source-link">WinBuzzer</a>
+        <a href="https://www.techtimes.com/articles/317076/20260524/anthropic-moves-closer-public-claude-mythos-release-10000-critical-bugs-found-first.htm" class="source-link">TechTimes</a>
+        <a href="https://www.itpro.com/security/anthropic-targets-vulnerability-detection-gains-with-claude-security-public-beta-heres-what-users-can-expect" class="source-link">IT Pro</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

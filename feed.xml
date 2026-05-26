@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 26, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-26.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-26.html</guid>
+      <pubDate>Tue, 26 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Mythos Heads for Claude Code and Claude Security</strong> — Anthropic's restricted, cyber-capable Mythos model surfaced in public Claude Code references and is being lined up for a gated rollout — a reversal from the earlier "no public release" line.</p>
+        <p><strong>2. Project Glasswing's First Report: 10,000+ Critical Bugs</strong> — Roughly 50 partners, including Microsoft, Apple, Google, and Cloudflare, used Claude Mythos Preview to find more than 10,000 high- or critical-severity vulnerabilities in one month.</p>
+        <p><strong>3. Claude Security Hits Public Beta</strong> — Built on Opus 4.7, the scanner has already helped patch more than 2,100 corporate vulnerabilities by reading codebases, triaging findings, and writing fixes.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-26.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 25, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-25.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-25.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. The $800B-$1T Cap-Table Settles Into Markets</strong> — Forge marking Anthropic at roughly $1T, ahead of OpenAI's $880B for the first time. Friday's Google $10B-now/$30B-on-milestones tranche sits on top of Amazon's add and the $100B AWS commit. October IPO window with $60B raise still the working hypothesis.</p>
         <p><strong>3. GPT-5.5 vs Opus 4.7, Four Days In</strong> — Opus 4.7 still leads SWE-Bench Verified 87.6% to 85.0%. Two frontier models, two different axes: Spud leads planning-and-execution evals, Opus 4.7 leads codebase-resolution evals.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-27.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — April 26, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-26.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-26.html</guid>
-      <pubDate>Sun, 26 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Tells a Federal Court It Cannot Control Claude Once Deployed — The AI Liability Map Just Moved</strong> — A federal court filing has Anthropic admitting it has no technical ability to control Claude 4 after it lands on customer infrastructure. The "deployer takes the risk" doctrine is now on the record from a frontier lab.</p>
-        <p><strong>2. Claude Code 2.1.120 Auto-Rolls Back to 2.1.119 After Eight Regressions Filed in 24 Hours</strong> — A --resume / --continue crash, sandbox false alarm, Antigravity spawn fail, UI-duplication bug, WSL2 freeze, and silent model swap. Anthropic resolved overnight; auto-update channel reverted to 2.1.119.</p>
-        <p><strong>3. Rate Limits API Ships</strong> — The Claude Developer Platform released programmatic org and workspace rate-limit queries Saturday. Foundational telemetry for finops teams running Claude across many workspaces.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-26.html">Read full report →</a></p>
       ]]></description>
     </item>
 

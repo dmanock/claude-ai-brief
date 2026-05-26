@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-05-26",
+    "title": "Claude AI Daily Brief — May 26, 2026 | Mythos Heads for Claude Code and Claude Security; Project Glasswing Finds 10,000+ Critical Bugs; Claude Security Hits Public Beta",
+    "description": "May 26, 2026: The cyber pivot. Anthropic's restricted Mythos model surfaces in Claude Code references and is being lined up for a gated rollout via Claude Code and Claude Security — a notable reversal from 'no public release.' Project Glasswing's first report says ~50 partners used Claude Mythos Preview to find 10,000+ high- or critical-severity vulnerabilities. Claude Security ships in public beta on Opus 4.7, MIND becomes the first data-security firm in the Cyber Verification Program, and live cyber-safeguard classifiers ship with Opus 4.7.",
+    "url": "reports/claude-ai-daily-2026-05-26.html",
+    "headlines": [
+      "Mythos Heads for Claude Code and Claude Security; Project Glasswing Finds 10",
+      "000+ Critical Bugs; Claude Security Hits Public Beta",
+      "Mythos Moves Toward Public Release via Claude Code and Claude Security",
+      "Project Glasswing&rsquo;s First Report: 10,000+ High- and Critical-Severity Bugs",
+      "Claude Security Ships in Public Beta on Opus 4.7",
+      "Opus 4.7 Ships With Live Cyber-Safeguard Classifiers",
+      "MIND Becomes the First Data-Security Firm in the Cyber Verification Program",
+      "Big Tech Lines Up Behind Glasswing",
+      "The Mythos Question: Who Gets the Sharpest Knife?"
+    ],
+    "snippet": "Claude AI Daily Brief — May 26, 2026 | Mythos Heads for Claude Code and Claude Security; Project Glasswing Finds 10,000+ Critical Bugs; Claude Security Hits Public Beta ● Tuesday, May 26, 2026 Claude AI Daily Brief — May 26, 2026 Covering the last 24 hours · Edition #88 TL;DR — Today’s Top 3 Takeawa"
+  },
+  {
     "date": "2026-05-25",
     "title": "Claude AI Daily Brief — May 25, 2026 | SAP Puts Claude at the Center of Its \"Autonomous Enterprise\"; Security Vendors Pile Into the Compliance API; MCP Tunnels Reach Private Networks",
     "description": "May 25, 2026: The plumbing of enterprise AI. SAP names Claude the primary reasoning engine for its Autonomous Enterprise and 224 AI agents across S/4HANA, SuccessFactors, and Ariba via MCP. Netskope, SailPoint, Proofpoint, and CrowdStrike all wire into Claude's Compliance API. MCP Tunnels and self-hosted sandboxes ship in research preview for Managed Agents, Opus 4.7's 1M-token context and high-res vision settle in, Claude Code v2.1.142 lands, and Salesforce bakes Claude into Agentforce Vibes.",
