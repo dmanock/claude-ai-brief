@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 27, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-27.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-27.html</guid>
+      <pubDate>Wed, 27 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Puts Claude Agents on a Meter</strong> — Starting June 15, programmatic usage (Agent SDK, claude -p, Code GitHub Actions, third-party apps) draws from a separate monthly credit pool billed at full API rates — $20 Pro, $100 Max 5x, $200 Max 20x, no rollover.</p>
+        <p><strong>2. Managed Agents Gain Dreaming and Multiagent Orchestration</strong> — Claude Managed Agents picked up Dreaming, multiagent orchestration, outcomes, and webhooks; MCP tunnels hit research preview and self-hosted sandboxes opened in public beta.</p>
+        <p><strong>3. Thomson Reuters Wires Claude Into CoCounsel</strong> — An expanded partnership connects Claude directly to CoCounsel Legal via MCP, the latest piece of Anthropic’s fast-growing legal stack of 20+ connectors and 12 practice-area plugins.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-27.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 26, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-26.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-26.html</guid>
@@ -384,18 +397,6 @@
       ]]></description>
     </item>
 
-    <item>
-      <title>Claude AI Daily Brief — April 27, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-27.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-27.html</guid>
-      <pubDate>Mon, 27 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. India Tells Banks to Harden on Mythos — NPCI Seeks Early Access, RBI Consulting Fed and BoE</strong> — The Centre asked Indian banks Monday to step up cyber preparedness on Mythos-class exploit risk. NPCI is negotiating early Mythos access for a small bank cohort to patch UPI before the model goes wide. India is now the second sovereign inside the negotiation behind the UK.</p>
-        <p><strong>2. The $800B-$1T Cap-Table Settles Into Markets</strong> — Forge marking Anthropic at roughly $1T, ahead of OpenAI's $880B for the first time. Friday's Google $10B-now/$30B-on-milestones tranche sits on top of Amazon's add and the $100B AWS commit. October IPO window with $60B raise still the working hypothesis.</p>
-        <p><strong>3. GPT-5.5 vs Opus 4.7, Four Days In</strong> — Opus 4.7 still leads SWE-Bench Verified 87.6% to 85.0%. Two frontier models, two different axes: Spud leads planning-and-execution evals, Opus 4.7 leads codebase-resolution evals.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-27.html">Read full report →</a></p>
-      ]]></description>
-    </item>
 
   </channel>
 </rss>

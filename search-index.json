@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-05-27",
+    "title": "Claude AI Daily Brief — May 27, 2026 | Anthropic Puts Claude Agents on a Meter; Managed Agents Get Dreaming; Thomson Reuters Wires Claude Into CoCounsel",
+    "description": "May 27, 2026: The billing day. Anthropic confirms that starting June 15, programmatic Claude usage — Agent SDK, claude -p, Claude Code GitHub Actions, and third-party apps — draws from a separate monthly credit pool billed at full API rates. Claude Managed Agents gain Dreaming, multiagent orchestration, outcomes, and webhooks. MCP tunnels hit research preview and self-hosted sandboxes open in public beta. Thomson Reuters connects Claude to CoCounsel Legal, and Anthropic reaffirms Claude stays ad-free.",
+    "url": "reports/claude-ai-daily-2026-05-27.html",
+    "headlines": [
+      "Anthropic Puts Claude Agents on a Meter; Managed Agents Get Dreaming; Thomson Reuters Wires Claude Into CoCounsel",
+      "Agents Go on a Meter: Programmatic Usage Gets Its Own Credit Pool June 15",
+      "Anthropic Reaffirms: Claude Stays Ad-Free",
+      "Dreaming, Multiagent Orchestration, Outcomes, and Webhooks Land on Managed Agents",
+      "MCP Tunnels Hit Research Preview; Self-Hosted Sandboxes Open in Public Beta",
+      "Thomson Reuters Connects Claude to CoCounsel Legal",
+      "KPMG Rolls Claude Out to 276,000+ Employees",
+      "The Flat-Rate Era for Agents Is Ending"
+    ],
+    "snippet": "Claude AI Daily Brief — May 27, 2026 | Anthropic Puts Claude Agents on a Meter; Managed Agents Get Dreaming; Thomson Reuters Wires Claude Into CoCounsel ● Wednesday, May 27, 2026 Claude AI Daily Brief — May 27, 2026 Covering the last 24 hours · Edition #89 TL;DR — Today’s Top 3 Takeaways 1. Anthropi"
+  },
+  {
     "date": "2026-05-26",
     "title": "Claude AI Daily Brief — May 26, 2026 | Mythos Heads for Claude Code and Claude Security; Project Glasswing Finds 10,000+ Critical Bugs; Claude Security Hits Public Beta",
     "description": "May 26, 2026: The cyber pivot. Anthropic's restricted Mythos model surfaces in Claude Code references and is being lined up for a gated rollout via Claude Code and Claude Security — a notable reversal from 'no public release.' Project Glasswing's first report says ~50 partners used Claude Mythos Preview to find 10,000+ high- or critical-severity vulnerabilities. Claude Security ships in public beta on Opus 4.7, MIND becomes the first data-security firm in the Cyber Verification Program, and live cyber-safeguard classifiers ship with Opus 4.7.",
