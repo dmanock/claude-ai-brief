@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-05-28",
+    "title": "Claude AI Daily Brief — May 28, 2026 | SAP Puts Claude at the Heart of Business AI Platform; 28 Security Integrations Land; Bristol Myers Squibb Goes All-In on Claude Enterprise",
+    "description": "May 28, 2026: Enterprise day. SAP and Anthropic expand their partnership at Sapphire, making Claude the primary reasoning and agentic engine across SAP's new Business AI Platform. Anthropic ships 28 security and compliance integrations to let CISOs govern Claude inside their existing stacks. Bristol Myers Squibb signs a strategic agreement to deploy Claude Enterprise across research, clinical, manufacturing, and commercial. AWS makes the Claude Platform generally available, and Anthropic opens its Seoul office with a new Korea Representative Director.",
+    "url": "reports/claude-ai-daily-2026-05-28.html",
+    "headlines": [
+      "SAP Puts Claude at the Heart of Business AI Platform; 28 Security Integrations Land; Bristol Myers Squibb Goes All-In on Claude Enterprise",
+      "SAP and Anthropic Expand: Claude Becomes the Reasoning Layer for SAP&rsquo;s Business AI Platform",
+      "Bristol Myers Squibb Adopts Claude Enterprise as Shared Intelligence Platform",
+      "Anthropic Opens Seoul Office; Names KiYoung Choi Korea Representative Director",
+      "28 New Security and Compliance Integrations for Enterprise Claude Governance",
+      "Claude Platform on AWS Goes Generally Available",
+      "Claude Code Picks Up Security Plugin and Faster Performance",
+      "Base Launches MCP Gateway: Claude Gets Onchain DeFi Actions",
+      "MCP Hits 2,300+ Public Servers; Ecosystem Crosses 200 Tools",
+      "The Enterprise Land Grab Is the Real Story of Q2"
+    ],
+    "snippet": "Claude AI Daily Brief — May 28, 2026 | SAP Puts Claude at the Heart of Business AI Platform; 28 Security Integrations Land; Bristol Myers Squibb Goes All-In on Claude Enterprise ● Thursday, May 28, 2026 Claude AI Daily Brief — May 28, 2026 Covering the last 24 hours · Edition #90 TL;DR — Today’s Top"
+  },
+  {
     "date": "2026-05-27",
     "title": "Claude AI Daily Brief — May 27, 2026 | Anthropic Puts Claude Agents on a Meter; Managed Agents Get Dreaming; Thomson Reuters Wires Claude Into CoCounsel",
     "description": "May 27, 2026: The billing day. Anthropic confirms that starting June 15, programmatic Claude usage — Agent SDK, claude -p, Claude Code GitHub Actions, and third-party apps — draws from a separate monthly credit pool billed at full API rates. Claude Managed Agents gain Dreaming, multiagent orchestration, outcomes, and webhooks. MCP tunnels hit research preview and self-hosted sandboxes open in public beta. Thomson Reuters connects Claude to CoCounsel Legal, and Anthropic reaffirms Claude stays ad-free.",
