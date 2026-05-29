@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-05-29">
+  <title>Claude AI Daily Brief — May 29, 2026 | Anthropic Hits $965B Valuation in $65B Series H; Claude Opus 4.8 and Dynamic Workflows Land; Stainless Acquisition Closes</title>
+  <meta name="description" content="May 29, 2026: A capital and product double-header. Anthropic closes a $65B Series H at a $965B valuation — now the world's most valuable startup, with Samsung, SK Hynix, and Micron joining as strategic infrastructure partners. Claude Opus 4.8 lands with a 69.2% SWE-Bench Pro score, Dynamic Workflows, and a 2.5x Fast Mode. Anthropic completes its Stainless acquisition, consolidating SDK and MCP server tooling. Plus: GitHub Copilot makes Opus 4.8 generally available and Anthropic re-commits Claude to staying ad-free.">
+  <meta name="keywords" content="Claude AI, Anthropic, Series H, $965B valuation, Claude Opus 4.8, Dynamic Workflows, Stainless acquisition, SWE-Bench Pro, Samsung HBM4E, GitHub Copilot, ad-free AI">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-05-29.html">
+  <meta property="og:title" content="Claude AI Daily Brief — May 29, 2026">
+  <meta property="og:description" content="Anthropic hits a $965B valuation in a $65B Series H. Claude Opus 4.8 ships with Dynamic Workflows and a 69.2% SWE-Bench Pro score. Stainless acquisition closes. GitHub Copilot makes Opus 4.8 GA.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-29.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — May 29, 2026">
+  <meta name="twitter:description" content="$65B round at a $965B valuation. Opus 4.8 with Dynamic Workflows. Stainless joins Anthropic. GitHub Copilot ships Opus 4.8 GA.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-29.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-05-29.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — May 29, 2026",
+    "description": "Anthropic closed a $65B Series H at a $965B post-money valuation, eclipsing OpenAI to become the world's most valuable startup. Samsung, SK Hynix, and Micron joined as strategic infrastructure partners. Claude Opus 4.8 launched with Dynamic Workflows, a 69.2% SWE-Bench Pro score, and a 2.5x Fast Mode. Anthropic completed its acquisition of Stainless to consolidate SDK and MCP server tooling. GitHub Copilot made Opus 4.8 generally available.",
+    "datePublished": "2026-05-29T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-29.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-05-29.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav data-pagefind-ignore="all">
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Friday, May 29, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; May 29, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #91</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Anthropic Closes $65B Series H at a $965B Valuation</strong> &mdash; Led by Altimeter, Dragoneer, Greenoaks, and Sequoia, with Samsung, SK Hynix, and Micron joining as strategic infrastructure partners. Anthropic is now the world&rsquo;s most valuable startup, ahead of OpenAI, with run-rate revenue reportedly past $47B and a likely IPO in view.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Claude Opus 4.8 Ships with Dynamic Workflows and a 69.2% SWE-Bench Pro</strong> &mdash; Opus 4.8 jumps past Opus 4.7 (64.3%), GPT-5.5 (58.6%), and Gemini 3.1 Pro (54.2%) on agentic coding. Fast Mode runs 2.5x faster at the same price, and a new Dynamic Workflows preview lets one request orchestrate tens to hundreds of background agents.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Anthropic Acquires Stainless to Own SDK and MCP Server Tooling</strong> &mdash; Hundreds of companies use Stainless to generate SDKs, CLIs, and MCP servers. Bringing it in-house tightens the supply chain from Claude model to agent connector and signals where developer-experience investment is headed next.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Funding</span>
+      <h3>Anthropic Closes $65B Series H at a $965B Valuation, Eclipsing OpenAI</h3>
+      <p>Anthropic disclosed a $65 billion Series H round at a $965 billion post-money valuation, co-led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia, with Samsung, SK Hynix, and Micron joining as &ldquo;strategic infrastructure partners.&rdquo; The round vaults the five-year-old company past OpenAI to become the world&rsquo;s most valuable private startup &mdash; and lands as Anthropic preps for a likely Wall Street debut.</p>
+      <p>The fundraise is paired with eye-popping operating numbers: run-rate revenue reportedly crossed $47 billion this month, and Anthropic is forecasting a 130% surge that would push it to its first operating profit. The chip-maker triad is the real strategic tell. Samsung &mdash; the only one of the three with foundry capacity &mdash; is already shipping samples of its 12-layer HBM4E memory built for AI servers, and the partnership opens a path to custom logic silicon down the road.</p>
+      <div class="source-links">
+        <a href="https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/" class="source-link">TechCrunch</a>
+        <a href="https://www.washingtonpost.com/business/2026/05/28/anthropic-ai-claude-openai-valuation/29b495ec-5aca-11f1-8a9d-afb1148204e1_story.html" class="source-link">Washington Post</a>
+        <a href="https://easternherald.com/2026/05/29/anthropic-965-billion-samsung-sk-hynix-micron-memory-chips/" class="source-link">Eastern Herald</a>
+        <a href="https://www.sammyfans.com/2026/05/29/samsung-anthropic-claude-ai-investment/" class="source-link">Sammy Fans</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Model</span>
+      <h3>Claude Opus 4.8 Lands: 69.2% SWE-Bench Pro, Dynamic Workflows, 2.5x Fast Mode</h3>
+      <p>Anthropic released Claude Opus 4.8 less than two months after Opus 4.7. The headline numbers: agentic coding (SWE-Bench Pro) jumps from 64.3% to 69.2%, multidisciplinary reasoning with tools moves from 54.7% to 57.9%, and agentic computer use climbs from 82.8% to 83.4%. Opus 4.8 also flags about 4x fewer code flaws than Opus 4.7 and beats GPT-5.5 (58.6%) and Gemini 3.1 Pro (54.2%) on the same coding bench.</p>
+      <p>Pricing is unchanged at $5 per million input and $25 per million output tokens, with a 1M-token context window on the Claude API, Bedrock, and Vertex AI. The bigger product story is Dynamic Workflows in research preview: ask Claude to build a workflow and it orchestrates tens to hundreds of background agents to deliver the result. Fast Mode now runs 2.5x faster at the same price &mdash; and roughly 3x cheaper than the equivalent on prior models.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/claude-opus-4-8" class="source-link">Anthropic News</a>
+        <a href="https://9to5mac.com/2026/05/28/anthropic-upgrades-claude-with-new-opus-4-8-model-heres-whats-new/" class="source-link">9to5Mac</a>
+        <a href="https://officechai.com/ai/claude-opus-4-8-benchmarks/" class="source-link">Office Chai</a>
+        <a href="https://www.androidheadlines.com/2026/05/anthropic-claude-opus-48-dynamic-workflows-coding.html" class="source-link">Android Headlines</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Policy</span>
+      <h3>Anthropic Re-Commits Claude to Ad-Free</h3>
+      <p>Anthropic took the unusual step of putting its no-ads stance in writing this week: Claude products will not carry advertising, and the company will not let advertisers pay for placement inside conversations. The framing: ad incentives are incompatible with a genuinely helpful assistant, because the moment ranking is for sale, recommendations stop being for the user.</p>
+      <p>It&rsquo;s a positioning move with real teeth. Anthropic just raised $65B at a near-trillion valuation on enterprise economics, not consumer ad inventory, so this is an easy commitment to keep &mdash; but it also forces a contrast with peers leaning into commerce, search ads, and sponsored content. Worth noting: the policy applies to Anthropic&rsquo;s own products; developers building on the API can still serve their own ads.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/claude-is-a-space-to-think" class="source-link">Anthropic News</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">M&amp;A</span>
+      <h3>Anthropic Acquires Stainless to Own the SDK and MCP Server Layer</h3>
+      <p>Anthropic completed its acquisition of Stainless, the SDK-generator and MCP server tooling company used by hundreds of API providers to ship libraries, CLIs, and connectors. Stainless customers include some of the largest names in API land &mdash; bringing the team in-house gives Anthropic ownership of the layer that turns an API into a usable agent surface.</p>
+      <p>The strategic logic is obvious if you&rsquo;ve been watching the MCP build-out. Anthropic donated the protocol to the Agentic AI Foundation in December, then quietly invested in the connector tooling that lets every SaaS vendor become a Claude target. Owning Stainless tightens that supply chain and pulls a friction-removing step closer to the agent loop, with predictable downstream effects on every developer relations strategy in the model space.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/anthropic-acquires-stainless" class="source-link">Anthropic News</a>
+        <a href="https://voip.review/2026/05/21/anthropic-acquires-stainless-revolutionizing-sdk-mcp-connectivity/" class="source-link">VoIP Review</a>
+        <a href="https://www.resultsense.com/news/2026-05-19-anthropic-acquires-stainless/" class="source-link">Resultsense</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Tooling</span>
+      <h3>GitHub Copilot Makes Claude Opus 4.8 Generally Available</h3>
+      <p>GitHub flipped Claude Opus 4.8 to GA across Copilot the same day Anthropic launched the model. The integration covers Copilot Chat, agent mode, and Copilot Coding Agent &mdash; meaning the same model that posts a 69.2% SWE-Bench Pro is now selectable inside the dev tool with the largest active install base.</p>
+      <p>Coming a few days after the Claude Code team added <code>/effort xhigh</code> for the hardest tasks and a security plugin for inline vulnerability flags, this is a useful pincer for Anthropic: keep Claude Code the lead surface for power users while making sure Opus 4.8 is one click away in Copilot for everyone else. The pricing arbitrage matters too &mdash; Opus 4.8 Fast Mode is roughly 3x cheaper than Fast Mode on earlier models, which is the kind of detail that quietly shifts default model selection inside engineering orgs.</p>
+      <div class="source-links">
+        <a href="https://github.blog/changelog/2026-05-28-claude-opus-4-8-is-generally-available-for-github-copilot/" class="source-link">GitHub Changelog</a>
+        <a href="https://9to5google.com/2026/05/28/claude-opus-4-8-launches-today-with-agentic-improvements-new-features/" class="source-link">9to5Google</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Messages API</span>
+      <h3>System Messages Mid-Conversation: Cache-Safe Instruction Updates</h3>
+      <p>The Messages API now accepts <code>system</code> entries inside the messages array, letting developers update Claude&rsquo;s instructions mid-task without breaking the prompt cache or routing the change through a synthetic user turn. Small change, real impact: long-running agent loops can now adjust persona, tool permissions, or safety constraints between turns without paying the re-prefill tax.</p>
+      <p>Pair this with the new self-hosted sandboxes (public beta) and MCP tunnels (research preview), and the agentic surface area for enterprise builders gets a lot more flexible this week. Skills (beta), the Files API (beta), and the MCP connector also remain available alongside batch processing and prompt caching for cost control.</p>
+      <div class="source-links">
+        <a href="https://docs.anthropic.com/en/release-notes/overview" class="source-link">Claude API Release Notes</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Hardware</span>
+      <h3>Samsung&rsquo;s HBM4E Sample Shipments Tie Directly Into the Anthropic Round</h3>
+      <p>Samsung disclosed it has begun shipping samples of its 12-layer HBM4E chip &mdash; high-bandwidth memory built specifically for AI servers &mdash; right as it joined Anthropic&rsquo;s Series H. SK Hynix and Micron, the two other memory giants in the round, were named alongside Samsung as &ldquo;critical to the world&rsquo;s supply of memory, storage, and logic chips.&rdquo;</p>
+      <p>The read-through for the rest of the AI stack is straightforward. Memory is the binding constraint on inference economics for frontier-class models, and Anthropic just bought itself preferred-customer access at three of the four shops that can supply it. The longer game &mdash; given Samsung is the only one with foundry capacity &mdash; is custom logic silicon, which would put Anthropic in the same neighborhood as OpenAI&rsquo;s reported Broadcom partnership.</p>
+      <div class="source-links">
+        <a href="https://www.sammobile.com/2026/05/29/samsung-could-make-chips-anthropic-ai-startup/" class="source-link">SamMobile</a>
+        <a href="https://easternherald.com/2026/05/29/anthropic-965-billion-samsung-sk-hynix-micron-memory-chips/" class="source-link">Eastern Herald</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">MCP</span>
+      <h3>MCP Apps Framework Lands With OpenAI, Slack, Asana, Canva, Figma, Box</h3>
+      <p>The MCP Apps extension &mdash; co-developed by Anthropic and OpenAI, with launch partners including Amplitude, Asana, Box, Canva, Figma, Slack, and Salesforce &mdash; brings interactive, app-like surfaces into chat clients. MCP servers can now render UI components inside Claude, ChatGPT, Goose, and VS Code, turning &ldquo;tools&rdquo; into something closer to embedded mini-apps.</p>
+      <p>That this shipped jointly with OpenAI is the news. After Anthropic donated MCP to the Agentic AI Foundation last December, the protocol&rsquo;s neutrality has been an open question. The MCP Apps launch &mdash; cross-vendor, cross-client &mdash; is the strongest signal yet that MCP is settling into the role of universal agent connector, regardless of which model is doing the reasoning.</p>
+      <div class="source-links">
+        <a href="https://thenewstack.io/anthropic-extends-mcp-with-an-app-framework/" class="source-link">The New Stack</a>
+        <a href="https://blog.modelcontextprotocol.io/posts/2026-01-26-mcp-apps/" class="source-link">MCP Blog</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>The Capital and the Cadence Are Now the Story</h3>
+      <p>Two numbers from this week tell you almost everything. $65B at a $965B valuation. Opus 4.7 to Opus 4.8 in under two months. Anthropic is now raising at a scale OpenAI is unaccustomed to being underbid on, and shipping at a tempo that makes the &ldquo;flagship model release&rdquo; feel like a quarterly event rather than an annual one. Wrap those two signals in the rest of May &mdash; KPMG, PwC, SAP, BMS, Salesforce, AWS, 28 security integrations, MCP Apps, the Stainless acquisition &mdash; and what&rsquo;s emerging is a fully vertically integrated AI company: chips at the bottom, frontier models in the middle, agent infrastructure and enterprise rails at the top.</p>
+      <p>The risk in this trajectory isn&rsquo;t demand &mdash; the run-rate number speaks for itself &mdash; it&rsquo;s the operational complexity of being all of those things at once. Each layer (chips, models, agents, enterprise distribution) has different metabolism and different talent pools, and the &ldquo;ad-free&rdquo; commitment is partly a values statement and partly a strategic narrowing: enterprise margins or bust. As long as the SWE-Bench Pro deltas keep landing and the SAP-class deals keep stacking, that bet looks like the right one. The question that&rsquo;ll define the back half of 2026 is whether anyone can keep up.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic News</a>
+        <a href="https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/" class="source-link">TechCrunch</a>
+        <a href="https://www.anthropic.com/news/claude-opus-4-8" class="source-link">Opus 4.8 Launch</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

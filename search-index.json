@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-05-29",
+    "title": "Claude AI Daily Brief — May 29, 2026 | Anthropic Hits $965B Valuation in $65B Series H; Claude Opus 4.8 and Dynamic Workflows Land; Stainless Acquisition Closes",
+    "description": "May 29, 2026: A capital and product double-header. Anthropic closes a $65B Series H at a $965B valuation — now the world's most valuable startup, with Samsung, SK Hynix, and Micron joining as strategic infrastructure partners. Claude Opus 4.8 lands with a 69.2% SWE-Bench Pro score, Dynamic Workflows, and a 2.5x Fast Mode. Anthropic completes its Stainless acquisition, consolidating SDK and MCP server tooling. Plus: GitHub Copilot makes Opus 4.8 generally available and Anthropic re-commits Claude to staying ad-free.",
+    "url": "reports/claude-ai-daily-2026-05-29.html",
+    "headlines": [
+      "Anthropic Hits $965B Valuation in $65B Series H; Claude Opus 4.8 and Dynamic Workflows Land; Stainless Acquisition Closes",
+      "Anthropic Closes $65B Series H at a $965B Valuation, Eclipsing OpenAI",
+      "Claude Opus 4.8 Lands: 69.2% SWE-Bench Pro, Dynamic Workflows, 2.5x Fast Mode",
+      "Anthropic Re-Commits Claude to Ad-Free",
+      "Anthropic Acquires Stainless to Own the SDK and MCP Server Layer",
+      "GitHub Copilot Makes Claude Opus 4.8 Generally Available",
+      "System Messages Mid-Conversation: Cache-Safe Instruction Updates",
+      "Samsung&rsquo;s HBM4E Sample Shipments Tie Directly Into the Anthropic Round",
+      "MCP Apps Framework Lands With OpenAI, Slack, Asana, Canva, Figma, Box",
+      "The Capital and the Cadence Are Now the Story"
+    ],
+    "snippet": "Claude AI Daily Brief — May 29, 2026 | Anthropic Hits $965B Valuation in $65B Series H; Claude Opus 4.8 and Dynamic Workflows Land; Stainless Acquisition Closes ● Friday, May 29, 2026 Claude AI Daily Brief — May 29, 2026 Covering the last 24 hours · Edition #91 TL;DR — Today’s Top 3 Takeaways 1. Ant"
+  },
+  {
     "date": "2026-05-28",
     "title": "Claude AI Daily Brief — May 28, 2026 | SAP Puts Claude at the Heart of Business AI Platform; 28 Security Integrations Land; Bristol Myers Squibb Goes All-In on Claude Enterprise",
     "description": "May 28, 2026: Enterprise day. SAP and Anthropic expand their partnership at Sapphire, making Claude the primary reasoning and agentic engine across SAP's new Business AI Platform. Anthropic ships 28 security and compliance integrations to let CISOs govern Claude inside their existing stacks. Bristol Myers Squibb signs a strategic agreement to deploy Claude Enterprise across research, clinical, manufacturing, and commercial. AWS makes the Claude Platform generally available, and Anthropic opens its Seoul office with a new Korea Representative Director.",

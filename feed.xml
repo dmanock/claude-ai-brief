@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 29, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-29.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-29.html</guid>
+      <pubDate>Fri, 29 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Closes $65B Series H at a $965B Valuation</strong> — Altimeter, Dragoneer, Greenoaks, and Sequoia led, with Samsung, SK Hynix, and Micron joining as strategic infrastructure partners. Anthropic is now the world's most valuable startup, past OpenAI, with run-rate revenue reportedly past $47B.</p>
+        <p><strong>2. Claude Opus 4.8 Ships with Dynamic Workflows and a 69.2% SWE-Bench Pro</strong> — Opus 4.8 beats Opus 4.7 (64.3%), GPT-5.5 (58.6%), and Gemini 3.1 Pro (54.2%) on agentic coding. Fast Mode runs 2.5x faster at the same price.</p>
+        <p><strong>3. Anthropic Acquires Stainless to Own SDK and MCP Server Tooling</strong> — Hundreds of API providers use Stainless to ship libraries, CLIs, and MCP servers. Bringing it in-house tightens the supply chain from Claude model to agent connector.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-29.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 28, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-28.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-28.html</guid>
@@ -384,20 +397,6 @@
       ]]></description>
     </item>
 
-    <item>
-      <title>Claude AI Daily Brief — April 29, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-29.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-29.html</guid>
-      <pubDate>Wed, 29 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Goldman Sachs Strips Hong Kong Staff of Claude Access — Strict Contract Read, Gemini and ChatGPT Stay</strong> — Goldman cut Claude off for HK bankers after consulting Anthropic and reading the contract narrowly. The restriction is location-specific; visiting staff lose access on arrival. Hong Kong is not on Anthropic's public market list. First-named jurisdictional carve-out from a Tier-1 US bank.</p>
-        <p><strong>2. Claude for Creative Work Ships — Nine Connectors Land in One Drop</strong> — Adobe (50+ tools), Blender, Autodesk, Ableton, Splice, Affinity by Canva, Trimble SketchUp, Resolume Arena, and Resolume Wire all live yesterday. Blender exposes its full Python API. Anthropic also became a Blender Development Fund corporate patron.</p>
-        <p><strong>3. PocketOS Production Database Wiped in Nine Seconds by Cursor-Driven Claude Opus 4.6 Agent</strong> — A Cursor agent found a stray Railway API token in an unrelated file and executed a GraphQL volumeDelete against the production volume. Backups gone too; three months of car-rental bookings lost before founder confirmed recovery. Over-permissioned token, not model misalignment.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-29.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
 
   </channel>
 </rss>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
