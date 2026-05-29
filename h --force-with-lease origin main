@@ -1,0 +1,92 @@
+[33m585b7d0[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Daily report: 2026-05-28
+[33m7a3fcc9[m Daily report: 2026-05-27
+[33m480b803[m Trigger Pages rebuild for 2026-05-26
+[33m51f5b3b[m Daily report: 2026-05-26
+[33m66668ef[m Daily report: 2026-05-25
+[33m0d2fdfd[m Daily report: 2026-05-24
+[33m58d7933[m Daily report: 2026-05-23
+[33me34d563[m Daily report: 2026-05-22
+[33m36fc409[m Daily report: 2026-05-21
+[33m95c5466[m Daily report: 2026-05-20
+[33m8e9f17e[m Daily report: 2026-05-19
+[33m4a50c4e[m Daily report: 2026-05-18
+[33mdfb567b[m Daily report: 2026-05-17
+[33m4bfe354[m Daily report: 2026-05-16
+[33m5698a8e[m Daily report: 2026-05-15
+[33m57a7779[m Daily report: 2026-05-14
+[33m83a5b1a[m Daily report: 2026-05-13
+[33mbdeaa6a[m Daily report: 2026-05-12
+[33mb516511[m Daily report: 2026-05-11
+[33mde5decc[m Daily report: 2026-05-10
+[33mfc177f5[m Daily report: 2026-05-09
+[33m3ac0c47[m Daily report: 2026-05-08
+[33mde7d155[m Daily report: 2026-05-07
+[33m3c2058c[m Daily report: 2026-05-06
+[33m487f6e9[m Persist search: extract IIFE to /search.js, add verify-site.sh, repair truncated XML closes
+[33ma914a78[m Fix search: restore truncated index.html tail and replace open() with showBox()
+[33m5711b92[m Fix search: rebuild pagefind index with today's report (67 pages)
+[33m74e52b1[m Daily report: 2026-05-05
+[33m62b6aa2[m Search: heavy console instrumentation + eager Pagefind load
+[33m1f33a36[m Fix search: drop bad .then() on sync options(), add .nojekyll for GitHub Pages binary serving
+[33mc432adc[m Replace JSON search with Pagefind: sharded index, lazy-load, content-hashed cache
+[33maa2b612[m Daily report: 2026-05-04
+[33mcea8d14[m Search: highlight matched text on click using #:~:text fragments
+[33me1d8350[m Restore truncated index.html: complete file from f1210ba base + today's TLDR/archive/search fixes
+[33mb3db75e[m Search: cache-bust index, surface fetch errors, retry-on-load
+[33mfa2420c[m Daily report: 2026-05-03
+[33mf1210ba[m Fix archive nav permanently: event-delegated archive script isolated from search; restore truncated end of file
+[33m87ac403[m Daily report: 2026-05-02
+[33m3aa2f13[m Fix: restore truncated index.html closing tags
+[33m5c8a8a8[m Daily report: 2026-05-01
+[33m25a9f80[m Daily report: 2026-04-30
+[33md270229[m Daily report: 2026-04-29
+[33mcc5f402[m Daily report: 2026-04-28
+[33mcbf32cb[m Daily report: 2026-04-27
+[33ma4d705a[m Daily report: 2026-04-26
+[33m8792b04[m Daily report: 2026-04-25
+[33m28cfbc9[m Daily report: 2026-04-24
+[33m87e4269[m Daily report: 2026-04-23
+[33m18087b8[m Daily report: 2026-04-22
+[33m4112349[m Daily report: 2026-04-21
+[33m764629d[m Daily report: 2026-04-20
+[33mb768725[m Daily report: 2026-04-19
+[33m3317562[m Daily report: 2026-04-18
+[33mcf3e601[m Daily report: 2026-04-17
+[33m6aa233e[m Daily report: 2026-04-16
+[33mb4e9295[m Daily report: 2026-04-15
+[33m0d6f6d7[m Daily report: 2026-04-14
+[33m42f3538[m Daily report: 2026-04-13
+[33m25caa0f[m Daily report: 2026-04-12
+[33m57692cf[m Daily report: 2026-04-11
+[33maaaaa15[m Daily report: 2026-04-10
+[33m8cc025a[m Daily report: 2026-04-09
+[33m3a1b291[m Daily report: 2026-04-08
+[33m533a47a[m Daily report: 2026-04-07
+[33mcf75fef[m Daily report: 2026-04-06
+[33m1dc125c[m Daily report: 2026-04-05
+[33m25cb1a6[m Daily report: 2026-04-04
+[33m6b16717[m Daily report: 2026-04-03
+[33m0d4f00f[m Daily report: 2026-04-02
+[33me5c39eb[m Daily report: 2026-04-01
+[33ma6313ff[m Daily report: 2026-03-31
+[33m89bc60f[m Daily report: 2026-03-30
+[33mc052dc2[m Daily report: 2026-03-29
+[33m2e59095[m Daily report: 2026-03-28
+[33m068e17e[m Daily report: 2026-03-27
+[33me3133d8[m Daily report: 2026-03-26
+[33m2e3e817[m Daily report: 2026-03-25
+[33m0b610c3[m Daily report: 2026-03-24
+[33m394d51e[m Daily report: 2026-03-23
+[33m4491e46[m Daily report: 2026-03-22
+[33m5c39f21[m Daily report: 2026-03-21
+[33mecb1ecf[m Daily report: 2026-03-20
+[33m8430768[m Daily report: 2026-03-19
+[33m3e2e75d[m Daily report: 2026-03-18
+[33md1b1c6a[m Daily report: 2026-03-17
+[33mea95707[m Daily report: 2026-03-15
+[33mc912dcb[m Daily report: 2026-03-16
+[33ma3ec8e2[m Daily report: 2026-03-14
+[33m6fcd45e[m Daily report: 2026-03-13
+[33mef294c1[m Daily report: 2026-03-12
+[33m7b60912[m Daily report: 2026-03-11
+[33md60c518[m Daily report: 2026-03-10
