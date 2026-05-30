@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-05-30">
+  <title>Claude AI Daily Brief — May 30, 2026 | Mythos Public Release Imminent; Claude Overtakes OpenAI in Enterprise; Salesforce Commits $300M to Claude Tokens</title>
+  <meta name="description" content="May 30, 2026: The day-after picture. Mythos-class models heading for public release in the coming weeks. Ramp's AI Index has Claude past OpenAI at 34.4% enterprise adoption. Salesforce will spend ~$300M on Anthropic tokens in 2026 — most of it on coding. Claude Code now produces roughly 4% of all public GitHub commits worldwide. Simon Willison&rsquo;s Opus 4.8 verdict: &lsquo;modest but tangible.&rsquo; MCP&rsquo;s 2026-07-28 spec release candidate locks. Plus: Wiz migrates 50,000 lines of Python to Go in 20 hours with Claude Code.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude Mythos, Mythos-class models, Project Glasswing, Salesforce, Bristol Myers Squibb, Claude Code, Claude Opus 4.8, MCP, Ramp AI Index, enterprise AI adoption">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-05-30.html">
+  <meta property="og:title" content="Claude AI Daily Brief — May 30, 2026">
+  <meta property="og:description" content="Mythos public release in weeks. Claude past OpenAI on enterprise adoption (34.4%). Salesforce ~$300M token commitment. Claude Code = 4% of public GitHub commits. Opus 4.8 reviews land. MCP spec RC locks.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-30.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — May 30, 2026">
+  <meta name="twitter:description" content="Mythos heads for public release. Claude tops enterprise adoption. Salesforce ~$300M on Anthropic tokens. Claude Code = 4% of public GitHub commits.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-30.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-05-30.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — May 30, 2026",
+    "description": "Mythos-class models are heading for public release in the coming weeks. Ramp's AI Index has Claude past OpenAI at 34.4% enterprise adoption. Salesforce will spend ~$300M on Anthropic tokens in 2026. Claude Code now produces roughly 4% of all public GitHub commits worldwide. Simon Willison's Opus 4.8 verdict: modest but tangible. MCP's 2026-07-28 spec release candidate locks.",
+    "datePublished": "2026-05-30T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-05-30.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-05-30.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav data-pagefind-ignore="all">
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Saturday, May 30, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; May 30, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #92</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Mythos-Class Models Head for Public Release &ldquo;in the Coming Weeks&rdquo;</strong> &mdash; Buried in the Opus 4.8 announcement, Anthropic said it now expects to bring Mythos-class models to all customers in the coming weeks. The model that found 10,000+ zero-days through Project Glasswing is about to leave its restricted defensive-consortium box &mdash; layered rollout starts via enterprise plans.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Claude Overtakes OpenAI in Enterprise &mdash; and Salesforce Will Spend ~$300M on Tokens</strong> &mdash; Ramp&rsquo;s May 2026 AI Index puts Claude at 34.4% of business adoption vs OpenAI&rsquo;s 32.3%. Salesforce CEO Marc Benioff confirmed the company will spend close to $300M on Anthropic tokens in 2026, most of it tied to coding work.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Claude Code Is Now ~4% of All Public GitHub Commits</strong> &mdash; The Opus 4.8 / Dynamic Workflows aftermath: Claude Code is producing roughly 4% of every public commit on GitHub. Wiz migrated 50,000 lines of Python to Go in 20 hours of active development &mdash; a project originally scoped at 2&ndash;3 months of manual work.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Mythos</span>
+      <h3>Mythos-Class Models to Reach &ldquo;All Customers&rdquo; in the Coming Weeks</h3>
+      <p>Anthropic confirmed this week that Mythos-class models &mdash; the frontier system that has been locked inside Project Glasswing since April &mdash; are being prepared for broader release. The Opus 4.8 announcement closed with the line that the company is making &ldquo;swift progress on developing safeguards&rdquo; and expects to bring Mythos to all customers in the coming weeks. Recent reporting points to a June rollout in stages, starting with gated capabilities inside enterprise products before any general access.</p>
+      <p>The context is unprecedented. Through Project Glasswing, Anthropic and partners including AWS, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks have used Mythos Preview to identify more than 10,000 high- or critical-severity vulnerabilities across major operating systems, browsers, and infrastructure software &mdash; including a 27-year-old bug in OpenBSD. Anthropic withheld the model from general release specifically because the same capabilities cut both ways. That a public release window is even being floated is the loudest signal yet that the safeguard layer is close to ready.</p>
+      <div class="source-links">
+        <a href="https://www.govinfosecurity.com/anthropic-expands-public-access-to-claude-mythos-ai-model-a-31778" class="source-link">GovInfoSecurity</a>
+        <a href="https://cybersecuritynews.com/claude-mythos-moves-toward-public/" class="source-link">Cybersecurity News</a>
+        <a href="https://www.buildfastwithai.com/blogs/claude-mythos-release-date-access-2026" class="source-link">BuildFastWithAI</a>
+        <a href="https://www.anthropic.com/glasswing" class="source-link">Project Glasswing</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Adoption</span>
+      <h3>Ramp AI Index: Claude Pulls Ahead of OpenAI in Business Adoption</h3>
+      <p>The May 2026 release of the Ramp AI Index has Anthropic at 34.4% of business adoption &mdash; up 3.8 points in April &mdash; while OpenAI fell 2.9 points to 32.3%. It&rsquo;s the first time Ramp has shown Claude ahead in this measure, and it&rsquo;s consistent with the $47B run-rate revenue figure Anthropic disclosed alongside the $65B Series H earlier this week.</p>
+      <p>Read it next to the Anthropic-OpenAI valuation flip ($965B vs $852B) and the picture sharpens: enterprise buyers are voting with their procurement budgets. Anthropic now holds roughly 40% of enterprise LLM spend, with customers including Netflix, Spotify, KPMG, L&rsquo;Or&eacute;al, and Salesforce. Coding is the lead use case &mdash; over half of Claude Code revenue comes from enterprise &mdash; but reasoning, agentic workflows, and document handling are pulling weight too.</p>
+      <div class="source-links">
+        <a href="https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead" class="source-link">VentureBeat</a>
+        <a href="https://www.mindstudio.ai/blog/anthropic-vs-openai-business-adoption-2026" class="source-link">MindStudio</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Reaction</span>
+      <h3>Simon Willison on Opus 4.8: &ldquo;A Modest But Tangible Improvement&rdquo;</h3>
+      <p>The first detailed independent review of Opus 4.8 is out from Simon Willison, who borrowed the framing directly from Anthropic&rsquo;s own model card. His verdict: real improvements, but not a step-change &mdash; better instruction following, fewer unsupported claims, and noticeably stronger on long agentic loops, though &ldquo;don&rsquo;t expect a different model.&rdquo; Worth knowing because Willison&rsquo;s reviews tend to anchor how the developer community defaults its model selection.</p>
+      <p>Other reactions are landing in the same range. Vellum&rsquo;s benchmark explainer flags the 88.6% SWE-bench Verified score (up from 87.6%) as the most reliable signal &mdash; it lines up with the 4x reduction in unflagged code flaws that Anthropic emphasized. Pricing held at $5/$25 per million tokens means the value-per-dollar is the real story, especially with Fast Mode running 2.5x faster at the same price.</p>
+      <div class="source-links">
+        <a href="https://simonwillison.net/2026/May/28/claude-opus-4-8/" class="source-link">Simon Willison</a>
+        <a href="https://www.vellum.ai/blog/claude-opus-4-8-benchmarks-explained" class="source-link">Vellum</a>
+        <a href="https://llm-stats.com/blog/research/claude-opus-4-8-launch" class="source-link">LLM Stats</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Migrations</span>
+      <h3>Wiz Migrates 50K Lines of Python to Go in 20 Hours with Claude Code</h3>
+      <p>The Claude Code post-launch case studies are landing, and the numbers are stacking up. Wiz reported migrating a 50,000-line Python library to Go in roughly 20 hours of active development &mdash; work the team had originally scoped at two to three months. A separate team completed a 10,000-line Scala-to-Java migration in four days, replacing an estimated ten engineer-weeks.</p>
+      <p>The thread connecting those numbers: Opus 4.8 inside Claude Code with Dynamic Workflows in research preview. One prompt now orchestrates tens to hundreds of background agents through a migration with the existing test suite as the bar. Available on Max, Team, and Enterprise plans, plus the Claude API, Bedrock, Vertex, and Microsoft Foundry. Useful context for the bigger picture: Claude Code is now estimated to produce ~4% of all public GitHub commits worldwide.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/claude-opus-4-8" class="source-link">Anthropic News</a>
+        <a href="https://pasqualepillitteri.it/en/news/2794/claude-code-enterprise-codebase-anthropic-best-practices" class="source-link">Enterprise Codebase Guide</a>
+        <a href="https://www.digitalapplied.com/blog/claude-opus-4-8-release-dynamic-workflows-2026" class="source-link">Digital Applied</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Protocol</span>
+      <h3>MCP 2026-07-28 Release Candidate Locks: Stateless Core, Apps, Tasks, OAuth</h3>
+      <p>The Model Context Protocol release candidate for the 2026-07-28 spec is locked as of May 21 and now waiting on final sign-off. It&rsquo;s the largest revision since launch: a stateless protocol core that runs on ordinary HTTP infrastructure, the Extensions framework, the Tasks extension for long-running work, MCP Apps for server-rendered UI inside chat clients, authorization that aligns more closely with OAuth and OpenID Connect, and a formal deprecation policy.</p>
+      <p>The numbers underneath the spec tell their own story. Anthropic reported over 97M monthly SDK downloads across all languages for MCP in December 2025, and the public-server count crossed 500 earlier this year. Claude alone now lists 75+ official connectors. With OpenAI and Google DeepMind both shipping native MCP support, this RC is effectively setting the contract for the cross-vendor agent layer.</p>
+      <div class="source-links">
+        <a href="https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/" class="source-link">MCP Blog</a>
+        <a href="https://modelcontextprotocol.io/specification/2025-11-25" class="source-link">Spec</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Skills</span>
+      <h3>Agent Skills and Managed Agents Quietly Move More Pieces to Public Beta</h3>
+      <p>Two developer-platform updates worth tracking from this week&rsquo;s release notes. Multiagent Orchestration and Outcomes both moved to public beta inside Claude Managed Agents (header <code>managed-agents-2026-04-01</code>), and Memory for Managed Agents joined them. Pre-built Anthropic Skills for PowerPoint, Excel, Word, and PDF are now available across claude.ai, the Claude API, Claude Platform on AWS, and Microsoft Foundry &mdash; with custom Skills uploadable via the Skills API (<code>code-execution-2025-08-25</code> beta header).</p>
+      <p>The consumer side also got tidied: Claude Desktop now has a Customize section that groups Skills, plugins, and connectors in one place, and Cowork (the app mode) supports creating and scheduling recurring and on-demand tasks from inside the main interface. Small ergonomic wins that quietly remove a lot of context-switching for power users.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Claude Platform Release Notes</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+        <a href="https://tygartmedia.com/claude-updates-april-2026/" class="source-link">Tygart Media</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Enterprise</span>
+      <h3>Salesforce to Spend ~$300M on Anthropic Tokens in 2026, Mostly on Coding</h3>
+      <p>Salesforce CEO Marc Benioff said the company could spend close to $300M on Anthropic tokens in 2026, with the majority tied to coding work. The disclosure came alongside a hiring pause and a plan to bring on 1,000&ndash;2,000 salespeople to support AI product adoption across enterprise customers &mdash; a procurement-and-distribution combination that&rsquo;s now a template for the rest of the Global 2000.</p>
+      <p>Read it as a single-customer datapoint and it&rsquo;s impressive. Read it against the Anthropic-OpenAI enterprise adoption flip and the BMS deal &mdash; 30,000 employees on Claude Enterprise across R&amp;D, clinical development, manufacturing, commercial, and corporate &mdash; and it starts to look like an inflection. Coding spend through Claude Code is the gateway drug; agentic workflows and document-heavy reasoning are where the dollars compound.</p>
+      <div class="source-links">
+        <a href="https://americanbazaaronline.com/2026/05/18/salesforce-to-spend-300m-on-anthropic-tokens-amid-hiring-pause-481019/" class="source-link">American Bazaar</a>
+        <a href="https://news.bms.com/news/details/2026/Bristol-Myers-Squibb-Announces-Strategic-Agreement-with-Anthropic-to-Position-Claude-Enterprise-as-the-Shared-Intelligence-Platform-Across-Its-Global-Operations/default.aspx" class="source-link">BMS Press Release</a>
+        <a href="https://www.fiercepharma.com/pharma/bristol-myers-taps-anthropic-claude-enterprise-wide-ai-adoption-speed-drug-rd-global" class="source-link">Fierce Pharma</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Security</span>
+      <h3>Free Claude Code Security Plugin Lands &mdash; Available on All Plans</h3>
+      <p>The Claude Code team shipped a security-guidance plugin that autonomously reviews code edits, model outputs, and commits in real time, flagging vulnerabilities before they reach production. It&rsquo;s free for all users and ships on all plans &mdash; a deliberate distribution choice that puts the same inline-vuln-flagging behavior Project Glasswing partners get on a smaller scale into every Claude Code session.</p>
+      <p>Paired with the <code>/effort xhigh</code> mode that landed last week for the hardest tasks, this completes a useful trio on the security side: high-effort reasoning for thorny code, inline vulnerability flags during edits, and (soon) Mythos-class capabilities for the consortium partners. The throughline: Anthropic is making &ldquo;don&rsquo;t ship vulnerable code&rdquo; a default property of Claude Code, not a premium add-on.</p>
+      <div class="source-links">
+        <a href="https://cybersecuritynews.com/free-security-plugin-for-claude-code/" class="source-link">Cybersecurity News</a>
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>The Story Is No Longer the Launch &mdash; It&rsquo;s the Distribution</h3>
+      <p>The day-after picture is the more revealing one. The Opus 4.8 benchmark gains are real but, as Simon Willison put it, &ldquo;modest.&rdquo; The $65B round and $965B valuation are stunning, but they&rsquo;re a lagging indicator. The leading indicators that actually changed this week are three: Claude past OpenAI in enterprise adoption per Ramp, Salesforce committing ~$300M to Anthropic tokens for 2026, and Claude Code generating ~4% of all public GitHub commits worldwide. Those are distribution metrics, not capability metrics.</p>
+      <p>That&rsquo;s the bet underneath every other Anthropic move of the past month: pile Skills, MCP Apps, Managed Agents, Stainless, GitHub Copilot integration, the security plugin, and Dynamic Workflows on top of an already-leading model, and let the surface area do the compounding. The wildcard is Mythos. If it does land publicly in June with credible safeguards, Anthropic gets to claim a category &mdash; defensive cybersecurity as a frontier-AI primitive &mdash; that nobody else can replicate without their own equivalent. The question to keep an eye on through June: how layered is the release, and which enterprise tiers see Mythos first?</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/claude-opus-4-8" class="source-link">Opus 4.8 Launch</a>
+        <a href="https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead" class="source-link">VentureBeat</a>
+        <a href="https://www.anthropic.com/glasswing" class="source-link">Project Glasswing</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

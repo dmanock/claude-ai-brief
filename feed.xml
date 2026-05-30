@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 30, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-30.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-30.html</guid>
+      <pubDate>Sat, 30 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Mythos-Class Models Head for Public Release "in the Coming Weeks"</strong> — Anthropic confirmed Mythos-class models are coming to all customers in the coming weeks. The system that found 10,000+ zero-days via Project Glasswing is leaving its restricted defensive-consortium box, with a June rollout in stages expected.</p>
+        <p><strong>2. Claude Overtakes OpenAI in Enterprise — Salesforce Will Spend ~$300M on Tokens</strong> — Ramp's May 2026 AI Index puts Claude at 34.4% of business adoption vs OpenAI's 32.3%. Salesforce CEO Marc Benioff confirmed a ~$300M Anthropic token commitment for 2026, mostly on coding.</p>
+        <p><strong>3. Claude Code Is Now ~4% of All Public GitHub Commits</strong> — Wiz migrated 50,000 lines of Python to Go in 20 hours of active development with Claude Code, work originally scoped at 2-3 months. Dynamic Workflows in Opus 4.8 doing the heavy lifting.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-30.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 29, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-29.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-29.html</guid>
@@ -383,20 +396,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-01.html">Read full report →</a></p>
       ]]></description>
     </item>
-
-    <item>
-      <title>Claude AI Daily Brief — April 30, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-04-30.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-04-30.html</guid>
-      <pubDate>Thu, 30 Apr 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. White House Opposes Anthropic's Mythos Expansion to ~70 Companies — Compute and Security Cited</strong> — Trump administration officials told Anthropic overnight they don't agree with widening Mythos access from 50 to roughly 120 entities. WSJ broke the story; Bloomberg confirmed. The block lands while the same White House is drafting a separate executive action to restore Anthropic across federal agencies.</p>
-        <p><strong>2. 1M Context Beta Retires Today on Sonnet 4 and 4.5</strong> — The context-1m-2025-08-07 beta header on claude-sonnet-4-5 and claude-sonnet-4 stops working today. Requests above 200K tokens return a 400 error from now on. Migration is a one-line ID change to claude-sonnet-4-6 or claude-opus-4-6 — both have 1M context GA at standard pricing.</p>
-        <p><strong>3. iCapital Picks Anthropic for Its Next AI Phase</strong> — The wealth-management platform serving advisors named Claude as primary, citing reasoning, interpretability, and a compliance-first deployment posture. Claude Code is already inside the dev platform; client-facing apps and the operational stack are next. First named "wealth platform" anchor under the Anthropic Partner Network umbrella.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-04-30.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
 
   </channel>
 </rss>
