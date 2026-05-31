@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-05-31",
+    "title": "Claude AI Daily Brief — May 31, 2026 | Saturday Outage Hits Claude Users Worldwide; $1T IPO Drumbeat Gets Louder; Auto Mode Lands on Bedrock, Vertex, Foundry",
+    "description": "May 31, 2026: The weekend picture. A Saturday outage hits Claude users globally, with Opus 4.7 elevated errors confirmed on the status page. The $1T Anthropic IPO drumbeat gets louder as analysts circle the $47B run-rate. Auto Mode for Opus 4.7 and 4.8 lands on Bedrock, Vertex, and Microsoft Foundry. Forcepoint wires Claude Enterprise into security oversight. MCP registry crosses 9,650 servers. Mythos public release window narrows.",
+    "url": "reports/claude-ai-daily-2026-05-31.html",
+    "headlines": [
+      "Saturday Outage Hits Claude Users Worldwide; $1T IPO Drumbeat Gets Louder; Auto Mode Lands on Bedrock",
+      "Vertex",
+      "Foundry",
+      "Claude Goes Dark for Hours on Saturday Afternoon ET",
+      "The $1T IPO Drumbeat: Anthropic&rsquo;s Public-Market Path Gets the Weekend Treatment",
+      "Mythos Public Release Window Narrows &mdash; Watch for the Safeguard Disclosure",
+      "Auto Mode Lands on Bedrock, Vertex, and Microsoft Foundry for Opus 4.7 / 4.8",
+      "MCP Registry Crosses 9,650 Servers; GitHub Topic at 15,926 Repos",
+      "Plugin Marketplace Picks Up Steam: 55+ Official, 72+ Community",
+      "Forcepoint Wires Claude Enterprise Into Its Oversight Stack",
+      "Trump Administration Reverses Course on AI Oversight &mdash; Mythos Cited as Catalyst",
+      "&ldquo;Teaching Claude Why&rdquo; &mdash; Alignment Science Post Now Required Reading",
+      "The Outage Is the Story &mdash; Because Distribution Is Now the Risk"
+    ],
+    "snippet": "Claude AI Daily Brief — May 31, 2026 | Saturday Outage Hits Claude Users Worldwide; $1T IPO Drumbeat Gets Louder; Auto Mode Lands on Bedrock, Vertex, Foundry ● Sunday, May 31, 2026 Claude AI Daily Brief — May 31, 2026 Covering the last 24 hours · Edition #93 TL;DR — Today’s Top 3 Takeaways 1. Saturd"
+  },
+  {
     "date": "2026-05-30",
     "title": "Claude AI Daily Brief — May 30, 2026 | Mythos Public Release Imminent; Claude Overtakes OpenAI in Enterprise; Salesforce Commits $300M to Claude Tokens",
     "description": "May 30, 2026: The day-after picture. Mythos-class models heading for public release in the coming weeks. Ramp's AI Index has Claude past OpenAI at 34.4% enterprise adoption. Salesforce will spend ~$300M on Anthropic tokens in 2026 — most of it on coding. Claude Code now produces roughly 4% of all public GitHub commits worldwide. Simon Willison&rsquo;s Opus 4.8 verdict: &lsquo;modest but tangible.&rsquo; MCP&rsquo;s 2026-07-28 spec release candidate locks. Plus: Wiz migrates 50,000 lines of Python to Go in 20 hours with Claude Code.",

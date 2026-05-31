@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — May 31, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-31.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-31.html</guid>
+      <pubDate>Sun, 31 May 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Saturday Outage Hits Claude Users Worldwide</strong> — A multi-hour disruption that began Saturday afternoon ET left users globally unable to load conversations or get responses. Anthropic's status page logged "Opus 4.7 elevated errors" resolved late Saturday night. The outage landed two days after the $65B Series H closed.</p>
+        <p><strong>2. The $1T IPO Drumbeat Gets Louder</strong> — Motley Fool, Yahoo Finance, and CNBC all ran "next $1T IPO" takes on Anthropic over the weekend. $965B private mark, $47B run-rate (up from $30B in April, $9B last year), and a reported late-2026 IPO target.</p>
+        <p><strong>3. Auto Mode Lands on Bedrock, Vertex, and Microsoft Foundry</strong> — Friday's Claude Code release made Auto Mode available across all three major cloud platforms for Opus 4.7 and 4.8. Multi-cloud parity is now the platform norm, not a roadmap item.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-31.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 30, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-30.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-30.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Euro-Area Finance Ministers Take Up Mythos with Banking Supervisors Monday — No EU Government Has Access</strong> — The Eurogroup will discuss Mythos with bank supervisors at Monday's meeting. Germany's BaFin chief Theurer has urged the European Commission to demand access from Anthropic or directly from the US administration. The EU is now formally inside the regulator-vendor working frame.</p>
         <p><strong>3. Day-2 Claude Security Reception Settles — The Panic-Driven Selloff Frame Is Gone, the Structural Read Takes Over</strong> — Forty-eight hours after Wednesday's launch, CSIS, Forrester, and the security-press circuit have moved past the "SAST is dead" reflex to a bounded-disruption frame. Markets did not repeat February's 25% JFrog drop. The vendor coalition has reframed Claude Security from competitor to substrate.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-02.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — May 1, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-01.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-01.html</guid>
-      <pubDate>Fri, 01 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Security Exits Research Preview into Public Beta on Enterprise — Opus 4.7 Scans Codebases, Traces Data Flows, Generates Patches</strong> — Anthropic shipped Claude Security to public beta after a private preview that ran on hundreds of organizations since February. Each finding ships with a confidence score, severity, likely impact, reproduction steps, and a recommended patch. Available now to Claude Enterprise customers; Team and Max are next.</p>
-        <p><strong>2. Six Major Security Vendors Embed Opus 4.7 — CrowdStrike Falcon, Microsoft Security, Palo Alto Networks, SentinelOne, TrendAI, Wiz</strong> — The launch landed with the channel coalition that matters: every named SOC and posture-management vendor a Fortune 500 CISO already has on the stack. CrowdStrike published a separate release on Project QuiltWorks — Opus 4.7 embedded across the Falcon platform as the reasoning layer.</p>
-        <p><strong>3. AISI Publishes Its Mythos Preview Cyber Eval — 73% on Expert-Level Tasks That No Model Could Complete Before April 2025</strong> — Under explicit direction with network access, Mythos executed multi-stage attacks and discovered-and-exploited vulnerabilities autonomously — work that takes human professionals days. Test environments lacked active defenders; AISI flagged that limit explicitly.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-01.html">Read full report →</a></p>
       ]]></description>
     </item>
 
