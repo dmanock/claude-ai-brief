@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 1, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-01.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-01.html</guid>
+      <pubDate>Mon, 01 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Post-Mortem Watch: Monday Opens With Outage Questions Unanswered</strong> — Anthropic still hasn't issued a public write-up of Saturday's hours-long Claude outage. With Salesforce, BMS, PwC, KPMG, and Thomson Reuters all running production workloads on Claude, the post-mortem is the first real test of the company's SLA posture as a $965B enterprise platform.</p>
+        <p><strong>2. Code w/ Claude Tokyo Is Nine Days Out — Anthropic's Biggest Asia Push Yet</strong> — June 10–11 in Tokyo with simultaneous English-Japanese interpretation, livestream, an Extended day for independent devs, and keynotes from Ami Vora, Boris Cherny, and Angela Jiang.</p>
+        <p><strong>3. Colossus 1 Capacity Ramps Up — 220K+ GPUs, $1.25B/Month</strong> — The all-of-Colossus-1 deal Anthropic signed with xAI is now actively absorbing inference load. 300MW+, 220,000+ Nvidia GPUs (H100, H200, GB200), capped at 11% of the broader xAI park. The reliability story for H2 2026 runs through Memphis.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-01.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — May 31, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-31.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-31.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Code with Claude SF Three Days Out — Sonnet 4.8 Watch Window Narrows Into the May 6-13 Corridor</strong> — The Sonnet 4.8 expected window now overlaps with the SF developer conference Wednesday May 6. The leaked source-map references that named KAIROS persistent agents and Undercover Mode point at the same surface. In-person seats long closed; livestream registration open. The agentic-SDLC track is the announced agenda spine.</p>
         <p><strong>3. $50B-at-$900B Round Inside the Two-Week Close Window — Board Decision Still Expected This Month</strong> — The Friday-night funding round news held cleanly through Saturday and into Sunday with no walkbacks. Board decision still expected at the May meeting; close target inside two weeks. The S-1 narrative now has the private-market mark in place ahead of the Eurogroup, the conference, and any Sonnet ship.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-03.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — May 2, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-02.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-02.html</guid>
-      <pubDate>Sat, 02 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Eyes $50B Raise at a Valuation Approaching $900B — Final Pre-IPO Round, Board Decision in May, October Window Holds</strong> — Anthropic is fielding multiple preemptive offers between $40B and $50B at a valuation between $850B and $900B. The round is expected to close inside two weeks. The valuation more than doubles the $380B mark from February and lands ahead of OpenAI's $852B post-money.</p>
-        <p><strong>2. Euro-Area Finance Ministers Take Up Mythos with Banking Supervisors Monday — No EU Government Has Access</strong> — The Eurogroup will discuss Mythos with bank supervisors at Monday's meeting. Germany's BaFin chief Theurer has urged the European Commission to demand access from Anthropic or directly from the US administration. The EU is now formally inside the regulator-vendor working frame.</p>
-        <p><strong>3. Day-2 Claude Security Reception Settles — The Panic-Driven Selloff Frame Is Gone, the Structural Read Takes Over</strong> — Forty-eight hours after Wednesday's launch, CSIS, Forrester, and the security-press circuit have moved past the "SAST is dead" reflex to a bounded-disruption frame. Markets did not repeat February's 25% JFrog drop. The vendor coalition has reframed Claude Security from competitor to substrate.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-02.html">Read full report →</a></p>
       ]]></description>
     </item>
 
