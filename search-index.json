@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-06-02",
+    "title": "Claude AI Daily Brief — June 2, 2026 | Anthropic Files Confidentially for IPO; Claude Outage Traced to Sub-Agent Bug; EU Lands Mythos Access via ENISA",
+    "description": "June 2, 2026: Anthropic confidentially files for an IPO at near $1T valuation. A global Claude outage gets traced to a runaway Claude Code sub-agent. ENISA becomes the first EU agency to get Mythos access. June 15 Agent SDK billing cutover now 13 days out.",
+    "url": "reports/claude-ai-daily-2026-06-02.html",
+    "headlines": [
+      "Anthropic Files Confidentially for IPO; Claude Outage Traced to Sub-Agent Bug; EU Lands Mythos Access via ENISA",
+      "Anthropic Files Confidentially for IPO: The Public-Market Test of the AI Boom Begins",
+      "Tuesday Outage: Claude Down Globally After Claude Code Sub-Agent Bug Burns Quotas",
+      "ENISA Becomes First EU Agency Cleared for Mythos Access",
+      "The June 15 Agent SDK Billing Cutover Is 13 Days Out &mdash; Audit Your Workflows Now",
+      "Dynamic Workflows Now Has a Production Failure Case &mdash; Sub-Agent Bounding Goes On the Roadmap",
+      "Claude Code Continues to Drive Workflow Change in the Enterprise &mdash; AI Magazine Roundup",
+      "Code w/ Claude Tokyo Is 8 Days Out &mdash; In-Person Closed, Livestream Open",
+      "Wall Street&rsquo;s First Read on the Anthropic IPO Filing: &ldquo;Race to a Trillion&rdquo;",
+      "MCP Adoption Keeps Compounding: 9,650+ Servers, 32K+ Plugins, Cross-Vendor Support Hardening",
+      "IPO Day Minus One Was the Worst Possible Day for the Tuesday Outage"
+    ],
+    "snippet": "Claude AI Daily Brief — June 2, 2026 | Anthropic Files Confidentially for IPO; Claude Outage Traced to Sub-Agent Bug; EU Lands Mythos Access via ENISA ● Tuesday, June 2, 2026 Claude AI Daily Brief — June 2, 2026 Covering the last 24 hours · Edition #95 TL;DR — Today’s Top 3 Takeaways 1. Anthropic Fi"
+  },
+  {
     "date": "2026-06-01",
     "title": "Claude AI Daily Brief — June 1, 2026 | Post-Mortem Watch After Saturday Outage; Code w/ Claude Tokyo 9 Days Out; Colossus 1 Capacity Comes Online",
     "description": "June 1, 2026: Monday opens with a post-mortem watch after Saturday's hours-long outage. Code w/ Claude Tokyo is nine days out and is Anthropic's first major Asia developer push. Colossus 1's 220,000+ GPU capacity comes online under the $1.25B/month rental. Mythos public release window narrows. Opus 4.8 climbing the adoption curve fast.",

@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 2, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-02.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-02.html</guid>
+      <pubDate>Tue, 02 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Files Confidentially for IPO — The $1T Public-Market Test Is On</strong> — A draft S-1 went to the SEC Monday, less than a week after the $65B Series H closed at a $965B valuation. Anthropic leapfrogs OpenAI to the IPO door first, with $47B run-rate and an explicit late-2026 listing window.</p>
+        <p><strong>2. Tuesday Outage Traced to a Runaway Claude Code Sub-Agent</strong> — A second hours-long outage in four days hit Claude, Console, API, and Claude Code starting around 2:10am ET. Root cause reportedly: Claude Code sub-agents multiplying excessively and burning user quotas. Emergency quota reset followed.</p>
+        <p><strong>3. ENISA Becomes First EU Agency to Get Mythos Access</strong> — The EU's cybersecurity body joins Project Glasswing — the first time Mythos has been offered outside the US/UK. The bloc had to clear access with Washington. The dual-use model just became a geopolitical asset.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-02.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — June 1, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-01.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-01.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. $1.5B Wall Street Joint Venture Nears Close — Blackstone, Goldman Sachs, Hellman &amp; Friedman Anchor an AI Consulting Arm for PE Portfolios</strong> — Anthropic, Blackstone, and Hellman &amp; Friedman each contribute roughly $300M; Goldman Sachs around $150M; General Atlantic among additional investors. Vehicle helps PE portfolio companies integrate Claude into finance, ops, customer service, analytics, and enterprise software. Announcement could land this week.</p>
         <p><strong>3. Eurogroup Discusses Mythos with Banking Supervisors Today — Code with Claude SF Two Days Out</strong> — Euro-area finance ministers meet bank supervisors today on Mythos access; Germany's BaFin chief drives the push, France and Italy expected to align. Code with Claude SF lands Wednesday with the Sonnet 4.8 watch window inside May 6–13. The Briefing Financial Services livestream tomorrow puts a third inflection in the same week.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-04.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — May 3, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-03.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-03.html</guid>
-      <pubDate>Sun, 03 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Eurogroup-Mythos Preview Sunday — Germany Leads, France and Italy Expected to Back Access Parity Monday</strong> — The Eurogroup will discuss Mythos with banking supervisors Monday May 4. Germany's BaFin chief Theurer drives the access push; France and Italy are expected to align. The European Banking Authority and the EU AI Office have not pre-staked positions; Monday is their first inflection. UK banks are reportedly poised to gain Mythos access in the coming weeks.</p>
-        <p><strong>2. Code with Claude SF Three Days Out — Sonnet 4.8 Watch Window Narrows Into the May 6-13 Corridor</strong> — The Sonnet 4.8 expected window now overlaps with the SF developer conference Wednesday May 6. The leaked source-map references that named KAIROS persistent agents and Undercover Mode point at the same surface. In-person seats long closed; livestream registration open. The agentic-SDLC track is the announced agenda spine.</p>
-        <p><strong>3. $50B-at-$900B Round Inside the Two-Week Close Window — Board Decision Still Expected This Month</strong> — The Friday-night funding round news held cleanly through Saturday and into Sunday with no walkbacks. Board decision still expected at the May meeting; close target inside two weeks. The S-1 narrative now has the private-market mark in place ahead of the Eurogroup, the conference, and any Sonnet ship.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-03.html">Read full report →</a></p>
       ]]></description>
     </item>
 
