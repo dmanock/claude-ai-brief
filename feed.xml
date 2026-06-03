@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 3, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-03.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-03.html</guid>
+      <pubDate>Wed, 03 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Strava MCP Connector Goes Live — Claude Gets Native Access to Years of Activity Data</strong> — Strava began phased rollout of an MCP connector for paying subscribers, exposing per-second heart-rate, GPS, power, and pace streams to Claude via OAuth read-only auth. The first mass-consumer MCP integration of the year.</p>
+        <p><strong>2. Claude Code v2.1.160 Locks Down Shell-Startup and Build-Tool Writes</strong> — The Tuesday release adds explicit prompts before any write to .zshenv, .bash_login, ~/.config/git/, .npmrc, bunfig.toml, devcontainer files and similar paths — closing the most common acceptEdits-mode arbitrary-execution gotcha.</p>
+        <p><strong>3. SAP Names Claude Its Primary Reasoning Model for SAP Business AI Platform</strong> — SAP and Anthropic are embedding Claude as the lead agentic capability across SAP's newly announced Business AI Platform — the deepest single-vendor enterprise integration since the PwC alliance expanded last week.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-03.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — June 2, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-02.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-02.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. FIS and Anthropic Ship a Financial Crimes AI Agent — BMO and Amalgamated Bank as Pilots, FIS Stock Jumps 7% After-Hours</strong> — Built by Anthropic's Applied AI team and forward-deployed engineers embedded with FIS. The agent assembles AML evidence across core systems in minutes. Broader release in 2H 2026; credit decisioning, deposit retention, customer onboarding, and fraud prevention next on the roadmap with Claude.</p>
         <p><strong>3. $1.5B Wall Street JV Officially Announced — Apollo, GIC, General Atlantic, Sequoia, Leonard Green Round Out the Cap Table</strong> — Anthropic, Blackstone, and Hellman &amp; Friedman each at $300M; Goldman $150M. Standalone Palantir-style forward-deployment entity. OpenAI is reportedly running a near-identical play with TPG and Bain. Eurogroup readout: ministers will revisit Mythos; EU now in formal talks with Anthropic on bank testing.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-05.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — May 4, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-04.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-04.html</guid>
-      <pubDate>Mon, 04 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Pentagon Picks Seven AI Vendors for Classified-Network Contracts — Anthropic Stays Excluded, Mythos Treated Separately</strong> — DOD awarded classified-network deals to OpenAI, Google, Microsoft, AWS, Nvidia, SpaceX, and Reflection AI on May 1. Anthropic is the only frontier lab off the list, kept on the supply-chain-risk designation. CTO Emil Michael called Mythos a "separate national security moment" — the NSA is already running it under a parallel track.</p>
-        <p><strong>2. $1.5B Wall Street Joint Venture Nears Close — Blackstone, Goldman Sachs, Hellman &amp; Friedman Anchor an AI Consulting Arm for PE Portfolios</strong> — Anthropic, Blackstone, and Hellman &amp; Friedman each contribute roughly $300M; Goldman Sachs around $150M; General Atlantic among additional investors. Vehicle helps PE portfolio companies integrate Claude into finance, ops, customer service, analytics, and enterprise software. Announcement could land this week.</p>
-        <p><strong>3. Eurogroup Discusses Mythos with Banking Supervisors Today — Code with Claude SF Two Days Out</strong> — Euro-area finance ministers meet bank supervisors today on Mythos access; Germany's BaFin chief drives the push, France and Italy expected to align. Code with Claude SF lands Wednesday with the Sonnet 4.8 watch window inside May 6–13. The Briefing Financial Services livestream tomorrow puts a third inflection in the same week.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-04.html">Read full report →</a></p>
       ]]></description>
     </item>
 

@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-06-03",
+    "title": "Claude AI Daily Brief — June 3, 2026 | Strava MCP Goes Live; Claude Code Locks Down Shell Config Writes; June 15 Cutover Now 12 Days Out",
+    "description": "June 3, 2026: Strava's MCP connector enters phased rollout, putting Claude inside one of the largest consumer fitness datasets. Claude Code v2.1.160 ships shell-startup write prompts after acceptEdits gotchas. SAP makes Claude its primary reasoning model on SAP Business AI Platform. June 15 model-ID retirement now 12 days out.",
+    "url": "reports/claude-ai-daily-2026-06-03.html",
+    "headlines": [
+      "Strava MCP Goes Live; Claude Code Locks Down Shell Config Writes; June 15 Cutover Now 12 Days Out",
+      "Strava MCP Connector Enters Phased Rollout: Claude Gets Years of Activity Data",
+      "SAP Names Claude Primary Reasoning Model on SAP Business AI Platform",
+      "Tuesday Outage Resolved 11:49 UTC &mdash; Post-Mortem Still Pending",
+      "Claude Code v2.1.160 Adds Write-Prompts for Shell Startup and Build-Tool Configs",
+      "June 15 Model-ID Retirement Now 12 Days Out &mdash; Migration Window Is Closing",
+      "Mid-Conversation System Messages Now Live in the Messages API",
+      "CVE MCP Server Turns Claude Into a Vulnerability Triage Analyst",
+      "Code w/ Claude Tokyo Is 7 Days Out &mdash; Livestream Open, Agenda Locks This Week",
+      "The Claude Opus 4.8 1M-Context Window Is Already Reshaping Codebase Tooling",
+      "The Quiet Wednesday Is Doing More Work for the S-1 Than the Loud Tuesday Did"
+    ],
+    "snippet": "Claude AI Daily Brief — June 3, 2026 | Strava MCP Goes Live; Claude Code Locks Down Shell Config Writes; June 15 Cutover Now 12 Days Out ● Wednesday, June 3, 2026 Claude AI Daily Brief — June 3, 2026 Covering the last 24 hours · Edition #96 TL;DR — Today’s Top 3 Takeaways 1. Strava MCP Connector Goe"
+  },
+  {
     "date": "2026-06-02",
     "title": "Claude AI Daily Brief — June 2, 2026 | Anthropic Files Confidentially for IPO; Claude Outage Traced to Sub-Agent Bug; EU Lands Mythos Access via ENISA",
     "description": "June 2, 2026: Anthropic confidentially files for an IPO at near $1T valuation. A global Claude outage gets traced to a runaway Claude Code sub-agent. ENISA becomes the first EU agency to get Mythos access. June 15 Agent SDK billing cutover now 13 days out.",
