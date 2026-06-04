@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 4, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-04.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-04.html</guid>
+      <pubDate>Thu, 04 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Partner Network Gets a Services Track and Partner Hub</strong> — Anthropic formalized its $100M partner program with a three-tier Services Track (Select, Preferred, Global Premier) and a Partner Hub portal where customers find qualified firms. 40,000+ firms have applied since March; 10,000+ consultants hold Claude certifications.</p>
+        <p><strong>2. Comscore: Claude Desktop Conversations Up 1,858% to 22M</strong> — The Q1 2026 AI Intelligence Report puts Claude at 22M desktop conversations in March, up 1,858% since October. ChatGPT still leads at 244M, but Claude is the breakout growth story — third-party consumer data landing exactly when the S-1 needs it.</p>
+        <p><strong>3. Anthropic Promises Mythos-Class Models for All Customers "In the Coming Weeks"</strong> — The Glasswing expansion to ~150 new organizations came with a bigger commitment: Mythos-class capability ships publicly once stronger cyber safeguards land. Partners have already found 10,000+ high- or critical-severity flaws.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-04.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — June 3, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-03.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-03.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. $200B Google Cloud Commitment Confirmed — Anthropic Is Now &gt;40% of Google's Disclosed Revenue Backlog</strong> — The Information reported Tuesday that Anthropic has committed to spend $200B with Google Cloud and Broadcom TPUs over five years. Pairs with the April gigawatt-scale TPU deal and Alphabet's up-to-$40B investment back into Anthropic. Alphabet up about 2% after-hours.</p>
         <p><strong>3. Briefing FS Recap: Ten Finance Agents + M365 Add-ins Ship, Amodei + Dimon Take the Same Stage</strong> — Yesterday's livestream produced ten ready-to-run finance agents (pitchbook, KYC, month-end close, credit memo, audit), Excel/PowerPoint/Word add-ins live, and new connectors for Moody's, FactSet, S&amp;P Capital IQ, MSCI, PitchBook, D&amp;B, Verisk. Q1 ARR up 80x year-over-year per Amodei.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-06.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — May 5, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-05.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-05.html</guid>
-      <pubDate>Tue, 05 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. The Briefing: Financial Services Livestream Lands Today at 11am EST — Wall Street Week Anchor</strong> — Anthropic leadership and named institutions deploying Claude at scale take the same stage in New York. Opens a week stacked with the $1.5B JV that landed yesterday, the FIS Financial Crimes AI Agent partnership, the Eurogroup readout, and Code with Claude SF tomorrow.</p>
-        <p><strong>2. FIS and Anthropic Ship a Financial Crimes AI Agent — BMO and Amalgamated Bank as Pilots, FIS Stock Jumps 7% After-Hours</strong> — Built by Anthropic's Applied AI team and forward-deployed engineers embedded with FIS. The agent assembles AML evidence across core systems in minutes. Broader release in 2H 2026; credit decisioning, deposit retention, customer onboarding, and fraud prevention next on the roadmap with Claude.</p>
-        <p><strong>3. $1.5B Wall Street JV Officially Announced — Apollo, GIC, General Atlantic, Sequoia, Leonard Green Round Out the Cap Table</strong> — Anthropic, Blackstone, and Hellman &amp; Friedman each at $300M; Goldman $150M. Standalone Palantir-style forward-deployment entity. OpenAI is reportedly running a near-identical play with TPG and Bain. Eurogroup readout: ministers will revisit Mythos; EU now in formal talks with Anthropic on bank testing.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-05.html">Read full report →</a></p>
       ]]></description>
     </item>
 

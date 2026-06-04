@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-06-04",
+    "title": "Claude AI Daily Brief — June 4, 2026 | Partner Network Gets a Services Track; Comscore Says Claude Desktop Chats Up 1,858%; Mythos Public Release \"Coming Weeks\"",
+    "description": "June 4, 2026: Anthropic launches the Services Track and Partner Hub of the $100M Claude Partner Network. Comscore's Q1 AI report shows Claude desktop conversations up 1,858% to 22M. Anthropic promises Mythos-class models for all customers in the coming weeks. Microsoft and Google open a coding-model front.",
+    "url": "reports/claude-ai-daily-2026-06-04.html",
+    "headlines": [
+      "Partner Network Gets a Services Track; Comscore Says Claude Desktop Chats Up 1",
+      "858%; Mythos Public Release \"Coming Weeks\"",
+      "Services Track and Partner Hub Launch: The $100M Partner Network Gets Structure",
+      "Mythos-Class Models Are Coming to Everyone &mdash; Glasswing Expansion Sets the Clock",
+      "Comscore Q1 AI Report: Claude Desktop Conversations Up 1,858% to 22M",
+      "Claude Code Ships OTEL Metric Labels and Independent Parallel Tool Results",
+      "Developer Platform Adds Managed Agents Webhooks, Multi-Agent Orchestration, Self-Hosted AWS Sandboxes",
+      "The $500M Monthly Bill: Runaway Agent Usage Becomes the Cautionary Tale of the Cutover",
+      "Microsoft and Google Open a Coding-Model Front Against Claude Code",
+      "Code w/ Claude Tokyo Is 6 Days Out &mdash; This Week&rsquo;s News Sets the Agenda",
+      "Demand, Distribution, and the Two Numbers That Wrote Today&rsquo;s S-1 Chapter"
+    ],
+    "snippet": "Claude AI Daily Brief — June 4, 2026 | Partner Network Gets a Services Track; Comscore Says Claude Desktop Chats Up 1,858%; Mythos Public Release \"Coming Weeks\" ● Thursday, June 4, 2026 Claude AI Daily Brief — June 4, 2026 Covering the last 24 hours · Edition #97 TL;DR — Today’s Top 3 Takeaways 1. C"
+  },
+  {
     "date": "2026-06-03",
     "title": "Claude AI Daily Brief — June 3, 2026 | Strava MCP Goes Live; Claude Code Locks Down Shell Config Writes; June 15 Cutover Now 12 Days Out",
     "description": "June 3, 2026: Strava's MCP connector enters phased rollout, putting Claude inside one of the largest consumer fitness datasets. Claude Code v2.1.160 ships shell-startup write prompts after acceptEdits gotchas. SAP makes Claude its primary reasoning model on SAP Business AI Platform. June 15 model-ID retirement now 12 days out.",
