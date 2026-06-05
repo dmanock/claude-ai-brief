@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-05",
+    "title": "Claude AI Daily Brief — June 5, 2026 | Claude Code Gets Enterprise Version Pinning; Fitch Puts Financial Advice in AI's Crosshairs; Outage Post-Mortem Still Pending",
+    "description": "June 5, 2026: Claude Code v2.1 ships requiredMinimumVersion/requiredMaximumVersion managed settings for enterprise fleet control. Bloomberg covers Fitch's warning that financial advisory could be fully substituted by AI. Three days after the sub-agent outage, Anthropic's post-mortem is still pending. Refusal responses are no longer billed on the API.",
+    "url": "reports/claude-ai-daily-2026-06-05.html",
+    "headlines": [
+      "Claude Code Gets Enterprise Version Pinning; Fitch Puts Financial Advice in AI's Crosshairs; Outage Post-Mortem Still Pending",
+      "Quota Resets Landed, the Post-Mortem Hasn&rsquo;t &mdash; Outage Accountability Enters Day Three",
+      "Anthropic Maps a Year of AI-Enabled Cyber Threats to MITRE ATT&amp;CK",
+      "Claude Code v2.1 Adds Version Pinning, /plugin list, and Smarter Stop Hooks",
+      "Refusals Are No Longer Billed &mdash; Plus Advisor Token Caps and Marketplace-Free Skills",
+      "June 15 Cutover Is 10 Days Out &mdash; Two Deadlines Converge on the Same Monday",
+      "Code w/ Claude Tokyo Is 5 Days Out &mdash; Agenda Locked, Three Tracks Confirmed",
+      "Fitch: Financial Advisory Risks &ldquo;Full Substitution&rdquo; by AI &mdash; Claude Named in the Charge",
+      "The Outage Was Tuesday. The Reckoning Is Structural."
+    ],
+    "snippet": "Claude AI Daily Brief — June 5, 2026 | Claude Code Gets Enterprise Version Pinning; Fitch Puts Financial Advice in AI's Crosshairs; Outage Post-Mortem Still Pending ● Friday, June 5, 2026 Claude AI Daily Brief — June 5, 2026 Covering the last 24 hours · Edition #98 TL;DR — Today’s Top 3 Takeaways 1."
+  },
+  {
     "date": "2026-06-04",
     "title": "Claude AI Daily Brief — June 4, 2026 | Partner Network Gets a Services Track; Comscore Says Claude Desktop Chats Up 1,858%; Mythos Public Release \"Coming Weeks\"",
     "description": "June 4, 2026: Anthropic launches the Services Track and Partner Hub of the $100M Claude Partner Network. Comscore's Q1 AI report shows Claude desktop conversations up 1,858% to 22M. Anthropic promises Mythos-class models for all customers in the coming weeks. Microsoft and Google open a coding-model front.",

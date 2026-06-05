@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 5, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-05.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-05.html</guid>
+      <pubDate>Fri, 05 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Code Ships Enterprise Version Pinning</strong> — Thursday's v2.1 release adds requiredMinimumVersion and requiredMaximumVersion managed settings: Claude Code now refuses to start outside an admin-approved version range. Three days after a sub-agent bug took down the platform, admins get fleet-level control over exactly which build runs.</p>
+        <p><strong>2. Fitch Puts Financial Advice in AI's Crosshairs</strong> — Bloomberg reports a Fitch Ratings warning that personal financial advisory risks "being fully substituted by AI solutions" if customers learn to trust non-human agents. Claude and ChatGPT are named as the tools leading the charge into a regulated, trust-based profession.</p>
+        <p><strong>3. Outage Post-Mortem Still Pending, Three Days On</strong> — Anthropic has yet to publish a root-cause analysis for Tuesday's sub-agent runaway outage. Quota resets landed for affected Pro and Max users; the written explanation hasn't — and Code w/ Claude Tokyo is five days out.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-05.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — June 4, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-04.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-04.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Anthropic + SpaceX Colossus 1 Compute Deal — Claude Code Rate Limits Double, Peak-Hour Throttling Removed for Pro and Max</strong> — Anthropic takes all of the compute at SpaceX/xAI's Colossus 1 in Memphis (~300MW, ~220K Nvidia GPUs). Five-hour rate limits double across Pro/Max/Team/Enterprise; higher API limits land on Opus. Companies flagged interest in "multiple gigawatts of orbital AI compute capacity" as a follow-on track.</p>
         <p><strong>3. Bloomberg: Claude Is the #2 Free App in the US App Store — Anthropic Pivots to a Consumer Push, Mobile Cold-Start Cut from ~5–6s to ~1s</strong> — Anthropic, originally enterprise-first, is going harder at consumers. Claude now sits between ChatGPT (#1) and Gemini (#3). Health, travel, and recipes are the named query lanes. Code with Claude: Extended runs today.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-07.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — May 6, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-06.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-06.html</guid>
-      <pubDate>Wed, 06 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Code with Claude SF Goes Live Today — Sonnet 4.8 Watch Inside the Keynote, Jupiter-v1-p Spotted in Console Testing</strong> — Full-day developer conference opens 8am PT in San Francisco with a free livestream and an agentic-SDLC track spine. Ami Vora, Boris Cherny, and Angela Jiang are the named on-stage leads. The May 6–13 Sonnet corridor is squarely in scope.</p>
-        <p><strong>2. $200B Google Cloud Commitment Confirmed — Anthropic Is Now &gt;40% of Google's Disclosed Revenue Backlog</strong> — The Information reported Tuesday that Anthropic has committed to spend $200B with Google Cloud and Broadcom TPUs over five years. Pairs with the April gigawatt-scale TPU deal and Alphabet's up-to-$40B investment back into Anthropic. Alphabet up about 2% after-hours.</p>
-        <p><strong>3. Briefing FS Recap: Ten Finance Agents + M365 Add-ins Ship, Amodei + Dimon Take the Same Stage</strong> — Yesterday's livestream produced ten ready-to-run finance agents (pitchbook, KYC, month-end close, credit memo, audit), Excel/PowerPoint/Word add-ins live, and new connectors for Moody's, FactSet, S&amp;P Capital IQ, MSCI, PitchBook, D&amp;B, Verisk. Q1 ARR up 80x year-over-year per Amodei.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-06.html">Read full report →</a></p>
       ]]></description>
     </item>
 
