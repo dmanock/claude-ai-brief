@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-06",
+    "title": "Claude AI Daily Brief — June 6, 2026 | Claude Code Ships fallbackModel Resilience; Outage Post-Mortem Still Pending on Day 4; Mythos Public Release Nears",
+    "description": "June 6, 2026: Claude Code v2.1.166 adds a fallbackModel setting and hardens cross-session messaging security. Four days after the sub-agent outage, Anthropic's post-mortem is still unpublished. Mythos-class models inch toward public release as Opus 4.8 carries the safeguards, and the June 15 model cutover is 9 days out.",
+    "url": "reports/claude-ai-daily-2026-06-06.html",
+    "headlines": [
+      "Claude Code Ships fallbackModel Resilience; Outage Post-Mortem Still Pending on Day 4; Mythos Public Release Nears",
+      "Day Four, Still No RCA &mdash; The Post-Mortem Gap Hardens Into the Story",
+      "Mythos Inches Toward Public Release &mdash; the Safeguards Already Shipped in Opus 4.8",
+      "Claude Code v2.1.166: fallbackModel, Glob Deny Rules, and a workflow &rarr; ultracode Rename",
+      "Cross-Session Messaging Hardened &mdash; Relayed Agent Messages Lose User Authority",
+      "June 15 Cutover Is 9 Days Out &mdash; Retired Model IDs Start Failing",
+      "Code w/ Claude Tokyo Is 4 Days Out &mdash; the Week&rsquo;s News Wrote the Keynote",
+      "The Outage Lesson, Shipped: fallbackModel Is the Post-Mortem Anthropic Hasn&rsquo;t Written",
+      "Mythos Goes to Critical Infrastructure in 15+ Countries &mdash; the Dual-Use Bet Gets Real"
+    ],
+    "snippet": "Claude AI Daily Brief — June 6, 2026 | Claude Code Ships fallbackModel Resilience; Outage Post-Mortem Still Pending on Day 4; Mythos Public Release Nears ● Saturday, June 6, 2026 Claude AI Daily Brief — June 6, 2026 Covering the last 24 hours · Edition #99 TL;DR — Today’s Top 3 Takeaways 1. Claude C"
+  },
+  {
     "date": "2026-06-05",
     "title": "Claude AI Daily Brief — June 5, 2026 | Claude Code Gets Enterprise Version Pinning; Fitch Puts Financial Advice in AI's Crosshairs; Outage Post-Mortem Still Pending",
     "description": "June 5, 2026: Claude Code v2.1 ships requiredMinimumVersion/requiredMaximumVersion managed settings for enterprise fleet control. Bloomberg covers Fitch's warning that financial advisory could be fully substituted by AI. Three days after the sub-agent outage, Anthropic's post-mortem is still pending. Refusal responses are no longer billed on the API.",

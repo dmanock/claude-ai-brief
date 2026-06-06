@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 6, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-06.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-06.html</guid>
+      <pubDate>Sat, 06 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Code Ships a fallbackModel Setting — Resilience, Productized</strong> — v2.1.166 lets you configure up to three fallback models that kick in when the primary is overloaded or unavailable. Four days after a sub-agent outage froze fleets, "what if the model is down" now has a one-line answer in settings.</p>
+        <p><strong>2. Outage Post-Mortem Still Pending — Day Four</strong> — Anthropic still hasn't published a root-cause analysis for the June 2 sub-agent runaway, and the follow-on Claude Code incident from June 3 lingered. The silence is now the story, with Code w/ Claude Tokyo four days out.</p>
+        <p><strong>3. Mythos Public Release Nears as Safeguards Land</strong> — Anthropic reiterates Mythos-class models are coming "in the coming weeks," with the safeguard work already shipped inside Opus 4.8. The gate is cyber-misuse prevention, not capability.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-06.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — June 5, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-05.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-05.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Snyk Embeds Claude Across the AI Security Platform — Evo Red-Teams Running Agents on the Same Wire; AppSec for AI-Generated Code Becomes a First-Class Surface</strong> — Powers automated vulnerability discovery, prioritization, and developer-ready fixes. Evo by Snyk discovers MCP servers, datasets, models and tools across an org, red-teams running agents for prompt injection and exfiltration, and enforces runtime policy on tool calls. GA to joint customers today.</p>
         <p><strong>3. MCP Connector Wave Hits the Claude Directory — Era Lands as the First Personal-Finance Connector, Nitro Ships Document Automation; Sonnet 4.8 Watch Holds Inside the May 6–13 Corridor</strong> — Era is the first personal-finance MCP connector in the directory; Nitro brings the document engine into Claude in early access. Verisk's insurance pack still pulling install-base traffic. Status page clean: nine consecutive incident-free days going into the weekend.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-08.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — May 7, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-07.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-07.html</guid>
-      <pubDate>Thu, 07 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Code with Claude SF Keynote Recap — Dreaming, Outcomes, Multi-Agent Orchestration Ship for Managed Agents; Claude Code Desktop, Code Review, and Cloud Routines Anchor the Agentic-SDLC Spine</strong> — Ami Vora, Boris Cherny, and Angela Jiang headlined yesterday's keynote. The Advisor Strategy lands as the named pricing/quality lever — Sonnet with Opus advisor +2.7pp on SWE-bench Multilingual at -11.9% cost; Haiku jumps from 19.7% to 41.2% on BrowseComp.</p>
-        <p><strong>2. Anthropic + SpaceX Colossus 1 Compute Deal — Claude Code Rate Limits Double, Peak-Hour Throttling Removed for Pro and Max</strong> — Anthropic takes all of the compute at SpaceX/xAI's Colossus 1 in Memphis (~300MW, ~220K Nvidia GPUs). Five-hour rate limits double across Pro/Max/Team/Enterprise; higher API limits land on Opus. Companies flagged interest in "multiple gigawatts of orbital AI compute capacity" as a follow-on track.</p>
-        <p><strong>3. Bloomberg: Claude Is the #2 Free App in the US App Store — Anthropic Pivots to a Consumer Push, Mobile Cold-Start Cut from ~5–6s to ~1s</strong> — Anthropic, originally enterprise-first, is going harder at consumers. Claude now sits between ChatGPT (#1) and Gemini (#3). Health, travel, and recipes are the named query lanes. Code with Claude: Extended runs today.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-07.html">Read full report →</a></p>
       ]]></description>
     </item>
 
