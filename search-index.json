@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-07",
+    "title": "Claude AI Daily Brief — June 7, 2026 | Connectors Cross 418; Tokyo Keynote 3 Days Out; IPO Math Gets Real at a $965B Valuation",
+    "description": "June 7, 2026: Claude's connector directory tops 418 verified integrations as Strava and Abacor bring MCP to consumers and accounting. Code w/ Claude Tokyo is 3 days out and the week's shipping wrote the keynote. Anthropic's $965B round and $47B run-rate set up a record IPO, with the June 15 model cutover 8 days away.",
+    "url": "reports/claude-ai-daily-2026-06-07.html",
+    "headlines": [
+      "Connectors Cross 418; Tokyo Keynote 3 Days Out; IPO Math Gets Real at a $965B Valuation",
+      "Dynamic Workflows and Auto Mode Land on Bedrock, Vertex, and Foundry",
+      "June 15 Cutover Is 8 Days Out &mdash; Retired Model IDs Start Failing Monday Week",
+      "Claude Code v2.1.167: A Quiet Sunday Reliability Drop",
+      "The Connector Directory Tops 418 &mdash; and the Same Integrations Now Run as Agents",
+      "Code w/ Claude Tokyo Is 3 Days Out &mdash; In-Person Closed, Livestream Open",
+      "Strava and Abacor Push MCP Into Consumer and Back-Office Territory",
+      "The S-1 Math: A $47B Run-Rate, a $965B Round, and a Model That Writes Its Own Code",
+      "Mythos Is Still &ldquo;Coming Weeks&rdquo; Out &mdash; and That Phrase Is Doing a Lot of Work"
+    ],
+    "snippet": "Claude AI Daily Brief — June 7, 2026 | Connectors Cross 418; Tokyo Keynote 3 Days Out; IPO Math Gets Real at a $965B Valuation ● Sunday, June 7, 2026 Claude AI Daily Brief — June 7, 2026 Covering the last 24 hours · Edition #100 TL;DR — Today’s Top 3 Takeaways 1. Connector Directory Crosses 418 Inte"
+  },
+  {
     "date": "2026-06-06",
     "title": "Claude AI Daily Brief — June 6, 2026 | Claude Code Ships fallbackModel Resilience; Outage Post-Mortem Still Pending on Day 4; Mythos Public Release Nears",
     "description": "June 6, 2026: Claude Code v2.1.166 adds a fallbackModel setting and hardens cross-session messaging security. Four days after the sub-agent outage, Anthropic's post-mortem is still unpublished. Mythos-class models inch toward public release as Opus 4.8 carries the safeguards, and the June 15 model cutover is 9 days out.",

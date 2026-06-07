@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 7, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-07.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-07.html</guid>
+      <pubDate>Sun, 07 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Connector Directory Crosses 418 Integrations — MCP Goes Mainstream</strong> — With Strava and Abacor live as of June 1, Claude's verified-connector directory now tops 418 integrations across 30 categories. The same connectors that power chats now run inside Managed Agents — the ecosystem is the moat.</p>
+        <p><strong>2. Code w/ Claude Tokyo Is 3 Days Out</strong> — In-person applications are closed; the livestream is open. After a week of version pinning, fallbackModel, and cross-session security fixes, the "What's new in Claude Code" talk has all the material it needs.</p>
+        <p><strong>3. The IPO Math Gets Real — $965B Round, $47B Run-Rate</strong> — With the confidential S-1 in SEC review, the numbers underneath it are out: a $65B Series H at a $965B valuation, a run-rate past $47B, and a reported $1.75–1.8T IPO target.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-07.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — June 6, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-06.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-06.html</guid>
@@ -383,19 +396,5 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-09.html">Read full report →</a></p>
       ]]></description>
     </item>
-
-    <item>
-      <title>Claude AI Daily Brief — May 8, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-08.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-08.html</guid>
-      <pubDate>Fri, 08 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Natural Language Autoencoders Ship — Anthropic Reads Claude's Internal Activations as Plain English; Hidden-Motive Detection Jumps From Under 3% to 12-15% in Pre-Deployment Audits</strong> — A verbalizer maps an activation to text, a reconstructor maps it back, the pair is jointly trained with RL. Used in pre-deployment audits of Claude Mythos Preview and Opus 4.6. Honest caveats on the page: NLAs can hallucinate detail and cost hundreds of tokens per activation read.</p>
-        <p><strong>2. Snyk Embeds Claude Across the AI Security Platform — Evo Red-Teams Running Agents on the Same Wire; AppSec for AI-Generated Code Becomes a First-Class Surface</strong> — Powers automated vulnerability discovery, prioritization, and developer-ready fixes. Evo by Snyk discovers MCP servers, datasets, models and tools across an org, red-teams running agents for prompt injection and exfiltration, and enforces runtime policy on tool calls. GA to joint customers today.</p>
-        <p><strong>3. MCP Connector Wave Hits the Claude Directory — Era Lands as the First Personal-Finance Connector, Nitro Ships Document Automation; Sonnet 4.8 Watch Holds Inside the May 6–13 Corridor</strong> — Era is the first personal-finance MCP connector in the directory; Nitro brings the document engine into Claude in early access. Verisk's insurance pack still pulling install-base traffic. Status page clean: nine consecutive incident-free days going into the weekend.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-08.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
   </channel>
 </rss>
