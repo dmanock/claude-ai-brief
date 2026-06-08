@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-08",
+    "title": "Claude AI Daily Brief — June 8, 2026 | Anthropic Wants a Pause Button; SpaceX Compute + Doubled Limits; Glasswing Scales to 150 Orgs",
+    "description": "June 8, 2026: Anthropic's new 'When AI builds itself' paper says Claude now writes 80%+ of its own code and asks for a verifiable global pause mechanism. Claude Code limits double behind a 300MW SpaceX compute deal, Project Glasswing scales to ~150 orgs in 15+ countries, and the June 15 model cutover is 7 days out.",
+    "url": "reports/claude-ai-daily-2026-06-08.html",
+    "headlines": [
+      "Anthropic Wants a Pause Button; SpaceX Compute + Doubled Limits; Glasswing Scales to 150 Orgs",
+      "&ldquo;When AI Builds Itself&rdquo;: Anthropic Wants a Verifiable Pause Button",
+      "Claude Code Limits Double &mdash; Underwritten by a SpaceX Compute Deal",
+      "Usage Limits Reset, the Subagent Bug Gets Pinned on Opus 4.8 &mdash; and &ldquo;Workflow&rdquo; Becomes &ldquo;Ultracode&rdquo;",
+      "June 15 Cutover Is 7 Days Out &mdash; Retired Model IDs Start Failing Next Monday",
+      "Project Glasswing Scales to ~150 Orgs &mdash; and Claude Security Has Patched 2,100+ Bugs",
+      "Claude for Small Business Puts Ready-to-Run Workflows Inside the Tools SMBs Already Use",
+      "The Pause Paper Is an IPO Document Too",
+      "Two Outages in a Week, Still No Written RCA"
+    ],
+    "snippet": "Claude AI Daily Brief — June 8, 2026 | Anthropic Wants a Pause Button; SpaceX Compute + Doubled Limits; Glasswing Scales to 150 Orgs ● Monday, June 8, 2026 Claude AI Daily Brief — June 8, 2026 Covering the last 24 hours · Edition #101 TL;DR — Today’s Top 3 Takeaways 1. “When AI Builds Itself” — Anth"
+  },
+  {
     "date": "2026-06-07",
     "title": "Claude AI Daily Brief — June 7, 2026 | Connectors Cross 418; Tokyo Keynote 3 Days Out; IPO Math Gets Real at a $965B Valuation",
     "description": "June 7, 2026: Claude's connector directory tops 418 verified integrations as Strava and Abacor bring MCP to consumers and accounting. Code w/ Claude Tokyo is 3 days out and the week's shipping wrote the keynote. Anthropic's $965B round and $47B run-rate set up a record IPO, with the June 15 model cutover 8 days away.",

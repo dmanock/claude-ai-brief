@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-06-08">
+  <title>Claude AI Daily Brief — June 8, 2026 | Anthropic Wants a Pause Button; SpaceX Compute + Doubled Limits; Glasswing Scales to 150 Orgs</title>
+  <meta name="description" content="June 8, 2026: Anthropic's new 'When AI builds itself' paper says Claude now writes 80%+ of its own code and asks for a verifiable global pause mechanism. Claude Code limits double behind a 300MW SpaceX compute deal, Project Glasswing scales to ~150 orgs in 15+ countries, and the June 15 model cutover is 7 days out.">
+  <meta name="keywords" content="Claude AI, Anthropic, recursive self-improvement, AI pause, Anthropic Institute, SpaceX Colossus compute, Claude Code rate limits, Opus 4.8, Project Glasswing, Claude Security, Claude for Small Business, June 15 cutover, dynamic workflows ultracode">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-06-08.html">
+  <meta property="og:title" content="Claude AI Daily Brief — June 8, 2026">
+  <meta property="og:description" content="Anthropic asks for a pause button as Claude writes 80%+ of its own code. Claude Code limits double behind a SpaceX compute deal. Glasswing scales to ~150 orgs. June 15 cutover is 7 days out.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-08.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — June 8, 2026">
+  <meta name="twitter:description" content="Anthropic wants a verifiable pause button as Claude writes 80%+ of its own code. Code limits double behind a 300MW SpaceX deal. Glasswing scales to ~150 orgs. June 15 cutover 7 days out.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-08.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-06-08.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — June 8, 2026",
+    "description": "Anthropic's new 'When AI builds itself' paper says Claude now writes 80%+ of its own code and asks for a verifiable global pause mechanism. Claude Code limits double behind a 300MW SpaceX compute deal, Project Glasswing scales to ~150 orgs in 15+ countries, and the June 15 model cutover is 7 days out.",
+    "datePublished": "2026-06-08T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-08.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-06-08.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav data-pagefind-ignore="all">
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Monday, June 8, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; June 8, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #101</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>&ldquo;When AI Builds Itself&rdquo; &mdash; Anthropic Asks for a Pause Button</strong> &mdash; A new Anthropic Institute paper says Claude now writes more than 80% of its own merged code and maps the path to recursive self-improvement, calling for a verifiable global mechanism to slow or pause frontier development.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Doubled Limits, Backed by SpaceX Compute</strong> &mdash; Claude Code&rsquo;s 5-hour limits doubled and Opus API limits jumped sharply, underwritten by a SpaceX deal for the Colossus 1 data center &mdash; 300+ MW and 220,000+ GPUs coming online within the month.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Project Glasswing Scales to ~150 Orgs</strong> &mdash; Anthropic extended its critical-software security program to roughly 150 organizations across 15+ countries, while the new Claude Security product has patched 2,100+ vulnerabilities in three weeks.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Safety</span>
+      <h3>&ldquo;When AI Builds Itself&rdquo;: Anthropic Wants a Verifiable Pause Button</h3>
+      <p>The Anthropic Institute published &ldquo;When AI builds itself&rdquo; on June 4, and it&rsquo;s the most consequential thing the company has put out this quarter. The headline number: more than 80% of the code merged into Anthropic&rsquo;s production codebase is now authored by Claude, up from low single digits when Claude Code launched in early 2025 &mdash; and the typical engineer ships roughly eight times the daily code volume of 2024. The paper maps three scenarios toward recursive self-improvement, where AI begins designing and training its own successor.</p>
+      <p>What Anthropic asks for is unusual: not a unilateral halt, but a <em>verifiable, multilateral</em> pause mechanism &mdash; multiple frontier labs in multiple countries able to agree to stop under the same conditions and confirm the others actually did. A solo pause, the company argues, just changes who leads. Anthropic says it isn&rsquo;t at full recursive self-improvement yet, but that the world is closer than most institutions are prepared for. Coming the same week its S-1 sits in SEC review, the timing is impossible to ignore.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/institute/recursive-self-improvement" class="source-link">Anthropic Institute</a>
+        <a href="https://fortune.com/2026/06/05/anthropic-ai-pause-development-recursive-self-improvement/" class="source-link">Fortune</a>
+        <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-now-writes-more-than-80-percent-of-its-merged-code" class="source-link">Tom&rsquo;s Hardware</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Platform</span>
+      <h3>Claude Code Limits Double &mdash; Underwritten by a SpaceX Compute Deal</h3>
+      <p>Anthropic doubled Claude Code&rsquo;s 5-hour rate limits for every Pro, Max, Team, and seat-based Enterprise account, and killed peak-hour throttling on Pro and Max. On the API side, Opus rate limits went up considerably &mdash; third-party coverage cites moves as large as a 1500% jump in max input tokens per minute for some Opus tiers. All of it is effective now.</p>
+      <p>The capacity behind the generosity is the real story: Anthropic signed an agreement with SpaceX to use the full compute capacity of its Colossus 1 data center &mdash; more than 300 megawatts and over 220,000 NVIDIA GPUs &mdash; coming online within the month. That&rsquo;s the supply side of the same flywheel the pause paper describes: more compute feeds bigger limits, which feed the agentic workloads that are now writing most of the company&rsquo;s code.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/higher-limits-spacex" class="source-link">Anthropic</a>
+        <a href="https://appwrite.io/blog/post/anthropic-doubles-claude-code-rate-limits" class="source-link">Appwrite</a>
+        <a href="https://thenextweb.com/news/anthropic-claude-code-rate-limits-spacex-colossus-1" class="source-link">The Next Web</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Usage Limits Reset, the Subagent Bug Gets Pinned on Opus 4.8 &mdash; and &ldquo;Workflow&rdquo; Becomes &ldquo;Ultracode&rdquo;</h3>
+      <p>Anthropic reset the 5-hour and weekly windows for all Pro and Max users after a rough stretch of runaway token burn. The technical explanation lands the blame not on dynamic workflows but on a flaw in how requests from the Opus 4.8 model were handled &mdash; a bug that caused some sessions to spawn excessive parallel subagents and chew through quota. The fix is in, and limits were raised to accommodate higher-effort runs.</p>
+      <p>One ergonomics change worth knowing: the dynamic-workflow trigger keyword was renamed from <code>workflow</code> to <code>ultracode</code>, so the bare word &ldquo;workflow&rdquo; no longer kicks off a run (asking in your own words still works). A related fix stops <code>/effort ultracode</code> from blaming the workflows setting when a model can&rsquo;t run <code>xhigh</code> &mdash; ultracode simply isn&rsquo;t offered on models that don&rsquo;t support it now.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+        <a href="https://pasqualepillitteri.it/en/news/3995/claude-code-resets-usage-limits-opus-4-8-not-dynamic-workflows" class="source-link">Pillitteri</a>
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Deadline</span>
+      <h3>June 15 Cutover Is 7 Days Out &mdash; Retired Model IDs Start Failing Next Monday</h3>
+      <p>One week remains until June 15, when Claude Sonnet 4 (<code>claude-sonnet-4-20250514</code>) and Claude Opus 4 (<code>claude-opus-4-20250514</code>) retire on the Claude API. Anything still calling those strings begins failing that day. The same date splits subscription usage: programmatic calls via Pro and Max plans move to a separate monthly credit pool, so any headless pipeline riding a subscription needs a plan before the meter changes.</p>
+      <p>The weekend checklist is unchanged and worth a final pass: grep your codebase for pinned model IDs, repoint to current models (Opus 4.8 is the frontier), claim your agent credit from the account-email instructions, and cap anything running unattended. If you&rsquo;re on a recent Claude Code build, name a current model as <code>fallbackModel</code> so a stray retired ID degrades gracefully instead of hard-failing.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Release Notes</a>
+        <a href="https://endoflife.date/claude" class="source-link">endoflife.date</a>
+        <a href="https://devtoolpicks.com/blog/anthropic-splits-claude-subscriptions-agent-sdk-credit-june-2026" class="source-link">DevToolPicks</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Security</span>
+      <h3>Project Glasswing Scales to ~150 Orgs &mdash; and Claude Security Has Patched 2,100+ Bugs</h3>
+      <p>Anthropic extended Project Glasswing &mdash; its initiative to secure the world&rsquo;s most critical software with the unreleased Claude Mythos Preview model &mdash; to roughly 150 new organizations across more than 15 countries. The expansion deliberately covers power, water, healthcare, communications, and hardware, sectors the initial cohort under-represented. Mythos Preview has already surfaced thousands of high-severity vulnerabilities, including issues in every major operating system and browser.</p>
+      <p>For teams who can&rsquo;t touch a frontier-grade offensive model, the practical handoff is Claude Security: a product built on public models like Opus 4.8 that scans codebases and suggests patches. Anthropic says it has been used to patch more than 2,100 vulnerabilities in three weeks. For aerospace, defense, and industrial buyers, the timeline that matters isn&rsquo;t Mythos&rsquo;s release &mdash; it&rsquo;s the verification program that gates who gets the offensive tooling.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/expanding-project-glasswing" class="source-link">Anthropic</a>
+        <a href="https://www.helpnetsecurity.com/2026/06/03/anthropic-project-glasswing-expansion/" class="source-link">Help Net Security</a>
+        <a href="https://cyberscoop.com/anthropic-project-glasswing-expansion-critical-infrastructure-claude-mythos/" class="source-link">CyberScoop</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">SMB</span>
+      <h3>Claude for Small Business Puts Ready-to-Run Workflows Inside the Tools SMBs Already Use</h3>
+      <p>Anthropic launched Claude for Small Business, a package of connectors and pre-built workflows that live inside the apps small teams already run: Intuit QuickBooks, PayPal, HubSpot, Canva, DocuSign, Google Workspace, and Microsoft 365. The pitch is less &ldquo;chat with an AI&rdquo; and more &ldquo;turn the boring cross-app chores into one-click recipes&rdquo; &mdash; invoice chasing, lead triage, content drafting, contract review.</p>
+      <p>It&rsquo;s the same connector-and-agent architecture the enterprise side has been building, repackaged for owners who don&rsquo;t have a platform team. For anyone watching the moat thesis, this is the demand side of the ecosystem story: the more an owner&rsquo;s accounting, payments, and CRM all speak Claude, the harder it is to swap Claude out for a point tool.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/claude-for-small-business" class="source-link">Anthropic</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>The Pause Paper Is an IPO Document Too</h3>
+      <p>Read &ldquo;When AI builds itself&rdquo; next to the S-1 and the tension is the whole story. The same fact &mdash; Claude writing 80%+ of Anthropic&rsquo;s code at roughly human parity &mdash; is simultaneously the bull case (a model that accelerates its own development feeds the run-rate that justifies a $965B round) and the risk case (a system approaching the ability to design its successor). Anthropic is, remarkably, the one publishing both halves.</p>
+      <p>The cynical reading is that calling for a verifiable global pause is free if you believe no rival will agree to it &mdash; you get the safety halo without slowing down. The more charitable reading is that a company about to face public-market discipline is putting its biggest risk in writing before an underwriter makes it. Either way, the ask is structurally smart: a <em>multilateral, verifiable</em> mechanism is the only kind that doesn&rsquo;t simply hand the lead to whoever doesn&rsquo;t stop. Investors will have to price a company that says its core asset might need a brake.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/institute/recursive-self-improvement" class="source-link">Anthropic Institute</a>
+        <a href="https://www.anthropic.com/news/confidential-draft-s1-sec" class="source-link">Anthropic (S-1)</a>
+        <a href="https://thenextweb.com/news/anthropic-claude-recursive-self-improvement-code" class="source-link">The Next Web</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Reliability</span>
+      <h3>Two Outages in a Week, Still No Written RCA</h3>
+      <p>The reliability column keeps writing itself. After a major June 2 disruption traced to Claude Code&rsquo;s subagent system spiraling into a runaway loop, Claude took another roughly two-hour hit on June 5 from elevated error rates across Opus 4.7 and 4.8 &mdash; and Anthropic is investigating, but has not confirmed, claims that the earlier event may have exposed customer data. Engineers have so far attributed the outages to infrastructure rather than a breach.</p>
+      <p>The gap that matters: there is still no published post-incident report for June 2. A company pitching itself to public markets as critical AI infrastructure &mdash; and simultaneously asking the world to trust a verifiable pause regime &mdash; is the same company that owes its customers a written root-cause analysis. Trust in the pause proposal and trust in the status page are, increasingly, the same currency.</p>
+      <div class="source-links">
+        <a href="https://cybernews.com/ai-news/claude-outage-resolved-anthropic-opus-model-errors/" class="source-link">Cybernews</a>
+        <a href="https://www.thoughtworks.com/en-us/insights/blog/generative-ai/claude-outage-june-2026" class="source-link">Thoughtworks</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
