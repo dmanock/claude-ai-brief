@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-09",
+    "title": "Claude AI Daily Brief — June 9, 2026 | LG Group Adopts Claude Enterprise; Claude Lands in Apple's Foundation Models; Enterprise Admin Roles + Retirement Clock",
+    "description": "June 9, 2026: LG CNS signs a group-wide Claude Enterprise deal across all LG affiliates. Claude lands inside Apple's Foundation Models framework via a new Swift package that lets iOS 27 apps swap providers with one dependency change. Enterprise custom roles gain admin permissions, Opus 4.1 is scheduled to retire Aug 5, and the June 15 model cutover is 6 days out.",
+    "url": "reports/claude-ai-daily-2026-06-09.html",
+    "headlines": [
+      "LG Group Adopts Claude Enterprise; Claude Lands in Apple's Foundation Models; Enterprise Admin Roles + Retirement Clock",
+      "LG Group Adopts Claude Enterprise &mdash; Group-Wide, Through LG CNS",
+      "Claude Joins Apple&rsquo;s Foundation Models Framework",
+      "Enterprise Custom Roles Gain Admin Permissions",
+      "June 15 Cutover Is 6 Days Out &mdash; and Opus 4.1 Now Has a Retirement Date",
+      "Snowflake and Anthropic Report Surging Claude Use in Cortex AI",
+      "PwC Deepens Its Claude Alliance as the Partner Network Swells",
+      "A One-Line Swap Cuts Both Ways for Claude",
+      "Two Retirements and a Cutover: Calendar Management Is Now a Skill"
+    ],
+    "snippet": "Claude AI Daily Brief — June 9, 2026 | LG Group Adopts Claude Enterprise; Claude Lands in Apple's Foundation Models; Enterprise Admin Roles + Retirement Clock ● Tuesday, June 9, 2026 Claude AI Daily Brief — June 9, 2026 Covering the last 24 hours · Edition #102 TL;DR — Today’s Top 3 Takeaways 1. LG "
+  },
+  {
     "date": "2026-06-08",
     "title": "Claude AI Daily Brief — June 8, 2026 | Anthropic Wants a Pause Button; SpaceX Compute + Doubled Limits; Glasswing Scales to 150 Orgs",
     "description": "June 8, 2026: Anthropic's new 'When AI builds itself' paper says Claude now writes 80%+ of its own code and asks for a verifiable global pause mechanism. Claude Code limits double behind a 300MW SpaceX compute deal, Project Glasswing scales to ~150 orgs in 15+ countries, and the June 15 model cutover is 7 days out.",
