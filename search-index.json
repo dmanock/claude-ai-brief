@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-10",
+    "title": "Claude AI Daily Brief — June 10, 2026 | Claude Fable 5 Goes Public; 80.3% on SWE-Bench Pro; Mythos 5 Stays Locked Down",
+    "description": "June 10, 2026: Anthropic releases Claude Fable 5, the first publicly available Mythos-class model, days after warning AI is getting too dangerous. It posts 80.3% on SWE-Bench Pro — 21 points ahead of GPT-5.5 — at $10/$50 per million tokens, free on paid plans through June 22. The unrestricted twin, Mythos 5, stays limited to Glasswing partners and vetted researchers, and Fable 5 hit Amazon Bedrock, Cursor, and Copilot on day one.",
+    "url": "reports/claude-ai-daily-2026-06-10.html",
+    "headlines": [
+      "Claude Fable 5 Goes Public; 80.3% on SWE-Bench Pro; Mythos 5 Stays Locked Down",
+      "Anthropic Brings Mythos to the Masses with Claude Fable 5",
+      "Same Model, Two Doors: Mythos 5 Stays Behind Trusted Controls",
+      "80.3% on SWE-Bench Pro &mdash; 21 Points Clear of GPT-5.5",
+      "$10/$50 Per Million Tokens, Free on Paid Plans Until June 22",
+      "Day-One Everywhere: Bedrock, Cursor, Copilot, and More",
+      "Early Hands-On: &ldquo;First to 90%&rdquo; and Better at One-Shotting Apps",
+      "The Whole Release Is an Argument About Safety",
+      "The Real Decision Is the June 23 Cliff, Not the Benchmark"
+    ],
+    "snippet": "Claude AI Daily Brief — June 10, 2026 | Claude Fable 5 Goes Public; 80.3% on SWE-Bench Pro; Mythos 5 Stays Locked Down ● Wednesday, June 10, 2026 Claude AI Daily Brief — June 10, 2026 Covering the last 24 hours · Edition #103 TL;DR — Today’s Top 3 Takeaways 1. Claude Fable 5 Goes Public — Anthropic "
+  },
+  {
     "date": "2026-06-09",
     "title": "Claude AI Daily Brief — June 9, 2026 | LG Group Adopts Claude Enterprise; Claude Lands in Apple's Foundation Models; Enterprise Admin Roles + Retirement Clock",
     "description": "June 9, 2026: LG CNS signs a group-wide Claude Enterprise deal across all LG affiliates. Claude lands inside Apple's Foundation Models framework via a new Swift package that lets iOS 27 apps swap providers with one dependency change. Enterprise custom roles gain admin permissions, Opus 4.1 is scheduled to retire Aug 5, and the June 15 model cutover is 6 days out.",

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-06-10">
+  <title>Claude AI Daily Brief — June 10, 2026 | Claude Fable 5 Goes Public; 80.3% on SWE-Bench Pro; Mythos 5 Stays Locked Down</title>
+  <meta name="description" content="June 10, 2026: Anthropic releases Claude Fable 5, the first publicly available Mythos-class model, days after warning AI is getting too dangerous. It posts 80.3% on SWE-Bench Pro — 21 points ahead of GPT-5.5 — at $10/$50 per million tokens, free on paid plans through June 22. The unrestricted twin, Mythos 5, stays limited to Glasswing partners and vetted researchers, and Fable 5 hit Amazon Bedrock, Cursor, and Copilot on day one.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude Fable 5, Claude Mythos 5, Mythos-class, SWE-Bench Pro, Project Glasswing, claude-fable-5, Amazon Bedrock, AI safety, frontier model, Opus 4.8, GPT-5.5, usage credits, 1M context">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-06-10.html">
+  <meta property="og:title" content="Claude AI Daily Brief — June 10, 2026">
+  <meta property="og:description" content="Anthropic puts its Mythos-class model in everyone's hands as Claude Fable 5 — 80.3% on SWE-Bench Pro, $10/$50 per million tokens, free through June 22. The unrestricted Mythos 5 stays locked to vetted partners.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-10.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — June 10, 2026">
+  <meta name="twitter:description" content="Claude Fable 5 goes public — the first Mythos-class model anyone can use. 80.3% on SWE-Bench Pro, 21 points over GPT-5.5. Mythos 5 stays locked down. Day-one on Bedrock, Cursor, Copilot.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-10.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-06-10.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — June 10, 2026",
+    "description": "Anthropic releases Claude Fable 5, the first publicly available Mythos-class model, which scores 80.3% on SWE-Bench Pro at $10/$50 per million tokens. The unrestricted twin, Mythos 5, stays limited to Glasswing partners and vetted researchers.",
+    "datePublished": "2026-06-10T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-10.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-06-10.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav data-pagefind-ignore="all">
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Wednesday, June 10, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; June 10, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #103</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Claude Fable 5 Goes Public</strong> &mdash; Anthropic released its first publicly available Mythos-class model, with always-on thinking, a 1M-token context window, and capabilities beyond anything it has shipped to the public before &mdash; days after warning that AI is getting too dangerous.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>80.3% on SWE-Bench Pro</strong> &mdash; Fable 5 lands roughly 21 points ahead of GPT-5.5 and 11 ahead of Opus 4.8 on the hardest coding benchmark, at $10/$50 per million tokens &mdash; free on paid plans through June 22, then usage credits.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Mythos 5 Stays Locked Down</strong> &mdash; The same underlying model without safety classifiers is restricted to Glasswing cyber partners and vetted biology researchers, while Fable 5 hit Amazon Bedrock, Cursor, and Copilot on day one.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Breaking</span>
+      <h3>Anthropic Brings Mythos to the Masses with Claude Fable 5</h3>
+      <p>Anthropic released Claude Fable 5, the most capable model it has ever made generally available and the first to carry its &ldquo;Mythos-class&rdquo; tier &mdash; the rung above the Opus class. It ships with always-on adaptive thinking, a 1-million-token context window, and 128K output tokens, and Anthropic says its lead over previous models widens on longer, harder tasks across software engineering, knowledge work, vision, and scientific research.</p>
+      <p>The timing is pointed. Fable 5 arrives just days after Anthropic publicly warned that frontier AI is becoming too dangerous and confidentially filed its IPO paperwork with the SEC. The company is threading both needles at once: ship the most powerful public model to date, and frame the release as proof that strong capability and hard safety limits can co-exist.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/claude-fable-5-mythos-5" class="source-link">Anthropic</a>
+        <a href="https://venturebeat.com/technology/anthropic-brings-mythos-to-the-masses-with-claude-fable-5-its-most-powerful-generally-available-model-ever" class="source-link">VentureBeat</a>
+        <a href="https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/" class="source-link">TechCrunch</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Safety</span>
+      <h3>Same Model, Two Doors: Mythos 5 Stays Behind Trusted Controls</h3>
+      <p>Fable 5 and Mythos 5 are the same underlying model &mdash; the difference is access control. Fable is the public version with safety classifiers switched on: in high-risk domains like cybersecurity, biology, chemistry, and distillation, it blocks responses and falls back to Claude Opus 4.8. Anthropic reports that at least 95% of Fable sessions ran entirely on the model&rsquo;s own responses, with the fallback rarely tripping.</p>
+      <p>Mythos 5 is the unrestricted twin, and it is not for sale to the public. It&rsquo;s offered only to approved customers &mdash; Glasswing cyber partners with the cyber safeguards lifted, and soon select biology researchers with bio and chemistry limits relaxed &mdash; through Anthropic&rsquo;s Project Glasswing program. The bet is that a capability this strong can be broadly useful without being broadly dangerous, as long as the riskiest doors stay locked.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/claude-fable-5-mythos-5" class="source-link">Anthropic</a>
+        <a href="https://www.edtechinnovationhub.com/news/anthropic-opens-access-to-claude-fable-5-while-keeping-mythos-5-behind-trusted-controls" class="source-link">EdTech Innovation Hub</a>
+        <a href="https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html" class="source-link">The Hacker News</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Benchmarks</span>
+      <h3>80.3% on SWE-Bench Pro &mdash; 21 Points Clear of GPT-5.5</h3>
+      <p>Fable 5&rsquo;s headline number is coding. It scored 80.3% on SWE-Bench Pro, which tests end-to-end resolution of real GitHub issues &mdash; about 21 points ahead of GPT-5.5 (58.6%), 11 ahead of Opus 4.8 (69.2%), and well clear of Gemini 3.1 Pro (54.2%). It also tops the field on knowledge work (GDPval-AA 1932 vs GPT-5.5&rsquo;s 1769), tool use, legal, and spatial reasoning, landing at 96 to GPT-5.5&rsquo;s 90 on the provisional aggregate.</p>
+      <p>The caveat worth keeping: SWE-Bench Pro measures bounded tasks. Several developers noted that the harder axis is sustained reliability across long sessions, where a model has to track architectural decisions made hundreds of turns earlier. That&rsquo;s exactly where the 1M-token context and always-on thinking are supposed to pay off &mdash; but it&rsquo;s also where benchmark numbers say the least.</p>
+      <div class="source-links">
+        <a href="https://claude5.ai/news/claude-fable-5-benchmarks-swe-bench-pro-80-percent" class="source-link">Benchmark Detail</a>
+        <a href="https://benchlm.ai/compare/claude-fable-vs-gpt-5-5" class="source-link">BenchLM</a>
+        <a href="https://www.finout.io/blog/claude-fable-5-mythos-5-pricing-benchmarks" class="source-link">Finout</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Pricing</span>
+      <h3>$10/$50 Per Million Tokens, Free on Paid Plans Until June 22</h3>
+      <p>Developers can call the model now via <code>claude-fable-5</code> on the Claude API. Pricing is $10 per million input tokens and $50 per million output &mdash; double Opus 4.8, and notably above GPT-5.5&rsquo;s $5/$30. From launch through June 22, Fable 5 is bundled into Pro, Max, Team, and seat-based Enterprise plans at no extra cost.</p>
+      <p>That free window has a hard edge. On June 23, Anthropic removes Fable 5 from those plans, and continued use requires usage credits until capacity expands. If you&rsquo;re prototyping on a subscription this week, treat the included access as a trial, not a baseline &mdash; budget for the credit model before the cutover, especially for any agent or batch workload that burns output tokens at scale.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/claude-fable-5-mythos-5" class="source-link">Anthropic</a>
+        <a href="https://claudefa.st/blog/guide/development/fable-5-usage-credits" class="source-link">Usage Credits Guide</a>
+        <a href="https://developer.puter.com/ai/anthropic/claude-fable-5/" class="source-link">Puter Developer</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Rollout</span>
+      <h3>Day-One Everywhere: Bedrock, Cursor, Copilot, and More</h3>
+      <p>The ecosystem rollout was immediate. Fable 5 landed on Amazon Bedrock at launch and appeared the same day in Cursor, Devin, Notion, Microsoft Foundry, GitHub Copilot, Cline, Replit, Base44, MagicPath, and MCP Atlas, among others. For most teams, adopting it isn&rsquo;t a migration &mdash; it&rsquo;s a dropdown change in the tools they already use.</p>
+      <p>That speed is its own signal. A coordinated day-one launch across the major clouds and coding tools means the integration work was lined up well in advance, and it short-circuits the usual lag between a frontier release and real-world availability. The friction now isn&rsquo;t access; it&rsquo;s cost discipline once the free window closes.</p>
+      <div class="source-links">
+        <a href="https://www.aboutamazon.com/news/aws/claude-fable-5-anthropic-available-amazon-bedrock" class="source-link">Amazon</a>
+        <a href="https://venturebeat.com/technology/anthropic-brings-mythos-to-the-masses-with-claude-fable-5-its-most-powerful-generally-available-model-ever" class="source-link">VentureBeat</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Reactions</span>
+      <h3>Early Hands-On: &ldquo;First to 90%&rdquo; and Better at One-Shotting Apps</h3>
+      <p>Early adopters reported large real-world deltas. Analytics firm Hex said Fable was the first model to clear 90% on its core analytics benchmark for complex, long-running tasks, praising its &ldquo;judgement and attention to nuance&rdquo; on the hardest questions. Vibe-coding platform Base44 called it the best yet at one-shotting full apps with excellent tool-calling, and one developer reported Fable not only solving an architectural problem but also implementing four improvements to their LLM library along the way.</p>
+      <p>Simon Willison and others published first impressions within hours, and the AI-newsletter circuit flagged Fable&rsquo;s release terms as &ldquo;controversial&rdquo; &mdash; a reference to the June 22 free-access expiry and credit model that left some users confused about what &ldquo;included&rdquo; actually meant until Anthropic staff clarified the rollout.</p>
+      <div class="source-links">
+        <a href="https://simonwillison.net/2026/Jun/9/claude-fable-5/" class="source-link">Simon Willison</a>
+        <a href="https://www.latent.space/p/ainews-anthropic-claude-fable-5-mythos" class="source-link">AINews / Latent Space</a>
+        <a href="https://dev.to/tonyspiro/claude-fable-5-what-it-is-and-what-it-means-for-developers-jnf" class="source-link">DEV Community</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>The Whole Release Is an Argument About Safety</h3>
+      <p>Strip away the benchmarks and Fable 5 is really a thesis statement. Anthropic spent the prior week warning that AI is getting too dangerous, then turned around and shipped its most powerful public model. The reconciliation is the architecture itself: take the Mythos model, bolt on classifiers that block the genuinely dangerous domains, fall back to Opus 4.8 when they trip, and release the rest. The Mythos/Fable split &mdash; same brain, different doors &mdash; is the cleanest expression yet of &ldquo;capability and restraint are separable.&rdquo;</p>
+      <p>Whether that&rsquo;s reassuring depends on how you read the 95% figure. Anthropic frames &ldquo;95% of sessions ran entirely on Fable&rdquo; as evidence the safeguards rarely get in the way. Read the other direction, it means roughly 1 in 20 sessions hit a guardrail &mdash; and the only thing standing between a public model and Mythos-class capability in a high-risk domain is a classifier the company is confident in. For regulated buyers, that&rsquo;s the question that matters more than SWE-Bench: not how smart the model is, but how much you trust the gate.</p>
+      <div class="source-links">
+        <a href="https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/" class="source-link">TechCrunch</a>
+        <a href="https://www.nbcnews.com/tech/security/fable-5-anthropic-release-public-mythos-claude-model-rcna349104" class="source-link">NBC News</a>
+        <a href="https://www.anthropic.com/news/claude-fable-5-mythos-5" class="source-link">Anthropic</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Cost</span>
+      <h3>The Real Decision Is the June 23 Cliff, Not the Benchmark</h3>
+      <p>It&rsquo;s easy to get lost in the 80.3%. The operational question for most teams is simpler: Fable 5 is free on your plan until June 22, then it isn&rsquo;t. At $10/$50 per million tokens &mdash; double Opus 4.8 &mdash; an agent pipeline that runs hot on output can get expensive fast, and the included-access window is short enough to be a trap if you build around it without a budget.</p>
+      <p>The sensible play this week is to use the free window as a controlled evaluation: run Fable against the workloads where its coding and long-context edge actually moves your numbers, measure the token cost honestly, and decide where it earns the premium over Opus 4.8 versus where Opus is good enough. Treat &ldquo;which model for which job&rdquo; as a routing decision, not an all-in switch &mdash; the price gap makes selectivity the whole game.</p>
+      <div class="source-links">
+        <a href="https://claudefa.st/blog/guide/development/fable-5-usage-credits" class="source-link">Usage Credits Guide</a>
+        <a href="https://www.finout.io/blog/claude-fable-5-mythos-5-pricing-benchmarks" class="source-link">Finout</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
