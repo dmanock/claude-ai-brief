@@ -8,6 +8,18 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 11, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-11.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-11.html</guid>
+      <pubDate>Thu, 11 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Managed Agents Go on Autopilot</strong> — Claude's Managed Agents hit public beta with cron-style schedules and credential vaults, so an agent can run a nightly sync or weekly scan and use authenticated CLI tools without ever holding the real secret.</p>
+        <p><strong>2. Four Days to the June 15 Retirement</strong> — Claude Sonnet 4 and Opus 4 retire from the API at 9am PT Monday; calls to those model IDs then return errors — a one-line fix that breaks production apps if it's missed.</p>
+        <p><strong>3. The Military Accountability Gap Goes Public</strong> — Anthropic's CEO said he can't say what role Claude played in a strike that killed an estimated 120 children at an Iran school, exposing how little visibility AI makers have once tools reach the battlefield.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-11.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — June 10, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-10.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-10.html</guid>
@@ -355,17 +367,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-13.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — May 12, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-12.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-12.html</guid>
-      <pubDate>Tue, 12 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. EU Cyber Action Plan — Brussels Says OpenAI Has Put Forward a Concrete Cybersecurity-Model Access Offer; Anthropic, After Four or Five Meetings, Has Yet to Reach Equivalent Terms</strong> — A Tuesday morning Commission spokesperson statement puts the regulator-side variable on the wire: OpenAI's offer under the new EU Cyber Action Plan is on the table; Anthropic's discussions have not reached the same stage. Lands inside the same window the Snyk Evo SAST layer, Project Glasswing, and the Cyber Verification Program are stitching together the company's public cybersecurity story.</p>
-        <p><strong>2. Anthropic Updates Its Investor Notice — Unauthorized Share Transfers and Tokenized Retail-Investor SPV Products Are Void on the Books; the Share-Register Defense Inside the $50B Round-Close Window</strong> — Anthropic puts on the record that any transfer of its shares or share-related rights without company approval is void, naming SPV structures and pre-IPO retail products as not permitted. The corporate-housekeeping shoe to drop inside the reported $50B round at a $900B target valuation with secondary-market pricing implying $1T.</p>
-        <p><strong>3. Claude Code v2.1.139 Ships Monday Evening — Agent View, the /goal Command, Plugin Details with Per-Session Token Cost, and a Hook args[] Field for Shell-less Exec; Sonnet 4.8 Watch Day Seven of Seven</strong> — v2.1.139 lands at 18:43 Monday with fifty changes. Headline items: the agent view (Research Preview) and the /goal command. Sonnet 4.8 watch day seven inside the May 6-13 corridor. 40%-vs-21% coding-market share is the developer-side number of the cycle. Status page clean for day thirteen.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-12.html">Read full report →</a></p>
-      ]]></description>
-    </item>
+
   </channel>
 </rss>

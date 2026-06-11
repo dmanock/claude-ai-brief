@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-11",
+    "title": "Claude AI Daily Brief — June 11, 2026 | Managed Agents Hit Public Beta; 4 Days to the June 15 Retirement; Anthropic on the Iran Strike Gap",
+    "description": "June 11, 2026: Claude Managed Agents reach public beta with cron schedules and credential vaults, putting recurring work on autopilot. The June 15 retirement of Sonnet 4 and Opus 4 is now four days out. And Anthropic's CEO says he can't say what role Claude played in a strike on an Iran school — the clearest sign yet of the military accountability gap.",
+    "url": "reports/claude-ai-daily-2026-06-11.html",
+    "headlines": [
+      "Managed Agents Hit Public Beta; 4 Days to the June 15 Retirement; Anthropic on the Iran Strike Gap",
+      "Managed Agents Reach Public Beta: Cron Schedules and Credential Vaults",
+      "Project Glasswing Expands to ~150 Orgs, Adds Claude Security",
+      "Four Days Out: Sonnet 4 and Opus 4 Retire From the API June 15",
+      "SpaceX Compute Deal Feeds Higher Limits for Pro and Max",
+      "Anthropic Files Confidentially for an IPO",
+      "Claude&rsquo;s Legal Push Keeps Pulling In the Incumbents",
+      "&ldquo;I Don&rsquo;t Know&rdquo; Is the Whole Problem With Military AI",
+      "Scheduled Agents Are the Quiet Half of the Autonomy Story"
+    ],
+    "snippet": "Claude AI Daily Brief — June 11, 2026 | Managed Agents Hit Public Beta; 4 Days to the June 15 Retirement; Anthropic on the Iran Strike Gap ● Thursday, June 11, 2026 Claude AI Daily Brief — June 11, 2026 Covering the last 24 hours · Edition #104 TL;DR — Today’s Top 3 Takeaways 1. Managed Agents Go on"
+  },
+  {
     "date": "2026-06-10",
     "title": "Claude AI Daily Brief — June 10, 2026 | Claude Fable 5 Goes Public; 80.3% on SWE-Bench Pro; Mythos 5 Stays Locked Down",
     "description": "June 10, 2026: Anthropic releases Claude Fable 5, the first publicly available Mythos-class model, days after warning AI is getting too dangerous. It posts 80.3% on SWE-Bench Pro — 21 points ahead of GPT-5.5 — at $10/$50 per million tokens, free on paid plans through June 22. The unrestricted twin, Mythos 5, stays limited to Glasswing partners and vetted researchers, and Fable 5 hit Amazon Bedrock, Cursor, and Copilot on day one.",

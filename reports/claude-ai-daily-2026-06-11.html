@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-06-11">
+  <title>Claude AI Daily Brief — June 11, 2026 | Managed Agents Hit Public Beta; 4 Days to the June 15 Retirement; Anthropic on the Iran Strike Gap</title>
+  <meta name="description" content="June 11, 2026: Claude Managed Agents reach public beta with cron schedules and credential vaults, putting recurring work on autopilot. The June 15 retirement of Sonnet 4 and Opus 4 is now four days out. And Anthropic's CEO says he can't say what role Claude played in a strike on an Iran school — the clearest sign yet of the military accountability gap.">
+  <meta name="keywords" content="Claude AI, Anthropic, Managed Agents, cron scheduling, credential vault, Claude API deprecation, Sonnet 4, Opus 4, Project Glasswing, Claude Security, SpaceX Colossus, Anthropic IPO, military AI, Claude for Legal">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-06-11.html">
+  <meta property="og:title" content="Claude AI Daily Brief — June 11, 2026">
+  <meta property="og:description" content="Managed Agents go to public beta with cron schedules and secret vaults. The June 15 retirement of Sonnet 4 and Opus 4 is four days out. And Anthropic's CEO can't say what role Claude played in a deadly strike.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-11.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — June 11, 2026">
+  <meta name="twitter:description" content="Claude Managed Agents reach public beta — cron schedules, secure CLI access, credential vaults. The June 15 model retirement is 4 days out. And the military accountability gap goes public.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-11.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-06-11.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — June 11, 2026",
+    "description": "Claude Managed Agents reach public beta with cron scheduling and credential vaults. The June 15 retirement of Sonnet 4 and Opus 4 is four days out. Anthropic's CEO says he can't confirm what role Claude played in a strike on an Iran school.",
+    "datePublished": "2026-06-11T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-11.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-06-11.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav data-pagefind-ignore="all">
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Thursday, June 11, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; June 11, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #104</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Managed Agents Go on Autopilot</strong> &mdash; Claude&rsquo;s Managed Agents hit public beta with cron-style schedules and credential vaults, so an agent can run a nightly sync or weekly scan and use authenticated CLI tools without ever holding the real secret.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Four Days to the June 15 Retirement</strong> &mdash; Claude Sonnet 4 and Opus 4 retire from the API at 9am PT Monday. After that, calls to those model IDs return errors &mdash; a one-line fix that breaks production apps if it&rsquo;s missed.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>The Military Accountability Gap Goes Public</strong> &mdash; Anthropic&rsquo;s CEO said he can&rsquo;t say what role, if any, Claude played in a strike that killed an estimated 120 children at an Iran school &mdash; a stark look at how little visibility AI makers have once their tools reach the battlefield.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Breaking</span>
+      <h3>Managed Agents Reach Public Beta: Cron Schedules and Credential Vaults</h3>
+      <p>Anthropic moved two Managed Agents capabilities into public beta on the Claude Platform: scheduled deployments and secure access to CLI tools and authenticated services. A scheduled deployment hands an agent a cron schedule &mdash; when it fires, the agent spins up a fresh session, finishes the task, and shuts down, with no scheduler for you to build or host. Owners can pause, resume, archive, or fire an extra run on demand.</p>
+      <p>The credential handling is the clever part. The agent&rsquo;s sandbox holds only a placeholder; the real API key is attached at the network boundary, and only on requests to domains the customer allowlists. Even if the agent is hijacked by a prompt injection, the actual secret never enters the model&rsquo;s context. Anthropic attached no separate price &mdash; scheduled runs bill under existing Claude Platform usage. Rakuten is already running weekly and monthly spreadsheet-to-report jobs on it.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/engineering/managed-agents" class="source-link">Anthropic</a>
+        <a href="https://www.techtimes.com/articles/318163/20260610/claude-managed-agents-add-cron-schedules-credential-vaultsanthropic-beta-puts-agents-autopilot.htm" class="source-link">TechTimes</a>
+        <a href="https://blockchain.news/news/claude-managed-agents-schedule-cli-integration" class="source-link">Blockchain.News</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Safety</span>
+      <h3>Project Glasswing Expands to ~150 Orgs, Adds Claude Security</h3>
+      <p>Anthropic widened Project Glasswing &mdash; the vetted-access program that gates its highest-capability models &mdash; to roughly 150 new organizations, extending Claude Mythos Preview access to a larger circle of cyber defenders and critical-infrastructure operators. The expansion lands the same week Fable 5 went public, reinforcing the &ldquo;same model, different doors&rdquo; structure: the public gets the safeguarded version, while the unrestricted twin stays inside Glasswing.</p>
+      <p>The program also picked up Claude Security, a capability aimed at scanning codebases and proposing patches. Pitching the unrestricted model to defenders as a security tool is the clearest expression yet of Anthropic&rsquo;s bet that frontier capability is safest when it reaches the people defending systems before it reaches everyone else.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Deadline</span>
+      <h3>Four Days Out: Sonnet 4 and Opus 4 Retire From the API June 15</h3>
+      <p>The clock is short now. Claude Sonnet 4 (<code>claude-sonnet-4-20250514</code>) and Opus 4 (<code>claude-opus-4-20250514</code>) retire from the API at 9am PT on Monday, June 15. After that, requests to those model IDs &mdash; including the <code>claude-sonnet-4-0</code> and <code>claude-opus-4-0</code> aliases &mdash; return errors, and any production app still pointing at them breaks.</p>
+      <p>For most users the fix is a one-line model-string swap: move to <code>claude-sonnet-4-6</code> and <code>claude-opus-4-8</code>, with prompts, tool-use conventions, and JSON formats stable across the 4.x line. Consumer Claude.ai and Claude Code managed environments aren&rsquo;t affected &mdash; Anthropic handles model selection there. If you own API code, this weekend is the last comfortable window to test and ship the change.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/about-claude/model-deprecations" class="source-link">Claude API Docs</a>
+        <a href="https://www.mindstudio.ai/blog/claude-sonnet-4-opus-4-deprecation-migration-guide" class="source-link">MindStudio</a>
+        <a href="https://enterprisedna.co/resources/news/anthropic-claude-june-15-retirements-billing-2026/" class="source-link">Enterprise DNA</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Infrastructure</span>
+      <h3>SpaceX Compute Deal Feeds Higher Limits for Pro and Max</h3>
+      <p>Anthropic signed an agreement to take the full compute capacity of SpaceX&rsquo;s Colossus 1 data center, and it&rsquo;s framing the deal in user terms: more headroom for Claude Pro and Claude Max subscribers. The pitch is that raw capacity is now the binding constraint on what a frontier lab can offer, and locking up a data center translates fairly directly into higher usage ceilings.</p>
+      <p>For developers, the read is about reliability and rate limits as much as raw access. Capacity deals like this are what let Anthropic bundle a model as expensive as Fable 5 into paid plans, even briefly, and what determine whether your agent workloads hit throttling during peak hours. Infrastructure isn&rsquo;t glamorous, but it&rsquo;s increasingly the story behind every limit you feel.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/higher-limits-spacex" class="source-link">Anthropic</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Business</span>
+      <h3>Anthropic Files Confidentially for an IPO</h3>
+      <p>Anthropic confirmed it has confidentially submitted a draft S-1 to the SEC, teeing up a public-market test of the AI boom. Reporting around the filing puts the company at a roughly $965B valuation after a $65B raise, with annualized revenue cited near $47B from Claude subscriptions and platform usage &mdash; numbers that would make it one of the largest tech IPOs in recent memory.</p>
+      <p>A confidential filing doesn&rsquo;t lock in a timeline, but it signals intent and starts the regulatory clock. For customers, the relevant subtext is durability: an Anthropic answerable to public shareholders is a different kind of vendor than a private lab, with more disclosure and more pressure on the unit economics behind the models you depend on.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/confidential-draft-s1-sec" class="source-link">Anthropic</a>
+        <a href="https://www.cbsnews.com/news/anthropic-ipo-confidential-filing-claude-ai/" class="source-link">CBS News</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Ecosystem</span>
+      <h3>Claude&rsquo;s Legal Push Keeps Pulling In the Incumbents</h3>
+      <p>Anthropic&rsquo;s Claude-for-legal play &mdash; 20+ MCP connectors and 12 practice-area plugins spanning corporate, employment, privacy, IP, regulatory, and litigation work &mdash; is still reshaping legal-tech alignments. The connectors wire Claude into the tools firms already run, from DocuSign, Ironclad, and Box to research platforms like Thomson Reuters and the Free Law Project, plus AI assistants Harvey and Solve Intelligence.</p>
+      <p>The notable part is who&rsquo;s leaning in. Harvey, Relativity, Everlaw, and Thomson Reuters are integrating deeply rather than competing head-on, betting that sitting inside the Claude ecosystem beats sitting outside it. It&rsquo;s a preview of how vertical AI is consolidating: the model becomes the platform, and the established vendors become connectors on it.</p>
+      <div class="source-links">
+        <a href="https://www.lawnext.com/2026/05/anthropic-goes-all-in-on-legal-releasing-more-than-20-connectors-and-12-practice-area-plugins-for-claude.html" class="source-link">LawSites</a>
+        <a href="https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/" class="source-link">TechCrunch</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>&ldquo;I Don&rsquo;t Know&rdquo; Is the Whole Problem With Military AI</h3>
+      <p>Asked whether Claude played any role in a strike that killed an estimated 120 children at an Iran elementary school, Anthropic&rsquo;s CEO said he doesn&rsquo;t know. That answer isn&rsquo;t evasion so much as a confession about the architecture of selling AI to defense buyers: once a model is deployed inside classified systems, the vendor loses visibility into how it&rsquo;s used. Usage policies and acceptable-use terms are paper; they don&rsquo;t generate telemetry from a battlefield.</p>
+      <p>This is the unresolved tension under every defense AI deal in the industry, not just Anthropic&rsquo;s. Labs want the revenue and the &ldquo;democracies should lead&rdquo; framing; they also want to claim their safeguards mean something. But a safeguard you can&rsquo;t observe being honored is a hope, not a control. Expect &ldquo;I don&rsquo;t know&rdquo; to become the line that critics, and eventually regulators, refuse to accept.</p>
+      <div class="source-links">
+        <a href="https://www.bloomberg.com/news/articles/2026-06-10/anthropic-ceo-doesn-t-know-if-claude-used-in-iran-school-strike" class="source-link">Bloomberg</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Scheduled Agents Are the Quiet Half of the Autonomy Story</h3>
+      <p>Fable 5 got the headlines, but Managed Agents on a cron timer may matter more to how work actually changes. A model you prompt is a tool; a model that wakes up at 2am, runs a task against live systems, and goes back to sleep is closer to a coworker. The credential-vault design &mdash; secrets attached at the network edge, never in context &mdash; is a genuinely thoughtful answer to the obvious objection, that an autonomous agent with real keys is an autonomous agent that can be tricked into misusing them.</p>
+      <p>The thing to watch is the gap between &ldquo;runs unattended&rdquo; and &ldquo;runs correctly unattended.&rdquo; Scheduling removes the human from the loop by design, which is the point and the risk in one move. The teams that win with this won&rsquo;t be the ones that automate the most; they&rsquo;ll be the ones that build the tightest observability around what their agents did while no one was watching.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/engineering/managed-agents" class="source-link">Anthropic</a>
+        <a href="https://thenewstack.io/anthropic-managed-agents-dreaming-outcomes/" class="source-link">The New Stack</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
