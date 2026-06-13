@@ -8,6 +8,20 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 13, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-13.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-13.html</guid>
+      <pubDate>Sat, 13 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Washington Pulls the Plug on Fable 5</strong> — A US national-security order forced Anthropic to disable Fable 5 and Mythos 5 for all foreign nationals, including its own foreign-born staff; the company complied within hours and warns the standard would halt all new model launches industry-wide.</p>
+        <p><strong>2. Agencies Ordered Off Anthropic</strong> — In a parallel escalation, the administration directed federal agencies to stop using Anthropic technology, turning a simmering AI-safety dispute into an open clash.</p>
+        <p><strong>3. Anthropic Files for an IPO</strong> — Anthropic confidentially filed for an initial public offering, setting up the first public-market test of the AI boom even as regulatory turbulence swirls around its newest models.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-13.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    
+
+    <item>
       <title>Claude AI Daily Brief — June 12, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-12.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-12.html</guid>
@@ -353,18 +367,6 @@
         <p><strong>2. Anthropic and the Gates Foundation Forge a $200M Four-Year Partnership — Grant Funding, Claude Usage Credits, and Technical Support Across Global Health, Life Sciences, Education, and Economic Mobility</strong> — The mission-side stamp of the cycle. The four-year package combines philanthropic grant funding with credits against Claude usage and technical support for grantees, with named program areas spanning global health and life-science research, education, and economic mobility. The public-benefit counterpart to Thursday's Pentagon IL6/IL7 exclusion.</p>
         <p><strong>3. Third-Party Agent Credit-Meter Discourse Settles Into the Second Day — Developer Cohort Splits Between Accept-and-Rerun-the-Numbers and Switch-the-Runner</strong> — Twenty-four hours into the policy reinstatement, the discourse hardens into two camps. The cleanest landing for Anthropic is a formal pricing-page update with the plan-by-plan credit breakdown and an explainer of overflow at API token rates.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-15.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — May 14, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-14.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-14.html</guid>
-      <pubDate>Thu, 14 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude for Small Business Launches — 15 Ready-Run Agentic Workflows Across Intuit QuickBooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365; a 10-City Free AI Fluency Tour Kicks Off Today in Chicago</strong> — Anthropic stamps the third demand-side anchor of the week: a packaged toggle-install for the SMB seat with 100 SMB leaders per stop across Chicago, Tulsa, Dallas, New Jersey, Baton Rouge, Birmingham, Salt Lake City, Baltimore, San Jose, and Indianapolis. No extra charge above existing Claude licenses.</p>
-        <p><strong>2. Third-Party Agent Tools Are Back on Paid Claude Plans — But Behind a Separate, Non-Rollover Monthly Credit Meter Worth $20–$200 by Plan, Billed at API Token Rates</strong> — Axios put it on the wire Thursday morning: programmatic and external-agent usage is reinstated but moves to a fixed plan-tied credit pool. The clearest read yet of where OpenAI agent-token competitive pressure lands on the Claude pricing page.</p>
-        <p><strong>3. Pentagon Awards IL6/IL7 Classified-Network AI Contracts to Eight Big-Tech Vendors — Anthropic Deliberately Excluded Over Its Insistence on Warfare-Use Guardrails</strong> — The May 1 deals went to eight vendors with Anthropic shut out over its safety-guardrail position for AI in warfare. The S-1 risk-factor paragraph on government-revenue access now has a named federal-side data point alongside the EU access-track gap.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-14.html">Read full report →</a></p>
       ]]></description>
     </item>
 

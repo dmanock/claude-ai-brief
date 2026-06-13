@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-06-13",
+    "title": "Claude AI Daily Brief — June 13, 2026 | US Forces Anthropic to Pull Fable 5 &amp; Mythos 5 for Foreign Users; Agency Ban; IPO Filing",
+    "description": "June 13, 2026: A US national-security order forced Anthropic to disable Fable 5 and Mythos 5 for all foreign nationals — including its own foreign-born staff. Trump ordered federal agencies to stop using Anthropic tech amid an AI-safety clash. And Anthropic confidentially filed for an IPO.",
+    "url": "reports/claude-ai-daily-2026-06-13.html",
+    "headlines": [
+      "US Forces Anthropic to Pull Fable 5 &amp; Mythos 5 for Foreign Users; Agency Ban; IPO Filing",
+      "US Order Forces Anthropic to Disable Fable 5 and Mythos 5 for All Foreign Nationals",
+      "Trump Orders Federal Agencies to Stop Using Anthropic Technology",
+      "Sonnet 4 and Opus 4 Retire Monday &mdash; Migrate Before June 15",
+      "June 15 Billing Change: Agent SDK and claude -p Move to Separate Credits",
+      "Advisor Tool Hits Public Beta; Claude Code Gets Nested Sub-Agents",
+      "Anthropic Files Confidentially for an IPO",
+      "20+ New Legal Connectors and 12 Practice-Area Plugins for Claude",
+      "The Capability That Sold Mythos Is the One That Got It Pulled",
+      "An IPO Into a Headwind"
+    ],
+    "snippet": "Claude AI Daily Brief — June 13, 2026 | US Forces Anthropic to Pull Fable 5 & Mythos 5 for Foreign Users; Agency Ban; IPO Filing ● Saturday, June 13, 2026 Claude AI Daily Brief — June 13, 2026 Covering the last 24 hours · Edition #106 TL;DR — Today’s Top 3 Takeaways 1. Washington Pulls the Plug on F"
+  },
+  {
     "date": "2026-06-12",
     "title": "Claude AI Daily Brief — June 12, 2026 | Fable 5's Two-Front Week; Claude Corps Puts $150M Into Nonprofits; TCS Goes All-In",
     "description": "June 12, 2026: Days after launch, Claude Fable 5 is fighting jailbreak claims and a developer backlash over silent degradation. Anthropic commits $150M to Claude Corps, embedding 1,000 AI fellows in nonprofits. And TCS puts Claude in front of 50,000 associates as the enterprise land grab accelerates.",
