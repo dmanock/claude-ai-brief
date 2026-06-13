@@ -8,6 +8,18 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 12, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-12.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-12.html</guid>
+      <pubDate>Fri, 12 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Fable 5's Two-Front Week</strong> — Three days after launch, Anthropic's most powerful public model is fighting jailbreak claims from a prominent red-teamer and a separate developer backlash over silently degraded output; it disputes the first and apologized for the second.</p>
+        <p><strong>2. Claude Corps Commits $150M</strong> — Anthropic launched a fellowship that will embed 1,000 trained fellows in nonprofits for a year each, framed by president Daniela Amodei as a pillar of its push to spread AI's benefits.</p>
+        <p><strong>3. TCS Goes All-In on Claude</strong> — Tata Consultancy Services will roll Claude out to 50,000 associates as a Global Premier Partner, the clearest sign yet the enterprise land grab is now the main event.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-12.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — June 11, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-11.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-11.html</guid>
@@ -353,18 +365,6 @@
         <p><strong>2. Third-Party Agent Tools Are Back on Paid Claude Plans — But Behind a Separate, Non-Rollover Monthly Credit Meter Worth $20–$200 by Plan, Billed at API Token Rates</strong> — Axios put it on the wire Thursday morning: programmatic and external-agent usage is reinstated but moves to a fixed plan-tied credit pool. The clearest read yet of where OpenAI agent-token competitive pressure lands on the Claude pricing page.</p>
         <p><strong>3. Pentagon Awards IL6/IL7 Classified-Network AI Contracts to Eight Big-Tech Vendors — Anthropic Deliberately Excluded Over Its Insistence on Warfare-Use Guardrails</strong> — The May 1 deals went to eight vendors with Anthropic shut out over its safety-guardrail position for AI in warfare. The S-1 risk-factor paragraph on government-revenue access now has a named federal-side data point alongside the EU access-track gap.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-14.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — May 13, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-13.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-13.html</guid>
-      <pubDate>Wed, 13 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude for Legal Goes Live — 20+ MCP Connectors and 12 Practice-Area Plugins Ship; Thomson Reuters CoCounsel, Westlaw, Practical Law, Harvey, Everlaw, iManage, NetDocuments, Ironclad, DocuSign, Relativity, Box and Datasite Named, Freshfields the Co-Development Reference</strong> — A packaged legal offering built on Claude plus Cowork, surfaced inside Microsoft Word, Outlook, Excel, and PowerPoint with context carrying across all four. The twelve plugins cover commercial, corporate, employment, privacy, regulatory, AI governance, IP, and litigation work.</p>
-        <p><strong>2. SAP Sapphire 2026 Names Claude the Primary Reasoning and Agentic Capability for the New SAP Business AI Platform — Joule Agents Now Route Through Claude Across S/4HANA, SuccessFactors, and Ariba via MCP</strong> — The expanded partnership lands inside the Tuesday Sapphire keynote alongside SAP's "Autonomous Enterprise" framing and the Nvidia/Palantir co-billing; custom agents for public sector, healthcare, education, life sciences, and utilities are on the roadmap.</p>
-        <p><strong>3. Claude Code v2.1.140 Ships With Worktree baseRef Controls, Custom Sandbox Paths on Linux/WSL, Admin Policy Merge Options, and Effort Level Exposed to Hooks; Sonnet 4.8 Watch Slips Past the May 6-13 Corridor, London Extended May 20 Now the Working Frame</strong> — The governance-and-platform release after Monday's outcomes wave. Sonnet 4.8 didn't ship inside the corridor; the working read shifts to a paired London launch or a held-for-round-close release wave. Status returns to clean after two short Tuesday-evening incidents resolved.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-13.html">Read full report →</a></p>
       ]]></description>
     </item>
 
