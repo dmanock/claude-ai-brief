@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-06-14",
+    "title": "Claude AI Daily Brief — June 14, 2026 | Tech Backlash to Anthropic Ban; White House Calls It a Safety Fix; Europe Eyes Sovereignty",
+    "description": "June 14, 2026: The tech industry calls the US ban on foreign access to Fable 5 and Mythos 5 unworkable, while the White House frames it as a jailbreak safety fix. Europe and the UK pivot to sovereign-AI talk — and devs face a Monday deadline as Sonnet 4 and Opus 4 retire June 15.",
+    "url": "reports/claude-ai-daily-2026-06-14.html",
+    "headlines": [
+      "Tech Backlash to Anthropic Ban; White House Calls It a Safety Fix; Europe Eyes Sovereignty",
+      "White House Frames Export Controls as a Fable 5 &ldquo;Safety Fix&rdquo;",
+      "Fable 5 and Mythos 5 Stay Dark; Opus 4.8 Keeps Running",
+      "Final Reminder: Sonnet 4 and Opus 4 Retire Tomorrow",
+      "API Rate Limits Jump on the Colossus 1 Compute Deal",
+      "Tech World Calls the Foreign-Access Ban &ldquo;Unworkable&rdquo;",
+      "Europe and the UK Start Asking About Local Alternatives",
+      "The IPO Backdrop Gets More Complicated",
+      "A Software Problem Met a Hardware-Era Tool",
+      "The Sovereignty Genie Doesn&rsquo;t Go Back in the Bottle"
+    ],
+    "snippet": "Claude AI Daily Brief — June 14, 2026 | Tech Backlash to Anthropic Ban; White House Calls It a Safety Fix; Europe Eyes Sovereignty ● Sunday, June 14, 2026 Claude AI Daily Brief — June 14, 2026 Covering the last 24 hours · Edition #107 TL;DR — Today’s Top 3 Takeaways 1. Industry Calls the Ban Unworka"
+  },
+  {
     "date": "2026-06-13",
     "title": "Claude AI Daily Brief — June 13, 2026 | US Forces Anthropic to Pull Fable 5 &amp; Mythos 5 for Foreign Users; Agency Ban; IPO Filing",
     "description": "June 13, 2026: A US national-security order forced Anthropic to disable Fable 5 and Mythos 5 for all foreign nationals — including its own foreign-born staff. Trump ordered federal agencies to stop using Anthropic tech amid an AI-safety clash. And Anthropic confidentially filed for an IPO.",

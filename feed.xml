@@ -8,6 +8,20 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 14, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-14.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-14.html</guid>
+      <pubDate>Sun, 14 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Industry Calls the Ban Unworkable</strong> — Trump's order barring foreign nationals from Anthropic's Fable 5 and Mythos 5 drew sharp backlash across tech, with critics warning it's unenforceable and hands ground to China in the AI race.</p>
+        <p><strong>2. White House Calls It a Safety Fix</strong> — AI adviser David Sacks framed the export controls as tied to remediating a Fable 5 jailbreak, recasting the clampdown as a targeted security fix rather than a blanket move against Anthropic.</p>
+        <p><strong>3. Europe Eyes Sovereignty</strong> — With both models still dark for everyone, buyers in Europe and the UK began asking whether they need local alternatives that Washington can't switch off overnight.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-14.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+
+    <item>
       <title>Claude AI Daily Brief — June 13, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-13.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-13.html</guid>
@@ -357,18 +371,5 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-16.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — May 15, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-15.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-15.html</guid>
-      <pubDate>Fri, 15 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. PwC Expands the Anthropic Alliance — 30,000 US Employees Will Be Claude-Code-Certified and the Full 364,000 Global Workforce Gets Claude Code; the Three-Pillar Frame Is Build, Deal, and Reinvent</strong> — The Big Four consultancy commits to a workforce-scale Claude rollout across three named pillars: building agentic tools for clients, deploying AI across the dealmaking process, and reinventing client operating models. The consulting-services scaffolding underneath the SAP / Legal / SMB demand-anchor wave.</p>
-        <p><strong>2. Anthropic and the Gates Foundation Forge a $200M Four-Year Partnership — Grant Funding, Claude Usage Credits, and Technical Support Across Global Health, Life Sciences, Education, and Economic Mobility</strong> — The mission-side stamp of the cycle. The four-year package combines philanthropic grant funding with credits against Claude usage and technical support for grantees, with named program areas spanning global health and life-science research, education, and economic mobility. The public-benefit counterpart to Thursday's Pentagon IL6/IL7 exclusion.</p>
-        <p><strong>3. Third-Party Agent Credit-Meter Discourse Settles Into the Second Day — Developer Cohort Splits Between Accept-and-Rerun-the-Numbers and Switch-the-Runner</strong> — Twenty-four hours into the policy reinstatement, the discourse hardens into two camps. The cleanest landing for Anthropic is a formal pricing-page update with the plan-by-plan credit breakdown and an explainer of overflow at API token rates.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-15.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
   </channel>
 </rss>

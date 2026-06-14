@@ -6,6 +6,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.cadb.info/reports/claude-ai-daily-2026-06-14.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.cadb.info/reports/claude-ai-daily-2026-06-13.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>never</changefreq>
@@ -590,18 +596,6 @@
   <url>
     <loc>https://www.cadb.info/reports/claude-ai-daily-2026-03-08.html</loc>
     <lastmod>2026-03-08</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.cadb.info/reports/claude-ai-daily-2026-03-07.html</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.cadb.info/reports/claude-ai-daily-2026-03-06.html</loc>
-    <lastmod>2026-03-06</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
   </url>
