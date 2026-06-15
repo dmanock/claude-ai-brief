@@ -8,6 +8,20 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 15, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-15.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-15.html</guid>
+      <pubDate>Mon, 15 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Two Dev Deadlines Hit Today</strong> — Claude Sonnet 4 and Opus 4 retire at 9am PT, and Agent SDK, headless Claude Code, and third-party agents move off subscription limits onto a separate credit pool.</p>
+        <p><strong>2. Washington Maps a Fable 5 Off-Ramp</strong> — David Sacks says the US wants the Fable 5 and Mythos 5 export ban lifted "as soon as possible" once Anthropic remediates the safety issue; Anthropic has sent senior staff to DC.</p>
+        <p><strong>3. Enterprise Deals Keep Landing</strong> — A reported $200M Snowflake partnership puts Claude in front of 12,000+ enterprises, with DXC and TCS pushing Claude into regulated industries.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-15.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+
+    <item>
       <title>Claude AI Daily Brief — June 14, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-14.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-14.html</guid>
@@ -357,18 +371,6 @@
         <p><strong>2. Sonnet 4.8 Watch T-Minus 3 Business Days to London Extended May 20 — the Paired-Drop Frame Holds, the 512K-Line Source Map Pre-Read Stays Pinned, the Sunday Positioning Post Is the Working Pre-Keynote Signal</strong> — The London keynote window is now three business days out. Pre-read pin: 512K-line source map leak, vision approaching Opus 4.7's 98.5%, +12 pts coding bench, new X-high effort level, KAIROS persistent agents and Mythos framework references.</p>
         <p><strong>3. The Gates Foundation $200M Four-Year Partnership Remains the Week's Mission-Side Stamp Pairing With the Salesforce / SAP / Legal / SMB / PwC Demand-Anchor Sequence — the Anthropic Institute Economic-Diffusion Paper Is the Expected Mid-Week Companion</strong> — Grant funding, Claude credits, and technical support across global health, life sciences, education, and economic mobility. The two narratives co-exist on purpose ahead of the round close.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-17.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — May 16, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-16.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-16.html</guid>
-      <pubDate>Sat, 16 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Benioff Names the Salesforce 2026 Anthropic Spend at Roughly $300M for Coding and Product Work and Previews a Slack-Embedded Coding Surface with Claude Underneath — the Demand-Side Bookend on the Five-Anchor Week</strong> — Marc Benioff on the All-In podcast puts the dollar figure on the record and previews a new Slack-native coding tool that uses Claude as the underlying model. The named spend gives the agentic-coding category its single largest publicly disclosed customer commitment to date.</p>
-        <p><strong>2. Anthropic Publishes a Postmortem Tracing Six Weeks of Claude Code Quality Complaints to Three Overlapping Product Changes — Load-Balancer Routing, Default Effort Level, and Context-Cache TTL Combined to Degrade Output Quality in Subtle, Hard-to-Reproduce Ways</strong> — The InfoQ-relayed write-up names three concurrent changes that interacted to produce the late-March-through-early-May "Claude got dumber" discourse. Reversion on all three is the working fix. The transparency cadence is starting to look deliberate.</p>
-        <p><strong>3. Friday's May 15 Elevated-Error Window Logged Opus 4.6 and Sonnet 4.6 Dragging the Recovery Curve While Opus 4.7 Returned to Normal First — the Model-Tier Divergence Is the Operational Read of the Weekend, and Sonnet 4.8 Watch Is Now T-Minus 4 Business Days to London Extended May 20</strong> — Third recent incident with the same recovery-curve pattern. The migration call to production teams is direct: move off Opus 4.6 and Sonnet 4.6 before the May 20 Sonnet 4.8 paired-drop.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-16.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

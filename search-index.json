@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-06-15",
+    "title": "Claude AI Daily Brief — June 15, 2026 | Two Dev Deadlines Hit Today; Washington Maps a Fable 5 Off-Ramp; Enterprise Deals Keep Landing",
+    "description": "June 15, 2026: Sonnet 4 and Opus 4 retire at 9am PT and Agent SDK billing splits off subscriptions — a two-deadline Monday for devs. Sacks says the US wants to lift the Fable 5 ban 'as soon as possible' after a fix, and Anthropic ships staff to DC. Plus a $200M Snowflake deal.",
+    "url": "reports/claude-ai-daily-2026-06-15.html",
+    "headlines": [
+      "Two Dev Deadlines Hit Today; Washington Maps a Fable 5 Off-Ramp; Enterprise Deals Keep Landing",
+      "Sacks: US Wants to Lift the Fable 5 Ban &ldquo;As Soon As Possible&rdquo;",
+      "Anthropic Sends Staff to Washington as Models Stay Offline",
+      "Sonnet 4 and Opus 4 Retire at 9am PT &mdash; Migrate Now",
+      "Agent SDK Billing Splits Off Subscriptions Today",
+      "Claude Code Keeps Shipping: Native Installers, Nested Sub-Agents",
+      "Snowflake Deal Puts Claude in Front of 12,000+ Enterprises",
+      "DXC and TCS Push Claude into Regulated Industries",
+      "The IPO Backdrop Hangs Over a Messy Month",
+      "Two Deadlines, One Theme: The Free-Agent Era Is Ending",
+      "An Off-Ramp Is Good News &mdash; The Precedent Is the Story"
+    ],
+    "snippet": "Claude AI Daily Brief — June 15, 2026 | Two Dev Deadlines Hit Today; Washington Maps a Fable 5 Off-Ramp; Enterprise Deals Keep Landing ● Monday, June 15, 2026 Claude AI Daily Brief — June 15, 2026 Covering the last 24 hours · Edition #108 TL;DR — Today’s Top 3 Takeaways 1. Two Dev Deadlines Hit Toda"
+  },
+  {
     "date": "2026-06-14",
     "title": "Claude AI Daily Brief — June 14, 2026 | Tech Backlash to Anthropic Ban; White House Calls It a Safety Fix; Europe Eyes Sovereignty",
     "description": "June 14, 2026: The tech industry calls the US ban on foreign access to Fable 5 and Mythos 5 unworkable, while the White House frames it as a jailbreak safety fix. Europe and the UK pivot to sovereign-AI talk — and devs face a Monday deadline as Sonnet 4 and Opus 4 retire June 15.",
