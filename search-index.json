@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-06-16",
+    "title": "Claude AI Daily Brief — June 16, 2026 | Fable 5 Standoff Turns Into a Blame Game; Claude Corps Puts $150M Behind 1,000 AI Fellows; Self-Hosted Agent Sandboxes Hit Beta",
+    "description": "June 16, 2026: The Fable 5 export fight gets personal as Sacks says Anthropic 'refused' to fix a jailbreak and the company calls it not serious. Anthropic puts $150M behind Claude Corps and 1,000 paid AI fellows, while self-hosted agent sandboxes and private MCP servers reach public beta. Plus TCS, Gates Foundation, and the IPO backdrop.",
+    "url": "reports/claude-ai-daily-2026-06-16.html",
+    "headlines": [
+      "Fable 5 Standoff Turns Into a Blame Game; Claude Corps Puts $150M Behind 1",
+      "000 AI Fellows; Self-Hosted Agent Sandboxes Hit Beta",
+      "The Fable 5 Fight Gets Personal: &ldquo;Refused to Fix&rdquo; vs. &ldquo;Isn&rsquo;t Serious&rdquo;",
+      "Ban Still in Effect as Engineers Press for a Deal in DC",
+      "Self-Hosted Agent Sandboxes and Private MCP Reach Public Beta",
+      "Claude Code 2.1.178: Parameter-Level Permissions and Smarter Auto Mode",
+      "Aftermath Check: Sonnet 4 and Opus 4 Are Now Gone",
+      "Claude Corps: $150M to Place 1,000 AI Fellows in Nonprofits",
+      "TCS Brings Claude to 50,000 Staff and Regulated-Industry Clients",
+      "Gates Foundation Ties a $200M Knot With Anthropic",
+      "The Real Fable 5 Question Isn&rsquo;t the Jailbreak &mdash; It&rsquo;s Who Decides",
+      "Claude Corps Is an IPO Story Too"
+    ],
+    "snippet": "Claude AI Daily Brief — June 16, 2026 | Fable 5 Standoff Turns Into a Blame Game; Claude Corps Puts $150M Behind 1,000 AI Fellows; Self-Hosted Agent Sandboxes Hit Beta ● Tuesday, June 16, 2026 Claude AI Daily Brief — June 16, 2026 Covering the last 24 hours · Edition #109 TL;DR — Today’s Top 3 Takea"
+  },
+  {
     "date": "2026-06-15",
     "title": "Claude AI Daily Brief — June 15, 2026 | Two Dev Deadlines Hit Today; Washington Maps a Fable 5 Off-Ramp; Enterprise Deals Keep Landing",
     "description": "June 15, 2026: Sonnet 4 and Opus 4 retire at 9am PT and Agent SDK billing splits off subscriptions — a two-deadline Monday for devs. Sacks says the US wants to lift the Fable 5 ban 'as soon as possible' after a fix, and Anthropic ships staff to DC. Plus a $200M Snowflake deal.",
