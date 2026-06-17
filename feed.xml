@@ -8,6 +8,20 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 17, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-17.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-17.html</guid>
+      <pubDate>Wed, 17 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. 150+ Security Experts Demand the Fable 5 Ban Be Lifted</strong> — An open letter signed by the CEOs of Adobe, Sophos, and Zoom plus Alex Stamos and Katie Moussouris argues the "jailbreak" that triggered the export controls was never real, and that pulling the model hurts defenders, not adversaries.</p>
+        <p><strong>2. Claude Hits 10th Outage in 12 Days</strong> — Opus 4.8 and Haiku 4.5 error rates spiked again Monday as Anthropic concedes its infrastructure is stretched by record demand, with still no public post-mortems.</p>
+        <p><strong>3. Managed Agents Gain Dreaming and Webhooks</strong> — The agent platform adds multiagent orchestration, scheduled deployments, vault credentials, and richer session webhooks — the plumbing for always-on autonomous workloads.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-17.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+
+    <item>
       <title>Claude AI Daily Brief — June 16, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-16.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-16.html</guid>
@@ -361,18 +375,6 @@
         <p><strong>2. Monday 21:47 UTC Opus 4.7 Elevated-Error Event Breaks the Tier-Divergence Read</strong> — 31-minute window, resolved at 22:18 UTC. First status incident on the newer Opus 4.7 tier in the recent six-event May streak. Migration call still stands on the broader pattern but the "clean tier" framing now has a counterexample 36 hours before London Extended.</p>
         <p><strong>3. Sonnet 4.8 Watch T-Minus 24 Hours to London Extended May 20 — EPAM 10,000-Architect Alliance Lands as the Tuesday Demand-Side Stamp</strong> — Anthropic landed the billing post on Tuesday rather than the model post. Deliberate sequencing — billing today, model and platform tomorrow. Wednesday keynote carries the Sonnet 4.8 story alone on a cleaner cycle.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-19.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — May 18, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-18.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-18.html</guid>
-      <pubDate>Mon, 18 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Monday Morning Haiku 4.5 Elevated-Error Window Resolves at 08:07 UTC — Fifth Recent Incident With the Same Model-Tier Recovery Pattern</strong> — Investigation opened 06:12 UTC, fix implemented 07:28 UTC, full resolution 08:07 UTC. Two-hour window is the longest in the streak. Opus 4.7 unaffected. Migration call to production teams unchanged: move off the 4.6 and 4.5 pool before Wednesday's Sonnet 4.8 paired-drop.</p>
-        <p><strong>2. Sonnet 4.8 Watch T-Minus 2 Business Days to London Extended May 20 — Sunday Positioning Post Did Not Land, Tuesday Window Is Now the Pre-Keynote Signal</strong> — Pre-read holds: 512K-line source map leak, vision approaching Opus 4.7's 98.5%, +12 pts coding bench, X-high effort level, KAIROS persistent agents and Mythos framework references.</p>
-        <p><strong>3. Claude for Small Business Dallas Workshop Opens Day Four of the 10-City Tour — Gates Foundation $200M Mission Stamp Holds the Demand-Anchor Pairing</strong> — QuickBooks + PayPal + HubSpot connector stack inside Cowork mode remains the SMB first-test surface. SAP / Joule embedded reasoning anchors the enterprise day-one read.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-18.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

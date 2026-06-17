@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-06-17",
+    "title": "Claude AI Daily Brief — June 17, 2026 | 150+ Security Experts Demand the Fable 5 Ban Be Lifted; Claude Hits 10th Outage in 12 Days; Managed Agents Get Dreaming and Webhooks",
+    "description": "June 17, 2026: More than 150 cybersecurity leaders — including the CEOs of Adobe, Sophos, and Zoom — sign an open letter urging Washington to reverse the Fable 5 and Mythos 5 export ban, arguing the 'jailbreak' was never real. Claude logs its tenth disruption in 12 days as infrastructure strains under record demand. Plus Managed Agents add dreaming and webhooks, Claude for Legal expands, and the Snowflake deal.",
+    "url": "reports/claude-ai-daily-2026-06-17.html",
+    "headlines": [
+      "150+ Security Experts Demand the Fable 5 Ban Be Lifted; Claude Hits 10th Outage in 12 Days; Managed Agents Get Dreaming and Webhooks",
+      "150+ Security Leaders Sign Open Letter to Reverse the Fable 5 Ban",
+      "&ldquo;Fix This Code&rdquo;: The Three Words Behind the Ban &mdash; and Where Talks Stand",
+      "Claude Logs 10th Disruption in 12 Days as Infrastructure Strains",
+      "Managed Agents Add Dreaming, Multiagent Orchestration, and Webhooks",
+      "Reminder: Sonnet 4 and Opus 4 Are Now Retired",
+      "Claude for Legal: 20+ Connectors and 12 Practice-Area Plugins",
+      "Snowflake Ties a $200M Knot to Put Claude in Front of 12,000 Enterprises",
+      "The Outages Are the Story Anthropic Should Worry About Most",
+      "When the Defenders Side With the Vendor, the Ban Has a Problem"
+    ],
+    "snippet": "Claude AI Daily Brief — June 17, 2026 | 150+ Security Experts Demand the Fable 5 Ban Be Lifted; Claude Hits 10th Outage in 12 Days; Managed Agents Get Dreaming and Webhooks ● Wednesday, June 17, 2026 Claude AI Daily Brief — June 17, 2026 Covering the last 24 hours · Edition #110 TL;DR — Today’s Top "
+  },
+  {
     "date": "2026-06-16",
     "title": "Claude AI Daily Brief — June 16, 2026 | Fable 5 Standoff Turns Into a Blame Game; Claude Corps Puts $150M Behind 1,000 AI Fellows; Self-Hosted Agent Sandboxes Hit Beta",
     "description": "June 16, 2026: The Fable 5 export fight gets personal as Sacks says Anthropic 'refused' to fix a jailbreak and the company calls it not serious. Anthropic puts $150M behind Claude Corps and 1,000 paid AI fellows, while self-hosted agent sandboxes and private MCP servers reach public beta. Plus TCS, Gates Foundation, and the IPO backdrop.",
