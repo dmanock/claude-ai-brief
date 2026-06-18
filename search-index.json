@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-18",
+    "title": "Claude AI Daily Brief — June 18, 2026 | Anthropic Opens Seoul Office With NAVER and Samsung Deals; Claude Design Gets Design-System Imports; Fable 5 ID-Check Workaround",
+    "description": "June 18, 2026: Anthropic opens its Seoul office and lands NAVER, Samsung SDS, and LG CNS deployments plus a government AI-safety MOU. Claude Design ships design-system imports and Claude Code round-trips while sharing usage limits to fix token burn. A new privacy policy offers US consumers an ID-check path around the Fable 5 ban. Plus the paused Agent SDK billing split, Claude for Apple Foundation Models, and the $150M Claude Corps fellowship.",
+    "url": "reports/claude-ai-daily-2026-06-18.html",
+    "headlines": [
+      "Anthropic Opens Seoul Office With NAVER and Samsung Deals; Claude Design Gets Design-System Imports; Fable 5 ID-Check Workaround",
+      "Anthropic Opens Seoul Office, Lands NAVER, Samsung SDS, and LG CNS",
+      "Fable 5 Ban: A Privacy-Policy ID Check May Reopen Access for US Citizens",
+      "Claude Design Overhaul: Design-System Imports, Code Round-Trips, and a Token Fix",
+      "The June 15 Agent SDK Billing Split Is Paused &mdash; Nothing Changes for Now",
+      "Claude Drops Into Apple&rsquo;s Foundation Models Framework",
+      "Claude Corps: A $150M Fellowship Puts AI Talent Inside Nonprofits",
+      "Anthropic Goes Global Exactly as Washington Pulls It Back",
+      "Shared Usage Limits Are the Real Headline in Claude Design"
+    ],
+    "snippet": "Claude AI Daily Brief — June 18, 2026 | Anthropic Opens Seoul Office With NAVER and Samsung Deals; Claude Design Gets Design-System Imports; Fable 5 ID-Check Workaround ● Thursday, June 18, 2026 Claude AI Daily Brief — June 18, 2026 Covering the last 24 hours · Edition #111 TL;DR — Today’s Top 3 Tak"
+  },
+  {
     "date": "2026-06-17",
     "title": "Claude AI Daily Brief — June 17, 2026 | 150+ Security Experts Demand the Fable 5 Ban Be Lifted; Claude Hits 10th Outage in 12 Days; Managed Agents Get Dreaming and Webhooks",
     "description": "June 17, 2026: More than 150 cybersecurity leaders — including the CEOs of Adobe, Sophos, and Zoom — sign an open letter urging Washington to reverse the Fable 5 and Mythos 5 export ban, arguing the 'jailbreak' was never real. Claude logs its tenth disruption in 12 days as infrastructure strains under record demand. Plus Managed Agents add dreaming and webhooks, Claude for Legal expands, and the Snowflake deal.",
