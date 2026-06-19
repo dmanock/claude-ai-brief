@@ -8,6 +8,20 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 19, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-19.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-19.html</guid>
+      <pubDate>Fri, 19 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Enterprise-Managed MCP Auth Lands, Starting With Okta</strong> — Admins provision connectors once through their identity provider, and users get zero-touch access the first time they open Claude; Ramp already has 2,000 employees live.</p>
+        <p><strong>2. Workload Identity Federation Goes GA, Killing Static API Keys</strong> — Workloads authenticate with short-lived OIDC tokens from AWS, GCP, GitHub Actions, or any OIDC issuer, with per-workload service accounts and full audit trails.</p>
+        <p><strong>3. Claude for Legal Goes Open Source</strong> — Anthropic ships 20+ MCP connectors and 12 practice-area plugins under Apache 2.0, wiring Claude into Westlaw, iManage, DocuSign, Everlaw, and the rest of the legal stack.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-19.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+
+    <item>
       <title>Claude AI Daily Brief — June 18, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-18.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-18.html</guid>
@@ -365,18 +379,6 @@
         <p><strong>2. SAP Makes Claude Its Primary Reasoning Engine</strong> — At SAP Sapphire, Anthropic's models get embedded across the new SAP Business AI Platform, putting Claude inside the enterprise system of record for finance, supply chain, and HR workflows.</p>
         <p><strong>3. Cache Diagnostics + Fast Mode for Opus 4.7</strong> — The Claude Developer Platform ships cache diagnostics in public beta to explain prompt-cache misses, and extends fast mode to Opus 4.7 with up to 2.5x higher output tokens per second.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-21.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — May 20, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-20.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-20.html</guid>
-      <pubDate>Wed, 20 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Code with Claude London Keynote Day</strong> — Day-1 livestreams today across three tracks (Research, Claude Platform, Claude Code), with an Extended edition for indie devs and founders. This year's tour is about agent infrastructure, not a new model.</p>
-        <p><strong>2. Anthropic Acquires Stainless</strong> — the SDK and MCP startup behind every official Claude library, in a deal reported above $300M. The team folds into Claude Platform and Stainless winds down its hosted SDK generator; existing customers keep the right to modify code they've already generated.</p>
-        <p><strong>3. KPMG Signs a Global Claude Alliance</strong> — Claude goes into Digital Gateway across 276,000 staff, starting with tax and PE clients, and Anthropic is named a preferred private-equity partner to co-build products for portfolio companies.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-20.html">Read full report →</a></p>
       ]]></description>
     </item>
 

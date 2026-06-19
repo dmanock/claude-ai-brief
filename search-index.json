@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-19",
+    "title": "Claude AI Daily Brief — June 19, 2026 | Enterprise-Managed MCP Auth Lands With Okta; Workload Identity Federation Kills Static API Keys; Claude for Legal Goes Open Source",
+    "description": "June 19, 2026: Anthropic ships enterprise-managed MCP connector authorization, starting with Okta, so admins provision once and users get zero-touch access on first login. Workload Identity Federation hits GA, replacing static API keys with short-lived tokens. Claude for Legal open-sources 20+ connectors and 12 practice-area plugins, Claude Code gets a Bun upgrade, and DXC and TCS deepen the regulated-industries push ahead of the IPO.",
+    "url": "reports/claude-ai-daily-2026-06-19.html",
+    "headlines": [
+      "Enterprise-Managed MCP Auth Lands With Okta; Workload Identity Federation Kills Static API Keys; Claude for Legal Goes Open Source",
+      "Enterprise-Managed MCP Connector Authorization Arrives, Starting With Okta",
+      "The Regulated-Industries Push Deepens: DXC and TCS Build Out Claude Delivery",
+      "Workload Identity Federation Is GA &mdash; The Static API Key Is on Notice",
+      "Claude Code Ships a Bun Upgrade, macOS Sandbox Options, and Prompt-Based Config",
+      "Claude for Legal: 20+ MCP Connectors and 12 Practice-Area Plugins, Open-Sourced",
+      "Identity Is the New Battleground &mdash; and Anthropic Just Claimed Ground",
+      "The Enterprise Hardening Is an IPO Story Too"
+    ],
+    "snippet": "Claude AI Daily Brief — June 19, 2026 | Enterprise-Managed MCP Auth Lands With Okta; Workload Identity Federation Kills Static API Keys; Claude for Legal Goes Open Source ● Friday, June 19, 2026 Claude AI Daily Brief — June 19, 2026 Covering the last 24 hours · Edition #112 TL;DR — Today’s Top 3 Tak"
+  },
+  {
     "date": "2026-06-18",
     "title": "Claude AI Daily Brief — June 18, 2026 | Anthropic Opens Seoul Office With NAVER and Samsung Deals; Claude Design Gets Design-System Imports; Fable 5 ID-Check Workaround",
     "description": "June 18, 2026: Anthropic opens its Seoul office and lands NAVER, Samsung SDS, and LG CNS deployments plus a government AI-safety MOU. Claude Design ships design-system imports and Claude Code round-trips while sharing usage limits to fix token burn. A new privacy policy offers US consumers an ID-check path around the Fable 5 ban. Plus the paused Agent SDK billing split, Claude for Apple Foundation Models, and the $150M Claude Corps fellowship.",
