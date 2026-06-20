@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-20",
+    "title": "Claude AI Daily Brief — June 20, 2026 | Claude Code Artifacts Turns Sessions Into Live Dashboards; Claude Design Overhaul Hits 1M Users; An 11-Hour Outage Rattles the AI Stack",
+    "description": "June 20, 2026: Claude Code Artifacts turns agent sessions into live, shareable enterprise dashboards. Claude Design gets a major overhaul with design-system imports and Claude Code round-trips after topping 1M users. An 11-hour global outage knocks Claude offline for thousands, Claude Code revenue jumps 5.5x, and a class action targets Max plan usage limits.",
+    "url": "reports/claude-ai-daily-2026-06-20.html",
+    "headlines": [
+      "Claude Code Artifacts Turns Sessions Into Live Dashboards; Claude Design Overhaul Hits 1M Users; An 11-Hour Outage Rattles the AI Stack",
+      "Claude Code Artifacts: Agent Sessions Become Live, Shareable Dashboards",
+      "Claude Design Gets a Major Overhaul &mdash; and a Fix for Its Token Problem",
+      "Claude Code Revenue Jumps 5.5x as Anthropic Adds Usage Tracking",
+      "The Agent SDK Credit Change Is Still in Limbo",
+      "An 11-Hour Outage Knocks Claude Offline for Thousands",
+      "Class Action Targets Claude Max Usage Limits",
+      "Claude Is Quietly Becoming an App Platform",
+      "Reliability and Billing Are Now the IPO Risk Factors"
+    ],
+    "snippet": "Claude AI Daily Brief — June 20, 2026 | Claude Code Artifacts Turns Sessions Into Live Dashboards; Claude Design Overhaul Hits 1M Users; An 11-Hour Outage Rattles the AI Stack ● Saturday, June 20, 2026 Claude AI Daily Brief — June 20, 2026 Covering the last 24 hours · Edition #113 TL;DR — Today’s To"
+  },
+  {
     "date": "2026-06-19",
     "title": "Claude AI Daily Brief — June 19, 2026 | Enterprise-Managed MCP Auth Lands With Okta; Workload Identity Federation Kills Static API Keys; Claude for Legal Goes Open Source",
     "description": "June 19, 2026: Anthropic ships enterprise-managed MCP connector authorization, starting with Okta, so admins provision once and users get zero-touch access on first login. Workload Identity Federation hits GA, replacing static API keys with short-lived tokens. Claude for Legal open-sources 20+ connectors and 12 practice-area plugins, Claude Code gets a Bun upgrade, and DXC and TCS deepen the regulated-industries push ahead of the IPO.",

@@ -8,6 +8,20 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 20, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-20.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-20.html</guid>
+      <pubDate>Sat, 20 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Code Artifacts Turns Sessions Into Live Dashboards</strong> — A Claude Code session can now publish a live, shareable HTML app wired to real data and code that refreshes in place as the agent works, gated to Team and Enterprise plans.</p>
+        <p><strong>2. Claude Design Overhaul Lands After 1M Users</strong> — Design-system imports, two-way Claude Code sync, a /design command, canvas editing, and enterprise brand controls arrive, plus a fix for the token-burning that bit early users.</p>
+        <p><strong>3. An 11-Hour Global Outage Rattles the Stack</strong> — Claude Chat, the web app, and Claude Code went dark for thousands on June 18, a sharp reminder of how much daily work now rides on a single AI provider.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-20.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+
+    <item>
       <title>Claude AI Daily Brief — June 19, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-19.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-19.html</guid>
@@ -367,18 +381,6 @@
         <p><strong>2. Self-Hosted Sandboxes + MCP Tunnels</strong> — Run agents on your own infrastructure and let them reach internal systems without touching the public internet — the plumbing that unblocks enterprise pilots.</p>
         <p><strong>3. Claude Design Debuts From Anthropic Labs</strong> — A new tool to collaborate with Claude on designs, prototypes, slides, and one-pagers, pushing Claude into the visual-output layer.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-22.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — May 21, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-21.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-21.html</guid>
-      <pubDate>Thu, 21 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Code with Claude London Wraps With an Extended Founder Day</strong> — The European tour stop closes with a hands-on day for indie devs and early-stage founders: workshops, founder stories, and office hours with Anthropic's Applied AI team.</p>
-        <p><strong>2. SAP Makes Claude Its Primary Reasoning Engine</strong> — At SAP Sapphire, Anthropic's models get embedded across the new SAP Business AI Platform, putting Claude inside the enterprise system of record for finance, supply chain, and HR workflows.</p>
-        <p><strong>3. Cache Diagnostics + Fast Mode for Opus 4.7</strong> — The Claude Developer Platform ships cache diagnostics in public beta to explain prompt-cache misses, and extends fast mode to Opus 4.7 with up to 2.5x higher output tokens per second.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-21.html">Read full report →</a></p>
       ]]></description>
     </item>
 
