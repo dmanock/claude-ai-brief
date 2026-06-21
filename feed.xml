@@ -8,6 +8,20 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 21, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-21.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-21.html</guid>
+      <pubDate>Sun, 21 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Lands in Apple's Foundation Models Framework</strong> — An official Swift package lets iOS 27 apps route to Claude through the same LanguageModelSession API as Apple's on-device model, so you swap providers by changing one dependency.</p>
+        <p><strong>2. Fable 5 and Mythos 5 Stay Dark on Day 9</strong> — The export-control freeze holds, and a new detail reframes it: reporting says the NSA watched Mythos autonomously breach nearly all its classified systems in hours.</p>
+        <p><strong>3. Claude Code and the Platform Get a Wave of Upgrades</strong> — New Developer Platform tool versions, conversation-language session titles, cleaner Remote Control, Enterprise admin delegation, and computer use in Claude Code and Cowork.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-21.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+
+    <item>
       <title>Claude AI Daily Brief — June 20, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-20.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-20.html</guid>
@@ -369,18 +383,6 @@
         <p><strong>2. Anthropic Silently Patches a 5-Month Claude Code Sandbox Bypass</strong> — A SOCKS5 null-byte trick let sandboxed code defeat any wildcard allowlist and exfiltrate credentials, fixed in v2.1.90 with no CVE and no security note.</p>
         <p><strong>3. Coros Becomes the First Wearable to Ship an Official MCP Server</strong> — Authorize once and Claude can read your workouts, sleep, HRV, and race readiness — MCP leaking out of the dev world and into consumer hardware.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-23.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — May 22, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-22.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-22.html</guid>
-      <pubDate>Fri, 22 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Code with Claude Ships Managed Agents</strong> — Multiagent Orchestration delegates work to parallel specialist agents, Outcomes lets you define success criteria to iterate against, and Dreaming lets Claude recall and build on past sessions.</p>
-        <p><strong>2. Self-Hosted Sandboxes + MCP Tunnels</strong> — Run agents on your own infrastructure and let them reach internal systems without touching the public internet — the plumbing that unblocks enterprise pilots.</p>
-        <p><strong>3. Claude Design Debuts From Anthropic Labs</strong> — A new tool to collaborate with Claude on designs, prototypes, slides, and one-pagers, pushing Claude into the visual-output layer.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-22.html">Read full report →</a></p>
       ]]></description>
     </item>
 
