@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-06-22">
+  <title>Claude AI Daily Brief — June 22, 2026 | Claude Hit by 90-Minute Global Outage; Fable 5 Free Window Closes as Model Shows Signs of Return; Claude Code and Platform Ship Developer Upgrades</title>
+  <meta name="description" content="June 22, 2026: Claude suffers a 90-minute global outage across five models — its third disruption this month. Fable 5's free window closes today and paid credits start June 23 at double Opus pricing, even as the model flickers back in the Android app. Claude Code adds prompt-time config commands and tighter auto-mode safety, Managed Agents gain enterprise sandboxes and private MCP servers, and Workload Identity Federation goes GA.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude outage, Opus 4.8, Fable 5, Mythos 5, export control, NSA, Claude Code, Managed Agents, Workload Identity Federation, MCP, ECRA, Seoul office, enterprise AI">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-06-22.html">
+  <meta property="og:title" content="Claude AI Daily Brief — June 22, 2026">
+  <meta property="og:description" content="A 90-minute global outage hits five Claude models, Fable 5's free window closes as the model shows signs of return, and Claude Code plus the Platform ship a wave of developer upgrades.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-22.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — June 22, 2026">
+  <meta name="twitter:description" content="Claude hit by a 90-minute outage across five models. Fable 5's free window closes today. Claude Code and the Platform ship developer upgrades.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-22.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-06-22.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — June 22, 2026",
+    "description": "Claude suffers a 90-minute global outage across five models — its third disruption this month. Fable 5's free pricing window closes today with paid credits starting June 23, even as the model flickers back in the Android app. Claude Code, Managed Agents, and Workload Identity Federation get developer upgrades.",
+    "datePublished": "2026-06-22T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-22.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-06-22.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav data-pagefind-ignore="all">
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Monday, June 22, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; June 22, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #115</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Claude Hit by a 90-Minute Global Outage</strong> &mdash; Five flagship models went down early June 22 across Claude.ai, the API, Claude Code, and Cowork &mdash; the platform&rsquo;s third disruption this month, recovered in a staged rollout.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Fable 5&rsquo;s Free Window Closes Today</strong> &mdash; Paid credits at double Opus pricing start June 23, even as the model flickers back into the Android app and Trump signals he&rsquo;s eased his security concerns.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Claude Code and the Platform Ship Developer Upgrades</strong> &mdash; Prompt-time config commands, tighter auto-mode safety, enterprise sandboxes and private MCP servers for Managed Agents, and keyless Workload Identity Federation now GA.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Breaking</span>
+      <h3>Claude Back Online After a 90-Minute Global Outage Across Five Models</h3>
+      <p>Anthropic opened an investigation at 00:37 UTC on June 22 into elevated error rates that hit five models at once &mdash; Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 4.6, and Haiku 4.5 &mdash; one of the broadest multi-model disruptions the platform has seen this month. The blast radius spanned the full stack: Claude.ai chat, the <code>api.anthropic.com</code> API, Claude Code, and Cowork, with developers reporting failed requests and cascading workflow stalls.</p>
+      <p>Anthropic pinned the root cause by 01:11 UTC and recovered model by model in a staged rollout &mdash; Opus 4.8 at 01:16, Haiku 4.5 at 01:33, Opus 4.7 at 01:56 &mdash; declaring full resolution at 02:06 UTC. It&rsquo;s the third Claude incident this month after outages on June 2 and June 5, though the 90-day uptime figure still sits above 98%. The frequency, not the duration, is what raises the capacity-planning question as demand for the top-end models keeps climbing.</p>
+      <div class="source-links">
+        <a href="https://cybersecuritynews.com/anthropic-claude-ai-outage/" class="source-link">Cyber Security News</a>
+        <a href="https://status.claude.com/" class="source-link">Claude Status</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Policy</span>
+      <h3>Fable 5&rsquo;s Free Window Closes Today &mdash; Paid Credits Start June 23 at Double Opus Pricing</h3>
+      <p>Fable 5 was bundled at no extra cost on Claude Pro, Max, Team, and Enterprise from launch through June 22. Starting June 23, usage requires credits billed at API rates of $10 per million input tokens and $50 per million output &mdash; double the price of Claude Opus 4.8. Anthropic hasn&rsquo;t clarified how the transition will be handled given the model is still suspended for most users under the export-control directive.</p>
+      <p>The pricing flip lands in an awkward spot: customers are being asked to start paying premium rates for a model many still can&rsquo;t reliably reach. Anthropic says it plans to restore Fable 5 as a standard subscription feature &ldquo;as soon as possible,&rdquo; but for now the message to teams is to budget for metered access to the company&rsquo;s most capable public model.</p>
+      <div class="source-links">
+        <a href="https://www.techtimes.com/articles/318783/20260621/claude-fable-5-resurfaces-android-app-nsa-breach-testimony-reshapes-ban.htm" class="source-link">Tech Times</a>
+        <a href="https://www.anthropic.com/news/fable-mythos-access" class="source-link">Anthropic</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Prompt-Time Config Commands and Harder Guardrails on Auto Mode</h3>
+      <p>The latest Claude Code release adds flexible prompt-time config commands, new macOS sandbox and notification controls, and a smoother core loop &mdash; faster startup, better streaming, and stronger auto-retry. The stream-stall hint now reads &ldquo;Waiting for API response &middot; will retry in&hellip;&rdquo; and waits 20 seconds of silence before retrying instead of 10.</p>
+      <p>Auto mode got noticeably more conservative. Destructive git commands like <code>git reset --hard</code>, <code>git checkout -- .</code>, and <code>git clean -fd</code> are now blocked when you didn&rsquo;t ask to discard local work; <code>git commit --amend</code> is blocked unless the agent made the commit this session; and <code>terraform destroy</code>, <code>pulumi destroy</code>, and <code>cdk destroy</code> are blocked unless you named the specific stack. Claude Code now also prompts before writing files that can execute code, even in acceptEdits mode.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Enterprise</span>
+      <h3>Managed Agents Get Enterprise Sandboxes, Private MCP Servers, and Keyless Auth</h3>
+      <p>Claude Managed Agents can now run inside a sandbox you control and connect to your own private Model Context Protocol servers &mdash; both the execution environment and the services an agent reaches stay within established enterprise boundaries. It&rsquo;s the missing piece for teams that wanted managed agents but couldn&rsquo;t send tool calls outside their perimeter.</p>
+      <p>Alongside it, Workload Identity Federation went generally available, replacing static API keys with short-lived, scoped credentials issued at request time across API endpoints, SDKs, and Claude Code. There&rsquo;s nothing to rotate or leak: it scales from a two-person startup running GitHub Actions to an enterprise with detailed credential policies, with service accounts and Admin API support for programmatic identity management.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Claude Docs</a>
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic Newsroom</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Incident</span>
+      <h3>Fable 5 Flickers Back in the Android App as an NSA Breach Detail Reshapes the Ban</h3>
+      <p>Developers reported June 21 that &ldquo;Claude Fable 5&rdquo; reappeared in the Android app&rsquo;s model picker, and that invoking it now returns &ldquo;server is temporarily rate-limiting requests&rdquo; instead of a hard &ldquo;model unavailable&rdquo; &mdash; rate-limiting implies a live back-end. Prediction markets price roughly 57% odds of restoration before July 1. Anthropic hasn&rsquo;t confirmed anything, and API calls still error out.</p>
+      <p>The harder detail comes from new reporting on closed-door testimony: NSA Director Gen. Joshua Rudd reportedly told Sen. Mark Warner that Mythos &mdash; which shares Fable 5&rsquo;s underlying weights, minus its safety classifiers &mdash; autonomously breached nearly all of the agency&rsquo;s classified systems in hours during a red-team exercise. That recasts the dispute from a single jailbreak into the model&rsquo;s offensive cyber capability as a whole, and ties into a June 2 Executive Order mandating government pre-release review of frontier models by August 1.</p>
+      <div class="source-links">
+        <a href="https://www.techtimes.com/articles/318783/20260621/claude-fable-5-resurfaces-android-app-nsa-breach-testimony-reshapes-ban.htm" class="source-link">Tech Times</a>
+        <a href="https://polymarket.com/event/claude-fable-5-restored-for-us-customers-by-20260613193753196" class="source-link">Polymarket</a>
+        <a href="https://www.anthropic.com/news/claude-fable-5-mythos-5" class="source-link">Anthropic</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Ecosystem</span>
+      <h3>Anthropic Opens a Seoul Office and Deepens Korean Partnerships</h3>
+      <p>Anthropic opened an office in Seoul and announced new partnerships across the Korean AI ecosystem, its latest push into a region where enterprise and government demand for frontier models is accelerating. It was at the Seoul opening on June 17 that international MD Chris Ciauri said the company was &ldquo;very confident&rdquo; Fable 5 and Mythos 5 would return &ldquo;in the coming days.&rdquo;</p>
+      <p>The expansion fits a pattern of Anthropic building local presence ahead of a possible IPO, planting flags in markets where data residency, language support, and on-the-ground partnerships increasingly decide enterprise deals. Korea joins a growing list of international footholds as the company races to convert global interest into committed contracts.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic Newsroom</a>
+        <a href="https://www.koreajoongangdaily.com/business/anthropic-confident-of-reenabling-mythos-fable-5-access-in-coming-days-executive/12727522" class="source-link">Korea JoongAng Daily</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Analysis</span>
+      <h3>Three Outages in a Month Is a Capacity Story, Not a Coincidence</h3>
+      <p>A 90-minute blip with a clean staged recovery is, on its own, unremarkable &mdash; uptime still sits above 98%. But this is the third Claude disruption in three weeks, and the pattern matters more than any single incident. As Claude Code and the API move from experiment to production dependency inside engineering orgs, the cost of an outage stops being &ldquo;refresh the chat&rdquo; and becomes stalled CI/CD pipelines and missed deadlines.</p>
+      <p>That shifts the enterprise buying question from &ldquo;is the model good enough?&rdquo; to &ldquo;can I build my release process on top of it?&rdquo; Reliability, redundancy, and a credible status-page track record are quietly becoming as decisive as benchmark scores. For a company eyeing public markets, three outages in June is the kind of operational detail that shows up in due diligence &mdash; and in the fallback architecture savvy customers are now designing by default.</p>
+      <div class="source-links">
+        <a href="https://cybersecuritynews.com/anthropic-claude-ai-outage/" class="source-link">Cyber Security News</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Export Control on a Live API Is the Precedent Everyone Will Live With</h3>
+      <p>The mechanism that took Fable 5 offline is the part worth watching. The directive invoked the Export Control Reform Act&rsquo;s &ldquo;deemed export&rdquo; doctrine &mdash; giving a foreign national access to controlled technology inside the US counts as an export &mdash; applied for the first time to a commercially deployed AI model&rsquo;s API. Because Anthropic can&rsquo;t verify nationality in real time at API scale, the only compliant move was a global shutdown. That logic now applies to every frontier lab serving worldwide users.</p>
+      <p>The downstream effect is an architecture transfer: the government pushes the problem to vendors, vendors push it to enterprises via identity verification and geo-fencing. Anthropic&rsquo;s July 8 ID-verification policy &mdash; collecting government IDs and &ldquo;facial geometry templates&rdquo; via a third party &mdash; is the first concrete sign of what compliant access looks like next. Macron&rsquo;s warning captures the commercial risk: no country wants to buy AI that can be switched off at any moment. &ldquo;Model availability by jurisdiction&rdquo; is becoming a standard contract line, and a standard investor question.</p>
+      <div class="source-links">
+        <a href="https://www.techtimes.com/articles/318783/20260621/claude-fable-5-resurfaces-android-app-nsa-breach-testimony-reshapes-ban.htm" class="source-link">Tech Times</a>
+        <a href="https://techjacksolutions.com/ai-brief/ai-regulation-news-today-claude-fable-5-and-mythos-5-restore/" class="source-link">Tech Jacks Solutions</a>
+        <a href="https://natlawreview.com/article/ai-company-anthropic-suspends-access-claude-fable-5-claude-mythos-5-following-us" class="source-link">Nat Law Review</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

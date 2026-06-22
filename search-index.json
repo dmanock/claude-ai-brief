@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-22",
+    "title": "Claude AI Daily Brief — June 22, 2026 | Claude Hit by 90-Minute Global Outage; Fable 5 Free Window Closes as Model Shows Signs of Return; Claude Code and Platform Ship Developer Upgrades",
+    "description": "June 22, 2026: Claude suffers a 90-minute global outage across five models — its third disruption this month. Fable 5's free window closes today and paid credits start June 23 at double Opus pricing, even as the model flickers back in the Android app. Claude Code adds prompt-time config commands and tighter auto-mode safety, Managed Agents gain enterprise sandboxes and private MCP servers, and Workload Identity Federation goes GA.",
+    "url": "reports/claude-ai-daily-2026-06-22.html",
+    "headlines": [
+      "Claude Hit by 90-Minute Global Outage; Fable 5 Free Window Closes as Model Shows Signs of Return; Claude Code and Platform Ship Developer Upgrades",
+      "Claude Back Online After a 90-Minute Global Outage Across Five Models",
+      "Fable 5&rsquo;s Free Window Closes Today &mdash; Paid Credits Start June 23 at Double Opus Pricing",
+      "Prompt-Time Config Commands and Harder Guardrails on Auto Mode",
+      "Managed Agents Get Enterprise Sandboxes, Private MCP Servers, and Keyless Auth",
+      "Fable 5 Flickers Back in the Android App as an NSA Breach Detail Reshapes the Ban",
+      "Anthropic Opens a Seoul Office and Deepens Korean Partnerships",
+      "Three Outages in a Month Is a Capacity Story, Not a Coincidence",
+      "Export Control on a Live API Is the Precedent Everyone Will Live With"
+    ],
+    "snippet": "Claude AI Daily Brief — June 22, 2026 | Claude Hit by 90-Minute Global Outage; Fable 5 Free Window Closes as Model Shows Signs of Return; Claude Code and Platform Ship Developer Upgrades ● Monday, June 22, 2026 Claude AI Daily Brief — June 22, 2026 Covering the last 24 hours · Edition #115 TL;DR — T"
+  },
+  {
     "date": "2026-06-21",
     "title": "Claude AI Daily Brief — June 21, 2026 | Claude Lands in Apple's Foundation Models Framework; Fable 5 Stays Dark on Day 9; Claude Code and Platform Get Developer Upgrades",
     "description": "June 21, 2026: Claude ships an official Swift package for Apple's Foundation Models framework on iOS 27, letting apps swap AI providers by changing a dependency. Fable 5 and Mythos 5 stay offline on day nine of the export freeze as an NSA red-team detail surfaces. Enterprise custom roles gain admin delegation, the Developer Platform ships new tool versions, Claude Code polishes sessions, and computer use lands in Claude Code and Cowork.",

@@ -8,6 +8,20 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 22, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-22.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-22.html</guid>
+      <pubDate>Mon, 22 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Hit by a 90-Minute Global Outage</strong> — Five flagship models went down early June 22 across Claude.ai, the API, Claude Code, and Cowork — the platform's third disruption this month, recovered in a staged rollout.</p>
+        <p><strong>2. Fable 5's Free Window Closes Today</strong> — Paid credits at double Opus pricing start June 23, even as the model flickers back into the Android app and Trump signals he's eased his security concerns.</p>
+        <p><strong>3. Claude Code and the Platform Ship Developer Upgrades</strong> — Prompt-time config commands, tighter auto-mode safety, enterprise sandboxes and private MCP servers for Managed Agents, and keyless Workload Identity Federation now GA.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-22.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+
+    <item>
       <title>Claude AI Daily Brief — June 21, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-21.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-21.html</guid>
