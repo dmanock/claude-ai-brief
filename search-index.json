@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-23",
+    "title": "Claude AI Daily Brief — June 23, 2026 | Fable 5's Paid Meter Starts Today While the Model Stays Suspended; Anthropic Launches $150M Claude Corps; Claude Lands in JetBrains IDEs",
+    "description": "June 23, 2026: Fable 5's free window is over — paid credits at double Opus pricing kick in today even though the model is still suspended for most users under the export directive. Anthropic launches Claude Corps, a $150M fellowship placing 1,000 paid fellows inside US nonprofits, and expands Project Glasswing to ~150 organizations. Claude arrives in JetBrains IDEs as an agent provider, Claude Code gains Artifacts, and a SpaceX compute deal lifts usage limits.",
+    "url": "reports/claude-ai-daily-2026-06-23.html",
+    "headlines": [
+      "Fable 5's Paid Meter Starts Today While the Model Stays Suspended; Anthropic Launches $150M Claude Corps; Claude Lands in JetBrains IDEs",
+      "Fable 5&rsquo;s Free Ride Ends &mdash; Metered Credits Go Live Today at Double Opus Pricing",
+      "Anthropic Launches Claude Corps With a $150M Pledge",
+      "Project Glasswing Expands to ~150 Organizations Across 15+ Countries",
+      "Claude Arrives in JetBrains IDEs as an Agent Provider",
+      "Claude Code Gains Artifacts and Auto Mode on Third-Party Clouds",
+      "Fable 5 Stays Dark on Day 11 as ID Verification Becomes the Likely Off-Ramp",
+      "A SpaceX Compute Deal Lifts Usage Limits for Claude Code and the API",
+      "Charging for a Model You Can&rsquo;t Reach Is the Tell on Where This Is Headed"
+    ],
+    "snippet": "Claude AI Daily Brief — June 23, 2026 | Fable 5's Paid Meter Starts Today While the Model Stays Suspended; Anthropic Launches $150M Claude Corps; Claude Lands in JetBrains IDEs ● Tuesday, June 23, 2026 Claude AI Daily Brief — June 23, 2026 Covering the last 24 hours · Edition #116 TL;DR — Today’s To"
+  },
+  {
     "date": "2026-06-22",
     "title": "Claude AI Daily Brief — June 22, 2026 | Claude Hit by 90-Minute Global Outage; Fable 5 Free Window Closes as Model Shows Signs of Return; Claude Code and Platform Ship Developer Upgrades",
     "description": "June 22, 2026: Claude suffers a 90-minute global outage across five models — its third disruption this month. Fable 5's free window closes today and paid credits start June 23 at double Opus pricing, even as the model flickers back in the Android app. Claude Code adds prompt-time config commands and tighter auto-mode safety, Managed Agents gain enterprise sandboxes and private MCP servers, and Workload Identity Federation goes GA.",

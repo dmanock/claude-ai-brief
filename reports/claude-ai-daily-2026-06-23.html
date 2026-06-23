@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-06-23">
+  <title>Claude AI Daily Brief — June 23, 2026 | Fable 5's Paid Meter Starts Today While the Model Stays Suspended; Anthropic Launches $150M Claude Corps; Claude Lands in JetBrains IDEs</title>
+  <meta name="description" content="June 23, 2026: Fable 5's free window is over — paid credits at double Opus pricing kick in today even though the model is still suspended for most users under the export directive. Anthropic launches Claude Corps, a $150M fellowship placing 1,000 paid fellows inside US nonprofits, and expands Project Glasswing to ~150 organizations. Claude arrives in JetBrains IDEs as an agent provider, Claude Code gains Artifacts, and a SpaceX compute deal lifts usage limits.">
+  <meta name="keywords" content="Claude AI, Anthropic, Fable 5, Mythos 5, Claude Corps, Project Glasswing, Opus 4.8, Claude Code, JetBrains, GitHub Copilot, export control, SpaceX, Anthropic IPO, MCP, enterprise AI">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-06-23.html">
+  <meta property="og:title" content="Claude AI Daily Brief — June 23, 2026">
+  <meta property="og:description" content="Fable 5's paid meter starts today while the model stays suspended, Anthropic launches a $150M Claude Corps fellowship, and Claude lands in JetBrains IDEs.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-23.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — June 23, 2026">
+  <meta name="twitter:description" content="Fable 5's paid meter starts today while the model stays dark. Anthropic launches a $150M Claude Corps fellowship. Claude lands in JetBrains IDEs.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-23.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-06-23.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — June 23, 2026",
+    "description": "Fable 5's free window closes and paid credits at double Opus pricing begin today, even as the model stays suspended for most users. Anthropic launches a $150M Claude Corps fellowship, expands Project Glasswing, and Claude arrives in JetBrains IDEs as an agent provider.",
+    "datePublished": "2026-06-23T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-23.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-06-23.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav data-pagefind-ignore="all">
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Tuesday, June 23, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; June 23, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #116</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Fable 5&rsquo;s Paid Meter Starts Today</strong> &mdash; Credits at double Opus pricing kick in June 23, even though the model is still suspended for most users under the export-control directive.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Anthropic Launches a $150M Claude Corps</strong> &mdash; A national fellowship that will train and pay 1,000 early-career fellows to spend a year inside US nonprofits.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Claude Lands in JetBrains IDEs</strong> &mdash; Now available as an agent provider in public preview through GitHub Copilot, alongside Claude Code Artifacts and a SpaceX compute deal that lifts usage limits.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Pricing</span>
+      <h3>Fable 5&rsquo;s Free Ride Ends &mdash; Metered Credits Go Live Today at Double Opus Pricing</h3>
+      <p>Through June 22, Fable 5 was bundled at no extra cost on Claude Pro, Max, Team, and seat-based Enterprise plans. As of today, June 23, usage runs on credits billed at API rates of $10 per million input tokens and $50 per million output &mdash; double the price of Claude Opus 4.8. Anthropic says it intends to restore Fable 5 as a standard subscription feature &ldquo;as soon as possible.&rdquo;</p>
+      <p>The timing is the awkward part. The meter starts today, yet the model remains suspended for most users under the US export-control directive that took it offline on June 12. Teams are effectively being asked to budget premium, metered rates for the company&rsquo;s most capable public model before they can reliably reach it again &mdash; a billing change landing ahead of the access change that would justify it.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/fable-mythos-access" class="source-link">Anthropic</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Program</span>
+      <h3>Anthropic Launches Claude Corps With a $150M Pledge</h3>
+      <p>Anthropic introduced Claude Corps, a national fellowship that will teach 1,000 fellows how to use Claude well, match them with nonprofits across America, and pay them to spend a year &mdash; full-time, in person &mdash; advancing each host organization&rsquo;s mission. The company is committing an initial $150 million, with CodePath acting as the fellows&rsquo; employer of record and Social Finance leading measurement and evaluation.</p>
+      <p>Applications are open now and close July 17 for the first cohort of 100, which begins in October 2026; later cohorts start in January and August 2027. It&rsquo;s a deliberate civic-footprint play for a company weeks into a confidential IPO process &mdash; planting Claude inside community organizations while building goodwill and a pipeline of skilled, mission-driven users.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/claude-corps" class="source-link">Anthropic</a>
+        <a href="https://thenonprofittimes.com/npt_articles/anthropic-launches-claude-corps-with-150m-pledge/" class="source-link">NonProfit Times</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Security</span>
+      <h3>Project Glasswing Expands to ~150 Organizations Across 15+ Countries</h3>
+      <p>Anthropic extended Project Glasswing &mdash; its effort to secure the world&rsquo;s most important software &mdash; to roughly 150 new organizations in more than 15 countries, spanning power, water, healthcare, communications, and hardware. The initial 50 partners had already used Claude Mythos Preview to scan their codebases and surface more than 10,000 high- or critical-severity vulnerabilities.</p>
+      <p>The expansion is the constructive flip side of this month&rsquo;s Mythos anxiety: the same offensive cyber capability that triggered the export freeze is being pointed at defenders&rsquo; own code under tight controls. Anthropic notes it still hasn&rsquo;t developed safeguards robust enough to release Mythos-level capability in general access &mdash; so Glasswing remains a gated, partner-only deployment.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/expanding-project-glasswing" class="source-link">Anthropic</a>
+        <a href="https://cyberscoop.com/anthropic-project-glasswing-expansion-critical-infrastructure-claude-mythos/" class="source-link">CyberScoop</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">IDE</span>
+      <h3>Claude Arrives in JetBrains IDEs as an Agent Provider</h3>
+      <p>Claude is now available as an agent provider in public preview inside JetBrains IDEs, delivered through GitHub Copilot. To enable it, install the Claude Code CLI, then point GitHub Copilot at the binary under <code>Settings &gt; Tools &gt; GitHub Copilot &gt; Chat</code> and pick Claude from the agent picker in the Copilot Chat panel. The same release adds support for org and enterprise agents, queue-and-steer messages in Copilot CLI, and a new agent debug-logs summary view.</p>
+      <p>One caveat worth flagging: the Claude agent currently runs in bypass-permissions mode, so all file edits and tool calls are auto-approved &mdash; configurable permissions are &ldquo;coming in a future release.&rdquo; A per-turn AI credits indicator now shows how much each turn consumes, useful as metered agent usage becomes the norm.</p>
+      <div class="source-links">
+        <a href="https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides/" class="source-link">GitHub Changelog</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code Gains Artifacts and Auto Mode on Third-Party Clouds</h3>
+      <p>Claude Code now turns session work into Artifacts &mdash; live, shareable web pages that update in place. Teams can use them for PR walkthroughs, incident pages, dashboards, and checklists, with private org-only sharing and version history in beta for Team and Enterprise. It&rsquo;s a clean way to hand off a result as a page rather than a wall of terminal output.</p>
+      <p>Auto mode also reached Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8, swapping permission prompts for background safety checks on third-party providers (opt in with <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code>). Recent releases also streamlined Agent Teams &mdash; every session now has one implicit team, so you spawn teammates directly via the Agent tool with no setup step.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Status</span>
+      <h3>Fable 5 Stays Dark on Day 11 as ID Verification Becomes the Likely Off-Ramp</h3>
+      <p>Eleven days after the export directive, community trackers still read &ldquo;not back&rdquo; for most users, even with intermittent signs of a live back-end behind rate-limit errors. The clearest path to restoration now looks less like the Commerce Department lifting the order and more like Anthropic verifying who&rsquo;s on the other end of the API.</p>
+      <p>Its updated privacy policy &mdash; effective July 8 &mdash; adds a &ldquo;Verification Data&rdquo; category covering government ID, a photo or video of the user&rsquo;s face, and &ldquo;facial geometry templates,&rdquo; processed by third-party vendor Persona. With verified citizenship on file, Anthropic could reopen Fable 5 to domestic users who submit an ID without waiting for the directive to be formally rescinded.</p>
+      <div class="source-links">
+        <a href="https://explainx.ai/blog/is-fable-5-back-2026" class="source-link">explainx.ai</a>
+        <a href="https://cybernews.com/ai-news/anthropic-privacy-policy-id-verification/" class="source-link">Cybernews</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Compute</span>
+      <h3>A SpaceX Compute Deal Lifts Usage Limits for Claude Code and the API</h3>
+      <p>Anthropic struck a partnership with SpaceX that substantially increases its compute capacity. Combined with other recent deals, it has let the company raise usage limits for Claude Code and the Claude API &mdash; a direct response to the throttling developers have felt as demand for the top-end models climbs.</p>
+      <p>It&rsquo;s a reminder that the binding constraint on frontier AI right now is silicon and power, not ideas. Headroom from a partner with its own energy and infrastructure ambitions is exactly the kind of supply-side story investors will scrutinize as the IPO process unfolds.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/higher-limits-spacex" class="source-link">Anthropic</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Charging for a Model You Can&rsquo;t Reach Is the Tell on Where This Is Headed</h3>
+      <p>Flip the meter on before you restore access, and you reveal the assumption underneath: Anthropic expects Fable 5 to come back, and soon, for the users who matter most commercially. The pricing change isn&rsquo;t a cash grab on a dead product &mdash; it&rsquo;s the company pre-positioning its billing for a verified, US-first reopening it believes is close. The July 8 ID policy is the other half of that bet.</p>
+      <p>That reframes the export saga from &ldquo;a model got banned&rdquo; to &ldquo;frontier access is being re-architected around identity.&rdquo; The future state is metered, premium, citizenship-gated capability &mdash; great for compliance and for margins, harder for the open, borderless developer experience that built Claude&rsquo;s base. For a company in IPO due diligence, &ldquo;model availability by jurisdiction&rdquo; and &ldquo;verified-user revenue&rdquo; are quietly becoming the line items that define the story.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/fable-mythos-access" class="source-link">Anthropic</a>
+        <a href="https://www.cbsnews.com/news/anthropic-ipo-confidential-filing-claude-ai/" class="source-link">CBS News</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
