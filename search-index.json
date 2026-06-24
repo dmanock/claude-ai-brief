@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-24",
+    "title": "Claude AI Daily Brief — June 24, 2026 | Claude Tag Puts an Always-On AI Teammate Inside Slack; Two Outages Hit Claude in One Day; Fable 5 Stays Dark on Day 12",
+    "description": "June 24, 2026: Anthropic launches Claude Tag, an always-on AI teammate that lives in Slack channels and works asynchronously for Team and Enterprise customers. Claude weathers two separate outages in a single day — including one specific to Opus 4.8. Fable 5 stays suspended on day 12 as ID verification and the August 1 framework deadline loom. Plus enterprise-managed MCP auth, scheduled Managed Agents, Workload Identity Federation, and a steadier Claude Design.",
+    "url": "reports/claude-ai-daily-2026-06-24.html",
+    "headlines": [
+      "Claude Tag Puts an Always-On AI Teammate Inside Slack; Two Outages Hit Claude in One Day; Fable 5 Stays Dark on Day 12",
+      "Anthropic Launches Claude Tag &mdash; an Always-On AI Teammate That Lives in Slack",
+      "Claude Design Settles Down for Everyday, On-Brand Work",
+      "Centrally Managed Authorization Lands for MCP Connectors",
+      "Managed Agents Get Schedules and Vaulted Environment Variables",
+      "Claude Takes Two Separate Outages in One Day",
+      "Fable 5 Still Suspended on Day 12 as ID Verification Nears",
+      "Claude Tag Is the Quiet Pivot From &ldquo;Tool&rdquo; to &ldquo;Coworker&rdquo;"
+    ],
+    "snippet": "Claude AI Daily Brief — June 24, 2026 | Claude Tag Puts an Always-On AI Teammate Inside Slack; Two Outages Hit Claude in One Day; Fable 5 Stays Dark on Day 12 ● Wednesday, June 24, 2026 Claude AI Daily Brief — June 24, 2026 Covering the last 24 hours · Edition #117 TL;DR — Today’s Top 3 Takeaways 1."
+  },
+  {
     "date": "2026-06-23",
     "title": "Claude AI Daily Brief — June 23, 2026 | Fable 5's Paid Meter Starts Today While the Model Stays Suspended; Anthropic Launches $150M Claude Corps; Claude Lands in JetBrains IDEs",
     "description": "June 23, 2026: Fable 5's free window is over — paid credits at double Opus pricing kick in today even though the model is still suspended for most users under the export directive. Anthropic launches Claude Corps, a $150M fellowship placing 1,000 paid fellows inside US nonprofits, and expands Project Glasswing to ~150 organizations. Claude arrives in JetBrains IDEs as an agent provider, Claude Code gains Artifacts, and a SpaceX compute deal lifts usage limits.",

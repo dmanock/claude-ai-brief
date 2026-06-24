@@ -8,6 +8,20 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 24, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-24.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-24.html</guid>
+      <pubDate>Wed, 24 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Tag Puts an Always-On Teammate in Slack</strong> — Anthropic's new agent joins channels, holds context, and works tasks asynchronously over hours or days for Team and Enterprise.</p>
+        <p><strong>2. Two Outages Hit Claude in a Single Day</strong> — A morning Opus 4.8 incident and a later cross-model error spike both took roughly two hours to clear on June 23; Claude for Government stayed up.</p>
+        <p><strong>3. Fable 5 Stays Dark on Day 12</strong> — Still suspended under the export directive, with the July 8 ID-verification rollout and an August 1 framework deadline shaping the likely path back.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-24.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+
+    <item>
       <title>Claude AI Daily Brief — June 23, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-23.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-23.html</guid>
@@ -409,20 +423,6 @@
         <p><strong>2. Project Glasswing's First Report: 10,000+ Critical Bugs</strong> — Roughly 50 partners, including Microsoft, Apple, Google, and Cloudflare, used Claude Mythos Preview to find more than 10,000 high- or critical-severity vulnerabilities in one month.</p>
         <p><strong>3. Claude Security Hits Public Beta</strong> — Built on Opus 4.7, the scanner has already helped patch more than 2,100 corporate vulnerabilities by reading codebases, triaging findings, and writing fixes.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-26.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-
-    <item>
-      <title>Claude AI Daily Brief — May 25, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-25.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-25.html</guid>
-      <pubDate>Mon, 25 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. SAP Puts Claude at the Center of Its "Autonomous Enterprise"</strong> — At Sapphire, SAP named Claude a primary reasoning engine for its Business AI Platform, wiring it through MCP into 224 agents across S/4HANA, SuccessFactors, and Ariba.</p>
-        <p><strong>2. Security Vendors Pile Into the Compliance API</strong> — Netskope, SailPoint, Proofpoint, CrowdStrike, and Cloudflare all shipped integrations that pull Claude prompts and activity logs into the DLP, SIEM, and identity tools enterprises already run.</p>
-        <p><strong>3. MCP Tunnels and Self-Hosted Sandboxes Reach Private Networks</strong> — The Claude Developer Platform added both in research preview, letting Managed Agents reach internal MCP servers and run code inside the customer's own perimeter.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-25.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>
