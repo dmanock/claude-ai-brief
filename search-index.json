@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-25",
+    "title": "Claude AI Daily Brief — June 25, 2026 | Anthropic Accuses Alibaba of Largest-Ever Claude Distillation Attack; Claude Now Runs 95% of Anthropic's Analytics; Fable 5 Dark on Day 13",
+    "description": "June 25, 2026: Anthropic tells Congress that operators tied to Alibaba's Qwen lab ran 28.8 million exchanges across 25,000 fraudulent accounts to distill Claude — the largest such attack it has seen. Claude now handles 95% of Anthropic's own internal analytics queries. Fable 5 stays suspended on day 13 as the July 8 ID-verification rollout nears. Plus service accounts and Rate Limits API, Managed Agents that 'dream,' and a candid look at AI's effect on engineering morale.",
+    "url": "reports/claude-ai-daily-2026-06-25.html",
+    "headlines": [
+      "Anthropic Accuses Alibaba of Largest-Ever Claude Distillation Attack; Claude Now Runs 95% of Anthropic's Analytics; Fable 5 Dark on Day 13",
+      "Anthropic Tells Congress Alibaba Ran the Largest Distillation Attack It Has Seen",
+      "Anthropic Says Claude Now Handles 95% of Its Internal Analytics Queries",
+      "Service Accounts and a Rate Limits API Harden the Claude Platform",
+      "Managed Agents Learn to &ldquo;Dream&rdquo; and Orchestrate Subagents",
+      "Fable 5 Still Dark on Day 13 as ID Verification Looms",
+      "An Anthropic Engineering Leader on the &ldquo;Lonely&rdquo; Side of AI-Heavy Work",
+      "The Alibaba Letter Is a Policy Play as Much as a Security One"
+    ],
+    "snippet": "Claude AI Daily Brief — June 25, 2026 | Anthropic Accuses Alibaba of Largest-Ever Claude Distillation Attack; Claude Now Runs 95% of Anthropic's Analytics; Fable 5 Dark on Day 13 ● Thursday, June 25, 2026 Claude AI Daily Brief — June 25, 2026 Covering the last 24 hours · Edition #118 TL;DR — Today’s"
+  },
+  {
     "date": "2026-06-24",
     "title": "Claude AI Daily Brief — June 24, 2026 | Claude Tag Puts an Always-On AI Teammate Inside Slack; Two Outages Hit Claude in One Day; Fable 5 Stays Dark on Day 12",
     "description": "June 24, 2026: Anthropic launches Claude Tag, an always-on AI teammate that lives in Slack channels and works asynchronously for Team and Enterprise customers. Claude weathers two separate outages in a single day — including one specific to Opus 4.8. Fable 5 stays suspended on day 12 as ID verification and the August 1 framework deadline loom. Plus enterprise-managed MCP auth, scheduled Managed Agents, Workload Identity Federation, and a steadier Claude Design.",

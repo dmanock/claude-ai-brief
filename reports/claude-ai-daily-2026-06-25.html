@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-06-25">
+  <title>Claude AI Daily Brief — June 25, 2026 | Anthropic Accuses Alibaba of Largest-Ever Claude Distillation Attack; Claude Now Runs 95% of Anthropic's Analytics; Fable 5 Dark on Day 13</title>
+  <meta name="description" content="June 25, 2026: Anthropic tells Congress that operators tied to Alibaba's Qwen lab ran 28.8 million exchanges across 25,000 fraudulent accounts to distill Claude — the largest such attack it has seen. Claude now handles 95% of Anthropic's own internal analytics queries. Fable 5 stays suspended on day 13 as the July 8 ID-verification rollout nears. Plus service accounts and Rate Limits API, Managed Agents that 'dream,' and a candid look at AI's effect on engineering morale.">
+  <meta name="keywords" content="Claude AI, Anthropic, Alibaba, Qwen, model distillation, AI export controls, Fable 5, Mythos 5, service accounts, Rate Limits API, Managed Agents, Claude analytics, ID verification, enterprise AI, Anthropic IPO">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-06-25.html">
+  <meta property="og:title" content="Claude AI Daily Brief — June 25, 2026">
+  <meta property="og:description" content="Anthropic accuses Alibaba of the largest-ever Claude distillation attack, reveals Claude now runs 95% of its own analytics, and Fable 5 stays dark on day 13.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-25.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — June 25, 2026">
+  <meta name="twitter:description" content="Anthropic accuses Alibaba of the largest-ever Claude distillation attack. Claude now handles 95% of Anthropic's analytics. Fable 5 stays dark on day 13.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-25.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-06-25.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — June 25, 2026",
+    "description": "Anthropic tells Congress that operators tied to Alibaba's Qwen lab ran 28.8 million exchanges across roughly 25,000 fraudulent accounts to distill Claude — the largest such campaign it has seen. Claude now handles 95% of Anthropic's internal analytics queries, and Fable 5 stays suspended on day 13 as the July 8 ID-verification rollout nears.",
+    "datePublished": "2026-06-25T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-25.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-06-25.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav data-pagefind-ignore="all">
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Thursday, June 25, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; June 25, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #118</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Anthropic Accuses Alibaba of the Largest-Ever Claude Distillation Attack</strong> &mdash; A letter to senators and the White House alleges operators tied to Alibaba&rsquo;s Qwen lab ran 28.8M exchanges across ~25,000 fraudulent accounts.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Claude Now Handles 95% of Anthropic&rsquo;s Internal Analytics</strong> &mdash; Employees query business data directly instead of routing every question through data teams &mdash; a striking dogfooding stat as the IPO nears.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Fable 5 Stays Dark on Day 13</strong> &mdash; Still suspended under the export directive, with no Commerce response and the July 8 ID-verification rollout shaping the likely US-only path back.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Breaking</span>
+      <h3>Anthropic Tells Congress Alibaba Ran the Largest Distillation Attack It Has Seen</h3>
+      <p>Anthropic accused operators linked to Alibaba and its Qwen AI lab of waging a large-scale campaign to &ldquo;brazenly&rdquo; and &ldquo;illicitly&rdquo; extract Claude&rsquo;s capabilities. In a letter to the Senate Banking Committee&rsquo;s Tim Scott and Elizabeth Warren &mdash; and to White House officials &mdash; the company says roughly 25,000 fraudulent accounts conducted about 28.8 million exchanges with Claude between April 22 and June 5, targeting its most commercially valuable skills: software engineering and agentic reasoning.</p>
+      <p>The technique is <strong>distillation</strong> &mdash; feeding carefully built queries to a frontier model, harvesting the responses, and using them to train a cheaper rival that approximates the original. Anthropic calls it the largest known distillation attack against it to date, and has now named four Chinese labs as distillers of its technology, with the Alibaba effort by far the biggest. Alibaba had not commented on the allegations as of publication.</p>
+      <div class="source-links">
+        <a href="https://www.bloomberg.com/news/articles/2026-06-24/anthropic-accuses-alibaba-of-illicitly-accessing-its-ai-models" class="source-link">Bloomberg</a>
+        <a href="https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html" class="source-link">CNBC</a>
+        <a href="https://thenextweb.com/news/anthropic-accuses-alibaba-distillation-claude-qwen" class="source-link">TNW</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Adoption</span>
+      <h3>Anthropic Says Claude Now Handles 95% of Its Internal Analytics Queries</h3>
+      <p>Anthropic reported that Claude now answers around 95% of its internal analytics requests, letting employees pull business data on their own instead of queuing every question behind a data team. It&rsquo;s a concrete dogfooding metric in the same vein as the &ldquo;65% of our product team&rsquo;s code&rdquo; figure that accompanied Claude Tag &mdash; evidence that Anthropic is rewiring its own operations around the model.</p>
+      <p>For buyers weighing enterprise rollouts, self-serve analytics is one of the cleaner ROI stories: it shortens the path from question to answer and frees scarce data engineers for higher-order work. The caveat, as ever, is trust &mdash; a number is only useful if teams can verify how Claude arrived at it.</p>
+      <div class="source-links">
+        <a href="https://www.infoq.com/news/2026/06/anthropic-claude-analytics/" class="source-link">InfoQ</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Platform</span>
+      <h3>Service Accounts and a Rate Limits API Harden the Claude Platform</h3>
+      <p>Anthropic added <strong>service accounts</strong> to the Claude Platform, giving each workload its own identity, roles, and audit trail rather than sharing one API key. It pairs with the recently GA Workload Identity Federation, which swaps static keys for short-lived, scoped credentials issued at request time &mdash; and <code>ant auth login</code> for interactive sessions.</p>
+      <p>A new <strong>Rate Limits API</strong> rounds out the release, letting admins programmatically query the limits set for their org and workspaces. Individually small; together they&rsquo;re the access-control and observability scaffolding enterprises demand before wiring Claude into production. There&rsquo;s also a quiet billing fix: requests that return <code>stop_reason: "refusal"</code> with no output are no longer billed.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-developer-platform" class="source-link">Releasebot</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Claude Platform</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Managed Agents</span>
+      <h3>Managed Agents Learn to &ldquo;Dream&rdquo; and Orchestrate Subagents</h3>
+      <p>Claude Managed Agents gained two notable capabilities. <strong>Dreaming</strong> is a scheduled process that reviews past agent sessions, surfaces patterns, and curates memory &mdash; so an agent improves between runs instead of starting cold each time. <strong>Multiagent orchestration</strong> lets a lead agent delegate to specialist subagents working in parallel on a shared filesystem, each with its own model, prompt, and tools.</p>
+      <p>Combined with self-hosted sandboxes and private MCP server support, the picture is of agents that are both more autonomous and more contained &mdash; able to plan, remember, and split work, while staying inside boundaries an enterprise sets.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Status</span>
+      <h3>Fable 5 Still Dark on Day 13 as ID Verification Looms</h3>
+      <p>Thirteen days after the US export-control directive took Fable 5 and Mythos 5 offline, both remain suspended for every user, and no public Commerce Department response has surfaced. The most-watched off-ramp isn&rsquo;t a formal lifting of the order but identity verification: Anthropic&rsquo;s updated support page says users may be asked for a government photo ID and a live selfie, processed by third-party partner Persona, starting July 8.</p>
+      <p>That mechanism points to a US-citizens-only restoration &mdash; verified domestic users back on Fable 5 while international subscribers stay on Opus 4.8 &mdash; without the directive being lifted outright. The privacy-policy changes that enable it have already drawn user pushback over biometric collection.</p>
+      <div class="source-links">
+        <a href="https://explainx.ai/blog/is-fable-5-back-2026" class="source-link">explainx.ai</a>
+        <a href="https://cybernews.com/ai-news/anthropic-privacy-policy-id-verification/" class="source-link">Cybernews</a>
+        <a href="https://www.biometricupdate.com/202606/update-on-identity-age-verification-for-claude-prompts-user-pushback" class="source-link">Biometric Update</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Culture</span>
+      <h3>An Anthropic Engineering Leader on the &ldquo;Lonely&rdquo; Side of AI-Heavy Work</h3>
+      <p>An Anthropic engineering leader told Fortune that leaning hard on Claude Code has made some employees&rsquo; work feel like a &ldquo;lonely experience&rdquo; &mdash; less of the back-and-forth pairing and shared problem-solving that once defined a dev team&rsquo;s day. It&rsquo;s a candid admission from the company arguably furthest down the AI-native path.</p>
+      <p>The morale wrinkle matters precisely because Anthropic is selling the opposite story: Claude as teammate, headcount, always-on collaborator. If the most AI-saturated workplace on earth is also feeling more isolated, that&rsquo;s a tension every buyer racing to automate should sit with before they reorganize around agents.</p>
+      <div class="source-links">
+        <a href="https://fortune.com/2026/06/23/anthropic-engineering-head-claude-code-lonely-experience-big-tech-morale/" class="source-link">Fortune</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>The Alibaba Letter Is a Policy Play as Much as a Security One</h3>
+      <p>Anthropic could have handled a distillation campaign quietly &mdash; ban the accounts, tighten detection, move on. Instead it wrote to the Senate Banking Committee and the White House, with numbers built for a headline: 25,000 accounts, 28.8 million exchanges, the largest attack it has ever seen. That&rsquo;s not just incident response; it&rsquo;s Anthropic shaping the policy weather around frontier-model security and Chinese AI competition.</p>
+      <p>The timing rhymes with everything else on the board: a confidential IPO filing, an export directive that already froze Fable 5, and an ID-verification regime arriving July 8. A frontier lab that can credibly say &ldquo;rivals are stealing our best capabilities at industrial scale&rdquo; strengthens the case for the very export controls and verification walls now reshaping who gets access to its models. Whether that protects an ecosystem or fences one off is the debate Washington now has to have &mdash; and Anthropic just made sure it happens on its terms.</p>
+      <div class="source-links">
+        <a href="https://www.benzinga.com/markets/tech/26/06/60088712/anthropic-accuses-alibaba-of-ai-model-theft-says-28-8-million-claude-conversations-were-harvested" class="source-link">Benzinga</a>
+        <a href="https://thedeepdive.ca/anthropic-accuses-alibaba-of-largest-known-ai-extraction-campaign-urges-congress-to-act/" class="source-link">The Deep Dive</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

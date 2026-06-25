@@ -8,6 +8,20 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 25, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-25.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-25.html</guid>
+      <pubDate>Thu, 25 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Accuses Alibaba of the Largest-Ever Claude Distillation Attack</strong> — A letter to senators and the White House alleges operators tied to Alibaba's Qwen lab ran 28.8M exchanges across ~25,000 fraudulent accounts.</p>
+        <p><strong>2. Claude Now Handles 95% of Anthropic's Internal Analytics</strong> — Employees query business data directly instead of routing every question through data teams, a striking dogfooding stat as the IPO nears.</p>
+        <p><strong>3. Fable 5 Stays Dark on Day 13</strong> — Still suspended under the export directive with no Commerce response, as the July 8 ID-verification rollout points to a US-citizens-only path back.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-25.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+
+    <item>
       <title>Claude AI Daily Brief — June 24, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-24.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-24.html</guid>
@@ -412,18 +426,5 @@
       ]]></description>
     </item>
 
-
-    <item>
-      <title>Claude AI Daily Brief — May 26, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-26.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-26.html</guid>
-      <pubDate>Tue, 26 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Mythos Heads for Claude Code and Claude Security</strong> — Anthropic's restricted, cyber-capable Mythos model surfaced in public Claude Code references and is being lined up for a gated rollout — a reversal from the earlier "no public release" line.</p>
-        <p><strong>2. Project Glasswing's First Report: 10,000+ Critical Bugs</strong> — Roughly 50 partners, including Microsoft, Apple, Google, and Cloudflare, used Claude Mythos Preview to find more than 10,000 high- or critical-severity vulnerabilities in one month.</p>
-        <p><strong>3. Claude Security Hits Public Beta</strong> — Built on Opus 4.7, the scanner has already helped patch more than 2,100 corporate vulnerabilities by reading codebases, triaging findings, and writing fixes.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-26.html">Read full report →</a></p>
-      ]]></description>
-    </item>
   </channel>
 </rss>
