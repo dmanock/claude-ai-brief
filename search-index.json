@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-26",
+    "title": "Claude AI Daily Brief — June 26, 2026 | Claude Tag Draws Scrutiny as the \"AI Teammate\" Era Begins; Claude Code Ships Reliability Update and Git Guardrails; Fable 5 Dark on Day 14",
+    "description": "June 26, 2026: Anthropic's Claude Tag — a persistent AI teammate that lives in Slack channels — moves from launch to scrutiny as enterprises weigh the 'one Claude everywhere' model. Claude Code ships a broad reliability update with /rewind plus auto-mode git guardrails. Fable 5 stays suspended on day 14 ahead of the July 8 ID-verification rollout. Plus dynamic workflows hit GA, a $1.25B/month SpaceX compute deal, and a new carbon-removal pledge.",
+    "url": "reports/claude-ai-daily-2026-06-26.html",
+    "headlines": [
+      "Claude Tag Draws Scrutiny as the \"AI Teammate\" Era Begins; Claude Code Ships Reliability Update and Git Guardrails; Fable 5 Dark on Day 14",
+      "Claude Tag Moves From Launch Hype to Hard Questions",
+      "Anthropic&rsquo;s SpaceX Deal Underscores the IPO-Scale Compute Bill",
+      "Claude Code Ships a Broad Reliability and Polish Update",
+      "Auto Mode Now Blocks Risky Git and Destroy Commands",
+      "Dynamic Workflows Hit GA; Managed Agents Gain Schedules and Vaults",
+      "Fable 5 and Mythos 5 Stay Suspended on Day 14",
+      "Anthropic Joins Frontier&rsquo;s Carbon-Removal Buyers Group",
+      "&ldquo;One Claude Everywhere&rdquo; Is a Bet on Trust, Not Just Capability"
+    ],
+    "snippet": "Claude AI Daily Brief — June 26, 2026 | Claude Tag Draws Scrutiny as the \"AI Teammate\" Era Begins; Claude Code Ships Reliability Update and Git Guardrails; Fable 5 Dark on Day 14 ● Friday, June 26, 2026 Claude AI Daily Brief — June 26, 2026 Covering the last 24 hours · Edition #119 TL;DR — Today’s T"
+  },
+  {
     "date": "2026-06-25",
     "title": "Claude AI Daily Brief — June 25, 2026 | Anthropic Accuses Alibaba of Largest-Ever Claude Distillation Attack; Claude Now Runs 95% of Anthropic's Analytics; Fable 5 Dark on Day 13",
     "description": "June 25, 2026: Anthropic tells Congress that operators tied to Alibaba's Qwen lab ran 28.8 million exchanges across 25,000 fraudulent accounts to distill Claude — the largest such attack it has seen. Claude now handles 95% of Anthropic's own internal analytics queries. Fable 5 stays suspended on day 13 as the July 8 ID-verification rollout nears. Plus service accounts and Rate Limits API, Managed Agents that 'dream,' and a candid look at AI's effect on engineering morale.",

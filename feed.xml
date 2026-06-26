@@ -8,6 +8,20 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 26, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-26.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-26.html</guid>
+      <pubDate>Fri, 26 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Tag Goes From Launch to Scrutiny</strong> — Anthropic's persistent Slack "teammate" draws pushback over always-on memory and the "one Claude everywhere" model, even as it writes 65% of its product team's code.</p>
+        <p><strong>2. Claude Code Ships Reliability Update + Git Guardrails</strong> — /rewind, sturdier MCP and OAuth, lower CPU/memory use, and an auto mode that now blocks risky git and destroy commands unless you ask.</p>
+        <p><strong>3. Fable 5 Stays Dark on Day 14</strong> — Still suspended under the export directive, with the July 8 ID-verification rollout shaping the likely US-only path back.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-26.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+
+    <item>
       <title>Claude AI Daily Brief — June 25, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-25.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-25.html</guid>
@@ -411,20 +425,5 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-28.html">Read full report →</a></p>
       ]]></description>
     </item>
-
-
-    <item>
-      <title>Claude AI Daily Brief — May 27, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-27.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-27.html</guid>
-      <pubDate>Wed, 27 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Puts Claude Agents on a Meter</strong> — Starting June 15, programmatic usage (Agent SDK, claude -p, Code GitHub Actions, third-party apps) draws from a separate monthly credit pool billed at full API rates — $20 Pro, $100 Max 5x, $200 Max 20x, no rollover.</p>
-        <p><strong>2. Managed Agents Gain Dreaming and Multiagent Orchestration</strong> — Claude Managed Agents picked up Dreaming, multiagent orchestration, outcomes, and webhooks; MCP tunnels hit research preview and self-hosted sandboxes opened in public beta.</p>
-        <p><strong>3. Thomson Reuters Wires Claude Into CoCounsel</strong> — An expanded partnership connects Claude directly to CoCounsel Legal via MCP, the latest piece of Anthropic’s fast-growing legal stack of 20+ connectors and 12 practice-area plugins.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-27.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
   </channel>
 </rss>
