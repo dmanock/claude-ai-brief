@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-27",
+    "title": "Claude AI Daily Brief — June 27, 2026 | US Clears Mythos 5 for ~100 Trusted Partners While Fable 5 Stays Blocked; Claude's Paid Consumer Base Up 75%; Claude Code Ships MCP Login and /rewind Across /clear",
+    "description": "June 27, 2026: The Commerce Department lifts its block on Claude Mythos 5 for roughly 100 trusted US companies and agencies, but leaves Fable 5 — the consumer model — out of the deal. Claude's paying consumer base is up 75% since January as it closes on ChatGPT. Plus Claude Code adds MCP login/logout and /rewind across /clear, Claude lands as an agent provider in JetBrains, and the Alibaba distillation fight heads to Congress.",
+    "url": "reports/claude-ai-daily-2026-06-27.html",
+    "headlines": [
+      "US Clears Mythos 5 for ~100 Trusted Partners While Fable 5 Stays Blocked; Claude's Paid Consumer Base Up 75%; Claude Code Ships MCP Login and /rewind Across /clear",
+      "US Lifts Mythos 5 Block for a Named List of Trusted Partners",
+      "Alibaba Distillation Fight Heads to Congress",
+      "Claude Code Adds Shell-Level MCP Login and a Sturdier /rewind",
+      "Claude Lands as an Agent Provider Inside JetBrains IDEs",
+      "Claude&rsquo;s Paying Consumer Base Is Up About 75% This Year",
+      "Fable 5 Stays Blocked &mdash; Consumers Still in Limbo",
+      "Frontier AI by Allowlist Is a New Kind of Distribution"
+    ],
+    "snippet": "Claude AI Daily Brief — June 27, 2026 | US Clears Mythos 5 for ~100 Trusted Partners While Fable 5 Stays Blocked; Claude's Paid Consumer Base Up 75%; Claude Code Ships MCP Login and /rewind Across /clear ● Saturday, June 27, 2026 Claude AI Daily Brief — June 27, 2026 Covering the last 24 hours · Edi"
+  },
+  {
     "date": "2026-06-26",
     "title": "Claude AI Daily Brief — June 26, 2026 | Claude Tag Draws Scrutiny as the \"AI Teammate\" Era Begins; Claude Code Ships Reliability Update and Git Guardrails; Fable 5 Dark on Day 14",
     "description": "June 26, 2026: Anthropic's Claude Tag — a persistent AI teammate that lives in Slack channels — moves from launch to scrutiny as enterprises weigh the 'one Claude everywhere' model. Claude Code ships a broad reliability update with /rewind plus auto-mode git guardrails. Fable 5 stays suspended on day 14 ahead of the July 8 ID-verification rollout. Plus dynamic workflows hit GA, a $1.25B/month SpaceX compute deal, and a new carbon-removal pledge.",

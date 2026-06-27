@@ -8,6 +8,20 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 27, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-27.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-27.html</guid>
+      <pubDate>Sat, 27 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. US Clears Mythos 5 for ~100 Trusted Partners</strong> — Commerce lifted its export block on Claude's most powerful model for a named allowlist of companies and agencies, ending a two-week standoff, but left consumer model Fable 5 out of the deal.</p>
+        <p><strong>2. Claude's Paid Consumer Base Is Up 75%</strong> — Card-transaction data shows Claude's paying users climbing fast as it closes the gap with ChatGPT, whose share slipped below 50% for the first time this year.</p>
+        <p><strong>3. Claude Code Adds MCP Login and /rewind Across /clear</strong> — New claude mcp login/logout commands, a /rewind that survives a /clear, and background subagents that now surface permission prompts instead of auto-denying.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-27.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+
+    <item>
       <title>Claude AI Daily Brief — June 26, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-26.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-26.html</guid>
@@ -409,20 +423,6 @@
         <p><strong>2. Claude Opus 4.8 Ships with Dynamic Workflows and a 69.2% SWE-Bench Pro</strong> — Opus 4.8 beats Opus 4.7 (64.3%), GPT-5.5 (58.6%), and Gemini 3.1 Pro (54.2%) on agentic coding. Fast Mode runs 2.5x faster at the same price.</p>
         <p><strong>3. Anthropic Acquires Stainless to Own SDK and MCP Server Tooling</strong> — Hundreds of API providers use Stainless to ship libraries, CLIs, and MCP servers. Bringing it in-house tightens the supply chain from Claude model to agent connector.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-29.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-
-    <item>
-      <title>Claude AI Daily Brief — May 28, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-28.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-28.html</guid>
-      <pubDate>Thu, 28 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. SAP Puts Claude at the Center of Business AI Platform</strong> — At SAP Sapphire, SAP and Anthropic expanded their partnership. Claude becomes the primary reasoning and agentic engine embedded across SAP's AI-enabled portfolio, powering the newly announced SAP Business AI Platform.</p>
-        <p><strong>2. 28 New Security and Compliance Integrations Land for Claude</strong> — Anthropic shipped integrations across DLP, SASE, SIEM, identity, eDiscovery, AI security posture management, and observability so IT and security teams can govern Claude inside the stacks they already run.</p>
-        <p><strong>3. Bristol Myers Squibb Goes All-In on Claude Enterprise</strong> — BMS signed a strategic agreement to position Claude Enterprise as its shared intelligence platform across research, clinical development, manufacturing, commercial, and corporate functions.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-28.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>
