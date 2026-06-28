@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-28",
+    "title": "Claude AI Daily Brief — June 28, 2026 | Anthropic's Economic Index Maps How the World Uses Claude Hour by Hour; Claude Lands in Apple's Foundation Models Framework; Claude Design Overhaul Hits 1M Users in Week One",
+    "description": "June 28, 2026: Anthropic's new Economic Index 'Cadences' report shows how Claude use rises and falls across the day and week. Claude ships an official Swift package for Apple's Foundation Models framework on iOS 27. Claude Design's brand-controls overhaul drew a million users in its first week. Plus the latest Claude Code drop, a weekend update on the Fable 5 standoff, and a billing-fraud warning for Claude account holders.",
+    "url": "reports/claude-ai-daily-2026-06-28.html",
+    "headlines": [
+      "Anthropic's Economic Index Maps How the World Uses Claude Hour by Hour; Claude Lands in Apple's Foundation Models Framework; Claude Design Overhaul Hits 1M Users in Week One",
+      "Economic Index &ldquo;Cadences&rdquo;: When and How People Actually Reach for Claude",
+      "Fable 5 Still Dark as Mythos Talks Spill Into the Weekend",
+      "Claude Slots Into Apple&rsquo;s Foundation Models Framework",
+      "Claude Code Tightens the Enterprise Screws: Sandbox Creds, Model Limits, Trusted Devices",
+      "Claude Design&rsquo;s Overhaul Pulled a Million Users in Its First Week",
+      "A Billing-Fraud Warning for Claude Account Holders",
+      "Claude Is Quietly Becoming Ambient"
+    ],
+    "snippet": "Claude AI Daily Brief — June 28, 2026 | Anthropic's Economic Index Maps How the World Uses Claude Hour by Hour; Claude Lands in Apple's Foundation Models Framework; Claude Design Overhaul Hits 1M Users in Week One ● Sunday, June 28, 2026 Claude AI Daily Brief — June 28, 2026 Covering the last 24 hou"
+  },
+  {
     "date": "2026-06-27",
     "title": "Claude AI Daily Brief — June 27, 2026 | US Clears Mythos 5 for ~100 Trusted Partners While Fable 5 Stays Blocked; Claude's Paid Consumer Base Up 75%; Claude Code Ships MCP Login and /rewind Across /clear",
     "description": "June 27, 2026: The Commerce Department lifts its block on Claude Mythos 5 for roughly 100 trusted US companies and agencies, but leaves Fable 5 — the consumer model — out of the deal. Claude's paying consumer base is up 75% since January as it closes on ChatGPT. Plus Claude Code adds MCP login/logout and /rewind across /clear, Claude lands as an agent provider in JetBrains, and the Alibaba distillation fight heads to Congress.",

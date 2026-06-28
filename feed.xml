@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 28, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-28.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-28.html</guid>
+      <pubDate>Sun, 28 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Maps How the World Uses Claude</strong> — The new Economic Index "Cadences" report links ~9,700 survey responses to real usage: work queries dip on weekends, news requests peak in the morning, and sleep advice spikes at 5 a.m.</p>
+        <p><strong>2. Claude Lands in Apple's Foundation Models Framework</strong> — A new official Swift package lets iOS 27 apps call Claude through the same LanguageModelSession API Apple uses for its on-device model.</p>
+        <p><strong>3. Claude Design Overhaul Hits 1M Users in Week One</strong> — Brand controls, design-system import, direct canvas editing, and code handoff to Vercel, Canva and more drew a million people in the first week.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-28.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — June 27, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-27.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-27.html</guid>
@@ -19,7 +32,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-27.html">Read full report →</a></p>
       ]]></description>
     </item>
-
 
     <item>
       <title>Claude AI Daily Brief — June 26, 2026</title>
@@ -34,7 +46,6 @@
       ]]></description>
     </item>
 
-
     <item>
       <title>Claude AI Daily Brief — June 25, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-25.html</link>
@@ -47,7 +58,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-25.html">Read full report →</a></p>
       ]]></description>
     </item>
-
 
     <item>
       <title>Claude AI Daily Brief — June 24, 2026</title>
@@ -62,7 +72,6 @@
       ]]></description>
     </item>
 
-
     <item>
       <title>Claude AI Daily Brief — June 23, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-23.html</link>
@@ -75,7 +84,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-23.html">Read full report →</a></p>
       ]]></description>
     </item>
-
 
     <item>
       <title>Claude AI Daily Brief — June 22, 2026</title>
@@ -90,7 +98,6 @@
       ]]></description>
     </item>
 
-
     <item>
       <title>Claude AI Daily Brief — June 21, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-21.html</link>
@@ -103,7 +110,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-21.html">Read full report →</a></p>
       ]]></description>
     </item>
-
 
     <item>
       <title>Claude AI Daily Brief — June 20, 2026</title>
@@ -118,7 +124,6 @@
       ]]></description>
     </item>
 
-
     <item>
       <title>Claude AI Daily Brief — June 19, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-19.html</link>
@@ -131,7 +136,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-19.html">Read full report →</a></p>
       ]]></description>
     </item>
-
 
     <item>
       <title>Claude AI Daily Brief — June 18, 2026</title>
@@ -146,7 +150,6 @@
       ]]></description>
     </item>
 
-
     <item>
       <title>Claude AI Daily Brief — June 17, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-17.html</link>
@@ -159,7 +162,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-17.html">Read full report →</a></p>
       ]]></description>
     </item>
-
 
     <item>
       <title>Claude AI Daily Brief — June 16, 2026</title>
@@ -174,7 +176,6 @@
       ]]></description>
     </item>
 
-
     <item>
       <title>Claude AI Daily Brief — June 15, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-15.html</link>
@@ -187,7 +188,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-15.html">Read full report →</a></p>
       ]]></description>
     </item>
-
 
     <item>
       <title>Claude AI Daily Brief — June 14, 2026</title>
@@ -202,7 +202,6 @@
       ]]></description>
     </item>
 
-
     <item>
       <title>Claude AI Daily Brief — June 13, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-13.html</link>
@@ -215,7 +214,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-13.html">Read full report →</a></p>
       ]]></description>
     </item>
-
 
     <item>
       <title>Claude AI Daily Brief — June 12, 2026</title>
@@ -230,7 +228,6 @@
       ]]></description>
     </item>
 
-
     <item>
       <title>Claude AI Daily Brief — June 11, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-11.html</link>
@@ -243,7 +240,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-11.html">Read full report →</a></p>
       ]]></description>
     </item>
-
 
     <item>
       <title>Claude AI Daily Brief — June 10, 2026</title>
@@ -258,7 +254,6 @@
       ]]></description>
     </item>
 
-
     <item>
       <title>Claude AI Daily Brief — June 9, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-09.html</link>
@@ -271,7 +266,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-09.html">Read full report →</a></p>
       ]]></description>
     </item>
-
 
     <item>
       <title>Claude AI Daily Brief — June 8, 2026</title>
@@ -286,7 +280,6 @@
       ]]></description>
     </item>
 
-
     <item>
       <title>Claude AI Daily Brief — June 7, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-07.html</link>
@@ -299,7 +292,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-07.html">Read full report →</a></p>
       ]]></description>
     </item>
-
 
     <item>
       <title>Claude AI Daily Brief — June 6, 2026</title>
@@ -314,7 +306,6 @@
       ]]></description>
     </item>
 
-
     <item>
       <title>Claude AI Daily Brief — June 5, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-05.html</link>
@@ -327,7 +318,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-05.html">Read full report →</a></p>
       ]]></description>
     </item>
-
 
     <item>
       <title>Claude AI Daily Brief — June 4, 2026</title>
@@ -342,7 +332,6 @@
       ]]></description>
     </item>
 
-
     <item>
       <title>Claude AI Daily Brief — June 3, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-03.html</link>
@@ -355,7 +344,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-03.html">Read full report →</a></p>
       ]]></description>
     </item>
-
 
     <item>
       <title>Claude AI Daily Brief — June 2, 2026</title>
@@ -370,7 +358,6 @@
       ]]></description>
     </item>
 
-
     <item>
       <title>Claude AI Daily Brief — June 1, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-01.html</link>
@@ -383,7 +370,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-01.html">Read full report →</a></p>
       ]]></description>
     </item>
-
 
     <item>
       <title>Claude AI Daily Brief — May 31, 2026</title>
@@ -398,7 +384,6 @@
       ]]></description>
     </item>
 
-
     <item>
       <title>Claude AI Daily Brief — May 30, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-30.html</link>
@@ -412,18 +397,5 @@
       ]]></description>
     </item>
 
-
-    <item>
-      <title>Claude AI Daily Brief — May 29, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-29.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-29.html</guid>
-      <pubDate>Fri, 29 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Closes $65B Series H at a $965B Valuation</strong> — Altimeter, Dragoneer, Greenoaks, and Sequoia led, with Samsung, SK Hynix, and Micron joining as strategic infrastructure partners. Anthropic is now the world's most valuable startup, past OpenAI, with run-rate revenue reportedly past $47B.</p>
-        <p><strong>2. Claude Opus 4.8 Ships with Dynamic Workflows and a 69.2% SWE-Bench Pro</strong> — Opus 4.8 beats Opus 4.7 (64.3%), GPT-5.5 (58.6%), and Gemini 3.1 Pro (54.2%) on agentic coding. Fast Mode runs 2.5x faster at the same price.</p>
-        <p><strong>3. Anthropic Acquires Stainless to Own SDK and MCP Server Tooling</strong> — Hundreds of API providers use Stainless to ship libraries, CLIs, and MCP servers. Bringing it in-house tightens the supply chain from Claude model to agent connector.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-29.html">Read full report →</a></p>
-      ]]></description>
-    </item>
   </channel>
 </rss>
