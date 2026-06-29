@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-06-29",
+    "title": "Claude AI Daily Brief — June 29, 2026 | Uber's AI Budget Blowout Becomes Every CTO's Cautionary Tale; Claude Code Ships Artifacts; Anthropic Leads the Enterprise as Pricing Becomes the Pressure Point",
+    "description": "June 29, 2026: Uber burned its entire 2026 AI budget in four months on tools like Claude Code and is now capping spend at $1,500/engineer — the token-economics warning every CTO is citing. Claude Code ships Artifacts that turn sessions into live, shareable pages. The latest Claude Code drop is all polish. Plus @Claude graduates to a named product, Fable 5 stays offline, and an analysis of Anthropic's enterprise lead and its pricing soft spot.",
+    "url": "reports/claude-ai-daily-2026-06-29.html",
+    "headlines": [
+      "Uber's AI Budget Blowout Becomes Every CTO's Cautionary Tale; Claude Code Ships Artifacts; Anthropic Leads the Enterprise as Pricing Becomes the Pressure Point",
+      "@Claude Graduates to a Named Product in Anthropic&rsquo;s Lineup",
+      "Monday Status Check: Fable 5 Still Offline, Opus 4.8 Carries the Frontier",
+      "Claude Code Ships Artifacts: Sessions Become Live, Shareable Pages",
+      "The Latest Claude Code Drop Is All Polish: Voice, Mouse, Background Agents",
+      "Uber Torched Its 2026 AI Budget in Four Months &mdash; and Every CTO Noticed",
+      "Anthropic Leads the Enterprise &mdash; Pricing Is the Soft Spot"
+    ],
+    "snippet": "Claude AI Daily Brief — June 29, 2026 | Uber's AI Budget Blowout Becomes Every CTO's Cautionary Tale; Claude Code Ships Artifacts; Anthropic Leads the Enterprise as Pricing Becomes the Pressure Point ● Monday, June 29, 2026 Claude AI Daily Brief — June 29, 2026 Covering the last 24 hours · Edition #"
+  },
+  {
     "date": "2026-06-28",
     "title": "Claude AI Daily Brief — June 28, 2026 | Anthropic's Economic Index Maps How the World Uses Claude Hour by Hour; Claude Lands in Apple's Foundation Models Framework; Claude Design Overhaul Hits 1M Users in Week One",
     "description": "June 28, 2026: Anthropic's new Economic Index 'Cadences' report shows how Claude use rises and falls across the day and week. Claude ships an official Swift package for Apple's Foundation Models framework on iOS 27. Claude Design's brand-controls overhaul drew a million users in its first week. Plus the latest Claude Code drop, a weekend update on the Fable 5 standoff, and a billing-fraud warning for Claude account holders.",

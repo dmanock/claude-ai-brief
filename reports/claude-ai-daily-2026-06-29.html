@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-06-29">
+  <title>Claude AI Daily Brief — June 29, 2026 | Uber's AI Budget Blowout Becomes Every CTO's Cautionary Tale; Claude Code Ships Artifacts; Anthropic Leads the Enterprise as Pricing Becomes the Pressure Point</title>
+  <meta name="description" content="June 29, 2026: Uber burned its entire 2026 AI budget in four months on tools like Claude Code and is now capping spend at $1,500/engineer — the token-economics warning every CTO is citing. Claude Code ships Artifacts that turn sessions into live, shareable pages. The latest Claude Code drop is all polish. Plus @Claude graduates to a named product, Fable 5 stays offline, and an analysis of Anthropic's enterprise lead and its pricing soft spot.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude Code, Artifacts, Uber AI budget, token pricing, @Claude, Claude Tag, Fable 5, Opus 4.8, enterprise AI, OpenAI, Claude Code coding market">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-06-29.html">
+  <meta property="og:title" content="Claude AI Daily Brief — June 29, 2026">
+  <meta property="og:description" content="Uber's AI budget blowout becomes every CTO's cautionary tale. Claude Code ships Artifacts. Anthropic leads the enterprise — but pricing is the pressure point.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-29.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — June 29, 2026">
+  <meta name="twitter:description" content="Uber's AI budget blowout becomes every CTO's cautionary tale. Claude Code ships Artifacts. Anthropic leads the enterprise — but pricing is the pressure point.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-29.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-06-29.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — June 29, 2026",
+    "description": "Uber's AI budget blowout becomes every CTO's cautionary tale. Claude Code ships Artifacts. Anthropic leads the enterprise — but pricing is the pressure point.",
+    "datePublished": "2026-06-29T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-06-29.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-06-29.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav data-pagefind-ignore="all">
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Monday, June 29, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; June 29, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #122</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Uber&rsquo;s AI Budget Blowout Is Every CTO&rsquo;s Cautionary Tale</strong> &mdash; Uber burned its entire 2026 AI budget in four months &mdash; much of it on Claude Code &mdash; and capped spend at $1,500 per engineer. The token-economics warning everyone is now quoting.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Claude Code Ships Artifacts</strong> &mdash; A session now becomes a live, shareable web page &mdash; PR walkthroughs, incident timelines, dashboards &mdash; that updates in place, private to your org, with version history. Beta on Team and Enterprise.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Anthropic Leads the Enterprise &mdash; Pricing Is the Soft Spot</strong> &mdash; Claude now edges OpenAI in business adoption and holds ~54% of enterprise coding. But usage-based pricing is the pressure point, and Uber is exhibit A.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Product</span>
+      <h3>@Claude Graduates to a Named Product in Anthropic&rsquo;s Lineup</h3>
+      <p>The async Slack helper launched June 23 as <strong>Claude Tag</strong> now has its own product page and a permanent spot in Anthropic&rsquo;s product navigation as <strong>@Claude</strong> &mdash; sitting alongside Claude Code, Cowork, and Claude Design rather than buried as a feature. You tag <code>@Claude</code> in a Slack thread, hand off a task, and it works asynchronously, even scheduling follow-up work for itself over hours or days.</p>
+      <p>The positioning matters more than the mechanics. Anthropic is signaling that &ldquo;Claude where your team already talks&rdquo; is a first-class surface, not an integration afterthought. For Team and Enterprise customers, it&rsquo;s another nudge toward treating Claude as a coworker you delegate to, not a chat window you visit.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/introducing-claude-tag" class="source-link">Anthropic</a>
+        <a href="https://claude.com/product/tag" class="source-link">Product Page</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Policy</span>
+      <h3>Monday Status Check: Fable 5 Still Offline, Opus 4.8 Carries the Frontier</h3>
+      <p>The weekend brought no change at the top of Anthropic&rsquo;s newsroom: the June 12 statement on the <strong>US export-control directive suspending Fable 5 and Mythos 5</strong> is still the lead item, with no public clearance for the consumer model. For everyday users and most builders, <strong>Opus 4.8</strong> remains the most capable model you can actually call.</p>
+      <p>It&rsquo;s a strange holding pattern: the frontier exists but sits behind a government gate, while the workhorse model keeps shipping the real work. If you&rsquo;re planning a roadmap around frontier capability, build for Opus 4.8 today and treat any Fable return as upside, not a dependency.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/fable-mythos-access" class="source-link">Anthropic</a>
+        <a href="https://www.anthropic.com/news" class="source-link">Newsroom</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code Ships Artifacts: Sessions Become Live, Shareable Pages</h3>
+      <p>Claude Code can now capture a session&rsquo;s work as an <strong>artifact</strong> &mdash; a live web page built from your full context: the codebase, your connectors, and the conversation itself. Think PR walkthroughs, incident timelines with error-rate charts, dashboards you can filter, or a release checklist that fills itself in as work completes.</p>
+      <p>The clever part is that pages <strong>update in place</strong>: every publish is a new version at the same link, with full version history and a gallery to manage them. Artifacts are private to your org by default and can&rsquo;t be made public, with admin role-based scoping and retention controls. It&rsquo;s in beta for Team and Enterprise, from the CLI and desktop app, viewable in any browser.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/artifacts-in-claude-code" class="source-link">Claude Blog</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Release</span>
+      <h3>The Latest Claude Code Drop Is All Polish: Voice, Mouse, Background Agents</h3>
+      <p>No headline feature this time &mdash; just a stack of quality fixes. The newest Claude Code notes add a <strong>fullscreen mouse-click toggle</strong> (<code>CLAUDE_CODE_DISABLE_MOUSE_CLICKS</code> keeps wheel scroll while disabling click/drag/hover), fix voice dictation capturing silence after an input-device switch, and fix auto-submit never firing for languages written without spaces &mdash; Japanese, Chinese, Thai.</p>
+      <p>There&rsquo;s also steadier <strong>background-agent</strong> behavior (the launch result no longer tells Claude to end its response, so it keeps working), a remote-session startup checklist while the container provisions, better Linux mic detection, and a hook-matcher fix so hyphenated identifiers exact-match instead of substring-matching. Unglamorous, but exactly the reliability work that makes a daily-driver tool stick.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Cost</span>
+      <h3>Uber Torched Its 2026 AI Budget in Four Months &mdash; and Every CTO Noticed</h3>
+      <p>Uber burned through its <strong>entire 2026 AI coding budget in four months</strong>, much of it on Claude Code and Cursor. Adoption ran ahead of every forecast: agentic Claude Code users jumped from 32% of engineers in February to 84% by March, with monthly per-engineer API costs landing between <strong>$500 and $2,000</strong>. Uber has since capped spend at <strong>$1,500 per tool per engineer per month</strong>.</p>
+      <p>The quote that&rsquo;s traveling: COO Andrew Macdonald saying it&rsquo;s hard to connect rising Claude Code use to consumer-facing innovation &mdash; &ldquo;that link is not there yet.&rdquo; This is the story turning into a playbook. When agents bill per token, adoption and cost rise together, and finance notices before the ROI does. Set per-key spend limits and per-seat caps before your own leaderboard does the budgeting for you.</p>
+      <div class="source-links">
+        <a href="https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code/" class="source-link">Fortune</a>
+        <a href="https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/" class="source-link">TechCrunch</a>
+        <a href="https://simonwillison.net/2026/Jun/3/uber-caps-usage/" class="source-link">Simon Willison</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Anthropic Leads the Enterprise &mdash; Pricing Is the Soft Spot</h3>
+      <p>The scoreboard reads well for Anthropic. By April, more US businesses paid for Claude than for ChatGPT (<strong>34.4% vs 32.3%</strong>), Claude Code holds roughly <strong>54% of the enterprise coding market</strong>, run-rate revenue has cleared <strong>$30 billion</strong>, and more than a thousand customers spend over $1M a year. The framing that&rsquo;s stuck: OpenAI is a consumer company selling enterprise products; Anthropic is an enterprise company that happens to have a consumer one.</p>
+      <p>But today&rsquo;s Uber story points at the soft spot. The same usage-based pricing that lets Claude Code go as deep as a problem needs also turns adoption into an uncapped meter &mdash; and budget shocks travel fast among CTOs who all talk to each other. Anthropic&rsquo;s next enterprise battle may be less about capability than about <em>predictability</em>: spend controls, caps, and pricing that a finance team can model a quarter ahead. Win that, and the lead compounds. Ignore it, and &ldquo;too expensive to standardize on&rdquo; becomes the competitor&rsquo;s easiest pitch.</p>
+      <div class="source-links">
+        <a href="https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead" class="source-link">VentureBeat</a>
+        <a href="https://techwireasia.com/2026/06/anthropic-claude-enterprise-ai-openai-google/" class="source-link">TechWire Asia</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

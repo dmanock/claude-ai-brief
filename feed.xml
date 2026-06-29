@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 29, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-29.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-29.html</guid>
+      <pubDate>Mon, 29 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Uber's AI Budget Blowout Is Every CTO's Cautionary Tale</strong> — Uber burned through its entire 2026 AI coding budget in four months, much of it on Claude Code, and capped engineers at $1,500 per tool per month after agentic adoption hit 84%.</p>
+        <p><strong>2. Claude Code Ships Artifacts</strong> — A session now becomes a live web page built from your codebase, connectors, and the conversation — PR walkthroughs, incident timelines, dashboards — updating in place with version history, private to your org.</p>
+        <p><strong>3. Anthropic Leads the Enterprise — Pricing Is the Soft Spot</strong> — Claude is past OpenAI in business adoption and holds ~54% of enterprise coding, but usage-based pricing is the pressure point, and Uber is exhibit A.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-29.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — June 28, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-28.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-28.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. The $1T IPO Drumbeat Gets Louder</strong> — Motley Fool, Yahoo Finance, and CNBC all ran "next $1T IPO" takes on Anthropic over the weekend. $965B private mark, $47B run-rate (up from $30B in April, $9B last year), and a reported late-2026 IPO target.</p>
         <p><strong>3. Auto Mode Lands on Bedrock, Vertex, and Microsoft Foundry</strong> — Friday's Claude Code release made Auto Mode available across all three major cloud platforms for Opus 4.7 and 4.8. Multi-cloud parity is now the platform norm, not a roadmap item.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-31.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — May 30, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-30.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-30.html</guid>
-      <pubDate>Sat, 30 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Mythos-Class Models Head for Public Release "in the Coming Weeks"</strong> — Anthropic confirmed Mythos-class models are coming to all customers in the coming weeks. The system that found 10,000+ zero-days via Project Glasswing is leaving its restricted defensive-consortium box, with a June rollout in stages expected.</p>
-        <p><strong>2. Claude Overtakes OpenAI in Enterprise — Salesforce Will Spend ~$300M on Tokens</strong> — Ramp's May 2026 AI Index puts Claude at 34.4% of business adoption vs OpenAI's 32.3%. Salesforce CEO Marc Benioff confirmed a ~$300M Anthropic token commitment for 2026, mostly on coding.</p>
-        <p><strong>3. Claude Code Is Now ~4% of All Public GitHub Commits</strong> — Wiz migrated 50,000 lines of Python to Go in 20 hours of active development with Claude Code, work originally scoped at 2-3 months. Dynamic Workflows in Opus 4.8 doing the heavy lifting.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-30.html">Read full report →</a></p>
       ]]></description>
     </item>
 
