@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — June 30, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-30.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-30.html</guid>
+      <pubDate>Tue, 30 Jun 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. US Clears Mythos 5 for Critical Infrastructure — Fable 5 Still Offline</strong> — The Trump administration is letting Anthropic redeploy its strongest cybersecurity model to 100+ vetted US orgs and agencies, while the consumer-grade Fable 5 stays offline on day 18.</p>
+        <p><strong>2. Claude Goes GA on Microsoft Azure</strong> — Claude is now generally available in Microsoft Foundry, with Opus 4.8 and Haiku 4.5 in the Messages API plus Azure-native identity, billing, and US data zones.</p>
+        <p><strong>3. Anthropic's IPO March Continues</strong> — After a $65B Series H at a $965B valuation and a confidential IPO filing, run-rate revenue has crossed $47B with a first profitable quarter in sight.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-30.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — June 29, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-29.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-29.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Code w/ Claude Tokyo Is Nine Days Out — Anthropic's Biggest Asia Push Yet</strong> — June 10–11 in Tokyo with simultaneous English-Japanese interpretation, livestream, an Extended day for independent devs, and keynotes from Ami Vora, Boris Cherny, and Angela Jiang.</p>
         <p><strong>3. Colossus 1 Capacity Ramps Up — 220K+ GPUs, $1.25B/Month</strong> — The all-of-Colossus-1 deal Anthropic signed with xAI is now actively absorbing inference load. 300MW+, 220,000+ Nvidia GPUs (H100, H200, GB200), capped at 11% of the broader xAI park. The reliability story for H2 2026 runs through Memphis.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-01.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — May 31, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-05-31.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-05-31.html</guid>
-      <pubDate>Sun, 31 May 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Saturday Outage Hits Claude Users Worldwide</strong> — A multi-hour disruption that began Saturday afternoon ET left users globally unable to load conversations or get responses. Anthropic's status page logged "Opus 4.7 elevated errors" resolved late Saturday night. The outage landed two days after the $65B Series H closed.</p>
-        <p><strong>2. The $1T IPO Drumbeat Gets Louder</strong> — Motley Fool, Yahoo Finance, and CNBC all ran "next $1T IPO" takes on Anthropic over the weekend. $965B private mark, $47B run-rate (up from $30B in April, $9B last year), and a reported late-2026 IPO target.</p>
-        <p><strong>3. Auto Mode Lands on Bedrock, Vertex, and Microsoft Foundry</strong> — Friday's Claude Code release made Auto Mode available across all three major cloud platforms for Opus 4.7 and 4.8. Multi-cloud parity is now the platform norm, not a roadmap item.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-05-31.html">Read full report →</a></p>
       ]]></description>
     </item>
 

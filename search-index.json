@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-06-30",
+    "title": "Claude AI Daily Brief — June 30, 2026 | US Clears Mythos 5 for ~100 Critical-Infrastructure Orgs; Claude Goes GA on Azure; Anthropic's IPO March Continues",
+    "description": "June 30, 2026: The US government clears Anthropic to redeploy Mythos 5 to more than 100 critical-infrastructure orgs and agencies — but Fable 5 stays offline on day 18. Claude launches generally available in Microsoft Foundry on Azure. Managed Agents get self-hosted sandboxes and private MCP. Claude Code ships nested sub-agents and a tool marketplace. Plus Claude Design crosses 1M users and an analysis of Anthropic's road to a $965B IPO.",
+    "url": "reports/claude-ai-daily-2026-06-30.html",
+    "headlines": [
+      "US Clears Mythos 5 for ~100 Critical-Infrastructure Orgs; Claude Goes GA on Azure; Anthropic's IPO March Continues",
+      "US Greenlights Limited Mythos 5 Re-Release for Critical-Infrastructure Defenders",
+      "Claude Launches Generally Available in Microsoft Foundry on Azure",
+      "Managed Agents Get Self-Hosted Sandboxes and Private MCP Servers",
+      "Claude Code Adds Nested Sub-Agents, a Tool Marketplace, and Per-Agent Cost Tracking",
+      "Claude Design Crosses 1M Users; Excel and PowerPoint Add-Ins Share Context",
+      "The Mythos Saga Is the Real Story of Anthropic&rsquo;s IPO Year"
+    ],
+    "snippet": "Claude AI Daily Brief — June 30, 2026 | US Clears Mythos 5 for ~100 Critical-Infrastructure Orgs; Claude Goes GA on Azure; Anthropic's IPO March Continues ● Tuesday, June 30, 2026 Claude AI Daily Brief — June 30, 2026 Covering the last 24 hours · Edition #123 TL;DR — Today’s Top 3 Takeaways 1. US Cl"
+  },
+  {
     "date": "2026-06-29",
     "title": "Claude AI Daily Brief — June 29, 2026 | Uber's AI Budget Blowout Becomes Every CTO's Cautionary Tale; Claude Code Ships Artifacts; Anthropic Leads the Enterprise as Pricing Becomes the Pressure Point",
     "description": "June 29, 2026: Uber burned its entire 2026 AI budget in four months on tools like Claude Code and is now capping spend at $1,500/engineer — the token-economics warning every CTO is citing. Claude Code ships Artifacts that turn sessions into live, shareable pages. The latest Claude Code drop is all polish. Plus @Claude graduates to a named product, Fable 5 stays offline, and an analysis of Anthropic's enterprise lead and its pricing soft spot.",
