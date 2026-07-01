@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — July 1, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-01.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-01.html</guid>
+      <pubDate>Wed, 01 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Export Controls Lifted — Fable 5 and Mythos 5 Come Back Today</strong> — The US Commerce Department cleared both frontier models, and global access resumes July 1, ending an 18-day blackout.</p>
+        <p><strong>2. Anthropic Launches Claude Science</strong> — A new research platform wires 60+ scientific databases and computation tools into one workspace, in beta for all paid tiers, aimed squarely at drug discovery.</p>
+        <p><strong>3. Enterprise Governance Gets Real</strong> — The Claude apps gateway lands on Bedrock and Google Cloud, and admins can now provision MCP connectors org-wide through Okta.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-01.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — June 30, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-30.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-30.html</guid>
@@ -383,19 +396,5 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-02.html">Read full report →</a></p>
       ]]></description>
     </item>
-
-    <item>
-      <title>Claude AI Daily Brief — June 1, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-01.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-01.html</guid>
-      <pubDate>Mon, 01 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Post-Mortem Watch: Monday Opens With Outage Questions Unanswered</strong> — Anthropic still hasn't issued a public write-up of Saturday's hours-long Claude outage. With Salesforce, BMS, PwC, KPMG, and Thomson Reuters all running production workloads on Claude, the post-mortem is the first real test of the company's SLA posture as a $965B enterprise platform.</p>
-        <p><strong>2. Code w/ Claude Tokyo Is Nine Days Out — Anthropic's Biggest Asia Push Yet</strong> — June 10–11 in Tokyo with simultaneous English-Japanese interpretation, livestream, an Extended day for independent devs, and keynotes from Ami Vora, Boris Cherny, and Angela Jiang.</p>
-        <p><strong>3. Colossus 1 Capacity Ramps Up — 220K+ GPUs, $1.25B/Month</strong> — The all-of-Colossus-1 deal Anthropic signed with xAI is now actively absorbing inference load. 300MW+, 220,000+ Nvidia GPUs (H100, H200, GB200), capped at 11% of the broader xAI park. The reliability story for H2 2026 runs through Memphis.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-01.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
   </channel>
 </rss>
