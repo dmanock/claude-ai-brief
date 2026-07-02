@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-02",
+    "title": "Claude AI Daily Brief — July 2, 2026 | Fable 5 Redeploys With New Guardrails; California Signs Anthropic Deal; Sonnet 5 GA in Copilot",
+    "description": "July 2, 2026: Fable 5 is back online with a retrained cyber classifier that blocks the jailbreak 99%+ of the time and reroutes risky prompts to Opus 4.8 — at the cost of more false flags on benign code. California signs a first-of-its-kind deal for 50%-off Claude across state agencies. Claude Sonnet 5 hits general availability in GitHub Copilot and Microsoft Foundry, Claude Code adds /rewind and a 37% CPU cut, and the 19-day blackout leaves a lasting lesson about AI as infrastructure.",
+    "url": "reports/claude-ai-daily-2026-07-02.html",
+    "headlines": [
+      "Fable 5 Redeploys With New Guardrails; California Signs Anthropic Deal; Sonnet 5 GA in Copilot",
+      "Fable 5 Redeploys With a Retrained Classifier and an Opus 4.8 Fallback",
+      "California Signs a First-of-Its-Kind Deal to Put Claude in State Agencies",
+      "Claude Sonnet 5 Hits General Availability in GitHub Copilot and Microsoft Foundry",
+      "Claude Code Adds /rewind, Short-Lived Credentials, and a 37% CPU Cut",
+      "The &ldquo;Routing Trap&rdquo;: Devs Notice Fable 5 Got More Cautious About Code",
+      "The 19-Day Blackout Taught Every Enterprise a Lesson About AI as Infrastructure"
+    ],
+    "snippet": "Claude AI Daily Brief — July 2, 2026 | Fable 5 Redeploys With New Guardrails; California Signs Anthropic Deal; Sonnet 5 GA in Copilot ● Thursday, July 2, 2026 Claude AI Daily Brief — July 2, 2026 Covering the last 24 hours · Edition #125 TL;DR — Today’s Top 3 Takeaways 1. Fable 5 Is Back — With New "
+  },
+  {
     "date": "2026-07-01",
     "title": "Claude AI Daily Brief — July 1, 2026 | Export Controls Lifted: Fable 5 &amp; Mythos 5 Return Today; Anthropic Launches Claude Science",
     "description": "July 1, 2026: The US Commerce Department lifts export controls on Claude Fable 5 and Mythos 5 — both models come back online today, ending an 18-day frontier blackout. Anthropic launches Claude Science, a research platform wiring 60+ scientific databases into one workspace. Plus the Claude apps gateway for Bedrock and Google Cloud, enterprise-managed MCP connectors via Okta, Sonnet 5 as the Claude Code default, and an analysis of Anthropic's pharma bet.",

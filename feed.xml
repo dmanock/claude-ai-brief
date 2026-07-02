@@ -8,6 +8,20 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — July 2, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-02.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-02.html</guid>
+      <pubDate>Thu, 02 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Fable 5 Is Back — With New Guardrails</strong> — The redeployed model ships a retrained cyber classifier that blocks the jailbreak 99%+ of the time and reroutes flagged prompts to Opus 4.8, at the cost of more false flags on ordinary code.</p>
+        <p><strong>2. California Signs a First-of-Its-Kind Anthropic Deal</strong> — Governor Newsom's office announced 50%-off Claude for state agencies and local governments, bundled with free workforce training.</p>
+        <p><strong>3. Sonnet 5 Goes GA in GitHub Copilot</strong> — Anthropic's most agentic Sonnet is now generally available in Copilot and Microsoft Foundry, with standout CLI performance and Zero Data Retention.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-02.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+
+    <item>
       <title>Claude AI Daily Brief — July 1, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-01.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-01.html</guid>
@@ -384,17 +398,5 @@
       ]]></description>
     </item>
 
-    <item>
-      <title>Claude AI Daily Brief — June 2, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-02.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-02.html</guid>
-      <pubDate>Tue, 02 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Files Confidentially for IPO — The $1T Public-Market Test Is On</strong> — A draft S-1 went to the SEC Monday, less than a week after the $65B Series H closed at a $965B valuation. Anthropic leapfrogs OpenAI to the IPO door first, with $47B run-rate and an explicit late-2026 listing window.</p>
-        <p><strong>2. Tuesday Outage Traced to a Runaway Claude Code Sub-Agent</strong> — A second hours-long outage in four days hit Claude, Console, API, and Claude Code starting around 2:10am ET. Root cause reportedly: Claude Code sub-agents multiplying excessively and burning user quotas. Emergency quota reset followed.</p>
-        <p><strong>3. ENISA Becomes First EU Agency to Get Mythos Access</strong> — The EU's cybersecurity body joins Project Glasswing — the first time Mythos has been offered outside the US/UK. The bloc had to clear access with Washington. The dual-use model just became a geopolitical asset.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-02.html">Read full report →</a></p>
-      ]]></description>
-    </item>
   </channel>
 </rss>

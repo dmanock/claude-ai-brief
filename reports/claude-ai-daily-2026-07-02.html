@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-07-02">
+  <title>Claude AI Daily Brief — July 2, 2026 | Fable 5 Redeploys With New Guardrails; California Signs Anthropic Deal; Sonnet 5 GA in Copilot</title>
+  <meta name="description" content="July 2, 2026: Fable 5 is back online with a retrained cyber classifier that blocks the jailbreak 99%+ of the time and reroutes risky prompts to Opus 4.8 — at the cost of more false flags on benign code. California signs a first-of-its-kind deal for 50%-off Claude across state agencies. Claude Sonnet 5 hits general availability in GitHub Copilot and Microsoft Foundry, Claude Code adds /rewind and a 37% CPU cut, and the 19-day blackout leaves a lasting lesson about AI as infrastructure.">
+  <meta name="keywords" content="Claude AI, Anthropic, Fable 5, cybersecurity classifier, Opus 4.8, California Anthropic partnership, Newsom, Claude Sonnet 5, GitHub Copilot, Microsoft Foundry, Claude Code, rewind, WIF, AI as infrastructure, enterprise AI">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-07-02.html">
+  <meta property="og:title" content="Claude AI Daily Brief — July 2, 2026">
+  <meta property="og:description" content="Fable 5 redeploys with a retrained cyber classifier and Opus 4.8 fallback. California signs a 50%-off Claude deal for state agencies. Sonnet 5 hits GA in GitHub Copilot.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-02.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — July 2, 2026">
+  <meta name="twitter:description" content="Fable 5 redeploys with a retrained cyber classifier and Opus 4.8 fallback. California signs a 50%-off Claude deal for state agencies. Sonnet 5 hits GA in GitHub Copilot.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-02.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-07-02.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — July 2, 2026",
+    "description": "Fable 5 redeploys with a retrained cyber classifier and Opus 4.8 fallback. California signs a 50%-off Claude deal for state agencies. Sonnet 5 hits GA in GitHub Copilot and Microsoft Foundry.",
+    "datePublished": "2026-07-02T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-02.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-07-02.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav data-pagefind-ignore="all">
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Thursday, July 2, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; July 2, 2026</h1>
+  <p>Covering the last 24 hours &middot; Edition #125</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Fable 5 Is Back &mdash; With New Guardrails</strong> &mdash; The redeployed model ships a retrained cyber classifier that blocks the jailbreak 99%+ of the time and reroutes flagged prompts to Opus 4.8, at the cost of more false flags on ordinary code.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>California Signs a First-of-Its-Kind Anthropic Deal</strong> &mdash; Governor Newsom&rsquo;s office announced 50%-off Claude for state agencies and local governments, bundled with free workforce training.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Sonnet 5 Goes GA in GitHub Copilot</strong> &mdash; Anthropic&rsquo;s most agentic Sonnet is now generally available in Copilot and Microsoft Foundry, with standout CLI performance and Zero Data Retention.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Breaking</span>
+      <h3>Fable 5 Redeploys With a Retrained Classifier and an Opus 4.8 Fallback</h3>
+      <p>The model is back, but it&rsquo;s not the same one that went dark. Anthropic <strong>redeployed Claude Fable 5 globally on July 1</strong> with a <strong>retrained cybersecurity classifier</strong> that it says blocks the reported jailbreak in <strong>over 99% of cases</strong>. Fable now runs a bank of classifiers spanning cybersecurity, biology, chemistry, model distillation, and hidden-reasoning extraction.</p>
+      <p>The clever part is the failure mode: when a request trips one of those classifiers, it doesn&rsquo;t just refuse &mdash; it&rsquo;s <strong>automatically routed to Claude Opus 4.8</strong>, and the user is told when that happens. You&rsquo;re not billed at Fable prices for a rerouted request. For Pro, Max, Team, and select Enterprise plans, Fable counts toward up to <strong>50% of weekly usage limits through July 7</strong>, then moves to usage credits.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/redeploying-fable-5" class="source-link">Anthropic</a>
+        <a href="https://www.marktechpost.com/2026/07/01/anthropic-redeploys-claude-fable-5-on-july-1-after-us-export-controls-lift-adds-new-cybersecurity-classifier/" class="source-link">MarkTechPost</a>
+        <a href="https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html" class="source-link">The Hacker News</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Government</span>
+      <h3>California Signs a First-of-Its-Kind Deal to Put Claude in State Agencies</h3>
+      <p>Governor Gavin Newsom&rsquo;s office announced a <strong>first-of-its-kind partnership with Anthropic</strong> that lets California state agencies access Claude at a <strong>50% discount</strong>, bundled with <strong>free workforce training</strong> and hands-on GenAI technical assistance from Anthropic&rsquo;s developers. The same discounted offer extends to local governments &mdash; cities and counties included.</p>
+      <p>The framing is deliberately unglamorous: Claude will help state workers draft and summarize documents, analyze information, and streamline day-to-day tasks. But the scale is the story. A state government standardizing on Claude is exactly the kind of anchor deployment that turns &ldquo;governed AI&rdquo; from a sales pitch into an installed base.</p>
+      <div class="source-links">
+        <a href="https://www.gov.ca.gov/2026/06/29/governor-newsom-announces-a-first-of-its-kind-partnership-providing-anthropic-tools-to-state-agencies-and-improving-services-for-californians/" class="source-link">Gov. of California</a>
+        <a href="https://www.cbsnews.com/sacramento/news/california-claude-deal-gavin-newsom/" class="source-link">CBS Sacramento</a>
+        <a href="https://decrypt.co/372301/california-strikes-deal-anthropic-bring-claude-ai-state-agencies" class="source-link">Decrypt</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Platform</span>
+      <h3>Claude Sonnet 5 Hits General Availability in GitHub Copilot and Microsoft Foundry</h3>
+      <p><strong>Claude Sonnet 5</strong> is now <strong>generally available in GitHub Copilot</strong> and <strong>Microsoft Foundry</strong>, rolling out to Copilot Pro, Pro+, Max, Business, and Enterprise users across editors and the CLI. GitHub&rsquo;s early testing flagged <strong>strong CLI-style task performance</strong> and excellent prompt-cache utilization, with competitive latency at lower effort levels.</p>
+      <p>Like other Sonnet models in Copilot, it runs under <strong>Zero Data Retention</strong>. This is the fast follow to Monday&rsquo;s launch: Sonnet 5 lands in the single biggest developer surface within days, closing much of the gap to Opus 4.8 at a Sonnet price point &mdash; the model most working engineers will actually reach for.</p>
+      <div class="source-links">
+        <a href="https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot/" class="source-link">GitHub Changelog</a>
+        <a href="https://www.anthropic.com/news/claude-sonnet-5" class="source-link">Anthropic</a>
+        <a href="https://alphasignal.ai/news/github-copilot-adds-claude-sonnet-5-with-near-opus-level-agentic-power" class="source-link">AlphaSignal</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code Adds <code>/rewind</code>, Short-Lived Credentials, and a 37% CPU Cut</h3>
+      <p>The latest Claude Code drop is a quality-of-life haul. A new <strong><code>/rewind</code></strong> command lets you resume a conversation from before a <code>/clear</code>, MCP reliability and OAuth retries are improved, and CPU use during streaming is <strong>down about 37%</strong>. There&rsquo;s also org default models, readable session names, and clickable file attachments.</p>
+      <p>On auth, <strong>Workload Identity Federation (WIF)</strong> plus <code>ant auth login</code> means developers never handle a static API key again &mdash; WIF issues short-lived, scoped credentials at request time. It&rsquo;s the same enterprise-hardening arc as this week&rsquo;s apps gateway: make the secure path the default path.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+        <a href="https://docs.anthropic.com/en/release-notes/claude-code" class="source-link">Claude Code Changelog</a>
+        <a href="https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available/" class="source-link">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Reaction</span>
+      <h3>The &ldquo;Routing Trap&rdquo;: Devs Notice Fable 5 Got More Cautious About Code</h3>
+      <p>Within hours of the redeploy, developers started comparing notes: the retrained classifier is <strong>flagging benign coding and debugging requests</strong> more often than before, and those flagged prompts quietly fall back to Opus 4.8. Community writeups are calling it the <strong>&ldquo;routing trap&rdquo;</strong> &mdash; you think you&rsquo;re getting Fable, but a security-adjacent prompt can silently hand you a different model.</p>
+      <p>The upside: you aren&rsquo;t charged Fable rates for the reroute, and Anthropic surfaces a notice when it happens. The friction: reproducibility. If you&rsquo;re building on Fable and a subset of prompts drift to Opus 4.8, your outputs and latency profile shift underneath you. Expect prompt-engineering guides on how to stay in-model for legitimate security work.</p>
+      <div class="source-links">
+        <a href="https://karozieminski.substack.com/p/claude-fable-5-routing-trap" class="source-link">Karo Zieminski</a>
+        <a href="https://www.digitalapplied.com/blog/claude-fable-5-safety-classifier-coding-tradeoffs-2026" class="source-link">Digital Applied</a>
+        <a href="https://www.makeuseof.com/fable-5-is-so-back-anthropic-redeployed-the-mythos-class-model-but-with-caveats/" class="source-link">MakeUseOf</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>The 19-Day Blackout Taught Every Enterprise a Lesson About AI as Infrastructure</h3>
+      <p>Fable 5 is back, but the real takeaway isn&rsquo;t the model &mdash; it&rsquo;s that a frontier AI was <strong>switched off by the government for 19 days</strong> and enterprises had no fallback plan. If a single vendor&rsquo;s single model can be pulled by regulators overnight, then &ldquo;which model&rdquo; is now an infrastructure decision, not a feature choice. Redundancy, model portability, and graceful degradation just moved onto the CTO checklist.</p>
+      <p>Notice how the two big stories rhyme. Anthropic hardened Fable with automatic fallback to Opus 4.8 &mdash; degrade, don&rsquo;t fail &mdash; the same week California bet an entire state government on Claude. The lesson cuts both ways: the vendor is engineering resilience into the model, while its largest new customers are concentrating risk into one provider. The winners of this cycle will be whoever treats AI like the utility it now is &mdash; with backups, SLAs, and an exit plan &mdash; rather than a magic box that&rsquo;s always on.</p>
+      <div class="source-links">
+        <a href="https://www.marketscale.com/industries/software-and-technology/fable-5-and-mythos-5-are-back-what-the-19-day-shutdown-taught-every-enterprise-about-ai-as-infrastructure" class="source-link">MarketScale</a>
+        <a href="https://9to5google.com/2026/07/01/anthropic-fable-5-returns-to-claude/" class="source-link">9to5Google</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
