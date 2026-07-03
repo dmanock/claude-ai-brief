@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-03",
+    "title": "Claude AI Daily Brief — July 3, 2026 | Enterprise Gets Spend Controls; Claude in Chrome Hits GA; $100M Partner Network",
+    "description": "July 3, 2026: Claude Enterprise adds admin analytics, model-level entitlements, and spend alerts. Claude in Chrome reaches general availability and Claude Code expands agent workflows with background notifications and a /dataviz skill. Anthropic puts $100M behind the Claude Partner Network, a Rate Limits API and Memory beta ship, and the Claude Science credits program stays open through July 15.",
+    "url": "reports/claude-ai-daily-2026-07-03.html",
+    "headlines": [
+      "Enterprise Gets Spend Controls; Claude in Chrome Hits GA; $100M Partner Network",
+      "Claude Enterprise Adds Admin Analytics, Model Entitlements, and Spend Alerts",
+      "Anthropic Puts $100M Behind the Claude Partner Network",
+      "Claude in Chrome Goes GA; Claude Code Expands Agent Workflows",
+      "Rate Limits API, Managed-Agent Memory Beta, and WIF Everywhere",
+      "Claude Science&rsquo;s $30K Credits Program Stays Open Through July 15",
+      "Anthropic Is Quietly Building the Boring Layer &mdash; and That&rsquo;s the Point"
+    ],
+    "snippet": "Claude AI Daily Brief — July 3, 2026 | Enterprise Gets Spend Controls; Claude in Chrome Hits GA; $100M Partner Network ● Friday, July 3, 2026 Claude AI Daily Brief — July 3, 2026 Covering the last 24 hours · Edition #126 TL;DR — Today’s Top 3 Takeaways 1. Enterprise Gets Real Cost Controls — Claude "
+  },
+  {
     "date": "2026-07-02",
     "title": "Claude AI Daily Brief — July 2, 2026 | Fable 5 Redeploys With New Guardrails; California Signs Anthropic Deal; Sonnet 5 GA in Copilot",
     "description": "July 2, 2026: Fable 5 is back online with a retrained cyber classifier that blocks the jailbreak 99%+ of the time and reroutes risky prompts to Opus 4.8 — at the cost of more false flags on benign code. California signs a first-of-its-kind deal for 50%-off Claude across state agencies. Claude Sonnet 5 hits general availability in GitHub Copilot and Microsoft Foundry, Claude Code adds /rewind and a 37% CPU cut, and the 19-day blackout leaves a lasting lesson about AI as infrastructure.",

@@ -8,6 +8,20 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — July 3, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-03.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-03.html</guid>
+      <pubDate>Fri, 03 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Enterprise Gets Real Cost Controls</strong> — Claude Enterprise adds admin analytics, model-level entitlements, and spend alerts, giving admins visibility into usage and a brake on surprise overages.</p>
+        <p><strong>2. Claude in Chrome Hits GA</strong> — The browser agent goes generally available and Claude Code expands agent workflows with background notifications, draft PR handoff, and a new /dataviz skill.</p>
+        <p><strong>3. $100M Behind the Partner Network</strong> — Anthropic commits an initial $100M for 2026 to the integrators and consultancies deploying Claude across the enterprise.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-03.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+
+    <item>
       <title>Claude AI Daily Brief — July 2, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-02.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-02.html</guid>
@@ -382,19 +396,6 @@
         <p><strong>2. Comscore: Claude Desktop Conversations Up 1,858% to 22M</strong> — The Q1 2026 AI Intelligence Report puts Claude at 22M desktop conversations in March, up 1,858% since October. ChatGPT still leads at 244M, but Claude is the breakout growth story — third-party consumer data landing exactly when the S-1 needs it.</p>
         <p><strong>3. Anthropic Promises Mythos-Class Models for All Customers "In the Coming Weeks"</strong> — The Glasswing expansion to ~150 new organizations came with a bigger commitment: Mythos-class capability ships publicly once stronger cyber safeguards land. Partners have already found 10,000+ high- or critical-severity flaws.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-04.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — June 3, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-03.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-03.html</guid>
-      <pubDate>Wed, 03 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Strava MCP Connector Goes Live — Claude Gets Native Access to Years of Activity Data</strong> — Strava began phased rollout of an MCP connector for paying subscribers, exposing per-second heart-rate, GPS, power, and pace streams to Claude via OAuth read-only auth. The first mass-consumer MCP integration of the year.</p>
-        <p><strong>2. Claude Code v2.1.160 Locks Down Shell-Startup and Build-Tool Writes</strong> — The Tuesday release adds explicit prompts before any write to .zshenv, .bash_login, ~/.config/git/, .npmrc, bunfig.toml, devcontainer files and similar paths — closing the most common acceptEdits-mode arbitrary-execution gotcha.</p>
-        <p><strong>3. SAP Names Claude Its Primary Reasoning Model for SAP Business AI Platform</strong> — SAP and Anthropic are embedding Claude as the lead agentic capability across SAP's newly announced Business AI Platform — the deepest single-vendor enterprise integration since the PwC alliance expanded last week.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-03.html">Read full report →</a></p>
       ]]></description>
     </item>
 
