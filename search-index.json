@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-04",
+    "title": "Claude AI Daily Brief — July 4, 2026 | Claude Lands Inside Apple's Framework; Fable 5 &amp; Mythos 5 Export Controls Lifted; BioNeMo Powers Claude Science",
+    "description": "July 4, 2026: Claude ships inside Apple's Foundation Models framework for on-device handoff across iOS 27, macOS 27, and more. The US lifts export restrictions on Claude Fable 5 and Mythos 5, and Anthropic redeploys globally. NVIDIA's BioNeMo Agent Toolkit plugs into Claude Science, MCP tunnels and self-hosted sandboxes reach preview, and PwC deepens its Claude partnership with 30,000 certifications.",
+    "url": "reports/claude-ai-daily-2026-07-04.html",
+    "headlines": [
+      "Claude Lands Inside Apple's Framework; Fable 5 &amp; Mythos 5 Export Controls Lifted; BioNeMo Powers Claude Science",
+      "US Lifts Export Controls on Fable 5 and Mythos 5; Anthropic Redeploys Globally",
+      "PwC Deepens Its Claude Alliance: A Joint Center of Excellence and 30,000 Certifications",
+      "Claude Ships Inside Apple&rsquo;s Foundation Models Framework",
+      "MCP Tunnels and Self-Hosted Sandboxes Reach Preview",
+      "NVIDIA&rsquo;s BioNeMo Agent Toolkit Plugs Into Claude Science",
+      "Last Week Was About Control. This Week Is About Reach."
+    ],
+    "snippet": "Claude AI Daily Brief — July 4, 2026 | Claude Lands Inside Apple's Framework; Fable 5 & Mythos 5 Export Controls Lifted; BioNeMo Powers Claude Science ● Saturday, July 4, 2026 Claude AI Daily Brief — July 4, 2026 Covering the last 24 hours · Edition #127 TL;DR — Today’s Top 3 Takeaways 1. Claude Lan"
+  },
+  {
     "date": "2026-07-03",
     "title": "Claude AI Daily Brief — July 3, 2026 | Enterprise Gets Spend Controls; Claude in Chrome Hits GA; $100M Partner Network",
     "description": "July 3, 2026: Claude Enterprise adds admin analytics, model-level entitlements, and spend alerts. Claude in Chrome reaches general availability and Claude Code expands agent workflows with background notifications and a /dataviz skill. Anthropic puts $100M behind the Claude Partner Network, a Rate Limits API and Memory beta ship, and the Claude Science credits program stays open through July 15.",

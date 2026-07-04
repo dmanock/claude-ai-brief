@@ -8,6 +8,20 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — July 4, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-04.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-04.html</guid>
+      <pubDate>Sat, 04 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Lands Inside Apple's Framework</strong> — A new Swift package lets apps hand off to Claude through Apple's Foundation Models framework on iOS 27, macOS 27, and beyond — same API as the on-device model.</p>
+        <p><strong>2. Fable 5 &amp; Mythos 5 Export Controls Lifted</strong> — The US Commerce Department removed its export restrictions, and Anthropic is redeploying Claude Fable 5 globally with restored Mythos 5 access.</p>
+        <p><strong>3. NVIDIA BioNeMo Powers Claude Science</strong> — The BioNeMo Agent Toolkit plugs into Claude Science, exposing GPU-accelerated protein and genomics skills as callable agents.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-04.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+
+    <item>
       <title>Claude AI Daily Brief — July 3, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-03.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-03.html</guid>
@@ -48,6 +62,7 @@
       ]]></description>
     </item>
 
+
     <item>
       <title>Claude AI Daily Brief — June 30, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-30.html</link>
@@ -60,6 +75,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-30.html">Read full report →</a></p>
       ]]></description>
     </item>
+
 
     <item>
       <title>Claude AI Daily Brief — June 29, 2026</title>
@@ -74,6 +90,7 @@
       ]]></description>
     </item>
 
+
     <item>
       <title>Claude AI Daily Brief — June 28, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-28.html</link>
@@ -86,6 +103,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-28.html">Read full report →</a></p>
       ]]></description>
     </item>
+
 
     <item>
       <title>Claude AI Daily Brief — June 27, 2026</title>
@@ -100,6 +118,7 @@
       ]]></description>
     </item>
 
+
     <item>
       <title>Claude AI Daily Brief — June 26, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-26.html</link>
@@ -112,6 +131,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-26.html">Read full report →</a></p>
       ]]></description>
     </item>
+
 
     <item>
       <title>Claude AI Daily Brief — June 25, 2026</title>
@@ -126,6 +146,7 @@
       ]]></description>
     </item>
 
+
     <item>
       <title>Claude AI Daily Brief — June 24, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-24.html</link>
@@ -138,6 +159,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-24.html">Read full report →</a></p>
       ]]></description>
     </item>
+
 
     <item>
       <title>Claude AI Daily Brief — June 23, 2026</title>
@@ -152,6 +174,7 @@
       ]]></description>
     </item>
 
+
     <item>
       <title>Claude AI Daily Brief — June 22, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-22.html</link>
@@ -164,6 +187,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-22.html">Read full report →</a></p>
       ]]></description>
     </item>
+
 
     <item>
       <title>Claude AI Daily Brief — June 21, 2026</title>
@@ -178,6 +202,7 @@
       ]]></description>
     </item>
 
+
     <item>
       <title>Claude AI Daily Brief — June 20, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-20.html</link>
@@ -190,6 +215,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-20.html">Read full report →</a></p>
       ]]></description>
     </item>
+
 
     <item>
       <title>Claude AI Daily Brief — June 19, 2026</title>
@@ -204,6 +230,7 @@
       ]]></description>
     </item>
 
+
     <item>
       <title>Claude AI Daily Brief — June 18, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-18.html</link>
@@ -216,6 +243,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-18.html">Read full report →</a></p>
       ]]></description>
     </item>
+
 
     <item>
       <title>Claude AI Daily Brief — June 17, 2026</title>
@@ -230,6 +258,7 @@
       ]]></description>
     </item>
 
+
     <item>
       <title>Claude AI Daily Brief — June 16, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-16.html</link>
@@ -242,6 +271,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-16.html">Read full report →</a></p>
       ]]></description>
     </item>
+
 
     <item>
       <title>Claude AI Daily Brief — June 15, 2026</title>
@@ -256,6 +286,7 @@
       ]]></description>
     </item>
 
+
     <item>
       <title>Claude AI Daily Brief — June 14, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-14.html</link>
@@ -268,6 +299,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-14.html">Read full report →</a></p>
       ]]></description>
     </item>
+
 
     <item>
       <title>Claude AI Daily Brief — June 13, 2026</title>
@@ -282,6 +314,7 @@
       ]]></description>
     </item>
 
+
     <item>
       <title>Claude AI Daily Brief — June 12, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-12.html</link>
@@ -294,6 +327,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-12.html">Read full report →</a></p>
       ]]></description>
     </item>
+
 
     <item>
       <title>Claude AI Daily Brief — June 11, 2026</title>
@@ -308,6 +342,7 @@
       ]]></description>
     </item>
 
+
     <item>
       <title>Claude AI Daily Brief — June 10, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-10.html</link>
@@ -320,6 +355,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-10.html">Read full report →</a></p>
       ]]></description>
     </item>
+
 
     <item>
       <title>Claude AI Daily Brief — June 9, 2026</title>
@@ -334,6 +370,7 @@
       ]]></description>
     </item>
 
+
     <item>
       <title>Claude AI Daily Brief — June 8, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-08.html</link>
@@ -346,6 +383,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-08.html">Read full report →</a></p>
       ]]></description>
     </item>
+
 
     <item>
       <title>Claude AI Daily Brief — June 7, 2026</title>
@@ -360,6 +398,7 @@
       ]]></description>
     </item>
 
+
     <item>
       <title>Claude AI Daily Brief — June 6, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-06.html</link>
@@ -373,6 +412,7 @@
       ]]></description>
     </item>
 
+
     <item>
       <title>Claude AI Daily Brief — June 5, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-05.html</link>
@@ -383,19 +423,6 @@
         <p><strong>2. Fitch Puts Financial Advice in AI's Crosshairs</strong> — Bloomberg reports a Fitch Ratings warning that personal financial advisory risks "being fully substituted by AI solutions" if customers learn to trust non-human agents. Claude and ChatGPT are named as the tools leading the charge into a regulated, trust-based profession.</p>
         <p><strong>3. Outage Post-Mortem Still Pending, Three Days On</strong> — Anthropic has yet to publish a root-cause analysis for Tuesday's sub-agent runaway outage. Quota resets landed for affected Pro and Max users; the written explanation hasn't — and Code w/ Claude Tokyo is five days out.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-05.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — June 4, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-04.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-04.html</guid>
-      <pubDate>Thu, 04 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Partner Network Gets a Services Track and Partner Hub</strong> — Anthropic formalized its $100M partner program with a three-tier Services Track (Select, Preferred, Global Premier) and a Partner Hub portal where customers find qualified firms. 40,000+ firms have applied since March; 10,000+ consultants hold Claude certifications.</p>
-        <p><strong>2. Comscore: Claude Desktop Conversations Up 1,858% to 22M</strong> — The Q1 2026 AI Intelligence Report puts Claude at 22M desktop conversations in March, up 1,858% since October. ChatGPT still leads at 244M, but Claude is the breakout growth story — third-party consumer data landing exactly when the S-1 needs it.</p>
-        <p><strong>3. Anthropic Promises Mythos-Class Models for All Customers "In the Coming Weeks"</strong> — The Glasswing expansion to ~150 new organizations came with a bigger commitment: Mythos-class capability ships publicly once stronger cyber safeguards land. Partners have already found 10,000+ high- or critical-severity flaws.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-04.html">Read full report →</a></p>
       ]]></description>
     </item>
 
