@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-07-05">
+  <title>Claude AI Daily Brief — July 5, 2026 | Inside the Fable 5 Ban; Anthropic Shuts China's Backdoor to Claude; Two Labs Take 43% of a Record VC Half</title>
+  <meta name="description" content="July 5, 2026: New reporting reveals how the Fable 5 export-control fight really unfolded — an Amazon-discovered jailbreak, letters to Dario Amodei, NSA testing under Project Glasswing, and a scramble in Washington. Anthropic moves to close the offshore loopholes Chinese firms used to reach Claude, and a record $510B first half of VC sees Anthropic and OpenAI capture 43% of the money.">
+  <meta name="keywords" content="Claude AI, Anthropic, Fable 5, Mythos 5, export controls, Project Glasswing, NSA, Amazon jailbreak, Dario Amodei, China loopholes, Ant Group, ByteDance, Claude terms of service, AI venture capital, H1 2026 funding, OpenAI">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-07-05.html">
+  <meta property="og:title" content="Claude AI Daily Brief — July 5, 2026">
+  <meta property="og:description" content="How the Fable 5 ban really unfolded. Anthropic moves to shut China's offshore backdoor to Claude. Two labs take 43% of a record $510B half of venture funding.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-05.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — July 5, 2026">
+  <meta name="twitter:description" content="How the Fable 5 ban really unfolded. Anthropic moves to shut China's backdoor to Claude. Two labs take 43% of a record VC half.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-05.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-07-05.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — July 5, 2026",
+    "description": "New reporting reveals how the Fable 5 export-control fight unfolded. Anthropic moves to close the offshore loopholes Chinese firms used to reach Claude. A record $510B first half of VC sees Anthropic and OpenAI capture 43% of the money.",
+    "datePublished": "2026-07-05T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-05.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-07-05.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 10px; padding: 22px 24px;
+      margin-bottom: 12px; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #7c3aed; }
+    .card h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; line-height: 1.4; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 14px; }
+    .card p:last-of-type { margin-bottom: 0; }
+    code { background: rgba(124,58,237,0.15); color: #c4b5fd; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .source-link {
+      font-size: 11px; font-weight: 600; color: #a78bfa;
+      text-decoration: none; background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      padding: 3px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(167, 139, 250, 0.2); }
+
+    .tag { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    footer { border-top: 1px solid #1e1e3a; padding: 28px 32px; text-align: center; font-size: 12px; color: #334155; }
+    footer a { color: #475569; text-decoration: none; }
+    footer a:hover { color: #a78bfa; }
+  </style>
+</head>
+<body>
+
+<nav data-pagefind-ignore="all">
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Sunday, July 5, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; July 5, 2026</h1>
+  <p>Covering the holiday weekend &middot; Edition #128</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Inside the Fable 5 Ban</strong> &mdash; New reporting traces how the export-control fight really unfolded: an Amazon-discovered jailbreak, a letter to Dario Amodei, NSA testing under Project Glasswing, and a scramble in Washington before the order was lifted.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Anthropic Shuts China&rsquo;s Backdoor to Claude</strong> &mdash; Per an FT report, Anthropic is closing the offshore workarounds &mdash; relay &ldquo;transfer stations,&rdquo; overseas subsidiaries, cloud accounts &mdash; that firms like Ant Group and ByteDance used to reach Claude.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Two Labs, 43% of the Money</strong> &mdash; Global venture funding hit a record ~$510B in the first half of 2026, and Anthropic and OpenAI together captured roughly 43% of it.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Policy &amp; Governance</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Policy</span>
+      <h3>Inside the Fable 5 Ban: How Independence Week&rsquo;s Ugliest AI Fight Unfolded</h3>
+      <p>With Fable 5 and Mythos 5 back online, the weekend&rsquo;s reporting turned to <strong>how the fight actually happened</strong>. The trigger: researchers at <strong>Amazon</strong> discovered a &ldquo;fix this code&rdquo; jailbreak that could coax dangerous outputs from both models, and CEO <strong>Andy Jassy escalated it directly</strong> to Treasury Secretary Scott Bessent, Commerce Secretary Howard Lutnick, and National Cyber Director Harry Coker Jr. Lutnick then sent a letter to Anthropic CEO <strong>Dario Amodei</strong> imposing export controls, and the models went dark on June 12.</p>
+      <p>What followed was three weeks of crisis diplomacy: Anthropic flew engineers to Washington, NSA testing proceeded under the restricted <strong>Project Glasswing</strong> program, and Bessent and Lutnick ultimately helped defuse the standoff. The order lifted June 30 and Fable 5 returned worldwide July 1, only after Anthropic shipped a new safety classifier that blocks the reported jailbreak in <strong>more than 99% of cases</strong>. The lesson landing over the holiday: a frontier model is now close enough to critical infrastructure that a single jailbreak can put it on a cabinet secretary&rsquo;s desk within days.</p>
+      <div class="source-links">
+        <a href="https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon" class="source-link">Axios</a>
+        <a href="https://thenextweb.com/news/anthropic-commerce-meeting-fable-mythos-crisis" class="source-link">TNW</a>
+        <a href="https://www.forbes.com/sites/anishasircar/2026/06/16/anthropic-disabled-fable-5-and-mythos-5-after-a-us-export-control-order-heres-what-happened/" class="source-link">Forbes</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Geopolitics</span>
+      <h3>Anthropic Moves to Shut the Offshore Backdoor Chinese Firms Used to Reach Claude</h3>
+      <p>According to a Financial Times report, Anthropic is stepping up efforts to <strong>detect and shut down the workarounds</strong> Chinese companies have used to access Claude despite its bans. The methods being targeted are creative: relay <strong>&ldquo;transfer station&rdquo; services</strong> that quietly route requests through overseas Claude accounts, <strong>foreign subsidiaries</strong> spun up to hold accounts, and access via cloud infrastructure including Microsoft Azure. Anthropic is reportedly monitoring signals like account time zones to spot the traffic.</p>
+      <p>The specifics name names: <strong>Ant Group</strong> reportedly gave employees corporate Claude accounts tied to a Singapore-based entity, while <strong>ByteDance</strong> reimbursed engineers for personal subscriptions accessed over VPNs. None of it appears to break US or Chinese law &mdash; it breaches Anthropic&rsquo;s terms of service, which bar Chinese firms and entities under their control from using its models. The move extends earlier direct-access bans down to <strong>ownership structures and relay routes</strong>, a sign of how much enforcement work sits behind a simple line in a ToS.</p>
+      <div class="source-links">
+        <a href="https://www.investing.com/news/stock-market-news/anthropic-targets-loopholes-used-by-chinese-firms-to-access-claude-ft-reports-4774998" class="source-link">Investing.com</a>
+        <a href="https://seekingalpha.com/news/4609813-anthropic-cracks-down-on-chinese-workaround-access-to-claude-ft-reports" class="source-link">Seeking Alpha</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Funding</span>
+      <h3>Anthropic and OpenAI Took Roughly 43% of a Record $510B VC Half</h3>
+      <p>The money story of the year keeps getting more lopsided. Per H1 2026 funding tallies making the rounds this weekend, global venture capital hit a <strong>record ~$510B in the first half of the year</strong> &mdash; and <strong>Anthropic and OpenAI together accounted for about 43% of it</strong>. Two companies, nearly half of all venture dollars deployed worldwide.</p>
+      <p>Read it next to the weekend&rsquo;s other headlines and the picture sharpens: the same models drawing cabinet-level national-security scrutiny and ToS-level geopolitical enforcement are also the ones vacuuming up an unprecedented share of global capital. Concentration of capability and concentration of capital are, increasingly, the same story.</p>
+      <div class="source-links">
+        <a href="https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026" class="source-link">BuildFast</a>
+        <a href="https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx" class="source-link">AIToolsRecap</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>A Quiet Holiday Weekend That Was Really About Power</h3>
+      <p>No launches, no new models &mdash; and yet this may be the most consequential weekend of the summer for understanding where Claude sits in the world. Three threads, one knot: a <strong>frontier model treated as national-security infrastructure</strong> (the Fable 5 post-mortem), a lab <strong>policing its own borders</strong> against a rival superpower (the China loophole crackdown), and <strong>an unprecedented concentration of capital</strong> flowing to the two firms at the center of it (43% of a record half).</p>
+      <p>The through-line is that Anthropic is no longer just shipping software; it&rsquo;s operating something governments test, adversaries chase, and markets fund like scarce strategic supply. That&rsquo;s a very different company than the one that published a chatbot. The product roadmap will keep making headlines &mdash; but weekends like this are where the real story of the next few years is being written: capability has become geopolitics, and the terms of service have become foreign policy.</p>
+      <div class="source-links">
+        <a href="https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon" class="source-link">Axios</a>
+        <a href="https://www.investing.com/news/stock-market-news/anthropic-targets-loopholes-used-by-chinese-firms-to-access-claude-ft-reports-4774998" class="source-link">Investing.com</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
