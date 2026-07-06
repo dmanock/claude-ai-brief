@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-07-06",
+    "title": "Claude AI Daily Brief — July 6, 2026 | Claude Code Defaults to Manual Permissions; API Rate Limits Rise as Tiers Collapse to Three; Managed Agents Gain Deltas &amp; Overrides",
+    "description": "July 6, 2026: Claude Code flips its default permission mode to Manual across the CLI, VS Code, and JetBrains, and AskUserQuestion no longer auto-continues. Anthropic raises API rate limits and consolidates usage tiers into Start, Build, and Scale, with Sonnet and Haiku now matching Opus. Claude Managed Agents pick up event-delta streaming, per-session config overrides, and full lifecycle webhooks — plus a deprecation calendar for Opus 4.1 and Opus 4.7 fast mode.",
+    "url": "reports/claude-ai-daily-2026-07-06.html",
+    "headlines": [
+      "Claude Code Defaults to Manual Permissions; API Rate Limits Rise as Tiers Collapse to Three; Managed Agents Gain Deltas &amp; Overrides",
+      "API Rate Limits Rise; Usage Tiers Collapse to Start, Build, and Scale",
+      "Mark Your Calendar: Opus 4.1 Retires Aug 5, Opus 4.7 Fast Mode Removed July 24",
+      "Claude Code Flips Its Default Permission Mode to &ldquo;Manual&rdquo;",
+      "Claude Managed Agents Add Event Deltas, Per-Session Overrides, and Lifecycle Webhooks",
+      "Heads Up: Sonnet 5&rsquo;s New Tokenizer Bills ~30% More Tokens",
+      "Launch Season Is Over. This Is the Bolt-Tightening Phase."
+    ],
+    "snippet": "Claude AI Daily Brief — July 6, 2026 | Claude Code Defaults to Manual Permissions; API Rate Limits Rise as Tiers Collapse to Three; Managed Agents Gain Deltas & Overrides ● Monday, July 6, 2026 Claude AI Daily Brief — July 6, 2026 Covering the latest from the platform · Edition #129 TL;DR — Today’s "
+  },
+  {
+    "date": "2026-07-05",
+    "title": "Claude AI Daily Brief — July 5, 2026 | Inside the Fable 5 Ban; Anthropic Shuts China's Backdoor to Claude; Two Labs Take 43% of a Record VC Half",
+    "description": "July 5, 2026: New reporting reveals how the Fable 5 export-control fight really unfolded — an Amazon-discovered jailbreak, letters to Dario Amodei, NSA testing under Project Glasswing, and a scramble in Washington. Anthropic moves to close the offshore loopholes Chinese firms used to reach Claude, and a record $510B first half of VC sees Anthropic and OpenAI capture 43% of the money.",
+    "url": "reports/claude-ai-daily-2026-07-05.html",
+    "headlines": [
+      "Inside the Fable 5 Ban; Anthropic Shuts China's Backdoor to Claude; Two Labs Take 43% of a Record VC Half",
+      "Inside the Fable 5 Ban: How Independence Week&rsquo;s Ugliest AI Fight Unfolded",
+      "Anthropic Moves to Shut the Offshore Backdoor Chinese Firms Used to Reach Claude",
+      "Anthropic and OpenAI Took Roughly 43% of a Record $510B VC Half",
+      "A Quiet Holiday Weekend That Was Really About Power"
+    ],
+    "snippet": "Claude AI Daily Brief — July 5, 2026 | Inside the Fable 5 Ban; Anthropic Shuts China's Backdoor to Claude; Two Labs Take 43% of a Record VC Half ● Sunday, July 5, 2026 Claude AI Daily Brief — July 5, 2026 Covering the holiday weekend · Edition #128 TL;DR — Today’s Top 3 Takeaways 1. Inside the Fable"
+  },
+  {
     "date": "2026-07-04",
     "title": "Claude AI Daily Brief — July 4, 2026 | Claude Lands Inside Apple's Framework; Fable 5 &amp; Mythos 5 Export Controls Lifted; BioNeMo Powers Claude Science",
     "description": "July 4, 2026: Claude ships inside Apple's Foundation Models framework for on-device handoff across iOS 27, macOS 27, and more. The US lifts export restrictions on Claude Fable 5 and Mythos 5, and Anthropic redeploys globally. NVIDIA's BioNeMo Agent Toolkit plugs into Claude Science, MCP tunnels and self-hosted sandboxes reach preview, and PwC deepens its Claude partnership with 30,000 certifications.",
