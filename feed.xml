@@ -8,6 +8,20 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — July 7, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-07.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-07.html</guid>
+      <pubDate>Tue, 07 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Fable 5 Moves to Usage Credits Today</strong> — The included-allowance window for Anthropic's most powerful model closes July 7; after today, Pro, Max, and Team users reach Fable 5 through usage credits.</p>
+        <p><strong>2. An Industry Framework for Jailbreaks</strong> — Anthropic, Amazon, Microsoft, and Google are drafting a consensus standard to score jailbreak severity, alongside a new HackerOne cyber-jailbreak program and deeper US government collaboration.</p>
+        <p><strong>3. Claude Science Beta Opens Grants</strong> — The new research workbench is inviting up to 50 AI for Science projects with up to $30K in credits each; applications close July 15.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-07.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+
+    <item>
       <title>Claude AI Daily Brief — July 6, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-06.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-06.html</guid>
@@ -409,20 +423,6 @@
         <p><strong>2. Doubled Limits, Backed by SpaceX Compute</strong> — Claude Code's 5-hour limits doubled and Opus API limits jumped sharply, underwritten by a SpaceX deal for the Colossus 1 data center — 300+ MW and 220,000+ GPUs coming online within the month.</p>
         <p><strong>3. Project Glasswing Scales to ~150 Orgs</strong> — Anthropic extended its critical-software security program to roughly 150 organizations across 15+ countries, while the new Claude Security product has patched 2,100+ vulnerabilities in three weeks.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-08.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-
-    <item>
-      <title>Claude AI Daily Brief — June 7, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-07.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-07.html</guid>
-      <pubDate>Sun, 07 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Connector Directory Crosses 418 Integrations — MCP Goes Mainstream</strong> — With Strava and Abacor live as of June 1, Claude's verified-connector directory now tops 418 integrations across 30 categories. The same connectors that power chats now run inside Managed Agents — the ecosystem is the moat.</p>
-        <p><strong>2. Code w/ Claude Tokyo Is 3 Days Out</strong> — In-person applications are closed; the livestream is open. After a week of version pinning, fallbackModel, and cross-session security fixes, the "What's new in Claude Code" talk has all the material it needs.</p>
-        <p><strong>3. The IPO Math Gets Real — $965B Round, $47B Run-Rate</strong> — With the confidential S-1 in SEC review, the numbers underneath it are out: a $65B Series H at a $965B valuation, a run-rate past $47B, and a reported $1.75–1.8T IPO target.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-07.html">Read full report →</a></p>
       ]]></description>
     </item>
 

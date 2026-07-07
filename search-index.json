@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-07",
+    "title": "Claude AI Daily Brief — July 7, 2026 | Fable 5 Shifts to Usage Credits Today; Anthropic Drafts Industry Jailbreak Framework; Claude Science Beta Opens Grants",
+    "description": "July 7, 2026: Claude Fable 5's included allowance ends today and access moves to usage credits after export controls were lifted. Anthropic partners with Amazon, Microsoft, and Google on a consensus jailbreak-severity framework and launches a HackerOne cyber-jailbreak program. Claude Science beta opens AI for Science grants through July 15, Artifacts land in Claude Code, and Claude in Chrome goes generally available.",
+    "url": "reports/claude-ai-daily-2026-07-07.html",
+    "headlines": [
+      "Fable 5 Shifts to Usage Credits Today; Anthropic Drafts Industry Jailbreak Framework; Claude Science Beta Opens Grants",
+      "Fable 5&rsquo;s Included Allowance Ends Today; Access Shifts to Usage Credits",
+      "Anthropic Drafts an Industry Framework for Scoring AI Jailbreaks",
+      "Artifacts Come to Claude Code: Turn Work Into Live, Shareable Pages",
+      "Claude in Chrome Goes Generally Available; Background Agents Get Notifications",
+      "Claude Science Beta Opens AI for Science Grants &mdash; Apply by July 15",
+      "Partner Network Adds a Services Track and a Partner Hub",
+      "The Fable 5 Saga&rsquo;s Real Legacy Is Governance as Infrastructure"
+    ],
+    "snippet": "Claude AI Daily Brief — July 7, 2026 | Fable 5 Shifts to Usage Credits Today; Anthropic Drafts Industry Jailbreak Framework; Claude Science Beta Opens Grants ● Tuesday, July 7, 2026 Claude AI Daily Brief — July 7, 2026 Covering the latest from the platform · Edition #130 TL;DR — Today’s Top 3 Takeaw"
+  },
+  {
     "date": "2026-07-06",
     "title": "Claude AI Daily Brief — July 6, 2026 | Claude Code Defaults to Manual Permissions; API Rate Limits Rise as Tiers Collapse to Three; Managed Agents Gain Deltas &amp; Overrides",
     "description": "July 6, 2026: Claude Code flips its default permission mode to Manual across the CLI, VS Code, and JetBrains, and AskUserQuestion no longer auto-continues. Anthropic raises API rate limits and consolidates usage tiers into Start, Build, and Scale, with Sonnet and Haiku now matching Opus. Claude Managed Agents pick up event-delta streaming, per-session config overrides, and full lifecycle webhooks — plus a deprecation calendar for Opus 4.1 and Opus 4.7 fast mode.",
