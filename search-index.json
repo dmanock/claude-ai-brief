@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-08",
+    "title": "Claude AI Daily Brief — July 8, 2026 | Claude Cowork Goes Cross-Device; Fable 5 Per-Token Pricing Takes Effect; 90% of Cowork Sessions Aren't Coding",
+    "description": "July 8, 2026: Claude Cowork expands to web and mobile with remote sessions that keep running after you close your laptop, plus Microsoft 365 write tools. Fable 5's included allowance is gone — access is now usage-credit only at $10/$50 per million tokens. New Anthropic usage data shows 90% of Cowork sessions aren't software development. Claude for Government Desktop enters public beta and Claude Science connects to NVIDIA BioNeMo.",
+    "url": "reports/claude-ai-daily-2026-07-08.html",
+    "headlines": [
+      "Claude Cowork Goes Cross-Device; Fable 5 Per-Token Pricing Takes Effect; 90% of Cowork Sessions Aren't Coding",
+      "Claude Cowork Expands to Web and Mobile &mdash; and Keeps Working When You Close the Laptop",
+      "Fable 5 Is Now Usage-Credit Only at $10/$50 per Million Tokens",
+      "Claude for Government Desktop Enters Public Beta with Claude Code and Cowork",
+      "Claude Code Ships Login-Expiry Warnings and Steadier Background Sessions",
+      "Anthropic&rsquo;s Own Data: 90% of Cowork Sessions Aren&rsquo;t Software Development",
+      "Claude Science Connects Natively to NVIDIA BioNeMo",
+      "Cowork&rsquo;s Cross-Device Move Is a Bet on &ldquo;the Work Around the Work&rdquo;"
+    ],
+    "snippet": "Claude AI Daily Brief — July 8, 2026 | Claude Cowork Goes Cross-Device; Fable 5 Per-Token Pricing Takes Effect; 90% of Cowork Sessions Aren't Coding ● Wednesday, July 8, 2026 Claude AI Daily Brief — July 8, 2026 Covering the latest from the platform · Edition #131 TL;DR — Today’s Top 3 Takeaways 1. "
+  },
+  {
     "date": "2026-07-07",
     "title": "Claude AI Daily Brief — July 7, 2026 | Fable 5 Shifts to Usage Credits Today; Anthropic Drafts Industry Jailbreak Framework; Claude Science Beta Opens Grants",
     "description": "July 7, 2026: Claude Fable 5's included allowance ends today and access moves to usage credits after export controls were lifted. Anthropic partners with Amazon, Microsoft, and Google on a consensus jailbreak-severity framework and launches a HackerOne cyber-jailbreak program. Claude Science beta opens AI for Science grants through July 15, Artifacts land in Claude Code, and Claude in Chrome goes generally available.",
