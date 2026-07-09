@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-09",
+    "title": "Claude AI Daily Brief — July 9, 2026 | Anthropic Maps Claude's Hidden 'J-Space'; Sonnet 5 Becomes Claude Code's Default; Background Agents Go Fully Autonomous",
+    "description": "July 9, 2026: Anthropic's new J-lens technique reveals a hidden internal workspace inside Claude that flags safety-relevant intent before a word is written. Claude Sonnet 5 is now the default model in Claude Code with a 1M-token context and $2/$10 promo pricing. Background agents now commit, push, and open a draft PR on their own, the Explore agent inherits the session model, and Claude Platform on AWS joins the gateway. Plus MCP crosses 97M SDK downloads.",
+    "url": "reports/claude-ai-daily-2026-07-09.html",
+    "headlines": [
+      "Anthropic Maps Claude's Hidden 'J-Space'; Sonnet 5 Becomes Claude Code's Default; Background Agents Go Fully Autonomous",
+      "Anthropic&rsquo;s &ldquo;J-Lens&rdquo; Reveals a Hidden Workspace Inside Claude",
+      "Claude Sonnet 5 Becomes Claude Code&rsquo;s Default, with 1M Context and $2/$10 Promo Pricing",
+      "Background Agents Now Ship Their Own Draft PRs &mdash; and Delegated Work Gets Smarter",
+      "Claude Platform on AWS Joins the Gateway; Network Drops Stop Killing Turns",
+      "MCP Crosses 97M SDK Downloads as the &ldquo;Tasks&rdquo; Primitive Nears",
+      "More Autonomy, More Reason to See Inside the Box"
+    ],
+    "snippet": "Claude AI Daily Brief — July 9, 2026 | Anthropic Maps Claude's Hidden 'J-Space'; Sonnet 5 Becomes Claude Code's Default; Background Agents Go Fully Autonomous ● Thursday, July 9, 2026 Claude AI Daily Brief — July 9, 2026 Covering the latest from the platform · Edition #132 TL;DR — Today’s Top 3 Take"
+  },
+  {
     "date": "2026-07-08",
     "title": "Claude AI Daily Brief — July 8, 2026 | Claude Cowork Goes Cross-Device; Fable 5 Per-Token Pricing Takes Effect; 90% of Cowork Sessions Aren't Coding",
     "description": "July 8, 2026: Claude Cowork expands to web and mobile with remote sessions that keep running after you close your laptop, plus Microsoft 365 write tools. Fable 5's included allowance is gone — access is now usage-credit only at $10/$50 per million tokens. New Anthropic usage data shows 90% of Cowork sessions aren't software development. Claude for Government Desktop enters public beta and Claude Science connects to NVIDIA BioNeMo.",

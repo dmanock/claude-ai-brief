@@ -8,6 +8,18 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — July 9, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-09.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-09.html</guid>
+      <pubDate>Thu, 09 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Maps Claude's Hidden "J-Space"</strong> — A new interpretability technique, the J-lens, exposes a small internal workspace where Claude holds the concepts it's actively thinking about — including flags like "fake" and "blackmail" before it writes a single word.</p>
+        <p><strong>2. Sonnet 5 Is Now Claude Code's Default</strong> — The latest release makes Claude Sonnet 5 the default model, with a native 1M-token context window and promotional pricing of $2/$10 per million tokens through August 31.</p>
+        <p><strong>3. Background Agents Go Fully Autonomous</strong> — Agents in a worktree now commit, push, and open a draft PR when they finish instead of stopping to ask, and the Explore agent inherits the session model instead of Haiku.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-09.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — July 8, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-08.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-08.html</guid>
@@ -355,17 +367,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-10.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — June 9, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-09.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-09.html</guid>
-      <pubDate>Tue, 09 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. LG Group Goes All-In on Claude Enterprise</strong> — LG CNS signed an integrated agreement to roll Claude Enterprise out across all LG Group affiliates, one of Anthropic's biggest Korea wins just after it opened a Seoul subsidiary.</p>
-        <p><strong>2. Claude Lands Inside Apple's Foundation Models Framework</strong> — A new Anthropic Swift package implements Apple's LanguageModel protocol, letting iOS 27 apps route to Claude by changing a single dependency — no session-logic rewrite.</p>
-        <p><strong>3. Enterprise Admin Roles Ship as a Retirement Clock Starts</strong> — Custom roles can now grant billing and privacy admin without Owner access, while Opus 4.1 is scheduled to retire on the API Aug 5 and the June 15 cutover sits 6 days out.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-09.html">Read full report →</a></p>
-      ]]></description>
-    </item>
+
   </channel>
 </rss>
