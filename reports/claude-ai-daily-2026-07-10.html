@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-07-10">
+  <title>Claude AI Daily Brief — July 10, 2026 | MCP&rsquo;s Biggest Revision Ships as a Release Candidate; Claude Code and Cowork Reach Government on FedRAMP High; Claude Adds a &ldquo;Reflect&rdquo; Recap</title>
+  <meta name="description" content="July 10, 2026: The Model Context Protocol&rsquo;s largest revision since launch arrives as a release candidate — a stateless HTTP core, MCP Apps, a Tasks extension, and OAuth-aligned enterprise auth, with the final spec due July 28. Claude Code and Claude Cowork enter public beta inside FedRAMP High Claude for Government Desktop. Claude adds a Reflect monthly recap and focus settings, Claude Code tightens push/PR and worktree safeguards, and UST commits to certifying 20,000 staff on Claude.">
+  <meta name="keywords" content="Claude AI, Anthropic, Model Context Protocol, MCP release candidate, MCP Apps, Tasks extension, enterprise auth, Claude for Government, FedRAMP High, Claude Code, Reflect, focus settings, UST partnership">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-07-10.html">
+  <meta property="og:title" content="Claude AI Daily Brief — July 10, 2026">
+  <meta property="og:description" content="MCP&rsquo;s largest revision ships as a release candidate with a stateless core, MCP Apps, and enterprise auth. Claude Code and Cowork reach government on FedRAMP High, and Claude adds a Reflect recap.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-10.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — July 10, 2026">
+  <meta name="twitter:description" content="MCP&rsquo;s biggest revision lands as a release candidate. Claude Code and Cowork hit FedRAMP High government beta. Plus a new Reflect recap and tighter Claude Code safeguards.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-10.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-07-10.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — July 10, 2026",
+    "description": "The Model Context Protocol&rsquo;s largest revision since launch arrives as a release candidate, with a stateless HTTP core, MCP Apps, a Tasks extension, and OAuth-aligned enterprise auth. Claude Code and Claude Cowork enter public beta inside FedRAMP High Claude for Government Desktop, and Claude adds a Reflect monthly recap and focus settings.",
+    "datePublished": "2026-07-10T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-10.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-07-10.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Friday, July 10, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; July 10, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #133</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>MCP&rsquo;s Biggest Revision Ships as a Release Candidate</strong> &mdash; The Model Context Protocol&rsquo;s largest update since launch is out for review, with a stateless HTTP core, server-rendered MCP Apps, a Tasks extension for long jobs, and OAuth-aligned enterprise auth. Final spec lands July 28.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Claude Code &amp; Cowork Reach Government</strong> &mdash; Both enter public beta inside Claude for Government Desktop, delivered through a FedRAMP High authorized environment with local history, tamper-evident audit logs, and department-level spend controls.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Claude Adds a &ldquo;Reflect&rdquo; Recap</strong> &mdash; A new monthly recap plus focus settings &mdash; break reminders and quiet hours &mdash; land in beta on web and Desktop, showing your top topics, busiest day, and peak hour.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Government</span>
+      <h3>Claude Code and Cowork Enter Public Beta for Government on FedRAMP High</h3>
+      <p>Anthropic moved <strong>Claude Code and Claude Cowork into public beta inside Claude for Government Desktop</strong>, built on the same application commercial customers use but delivered through a <strong>FedRAMP High authorized environment</strong>. Public-sector teams can build and modernize software with Claude Code, while Cowork works directly with files on the desktop to draft memos, review RFPs, handle casework, and build decks.</p>
+      <p>The controls are the point for agencies: <strong>conversation history stored locally on managed devices</strong>, inference inside the authorized environment, department-level administration, fixed spending increments, model and seat limits, and <strong>tamper-evident audit logs</strong>. It deploys through standard agency MDM platforms, and Anthropic remains the contracting and billing party &mdash; no separate cloud-provider relationship required.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government" class="source-link">Anthropic</a>
+        <a href="https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government" class="source-link">Help Center</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Feature</span>
+      <h3>Claude Adds a &ldquo;Reflect&rdquo; Monthly Recap and Focus Settings</h3>
+      <p>Claude rolled out <strong>Reflect</strong>, a monthly recap at <strong>Settings &rarr; Reflect</strong> that surfaces the topics you spent the most time on, your most active day, your peak hour, and observations about how you work with Claude. Alongside it come <strong>focus settings</strong> &mdash; break reminders and quiet hours &mdash; aimed at making heavy Claude use a little more deliberate.</p>
+      <p>It&rsquo;s in beta on <strong>Free, Pro, and Max plans across web and Claude Desktop</strong>, and requires memory to be turned on. Small on its own, but part of a broader move to make Claude aware of usage patterns over time rather than treating every session as a blank slate &mdash; and, as some coverage noted, a gentle nudge that keeps you coming back.</p>
+      <div class="source-links">
+        <a href="https://support.claude.com/en/articles/12138966-release-notes" class="source-link">Release Notes</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+        <a href="https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/" class="source-link">TechCrunch</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Protocol</span>
+      <h3>MCP&rsquo;s Largest Revision Since Launch Arrives as a Release Candidate</h3>
+      <p>The <strong>Model Context Protocol shipped a release candidate</strong> for its biggest revision yet, with the final spec due <strong>July 28</strong>. The headline is a <strong>stateless HTTP core</strong>: a remote MCP server that used to need sticky sessions, a shared session store, and deep packet inspection can now run behind a plain round-robin load balancer, route on an <code>Mcp-Method</code> header, and let clients cache <code>tools/list</code> responses via <code>ttlMs</code> and <code>cacheScope</code> &mdash; modeled on HTTP Cache-Control.</p>
+      <p>It also delivers on the 2026 roadmap: <strong>MCP Apps</strong> (server-rendered UIs), a <strong>Tasks extension</strong> for long-running work, authorization aligned to OAuth and OpenID Connect, and a formal deprecation policy. Separately, the <strong>Enterprise-Managed Authorization extension is now stable</strong>, letting organizations gate MCP servers through their identity provider, and servers can advertise themselves via <code>.well-known</code> URLs for easier discovery.</p>
+      <div class="source-links">
+        <a href="https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/" class="source-link">MCP Blog</a>
+        <a href="https://www.infoq.com/news/2026/07/mcp-ema-enterprise-auth/" class="source-link">InfoQ</a>
+        <a href="https://code.claude.com/docs/en/mcp" class="source-link">MCP Docs</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code Tightens Push/PR Automation and Adds Worktree Safeguards</h3>
+      <p>The latest Claude Code sharpens its agent workflows. <strong><code>/commit-push-pr</code> now auto-allows <code>git push</code> to the repo&rsquo;s configured push remote</strong> (via <code>remote.pushDefault</code>, or the sole remote when there&rsquo;s only one) in addition to <code>origin</code>, and <strong><code>/cd</code> gained directory-path suggestions</strong>. A new <strong><code>/doctor</code> check proposes trimming checked-in <code>CLAUDE.md</code></strong> files by cutting content Claude can derive from the codebase.</p>
+      <p>The safety-minded fixes matter more as agents run unattended: <strong>entering a git worktree outside <code>.claude/worktrees/</code> now asks for confirmation</strong>, an auto-mode rule <strong>blocks tampering with session transcript files</strong>, a warning fires when your login is about to expire so background sessions don&rsquo;t die mid-run, and a nasty Windows bug &mdash; worktree removal deleting files outside the worktree through an NTFS junction &mdash; is fixed.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Changelog</a>
+        <a href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md" class="source-link">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Partnership</span>
+      <h3>UST Allies with Anthropic and Commits to Certifying 20,000 Staff on Claude</h3>
+      <p>Digital transformation firm <strong>UST announced a strategic alliance with Anthropic</strong> focused on helping Global 1000 enterprises become AI-native. The headline commitment: UST plans to <strong>certify 20,000 associates worldwide on Claude</strong> across engineering, operations, and delivery roles, embedding Claude into its own platforms and services.</p>
+      <p>It lands as Anthropic&rsquo;s <strong>Claude Partner Network</strong> keeps swelling &mdash; 40,000+ firms applied, 10,000+ consultants already certified, and $100M committed this year to training and joint go-to-market. Deals like UST are how Claude reaches large enterprises through the systems integrators that actually run their transformations.</p>
+      <div class="source-links">
+        <a href="https://finance.yahoo.com/technology/ai/articles/ust-partners-anthropic-bring-claude-010000730.html" class="source-link">Yahoo Finance</a>
+        <a href="https://www.anthropic.com/news/claude-partner-network" class="source-link">Anthropic</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>The Agent Stack Is Growing Up &mdash; Quietly, on Purpose</h3>
+      <p>None of today&rsquo;s headlines is a flashy new model, and that&rsquo;s the story. <strong>MCP is trading its clever-but-fragile session model for boring, scalable HTTP</strong>, plus enterprise auth and a deprecation policy &mdash; the unglamorous things a protocol needs before serious companies bet on it. <strong>Claude Code is adding confirmations and tamper-blocks</strong> exactly where autonomous agents touch your repo. And Anthropic is shipping to <strong>government on FedRAMP High</strong> with local history and audit logs.</p>
+      <p>Read together, it&rsquo;s a maturation beat: the ecosystem is building the guardrails, plumbing, and compliance surface that let agents run unattended in places that can&rsquo;t tolerate surprises. UST training 20,000 people to deploy Claude is the demand side of the same curve. The exciting phase was watching agents get capable; the durable phase is watching the stack around them get trustworthy. Stateless load balancers and confirmation prompts won&rsquo;t trend, but they&rsquo;re what turns a demo into infrastructure.</p>
+      <div class="source-links">
+        <a href="https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/" class="source-link">MCP Blog</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

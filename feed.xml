@@ -8,6 +8,18 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — July 10, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-10.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-10.html</guid>
+      <pubDate>Fri, 10 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. MCP's Biggest Revision Ships as a Release Candidate</strong> — The Model Context Protocol's largest update since launch is out for review: a stateless HTTP core, server-rendered MCP Apps, a Tasks extension, and OAuth-aligned enterprise auth. Final spec lands July 28.</p>
+        <p><strong>2. Claude Code & Cowork Reach Government</strong> — Both enter public beta inside Claude for Government Desktop, delivered through a FedRAMP High authorized environment with local history, tamper-evident audit logs, and department-level spend controls.</p>
+        <p><strong>3. Claude Adds a "Reflect" Recap</strong> — A new monthly recap plus focus settings (break reminders and quiet hours) roll out in beta on web and Desktop, surfacing your top topics, busiest day, and peak hour.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-10.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — July 9, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-09.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-09.html</guid>
@@ -355,18 +367,5 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-11.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — June 10, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-10.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-10.html</guid>
-      <pubDate>Wed, 10 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Fable 5 Goes Public</strong> — Anthropic released its first publicly available Mythos-class model, with always-on thinking and a 1M-token context window — days after warning that AI is getting too dangerous.</p>
-        <p><strong>2. 80.3% on SWE-Bench Pro</strong> — Fable 5 lands ~21 points ahead of GPT-5.5 on the hardest coding benchmark, at $10/$50 per million tokens — free on paid plans through June 22, then usage credits.</p>
-        <p><strong>3. Mythos 5 Stays Locked Down</strong> — The same model without safety classifiers is restricted to Glasswing partners and vetted researchers, while Fable 5 hit Amazon Bedrock, Cursor, and Copilot on day one.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-10.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
   </channel>
 </rss>

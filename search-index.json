@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-10",
+    "title": "Claude AI Daily Brief — July 10, 2026 | MCP&rsquo;s Biggest Revision Ships as a Release Candidate; Claude Code and Cowork Reach Government on FedRAMP High; Claude Adds a &ldquo;Reflect&rdquo; Recap",
+    "description": "July 10, 2026: The Model Context Protocol&rsquo;s largest revision since launch arrives as a release candidate — a stateless HTTP core, MCP Apps, a Tasks extension, and OAuth-aligned enterprise auth, with the final spec due July 28. Claude Code and Claude Cowork enter public beta inside FedRAMP High Claude for Government Desktop. Claude adds a Reflect monthly recap and focus settings, Claude Code tightens push/PR and worktree safeguards, and UST commits to certifying 20,000 staff on Claude.",
+    "url": "reports/claude-ai-daily-2026-07-10.html",
+    "headlines": [
+      "MCP&rsquo;s Biggest Revision Ships as a Release Candidate; Claude Code and Cowork Reach Government on FedRAMP High; Claude Adds a &ldquo;Reflect&rdquo; Recap",
+      "Claude Code and Cowork Enter Public Beta for Government on FedRAMP High",
+      "Claude Adds a &ldquo;Reflect&rdquo; Monthly Recap and Focus Settings",
+      "MCP&rsquo;s Largest Revision Since Launch Arrives as a Release Candidate",
+      "Claude Code Tightens Push/PR Automation and Adds Worktree Safeguards",
+      "UST Allies with Anthropic and Commits to Certifying 20,000 Staff on Claude",
+      "The Agent Stack Is Growing Up &mdash; Quietly, on Purpose"
+    ],
+    "snippet": "Claude AI Daily Brief — July 10, 2026 | MCP’s Biggest Revision Ships as a Release Candidate; Claude Code and Cowork Reach Government on FedRAMP High; Claude Adds a “Reflect” Recap ● Friday, July 10, 2026 Claude AI Daily Brief — July 10, 2026 Covering the latest from the platform · Edition #133 TL;DR"
+  },
+  {
     "date": "2026-07-09",
     "title": "Claude AI Daily Brief — July 9, 2026 | Anthropic Maps Claude's Hidden 'J-Space'; Sonnet 5 Becomes Claude Code's Default; Background Agents Go Fully Autonomous",
     "description": "July 9, 2026: Anthropic's new J-lens technique reveals a hidden internal workspace inside Claude that flags safety-relevant intent before a word is written. Claude Sonnet 5 is now the default model in Claude Code with a 1M-token context and $2/$10 promo pricing. Background agents now commit, push, and open a draft PR on their own, the Explore agent inherits the session model, and Claude Platform on AWS joins the gateway. Plus MCP crosses 97M SDK downloads.",
