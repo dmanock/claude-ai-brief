@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-07-11">
+  <title>Claude AI Daily Brief — July 11, 2026 | Claude Code Gets an In-App Desktop Browser; VS Code 1.128 Lands Multi-Chat Claude Agent Sessions; Auto Mode Reaches Every Major Cloud</title>
+  <meta name="description" content="July 11, 2026: Claude Code on desktop gains a built-in Browser pane that reads, clicks, and debugs live sites without leaving the app. VS Code 1.128 ships multi-chat Claude agent sessions, Claude Code turns on auto mode by default across Bedrock, Vertex AI, and Foundry, the Developer Platform adds API key expiration settings, and Anthropic passes OpenAI in value as both file for an IPO.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude Code, in-app browser, Browser pane, VS Code 1.128, multi-chat agents, auto mode, Bedrock, Vertex AI, Foundry, Opus 4.8, API key expiration, Anthropic IPO, OpenAI">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-07-11.html">
+  <meta property="og:title" content="Claude AI Daily Brief — July 11, 2026">
+  <meta property="og:description" content="Claude Code on desktop gets a built-in browser that reads and debugs live sites. VS Code 1.128 lands multi-chat Claude agent sessions, and auto mode reaches Bedrock, Vertex AI, and Foundry.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-11.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — July 11, 2026">
+  <meta name="twitter:description" content="Claude Code gets a built-in desktop browser. VS Code 1.128 ships multi-chat Claude agent sessions, auto mode reaches every major cloud, and Anthropic passes OpenAI in value.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-11.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-07-11.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — July 11, 2026",
+    "description": "Claude Code on desktop gains a built-in Browser pane that reads, clicks, and debugs live sites without leaving the app. VS Code 1.128 ships multi-chat Claude agent sessions, Claude Code turns on auto mode by default across Bedrock, Vertex AI, and Foundry, and the Developer Platform adds API key expiration settings.",
+    "datePublished": "2026-07-11T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-11.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-07-11.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Saturday, July 11, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; July 11, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #134</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Claude Code Gets an In-App Desktop Browser</strong> &mdash; A built-in Browser pane lets Claude pull up docs and live sites, read them, click through, and debug &mdash; even handling logins and OAuth pop-ups &mdash; without switching to Chrome.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>VS Code 1.128 Lands Multi-Chat Claude Agent Sessions</strong> &mdash; A single session can now hold several related Claude chats, so developers can compare approaches and branch work in parallel, each with its own history, title, and model.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Auto Mode Reaches Every Major Cloud</strong> &mdash; Claude Code turns on auto mode by default across Bedrock, Vertex AI, and Foundry, and moves Bedrock to Claude Opus 4.8, in a broad stability release.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Feature</span>
+      <h3>Claude Code on Desktop Gets a Built-In Browser Pane</h3>
+      <p>Anthropic highlighted a new <strong>in-app browser for Claude Code on desktop</strong>. Claude can now <strong>pull up docs, designs, or any site and read it, click through, and interact</strong> the same way it already does with your local dev servers &mdash; no context-switch to Chrome. Launch it with <code>Cmd/Ctrl + Shift + B</code>, and external links shared in a conversation can open in the pane or your default browser.</p>
+      <p>The Browser pane runs a <strong>clean profile with none of your saved logins or history</strong>, but it does support website logins &mdash; including Google OAuth pop-ups &mdash; so Claude can test authenticated apps. Because Claude is now acting on live sites, the first time it tries to act on a given site you&rsquo;re asked to <strong>Allow once, Always allow, or Deny</strong>. For identity-bound work, the separate Claude in Chrome extension still shares your real browser session.</p>
+      <div class="source-links">
+        <a href="https://9to5mac.com/2026/07/10/anthropic-highlights-claude-codes-in-app-browser-on-the-desktop/" class="source-link">9to5Mac</a>
+        <a href="https://www.digitaltrends.com/cool-tech/claude-code-can-now-browse-the-web-without-opening-chrome/" class="source-link">Digital Trends</a>
+        <a href="https://code.claude.com/docs/en/desktop" class="source-link">Claude Code Docs</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Developer Platform</span>
+      <h3>API Key Expiration Lands in the Console; Opus 4.7 Fast Mode Set to Sunset</h3>
+      <p>The Claude Developer Platform added <strong>API key expiration settings</strong> in the Console. You can now set an expiration when creating an API key or Admin API key, and for any key with a lifetime of at least seven days, Anthropic <strong>emails the creator before it expires</strong>, with admin reporting to track keys across an org &mdash; a small but real hygiene win for teams juggling long-lived credentials.</p>
+      <p>On the deprecation side, <strong>fast mode for Claude Opus 4.7 is being retired, with removal on July 24</strong>; after that, requests to <code>claude-opus-4-7</code> with <code>speed: "fast"</code> will error. It follows the recent rate-limit overhaul that raised Sonnet and Haiku limits to match Opus at every tier and consolidated pricing tiers into three: Start, Build, and Scale.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-developer-platform" class="source-link">Releasebot</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Notes</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Tooling</span>
+      <h3>VS Code 1.128 Ships Multi-Chat Claude Agent Sessions</h3>
+      <p>Visual Studio Code <strong>1.128</strong> (released July 8) makes its headline feature <strong>multi-chat support for Claude agent sessions</strong>. Instead of spreading related threads across separate top-level sessions, a single session can now hold multiple <strong>related chats</strong> &mdash; letting developers compare approaches, branch from an earlier turn, and run work in parallel. Each chat keeps its <strong>own history, title, and model selection</strong>, and all of them restore with the parent session after a restart.</p>
+      <p>The release also adds <strong>quick chats</strong> in the Agents window for questions not tied to a folder; these workspace-less chats open ready for input but skip the Changes and Files side panes. Copilot Vision reached general availability in Chat in the same build &mdash; a reminder that Claude now shares the editor with a widening set of agent features.</p>
+      <div class="source-links">
+        <a href="https://visualstudiomagazine.com/articles/2026/07/08/claude-ai-gets-yet-another-boost-in-vs-code-1-128.aspx" class="source-link">Visual Studio Magazine</a>
+        <a href="https://code.visualstudio.com/updates/v1_128" class="source-link">VS Code Notes</a>
+        <a href="https://www.developersdigest.tech/blog/vscode-1-128-multi-chat-claude-developer-guide-2026" class="source-link">Developers Digest</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code Turns On Auto Mode by Default Across Bedrock, Vertex AI, and Foundry</h3>
+      <p>The latest Claude Code release makes <strong>auto mode the default on Amazon Bedrock, Google Vertex AI, and Microsoft Foundry</strong>, bringing the hands-off agent workflow to the major cloud deployment targets rather than just the first-party API. The update also <strong>moves Bedrock to Claude Opus 4.8</strong> and tightens settings handling across the board.</p>
+      <p>Under the hood it&rsquo;s a stability release: improvements to the agent view and Remote Control, plus fixes for <strong>freezes, crashes, credential issues, and several worktree and plugin bugs</strong>. It&rsquo;s the kind of cross-cloud parity work that matters for teams standardizing on a single agent workflow no matter which provider hosts the model.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Changelog</a>
+        <a href="https://github.com/anthropics/claude-code/releases" class="source-link">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Business</span>
+      <h3>Anthropic Now Worth More Than OpenAI &mdash; and Both Have Filed for an IPO</h3>
+      <p>The market backdrop got dramatic. As of early July, reporting has <strong>Anthropic valued above OpenAI for the first time in its history</strong>, with Claude holding roughly <strong>17% of the US mobile chatbot market</strong>. And in a striking bit of timing, <strong>both companies confidentially filed for an IPO within a week of each other</strong>.</p>
+      <p>It reframes the shipping cadence of the past two weeks. The steady drumbeat of enterprise governance, cross-cloud tooling, and always-on agents isn&rsquo;t just product polish &mdash; it&rsquo;s the recurring-revenue, durable-infrastructure story a company tells ahead of public-market scrutiny. Two of the biggest names in AI heading for the exits at once will put real numbers behind the hype.</p>
+      <div class="source-links">
+        <a href="https://blog.mean.ceo/anthropic-claude-news-july-2026/" class="source-link">Mean.ceo</a>
+        <a href="https://fatjoe.com/blog/claude-ai-stats/" class="source-link">FATJOE</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>The Browser Just Became a Feature Inside the Agent</h3>
+      <p>Today&rsquo;s standout isn&rsquo;t a model &mdash; it&rsquo;s a <strong>browser living inside Claude Code</strong>. For years the browser was the thing you tabbed over to; now it&rsquo;s a pane the agent drives, with its own clean profile, permission prompts, and login support for testing authenticated apps. Pair that with <strong>multi-chat sessions in VS Code</strong> and <strong>auto mode defaulting on across every major cloud</strong>, and the shape of the week is clear: the agent is absorbing the developer&rsquo;s tools, one surface at a time.</p>
+      <p>That&rsquo;s the quiet through-line behind the louder headline that <strong>Anthropic now out-values OpenAI and both are filing to go public</strong>. Investors don&rsquo;t underwrite demos; they underwrite workflows people can&rsquo;t give up. A browser you don&rsquo;t leave, sessions you don&rsquo;t lose, and agents that run themselves on whatever cloud you already pay for &mdash; that&rsquo;s the stickiness a prospectus is built on. The exciting phase was watching agents get capable; the durable phase is watching them quietly eat the tools around them.</p>
+      <div class="source-links">
+        <a href="https://9to5mac.com/2026/07/10/anthropic-highlights-claude-codes-in-app-browser-on-the-desktop/" class="source-link">9to5Mac</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

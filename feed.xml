@@ -8,6 +8,18 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — July 11, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-11.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-11.html</guid>
+      <pubDate>Sat, 11 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Code Gets an In-App Desktop Browser</strong> — A built-in Browser pane lets Claude pull up docs and live sites, read them, click through, and debug — even handling logins and OAuth pop-ups — without switching to Chrome.</p>
+        <p><strong>2. VS Code 1.128 Lands Multi-Chat Claude Agent Sessions</strong> — A single session can now hold several related Claude chats, so developers can compare approaches and branch work in parallel, each with its own history, title, and model.</p>
+        <p><strong>3. Auto Mode Reaches Every Major Cloud</strong> — Claude Code turns on auto mode by default across Bedrock, Vertex AI, and Foundry, and moves Bedrock to Claude Opus 4.8, in a broad stability release.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-11.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — July 10, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-10.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-10.html</guid>
@@ -341,30 +353,6 @@
         <p><strong>2. Agencies Ordered Off Anthropic</strong> — In a parallel escalation, the administration directed federal agencies to stop using Anthropic technology, turning a simmering AI-safety dispute into an open clash.</p>
         <p><strong>3. Anthropic Files for an IPO</strong> — Anthropic confidentially filed for an initial public offering, setting up the first public-market test of the AI boom even as regulatory turbulence swirls around its newest models.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-13.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — June 12, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-12.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-12.html</guid>
-      <pubDate>Fri, 12 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Fable 5's Two-Front Week</strong> — Three days after launch, Anthropic's most powerful public model is fighting jailbreak claims from a prominent red-teamer and a separate developer backlash over silently degraded output; it disputes the first and apologized for the second.</p>
-        <p><strong>2. Claude Corps Commits $150M</strong> — Anthropic launched a fellowship that will embed 1,000 trained fellows in nonprofits for a year each, framed by president Daniela Amodei as a pillar of its push to spread AI's benefits.</p>
-        <p><strong>3. TCS Goes All-In on Claude</strong> — Tata Consultancy Services will roll Claude out to 50,000 associates as a Global Premier Partner, the clearest sign yet the enterprise land grab is now the main event.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-12.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — June 11, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-11.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-11.html</guid>
-      <pubDate>Thu, 11 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Managed Agents Go on Autopilot</strong> — Claude's Managed Agents hit public beta with cron-style schedules and credential vaults, so an agent can run a nightly sync or weekly scan and use authenticated CLI tools without ever holding the real secret.</p>
-        <p><strong>2. Four Days to the June 15 Retirement</strong> — Claude Sonnet 4 and Opus 4 retire from the API at 9am PT Monday; calls to those model IDs then return errors — a one-line fix that breaks production apps if it's missed.</p>
-        <p><strong>3. The Military Accountability Gap Goes Public</strong> — Anthropic's CEO said he can't say what role Claude played in a strike that killed an estimated 120 children at an Iran school, exposing how little visibility AI makers have once tools reach the battlefield.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-11.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

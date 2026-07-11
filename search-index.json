@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-11",
+    "title": "Claude AI Daily Brief — July 11, 2026 | Claude Code Gets an In-App Desktop Browser; VS Code 1.128 Lands Multi-Chat Claude Agent Sessions; Auto Mode Reaches Every Major Cloud",
+    "description": "July 11, 2026: Claude Code on desktop gains a built-in Browser pane that reads, clicks, and debugs live sites without leaving the app. VS Code 1.128 ships multi-chat Claude agent sessions, Claude Code turns on auto mode by default across Bedrock, Vertex AI, and Foundry, the Developer Platform adds API key expiration settings, and Anthropic passes OpenAI in value as both file for an IPO.",
+    "url": "reports/claude-ai-daily-2026-07-11.html",
+    "headlines": [
+      "Claude Code Gets an In-App Desktop Browser; VS Code 1.128 Lands Multi-Chat Claude Agent Sessions; Auto Mode Reaches Every Major Cloud",
+      "Claude Code on Desktop Gets a Built-In Browser Pane",
+      "API Key Expiration Lands in the Console; Opus 4.7 Fast Mode Set to Sunset",
+      "VS Code 1.128 Ships Multi-Chat Claude Agent Sessions",
+      "Claude Code Turns On Auto Mode by Default Across Bedrock, Vertex AI, and Foundry",
+      "Anthropic Now Worth More Than OpenAI &mdash; and Both Have Filed for an IPO",
+      "The Browser Just Became a Feature Inside the Agent"
+    ],
+    "snippet": "Claude AI Daily Brief — July 11, 2026 | Claude Code Gets an In-App Desktop Browser; VS Code 1.128 Lands Multi-Chat Claude Agent Sessions; Auto Mode Reaches Every Major Cloud ● Saturday, July 11, 2026 Claude AI Daily Brief — July 11, 2026 Covering the latest from the platform · Edition #134 TL;DR — T"
+  },
+  {
     "date": "2026-07-10",
     "title": "Claude AI Daily Brief — July 10, 2026 | MCP&rsquo;s Biggest Revision Ships as a Release Candidate; Claude Code and Cowork Reach Government on FedRAMP High; Claude Adds a &ldquo;Reflect&rdquo; Recap",
     "description": "July 10, 2026: The Model Context Protocol&rsquo;s largest revision since launch arrives as a release candidate — a stateless HTTP core, MCP Apps, a Tasks extension, and OAuth-aligned enterprise auth, with the final spec due July 28. Claude Code and Claude Cowork enter public beta inside FedRAMP High Claude for Government Desktop. Claude adds a Reflect monthly recap and focus settings, Claude Code tightens push/PR and worktree safeguards, and UST commits to certifying 20,000 staff on Claude.",
