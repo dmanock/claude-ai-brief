@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-12",
+    "title": "Claude AI Daily Brief — July 12, 2026 | Fable 5 Leaves Subscriptions for Metered Credits; Claude Code v2.1.207 Kills the Terminal Freeze; Enterprise MCP Auth Expands Through Okta",
+    "description": "July 12, 2026: Claude Fable 5 comes off Pro, Max, and Team subscriptions today and shifts to prepaid usage credits. Claude Code v2.1.207 fixes the long-stream terminal freeze and rewrites the agent view, enterprise-managed MCP auth expands its zero-touch Okta rollout, Trackian ships an MCP plugin to Anthropic's marketplace, and Reflect draws scrutiny as a retention play.",
+    "url": "reports/claude-ai-daily-2026-07-12.html",
+    "headlines": [
+      "Fable 5 Leaves Subscriptions for Metered Credits; Claude Code v2.1.207 Kills the Terminal Freeze; Enterprise MCP Auth Expands Through Okta",
+      "Fable 5 Comes Off Subscriptions Today, Moving to Prepaid Usage Credits",
+      "Reflect Draws Scrutiny as a Retention Play, Not Just a Recap",
+      "Claude Code v2.1.207 Fixes the Terminal Freeze and Rewrites the Agent View",
+      "Enterprise-Managed MCP Auth Keeps Expanding Its Zero-Touch Okta Rollout",
+      "Trackian Ships Its Marketing Decision Engine to Claude&rsquo;s Marketplace",
+      "The Meter Is the Message"
+    ],
+    "snippet": "Claude AI Daily Brief — July 12, 2026 | Fable 5 Leaves Subscriptions for Metered Credits; Claude Code v2.1.207 Kills the Terminal Freeze; Enterprise MCP Auth Expands Through Okta ● Sunday, July 12, 2026 Claude AI Daily Brief — July 12, 2026 Covering the latest from the platform · Edition #135 TL;DR "
+  },
+  {
     "date": "2026-07-11",
     "title": "Claude AI Daily Brief — July 11, 2026 | Claude Code Gets an In-App Desktop Browser; VS Code 1.128 Lands Multi-Chat Claude Agent Sessions; Auto Mode Reaches Every Major Cloud",
     "description": "July 11, 2026: Claude Code on desktop gains a built-in Browser pane that reads, clicks, and debugs live sites without leaving the app. VS Code 1.128 ships multi-chat Claude agent sessions, Claude Code turns on auto mode by default across Bedrock, Vertex AI, and Foundry, the Developer Platform adds API key expiration settings, and Anthropic passes OpenAI in value as both file for an IPO.",

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-07-12">
+  <title>Claude AI Daily Brief — July 12, 2026 | Fable 5 Leaves Subscriptions for Metered Credits; Claude Code v2.1.207 Kills the Terminal Freeze; Enterprise MCP Auth Expands Through Okta</title>
+  <meta name="description" content="July 12, 2026: Claude Fable 5 comes off Pro, Max, and Team subscriptions today and shifts to prepaid usage credits. Claude Code v2.1.207 fixes the long-stream terminal freeze and rewrites the agent view, enterprise-managed MCP auth expands its zero-touch Okta rollout, Trackian ships an MCP plugin to Anthropic's marketplace, and Reflect draws scrutiny as a retention play.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude Fable 5, usage credits, Claude Code, v2.1.207, terminal freeze, agent view, MCP, enterprise-managed auth, Okta, Trackian, Reflect, Anthropic IPO">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-07-12.html">
+  <meta property="og:title" content="Claude AI Daily Brief — July 12, 2026">
+  <meta property="og:description" content="Fable 5 leaves subscriptions today for metered credits. Claude Code v2.1.207 kills the terminal freeze and rewrites the agent view, and enterprise MCP auth expands its zero-touch Okta rollout.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-12.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — July 12, 2026">
+  <meta name="twitter:description" content="Fable 5 leaves subscriptions today for metered credits. Claude Code v2.1.207 kills the terminal freeze, and enterprise MCP auth expands through Okta.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-12.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-07-12.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — July 12, 2026",
+    "description": "Claude Fable 5 comes off Pro, Max, and Team subscriptions today and shifts to prepaid usage credits. Claude Code v2.1.207 fixes the long-stream terminal freeze and rewrites the agent view, and enterprise-managed MCP auth expands its zero-touch Okta rollout.",
+    "datePublished": "2026-07-12T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-12.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-07-12.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Sunday, July 12, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; July 12, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #135</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Fable 5 Leaves Subscriptions for Metered Credits</strong> &mdash; After a five-day extension, included Fable 5 access ends today on Pro, Max, and Team plans, shifting to prepaid usage credits at $10 per million input and $50 per million output tokens. Anthropic says it&rsquo;s temporary.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Claude Code v2.1.207 Kills the Terminal Freeze</strong> &mdash; The new release fixes the lag and freezing on long streamed output, rewrites the agent view with colored state words and classifier-written headlines, and cuts the auto-updater&rsquo;s peak memory by roughly 400 MB.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Enterprise MCP Auth Expands Through Okta</strong> &mdash; Anthropic&rsquo;s zero-touch connector provisioning keeps rolling out, letting admins push MCP access to every employee on first login, with Hubspot, Ramp, and Webflow among early adopters.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Today</span>
+      <h3>Fable 5 Comes Off Subscriptions Today, Moving to Prepaid Usage Credits</h3>
+      <p>The clock ran out. After a five-day reprieve announced hours before the original July 7 cutoff, <strong>included access to Claude Fable 5 ends today on Pro, Max, Team, and select Enterprise plans</strong>. Until now, those subscribers could spend up to <strong>50% of their weekly usage limits</strong> on Fable 5; starting today, using it means <strong>prepaid usage credits at $10 per million input tokens and $50 per million output tokens</strong>.</p>
+      <p>Anthropic frames this as a <strong>temporary capacity measure, not a permanent removal</strong> &mdash; the same language it used when Fable 5 returned to global availability on July 1 after June&rsquo;s export-control suspension was lifted. The company says it plans to <strong>fold Fable 5 back into standard subscriptions as capacity allows</strong>. For heavy Fable 5 users, today is the day the meter starts running.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/redeploying-fable-5" class="source-link">Anthropic</a>
+        <a href="https://www.digitalapplied.com/blog/anthropic-fable-5-access-extended-july-12-2026" class="source-link">Digital Applied</a>
+        <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/" class="source-link">BleepingComputer</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Product</span>
+      <h3>Reflect Draws Scrutiny as a Retention Play, Not Just a Recap</h3>
+      <p>Days after <strong>Reflect</strong> landed at <code>Settings &gt; Reflect</code> &mdash; a monthly recap surfacing your top topics, busiest day, and peak hour &mdash; the coverage has turned analytical. <strong>TechCrunch and others read the usage dashboard as a gentle nudge to keep coming back</strong>, arguing a &ldquo;here&rsquo;s how much you rely on Claude&rdquo; screen is as much a retention tool as a wellness one.</p>
+      <p>To Anthropic&rsquo;s credit, the design has guardrails: the recap <strong>requires memory to be on</strong>, is opt-out, and <strong>never leads with or itemizes sensitive or distress-related topics</strong>. Paired with the <code>Time and focus</code> settings for break reminders and quiet hours, it&rsquo;s a genuinely thoughtful feature &mdash; but the skeptical framing is a useful reminder that engagement metrics cut both ways.</p>
+      <div class="source-links">
+        <a href="https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/" class="source-link">TechCrunch</a>
+        <a href="https://support.claude.com/en/articles/15672559-see-your-monthly-recap" class="source-link">Claude Help Center</a>
+        <a href="https://www.testingcatalog.com/anthropic-adds-usage-reflection-dashboard-to-claude-for-all-users/" class="source-link">TestingCatalog</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code v2.1.207 Fixes the Terminal Freeze and Rewrites the Agent View</h3>
+      <p>The latest Claude Code build is a heavy stability pass. It <strong>fixes the terminal freezing and keystroke lag</strong> that hit while streaming responses with very long lists, tables, paragraphs, or code blocks &mdash; a papercut power users have complained about for weeks. The <strong>agent view now shows a colored state word and a classifier-written headline</strong> instead of raw tool-call text, and sessions that edit, merge, comment on, or push to an existing PR now <strong>link it directly in Claude agents</strong>.</p>
+      <p>Under the hood, <strong>auto-update binary downloads stream to disk instead of buffering in memory, cutting the updater&rsquo;s peak memory by roughly 400 MB</strong>. The release also lands <strong>auto mode on by default across Bedrock, Vertex AI, and Foundry</strong> (disable via <code>disableAutoMode</code>), moves Bedrock to Opus 4.8, sharpens <code>/code-review</code> findings on Opus 4.8, and fixes a bug where non-interactive runs recorded managed-settings consent without ever showing the dialog.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Changelog</a>
+        <a href="https://github.com/anthropics/claude-code/releases" class="source-link">GitHub</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Enterprise</span>
+      <h3>Enterprise-Managed MCP Auth Keeps Expanding Its Zero-Touch Okta Rollout</h3>
+      <p>Anthropic&rsquo;s <strong>enterprise-managed authorization</strong> for MCP connectors continues to widen. The model lets an admin <strong>authorize a connector once through their identity provider &mdash; starting with Okta &mdash; and push it to every employee automatically on first login</strong>, with no individual OAuth consent screens. Users inherit access through the IdP groups and roles they already have.</p>
+      <p>At launch it covers <strong>Asana, Atlassian, Canva, Figma, Granola, Linear, and Supabase, with Slack coming soon</strong>, spanning Claude chat, Claude Code, and Cowork on Team and Enterprise plans. It&rsquo;s the first real-world implementation of the Enterprise-Managed Authorization extension to MCP, and early adopters including <strong>Hubspot, Ramp, and Webflow</strong> are already rolling it out across their teams.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/enterprise-managed-auth" class="source-link">Anthropic</a>
+        <a href="https://www.okta.com/newsroom/press-releases/okta-becomes-a-featured-identity-provider-powering-secure-ai-agent-connections-for-claude-enterprise/" class="source-link">Okta</a>
+        <a href="https://www.testingcatalog.com/anthropic-launches-managed-connector-access-with-okta/" class="source-link">TestingCatalog</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Marketplace</span>
+      <h3>Trackian Ships Its Marketing Decision Engine to Claude&rsquo;s Marketplace</h3>
+      <p>The connector ecosystem grew again: <strong>Trackian brought its marketing decision engine to Claude</strong> as both an MCP integration and a plugin now live in <strong>Anthropic&rsquo;s marketplace</strong>. The move lets marketing teams pull Trackian&rsquo;s attribution and decisioning data directly into Claude conversations and agent workflows rather than pivoting to a separate dashboard.</p>
+      <p>It&rsquo;s a small launch on its own, but it&rsquo;s a useful signal. As the marketplace fills with vertical, workflow-specific plugins &mdash; marketing, finance, dev tooling &mdash; the pitch shifts from &ldquo;Claude can chat&rdquo; to &ldquo;Claude sits where your existing tools already live,&rdquo; which is exactly the kind of stickiness that keeps a platform&rsquo;s connectors multiplying.</p>
+      <div class="source-links">
+        <a href="https://natlawreview.com/press-releases/trackian-brings-its-marketing-decision-engine-claude-mcp-integration-and" class="source-link">National Law Review</a>
+        <a href="https://claude.com/blog-category/announcements" class="source-link">Claude Blog</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>The Meter Is the Message</h3>
+      <p>Line up today&rsquo;s stories and a theme emerges: <strong>this is a week about monetization and retention, not models</strong>. Fable 5 slides from an all-you-can-eat slice of your subscription to <strong>metered credits at $10/$50 per million tokens</strong>. Reflect ships a dashboard that, however thoughtfully built, is being read as a nudge to <strong>keep you coming back</strong>. Even the enterprise MCP rollout is about <strong>locking connectors into the tools people already pay for</strong>. Different features, same gravitational pull.</p>
+      <p>That&rsquo;s not a criticism so much as a tell. Anthropic is reportedly carrying a <strong>~$965B valuation with run-rate revenue pushing past $50B</strong> as it eyes public markets &mdash; and public markets don&rsquo;t reward demos, they reward durable, recurring, metered revenue. A frontier model you rent by the token, an agent that lives in your terminal, connectors your IT department can&rsquo;t easily rip out: that&rsquo;s the shape of a business built to survive a prospectus. The capability race made the headlines. The billing model is what gets underwritten.</p>
+      <div class="source-links">
+        <a href="https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/" class="source-link">Fortune</a>
+        <a href="https://www.anthropic.com/news/redeploying-fable-5" class="source-link">Anthropic</a>
+        <a href="https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/" class="source-link">TechCrunch</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
