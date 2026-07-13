@@ -8,6 +8,18 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — July 13, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-13.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-13.html</guid>
+      <pubDate>Mon, 13 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Cowork Goes Cloud, Mobile &amp; Web</strong> — Claude Cowork moves off the desktop into the cloud, so tasks can start on a laptop, run in the background, and finish with no device online. Anthropic's own usage data shows more than 90% of sessions aren't software development.</p>
+        <p><strong>2. Claude for Government Hits Public Beta</strong> — Claude Code and Cowork land in Claude for Government Desktop on FedRAMP High, with tamper-evident audit logs, spend governance, and Anthropic as the sole contracting party.</p>
+        <p><strong>3. Microsoft 365 Write Tools Ship</strong> — With admin consent, Claude can now draft and send email, manage calendar events, and create and update OneDrive and SharePoint files. Teams stays read-only, and it's rolling out Max-first.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-13.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — July 12, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-12.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-12.html</guid>
@@ -343,8 +355,9 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-15.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — June 14, 2026</title>
+  </channel>
+</rss>
+tle>Claude AI Daily Brief — June 14, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-14.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-14.html</guid>
       <pubDate>Sun, 14 Jun 2026 08:00:00 -0400</pubDate>

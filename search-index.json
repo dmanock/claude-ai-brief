@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-13",
+    "title": "Claude AI Daily Brief — July 13, 2026 | Cowork Goes Cloud, Mobile & Web as Usage Data Shows 90% Isn't Coding; Claude for Government Beta; Microsoft 365 Write Tools Ship",
+    "description": "July 13, 2026: Claude Cowork expands to cloud, mobile, and web, and Anthropic's own usage data shows more than 90% of sessions aren't software development. Claude for Government enters public beta on FedRAMP High, Microsoft 365 write tools let Claude send email and edit SharePoint, the Developer Platform adds API key expiration and higher rate limits, and Opus 4.1 gets a retirement date.",
+    "url": "reports/claude-ai-daily-2026-07-13.html",
+    "headlines": [
+      "Cowork Goes Cloud",
+      "Mobile & Web as Usage Data Shows 90% Isn't Coding; Claude for Government Beta; Microsoft 365 Write Tools Ship",
+      "Cowork Goes Cloud, Mobile &amp; Web &mdash; and 90% of It Isn&rsquo;t Coding",
+      "Claude for Government Enters Public Beta on FedRAMP High",
+      "API Key Expiration Arrives; Rate Limits Jump and Tiers Consolidate",
+      "Mark Your Calendar: Opus 4.1 Retires Aug 5, Opus 4.7 Fast Mode Goes July 24",
+      "Microsoft 365 Write Tools: Claude Can Now Send Your Email",
+      "The Work Around the Work"
+    ],
+    "snippet": "Claude AI Daily Brief — July 13, 2026 | Cowork Goes Cloud, Mobile & Web as Usage Data Shows 90% Isn't Coding; Claude for Government Beta; Microsoft 365 Write Tools Ship ● Monday, July 13, 2026 Claude AI Daily Brief — July 13, 2026 Covering the latest from the platform · Edition #136 TL;DR — Today’s "
+  },
+  {
     "date": "2026-07-12",
     "title": "Claude AI Daily Brief — July 12, 2026 | Fable 5 Leaves Subscriptions for Metered Credits; Claude Code v2.1.207 Kills the Terminal Freeze; Enterprise MCP Auth Expands Through Okta",
     "description": "July 12, 2026: Claude Fable 5 comes off Pro, Max, and Team subscriptions today and shifts to prepaid usage credits. Claude Code v2.1.207 fixes the long-stream terminal freeze and rewrites the agent view, enterprise-managed MCP auth expands its zero-touch Okta rollout, Trackian ships an MCP plugin to Anthropic's marketplace, and Reflect draws scrutiny as a retention play.",

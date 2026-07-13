@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-07-13">
+  <title>Claude AI Daily Brief — July 13, 2026 | Cowork Goes Cloud, Mobile & Web as Usage Data Shows 90% Isn't Coding; Claude for Government Beta; Microsoft 365 Write Tools Ship</title>
+  <meta name="description" content="July 13, 2026: Claude Cowork expands to cloud, mobile, and web, and Anthropic's own usage data shows more than 90% of sessions aren't software development. Claude for Government enters public beta on FedRAMP High, Microsoft 365 write tools let Claude send email and edit SharePoint, the Developer Platform adds API key expiration and higher rate limits, and Opus 4.1 gets a retirement date.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude Cowork, cloud agent, mobile, usage data, Claude for Government, FedRAMP, Microsoft 365, write tools, Claude Developer Platform, API key expiration, rate limits, Opus 4.1 retirement">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-07-13.html">
+  <meta property="og:title" content="Claude AI Daily Brief — July 13, 2026">
+  <meta property="og:description" content="Cowork goes cloud, mobile, and web — and Anthropic's usage data shows 90%+ of sessions aren't coding. Claude for Government hits public beta, and Microsoft 365 write tools let Claude send your email.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-13.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — July 13, 2026">
+  <meta name="twitter:description" content="Cowork expands to cloud, mobile, and web — 90%+ of usage isn't coding. Claude for Government hits beta, and Microsoft 365 write tools ship.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-13.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-07-13.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — July 13, 2026",
+    "description": "Claude Cowork expands to cloud, mobile, and web as Anthropic's usage data shows more than 90% of sessions aren't software development. Claude for Government enters public beta on FedRAMP High, and Microsoft 365 write tools let Claude send email and edit SharePoint.",
+    "datePublished": "2026-07-13T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-13.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-07-13.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Monday, July 13, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; July 13, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #136</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Cowork Goes Cloud, Mobile &amp; Web</strong> &mdash; Claude Cowork moves off the desktop into the cloud, so tasks can start on a laptop, run autonomously in the background, and finish with no device online. Anthropic&rsquo;s own usage data shows more than 90% of sessions aren&rsquo;t software development.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Claude for Government Hits Public Beta</strong> &mdash; Claude Code and Cowork land in Claude for Government Desktop on FedRAMP High, with tamper-evident audit logs, spend governance, and Anthropic as the sole contracting party &mdash; no separate cloud relationship required.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Microsoft 365 Write Tools Ship</strong> &mdash; With admin consent, Claude can now draft and send email, manage calendar events, and create and update OneDrive and SharePoint files. Teams stays read-only, and it&rsquo;s rolling out Max-first.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Headline</span>
+      <h3>Cowork Goes Cloud, Mobile &amp; Web &mdash; and 90% of It Isn&rsquo;t Coding</h3>
+      <p>Anthropic moved <strong>Claude Cowork off the desktop and into the cloud</strong>, turning a single-device agent into a cross-device platform. A task can <strong>start on a laptop, continue autonomously in the background, and be reviewed from a phone</strong> even after the app is closed &mdash; sessions run remotely, files and state save to your Claude account, and scheduled tasks can complete with no device online. Beta access starts with <strong>Max subscribers</strong> and widens over the coming weeks.</p>
+      <p>The bigger story is the data Anthropic published alongside it. Across <strong>1.2 million anonymized sessions</strong> from more than 600,000 organizations, <strong>software development was just 8.7%</strong>. Business operations led at <strong>33.4%</strong> and content creation at <strong>16.4%</strong> &mdash; the &ldquo;work around the work.&rdquo; The coding-agent wars, it turns out, are spilling into the rest of the office.</p>
+      <div class="source-links">
+        <a href="https://venturebeat.com/technology/anthropic-brings-claude-cowork-to-mobile-and-web-as-usage-data-shows-most-users-arent-coding" class="source-link">VentureBeat</a>
+        <a href="https://www.nbcnews.com/tech/tech-news/anthropic-will-make-claude-cowork-available-users-cloud-rcna353218" class="source-link">NBC News</a>
+        <a href="https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/" class="source-link">TechCrunch</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Public Sector</span>
+      <h3>Claude for Government Enters Public Beta on FedRAMP High</h3>
+      <p>Anthropic opened a <strong>public beta of Claude Code and Claude Cowork inside Claude for Government Desktop</strong>, bringing <strong>FedRAMP High authorized</strong> AI to public-sector teams. It pairs desktop, file-based agent work with the controls agencies actually need: <strong>stronger admin controls, tamper-evident audit logs, and spend governance</strong> to keep autonomous runs on a leash.</p>
+      <p>The commercial angle matters too. <strong>Anthropic remains the contracted and billing party</strong>, so agencies don&rsquo;t need a separate cloud-provider relationship to get started &mdash; a meaningful simplification for government procurement. New customers can request access at <code>claude.com/solutions/government</code>.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+        <a href="https://support.claude.com/en/articles/12138966-release-notes" class="source-link">Claude Help Center</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Platform</span>
+      <h3>API Key Expiration Arrives; Rate Limits Jump and Tiers Consolidate</h3>
+      <p>The Claude Developer Platform shipped a security-minded quality-of-life win: you can now <strong>set an expiration when you create an API key or Admin API key</strong> in the Console &mdash; a preset, a custom duration, or Never &mdash; with Anthropic emailing the creator before expiry on any key that lives at least 7 days. Overdue, and welcome.</p>
+      <p>On capacity, <strong>rate limits went up across the board: Claude Sonnet and Claude Haiku now match Claude Opus at every usage tier</strong>, and the old ladder of tiers has been consolidated into three &mdash; <strong>Start, Build, and Scale</strong>. Simpler mental model, more headroom for anyone scaling agent workloads.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-developer-platform" class="source-link">Releasebot</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Docs</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Deprecations</span>
+      <h3>Mark Your Calendar: Opus 4.1 Retires Aug 5, Opus 4.7 Fast Mode Goes July 24</h3>
+      <p>Two deprecation clocks are ticking. <strong>Claude Opus 4.1</strong> (<code>claude-opus-4-1-20250805</code>) is deprecated with <strong>retirement on the Claude API scheduled for August 5, 2026</strong>. And <strong>fast mode for Claude Opus 4.7 is deprecated with removal on July 24</strong> &mdash; after that, requests to <code>claude-opus-4-7</code> with <code>speed: "fast"</code> will return an error.</p>
+      <p>If you have production traffic pinned to either, now is the window to migrate and test. The pace of model turnover is a reminder to keep version strings in config, not hard-coded across your stack.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-developer-platform" class="source-link">Releasebot</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Docs</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Integration</span>
+      <h3>Microsoft 365 Write Tools: Claude Can Now Send Your Email</h3>
+      <p>The Microsoft 365 connector crossed from reading to <strong>writing</strong>. With write tools enabled, <strong>Claude can draft, send, and organize email, manage calendar events, update mailbox settings, and create and update files in OneDrive and SharePoint</strong>. Read and search tools work as before, and <strong>Teams remains read-only</strong>.</p>
+      <p>The guardrails are front-loaded: before anyone can use write tools, a <strong>Microsoft Entra administrator must consent to the updated permission set</strong> and an admin has to enable them for the org. Rollout is <strong>Max-first over the next several weeks</strong>. Handing an agent the power to actually send mail is a real capability jump &mdash; and a real reason to think hard about approvals.</p>
+      <div class="source-links">
+        <a href="https://support.claude.com/en/articles/12138966-release-notes" class="source-link">Claude Help Center</a>
+        <a href="https://claude.com/claude-for-microsoft-365" class="source-link">Claude for M365</a>
+        <a href="https://finance.biggo.com/news/yX2jBZ4BoQmpnl36mLEb" class="source-link">BigGo</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>The Work Around the Work</h3>
+      <p>Anthropic just told on itself in the best way. When you ship usage data showing <strong>91% of your flagship agent&rsquo;s sessions have nothing to do with coding</strong> &mdash; business ops at a third, content creation at a sixth &mdash; you&rsquo;re not describing a developer tool anymore. You&rsquo;re describing an <strong>assistant for the whole knowledge-worker economy</strong>, and you&rsquo;re quietly repositioning the entire company around it.</p>
+      <p>Line up today&rsquo;s moves and the strategy is obvious: <strong>Cowork goes cloud</strong> so the work follows you across devices, <strong>Microsoft 365 write tools</strong> put Claude where the ops work already happens, and <strong>Claude for Government</strong> drags the whole thing into the most procurement-heavy market on earth. The coding-agent wars grabbed the headlines and the developer mindshare. But the land Anthropic is actually annexing is everything that happens <em>around</em> the code &mdash; the emails, the calendars, the SharePoint files, the &ldquo;can you just handle this&rdquo; tasks that fill a workday. That&rsquo;s a far bigger map.</p>
+      <div class="source-links">
+        <a href="https://venturebeat.com/technology/anthropic-brings-claude-cowork-to-mobile-and-web-as-usage-data-shows-most-users-arent-coding" class="source-link">VentureBeat</a>
+        <a href="https://businessmodelanalyst.com/claude-cowork-mobile-web/" class="source-link">Business Model Analyst</a>
+        <a href="https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/" class="source-link">TechCrunch</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
