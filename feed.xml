@@ -8,6 +8,18 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — July 14, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-14.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-14.html</guid>
+      <pubDate>Tue, 14 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Code Ships an Accessibility Update</strong> — A new release adds an opt-in screen reader mode with plain-text rendering, vim insert-mode remaps, and mouse-click support in fullscreen menus, alongside background-agent fixes and memory optimizations.</p>
+        <p><strong>2. Claude Science Grants Close July 15</strong> — Anthropic's AI for Science program is funding up to 50 research projects with up to $30,000 in Claude credits each. Applications close tomorrow, with awards announced by July 31.</p>
+        <p><strong>3. LTM Joins the Claude Partner Network</strong> — LTM signed on to accelerate enterprise adoption of Claude, Claude Code, and Claude Cowork, moving clients from pilots to production behind Anthropic's $100M network commitment.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-14.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — July 13, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-13.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-13.html</guid>
@@ -340,34 +352,8 @@
         <p><strong>1. Fable 5 Standoff Turns Into a Blame Game</strong> — Sacks says Anthropic "refused" to fix the jailbreak before export controls hit, Anthropic counters it "isn't serious," and a report claims a Chinese group already reached the model. Both flagships stay dark.</p>
         <p><strong>2. Claude Corps Puts $150M Behind 1,000 AI Fellows</strong> — Anthropic's new national fellowship pays early-career fellows $85K to embed Claude inside US nonprofits; the first cohort of 100 is open now and closes July 17.</p>
         <p><strong>3. Self-Hosted Agent Sandboxes Hit Beta</strong> — Claude Managed Agents can now run tool execution inside infrastructure you control and reach private MCP servers, with Cloudflare, Daytona, Modal, and Vercel as options.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-16.html">Read full report →</a></p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-16.html">Read full report &rarr;</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — June 15, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-15.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-15.html</guid>
-      <pubDate>Mon, 15 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Two Dev Deadlines Hit Today</strong> — Claude Sonnet 4 and Opus 4 retire at 9am PT, and Agent SDK, headless Claude Code, and third-party agents move off subscription limits onto a separate credit pool.</p>
-        <p><strong>2. Washington Maps a Fable 5 Off-Ramp</strong> — David Sacks says the US wants the Fable 5 and Mythos 5 export ban lifted "as soon as possible" once Anthropic remediates the safety issue; Anthropic has sent senior staff to DC.</p>
-        <p><strong>3. Enterprise Deals Keep Landing</strong> — A reported $200M Snowflake partnership puts Claude in front of 12,000+ enterprises, with DXC and TCS pushing Claude into regulated industries.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-15.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-  </channel>
-</rss>
-tle>Claude AI Daily Brief — June 14, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-14.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-14.html</guid>
-      <pubDate>Sun, 14 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Industry Calls the Ban Unworkable</strong> — Trump's order barring foreign nationals from Anthropic's Fable 5 and Mythos 5 drew sharp backlash across tech, with critics warning it's unenforceable and hands ground to China in the AI race.</p>
-        <p><strong>2. White House Calls It a Safety Fix</strong> — AI adviser David Sacks framed the export controls as tied to remediating a Fable 5 jailbreak, recasting the clampdown as a targeted security fix rather than a blanket move against Anthropic.</p>
-        <p><strong>3. Europe Eyes Sovereignty</strong> — With both models still dark for everyone, buyers in Europe and the UK began asking whether they need local alternatives that Washington can't switch off overnight.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-14.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
   </channel>
 </rss>

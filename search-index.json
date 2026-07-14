@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-07-14",
+    "title": "Claude AI Daily Brief — July 14, 2026 | Claude Code Ships Accessibility Update; Claude Science Grants Close July 15; LTM Joins the Partner Network",
+    "description": "July 14, 2026: Claude Code adds screen reader mode and stability fixes, Anthropic's Claude Science AI for Science compute grants close July 15, LTM joins the Claude Partner Network, the SDKs ship code execution with REPL persistence, and TechCrunch digs into the Claude Reflect dashboard.",
+    "url": "reports/claude-ai-daily-2026-07-14.html",
+    "headlines": [
+      "Claude Code Ships Accessibility Update; Claude Science Grants Close July 15; LTM Joins the Partner Network",
+      "Claude Code Ships an Accessibility-First Release",
+      "Claude Science AI for Science Grants Close Tomorrow",
+      "SDKs Add Code Execution With REPL State Persistence",
+      "LTM and UST Deepen the Claude Enterprise Push",
+      "Reflect Is a Retention Play Dressed as a Wellbeing Feature"
+    ],
+    "snippet": "Claude AI Daily Brief — July 14, 2026 | Claude Code Ships Accessibility Update; Claude Science Grants Close July 15; LTM Joins the Partner Network ● Tuesday, July 14, 2026 Claude AI Daily Brief — July 14, 2026 Covering the latest from the platform · Edition #137 TL;DR — Today’s Top 3 Takeaways 1. Cl"
+  },
+  {
     "date": "2026-07-13",
     "title": "Claude AI Daily Brief — July 13, 2026 | Cowork Goes Cloud, Mobile & Web as Usage Data Shows 90% Isn't Coding; Claude for Government Beta; Microsoft 365 Write Tools Ship",
     "description": "July 13, 2026: Claude Cowork expands to cloud, mobile, and web, and Anthropic's own usage data shows more than 90% of sessions aren't software development. Claude for Government enters public beta on FedRAMP High, Microsoft 365 write tools let Claude send email and edit SharePoint, the Developer Platform adds API key expiration and higher rate limits, and Opus 4.1 gets a retirement date.",
