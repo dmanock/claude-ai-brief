@@ -8,6 +8,30 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — July 16, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-16.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-16.html</guid>
+      <pubDate>Thu, 16 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Ode with Anthropic Gets a Name and a $1.5B Bet</strong> — The Anthropic-Blackstone implementation venture launched publicly, built on acquired startup Fractional AI, betting that deploying engineers inside enterprises is the next trillion-dollar category.</p>
+        <p><strong>2. Claude Code 2.1.210 Hardens Agents</strong> — A fresh release adds a live elapsed-time counter, strengthens session reliability, and hardens the Agent tool against indirect prompt injection.</p>
+        <p><strong>3. Self-Serve HIPAA Configuration Lands</strong> — Eligible admins on Claude Enterprise and the API can now review the BAA, grab the implementation guide, and switch on HIPAA configuration in a single flow.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-16.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
+      <title>Claude AI Daily Brief — July 15, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-15.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-15.html</guid>
+      <pubDate>Wed, 15 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude for Teachers Goes Live, Free for K-12</strong> — Anthropic launched a teacher-tuned Claude that ingests all 50 states' academic standards, free for verified U.S. educators, with a Detroit Public Schools pilot and an AFT privacy partnership.</p>
+        <p><strong>2. Enterprise Admin API Beta Lands</strong> — Claude Enterprise organizations can now manage members programmatically: list and look up by email, change roles, remove members, and handle invites and groups via the API.</p>
+        <p><strong>3. Claude Pricing Localizes for India</strong> — Anthropic began tailoring pricing for India, its biggest market after the U.S., lowering a real barrier for developers and smaller teams there.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-15.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — July 14, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-14.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-14.html</guid>
@@ -317,42 +341,6 @@
         <p><strong>2. Workload Identity Federation Goes GA, Killing Static API Keys</strong> — Workloads authenticate with short-lived OIDC tokens from AWS, GCP, GitHub Actions, or any OIDC issuer, with per-workload service accounts and full audit trails.</p>
         <p><strong>3. Claude for Legal Goes Open Source</strong> — Anthropic ships 20+ MCP connectors and 12 practice-area plugins under Apache 2.0, wiring Claude into Westlaw, iManage, DocuSign, Everlaw, and the rest of the legal stack.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-19.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — June 18, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-18.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-18.html</guid>
-      <pubDate>Thu, 18 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Opens Seoul Office With NAVER, Samsung, and LG Deals</strong> — Its third Asia-Pacific hub lands enterprise deployments across NAVER, Samsung SDS, and LG CNS, plus a government AI-safety MOU — even as US export controls box in its frontier models.</p>
-        <p><strong>2. Claude Design Ships Design-System Imports and Code Round-Trips</strong> — A major overhaul lets teams import design systems, auto-correct output against them, hand off to Claude Code, and finally share usage limits to tame the token burn.</p>
-        <p><strong>3. A New ID-Check Path Around the Fable 5 Ban</strong> — Anthropic's updated privacy policy could let US citizens unlock the banned models by submitting a government ID, as talks with Washington grind on.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-18.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — June 17, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-17.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-17.html</guid>
-      <pubDate>Wed, 17 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. 150+ Security Experts Demand the Fable 5 Ban Be Lifted</strong> — An open letter signed by the CEOs of Adobe, Sophos, and Zoom plus Alex Stamos and Katie Moussouris argues the "jailbreak" that triggered the export controls was never real, and that pulling the model hurts defenders, not adversaries.</p>
-        <p><strong>2. Claude Hits 10th Outage in 12 Days</strong> — Opus 4.8 and Haiku 4.5 error rates spiked again Monday as Anthropic concedes its infrastructure is stretched by record demand, with still no public post-mortems.</p>
-        <p><strong>3. Managed Agents Gain Dreaming and Webhooks</strong> — The agent platform adds multiagent orchestration, scheduled deployments, vault credentials, and richer session webhooks — the plumbing for always-on autonomous workloads.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-17.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — June 16, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-16.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-16.html</guid>
-      <pubDate>Tue, 16 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Fable 5 Standoff Turns Into a Blame Game</strong> — Sacks says Anthropic "refused" to fix the jailbreak before export controls hit, Anthropic counters it "isn't serious," and a report claims a Chinese group already reached the model. Both flagships stay dark.</p>
-        <p><strong>2. Claude Corps Puts $150M Behind 1,000 AI Fellows</strong> — Anthropic's new national fellowship pays early-career fellows $85K to embed Claude inside US nonprofits; the first cohort of 100 is open now and closes July 17.</p>
-        <p><strong>3. Self-Hosted Agent Sandboxes Hit Beta</strong> — Claude Managed Agents can now run tool execution inside infrastructure you control and reach private MCP servers, with Cloudflare, Daytona, Modal, and Vercel as options.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-16.html">Read full report &rarr;</a></p>
       ]]></description>
     </item>
   </channel>

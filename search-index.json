@@ -1,5 +1,33 @@
 [
   {
+    "date": "2026-07-16",
+    "title": "Claude AI Daily Brief — July 16, 2026 | Ode with Anthropic Named; Claude Code 2.1.210 Ships; Self-Serve HIPAA",
+    "description": "July 16, 2026: The $1.5B Ode with Anthropic implementation venture gets a name, Claude Code 2.1.210 hardens agents against prompt injection, self-serve HIPAA configuration lands for Enterprise and API orgs, and AI labs race to become integrators.",
+    "url": "reports/claude-ai-daily-2026-07-16.html",
+    "headlines": [
+      "Ode with Anthropic Named; Claude Code 2.1.210 Ships; Self-Serve HIPAA",
+      "Claude Code 2.1.210 Adds an Elapsed-Time Counter and Injection Hardening",
+      "Self-Serve HIPAA Configuration Comes to Enterprise and the API",
+      "Ode with Anthropic Launches as a $1.5B Implementation Venture",
+      "The Frontier Labs Are Quietly Becoming Consulting Firms"
+    ],
+    "snippet": "Claude AI Daily Brief — July 16, 2026 | Ode with Anthropic Named; Claude Code 2.1.210 Ships; Self-Serve HIPAA ● Thursday, July 16, 2026 Claude AI Daily Brief — July 16, 2026 Covering the latest from the platform · Edition #139 TL;DR — Today’s Top 3 Takeaways 1. Ode with Anthropic Gets a Name and a $"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "Claude AI Daily Brief — July 15, 2026 | Claude for Teachers Launches Free for K-12; Enterprise Admin API Beta; India Pricing",
+    "description": "July 15, 2026: Anthropic launches Claude for Teachers free for verified K-12 educators with all 50 states' standards, a new Admin API beta lets Enterprise orgs manage members programmatically, Claude pricing localizes for India, and Anthropic's grim new ad draws fire.",
+    "url": "reports/claude-ai-daily-2026-07-15.html",
+    "headlines": [
+      "Claude for Teachers Launches Free for K-12; Enterprise Admin API Beta; India Pricing",
+      "Anthropic Launches Claude for Teachers, Free for K-12 Educators",
+      "Admin API Beta Lands for Claude Enterprise Organizations",
+      "Anthropic Starts Localizing Claude Pricing for India",
+      "Anthropic&rsquo;s &ldquo;Hard Questions&rdquo; Ad Is a Brand Play That Backfired"
+    ],
+    "snippet": "Claude AI Daily Brief — July 15, 2026 | Claude for Teachers Launches Free for K-12; Enterprise Admin API Beta; India Pricing ● Wednesday, July 15, 2026 Claude AI Daily Brief — July 15, 2026 Covering the latest from the platform · Edition #138 TL;DR — Today’s Top 3 Takeaways 1. Claude for Teachers Go"
+  },
+  {
     "date": "2026-07-14",
     "title": "Claude AI Daily Brief — July 14, 2026 | Claude Code Ships Accessibility Update; Claude Science Grants Close July 15; LTM Joins the Partner Network",
     "description": "July 14, 2026: Claude Code adds screen reader mode and stability fixes, Anthropic's Claude Science AI for Science compute grants close July 15, LTM joins the Claude Partner Network, the SDKs ship code execution with REPL persistence, and TechCrunch digs into the Claude Reflect dashboard.",
