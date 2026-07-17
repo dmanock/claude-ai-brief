@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-17",
+    "title": "Claude AI Daily Brief — July 17, 2026 | Claude Code 2.1.211 Ships; API Key Expiration; Fable 5 Extended to July 19",
+    "description": "July 17, 2026: Claude Code 2.1.211 ships subagent text streaming and permission-preview hardening, API key expiration settings land in the Console, a new agent-memory beta header stabilizes memory listing, and Fable 5's free window stretches to July 19 amid the model wars.",
+    "url": "reports/claude-ai-daily-2026-07-17.html",
+    "headlines": [
+      "Claude Code 2.1.211 Ships; API Key Expiration; Fable 5 Extended to July 19",
+      "Claude Code 2.1.211 Adds Subagent Streaming and Locks Down Permission Previews",
+      "API Keys Can Finally Expire &mdash; With Reminders and Admin Reporting",
+      "New agent-memory Beta Header Stabilizes Memory Listing",
+      "Anthropic Extends Free Fable 5 Access to July 19 &mdash; Again",
+      "Claude&rsquo;s Memory Switches to Individual, Categorized Entries",
+      "Two Speeds at Anthropic: Frantic at the Frontier, Patient in the Plumbing"
+    ],
+    "snippet": "Claude AI Daily Brief — July 17, 2026 | Claude Code 2.1.211 Ships; API Key Expiration; Fable 5 Extended to July 19 ● Friday, July 17, 2026 Claude AI Daily Brief — July 17, 2026 Covering the latest from the platform · Edition #140 TL;DR — Today’s Top 3 Takeaways 1. Claude Code 2.1.211 Ships — A broad"
+  },
+  {
     "date": "2026-07-16",
     "title": "Claude AI Daily Brief — July 16, 2026 | Ode with Anthropic Named; Claude Code 2.1.210 Ships; Self-Serve HIPAA",
     "description": "July 16, 2026: The $1.5B Ode with Anthropic implementation venture gets a name, Claude Code 2.1.210 hardens agents against prompt injection, self-serve HIPAA configuration lands for Enterprise and API orgs, and AI labs race to become integrators.",

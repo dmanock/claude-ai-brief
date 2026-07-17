@@ -8,6 +8,18 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — July 17, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-17.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-17.html</guid>
+      <pubDate>Fri, 17 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Code 2.1.211 Ships</strong> — A broad stability release adds opt-in subagent text streaming, hardens permission previews against invisible-character spoofing, and speeds up terminal rendering.</p>
+        <p><strong>2. API Key Expiration Lands in the Console</strong> — You can now set an expiry when creating a key, get emailed reminders before it lapses, and give admins reporting on what's about to expire.</p>
+        <p><strong>3. Fable 5 Stays Free Through July 19</strong> — Anthropic extended the no-extra-cost window for subscribers again, an apparent answer to OpenAI's latest release, before usage moves to prepaid credits.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-17.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — July 16, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-16.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-16.html</guid>
@@ -329,18 +341,6 @@
         <p><strong>2. Claude Design Overhaul Lands After 1M Users</strong> — Design-system imports, two-way Claude Code sync, a /design command, canvas editing, and enterprise brand controls arrive, plus a fix for the token-burning that bit early users.</p>
         <p><strong>3. An 11-Hour Global Outage Rattles the Stack</strong> — Claude Chat, the web app, and Claude Code went dark for thousands on June 18, a sharp reminder of how much daily work now rides on a single AI provider.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-20.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — June 19, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-19.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-19.html</guid>
-      <pubDate>Fri, 19 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Enterprise-Managed MCP Auth Lands, Starting With Okta</strong> — Admins provision connectors once through their identity provider, and users get zero-touch access the first time they open Claude; Ramp already has 2,000 employees live.</p>
-        <p><strong>2. Workload Identity Federation Goes GA, Killing Static API Keys</strong> — Workloads authenticate with short-lived OIDC tokens from AWS, GCP, GitHub Actions, or any OIDC issuer, with per-workload service accounts and full audit trails.</p>
-        <p><strong>3. Claude for Legal Goes Open Source</strong> — Anthropic ships 20+ MCP connectors and 12 practice-area plugins under Apache 2.0, wiring Claude into Westlaw, iManage, DocuSign, Everlaw, and the rest of the legal stack.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-19.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

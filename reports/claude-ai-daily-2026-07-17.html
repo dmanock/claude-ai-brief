@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-07-17">
+  <title>Claude AI Daily Brief — July 17, 2026 | Claude Code 2.1.211 Ships; API Key Expiration; Fable 5 Extended to July 19</title>
+  <meta name="description" content="July 17, 2026: Claude Code 2.1.211 ships subagent text streaming and permission-preview hardening, API key expiration settings land in the Console, a new agent-memory beta header stabilizes memory listing, and Fable 5's free window stretches to July 19 amid the model wars.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude Code 2.1.211, API key expiration, agent-memory beta, Claude Fable 5, memory categorized entries, Claude Developer Platform, subagent streaming">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-07-17.html">
+  <meta property="og:title" content="Claude AI Daily Brief — July 17, 2026">
+  <meta property="og:description" content="Claude Code 2.1.211 ships subagent text streaming and permission-preview hardening, API key expiration lands in the Console, and Fable 5's free window stretches to July 19.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-17.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — July 17, 2026">
+  <meta name="twitter:description" content="Claude Code 2.1.211 ships with subagent streaming and injection hardening, API key expiration lands, and Fable 5 stays free through July 19.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-17.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-07-17.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — July 17, 2026",
+    "description": "Claude Code 2.1.211 ships subagent text streaming and permission-preview hardening, API key expiration settings land in the Console, a new agent-memory beta header stabilizes memory listing, and Fable 5's free window stretches to July 19.",
+    "datePublished": "2026-07-17T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-17.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-07-17.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Friday, July 17, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; July 17, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #140</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Claude Code 2.1.211 Ships</strong> &mdash; A broad stability release adds opt-in subagent text streaming, hardens permission previews against invisible-character spoofing, and speeds up terminal rendering.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>API Key Expiration Lands in the Console</strong> &mdash; You can now set an expiry when creating a key, get emailed reminders before it lapses, and give admins reporting on what&rsquo;s about to expire.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Fable 5 Stays Free Through July 19</strong> &mdash; Anthropic extended the no-extra-cost window for paid subscribers again, an apparent answer to OpenAI&rsquo;s latest release, before usage moves to prepaid credits.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Claude Code</span>
+      <h3>Claude Code 2.1.211 Adds Subagent Streaming and Locks Down Permission Previews</h3>
+      <p>One day after 2.1.210, Claude Code shipped <strong>2.1.211</strong> &mdash; a broad stability and workflow update. The marquee addition is opt-in <strong>subagent text streaming</strong>: a new <code>--forward-subagent-text</code> flag and <code>CLAUDE_CODE_FORWARD_SUBAGENT_TEXT</code> env var include a subagent&rsquo;s text and thinking in <code>stream-json</code> output, so orchestration tooling can watch nested agents work in real time.</p>
+      <p>Security got sharper too. Permission previews relayed to chat channels now <strong>neutralize bidirectional-override, zero-width, and look-alike quote characters</strong>, so a tool input can&rsquo;t visually rewrite the approval message you&rsquo;re about to click. A <code>PreToolUse</code> hook&rsquo;s <code>ask</code> decision now <strong>floors</strong> auto mode instead of being overridden for unsandboxed Bash. Rounding it out: faster terminal rendering, a fix for parallel sessions all logging out after wake-from-sleep, and repairs across Chrome uploads, Vertex, Bedrock, and background-session recovery.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+        <a href="https://github.com/anthropics/claude-code/releases" class="source-link">GitHub Releases</a>
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Console</span>
+      <h3>API Keys Can Finally Expire &mdash; With Reminders and Admin Reporting</h3>
+      <p>A small but overdue governance win: the Claude Developer Platform now supports <strong>API key expiration settings</strong> in the Console. When you create an API key or Admin API key, you can set a lifetime &mdash; a preset, a custom duration, or <strong>Never</strong> &mdash; instead of minting a credential that lives forever.</p>
+      <p>For keys with a lifetime of at least seven days, Anthropic <strong>emails the creator before expiration</strong>, and admins get reporting on which keys are approaching their end date. It&rsquo;s the kind of quiet plumbing that turns a security best practice (rotate your keys) into something the platform actually nudges you toward.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-developer-platform" class="source-link">Releasebot</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Release Notes</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Agent SDK</span>
+      <h3>New agent-memory Beta Header Stabilizes Memory Listing</h3>
+      <p>Builders working with Claude&rsquo;s agent memory get a firmer foundation. A new <strong><code>agent-memory-2026-07-22</code> beta header</strong> makes memory listing return a <strong>stable, server-defined order</strong> and tightens the behavior of <code>depth</code>, <code>path_prefix</code>, and <code>cursor</code> parameters &mdash; the difference between paginating a memory store reliably and getting shuffled results.</p>
+      <p>The SDKs have been updated to send the new memory-store header by default, so most developers pick up the stricter, more predictable semantics without changing their code. It&rsquo;s a maturation step for the agent-memory primitive that underpins long-running Claude agents.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-developer-platform" class="source-link">Releasebot</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Release Notes</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Model Wars</span>
+      <h3>Anthropic Extends Free Fable 5 Access to July 19 &mdash; Again</h3>
+      <p>Anthropic has stretched the promotional window for <strong>Claude Fable 5</strong> once more, keeping it available to Pro, Max, Team, and select Enterprise subscribers <strong>at no extra cost through July 19</strong>. It&rsquo;s the second extension in a week, and reporting frames it as an apparent response to OpenAI&rsquo;s latest model release &mdash; a &ldquo;keep them from switching&rdquo; move in an increasingly twitchy top of the market.</p>
+      <p>After July 19, the economics change: Fable 5 usage runs on <strong>prepaid usage credits at $10 per million input tokens and $50 per million output tokens</strong>, with Anthropic saying it aims to fold the model back into subscriptions once capacity allows. Fable 5 only returned to general availability on July 1, after US export restrictions on it and Mythos 5 were lifted.</p>
+      <div class="source-links">
+        <a href="https://www.forbes.com/sites/tylerroush/2026/07/13/ai-model-wars-anthropic-extends-fable-access-again-after-openais-sol-release/" class="source-link">Forbes</a>
+        <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/" class="source-link">BleepingComputer</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Product</span>
+      <h3>Claude&rsquo;s Memory Switches to Individual, Categorized Entries</h3>
+      <p>Claude&rsquo;s consumer memory just got more granular. Memory now works as a <strong>set of individual, categorized entries</strong> that Claude reads and updates during your conversations, replacing the previous single daily memory summary. In practice that means richer, more precise recall &mdash; Claude can pull the one relevant fact instead of leaning on a coarse end-of-day digest.</p>
+      <p>It pairs with the recently launched monthly recap and focus settings under Settings &gt; Reflect, part of a broader push to make Claude feel like it remembers you across sessions without turning that memory into a black box.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+        <a href="https://support.anthropic.com/en/articles/12138966-release-notes" class="source-link">Release Notes</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Two Speeds at Anthropic: Frantic at the Frontier, Patient in the Plumbing</h3>
+      <p>Today&rsquo;s stories split cleanly into two tempos. At the frontier, everything is reactive and fast: Fable 5&rsquo;s free window keeps getting pushed a few days at a time, each extension timed to a competitor&rsquo;s launch. That&rsquo;s not a roadmap &mdash; it&rsquo;s a retention firefight, and the tell is that Anthropic is willing to eat the compute cost of a flagship model to keep paying subscribers from wandering during a hot stretch of the model wars.</p>
+      <p>Underneath, the platform work moves at a completely different, unhurried pace: expiring API keys, stable memory ordering, invisible-character hardening in Claude Code approvals. None of it trends on X, but it&rsquo;s the compounding stuff &mdash; the boring guarantees that let a security team say yes to Claude in production. The interesting question is which tempo actually decides the enterprise. Flashy model swaps win the week; predictable key rotation and tamper-proof approvals win the three-year contract. Anthropic is clearly betting it needs both &mdash; but only one of them shows up in the press releases.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot (Claude Code)</a>
+        <a href="https://www.forbes.com/sites/tylerroush/2026/07/13/ai-model-wars-anthropic-extends-fable-access-again-after-openais-sol-release/" class="source-link">Forbes</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
