@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-07-18",
+    "title": "Claude AI Daily Brief — July 18, 2026 | Claude for Teachers &amp; Claude Science Launch; Sonnet 5 Becomes Claude Code Default",
+    "description": "July 18, 2026: Anthropic launches free Claude for Teachers for US K-12 educators and Claude Science, an AI workbench for researchers, while Sonnet 5 becomes the default in Claude Code with a 1M-token context, API rate limits jump, and a brief July 17 outage hits users.",
+    "url": "reports/claude-ai-daily-2026-07-18.html",
+    "headlines": [
+      "Claude for Teachers &amp; Claude Science Launch; Sonnet 5 Becomes Claude Code Default",
+      "Anthropic Launches Free Claude for Teachers Across All 50 States",
+      "Claude Science: An AI Workbench Built for Researchers",
+      "Anthropic Publishes a CISO&rsquo;s Guide to Agentic AI",
+      "Sonnet 5 Is Now the Default in Claude Code &mdash; With 1M Context and Promo Pricing",
+      "API Rate Limits Jump; Usage Tiers Consolidated to Three",
+      "Fast Mode for Opus 4.7 Is Being Removed July 24",
+      "Claude Partner Network Adds a Services Track and Partner Hub",
+      "Claude Hit With a Brief Outage on July 17",
+      "Anthropic Is Playing for the Institutions, Not Just the Chat Window"
+    ],
+    "snippet": "Claude AI Daily Brief — July 18, 2026 | Claude for Teachers & Claude Science Launch; Sonnet 5 Becomes Claude Code Default ● Saturday, July 18, 2026 Claude AI Daily Brief — July 18, 2026 Covering the latest from the platform · Edition #141 TL;DR — Today’s Top 3 Takeaways 1. Claude for Teachers Launch"
+  },
+  {
     "date": "2026-07-17",
     "title": "Claude AI Daily Brief — July 17, 2026 | Claude Code 2.1.211 Ships; API Key Expiration; Fable 5 Extended to July 19",
     "description": "July 17, 2026: Claude Code 2.1.211 ships subagent text streaming and permission-preview hardening, API key expiration settings land in the Console, a new agent-memory beta header stabilizes memory listing, and Fable 5's free window stretches to July 19 amid the model wars.",

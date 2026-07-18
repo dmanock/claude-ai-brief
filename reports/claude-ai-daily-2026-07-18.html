@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-07-18">
+  <title>Claude AI Daily Brief — July 18, 2026 | Claude for Teachers &amp; Claude Science Launch; Sonnet 5 Becomes Claude Code Default</title>
+  <meta name="description" content="July 18, 2026: Anthropic launches free Claude for Teachers for US K-12 educators and Claude Science, an AI workbench for researchers, while Sonnet 5 becomes the default in Claude Code with a 1M-token context, API rate limits jump, and a brief July 17 outage hits users.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude for Teachers, Claude Science, Claude Sonnet 5, Claude Code, API rate limits, Partner Hub, agentic AI security, Opus 4.7 fast mode">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-07-18.html">
+  <meta property="og:title" content="Claude AI Daily Brief — July 18, 2026">
+  <meta property="og:description" content="Anthropic launches free Claude for Teachers and Claude Science, Sonnet 5 becomes the default in Claude Code with a 1M-token context, and API rate limits jump across the board.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-18.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — July 18, 2026">
+  <meta name="twitter:description" content="Claude for Teachers and Claude Science launch, Sonnet 5 becomes the Claude Code default with 1M context, and API rate limits jump across every tier.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-18.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-07-18.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — July 18, 2026",
+    "description": "Anthropic launches free Claude for Teachers for US K-12 educators and Claude Science, an AI workbench for researchers, while Sonnet 5 becomes the default in Claude Code with a 1M-token context, API rate limits jump, and a brief July 17 outage hits users.",
+    "datePublished": "2026-07-18T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-18.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-07-18.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Saturday, July 18, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; July 18, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #141</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Claude for Teachers Launches Free</strong> &mdash; Anthropic gives verified US K-12 educators a full year of free premium Claude, teaching skills, and standards-aligned curriculum, with a Detroit Public Schools pilot to study impact.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Claude Science Arrives for Researchers</strong> &mdash; A new AI workbench wires in the tools and packages scientists use daily, produces auditable artifacts, and gives flexible access to compute.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Sonnet 5 Becomes the Claude Code Default</strong> &mdash; The new default ships a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Education</span>
+      <h3>Anthropic Launches Free Claude for Teachers Across All 50 States</h3>
+      <p>Anthropic rolled out <strong>Claude for Teachers</strong>, a free tier built specifically for verified US K-12 educators. It bundles premium Claude access, a library of purpose-built <strong>teaching skills</strong>, and a direct connection to evidence-based curricula mapped to academic standards in all 50 states. Teachers who sign up by <strong>June 30, 2027</strong> lock in a full year of access.</p>
+      <p>It&rsquo;s also a land grab: Anthropic, OpenAI, and Google are all racing to put their assistants in front of teachers. Anthropic is pairing the launch with a formal pilot in the <strong>Detroit Public Schools Community District</strong>, studying the effect on educator wellbeing and day-to-day practice rather than just adoption numbers &mdash; a bid to answer the &ldquo;does this actually help teachers?&rdquo; question head-on.</p>
+      <div class="source-links">
+        <a href="https://www.chalkbeat.org/2026/07/14/anthropic-launches-claude-for-teachers-as-ai-companies-battle-for-classrooms/" class="source-link">Chalkbeat</a>
+        <a href="https://thehill.com/policy/technology/5968601-claude-for-teachers-launch/" class="source-link">The Hill</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Science</span>
+      <h3>Claude Science: An AI Workbench Built for Researchers</h3>
+      <p>Anthropic introduced <strong>Claude Science</strong>, an app aimed squarely at working scientists. Instead of a general chat window, it integrates the <strong>tools and packages researchers actually use</strong>, produces <strong>auditable artifacts</strong> so results can be traced and reproduced, and offers flexible access to computing resources for heavier analysis.</p>
+      <p>The framing matters: reproducibility and provenance are the two things that make or break AI in a lab. By emphasizing artifacts you can audit rather than answers you have to trust, Anthropic is pitching Claude Science as a research collaborator that fits scientific rigor instead of fighting it.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/claude-science-ai-workbench" class="source-link">Anthropic</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Security</span>
+      <h3>Anthropic Publishes a CISO&rsquo;s Guide to Agentic AI</h3>
+      <p>On July 17, Anthropic published <strong>&ldquo;Zero risk isn&rsquo;t the job: a CISO&rsquo;s guide to agentic AI.&rdquo;</strong> The post reframes the security conversation around agents: the goal isn&rsquo;t to eliminate every risk before deploying, but to manage it deliberately as autonomous systems take on real work.</p>
+      <p>It&rsquo;s a telling piece of positioning. As Claude Code, subagents, and long-running agents move into production, the buying decision increasingly runs through security leadership &mdash; and Anthropic is writing directly to that audience about how to say yes responsibly.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic Newsroom</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Sonnet 5 Is Now the Default in Claude Code &mdash; With 1M Context and Promo Pricing</h3>
+      <p><strong>Claude Sonnet 5</strong> is now the default model in Claude Code, arriving with a native <strong>1M-token context window</strong> that lets it hold far larger codebases and session histories in view. Anthropic is sweetening the switch with <strong>promotional pricing of $2 per Mtok input and $10 per Mtok output through August 31</strong>.</p>
+      <p>For developers, a default swap is a big deal: it changes the price/performance baseline for every new session without anyone opting in. The bigger context plus discounted rates make deep, whole-repo workflows meaningfully cheaper for the next six weeks.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+        <a href="https://code.claude.com/docs/en/whats-new" class="source-link">Claude Code Docs</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Platform</span>
+      <h3>API Rate Limits Jump; Usage Tiers Consolidated to Three</h3>
+      <p>Anthropic <strong>raised rate limits across the Claude API</strong>. Sonnet and Haiku limits now <strong>match Opus at every usage tier</strong>, removing a long-standing ceiling that pushed some workloads toward the pricier model just for headroom. The tier structure has also been simplified into three levels: <strong>Start, Build, and Scale</strong>.</p>
+      <p>Alongside the throughput bump, the platform added <strong>API key expiration settings</strong> earlier in the week and an <strong>Admin API beta</strong> for Enterprise orgs to list members, change roles, and manage invites and groups. Taken together, it&rsquo;s a steady push to make the platform easier to scale on and easier to govern.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-developer-platform" class="source-link">Releasebot</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Release Notes</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Deprecation</span>
+      <h3>Fast Mode for Opus 4.7 Is Being Removed July 24</h3>
+      <p>A heads-up for anyone still on the older flagship: <strong>Fast mode for Claude Opus 4.7 has been deprecated</strong>, with removal scheduled for <strong>July 24, 2026</strong>. After that date, requests to <code>claude-opus-4-7</code> carrying <code>speed: "fast"</code> will return an error rather than silently falling back.</p>
+      <p>If any of your production calls pin that combination, now is the window to drop the <code>speed</code> parameter or migrate to a current model. It&rsquo;s a small change, but the kind that breaks a pipeline quietly if it slips past a release checklist.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Release Notes</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-developer-platform" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Partners</span>
+      <h3>Claude Partner Network Adds a Services Track and Partner Hub</h3>
+      <p>Anthropic expanded its <strong>Claude Partner Network</strong> with two pieces aimed at enterprise buyers. A tiered <strong>Services Track</strong> ranks consulting firms by how deeply they&rsquo;ve deployed Claude for clients, and a <strong>Partner Hub</strong> portal helps companies find qualified implementation partners for their rollouts.</p>
+      <p>The clever bit for the technical crowd: a new <strong>MCP connector</strong> links the Hub directly into Claude, so you can query partnership status and find implementers from inside the model itself. It&rsquo;s Anthropic building the go-to-market plumbing an enterprise ecosystem needs &mdash; and doing it MCP-native.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/services-track-partner-hub" class="source-link">Anthropic</a>
+        <a href="https://qz.com/anthropic-claude-partner-network-services-track-hub-enterprise-060326" class="source-link">Quartz</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Status</span>
+      <h3>Claude Hit With a Brief Outage on July 17</h3>
+      <p>Claude and Anthropic services went down for <strong>hundreds of users on July 17</strong>, with outage reports climbing in the mid-afternoon before recovering. It was a short-lived disruption rather than a prolonged incident, but a reminder of how much daily work now routes through a single assistant.</p>
+      <p>As Claude moves deeper into classrooms, labs, and production codebases, reliability stops being a nice-to-have and becomes part of the pitch. Expect uptime to draw more scrutiny the more indispensable these agents become.</p>
+      <div class="source-links">
+        <a href="https://community.designtaxi.com/topic/33349-is-claude-anthropic-ai-down-july-17-2026" class="source-link">DesignTAXI Community</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Anthropic Is Playing for the Institutions, Not Just the Chat Window</h3>
+      <p>Look at today&rsquo;s launches together and a pattern jumps out: teachers, scientists, CISOs, consulting partners. None of these are consumer features &mdash; they&rsquo;re bids to embed Claude inside institutions with long memories and slow procurement. Claude for Teachers comes with a research pilot; Claude Science leads with auditable artifacts; the security post speaks the language of risk committees. This is what it looks like when a company stops selling a chatbot and starts selling infrastructure.</p>
+      <p>The developer news rhymes with it. Making Sonnet 5 the Code default, lifting Sonnet and Haiku rate limits to Opus levels, and simplifying tiers to Start/Build/Scale all lower the friction of standardizing on Claude at scale. The through-line is durability: pilots that generate evidence, artifacts you can audit, limits that don&rsquo;t force awkward model choices. Flashy model swaps win a news cycle; being the safe institutional default is how you win the decade. The one crack in the story is uptime &mdash; yesterday&rsquo;s outage is a reminder that indispensability cuts both ways.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/claude-science-ai-workbench" class="source-link">Anthropic (Science)</a>
+        <a href="https://www.chalkbeat.org/2026/07/14/anthropic-launches-claude-for-teachers-as-ai-companies-battle-for-classrooms/" class="source-link">Chalkbeat</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

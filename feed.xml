@@ -8,6 +8,18 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — July 18, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-18.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-18.html</guid>
+      <pubDate>Sat, 18 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude for Teachers Launches Free</strong> — Anthropic gives verified US K-12 educators a full year of free premium Claude, teaching skills, and standards-aligned curriculum, with a Detroit Public Schools pilot to study impact.</p>
+        <p><strong>2. Claude Science Arrives for Researchers</strong> — A new AI workbench wires in the tools scientists use daily, produces auditable artifacts, and gives flexible access to compute.</p>
+        <p><strong>3. Sonnet 5 Becomes the Claude Code Default</strong> — The new default ships a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-18.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — July 17, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-17.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-17.html</guid>
