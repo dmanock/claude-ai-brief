@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-07-19",
+    "title": "Claude AI Daily Brief — July 19, 2026 | Anthropic-Meta $10B Compute Talks; Claude for Government Desktop Beta; Fable 5 Hits Max &amp; Team Plans",
+    "description": "July 19, 2026: Anthropic is in early talks to lease ~$10B of Meta compute over two years, Claude Code and Cowork reach government agencies in a FedRAMP High desktop beta, and Claude Fable 5 lands on Max and Team Premium plans as the free window closes.",
+    "url": "reports/claude-ai-daily-2026-07-19.html",
+    "headlines": [
+      "Anthropic-Meta $10B Compute Talks; Claude for Government Desktop Beta; Fable 5 Hits Max &amp; Team Plans",
+      "Anthropic in Early Talks to Lease ~$10B of Meta Compute",
+      "Claude for Government Desktop Enters Public Beta on FedRAMP High",
+      "Claude Fable 5 Lands on Max and Team Premium Plans",
+      "Claude Code Adds Background /fork, an EndConversation Tool, and Progress Heartbeats",
+      "New Agent-Memory Beta Header Brings Stable Ordering",
+      "Claude Cowork Goes Cloud: Mobile, Web, and Background Tasks",
+      "LTM and UST Sign On as the Partner Network Scales",
+      "&ldquo;Reflect&rdquo; Gives Users a Dashboard for Their AI Habits",
+      "The Real Constraint Isn&rsquo;t Models &mdash; It&rsquo;s Compute"
+    ],
+    "snippet": "Claude AI Daily Brief — July 19, 2026 | Anthropic-Meta $10B Compute Talks; Claude for Government Desktop Beta; Fable 5 Hits Max & Team Plans ● Sunday, July 19, 2026 Claude AI Daily Brief — July 19, 2026 Covering the latest from the platform · Edition #142 TL;DR — Today’s Top 3 Takeaways 1. Anthropic"
+  },
+  {
     "date": "2026-07-18",
     "title": "Claude AI Daily Brief — July 18, 2026 | Claude for Teachers &amp; Claude Science Launch; Sonnet 5 Becomes Claude Code Default",
     "description": "July 18, 2026: Anthropic launches free Claude for Teachers for US K-12 educators and Claude Science, an AI workbench for researchers, while Sonnet 5 becomes the default in Claude Code with a 1M-token context, API rate limits jump, and a brief July 17 outage hits users.",
