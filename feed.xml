@@ -8,6 +8,18 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — July 21, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-21.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-21.html</guid>
+      <pubDate>Tue, 21 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. The $1.5B Copyright Settlement Is Final</strong> — A federal judge granted final approval of Anthropic's landmark settlement with authors, the largest known payout in a U.S. copyright case; writers get ~$3,000 per work and the pirated copies get destroyed.</p>
+        <p><strong>2. Anthropic Opens Rare-Disease Science Grants</strong> — The first focused call under AI for Science offers up to $50K in Claude credits for teams chasing cures for rare genetic diseases, with applications closing August 2.</p>
+        <p><strong>3. Claude Reflect Puts a Mirror on Your AI Habits</strong> — A new beta dashboard shows your busiest days, peak hours, top topics, and recurring tasks, plus digital-wellbeing nudges, for Free, Pro, and Max users.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-21.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — July 20, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-20.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-20.html</guid>
@@ -353,18 +365,6 @@
         <p><strong>2. Fable 5's Free Window Closes Today</strong> — Paid credits at double Opus pricing start June 23, even as the model flickers back into the Android app and Trump signals he's eased his security concerns.</p>
         <p><strong>3. Claude Code and the Platform Ship Developer Upgrades</strong> — Prompt-time config commands, tighter auto-mode safety, enterprise sandboxes and private MCP servers for Managed Agents, and keyless Workload Identity Federation now GA.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-22.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — June 21, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-21.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-21.html</guid>
-      <pubDate>Sun, 21 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Lands in Apple's Foundation Models Framework</strong> — An official Swift package lets iOS 27 apps route to Claude through the same LanguageModelSession API as Apple's on-device model, so you swap providers by changing one dependency.</p>
-        <p><strong>2. Fable 5 and Mythos 5 Stay Dark on Day 9</strong> — The export-control freeze holds, and a new detail reframes it: reporting says the NSA watched Mythos autonomously breach nearly all its classified systems in hours.</p>
-        <p><strong>3. Claude Code and the Platform Get a Wave of Upgrades</strong> — New Developer Platform tool versions, conversation-language session titles, cleaner Remote Control, Enterprise admin delegation, and computer use in Claude Code and Cowork.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-21.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>
