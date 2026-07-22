@@ -7,6 +7,19 @@
     <language>en-us</language>
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
+    
+    <item>
+      <title>Claude AI Daily Brief — July 22, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-22.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-22.html</guid>
+      <pubDate>Wed, 22 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Ode with Anthropic Stands Up a $1.5B Services Firm</strong> — Anthropic, Blackstone, and Hellman & Friedman launched a standalone enterprise AI services company to help big organizations deploy Claude, with Goldman Sachs as a founding partner.</p>
+        <p><strong>2. API Keys Now Expire — and Admins Can Manage People</strong> — The Claude Console lets you set expiration dates on API and Admin keys, and a new Admin API beta lets Enterprise orgs list members, change roles, and manage groups programmatically.</p>
+        <p><strong>3. Claude Cowork Moves to the Cloud</strong> — The desktop agent goes multi-device across mobile and web, with background work, scheduled tasks, and approvals from your phone.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-22.html">Read full report →</a></p>
+      ]]></description>
+    </item>
     <item>
       <title>Claude AI Daily Brief — July 21, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-21.html</link>
@@ -355,17 +368,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-23.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — June 22, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-22.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-22.html</guid>
-      <pubDate>Mon, 22 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Hit by a 90-Minute Global Outage</strong> — Five flagship models went down early June 22 across Claude.ai, the API, Claude Code, and Cowork — the platform's third disruption this month, recovered in a staged rollout.</p>
-        <p><strong>2. Fable 5's Free Window Closes Today</strong> — Paid credits at double Opus pricing start June 23, even as the model flickers back into the Android app and Trump signals he's eased his security concerns.</p>
-        <p><strong>3. Claude Code and the Platform Ship Developer Upgrades</strong> — Prompt-time config commands, tighter auto-mode safety, enterprise sandboxes and private MCP servers for Managed Agents, and keyless Workload Identity Federation now GA.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-22.html">Read full report →</a></p>
-      ]]></description>
-    </item>
+
   </channel>
 </rss>

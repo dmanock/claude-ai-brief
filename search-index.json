@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-07-22",
+    "title": "Claude AI Daily Brief — July 22, 2026 | Ode with Anthropic Launches; API Keys Get Expiration Dates; Cowork Moves to the Cloud",
+    "description": "July 22, 2026: Anthropic, Blackstone and Hellman & Friedman stand up Ode, a $1.5B enterprise AI services firm; the Claude Console adds API key expiration and Admin API user management; and Claude Cowork moves to the cloud with mobile and web access.",
+    "url": "reports/claude-ai-daily-2026-07-22.html",
+    "headlines": [
+      "Ode with Anthropic Launches; API Keys Get Expiration Dates; Cowork Moves to the Cloud",
+      "Anthropic, Blackstone &amp; Hellman &amp; Friedman Launch &ldquo;Ode with Anthropic&rdquo;",
+      "Claude Cowork Leaves the Desktop for the Cloud",
+      "Claude Opus 4.8 Is Now the Default for Max, Team, and Enterprise",
+      "API Keys Can Now Expire &mdash; Set a Lifetime in the Console",
+      "Admin API Beta Brings Programmatic User Management to Enterprise",
+      "Claude Code Gets a Built-In Web Browser",
+      "Published Artifacts Can Now Pull Live Data via MCP Connectors",
+      "The Boring Layer Is the Moat"
+    ],
+    "snippet": "Claude AI Daily Brief — July 22, 2026 | Ode with Anthropic Launches; API Keys Get Expiration Dates; Cowork Moves to the Cloud ● Wednesday, July 22, 2026 Claude AI Daily Brief — July 22, 2026 Covering the latest from the platform · Edition #145 TL;DR — Today’s Top 3 Takeaways 1. Ode with Anthropic St"
+  },
+  {
     "date": "2026-07-21",
     "title": "Claude AI Daily Brief — July 21, 2026 | $1.5B Copyright Settlement Approved; Rare-Disease Science Grants; Claude Reflect Dashboard",
     "description": "July 21, 2026: A federal judge grants final approval of Anthropic's $1.5B author copyright settlement, Anthropic opens AI for Science grants of up to $50K in Claude credits for rare-disease research, and the Claude Reflect usage dashboard rolls out in beta.",
