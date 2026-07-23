@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-07-23",
+    "title": "Claude AI Daily Brief — July 23, 2026 | Voice Mode Gets Real Opus &amp; Sonnet; Claude Lands on Government Desktops; Labs Agree on a Jailbreak Scale",
+    "description": "July 23, 2026: Claude Voice Mode starts routing conversations through Opus and Sonnet instead of Haiku; Claude Code and Cowork hit government desktops under FedRAMP High; and Anthropic, Amazon, Microsoft and Google publish a shared jailbreak severity scale.",
+    "url": "reports/claude-ai-daily-2026-07-23.html",
+    "headlines": [
+      "Voice Mode Gets Real Opus &amp; Sonnet; Claude Lands on Government Desktops; Labs Agree on a Jailbreak Scale",
+      "Claude Voice Mode Starts Running on Opus and Sonnet",
+      "Claude Code and Cowork Reach Government Desktops in Public Beta",
+      "You Can Now Ask Claude About the Anthropic Economic Index",
+      "Managed Agents Get Effort Settings, Wider Webhooks, and Session Seeding",
+      "Mid-Conversation System Messages Go GA; Memory Listing Gets a Stable Order",
+      "Anthropic, Amazon, Microsoft &amp; Google Publish a Shared Jailbreak Scale",
+      "Claude Can Now Watch Video to Learn a Workflow",
+      "Building for the Buyers Who Read the Fine Print"
+    ],
+    "snippet": "Claude AI Daily Brief — July 23, 2026 | Voice Mode Gets Real Opus & Sonnet; Claude Lands on Government Desktops; Labs Agree on a Jailbreak Scale ● Thursday, July 23, 2026 Claude AI Daily Brief — July 23, 2026 Covering the latest from the platform · Edition #146 TL;DR — Today’s Top 3 Takeaways 1. Voi"
+  },
+  {
     "date": "2026-07-22",
     "title": "Claude AI Daily Brief — July 22, 2026 | Ode with Anthropic Launches; API Keys Get Expiration Dates; Cowork Moves to the Cloud",
     "description": "July 22, 2026: Anthropic, Blackstone and Hellman & Friedman stand up Ode, a $1.5B enterprise AI services firm; the Claude Console adds API key expiration and Admin API user management; and Claude Cowork moves to the cloud with mobile and web access.",

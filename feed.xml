@@ -9,6 +9,18 @@
 
     
     <item>
+      <title>Claude AI Daily Brief — July 23, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-23.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-23.html</guid>
+      <pubDate>Thu, 23 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Voice Mode Finally Runs on Opus and Sonnet</strong> — Claude's voice picker stops being cosmetic; selecting Opus or Sonnet now routes your spoken conversation through that model instead of quietly falling back to Haiku.</p>
+        <p><strong>2. Claude Code and Cowork Land on Government Desktops</strong> — A public beta puts both agents inside a FedRAMP High environment, with local history, audit logs, and spend controls, plus a limited $1-per-agency deal through August.</p>
+        <p><strong>3. Four Labs Agree on How to Score a Jailbreak</strong> — Anthropic, Amazon, Microsoft, and Google publish a shared Cyber Jailbreak Severity scale (CJS-0 to CJS-4) to rate how dangerous an AI jailbreak really is.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-23.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — July 22, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-22.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-22.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Two Outages Hit Claude in a Single Day</strong> — A morning Opus 4.8 incident and a later cross-model error spike both took roughly two hours to clear on June 23; Claude for Government stayed up.</p>
         <p><strong>3. Fable 5 Stays Dark on Day 12</strong> — Still suspended under the export directive, with the July 8 ID-verification rollout and an August 1 framework deadline shaping the likely path back.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-24.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — June 23, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-23.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-23.html</guid>
-      <pubDate>Tue, 23 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Fable 5's Paid Meter Starts Today</strong> — Credits at double Opus pricing kick in June 23, even though the model is still suspended for most users under the export-control directive.</p>
-        <p><strong>2. Anthropic Launches a $150M Claude Corps</strong> — A national fellowship that will train and pay 1,000 early-career fellows to spend a year inside US nonprofits.</p>
-        <p><strong>3. Claude Lands in JetBrains IDEs</strong> — Now available as an agent provider in public preview through GitHub Copilot, alongside Claude Code Artifacts and a SpaceX compute deal that lifts usage limits.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-23.html">Read full report →</a></p>
       ]]></description>
     </item>
 
