@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-07-24">
+  <title>Claude AI Daily Brief — July 24, 2026 | Opus 4.7 Fast Mode Sunsets, API Keys Get Expiry Dates, HIPAA Goes Self-Serve</title>
+  <meta name="description" content="July 24, 2026: Fast mode for Claude Opus 4.7 is removed today, the Developer Platform consolidates usage tiers to three and raises limits, API keys gain expiration dates, and Anthropic ships self-serve HIPAA configuration for Enterprise and API orgs.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude Opus 4.8, fast mode deprecation, API key expiration, rate limits, HIPAA, Ode with Anthropic, Claude Cowork, TCS partnership, enterprise AI">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-07-24.html">
+  <meta property="og:title" content="Claude AI Daily Brief — July 24, 2026">
+  <meta property="og:description" content="Opus 4.7 fast mode sunsets today, usage tiers collapse to three with higher limits, API keys get expiration dates, and self-serve HIPAA configuration lands for Enterprise and API orgs.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-24.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — July 24, 2026">
+  <meta name="twitter:description" content="Opus 4.7 fast mode is removed today, usage tiers drop to three with higher limits, API keys gain expiry dates, and HIPAA config goes self-serve for Enterprise and API orgs.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-24.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-07-24.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — July 24, 2026",
+    "description": "Fast mode for Claude Opus 4.7 is removed today, the Developer Platform consolidates usage tiers to three and raises limits, API keys gain expiration dates, and Anthropic ships self-serve HIPAA configuration for Enterprise and API orgs.",
+    "datePublished": "2026-07-24T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-24.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-07-24.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Friday, July 24, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; July 24, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #147</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Opus 4.7 Fast Mode Shuts Off Today</strong> &mdash; As of July 24, requests to Claude Opus 4.7 with <code>speed: "fast"</code> return an error. The move to make: migrate fast-mode traffic to Claude Opus 4.8.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Usage Tiers Collapse to Three, Limits Go Up</strong> &mdash; The Developer Platform folds four tiers into Start, Build, and Scale, raises limits at every level, and stops counting cache-read tokens toward your input-token-per-minute cap.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>HIPAA Configuration Goes Self-Serve</strong> &mdash; Enterprise and API orgs can now review a BAA, download a compliance guide, and flip on HIPAA support in one step &mdash; no back-and-forth with sales required.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Compliance</span>
+      <h3>Self-Serve HIPAA Configuration Arrives for Enterprise and API Orgs</h3>
+      <p>Anthropic added <strong>self-serve HIPAA configuration</strong> for both Claude Enterprise and the Claude Platform. Eligible orgs can review and accept a <strong>Business Associate Agreement</strong>, download an implementation guide, and enable HIPAA support in a single step &mdash; turning what used to be a sales-led, weeks-long process into a few clicks.</p>
+      <p>For healthcare, life sciences, and any team touching protected health information, this lowers the bar to getting Claude into a compliant workflow. It also fits a pattern: Anthropic keeps productizing the paperwork that regulated buyers need, so procurement stops being the reason a deployment stalls.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic Newsroom</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Enterprise</span>
+      <h3>&ldquo;Ode with Anthropic&rdquo; Launches as a $1.5B Enterprise AI Services Firm</h3>
+      <p>The joint venture teased earlier this year now has a name and a brand: <strong>Ode with Anthropic</strong>, an enterprise AI services firm backed by <strong>Anthropic, Blackstone, and Hellman &amp; Friedman</strong>. The venture is valued at roughly <strong>$1.5 billion</strong>, with each of the three partners committing about $300 million.</p>
+      <p>The play is straightforward: big companies want to deploy Claude but lack the internal muscle to do it well, so Ode sells the integration, change-management, and services layer around the models. Expect the &ldquo;model plus services firm&rdquo; pattern &mdash; OpenAI is chasing the same shape &mdash; to define how frontier AI actually lands inside the Fortune 500.</p>
+      <div class="source-links">
+        <a href="https://www.hpcwire.com/aiwire/2026/07/15/anthropic-blackstone-and-hellman-friedman-introduce-ode-with-anthropic-an-enterprise-ai-services-firm/" class="source-link">AIwire</a>
+        <a href="https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/" class="source-link">TechCrunch</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Product</span>
+      <h3>Cowork on Mobile and Web Keeps Widening Its Rollout</h3>
+      <p>Claude <strong>Cowork</strong> &mdash; the agent that works directly with your files and runs tasks in the background &mdash; is continuing to roll out beyond its initial Max-subscriber launch on iOS, Android, and the web. Start a task at your desk, check status on your phone, and pick up the finished output later, even with the laptop closed.</p>
+      <p>The telling detail is the usage mix: Anthropic says data from <strong>1.2 million sessions</strong> shows 90%+ of Cowork use isn&rsquo;t coding &mdash; it&rsquo;s business operations and content work. The coding-agent wars are quietly spilling into the rest of the office, and Cowork is Anthropic&rsquo;s bid for that ground.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/cowork-web-mobile" class="source-link">Claude Blog</a>
+        <a href="https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/" class="source-link">TechCrunch</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Deprecation</span>
+      <h3>Fast Mode for Opus 4.7 Is Removed Today &mdash; Migrate to 4.8</h3>
+      <p>Mark the date: as of <strong>July 24</strong>, fast mode for <strong>Claude Opus 4.7</strong> is gone. Any request sent with <code>speed: "fast"</code> to 4.7 now returns an error rather than degrading gracefully, so anything still pointed at the old model needs to move.</p>
+      <p>The fix is a one-line swap: send fast-mode traffic to <strong>Claude Opus 4.8</strong> instead. If you run scheduled jobs or agents you don&rsquo;t watch daily, this is the kind of quiet break that surfaces as a 4xx in your logs &mdash; worth a grep through your model configs before the weekend.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-developer-platform" class="source-link">Releasebot</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Docs</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Rate Limits</span>
+      <h3>Four Usage Tiers Become Three, and Every Limit Goes Up</h3>
+      <p>Anthropic consolidated its four usage tiers into three &mdash; <strong>Start, Build, and Scale</strong> &mdash; and raised RPM, ITPM, and OTPM limits at every level. Notably, <strong>Sonnet and Haiku now carry the same limits as Opus</strong> within each tier, so picking a cheaper model no longer costs you throughput.</p>
+      <p>The other quiet win: <strong>cache-read tokens no longer count toward your ITPM</strong> on any current model. If you lean on prompt caching, your effective input headroom just went up without you touching a thing &mdash; a real gift for high-volume agent workloads.</p>
+      <div class="source-links">
+        <a href="https://byteiota.com/claude-api-july-2026-rate-limits-key-expiry/" class="source-link">byteiota</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-developer-platform" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Security</span>
+      <h3>API Keys Can Now Carry Expiration Dates</h3>
+      <p>The Claude Console now lets you set an <strong>expiration when you create an API key</strong> &mdash; preset durations, a custom length, or Never. Anthropic emails the key&rsquo;s creator <strong>7 days before expiry</strong> (for keys with at least a 14-day life) and again <strong>1 day before</strong> (for keys living at least 7 days), so rotations stop being a surprise.</p>
+      <p>It&rsquo;s a small setting with outsized security value. Short-lived keys for contractors, CI jobs, and experiments mean a leaked credential has a shelf life &mdash; exactly the hygiene that security reviewers ask about before signing off on a platform.</p>
+      <div class="source-links">
+        <a href="https://byteiota.com/claude-api-july-2026-rate-limits-key-expiry/" class="source-link">byteiota</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Docs</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Deprecation</span>
+      <h3>Legacy Workbench and Prompt Tools APIs Retire August 17</h3>
+      <p>Anthropic is winding down the <strong>legacy Workbench and experimental prompt tools APIs</strong>, with access ending <strong>August 17, 2026</strong>. Teams still calling those endpoints have a few weeks to move off them before they go dark.</p>
+      <p>Paired with today&rsquo;s fast-mode removal, the signal is clear: the platform is pruning its older, experimental surface area to keep the supported path clean. Good discipline for Anthropic, a to-do item for anyone who wired up the early tooling and forgot about it.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Docs</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Partnership</span>
+      <h3>TCS Puts 50,000 Associates on Claude in a Global Premier Partnership</h3>
+      <p>Tata Consultancy Services signed on as a <strong>Global Premier Partner</strong> in the Claude Partner Network, committing to <strong>enable 50,000 associates</strong> with Claude, co-innovate industry solutions, and build AI talent through its TCS iON platform. It&rsquo;s one of the largest single deployments to come out of Anthropic&rsquo;s partner push.</p>
+      <p>The context: Anthropic set aside <strong>$100 million</strong> for partner enablement this year and is expanding partner-facing staff fivefold. Deals like this are how a frontier lab reaches enterprises it will never sell to directly &mdash; through the integrators those enterprises already trust.</p>
+      <div class="source-links">
+        <a href="https://www.tcs.com/who-we-are/newsroom/press-release/tcs-anthropic-launch-global-premier-partnership-drive-enterprise-ai-scaling" class="source-link">TCS Newsroom</a>
+        <a href="https://www.anthropic.com/news/claude-partner-network" class="source-link">Anthropic</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Research</span>
+      <h3>Interpretability Team Finds an &ldquo;Emergent Mental Workspace&rdquo; in Claude</h3>
+      <p>Anthropic&rsquo;s interpretability researchers described an <strong>emergent internal workspace</strong> in Claude &mdash; a &ldquo;J-space&rdquo; that holds intermediate thoughts which never appear in the model&rsquo;s visible output. The work is part of the team&rsquo;s broader effort to map how large models actually reason on the inside.</p>
+      <p>It&rsquo;s early, and the framing has drawn its share of debate about how far the human-cognition analogy should stretch. But the practical stakes are real: understanding where a model &ldquo;thinks&rdquo; before it speaks is foundational to catching misalignment before it reaches the user.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/research" class="source-link">Anthropic Research</a>
+        <a href="https://letsdatascience.com/news/topic/anthropic" class="source-link">Let&rsquo;s Data Science</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>A Maintenance Day, and That&rsquo;s the Point</h3>
+      <p>No new model dropped today. Instead: a fast-mode sunset, a tier reshuffle, key expiration, an API retirement date, self-serve HIPAA, a services JV, a 50,000-seat partner deal. Read as a list it looks like housekeeping. Read as a strategy, it&rsquo;s the unglamorous infrastructure a platform builds when it expects to be load-bearing for a very long time.</p>
+      <p>This is what maturing looks like. Simpler tiers and higher limits make the economics predictable. Expiring keys and self-serve compliance make the security reviewers say yes. Ode and TCS make the deployment actually happen. The frontier-model headlines get the attention, but days like this &mdash; where Anthropic prunes dead surface area and smooths the path for careful buyers &mdash; are where a lab quietly turns into a platform people can&rsquo;t easily leave.</p>
+      <div class="source-links">
+        <a href="https://byteiota.com/claude-api-july-2026-rate-limits-key-expiry/" class="source-link">byteiota (Platform)</a>
+        <a href="https://www.hpcwire.com/aiwire/2026/07/15/anthropic-blackstone-and-hellman-friedman-introduce-ode-with-anthropic-an-enterprise-ai-services-firm/" class="source-link">AIwire (Ode)</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

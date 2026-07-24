@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-07-24",
+    "title": "Claude AI Daily Brief — July 24, 2026 | Opus 4.7 Fast Mode Sunsets, API Keys Get Expiry Dates, HIPAA Goes Self-Serve",
+    "description": "July 24, 2026: Fast mode for Claude Opus 4.7 is removed today, the Developer Platform consolidates usage tiers to three and raises limits, API keys gain expiration dates, and Anthropic ships self-serve HIPAA configuration for Enterprise and API orgs.",
+    "url": "reports/claude-ai-daily-2026-07-24.html",
+    "headlines": [
+      "Opus 4.7 Fast Mode Sunsets",
+      "API Keys Get Expiry Dates",
+      "HIPAA Goes Self-Serve",
+      "Self-Serve HIPAA Configuration Arrives for Enterprise and API Orgs",
+      "&ldquo;Ode with Anthropic&rdquo; Launches as a $1.5B Enterprise AI Services Firm",
+      "Cowork on Mobile and Web Keeps Widening Its Rollout",
+      "Fast Mode for Opus 4.7 Is Removed Today &mdash; Migrate to 4.8",
+      "Four Usage Tiers Become Three, and Every Limit Goes Up",
+      "API Keys Can Now Carry Expiration Dates",
+      "Legacy Workbench and Prompt Tools APIs Retire August 17",
+      "TCS Puts 50,000 Associates on Claude in a Global Premier Partnership",
+      "Interpretability Team Finds an &ldquo;Emergent Mental Workspace&rdquo; in Claude",
+      "A Maintenance Day, and That&rsquo;s the Point"
+    ],
+    "snippet": "Claude AI Daily Brief — July 24, 2026 | Opus 4.7 Fast Mode Sunsets, API Keys Get Expiry Dates, HIPAA Goes Self-Serve ● Friday, July 24, 2026 Claude AI Daily Brief — July 24, 2026 Covering the latest from the platform · Edition #147 TL;DR — Today’s Top 3 Takeaways 1. Opus 4.7 Fast Mode Shuts Off Toda"
+  },
+  {
     "date": "2026-07-23",
     "title": "Claude AI Daily Brief — July 23, 2026 | Voice Mode Gets Real Opus &amp; Sonnet; Claude Lands on Government Desktops; Labs Agree on a Jailbreak Scale",
     "description": "July 23, 2026: Claude Voice Mode starts routing conversations through Opus and Sonnet instead of Haiku; Claude Code and Cowork hit government desktops under FedRAMP High; and Anthropic, Amazon, Microsoft and Google publish a shared jailbreak severity scale.",

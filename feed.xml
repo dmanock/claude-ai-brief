@@ -7,7 +7,19 @@
     <language>en-us</language>
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
-    
+
+    <item>
+      <title>Claude AI Daily Brief — July 24, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-24.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-24.html</guid>
+      <pubDate>Fri, 24 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Opus 4.7 Fast Mode Shuts Off Today</strong> — As of July 24, requests to Claude Opus 4.7 with fast mode return an error; migrate that traffic to Claude Opus 4.8.</p>
+        <p><strong>2. Usage Tiers Collapse to Three</strong> — The Developer Platform folds four tiers into Start, Build, and Scale, raises limits everywhere, and stops counting cache-read tokens toward your input-per-minute cap.</p>
+        <p><strong>3. HIPAA Configuration Goes Self-Serve</strong> — Enterprise and API orgs can now review a BAA, download a compliance guide, and enable HIPAA support in one step.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-24.html">Read full report →</a></p>
+      ]]></description>
+    </item>
     <item>
       <title>Claude AI Daily Brief — July 23, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-23.html</link>
@@ -356,18 +368,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-25.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — June 24, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-24.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-24.html</guid>
-      <pubDate>Wed, 24 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Tag Puts an Always-On Teammate in Slack</strong> — Anthropic's new agent joins channels, holds context, and works tasks asynchronously over hours or days for Team and Enterprise.</p>
-        <p><strong>2. Two Outages Hit Claude in a Single Day</strong> — A morning Opus 4.8 incident and a later cross-model error spike both took roughly two hours to clear on June 23; Claude for Government stayed up.</p>
-        <p><strong>3. Fable 5 Stays Dark on Day 12</strong> — Still suspended under the export directive, with the July 8 ID-verification rollout and an August 1 framework deadline shaping the likely path back.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-24.html">Read full report →</a></p>
-      ]]></description>
-    </item>
+
 
   </channel>
 </rss>
