@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — July 25, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-25.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-25.html</guid>
+      <pubDate>Sat, 25 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Opus 5 Lands</strong> — Anthropic's new flagship approaches Fable 5 performance at roughly half the price, with a 1M-token context window, up to 128K output, and a new five-level effort control.</p>
+        <p><strong>2. Claude Code Makes Opus 5 the Default</strong> — The coding agent ships Opus 5 as its default, adds nested subagents and dynamic workflows, and tightens sandbox controls and error reporting.</p>
+        <p><strong>3. Voice Mode Gets Opus & Sonnet</strong> — Claude's voice mode now runs on Opus and Sonnet with connected tool actions and many more languages, letting you talk through real work and switch models mid-conversation.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-25.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — July 24, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-24.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-24.html</guid>
@@ -356,19 +368,5 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-26.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — June 25, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-25.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-25.html</guid>
-      <pubDate>Thu, 25 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Accuses Alibaba of the Largest-Ever Claude Distillation Attack</strong> — A letter to senators and the White House alleges operators tied to Alibaba's Qwen lab ran 28.8M exchanges across ~25,000 fraudulent accounts.</p>
-        <p><strong>2. Claude Now Handles 95% of Anthropic's Internal Analytics</strong> — Employees query business data directly instead of routing every question through data teams, a striking dogfooding stat as the IPO nears.</p>
-        <p><strong>3. Fable 5 Stays Dark on Day 13</strong> — Still suspended under the export directive with no Commerce response, as the July 8 ID-verification rollout points to a US-citizens-only path back.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-25.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-
   </channel>
 </rss>

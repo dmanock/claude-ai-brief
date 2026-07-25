@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-07-25">
+  <title>Claude AI Daily Brief — July 25, 2026 | Claude Opus 5 Lands, Claude Code Makes It Default, Voice Mode Gets Opus & Sonnet</title>
+  <meta name="description" content="July 25, 2026: Claude Opus 5 arrives with near-Fable performance at half the price, a 1M context window, and five-level effort control. Claude Code ships Opus 5 as its default, voice mode adds Opus and Sonnet, and the Anthropic Economic Index lands as a Claude connector.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude Opus 5, Claude Code, voice mode, 1M context, Anthropic Economic Index, Claude for Government, FedRAMP High, effort control, enterprise AI">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-07-25.html">
+  <meta property="og:title" content="Claude AI Daily Brief — July 25, 2026">
+  <meta property="og:description" content="Claude Opus 5 lands with near-Fable performance at half the price and a 1M context window, Claude Code makes it the default model, and voice mode gains Opus and Sonnet with connected tool actions.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-25.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — July 25, 2026">
+  <meta name="twitter:description" content="Claude Opus 5 arrives at half the price with a 1M context window and five-level effort control; Claude Code makes it default and voice mode adds Opus and Sonnet.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-25.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-07-25.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — July 25, 2026",
+    "description": "Claude Opus 5 arrives with near-Fable performance at half the price, a 1M context window, and five-level effort control. Claude Code ships Opus 5 as its default, voice mode adds Opus and Sonnet, and the Anthropic Economic Index lands as a Claude connector.",
+    "datePublished": "2026-07-25T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-25.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-07-25.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Saturday, July 25, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; July 25, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #148</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Claude Opus 5 Lands</strong> &mdash; Anthropic&rsquo;s new flagship approaches Fable 5 performance at roughly half the price, with a 1M-token context window, up to 128K output, and a new five-level effort control.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Claude Code Makes Opus 5 the Default</strong> &mdash; The coding agent ships Opus 5 as its new default Opus model, adds nested subagents and dynamic workflows, and tightens sandbox controls and error reporting.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Voice Mode Gets Opus &amp; Sonnet</strong> &mdash; Claude&rsquo;s voice mode now runs on Opus and Sonnet with connected tool actions and many more languages, letting you talk through real work and switch models mid-conversation.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Model Launch</span>
+      <h3>Claude Opus 5 Arrives &mdash; Near-Fable Performance at Half the Price</h3>
+      <p>Anthropic launched <strong>Claude Opus 5</strong>, its new flagship for coding, agents, and complex knowledge work. The headline claim: it approaches &mdash; and on several benchmarks surpasses &mdash; the pricier <strong>Fable 5</strong>, while costing roughly <strong>half per task</strong>. It ships with a <strong>1M-token context window</strong>, up to <strong>128K tokens of synchronous output</strong>, and a new <strong>five-level effort control</strong> that lets you dial how hard the model works against how fast it responds.</p>
+      <p>Opus 5 is available across every Anthropic platform and is already the default on Claude Max and the strongest option on Claude Pro. Early testers highlighted its knack for <strong>verifying its own work</strong> and iterating until it succeeds &mdash; in one viral demo it built a computer-vision pipeline from scratch to reconstruct a machine part as a 3D model. This is the model the rest of today&rsquo;s news orbits.</p>
+      <div class="source-links">
+        <a href="https://www.bloomberg.com/news/articles/2026-07-24/anthropic-unveils-more-cost-efficient-model-for-everyday-tasks" class="source-link">Bloomberg</a>
+        <a href="https://interestingengineering.com/culture/anthropic-claude-opus-5-coding-performance" class="source-link">Interesting Engineering</a>
+        <a href="https://www.digitalapplied.com/blog/claude-opus-5-launch-benchmarks-pricing-2026" class="source-link">Digital Applied</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Product</span>
+      <h3>Voice Mode Expands to Opus and Sonnet, Plus Connected Tools</h3>
+      <p>Claude&rsquo;s <strong>voice mode</strong> got a major upgrade: it now runs on <strong>Opus and Sonnet</strong>, supports <strong>connected tool actions</strong>, and adds many more languages. You can talk through real work, switch models mid-conversation, and move from a spoken conversation straight into doing &mdash; across mobile, desktop, and web.</p>
+      <p>The shift matters because voice stops being a novelty demo and starts being a way to actually drive Claude. Ask a question out loud, have it call a connected tool, and get work done without touching the keyboard &mdash; the same agentic muscle behind Cowork and Claude Code, now available hands-free.</p>
+      <div class="source-links">
+        <a href="https://aitoolsrecap.com/Blog/ai-news-july-24-2026" class="source-link">AIToolsRecap</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Product</span>
+      <h3>Cowork Expands Across Mobile and Web</h3>
+      <p>Claude <strong>Cowork</strong> &mdash; the agent that works directly with your files and runs tasks in the background &mdash; is widening its rollout so sessions and files <strong>follow you across devices</strong>. Start work at your desk, approve a step from your phone, and pick up scheduled tasks, shared chats, and projects wherever you are.</p>
+      <p>The pattern is consistent with Anthropic&rsquo;s read of how people actually use Cowork: the vast majority of sessions aren&rsquo;t coding &mdash; they&rsquo;re business operations and content work. Making the agent portable, with background execution and mobile approvals, is how Anthropic pushes that everyday-office use case further into daily habit.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/cowork-web-mobile" class="source-link">Claude Blog</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code Ships Opus 5 as Default, Adds Nested Subagents</h3>
+      <p>Claude Code now runs <strong>Claude Opus 5</strong> as its default Opus model and layers on <strong>dynamic workflows, nested subagents</strong>, improved MCP handling, and more reliable runners. It also tightens the screws on safety: <strong>stricter sandbox controls</strong>, better error reporting, and fixes across model selection, remote control, and terminal behavior.</p>
+      <p>Nested subagents are the standout &mdash; an agent can now spin up its own sub-agents for a task, which is the kind of hierarchy real multi-step engineering work demands. Paired with Opus 5&rsquo;s 1M context, Claude Code can hold far more of a codebase in view while it works.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+        <a href="https://www.gradually.ai/en/changelogs/claude-code/" class="source-link">Claude Code Changelog</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Pricing</span>
+      <h3>Opus 5 API Pricing: $5/$25, With a Faster Mode</h3>
+      <p>For builders, Opus 5 lands at <strong>$5 per million input tokens and $25 per million output</strong> &mdash; the same API pricing as Opus 4.8, for a stronger model. There&rsquo;s also a <strong>fast mode</strong> that runs about <strong>2.5x quicker</strong> than the default at twice the cost (roughly <code>$10 / $50</code> per Mtok), for latency-sensitive workloads.</p>
+      <p>The economics are the real story: the same price as the model it replaces, near-Fable capability, and a five-level effort dial so you only pay for the compute a task actually needs. For agent builders watching token spend, that&rsquo;s a meaningful upgrade without a bill shock.</p>
+      <div class="source-links">
+        <a href="https://kingy.ai/blog/claude-opus-5-specs-benchmarks-pricing/" class="source-link">Kingy AI</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Connector</span>
+      <h3>Anthropic Economic Index Comes to Claude as a Connector</h3>
+      <p>Anthropic shipped the <strong>Anthropic Economic Index connector</strong>, letting anyone explore AI-usage data directly inside a Claude chat. Ask about occupations, tasks, and adoption trends, and Claude answers grounded in the Index &mdash; with the underlying source data available right in the conversation.</p>
+      <p>It&rsquo;s a neat demonstration of the connector model: instead of downloading a dataset and wrangling it yourself, you query it conversationally. For researchers, journalists, and policy folks tracking how AI is reshaping work, it turns a static report into something you can actually interrogate.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic Newsroom</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Public Sector</span>
+      <h3>Claude Code and Cowork Reach Government in Public Beta</h3>
+      <p>Anthropic put <strong>Claude Code and Claude Cowork</strong> into public beta inside <strong>Claude for Government Desktop</strong>, delivered in a <strong>FedRAMP High</strong> authorized environment and spanning all three branches of the federal government. Agency staff can delegate memos, RFP reviews, casework, and decks to Cowork, or modernize software systems with Claude Code.</p>
+      <p>Governance is the selling point: admins set configuration defaults and control spending across departments, while security teams get <strong>tamper-evident audit logs</strong> and ATO documentation. A limited-time program even makes it available to agencies at <strong>$1 per agency</strong> (unlimited seats) through August 2026.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government" class="source-link">Claude Blog</a>
+        <a href="https://enterprisedna.co/resources/news/anthropic-claude-code-cowork-government-fedramp-july-2026/" class="source-link">Enterprise DNA</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>The Opus 5 Playbook: Push Capability Down, Push Price Down With It</h3>
+      <p>Yesterday was plumbing; today is the payload. Opus 5 isn&rsquo;t just faster &mdash; it&rsquo;s Fable-class work at Opus-class prices, and Anthropic wired the whole stack to absorb it in a day. Claude Code makes it default, voice mode carries it hands-free, Cowork carries it across your devices, and government buyers get it under FedRAMP High. That&rsquo;s a launch designed to land everywhere at once.</p>
+      <p>The quiet strategic move is the <strong>five-level effort control</strong>. Anthropic is telling builders: stop choosing between models on capability, and start choosing on how much compute each task deserves. When the frontier gets cheaper and the dial gets finer, the question shifts from &ldquo;can the model do this?&rdquo; to &ldquo;how little am I willing to spend to have it done well?&rdquo; That&rsquo;s the sound of frontier AI becoming a metered utility &mdash; and yesterday&rsquo;s boring infrastructure work is exactly what makes a day like today possible.</p>
+      <div class="source-links">
+        <a href="https://interestingengineering.com/culture/anthropic-claude-opus-5-coding-performance" class="source-link">Interesting Engineering (Opus 5)</a>
+        <a href="https://aitoolsrecap.com/Blog/ai-news-july-24-2026" class="source-link">AIToolsRecap (Voice)</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

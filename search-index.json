@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-07-25",
+    "title": "Claude AI Daily Brief — July 25, 2026 | Claude Opus 5 Lands, Claude Code Makes It Default, Voice Mode Gets Opus & Sonnet",
+    "description": "July 25, 2026: Claude Opus 5 arrives with near-Fable performance at half the price, a 1M context window, and five-level effort control. Claude Code ships Opus 5 as its default, voice mode adds Opus and Sonnet, and the Anthropic Economic Index lands as a Claude connector.",
+    "url": "reports/claude-ai-daily-2026-07-25.html",
+    "headlines": [
+      "Claude Opus 5 Lands",
+      "Claude Code Makes It Default",
+      "Voice Mode Gets Opus & Sonnet",
+      "Claude Opus 5 Arrives &mdash; Near-Fable Performance at Half the Price",
+      "Voice Mode Expands to Opus and Sonnet, Plus Connected Tools",
+      "Cowork Expands Across Mobile and Web",
+      "Claude Code Ships Opus 5 as Default, Adds Nested Subagents",
+      "Opus 5 API Pricing: $5/$25, With a Faster Mode",
+      "Anthropic Economic Index Comes to Claude as a Connector",
+      "Claude Code and Cowork Reach Government in Public Beta",
+      "The Opus 5 Playbook: Push Capability Down, Push Price Down With It"
+    ],
+    "snippet": "Claude AI Daily Brief — July 25, 2026 | Claude Opus 5 Lands, Claude Code Makes It Default, Voice Mode Gets Opus & Sonnet ● Saturday, July 25, 2026 Claude AI Daily Brief — July 25, 2026 Covering the latest from the platform · Edition #148 TL;DR — Today’s Top 3 Takeaways 1. Claude Opus 5 Lands — Anthr"
+  },
+  {
     "date": "2026-07-24",
     "title": "Claude AI Daily Brief — July 24, 2026 | Opus 4.7 Fast Mode Sunsets, API Keys Get Expiry Dates, HIPAA Goes Self-Serve",
     "description": "July 24, 2026: Fast mode for Claude Opus 4.7 is removed today, the Developer Platform consolidates usage tiers to three and raises limits, API keys gain expiration dates, and Anthropic ships self-serve HIPAA configuration for Enterprise and API orgs.",
