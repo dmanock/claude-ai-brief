@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-07-26",
+    "title": "Claude AI Daily Brief — July 26, 2026 | Samsung SDS Signs On, Claude Code Tightens Subagents, API Gets Automatic Fallbacks",
+    "description": "July 26, 2026: Samsung SDS signs a strategic partnership to put Claude Enterprise in front of ~70,000 employees, Claude Code 2.1.220 adds subagent guardrails, the API gains automatic fallbacks and a Rate Limits API, and a brief service disruption is resolved.",
+    "url": "reports/claude-ai-daily-2026-07-26.html",
+    "headlines": [
+      "Samsung SDS Signs On",
+      "Claude Code Tightens Subagents",
+      "API Gets Automatic Fallbacks",
+      "Samsung SDS Signs Strategic Partnership to Deploy Claude Enterprise",
+      "Brief Service Disruption Hits Multiple Models, Then Clears",
+      "Claude Code 2.1.220 Adds Guardrails Around Nested Subagents",
+      "Automatic Fallbacks and a New Rate Limits API",
+      "Ode with Anthropic: A $1.5B Bet on Implementation Over Models",
+      "The Enterprise Roster Keeps Growing: Allianz Joins In",
+      "After the Model, the Land Grab"
+    ],
+    "snippet": "Claude AI Daily Brief — July 26, 2026 | Samsung SDS Signs On, Claude Code Tightens Subagents, API Gets Automatic Fallbacks ● Sunday, July 26, 2026 Claude AI Daily Brief — July 26, 2026 Covering the latest from the platform · Edition #149 TL;DR — Today’s Top 3 Takeaways 1. Samsung SDS Signs On — A ne"
+  },
+  {
     "date": "2026-07-25",
     "title": "Claude AI Daily Brief — July 25, 2026 | Claude Opus 5 Lands, Claude Code Makes It Default, Voice Mode Gets Opus & Sonnet",
     "description": "July 25, 2026: Claude Opus 5 arrives with near-Fable performance at half the price, a 1M context window, and five-level effort control. Claude Code ships Opus 5 as its default, voice mode adds Opus and Sonnet, and the Anthropic Economic Index lands as a Claude connector.",

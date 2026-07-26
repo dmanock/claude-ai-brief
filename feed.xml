@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — July 26, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-26.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-26.html</guid>
+      <pubDate>Sun, 26 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Samsung SDS Signs On</strong> — A new strategic partnership puts Claude Enterprise in front of roughly 70,000 employees across 20 Samsung affiliates, with plans to grow AI adoption and train engineers in South Korea.</p>
+        <p><strong>2. Claude Code Tightens Subagents</strong> — Version 2.1.220 lets subagents nest up to depth 3 by default but adds per-session spawn caps and web-search limits to stop runaway delegation loops.</p>
+        <p><strong>3. API Gets Automatic Fallbacks</strong> — Requests flagged by safety classifiers on Opus 5 or Fable 5 can now auto-route to another model, and a new Rate Limits API lets admins query their limits programmatically.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-26.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — July 25, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-25.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-25.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Claude's Paid Consumer Base Is Up 75%</strong> — Card-transaction data shows Claude's paying users climbing fast as it closes the gap with ChatGPT, whose share slipped below 50% for the first time this year.</p>
         <p><strong>3. Claude Code Adds MCP Login and /rewind Across /clear</strong> — New claude mcp login/logout commands, a /rewind that survives a /clear, and background subagents that now surface permission prompts instead of auto-denying.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-27.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — June 26, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-26.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-26.html</guid>
-      <pubDate>Fri, 26 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Tag Goes From Launch to Scrutiny</strong> — Anthropic's persistent Slack "teammate" draws pushback over always-on memory and the "one Claude everywhere" model, even as it writes 65% of its product team's code.</p>
-        <p><strong>2. Claude Code Ships Reliability Update + Git Guardrails</strong> — /rewind, sturdier MCP and OAuth, lower CPU/memory use, and an auto mode that now blocks risky git and destroy commands unless you ask.</p>
-        <p><strong>3. Fable 5 Stays Dark on Day 14</strong> — Still suspended under the export directive, with the July 8 ID-verification rollout shaping the likely US-only path back.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-26.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>
