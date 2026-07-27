@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-07-27",
+    "title": "Claude AI Daily Brief — July 27, 2026 | Opus 5 Undercuts Fable 5, Voice Mode Goes Multi-Model, IPO Roadshow Underway",
+    "description": "July 27, 2026: Claude Opus 5 lands as the new default at half the price of Fable 5, voice mode adds model choice, Claude Code ships an admin usage console, and Anthropic's IPO roadshow gets going under ticker ANTH.",
+    "url": "reports/claude-ai-daily-2026-07-27.html",
+    "headlines": [
+      "Opus 5 Undercuts Fable 5",
+      "Voice Mode Goes Multi-Model",
+      "IPO Roadshow Underway",
+      "Opus 5 Becomes the Default &mdash; at Half the Price of Fable 5",
+      "Claude Voice Mode Adds Model Choice",
+      "Claude Cowork Moves to the Cloud",
+      "Claude Code Ships Polish: Emoji Autocomplete, Memory Fixes, Tighter Budgets",
+      "Admin Console Gets Usage and Value Insights",
+      "Anthropic&rsquo;s IPO Roadshow Gets Going",
+      "Claude for Teachers Enters the Classroom Race",
+      "Cheaper-and-Better Is the Whole Strategy"
+    ],
+    "snippet": "Claude AI Daily Brief — July 27, 2026 | Opus 5 Undercuts Fable 5, Voice Mode Goes Multi-Model, IPO Roadshow Underway ● Monday, July 27, 2026 Claude AI Daily Brief — July 27, 2026 Covering the latest from the platform · Edition #150 TL;DR — Today’s Top 3 Takeaways 1. Opus 5 Undercuts Fable 5 — Claude"
+  },
+  {
     "date": "2026-07-26",
     "title": "Claude AI Daily Brief — July 26, 2026 | Samsung SDS Signs On, Claude Code Tightens Subagents, API Gets Automatic Fallbacks",
     "description": "July 26, 2026: Samsung SDS signs a strategic partnership to put Claude Enterprise in front of ~70,000 employees, Claude Code 2.1.220 adds subagent guardrails, the API gains automatic fallbacks and a Rate Limits API, and a brief service disruption is resolved.",

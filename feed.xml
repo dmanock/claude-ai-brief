@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — July 27, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-27.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-27.html</guid>
+      <pubDate>Mon, 27 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Opus 5 Undercuts Fable 5</strong> — Claude Opus 5 rolls out as the new default on Max and strongest on Pro, priced at half of Fable 5 — $5 per million input tokens and $25 per million output.</p>
+        <p><strong>2. Voice Mode Goes Multi-Model</strong> — Claude's voice mode now lets users pick Opus, Sonnet, or Haiku, bringing frontier reasoning to spoken conversations instead of a single fixed model.</p>
+        <p><strong>3. IPO Roadshow Underway</strong> — Anthropic has begun investor meetings ahead of a potential fall listing under ticker ANTH, following its confidential S-1 and a $965B valuation.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-27.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — July 26, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-26.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-26.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Claude Lands in Apple's Foundation Models Framework</strong> — A new official Swift package lets iOS 27 apps call Claude through the same LanguageModelSession API Apple uses for its on-device model.</p>
         <p><strong>3. Claude Design Overhaul Hits 1M Users in Week One</strong> — Brand controls, design-system import, direct canvas editing, and code handoff to Vercel, Canva and more drew a million people in the first week.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-28.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — June 27, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-27.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-27.html</guid>
-      <pubDate>Sat, 27 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. US Clears Mythos 5 for ~100 Trusted Partners</strong> — Commerce lifted its export block on Claude's most powerful model for a named allowlist of companies and agencies, ending a two-week standoff, but left consumer model Fable 5 out of the deal.</p>
-        <p><strong>2. Claude's Paid Consumer Base Is Up 75%</strong> — Card-transaction data shows Claude's paying users climbing fast as it closes the gap with ChatGPT, whose share slipped below 50% for the first time this year.</p>
-        <p><strong>3. Claude Code Adds MCP Login and /rewind Across /clear</strong> — New claude mcp login/logout commands, a /rewind that survives a /clear, and background subagents that now surface permission prompts instead of auto-denying.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-27.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>
