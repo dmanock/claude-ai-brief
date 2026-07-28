@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — July 28, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-28.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-28.html</guid>
+      <pubDate>Tue, 28 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Economic Index Connector Lands</strong> — Anyone can now ask Claude about the Anthropic Economic Index, with answers on occupations, tasks, and geography drawn straight from the public AI-usage dataset.</p>
+        <p><strong>2. Cowork Goes Mobile and Web</strong> — Claude Cowork is in beta on the web and phone for Max users, running tasks in the cloud even when no device is online, with doubled usage limits through August 5.</p>
+        <p><strong>3. API Adds Mid-Conversation Tools</strong> — Developers can now add or remove tools between turns while keeping the prompt cache, plus a new "default" fallback mode for backup models.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-28.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — July 27, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-27.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-27.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Claude Code Ships Artifacts</strong> — A session now becomes a live web page built from your codebase, connectors, and the conversation — PR walkthroughs, incident timelines, dashboards — updating in place with version history, private to your org.</p>
         <p><strong>3. Anthropic Leads the Enterprise — Pricing Is the Soft Spot</strong> — Claude is past OpenAI in business adoption and holds ~54% of enterprise coding, but usage-based pricing is the pressure point, and Uber is exhibit A.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-29.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — June 28, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-28.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-28.html</guid>
-      <pubDate>Sun, 28 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Maps How the World Uses Claude</strong> — The new Economic Index "Cadences" report links ~9,700 survey responses to real usage: work queries dip on weekends, news requests peak in the morning, and sleep advice spikes at 5 a.m.</p>
-        <p><strong>2. Claude Lands in Apple's Foundation Models Framework</strong> — A new official Swift package lets iOS 27 apps call Claude through the same LanguageModelSession API Apple uses for its on-device model.</p>
-        <p><strong>3. Claude Design Overhaul Hits 1M Users in Week One</strong> — Brand controls, design-system import, direct canvas editing, and code handoff to Vercel, Canva and more drew a million people in the first week.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-28.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-07-28">
+  <title>Claude AI Daily Brief — July 28, 2026 | Economic Index Connector Lands, Cowork Goes Mobile, API Adds Mid-Conversation Tools</title>
+  <meta name="description" content="July 28, 2026: Anthropic's Economic Index connector lets anyone query AI jobs data inside Claude, Cowork rolls to mobile and web for Max users with doubled limits, and the API adds mid-conversation tool changes and default server-side fallbacks.">
+  <meta name="keywords" content="Claude AI, Anthropic, Anthropic Economic Index, Claude Cowork, Claude API, mid-conversation tools, server-side fallbacks, agent memory, Claude enterprise HIPAA, Anthropic IPO">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-07-28.html">
+  <meta property="og:title" content="Claude AI Daily Brief — July 28, 2026">
+  <meta property="og:description" content="The Economic Index connector brings AI jobs data into Claude, Cowork expands to mobile and web with doubled limits, and the API gains mid-conversation tool changes.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-28.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — July 28, 2026">
+  <meta name="twitter:description" content="Economic Index connector lands in Claude, Cowork goes mobile and web for Max users, and the API adds mid-conversation tool changes and default fallbacks.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-28.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-07-28.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — July 28, 2026",
+    "description": "Anthropic's Economic Index connector lets anyone query AI jobs data inside Claude, Cowork rolls to mobile and web for Max users with doubled limits, and the API adds mid-conversation tool changes and default server-side fallbacks.",
+    "datePublished": "2026-07-28T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-28.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-07-28.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Tuesday, July 28, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; July 28, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #151</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Economic Index Connector Lands</strong> &mdash; Anyone can now ask Claude about the Anthropic Economic Index, with answers on occupations, tasks, and geography drawn straight from the public AI-usage dataset.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Cowork Goes Mobile and Web</strong> &mdash; Claude Cowork is in beta on the web and phone for Max users, running tasks in the cloud even when no device is online, with doubled usage limits through August 5.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>API Adds Mid-Conversation Tools</strong> &mdash; Developers can now add or remove tools between turns while keeping the prompt cache, and a new &ldquo;default&rdquo; fallback mode applies Anthropic&rsquo;s recommended backup models.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Product</span>
+      <h3>The Anthropic Economic Index Connector Puts AI Jobs Data Inside Claude</h3>
+      <p>Anthropic launched a <strong>connector for the Anthropic Economic Index</strong>, its public dataset measuring how AI is actually used across the economy. Turn it on and you can ask Claude plain-language questions &mdash; <em>which occupations use AI the most, what tasks teachers automate, the most common use cases in a given state</em> &mdash; with answers grounded directly in the Index rather than the model&rsquo;s guesswork.</p>
+      <p>Setup is a one-click enable inside the connectors directory, no install, and it works in any conversation on any model. The current data still skews toward software development and technical writing, but over a third of occupations now show AI use in at least a quarter of their tasks &mdash; and now that number is queryable in chat.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/anthropic-economic-index-connector" class="source-link">Anthropic Newsroom</a>
+        <a href="https://www.startuphub.ai/ai-news/artificial-intelligence/2026/anthropic-unlocks-ai-economic-data" class="source-link">StartupHub</a>
+        <a href="https://www.tun.com/home/anthropic-lets-you-query-its-ai-jobs-data-through-claude/" class="source-link">TUN</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Product</span>
+      <h3>Claude Cowork Expands to Mobile and Web &mdash; With Doubled Limits</h3>
+      <p><strong>Claude Cowork</strong>, the agent that runs multi-step file-and-task work, is now in beta on <strong>the web and the Claude mobile apps</strong> for <strong>Max subscribers</strong>, alongside the desktop app. The headline capability: tasks run <strong>in the cloud even when no device is online</strong>, and Claude pings you for approval when it hits a step that needs a decision.</p>
+      <p>To encourage people to push it harder, Anthropic <strong>doubled the five-hour Cowork usage limits through August 5</strong> for eligible Pro, Max, Team, and legacy Enterprise seats. The rollout is staged &mdash; Max first, other tiers in the coming weeks &mdash; effectively turning your phone into a remote control for background AI work.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/cowork-web-mobile" class="source-link">Claude Blog</a>
+        <a href="https://www.macrumors.com/2026/07/07/claude-cowork-mobile-web/" class="source-link">MacRumors</a>
+        <a href="https://www.helpnetsecurity.com/2026/07/08/claude-cowork-phone-mobile-web/" class="source-link">Help Net Security</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">API</span>
+      <h3>Mid-Conversation Tool Changes and Default Fallbacks Hit Beta</h3>
+      <p>Two useful additions on the Claude Developer Platform. First, <strong>mid-conversation tool changes</strong> (beta): you can now <strong>add or remove tools between turns</strong> of a conversation while <strong>preserving the prompt cache</strong> &mdash; so an agent can gain or drop capabilities mid-flow without paying to re-warm the context.</p>
+      <p>Second, the <code>fallbacks</code> parameter gains a <strong>&ldquo;default&rdquo; mode</strong> that applies Anthropic&rsquo;s recommended backup models by refusal category, instead of making you hand-pick fallbacks yourself. Together they make long-running agent sessions cheaper to adapt and more resilient when a primary model declines a request.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-developer-platform" class="source-link">Releasebot</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Anthropic Release Notes</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Agent Memory Gets a Stable Order; Claude Code Ships More Polish</h3>
+      <p>The new <code>agent-memory-2026-07-22</code> beta header makes <strong>memory listings return a stable, server-defined order</strong> and tightens depth and cursor behaviors &mdash; a small but meaningful fix for anyone building agents that read and write persistent memory and need deterministic results.</p>
+      <p>On the CLI side, recent <strong>Claude Code</strong> releases added emoji shortcode autocomplete, clearer transcript-write warnings, and a fix for a memory leak where truncated MCP outputs held the full result all session, plus improvements to resume flows, telemetry settings, and Windows stability.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+        <a href="https://code.claude.com/docs/en/whats-new" class="source-link">Claude Code What&rsquo;s New</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Enterprise</span>
+      <h3>Enterprise Hardening: HIPAA Configuration and Government Deployment</h3>
+      <p>Anthropic continues to build out the compliance side of Claude for regulated buyers, with recent updates adding <strong>HIPAA configuration options for Enterprise</strong> and expanded <strong>government deployment</strong> paths. It&rsquo;s unglamorous plumbing, but it&rsquo;s exactly what healthcare systems and public-sector agencies need before they can move Claude from pilot to production.</p>
+      <p>The pattern is consistent with everything else this week: Anthropic is filling in the surrounding layer &mdash; connectors, cloud agents, compliance controls &mdash; that turns a capable model into something a risk-averse organization can actually standardize on.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Anthropic Release Notes</a>
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic Newsroom</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Business</span>
+      <h3>Opus 5 Momentum Feeds the IPO Story</h3>
+      <p>The backdrop to all of it: <strong>Claude Opus 5</strong>, launched July 24 at roughly <strong>half of Fable 5&rsquo;s price</strong> ($5 / $25 per million tokens) and now the default on Max, keeps drawing developers as Anthropic <strong>meets investors ahead of a possible fall IPO</strong> under ticker ANTH. The company filed a confidential S-1 on June 1 next to a $65B round valuing it near <strong>$965 billion</strong>.</p>
+      <p>No date or price range is set. But the sequencing is deliberate &mdash; cheaper flagship model, broader product surface, more enterprise compliance &mdash; each piece stacking usage and revenue momentum right as the listing conversation heats up.</p>
+      <div class="source-links">
+        <a href="https://www.cnbc.com/2026/07/24/anthropic-claude-opus-5-ai-fable-5-cost.html" class="source-link">CNBC</a>
+        <a href="https://www.startuphub.ai/ai-news/ipo-watch/2026/anthropic-ipo-roadshow-begins-2026-07-16" class="source-link">StartupHub</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Anthropic Is Quietly Building the Utility Layer</h3>
+      <p>Zoom out from today&rsquo;s individual items &mdash; an Economic Index connector, Cowork running in the cloud from your phone, mid-conversation tools in the API, HIPAA config for Enterprise &mdash; and they rhyme. None of them is a new frontier model. All of them make Claude easier to <strong>leave running inside a workflow</strong>. Anthropic already has the capability story; this week is about the <strong>surface area around it</strong>.</p>
+      <p>That&rsquo;s the smart move heading into an IPO. Raw model benchmarks are volatile and easily matched; connectors, cloud agents, compliance controls, and sticky developer plumbing are the things that compound into switching costs. If you&rsquo;re building on Claude, plan for a world where the model is a commodity and the <strong>integration is the moat</strong> &mdash; and notice that Anthropic is building that moat in public, one unglamorous release at a time.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/anthropic-economic-index-connector" class="source-link">Economic Index Connector</a>
+        <a href="https://claude.com/blog/cowork-web-mobile" class="source-link">Cowork Web &amp; Mobile</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

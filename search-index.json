@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-07-28",
+    "title": "Claude AI Daily Brief — July 28, 2026 | Economic Index Connector Lands, Cowork Goes Mobile, API Adds Mid-Conversation Tools",
+    "description": "July 28, 2026: Anthropic's Economic Index connector lets anyone query AI jobs data inside Claude, Cowork rolls to mobile and web for Max users with doubled limits, and the API adds mid-conversation tool changes and default server-side fallbacks.",
+    "url": "reports/claude-ai-daily-2026-07-28.html",
+    "headlines": [
+      "Economic Index Connector Lands",
+      "Cowork Goes Mobile",
+      "API Adds Mid-Conversation Tools",
+      "The Anthropic Economic Index Connector Puts AI Jobs Data Inside Claude",
+      "Claude Cowork Expands to Mobile and Web &mdash; With Doubled Limits",
+      "Mid-Conversation Tool Changes and Default Fallbacks Hit Beta",
+      "Agent Memory Gets a Stable Order; Claude Code Ships More Polish",
+      "Enterprise Hardening: HIPAA Configuration and Government Deployment",
+      "Opus 5 Momentum Feeds the IPO Story",
+      "Anthropic Is Quietly Building the Utility Layer"
+    ],
+    "snippet": "Claude AI Daily Brief — July 28, 2026 | Economic Index Connector Lands, Cowork Goes Mobile, API Adds Mid-Conversation Tools ● Tuesday, July 28, 2026 Claude AI Daily Brief — July 28, 2026 Covering the latest from the platform · Edition #151 TL;DR — Today’s Top 3 Takeaways 1. Economic Index Connector "
+  },
+  {
     "date": "2026-07-27",
     "title": "Claude AI Daily Brief — July 27, 2026 | Opus 5 Undercuts Fable 5, Voice Mode Goes Multi-Model, IPO Roadshow Underway",
     "description": "July 27, 2026: Claude Opus 5 lands as the new default at half the price of Fable 5, voice mode adds model choice, Claude Code ships an admin usage console, and Anthropic's IPO roadshow gets going under ticker ANTH.",
