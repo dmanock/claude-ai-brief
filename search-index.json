@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-07-29",
+    "title": "Claude AI Daily Brief — July 29, 2026 | Claude Mythos Cracks HAWK Cipher, MCP Goes Stateless, Cognizant Deepens Alliance",
+    "description": "July 29, 2026: Claude Mythos Preview finds a real weakness in the HAWK post-quantum cipher and speeds a 7-round AES attack, the MCP 2026-07-28 stateless spec comes to Claude, and Cognizant becomes a Global Premier Partner with 30,000 associates trained.",
+    "url": "reports/claude-ai-daily-2026-07-29.html",
+    "headlines": [
+      "Claude Mythos Cracks HAWK Cipher",
+      "MCP Goes Stateless",
+      "Cognizant Deepens Alliance",
+      "Claude Mythos Finds a Real Weakness in the HAWK Post-Quantum Cipher",
+      "The Stateless MCP 2026-07-28 Spec Comes to Claude",
+      "Published Artifacts Get Live MCP Data &mdash; and Subagents Go Three Deep",
+      "What Stateless MCP Means for the People Actually Building Agents",
+      "Cognizant Deepens Its Anthropic Alliance, Trains 30,000 on Claude",
+      "Claude Settles Into Microsoft Foundry as the Azure Path Matures",
+      "Cryptanalysis Just Became a Compute Line Item"
+    ],
+    "snippet": "Claude AI Daily Brief — July 29, 2026 | Claude Mythos Cracks HAWK Cipher, MCP Goes Stateless, Cognizant Deepens Alliance ● Wednesday, July 29, 2026 Claude AI Daily Brief — July 29, 2026 Covering the latest from the platform · Edition #152 TL;DR — Today’s Top 3 Takeaways 1. Claude Mythos Cracks the H"
+  },
+  {
     "date": "2026-07-28",
     "title": "Claude AI Daily Brief — July 28, 2026 | Economic Index Connector Lands, Cowork Goes Mobile, API Adds Mid-Conversation Tools",
     "description": "July 28, 2026: Anthropic's Economic Index connector lets anyone query AI jobs data inside Claude, Cowork rolls to mobile and web for Max users with doubled limits, and the API adds mid-conversation tool changes and default server-side fallbacks.",

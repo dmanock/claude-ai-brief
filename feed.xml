@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — July 29, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-29.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-29.html</guid>
+      <pubDate>Wed, 29 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Mythos Cracks the HAWK Cipher</strong> — A preview model found a real, previously unknown weakness in the HAWK post-quantum scheme, cutting the best key-recovery attack from 2^64 to 2^38 operations in 60 hours, plus a 200-800x faster attack on 7-round AES.</p>
+        <p><strong>2. MCP Goes Stateless in Claude</strong> — The new MCP 2026-07-28 spec brings a request/response core, production OAuth and OIDC, and versioned Apps and Tasks extensions, letting connectors run serverless and at the edge.</p>
+        <p><strong>3. Cognizant Deepens the Alliance</strong> — Cognizant becomes a Global Premier Partner in the Claude Partner Network, embedding Claude across its industry platforms with 30,000+ associates now Claude-trained.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-29.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — July 28, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-28.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-28.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Claude Goes GA on Microsoft Azure</strong> — Claude is now generally available in Microsoft Foundry, with Opus 4.8 and Haiku 4.5 in the Messages API plus Azure-native identity, billing, and US data zones.</p>
         <p><strong>3. Anthropic's IPO March Continues</strong> — After a $65B Series H at a $965B valuation and a confidential IPO filing, run-rate revenue has crossed $47B with a first profitable quarter in sight.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-30.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — June 29, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-29.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-29.html</guid>
-      <pubDate>Mon, 29 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Uber's AI Budget Blowout Is Every CTO's Cautionary Tale</strong> — Uber burned through its entire 2026 AI coding budget in four months, much of it on Claude Code, and capped engineers at $1,500 per tool per month after agentic adoption hit 84%.</p>
-        <p><strong>2. Claude Code Ships Artifacts</strong> — A session now becomes a live web page built from your codebase, connectors, and the conversation — PR walkthroughs, incident timelines, dashboards — updating in place with version history, private to your org.</p>
-        <p><strong>3. Anthropic Leads the Enterprise — Pricing Is the Soft Spot</strong> — Claude is past OpenAI in business adoption and holds ~54% of enterprise coding, but usage-based pricing is the pressure point, and Uber is exhibit A.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-29.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

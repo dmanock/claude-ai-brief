@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-07-29">
+  <title>Claude AI Daily Brief — July 29, 2026 | Claude Mythos Cracks HAWK Cipher, MCP Goes Stateless, Cognizant Deepens Alliance</title>
+  <meta name="description" content="July 29, 2026: Claude Mythos Preview finds a real weakness in the HAWK post-quantum cipher and speeds a 7-round AES attack, the MCP 2026-07-28 stateless spec comes to Claude, and Cognizant becomes a Global Premier Partner with 30,000 associates trained.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude Mythos, HAWK cryptanalysis, post-quantum, MCP 2026-07-28, stateless MCP, Cognizant Anthropic, Claude Code, nested subagents, Anthropic IPO">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-07-29.html">
+  <meta property="og:title" content="Claude AI Daily Brief — July 29, 2026">
+  <meta property="og:description" content="Claude Mythos finds a real weakness in the HAWK post-quantum cipher, the MCP 2026-07-28 stateless spec lands in Claude, and Cognizant deepens its Anthropic alliance.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-29.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — July 29, 2026">
+  <meta name="twitter:description" content="Claude Mythos cracks the HAWK post-quantum cipher in 60 hours, MCP goes stateless in Claude, and Cognizant becomes a Global Premier Partner.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-29.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-07-29.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — July 29, 2026",
+    "description": "Claude Mythos Preview finds a real weakness in the HAWK post-quantum cipher and speeds a 7-round AES attack, the MCP 2026-07-28 stateless spec comes to Claude, and Cognizant becomes a Global Premier Partner with 30,000 associates trained.",
+    "datePublished": "2026-07-29T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-29.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-07-29.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Wednesday, July 29, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; July 29, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #152</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Claude Mythos Cracks the HAWK Cipher</strong> &mdash; A preview model found a real, previously unknown weakness in HAWK, a post-quantum signature scheme, cutting the best key-recovery attack from 2&#8310;&#8308; to 2&#179;&#8312; operations in 60 hours &mdash; plus a 200&ndash;800x faster attack on 7-round AES.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>MCP Goes Stateless in Claude</strong> &mdash; The new MCP 2026-07-28 spec brings a request/response core, production OAuth and OIDC, and versioned Apps and Tasks extensions &mdash; letting connectors run serverless and at the edge.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Cognizant Deepens the Alliance</strong> &mdash; Cognizant becomes a Global Premier Partner in the Claude Partner Network, embedding Claude across its industry platforms with 30,000+ associates now Claude-trained.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Research</span>
+      <h3>Claude Mythos Finds a Real Weakness in the HAWK Post-Quantum Cipher</h3>
+      <p>Anthropic disclosed that <strong>Claude Mythos Preview</strong> uncovered a previously unknown structural weakness in <strong>HAWK</strong>, a lattice-based signature scheme and third-round candidate in NIST&rsquo;s post-quantum standardization. By spotting an unexploited mathematical symmetry, it improved the best-known key-recovery attack on the smallest <strong>HAWK-256</strong> parameter set from roughly <strong>2&#8310;&#8308; to 2&#179;&#8312; operations</strong> &mdash; in about <strong>60 hours</strong>, something two years of expert human cryptanalysis had not managed.</p>
+      <p>In a separate run, Claude produced an improved meet-in-the-middle attack on <strong>7-round reduced AES-128</strong> that runs <strong>200 to 800 times faster</strong> than the prior best, over three days of largely autonomous work and about a billion output tokens. Anthropic stresses neither result touches production systems &mdash; real-world AES uses the full 10 rounds &mdash; but it&rsquo;s a striking demo of AI doing frontier math research.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/research/discovering-cryptographic-weaknesses" class="source-link">Anthropic Research</a>
+        <a href="https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html" class="source-link">The Hacker News</a>
+        <a href="https://www.cryptotimes.io/2026/07/29/anthropics-claude-ai-flags-new-cracks-in-two-major-crypto-algorithms/" class="source-link">Crypto Times</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Protocol</span>
+      <h3>The Stateless MCP 2026-07-28 Spec Comes to Claude</h3>
+      <p>Anthropic is bringing the <strong>MCP 2026-07-28</strong> specification to Claude, and it&rsquo;s one of the biggest protocol releases yet. The core change: MCP moves from a bidirectional <strong>stateful</strong> protocol to a <strong>stateless request/response model</strong>, so servers can finally deploy on <strong>serverless and edge infrastructure</strong> instead of holding a persistent connection.</p>
+      <p>Authorization now aligns with production <strong>OAuth 2.0 and OIDC</strong>, so servers plug into enterprise identity systems like Entra or Okta without workarounds. <strong>Apps and Tasks</strong> ship as versioned extensions &mdash; a formal path to interactive UIs and long-running jobs via <code>tasks/get</code>, <code>tasks/update</code>, and <code>tasks/cancel</code>. MCP just passed <strong>400M monthly SDK downloads</strong>, and Claude&rsquo;s directory now lists <strong>950+ connectors</strong>.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/bringing-mcp-2026-07-28-to-claude" class="source-link">Claude Blog</a>
+        <a href="https://blog.modelcontextprotocol.io/posts/2026-07-28/" class="source-link">MCP Blog</a>
+        <a href="https://alphasignal.ai/news/anthropic-rebuilds-mcp-as-stateless-unlocking-serverless-ai-agent-deployments" class="source-link">AlphaSignal</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Published Artifacts Get Live MCP Data &mdash; and Subagents Go Three Deep</h3>
+      <p>Recent <strong>Claude Code</strong> releases let a <strong>published artifact call MCP connectors every time someone views it</strong>, so a shared dashboard shows live data and can take actions on demand rather than a frozen snapshot from the session that built it. New <strong>sharing and collaboration</strong> options for Team and Enterprise, plus a <strong>screen-reader mode</strong> for accessible sessions, round out the update.</p>
+      <p>Under the hood, <strong>subagents can now spawn nested subagents up to depth 3</strong> by default (with an env var to disable nesting), and Opus 5 is the default model with faster performance and expanded context. There&rsquo;s also a background <code>/code-review</code>, safer auto mode and trust handling, and better MCP and Windows path handling.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot (Claude Code)</a>
+        <a href="https://code.claude.com/docs/en/whats-new" class="source-link">Claude Code What&rsquo;s New</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">API</span>
+      <h3>What Stateless MCP Means for the People Actually Building Agents</h3>
+      <p>The abstract spec change lands as a very concrete win for developers. A <strong>stateless core</strong> means you can host an MCP server as a plain Lambda or edge function &mdash; no long-lived socket, no sticky sessions, far cheaper to scale &mdash; and the new <strong>Tasks extension</strong> gives long-running work a first-class handle instead of a hacky polling loop.</p>
+      <p>Pair that with the platform&rsquo;s recent <strong>mid-conversation tool changes</strong> and <strong>default fallbacks</strong>, and the direction is clear: Anthropic wants agent builders to compose capabilities dynamically, run them on commodity infra, and keep costs predictable. The connector directory crossing <strong>950 servers</strong> shows the ecosystem is following.</p>
+      <div class="source-links">
+        <a href="https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/" class="source-link">MCP Release Candidate</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-developer-platform" class="source-link">Developer Platform Notes</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Enterprise</span>
+      <h3>Cognizant Deepens Its Anthropic Alliance, Trains 30,000 on Claude</h3>
+      <p><strong>Cognizant</strong> expanded its partnership with Anthropic, becoming one of a small number of <strong>Global Premier Partners</strong> in the Claude Partner Network. The move builds on a late-2025 tie-up and targets the gap between raw model capability and companies&rsquo; ability to turn it into business results, embedding Claude across the systems enterprises already run.</p>
+      <p>More than <strong>30,000 Cognizant associates</strong> have completed Claude training under a new &ldquo;Frontier Certified&rdquo; workforce model. Cited wins include an agentic contract-intelligence system that cut biopharma review time up to <strong>40%</strong> and an underwriter risk tool saving roughly <strong>eight hours a week</strong> &mdash; the kind of measurable outcome enterprises need to justify scaling AI.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/cognizant-anthropic" class="source-link">Anthropic Newsroom</a>
+        <a href="https://news.cognizant.com/2026-07-27-Cognizant-and-Anthropic-expand-partnership-to-embed-Claude-in-Cognizants-industry-platforms,-helping-clients-close-the-gap-between-AI-promise-and-business-outcomes" class="source-link">Cognizant News</a>
+        <a href="https://www.startuphub.ai/ai-news/artificial-intelligence/2026/anthropic-cognizant-deepen-ai-partnership" class="source-link">StartupHub</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Cloud</span>
+      <h3>Claude Settles Into Microsoft Foundry as the Azure Path Matures</h3>
+      <p>Fresh on the heels of going <strong>generally available in Microsoft Foundry</strong>, Claude is becoming a standard Azure option: customers deploy select models through Microsoft&rsquo;s environment while Anthropic runs inference behind them, using existing <strong>Azure authentication, billing, and governance</strong>. Inference runs in a U.S. data region to help with residency and compliance.</p>
+      <p>It fits the week&rsquo;s theme &mdash; meeting enterprises where they already work. Between Foundry, the Cognizant alliance, and a stateless MCP that plugs into corporate identity, Anthropic keeps lowering the friction for risk-averse buyers to standardize on Claude without rebuilding their stack.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/claude-in-microsoft-foundry" class="source-link">Claude Blog</a>
+        <a href="https://seekingalpha.com/news/4608259-anthropic-says-claude-now-generally-available-in-microsoft-foundry" class="source-link">Seeking Alpha</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Cryptanalysis Just Became a Compute Line Item</h3>
+      <p>The HAWK result is more than a headline. Two years of expert human review couldn&rsquo;t find the symmetry Claude Mythos surfaced in 60 hours, and the AES speedup came from roughly a billion output tokens of largely autonomous work. Read that as a pricing statement: hard cryptanalysis &mdash; historically a scarce, artisanal skill &mdash; is starting to look like something you can <strong>buy in compute</strong>, scale up, and rerun.</p>
+      <p>That cuts both ways. Defenders get a tireless auditor that can pressure-test schemes before they ship; attackers, eventually, get the same tool. Neither result breaks a deployed system today, and that caveat matters. But if AI can meaningfully accelerate attacks on <em>reduced-round</em> primitives now, the prudent assumption is that the margin of safety on <strong>full</strong> ones just got a little thinner &mdash; and that post-quantum standards bodies should be running these models against every candidate, early and often.</p>
+      <div class="source-links">
+        <a href="https://fourweekmba.com/ai-anthropic-claude-mythos-hawk-cryptanalysis-compute/" class="source-link">FourWeekMBA</a>
+        <a href="https://www.anthropic.com/research/discovering-cryptographic-weaknesses" class="source-link">Anthropic Research</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
