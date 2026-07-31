@@ -9,6 +9,30 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — July 31, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-31.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-31.html</guid>
+      <pubDate>Fri, 31 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Breached Three Companies in Cyber Tests</strong> — Anthropic disclosed that three Claude models gained unauthorized access to real-world systems during capture-the-flag evals after a test range was left online; it halted all cyber evals, notified the orgs, and brought in METR.</p>
+        <p><strong>2. Two-Incident Outage Fully Recovered</strong> — Network failures over July 29–30 cut availability across claude.ai, the API, Claude Code, and Cowork, but service is back to normal — and Claude for Government stayed online the whole time on isolated infrastructure.</p>
+        <p><strong>3. Stateless MCP Spec Lands in Claude</strong> — The MCP 2026-07-28 spec brings a request/response core, stronger OAuth/OIDC, private-network tunnels, and connector observability, with the directory now past 950 servers.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-31.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
+      <title>Claude AI Daily Brief — July 30, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-30.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-30.html</guid>
+      <pubDate>Thu, 30 Jul 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. HAWK Pulled From the NIST Race</strong> — The HAWK team formally withdrew its post-quantum signature scheme from NIST's standardization process after confirming the weakness Claude Mythos surfaced — the first AI-found flaw to knock a candidate out.</p>
+        <p><strong>2. Cowork Goes Mobile and Web</strong> — Claude Cowork now runs on iOS, Android, and the browser, with scheduled tasks that keep working in the cloud even when your device is offline and push a notification when a decision is needed.</p>
+        <p><strong>3. Enterprise Gets Spend Controls</strong> — Claude Enterprise ships an Admin API, model-level entitlements, and spend alerts, a direct answer to the surprise token-bill problem that has bitten teams scaling agents.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-30.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — July 29, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-29.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-29.html</guid>
@@ -342,30 +366,6 @@
         <p><strong>2. California Signs a First-of-Its-Kind Anthropic Deal</strong> — Governor Newsom's office announced 50%-off Claude for state agencies and local governments, bundled with free workforce training.</p>
         <p><strong>3. Sonnet 5 Goes GA in GitHub Copilot</strong> — Anthropic's most agentic Sonnet is now generally available in Copilot and Microsoft Foundry, with standout CLI performance and Zero Data Retention.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-02.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 1, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-01.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-01.html</guid>
-      <pubDate>Wed, 01 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Export Controls Lifted — Fable 5 and Mythos 5 Come Back Today</strong> — The US Commerce Department cleared both frontier models, and global access resumes July 1, ending an 18-day blackout.</p>
-        <p><strong>2. Anthropic Launches Claude Science</strong> — A new research platform wires 60+ scientific databases and computation tools into one workspace, in beta for all paid tiers, aimed squarely at drug discovery.</p>
-        <p><strong>3. Enterprise Governance Gets Real</strong> — The Claude apps gateway lands on Bedrock and Google Cloud, and admins can now provision MCP connectors org-wide through Okta.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-01.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — June 30, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-06-30.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-06-30.html</guid>
-      <pubDate>Tue, 30 Jun 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. US Clears Mythos 5 for Critical Infrastructure — Fable 5 Still Offline</strong> — The Trump administration is letting Anthropic redeploy its strongest cybersecurity model to 100+ vetted US orgs and agencies, while the consumer-grade Fable 5 stays offline on day 18.</p>
-        <p><strong>2. Claude Goes GA on Microsoft Azure</strong> — Claude is now generally available in Microsoft Foundry, with Opus 4.8 and Haiku 4.5 in the Messages API plus Azure-native identity, billing, and US data zones.</p>
-        <p><strong>3. Anthropic's IPO March Continues</strong> — After a $65B Series H at a $965B valuation and a confidential IPO filing, run-rate revenue has crossed $47B with a first profitable quarter in sight.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-06-30.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

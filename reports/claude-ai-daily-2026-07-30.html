@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-07-30">
+  <title>Claude AI Daily Brief — July 30, 2026 | HAWK Pulled From NIST, Cowork Goes Mobile, Enterprise Spend Controls Land</title>
+  <meta name="description" content="July 30, 2026: HAWK is formally withdrawn from NIST's post-quantum race after Claude's cryptanalysis, Cowork expands to mobile and web with offline background tasks, and Claude Enterprise ships an Admin API and spend controls to tame surprise token bills.">
+  <meta name="keywords" content="Claude AI, Anthropic, HAWK NIST withdrawal, post-quantum, Claude Cowork mobile, Claude Enterprise Admin API, spend controls, Claude Science, Claude Code subagents, Opus 5">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-07-30.html">
+  <meta property="og:title" content="Claude AI Daily Brief — July 30, 2026">
+  <meta property="og:description" content="HAWK is withdrawn from NIST after Claude's cryptanalysis, Cowork lands on mobile and web with offline background tasks, and Claude Enterprise ships spend controls.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-30.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — July 30, 2026">
+  <meta name="twitter:description" content="HAWK pulled from NIST's post-quantum race, Cowork goes mobile and web with offline background tasks, and Claude Enterprise ships an Admin API and spend controls.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-30.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-07-30.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — July 30, 2026",
+    "description": "HAWK is formally withdrawn from NIST's post-quantum race after Claude's cryptanalysis, Cowork expands to mobile and web with offline background tasks, and Claude Enterprise ships an Admin API and spend controls to tame surprise token bills.",
+    "datePublished": "2026-07-30T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-07-30.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-07-30.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Thursday, July 30, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; July 30, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #153</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>HAWK Pulled From the NIST Race</strong> &mdash; The HAWK team formally withdrew its post-quantum signature scheme from NIST&rsquo;s standardization process after confirming the weakness Claude Mythos surfaced &mdash; the first time an AI-found flaw has knocked a candidate out of the running.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Cowork Goes Mobile and Web</strong> &mdash; Claude Cowork now runs on iOS, Android, and the browser, with scheduled tasks that keep working in the cloud even when your device is offline and push a notification when a decision is needed.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Enterprise Gets Spend Controls</strong> &mdash; Claude Enterprise ships an Admin API, model-level entitlements, and spend alerts &mdash; a direct answer to the surprise token-bill problem that has bitten teams scaling agents.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Research</span>
+      <h3>HAWK Withdrawn From NIST After Claude&rsquo;s Cryptanalysis</h3>
+      <p>The fallout from this week&rsquo;s cryptanalysis is now official: the <strong>HAWK team has withdrawn the scheme</strong> from NIST&rsquo;s additional post-quantum signature standardization process. After reviewing the attack <strong>Claude Mythos Preview</strong> derived against the <strong>Lattice Isomorphism Problem</strong> at HAWK&rsquo;s core &mdash; which roughly halves the block size needed in lattice reduction to recover an equivalent key &mdash; the authors confirmed the finding and pulled the candidate. It will not be standardized or deployed.</p>
+      <p>Two caveats matter. This is <strong>not a polynomial-time break</strong>, and Anthropic says it does not extend to other NIST signature candidates or to lattice cryptography broadly. Crucially, the already-finalized standards &mdash; <strong>ML-KEM and ML-DSA</strong> &mdash; rest on different math and remain secure and ready to deploy. Still, it&rsquo;s the first time an AI-discovered weakness has removed a scheme from the running.</p>
+      <div class="source-links">
+        <a href="https://www.techzine.eu/news/applications/143290/mythos-knocks-hawk-out-of-the-race-for-a-post-quantum-standard/" class="source-link">Techzine</a>
+        <a href="https://postquantum.com/security-pqc/ai-cryptanalysis-hawk-aes/" class="source-link">PostQuantum</a>
+        <a href="https://www.nist.gov/pqc" class="source-link">NIST PQC</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Enterprise</span>
+      <h3>Claude Enterprise Ships an Admin API and Spend Controls</h3>
+      <p>Anthropic is tackling the &ldquo;surprise AI bill&rdquo; problem head-on. Claude Enterprise now includes <strong>model-level entitlements, spend alerts, and an Admin API</strong> (in beta), giving IT and finance teams a way to cap and monitor token spend before it runs away as agent usage scales.</p>
+      <p>The refreshed admin analytics dashboard breaks down <strong>usage and cost by group and by user</strong>, showing concrete output &mdash; artifacts created, files edited, skills and connectors used &mdash; right next to what each one costs. The Admin API also handles member management: listing people, changing roles, removing members, and managing groups programmatically.</p>
+      <div class="source-links">
+        <a href="https://www.beri.net/article/anthropic-claude-enterprise-spend-controls-ai-cost-governance-2026" class="source-link">The Daily Brief</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Cowork</span>
+      <h3>Cowork Comes to Mobile and Web With Offline Background Tasks</h3>
+      <p>Claude Cowork &mdash; the agentic workspace for non-developers &mdash; now runs on <strong>iOS, Android, and the browser</strong>, with sessions and files following you across devices. On web it launches straight from the claude.ai home screen; on mobile it lives in the sidebar of the Claude app, rolling out to Max subscribers in beta.</p>
+      <p>The headline feature is <strong>cloud background execution</strong>: scheduled tasks keep running with no device online. Set a 6 AM client-prep task and Claude will work through email threads, transcripts, and recent news, build a briefing, and leave a follow-up drafted but unsent &mdash; then <strong>push a notification</strong> when it needs a decision or approval. Scheduled runs get the same connected tools, skills, and plugins as live sessions.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/cowork-web-mobile" class="source-link">Claude Blog</a>
+        <a href="https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork" class="source-link">Help Center</a>
+        <a href="https://www.androidheadlines.com/2026/07/anthropic-expands-claude-cowork-mobile-web-launch.html" class="source-link">Android Headlines</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Subagents Go Three Deep, Run in the Background, and Feed Live Artifacts</h3>
+      <p>Recent <strong>Claude Code</strong> releases keep pushing on agent orchestration. <strong>Subagents can now spawn nested subagents up to depth 3</strong> by default (previously 1), and they <strong>run in the background</strong> so the main session keeps working and gets notified when they finish. <strong>Opus 5</strong> is the default model, bringing a 1M-token context window and up to 128K output tokens.</p>
+      <p>Published <strong>artifacts can now pull live MCP connector data</strong> on every view, so a shared dashboard shows current numbers and can take actions on demand instead of freezing a snapshot. The <code>claude-api</code> skill now defaults to Opus 5 with a clean migration path from Opus 4.8.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot (Claude Code)</a>
+        <a href="https://www.gradually.ai/en/changelogs/claude-code/" class="source-link">Claude Code Changelog</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Science</span>
+      <h3>Claude Science Opens Up to Every Paid Subscriber</h3>
+      <p><strong>Claude Science</strong> &mdash; Anthropic&rsquo;s research product that aims to do for the lab bench what Claude Code did for the codebase &mdash; is now available to <strong>all paid Claude subscribers</strong>. It bundles more than <strong>60 scientific databases and computation tools</strong> into one workspace and can autonomously carry out meaningful computational-biology and drug-development work from high-level instructions.</p>
+      <p>Alongside the product, Anthropic is running its own <strong>internal drug-discovery program</strong>, deliberately targeting &ldquo;neglected&rdquo; diseases that traditional biopharma tends to skip. It&rsquo;s a notable widening of Claude&rsquo;s footprint beyond software into frontier scientific work.</p>
+      <div class="source-links">
+        <a href="https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/" class="source-link">MIT Tech Review</a>
+        <a href="https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/" class="source-link">STAT News</a>
+        <a href="https://endpoints.news/anthropic-debuts-claude-science-an-ai-product-for-bioscience/" class="source-link">Endpoints News</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Cloud</span>
+      <h3>Claude Runs on NVIDIA GB300 Inside Microsoft Foundry</h3>
+      <p>The enterprise cloud story keeps filling in. With Claude now generally available in <strong>Microsoft Foundry</strong>, NVIDIA highlighted that select models run on its <strong>GB300 GPUs</strong> behind Microsoft&rsquo;s environment &mdash; customers deploy through Azure while Anthropic handles inference, using existing Azure auth, billing, and governance.</p>
+      <p>It reinforces the week&rsquo;s throughline: meet enterprises where they already run. Between Foundry, the Cognizant alliance, stateless MCP, and now spend controls, Anthropic keeps stripping out reasons for risk-averse buyers not to standardize on Claude.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+        <a href="https://claude.com/blog/claude-in-microsoft-foundry" class="source-link">Claude Blog</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>An AI Just Changed the Shape of a Standards Process</h3>
+      <p>Yesterday the story was that Claude <em>found</em> a weakness in HAWK. Today it&rsquo;s that HAWK is <strong>gone</strong> &mdash; withdrawn from NIST&rsquo;s process by its own authors. That&rsquo;s a different kind of milestone. A model didn&rsquo;t just publish an interesting result; it altered which cryptographic scheme the world will be allowed to standardize on. The feedback loop from &ldquo;AI cryptanalysis&rdquo; to &ldquo;real standards decision&rdquo; just closed in a matter of days.</p>
+      <p>The reassuring footnote &mdash; ML-KEM and ML-DSA are untouched, and this isn&rsquo;t a general lattice break &mdash; is real and worth repeating. But the process lesson is bigger than any one algorithm: standards bodies now have a tool that can pressure-test every candidate cheaply and repeatedly, and the prudent move is to run it against everything <em>before</em> ratification, not after. Better to lose a scheme in review than to standardize one an attacker can later unravel.</p>
+      <div class="source-links">
+        <a href="https://www.techzine.eu/news/applications/143290/mythos-knocks-hawk-out-of-the-race-for-a-post-quantum-standard/" class="source-link">Techzine</a>
+        <a href="https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html" class="source-link">The Hacker News</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
