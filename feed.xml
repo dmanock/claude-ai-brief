@@ -7,7 +7,18 @@
     <language>en-us</language>
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
-
+    <item>
+      <title>Claude AI Daily Brief — August 1, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-01.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-01.html</guid>
+      <pubDate>Sat, 01 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Opus 5 Undercuts the Frontier</strong> — Claude Opus 5 lands with near-Fable performance at half the price, a 1M-token context window, and Adaptive Thinking that dials reasoning up or down on its own — built for agents that run for hours.</p>
+        <p><strong>2. Cognizant Becomes a Global Premier Partner</strong> — The IT-services giant is embedding Claude across its Flowsource and Neuro AI platforms, with 30,000+ associates trained and production wins in manufacturing, life sciences, and insurance.</p>
+        <p><strong>3. Cowork Moves to the Cloud</strong> — Claude Cowork now runs on the web and mobile with always-on background tasks — start work on your laptop, close it, and check the finished job from your phone.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-01.html">Read full report →</a></p>
+      ]]></description>
+    </item>
     <item>
       <title>Claude AI Daily Brief — July 31, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-31.html</link>
@@ -356,17 +367,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-03.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — July 2, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-02.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-02.html</guid>
-      <pubDate>Thu, 02 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Fable 5 Is Back — With New Guardrails</strong> — The redeployed model ships a retrained cyber classifier that blocks the jailbreak 99%+ of the time and reroutes flagged prompts to Opus 4.8, at the cost of more false flags on ordinary code.</p>
-        <p><strong>2. California Signs a First-of-Its-Kind Anthropic Deal</strong> — Governor Newsom's office announced 50%-off Claude for state agencies and local governments, bundled with free workforce training.</p>
-        <p><strong>3. Sonnet 5 Goes GA in GitHub Copilot</strong> — Anthropic's most agentic Sonnet is now generally available in Copilot and Microsoft Foundry, with standout CLI performance and Zero Data Retention.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-02.html">Read full report →</a></p>
-      ]]></description>
-    </item>
+    
   </channel>
 </rss>

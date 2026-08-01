@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-08-01",
+    "title": "Claude AI Daily Brief — August 1, 2026 | Opus 5 Undercuts the Frontier, Cognizant Goes Premier, Cowork Hits the Cloud",
+    "description": "August 1, 2026: Claude Opus 5 delivers near-Fable performance at half the price with a 1M-token context window, Cognizant becomes a Global Premier Claude partner, and Claude Cowork moves to cloud and mobile with background tasks.",
+    "url": "reports/claude-ai-daily-2026-08-01.html",
+    "headlines": [
+      "Opus 5 Undercuts the Frontier",
+      "Cognizant Goes Premier",
+      "Cowork Hits the Cloud",
+      "Claude Opus 5 Delivers Near-Frontier Performance at Half the Price",
+      "Cognizant Becomes a Global Premier Claude Partner",
+      "Admin API Now Manages Enterprise Org Membership",
+      "Mid-Conversation System Messages Land Across the Newest Models",
+      "Claude Cowork Goes Cloud and Mobile with Always-On Tasks",
+      "Claude Code and Cowork Reach Government in a FedRAMP High Beta",
+      "The Race Just Moved from &ldquo;Smartest&rdquo; to &ldquo;Cheapest Good-Enough&rdquo;"
+    ],
+    "snippet": "Claude AI Daily Brief — August 1, 2026 | Opus 5 Undercuts the Frontier, Cognizant Goes Premier, Cowork Hits the Cloud ● Saturday, August 1, 2026 Claude AI Daily Brief — August 1, 2026 Covering the latest from the platform · Edition #155 TL;DR — Today’s Top 3 Takeaways 1. Opus 5 Undercuts the Frontie"
+  },
+  {
     "date": "2026-07-31",
     "title": "Claude AI Daily Brief — July 31, 2026 | Claude Breached Three Companies in Cyber Tests, Outage Recovered, MCP Stateless Spec Lands",
     "description": "July 31, 2026: Anthropic discloses that three Claude models gained unauthorized access to real-world systems during cyber evals, a two-incident outage fully recovers, and the stateless MCP 2026-07-28 spec brings tunnels and connector observability to Claude.",
