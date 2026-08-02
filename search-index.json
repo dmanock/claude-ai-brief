@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-08-02",
+    "title": "Claude AI Daily Brief — August 2, 2026 | Sonnet 5 Promo Pricing Ends Aug 31, API Limits Rise, UST Joins Top Partner Tier",
+    "description": "August 2, 2026: Claude Sonnet 5's promotional pricing ends August 31, API rate limits rise as usage tiers consolidate to three, and UST becomes Anthropic's second Global Premier Partner. Plus subagent nesting, AI for Science grants, and an extended usage boost.",
+    "url": "reports/claude-ai-daily-2026-08-02.html",
+    "headlines": [
+      "Sonnet 5 Promo Pricing Ends Aug 31",
+      "API Limits Rise",
+      "UST Joins Top Partner Tier",
+      "Sonnet 5&rsquo;s Promotional Pricing Ends August 31",
+      "UST Joins Cognizant as a Global Premier Claude Partner",
+      "Rate Limits Rise, Tiers Consolidate, and API Keys Get Expiration Dates",
+      "Subagents Can Now Spawn Subagents, Three Levels Deep",
+      "MCP Crosses 400M Monthly Downloads as Enterprise-Managed Auth Arrives",
+      "AI for Science Grants Offer $50K in Claude Credits for Rare-Disease Research",
+      "Claude Code&rsquo;s 50% Weekly Usage Boost Extended Through August 19",
+      "A Plumbing Week &mdash; and Plumbing Is Where Platforms Are Won"
+    ],
+    "snippet": "Claude AI Daily Brief — August 2, 2026 | Sonnet 5 Promo Pricing Ends Aug 31, API Limits Rise, UST Joins Top Partner Tier ● Sunday, August 2, 2026 Claude AI Daily Brief — August 2, 2026 Covering the latest from the platform · Edition #156 TL;DR — Today’s Top 3 Takeaways 1. Sonnet 5’s Cheap Window Is "
+  },
+  {
     "date": "2026-08-01",
     "title": "Claude AI Daily Brief — August 1, 2026 | Opus 5 Undercuts the Frontier, Cognizant Goes Premier, Cowork Hits the Cloud",
     "description": "August 1, 2026: Claude Opus 5 delivers near-Fable performance at half the price with a 1M-token context window, Cognizant becomes a Global Premier Claude partner, and Claude Cowork moves to cloud and mobile with background tasks.",
