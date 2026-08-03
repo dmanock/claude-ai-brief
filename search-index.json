@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-08-03",
+    "title": "Claude AI Daily Brief — August 3, 2026 | Claude in Slack Retires for Multiplayer Claude Tag, MCP Spec Lands, Snowflake Deepens",
+    "description": "August 3, 2026: The old per-user Claude in Slack app retires today, replaced by the multiplayer Claude Tag on Opus 4.8. The MCP 2026-07-28 spec comes to Claude with a stateless core and tunnels, Snowflake deepens its governed-AI push, and the experimental prompt tools APIs sunset August 17.",
+    "url": "reports/claude-ai-daily-2026-08-03.html",
+    "headlines": [
+      "Claude in Slack Retires for Multiplayer Claude Tag",
+      "MCP Spec Lands",
+      "Snowflake Deepens",
+      "Claude in Slack Retires Today &mdash; Say Hello to Multiplayer Claude",
+      "Snowflake and Anthropic Deepen the Governed-AI Partnership",
+      "The MCP 2026-07-28 Spec Lands &mdash; Stateless Core, Tunnels, and Extensions",
+      "Experimental Prompt Tools APIs and the Workbench Sunset August 17",
+      "The Sonnet 5 Promo Clock: Four Weeks Left",
+      "Claude Code&rsquo;s 50% Weekly Usage Boost Runs Through August 19",
+      "The Agent Grows Up: Shared, Persistent, and Close to the Data"
+    ],
+    "snippet": "Claude AI Daily Brief — August 3, 2026 | Claude in Slack Retires for Multiplayer Claude Tag, MCP Spec Lands, Snowflake Deepens ● Monday, August 3, 2026 Claude AI Daily Brief — August 3, 2026 Covering the latest from the platform · Edition #157 TL;DR — Today’s Top 3 Takeaways 1. Claude in Slack Retir"
+  },
+  {
     "date": "2026-08-02",
     "title": "Claude AI Daily Brief — August 2, 2026 | Sonnet 5 Promo Pricing Ends Aug 31, API Limits Rise, UST Joins Top Partner Tier",
     "description": "August 2, 2026: Claude Sonnet 5's promotional pricing ends August 31, API rate limits rise as usage tiers consolidate to three, and UST becomes Anthropic's second Global Premier Partner. Plus subagent nesting, AI for Science grants, and an extended usage boost.",

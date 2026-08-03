@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-08-03">
+  <title>Claude AI Daily Brief — August 3, 2026 | Claude in Slack Retires for Multiplayer Claude Tag, MCP Spec Lands, Snowflake Deepens</title>
+  <meta name="description" content="August 3, 2026: The old per-user Claude in Slack app retires today, replaced by the multiplayer Claude Tag on Opus 4.8. The MCP 2026-07-28 spec comes to Claude with a stateless core and tunnels, Snowflake deepens its governed-AI push, and the experimental prompt tools APIs sunset August 17.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude in Slack, Claude Tag, multiplayer AI, MCP 2026-07-28, MCP tunnels, stateless MCP, Snowflake Cortex, governed AI, prompt tools API retirement, Workbench, Sonnet 5 pricing">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-08-03.html">
+  <meta property="og:title" content="Claude AI Daily Brief — August 3, 2026">
+  <meta property="og:description" content="Claude in Slack retires today for the multiplayer Claude Tag, the MCP 2026-07-28 spec lands with a stateless core and tunnels, and Snowflake deepens its governed-AI partnership.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-03.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — August 3, 2026">
+  <meta name="twitter:description" content="Claude in Slack retires today for the multiplayer Claude Tag, the MCP 2026-07-28 spec lands, and Snowflake deepens its governed-AI push.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-03.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-08-03.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — August 3, 2026",
+    "description": "The old per-user Claude in Slack app retires today, replaced by the multiplayer Claude Tag on Opus 4.8. The MCP 2026-07-28 spec comes to Claude, Snowflake deepens its governed-AI partnership, and the experimental prompt tools APIs sunset August 17.",
+    "datePublished": "2026-08-03T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-03.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-08-03.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Monday, August 3, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; August 3, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #157</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Claude in Slack Retires Today</strong> &mdash; The old per-user Claude in Slack app goes offline, replaced by the multiplayer <strong>Claude Tag</strong> &mdash; one shared @Claude per channel, running on Opus 4.8 with persistent memory and async task execution.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>The MCP 2026-07-28 Spec Comes to Claude</strong> &mdash; A stateless request/response core, MCP Tunnels for private-network servers, a versioned extensions framework for Apps and Tasks, and a developer observability dashboard.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Snowflake Deepens the Governed-AI Push</strong> &mdash; Claude powers Cortex Code and Snowflake Intelligence, with Block, Indeed, and Carvana in production &mdash; the strategy is to move reasoning to where governed data already lives.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Product</span>
+      <h3>Claude in Slack Retires Today &mdash; Say Hello to Multiplayer Claude</h3>
+      <p>The old per-user <strong>Claude in Slack</strong> app goes offline today, August 3, closing the migration window Anthropic opened when it launched <strong>Claude Tag</strong> in public beta on June 23. Workspaces that didn&rsquo;t opt in are migrated to default settings automatically as the legacy app shuts down.</p>
+      <p>What replaces it is a different animal. Claude Tag gives a team <strong>one shared @Claude per channel</strong> &mdash; a persistent, multiplayer teammate rather than a per-person bot. Running on <strong>Opus 4.8</strong>, it retains shared context across people and time, builds memory, can watch a channel proactively in ambient mode, and executes multi-step tasks asynchronously over hours or days &mdash; not just when it&rsquo;s @-tagged. It&rsquo;s the first properly multiplayer Claude: everyone on the team steers the same instance, and the whole thread sees the work.</p>
+      <div class="source-links">
+        <a href="https://www.techrepublic.com/article/news-anthropic-claude-tag-ai-agent-slack/" class="source-link">TechRepublic</a>
+        <a href="https://www.digitalapplied.com/blog/anthropic-claude-tag-slack-team-collaboration-2026" class="source-link">Digital Applied</a>
+        <a href="https://www.buildfastwithai.com/blogs/anthropic-claude-tag-slack-review" class="source-link">Build Fast with AI</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Enterprise</span>
+      <h3>Snowflake and Anthropic Deepen the Governed-AI Partnership</h3>
+      <p>Snowflake and Anthropic are pressing their bet that enterprises want AI to run <strong>where governed data already lives</strong>. Building on the December 2025 tie-up &mdash; reported at the time as a <strong>$200M partnership</strong> &mdash; Claude now powers <strong>Snowflake Cortex Code</strong> (the fastest-growing product in Snowflake&rsquo;s history) and Snowflake Intelligence, with Block, eSentire, Indeed, and Carvana running it in production.</p>
+      <p>The pitch is governance, not novelty: keep security, compliance, and lineage controls intact by moving reasoning to the data rather than shipping data out to a model. Snowflake is also one of six launch partners in Anthropic&rsquo;s <strong>Claude Marketplace</strong>, letting customers apply existing Anthropic spend commitments toward Snowflake AI services &mdash; smoothing procurement for regulated buyers.</p>
+      <div class="source-links">
+        <a href="https://www.snowflake.com/en/news/press-releases/snowflake-and-anthropic-accelerate-enterprise-ai-adoption-driven-by-rising-demand-for-governed-ai/" class="source-link">Snowflake</a>
+        <a href="https://www.hpcwire.com/bigdatawire/this-just-in/snowflake-and-anthropic-advance-governed-ai-for-enterprise-production-workloads/" class="source-link">BigDATAwire</a>
+        <a href="https://pulse2.com/snowflake-and-anthropic-accelerate-enterprise-ai-adoption-as-demand-for-governed-ai-grows/" class="source-link">Pulse 2.0</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">MCP</span>
+      <h3>The MCP 2026-07-28 Spec Lands &mdash; Stateless Core, Tunnels, and Extensions</h3>
+      <p>The newest Model Context Protocol spec is coming to Claude, and it&rsquo;s the biggest structural change since MCP shipped. The headline: MCP moves from a bidirectional <strong>stateful</strong> protocol to a <strong>stateless request/response model</strong>, so connectors can finally deploy on serverless and edge infrastructure instead of holding long-lived connections.</p>
+      <p>Around that core: <strong>MCP Apps and Tasks</strong> now ship under a versioned <strong>extensions framework</strong>, giving a formal path to interactive UIs and long-running work without touching the core protocol. <strong>MCP Tunnels</strong> (research preview) connect Claude to servers inside a private network &mdash; no public endpoints, no inbound firewall rules, no IP allowlisting. And connector builders get a <strong>developer observability dashboard</strong> to track adoption, latency, and errors across Claude surfaces. With MCP now past 400M monthly SDK downloads, this is the plumbing hardening for scale.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/bringing-mcp-2026-07-28-to-claude" class="source-link">Claude Blog</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Anthropic Release Notes</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">API</span>
+      <h3>Experimental Prompt Tools APIs and the Workbench Sunset August 17</h3>
+      <p>A housekeeping deadline for builders: Anthropic is <strong>retiring the experimental prompt tools APIs on August 17</strong>, along with the <strong>Workbench</strong>. If any of your tooling calls the prompt-generation or prompt-improvement endpoints &mdash; or your workflow leans on the Workbench for prompt iteration &mdash; now is the time to migrate off before the cutoff.</p>
+      <p>It&rsquo;s a small deprecation, but a reminder that the platform is pruning as fast as it ships. The experimental prompt helpers were always labeled as such; folding them away as the Console matures signals Anthropic pointing developers toward the stable, documented surfaces rather than the lab bench.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Claude Platform Docs</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Pricing</span>
+      <h3>The Sonnet 5 Promo Clock: Four Weeks Left</h3>
+      <p>A standing reminder as the calendar turns to August: Claude Sonnet 5&rsquo;s promotional <strong>$2 / $10 per million tokens</strong> pricing ends <strong>August 31</strong>, with standard <strong>$3 / $15</strong> rates starting September 1. On list price that&rsquo;s a 50% jump on input and output.</p>
+      <p>The subtler cost is the tokenizer: Sonnet 5 maps the same content to <strong>1.0&ndash;1.35&times; more tokens</strong> than earlier versions, so an identical workload can get more expensive than the headline change implies. With four weeks left, teams running Sonnet 5 in production should re-benchmark real token counts now rather than trust old estimates when the September bill arrives.</p>
+      <div class="source-links">
+        <a href="https://blog.mean.ceo/anthropic-claude-news-august-2026/" class="source-link">Mean CEO</a>
+        <a href="https://www.anthropic.com/news/claude-sonnet-5" class="source-link">Anthropic</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Usage</span>
+      <h3>Claude Code&rsquo;s 50% Weekly Usage Boost Runs Through August 19</h3>
+      <p>Heavy users still have headroom: Anthropic&rsquo;s temporary <strong>50% weekly usage boost</strong> for Claude Code subscribers remains in effect <strong>through August 19</strong>. It&rsquo;s extra runway on the weekly limits before the boost expires &mdash; worth planning bigger agentic sessions around while it lasts.</p>
+      <p>The pattern is familiar by now: agentic coding burns tokens far faster than chat ever did, and usage caps have become the real friction point. Anthropic keeps nudging the ceiling up rather than let limits be the reason a developer drifts to a competitor &mdash; a cheap way to keep the most demanding users inside the tent.</p>
+      <div class="source-links">
+        <a href="https://blog.mean.ceo/anthropic-claude-news-august-2026/" class="source-link">Mean CEO</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot (Claude Code)</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>The Agent Grows Up: Shared, Persistent, and Close to the Data</h3>
+      <p>Three of today&rsquo;s stories point the same direction. Claude Tag turns Claude from a per-user bot into a <strong>shared teammate</strong> that remembers, watches, and works asynchronously. The MCP spec goes <strong>stateless</strong> so connectors can live on serverless infrastructure and reach into private networks through tunnels. And Snowflake&rsquo;s pitch is to run reasoning <strong>where governed data already sits</strong>. Different surfaces, one theme: the agent is being re-architected to persist, to be multiplayer, and to sit next to the systems of record.</p>
+      <p>That&rsquo;s a meaningful shift from the 2025 mental model of an AI you prompt one turn at a time. A shared Claude in a channel is an organizational actor, not a personal tool &mdash; which is exactly why the enterprise plumbing (managed auth, tunnels, governed data, observability) matters more than another benchmark. The interesting question is governance: when one agent holds a team&rsquo;s context and acts over days, who owns its memory, its permissions, and its mistakes? The capability is arriving faster than the answers &mdash; and the labs that ship the controls alongside the power will be the ones regulated buyers actually deploy.</p>
+      <div class="source-links">
+        <a href="https://www.digitalapplied.com/blog/anthropic-claude-tag-slack-team-collaboration-2026" class="source-link">Digital Applied</a>
+        <a href="https://claude.com/blog/bringing-mcp-2026-07-28-to-claude" class="source-link">Claude Blog</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

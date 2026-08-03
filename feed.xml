@@ -8,6 +8,18 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — August 3, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-03.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-03.html</guid>
+      <pubDate>Mon, 03 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude in Slack Retires Today</strong> — The old per-user app goes offline, replaced by the multiplayer Claude Tag: one shared @Claude per channel on Opus 4.8, with persistent memory and async task execution.</p>
+        <p><strong>2. The MCP 2026-07-28 Spec Comes to Claude</strong> — A stateless request/response core, MCP Tunnels for private-network servers, a versioned extensions framework for Apps and Tasks, and a developer observability dashboard.</p>
+        <p><strong>3. Snowflake Deepens the Governed-AI Push</strong> — Claude powers Cortex Code and Snowflake Intelligence, with Block, Indeed, and Carvana in production — moving reasoning to where governed data already lives.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-03.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 2, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-02.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-02.html</guid>
@@ -353,18 +365,6 @@
         <p><strong>2. Anthropic Shuts China's Backdoor to Claude</strong> — Per an FT report, Anthropic is closing the offshore workarounds — relay "transfer stations," foreign subsidiaries, and cloud accounts — that firms like Ant Group and ByteDance used to reach Claude.</p>
         <p><strong>3. Two Labs, 43% of the Money</strong> — Global venture funding hit a record ~$510B in H1 2026, and Anthropic and OpenAI together captured roughly 43% of it.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-05.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 4, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-04.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-04.html</guid>
-      <pubDate>Sat, 04 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Lands Inside Apple's Framework</strong> — A new Swift package lets apps hand off to Claude through Apple's Foundation Models framework on iOS 27, macOS 27, and beyond — same API as the on-device model.</p>
-        <p><strong>2. Fable 5 &amp; Mythos 5 Export Controls Lifted</strong> — The US Commerce Department removed its export restrictions, and Anthropic is redeploying Claude Fable 5 globally with restored Mythos 5 access.</p>
-        <p><strong>3. NVIDIA BioNeMo Powers Claude Science</strong> — The BioNeMo Agent Toolkit plugs into Claude Science, exposing GPU-accelerated protein and genomics skills as callable agents.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-04.html">Read full report →</a></p>
       ]]></description>
     </item>
 
