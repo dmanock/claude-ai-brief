@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-08-04",
+    "title": "Claude AI Daily Brief — August 4, 2026 | Claude Lands In-Country Inference in India, Opus 4.1 Retires Tomorrow",
+    "description": "August 4, 2026: Anthropic brings Claude in-country inference to India via Amazon Bedrock, keeping regulated data inside the country. Opus 4.1 retires August 5, Claude Code ships v2.1.221 with a Focus view, Cognizant becomes a Global Premier Partner, and free Claude Max reaches open-source maintainers.",
+    "url": "reports/claude-ai-daily-2026-08-04.html",
+    "headlines": [
+      "Claude Lands In-Country Inference in India",
+      "Opus 4.1 Retires Tomorrow",
+      "Claude Lands In-Country Inference in India via Amazon Bedrock",
+      "Cognizant Reaches Global Premier Partner Status",
+      "Opus 4.1 Retires August 5 &mdash; Migrate to Opus 4.8",
+      "Claude Code v2.1.221 Adds a Focus View and Sandbox Masking",
+      "Free Claude Max for Open-Source Maintainers",
+      "AI for Science: Rare-Disease Grant Window Just Closed",
+      "The Growth Story Is Now About Geography and Governance"
+    ],
+    "snippet": "Claude AI Daily Brief — August 4, 2026 | Claude Lands In-Country Inference in India, Opus 4.1 Retires Tomorrow ● Tuesday, August 4, 2026 Claude AI Daily Brief — August 4, 2026 Covering the latest from the platform · Edition #158 TL;DR — Today’s Top 3 Takeaways 1. Claude Gets In-Country Inference in "
+  },
+  {
     "date": "2026-08-03",
     "title": "Claude AI Daily Brief — August 3, 2026 | Claude in Slack Retires for Multiplayer Claude Tag, MCP Spec Lands, Snowflake Deepens",
     "description": "August 3, 2026: The old per-user Claude in Slack app retires today, replaced by the multiplayer Claude Tag on Opus 4.8. The MCP 2026-07-28 spec comes to Claude with a stateless core and tunnels, Snowflake deepens its governed-AI push, and the experimental prompt tools APIs sunset August 17.",

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-08-04">
+  <title>Claude AI Daily Brief — August 4, 2026 | Claude Lands In-Country Inference in India, Opus 4.1 Retires Tomorrow</title>
+  <meta name="description" content="August 4, 2026: Anthropic brings Claude in-country inference to India via Amazon Bedrock, keeping regulated data inside the country. Opus 4.1 retires August 5, Claude Code ships v2.1.221 with a Focus view, Cognizant becomes a Global Premier Partner, and free Claude Max reaches open-source maintainers.">
+  <meta name="keywords" content="Claude AI, Anthropic, India in-country inference, Amazon Bedrock, data sovereignty, Opus 4.1 retirement, Opus 4.8, Claude Code 2.1.221, Cognizant Global Premier Partner, Claude for Open Source, AI for Science, rare disease grants">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-08-04.html">
+  <meta property="og:title" content="Claude AI Daily Brief — August 4, 2026">
+  <meta property="og:description" content="Claude lands in-country inference in India via Amazon Bedrock, Opus 4.1 retires tomorrow, Claude Code ships v2.1.221, and Cognizant becomes a Global Premier Partner.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-04.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — August 4, 2026">
+  <meta name="twitter:description" content="Claude lands in-country inference in India via Amazon Bedrock, Opus 4.1 retires tomorrow, and Cognizant becomes a Global Premier Partner.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-04.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-08-04.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — August 4, 2026",
+    "description": "Anthropic brings Claude in-country inference to India via Amazon Bedrock, keeping regulated data inside the country. Opus 4.1 retires August 5, Claude Code ships v2.1.221, Cognizant becomes a Global Premier Partner, and free Claude Max reaches open-source maintainers.",
+    "datePublished": "2026-08-04T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-04.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-08-04.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Tuesday, August 4, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; August 4, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #158</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Claude Gets In-Country Inference in India</strong> &mdash; Via <strong>Amazon Bedrock</strong>, requests to Claude will be processed on servers inside India, letting banks, insurers, and government keep regulated data within the country&rsquo;s borders.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Opus 4.1 Retires Tomorrow</strong> &mdash; Claude <strong>Opus 4.1</strong> is deprecated August 5; Anthropic points remaining users to <strong>Opus 4.8</strong>. Claude Code also shipped <strong>v2.1.221</strong> with a new Focus view.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Cognizant Becomes a Global Premier Partner</strong> &mdash; The IT giant reaches the top tier of the Claude Partner Network, with <strong>30,000+ associates</strong> Claude-trained and Claude embedded across its industry platforms.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Expansion</span>
+      <h3>Claude Lands In-Country Inference in India via Amazon Bedrock</h3>
+      <p>Anthropic will let Indian organizations run requests to Claude on <strong>servers inside India</strong> in the coming weeks, delivered through <strong>Amazon Bedrock</strong>, AWS&rsquo;s platform for building and deploying generative AI. Requests routed to the India endpoint stay on domestic infrastructure &mdash; so sensitive data no longer has to leave the country to be processed.</p>
+      <p>That&rsquo;s aimed squarely at the sectors that have been slowest to move: <strong>banking, insurance, telecom, and government</strong>, where data-sovereignty and compliance rules have stalled production AI. The move brings Anthropic level with OpenAI and Google, both of which already offer local processing in India, and builds on the Bengaluru office it opened in February. Anthropic now calls India Claude&rsquo;s <strong>second-largest market</strong>, and is running its first partner certification in Bengaluru this week with a goal of certifying 5,000 professionals.</p>
+      <div class="source-links">
+        <a href="https://www.business-standard.com/technology/artificial-intelligence/anthropic-brings-claude-in-country-inference-to-india-via-aws-cloud-126080301168_1.html" class="source-link">Business Standard</a>
+        <a href="https://www.freepressjournal.in/tech/anthropic-brings-claude-ai-in-country-inference-to-india-via-amazon-bedrock-boosting-enterprise-ai-adoption" class="source-link">Free Press Journal</a>
+        <a href="https://www.crnasia.com/india/news/2026/anthropic-expands-india-strategy-with-local-claude-inference-and-partner-ecosystem-investments" class="source-link">CRN Asia</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Partnership</span>
+      <h3>Cognizant Reaches Global Premier Partner Status</h3>
+      <p>Cognizant has become a <strong>Global Premier Partner</strong> &mdash; the top tier of the Claude Partner Network &mdash; deepening a relationship that started in late 2025. It&rsquo;s embedding Claude across its own engineering and business platforms, including <strong>Flowsource</strong> and <strong>Neuro AI</strong>, and has now put <strong>more than 30,000 associates</strong> through Claude training under a new certified-workforce model.</p>
+      <p>The receipts are what make it notable: an agentic contract-intelligence system for a biopharma client cut review time by up to <strong>40%</strong>, and a risk-navigation tool for underwriters saves roughly <strong>eight hours a week</strong> each. It&rsquo;s a sign of how the big systems integrators are turning Claude into billable, deployed enterprise work rather than pilots.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/cognizant-anthropic" class="source-link">Anthropic</a>
+        <a href="https://www.prnewswire.com/news-releases/cognizant-and-anthropic-expand-partnership-to-embed-claude-in-cognizants-industry-platforms-helping-clients-close-the-gap-between-ai-promise-and-business-outcomes-302834770.html" class="source-link">PR Newswire</a>
+        <a href="https://www.hpcwire.com/aiwire/2026/07/27/cognizant-deepens-anthropic-alliance-to-scale-enterprise-ai-adoption/" class="source-link">AIwire</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Deprecation</span>
+      <h3>Opus 4.1 Retires August 5 &mdash; Migrate to Opus 4.8</h3>
+      <p>Tomorrow is the cutoff: Claude <strong>Opus 4.1</strong> is being retired on <strong>August 5</strong>, and Anthropic is pointing any remaining users to <strong>Opus 4.8</strong>. If you have production traffic or scripts still pinned to the <code>opus-4-1</code> model string, swap it before the endpoint stops answering.</p>
+      <p>It&rsquo;s part of a broader tidy-up on the platform. The legacy <strong>Workbench</strong> and the experimental prompt-tools APIs both sunset <strong>August 17</strong>, so this is a good week to audit anything hardcoded to older surfaces. The upside of migrating: Opus 4.8 is where the newer capabilities &mdash; like mid-conversation system messages &mdash; are landing.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Claude Platform Docs</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code v2.1.221 Adds a Focus View and Sandbox Masking</h3>
+      <p>Fresh today: Claude Code <strong>v2.1.221</strong> adds a <strong>Focus view</strong> chat-menu toggle that hides tool activity behind an expandable per-turn summary &mdash; with a live running-tool indicator so you still know work is happening. It&rsquo;s a cleaner read on long agentic sessions where the tool chatter can bury the actual conversation.</p>
+      <p>The release also adds a <strong>&ldquo;mask&rdquo; mode</strong> for sandbox credential files on Linux and WSL, tightening how secrets are handled inside the sandbox. On the API side, the advisor tool now takes a <code>max_tokens</code> parameter to cap the advisor model&rsquo;s output per call &mdash; a small lever for trimming latency and token cost.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Claude Platform Docs</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Access</span>
+      <h3>Free Claude Max for Open-Source Maintainers</h3>
+      <p>Anthropic&rsquo;s <strong>Claude for Open Source</strong> program is giving qualifying maintainers and core contributors <strong>six months of Claude Max 20x</strong> &mdash; the $200/month top tier &mdash; free, a <strong>$1,200 value</strong>, with up to <strong>10,000 spots</strong>. Eligibility runs to primary maintainers of public repos with 5,000+ GitHub stars or 1M+ monthly NPM downloads, plus a real carve-out for low-visibility but high-dependency critical infrastructure.</p>
+      <p>One caveat worth flagging: it&rsquo;s a personal-use plan, <strong>not API access</strong> &mdash; automated pipelines still bill separately. But for the humans who keep the dependency tree standing, it&rsquo;s a meaningful subsidy, and a smart bit of goodwill toward the ecosystem Anthropic&rsquo;s own tooling runs on.</p>
+      <div class="source-links">
+        <a href="https://www.explainx.ai/blog/claude-for-open-source-expanded-max-20x-july-2026" class="source-link">explainx.ai</a>
+        <a href="https://alphasignal.ai/news/anthropic-gives-10-000-open-source-maintainers-1-200-of-free-claude-max" class="source-link">AlphaSignal</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Science</span>
+      <h3>AI for Science: Rare-Disease Grant Window Just Closed</h3>
+      <p>Anthropic&rsquo;s <strong>AI for Science</strong> rare-disease grants closed to applications on <strong>August 2</strong>. The program offers up to <strong>$50,000 in Claude credits</strong> over six months across two tracks &mdash; one for basic researchers, one for early-stage biotechs speeding clinical development for rare genetic conditions.</p>
+      <p>The existing grantees hint at the ambition: <strong>Every Cure</strong> is mining millions of drug-repurposing candidates, the <strong>Centre for Population Genomics</strong> is drafting variant classifications for expert review, and the <strong>Violet Research Institute</strong> is using Claude to navigate FDA guidance and draft regulatory filings. If you missed the deadline, it&rsquo;s worth watching for the next cohort.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/rare-disease-research-grants" class="source-link">Anthropic</a>
+        <a href="https://grantedai.com/blog/anthropic-ai-for-science-rare-disease-grants-50000-claude-credits-august-2-2026-deadline-two-tracks-strategy" class="source-link">Granted AI</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>The Growth Story Is Now About Geography and Governance</h3>
+      <p>Look past the model numbers and today&rsquo;s news is about <strong>where</strong> Claude runs, not how smart it is. In-country inference in India, a Global Premier integrator in Cognizant, a partner-certification push in Bengaluru &mdash; these are all moves to make Claude deployable inside the constraints that regulated enterprises actually operate under. Sovereignty, compliance, and a trained delivery workforce are the unglamorous unlocks that turn interest into signed production contracts.</p>
+      <p>It rhymes with the enterprise plumbing story we&rsquo;ve tracked all week &mdash; governed data, managed auth, deployable connectors. The frontier labs have largely stopped competing on benchmarks alone; the fight has moved to distribution and trust. India is the clearest tell: matching OpenAI and Google on local processing isn&rsquo;t a capability play, it&rsquo;s a market-access one. Whoever removes the most friction for the buyer &mdash; not whoever posts the highest eval &mdash; wins the enterprise. That&rsquo;s the phase Anthropic is playing now.</p>
+      <div class="source-links">
+        <a href="https://www.medianews4u.com/anthropic-expands-india-presence-with-in-country-claude-inference-strengthens-enterprise-partnerships/" class="source-link">MediaNews4u</a>
+        <a href="https://www.anthropic.com/news/cognizant-anthropic" class="source-link">Anthropic</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
