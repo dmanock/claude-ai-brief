@@ -8,6 +8,18 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — August 5, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-05.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-05.html</guid>
+      <pubDate>Wed, 05 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Names Its First Global Affairs Chief</strong> — Former California Supreme Court Justice Tino Cuéllar joins as Chief Global Affairs Officer to lead policy and government relations worldwide, reporting to President Daniela Amodei.</p>
+        <p><strong>2. Opus 4.1 Retires Today</strong> — The opus-4-1 endpoint goes offline. Migrate to Opus 4.8 or the newer Opus 5, which Claude Code just made the default Opus model.</p>
+        <p><strong>3. Cowork's Doubled Limits End Tonight</strong> — The promo tied to the mobile and web rollout closes at 11:59pm PT. Separately, MCP crossed 400M monthly SDK downloads, cementing it as the agent-integration standard.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-05.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 4, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-04.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-04.html</guid>
@@ -19,7 +31,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-04.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — August 3, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-03.html</link>
@@ -32,7 +43,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-03.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — August 2, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-02.html</link>
@@ -45,7 +55,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-02.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — August 1, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-01.html</link>
@@ -58,7 +67,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-01.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 31, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-31.html</link>
@@ -71,7 +79,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-31.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 30, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-30.html</link>
@@ -84,7 +91,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-30.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 29, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-29.html</link>
@@ -97,7 +103,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-29.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 28, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-28.html</link>
@@ -110,7 +115,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-28.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 27, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-27.html</link>
@@ -123,7 +127,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-27.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 26, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-26.html</link>
@@ -136,7 +139,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-26.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 25, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-25.html</link>
@@ -149,7 +151,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-25.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 24, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-24.html</link>
@@ -162,7 +163,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-24.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 23, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-23.html</link>
@@ -175,7 +175,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-23.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 22, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-22.html</link>
@@ -188,7 +187,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-22.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 21, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-21.html</link>
@@ -201,7 +199,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-21.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 20, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-20.html</link>
@@ -214,7 +211,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-20.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 19, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-19.html</link>
@@ -227,7 +223,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-19.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 18, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-18.html</link>
@@ -240,7 +235,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-18.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 17, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-17.html</link>
@@ -253,7 +247,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-17.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 16, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-16.html</link>
@@ -266,7 +259,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-16.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 15, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-15.html</link>
@@ -279,7 +271,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-15.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 14, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-14.html</link>
@@ -292,7 +283,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-14.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 13, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-13.html</link>
@@ -305,7 +295,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-13.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 12, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-12.html</link>
@@ -318,7 +307,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-12.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 11, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-11.html</link>
@@ -331,7 +319,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-11.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 10, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-10.html</link>
@@ -344,7 +331,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-10.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 9, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-09.html</link>
@@ -357,7 +343,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-09.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 8, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-08.html</link>
@@ -370,7 +355,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-08.html">Read full report →</a></p>
       ]]></description>
     </item>
-    
     <item>
       <title>Claude AI Daily Brief — July 7, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-07.html</link>
@@ -381,19 +365,6 @@
         <p><strong>2. An Industry Framework for Jailbreaks</strong> — Anthropic, Amazon, Microsoft, and Google are drafting a consensus standard to score jailbreak severity, alongside a new HackerOne cyber-jailbreak program and deeper US government collaboration.</p>
         <p><strong>3. Claude Science Beta Opens Grants</strong> — The new research workbench is inviting up to 50 AI for Science projects with up to $30K in credits each; applications close July 15.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-07.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    
-    <item>
-      <title>Claude AI Daily Brief — July 6, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-06.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-06.html</guid>
-      <pubDate>Mon, 06 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Code Defaults to Manual Permissions</strong> — The "default" permission mode is now "Manual" across the CLI, VS Code, and JetBrains, and AskUserQuestion dialogs no longer auto-continue on their own.</p>
-        <p><strong>2. API Rate Limits Up, Tiers Cut to Three</strong> — Anthropic raised limits across the API, with Sonnet and Haiku now matching Opus at every tier and usage tiers collapsing into Start, Build, and Scale.</p>
-        <p><strong>3. Managed Agents Gain Deltas &amp; Overrides</strong> — Session streams now emit live text deltas, single sessions can override model, prompt, tools, and skills, and webhooks cover the full agent lifecycle.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-06.html">Read full report →</a></p>
       ]]></description>
     </item>
 
