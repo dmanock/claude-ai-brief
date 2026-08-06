@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-08-06",
+    "title": "Claude AI Daily Brief — August 6, 2026 | Claude Code v2.1.223 Ships, Enterprise Inference Hooks Land in Beta",
+    "description": "August 6, 2026: Claude Code v2.1.223 adds org-wide marketplace controls and subagent model guardrails, Enterprise gets real-time DLP inference hooks in beta, Claude.ai connectors now flow straight into Claude Code, and the 50% usage boost is extended to Aug 19.",
+    "url": "reports/claude-ai-daily-2026-08-06.html",
+    "headlines": [
+      "Claude Code v2.1.223 Ships",
+      "Enterprise Inference Hooks Land in Beta",
+      "Inference Hooks Arrive in Beta for Enterprise Compliance Teams",
+      "Claude Code&rsquo;s 50% Usage Boost Extended Through August 19",
+      "Claude Code v2.1.223 Adds Org-Wide Marketplace Controls and Subagent Guardrails",
+      "Claude.ai Connectors Now Auto-Available in Claude Code &mdash; and M365 Gets Write Tools",
+      "Cognizant Becomes a Global Premier Partner, Crosses 30,000 Claude-Trained Staff",
+      "Opus 5&rsquo;s ARC-AGI-3 Score Keeps the HN Debate Going",
+      "The Enterprise Moat Is Being Built at the Inference Boundary"
+    ],
+    "snippet": "Claude AI Daily Brief — August 6, 2026 | Claude Code v2.1.223 Ships, Enterprise Inference Hooks Land in Beta ● Thursday, August 6, 2026 Claude AI Daily Brief — August 6, 2026 Covering the latest from the platform · Edition #160 TL;DR — Today’s Top 3 Takeaways 1. Claude Code v2.1.223 Ships — New owne"
+  },
+  {
     "date": "2026-08-05",
     "title": "Claude AI Daily Brief — August 5, 2026 | Anthropic Names First Global Affairs Chief, Opus 4.1 Retires Today",
     "description": "August 5, 2026: Anthropic appoints former California Supreme Court Justice Tino Cuéllar as its first Chief Global Affairs Officer. Opus 4.1 retires today, Claude Code makes Opus 5 the default, Cowork's doubled usage limits end tonight, and MCP crosses 400M monthly downloads.",

@@ -7,6 +7,19 @@
     <language>en-us</language>
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
+    
+    <item>
+      <title>Claude AI Daily Brief — August 6, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-06.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-06.html</guid>
+      <pubDate>Thu, 06 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Code v2.1.223 Ships</strong> — New owner/* wildcards let admins allow or block every repo under a GitHub org, workflow agents warn on restricted subagent models, and cloud sessions show a /teleport hint to continue locally.</p>
+        <p><strong>2. Enterprise Inference Hooks Land in Beta</strong> — Compliance teams get real-time DLP enforcement across chat, Claude Code, and Cowork, inspecting prompts and tool calls before they reach the model.</p>
+        <p><strong>3. Connectors Flow Straight Into Claude Code</strong> — Claude.ai connectors are now auto-available in Claude Code and Artifacts, Microsoft 365 gains server-side write tools, and the 50% usage boost runs through Aug 19.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-06.html">Read full report →</a></p>
+      ]]></description>
+    </item>
     <item>
       <title>Claude AI Daily Brief — August 5, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-05.html</link>
@@ -353,18 +366,6 @@
         <p><strong>2. Fable 5 Is Now Usage-Credit Only</strong> — The included-allowance window closed yesterday. Reaching Anthropic's most powerful model now costs usage credits at $10/$50 per million tokens — double the price of Opus 4.8.</p>
         <p><strong>3. 90% of Cowork Sessions Aren't Coding</strong> — Anthropic's analysis of 1.2M sessions shows business operations (33%) and content creation (16%) dominate; software development is just 8.7%.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-08.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 7, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-07.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-07.html</guid>
-      <pubDate>Tue, 07 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Fable 5 Moves to Usage Credits Today</strong> — The included-allowance window for Anthropic's most powerful model closes July 7; after today, Pro, Max, and Team users reach Fable 5 through usage credits.</p>
-        <p><strong>2. An Industry Framework for Jailbreaks</strong> — Anthropic, Amazon, Microsoft, and Google are drafting a consensus standard to score jailbreak severity, alongside a new HackerOne cyber-jailbreak program and deeper US government collaboration.</p>
-        <p><strong>3. Claude Science Beta Opens Grants</strong> — The new research workbench is inviting up to 50 AI for Science projects with up to $30K in credits each; applications close July 15.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-07.html">Read full report →</a></p>
       ]]></description>
     </item>
 
