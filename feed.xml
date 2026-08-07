@@ -7,7 +7,19 @@
     <language>en-us</language>
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
-    
+
+    <item>
+      <title>Claude AI Daily Brief — August 7, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-07.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-07.html</guid>
+      <pubDate>Fri, 07 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Enters the Chip Race</strong> — The company confirmed an in-house custom silicon team that will co-design chips and Claude models together, targeting roughly 50% cuts in per-token inference costs.</p>
+        <p><strong>2. Sonnet 5's Price Hike Is 24 Days Out</strong> — Intro pricing of $2/$10 per million tokens ends Aug 31; standard $3/$15 kicks in Sept 1, and a new tokenizer can add up to 35% more billable tokens on top.</p>
+        <p><strong>3. Claude Code Gets Self-Hosted Runners</strong> — claude self-hosted-runner turns your own machines or containers into a place web, mobile, and desktop sessions can run, plus zip-based plugin installs and no subagent spawn cap.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-07.html">Read full report →</a></p>
+      ]]></description>
+    </item>
     <item>
       <title>Claude AI Daily Brief — August 6, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-06.html</link>
@@ -354,18 +366,6 @@
         <p><strong>2. Sonnet 5 Is Now Claude Code's Default</strong> — The latest release makes Claude Sonnet 5 the default model, with a native 1M-token context window and promotional pricing of $2/$10 per million tokens through August 31.</p>
         <p><strong>3. Background Agents Go Fully Autonomous</strong> — Agents in a worktree now commit, push, and open a draft PR when they finish instead of stopping to ask, and the Explore agent inherits the session model instead of Haiku.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-09.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 8, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-08.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-08.html</guid>
-      <pubDate>Wed, 08 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Cowork Goes Cross-Device</strong> — Cowork is now on web and mobile, not just desktop. Sessions run remotely and keep working after you close your laptop, and new Microsoft 365 write tools let it draft email and update SharePoint files.</p>
-        <p><strong>2. Fable 5 Is Now Usage-Credit Only</strong> — The included-allowance window closed yesterday. Reaching Anthropic's most powerful model now costs usage credits at $10/$50 per million tokens — double the price of Opus 4.8.</p>
-        <p><strong>3. 90% of Cowork Sessions Aren't Coding</strong> — Anthropic's analysis of 1.2M sessions shows business operations (33%) and content creation (16%) dominate; software development is just 8.7%.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-08.html">Read full report →</a></p>
       ]]></description>
     </item>
 

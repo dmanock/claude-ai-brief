@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-08-07",
+    "title": "Claude AI Daily Brief — August 7, 2026 | Anthropic Enters the Chip Race, Sonnet 5 Price Hike Looms",
+    "description": "August 7, 2026: Anthropic builds an in-house custom silicon team targeting ~50% inference cost cuts, Sonnet 5's intro pricing ends Aug 31 with a 50% jump, Claude Code adds self-hosted runners, and Tino Cuéllar joins as Chief Global Affairs Officer.",
+    "url": "reports/claude-ai-daily-2026-08-07.html",
+    "headlines": [
+      "Anthropic Enters the Chip Race",
+      "Sonnet 5 Price Hike Looms",
+      "Anthropic Builds an In-House Custom Silicon Team to Run Claude Cheaper",
+      "Sonnet 5&rsquo;s Introductory Pricing Ends August 31 &mdash; Budget Now",
+      "Claude Code Adds Self-Hosted Environments and Zip-Based Plugin Installs",
+      "Public Sharing Links, Editor Roles, and Artifacts From Claude Tag Sessions",
+      "Tino Cuéllar Joins Anthropic as Chief Global Affairs Officer",
+      "The Enterprise Base Keeps Compounding: 1,000+ Customers at $1M+",
+      "Chips Plus Pricing: This Is a Margin Story Now"
+    ],
+    "snippet": "Claude AI Daily Brief — August 7, 2026 | Anthropic Enters the Chip Race, Sonnet 5 Price Hike Looms ● Friday, August 7, 2026 Claude AI Daily Brief — August 7, 2026 Covering the latest from the platform · Edition #161 TL;DR — Today’s Top 3 Takeaways 1. Anthropic Enters the Chip Race — The company conf"
+  },
+  {
     "date": "2026-08-06",
     "title": "Claude AI Daily Brief — August 6, 2026 | Claude Code v2.1.223 Ships, Enterprise Inference Hooks Land in Beta",
     "description": "August 6, 2026: Claude Code v2.1.223 adds org-wide marketplace controls and subagent model guardrails, Enterprise gets real-time DLP inference hooks in beta, Claude.ai connectors now flow straight into Claude Code, and the 50% usage boost is extended to Aug 19.",

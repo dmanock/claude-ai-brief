@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-08-07">
+  <title>Claude AI Daily Brief — August 7, 2026 | Anthropic Enters the Chip Race, Sonnet 5 Price Hike Looms</title>
+  <meta name="description" content="August 7, 2026: Anthropic builds an in-house custom silicon team targeting ~50% inference cost cuts, Sonnet 5's intro pricing ends Aug 31 with a 50% jump, Claude Code adds self-hosted runners, and Tino Cuéllar joins as Chief Global Affairs Officer.">
+  <meta name="keywords" content="Claude AI, Anthropic, custom AI chip, silicon team, Sonnet 5 pricing, Claude Code self-hosted, MCP, Tino Cuéllar, inference costs, Opus 5, IPO, enterprise">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-08-07.html">
+  <meta property="og:title" content="Claude AI Daily Brief — August 7, 2026">
+  <meta property="og:description" content="Anthropic builds an in-house chip team targeting 50% inference cost cuts, Sonnet 5's intro pricing ends Aug 31, and Claude Code adds self-hosted runners.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-07.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — August 7, 2026">
+  <meta name="twitter:description" content="Anthropic enters the chip race, Sonnet 5's price hike looms for Sept 1, and Claude Code adds self-hosted runners.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-07.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-08-07.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — August 7, 2026",
+    "description": "Anthropic builds an in-house custom silicon team targeting ~50% inference cost cuts, Sonnet 5's intro pricing ends Aug 31 with a 50% jump, Claude Code adds self-hosted runners, and Tino Cuéllar joins as Chief Global Affairs Officer.",
+    "datePublished": "2026-08-07T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-07.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-08-07.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Friday, August 7, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; August 7, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #161</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Anthropic Enters the Chip Race</strong> &mdash; The company confirmed an in-house <strong>custom silicon team</strong> that will co-design chips and Claude models together, targeting roughly <strong>50% cuts</strong> in per-token inference costs. Roles pay $320K&ndash;$485K.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Sonnet 5&rsquo;s Price Hike Is 24 Days Out</strong> &mdash; Intro pricing of <strong>$2/$10</strong> per million tokens ends <strong>Aug 31</strong>; standard <strong>$3/$15</strong> kicks in Sept 1. A new tokenizer can add up to 35% more billable tokens on top.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Claude Code Gets Self-Hosted Runners</strong> &mdash; <code>claude self-hosted-runner</code> turns your own machines or containers into a place web, mobile, and desktop sessions can run, plus zip-based plugin installs and the removal of the subagent spawn cap.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Breaking</span>
+      <h3>Anthropic Builds an In-House Custom Silicon Team to Run Claude Cheaper</h3>
+      <p>Anthropic has confirmed it&rsquo;s assembling an in-house team to <strong>design its own AI chips</strong>, aiming to run Claude faster and more cost-efficiently at the scale its customers now demand. The pitch is co-design: silicon and models built <em>in tandem</em>, with a stated target of roughly <strong>50% cuts</strong> in per-token inference costs.</p>
+      <p>Recent job listings for the &ldquo;custom silicon team&rdquo; offer $320K&ndash;$485K and want engineers fluent across the hardware/software stack. Technical leadership is anchored by <strong>Clive Chan</strong>, who joined in June from OpenAI&rsquo;s chip effort and, before that, Tesla&rsquo;s Dojo program. Anthropic stresses this is additive &mdash; it keeps its multi-chip approach, including massive TPU capacity from Google and Broadcom.</p>
+      <div class="source-links">
+        <a href="https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/" class="source-link">TechCrunch</a>
+        <a href="https://qz.com/anthropic-custom-ai-chip-design-team-claude-080526" class="source-link">Quartz</a>
+        <a href="https://www.forbes.com/sites/jonmarkman/2026/08/06/anthropic-enters-the-ai-chip-race-with-in-house-chip-team/" class="source-link">Forbes</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Pricing</span>
+      <h3>Sonnet 5&rsquo;s Introductory Pricing Ends August 31 &mdash; Budget Now</h3>
+      <p>Anthropic has confirmed that <strong>Claude Sonnet 5&rsquo;s</strong> promotional pricing of <strong>$2 / $10</strong> per million input/output tokens ends <strong>Aug 31, 2026</strong>. On Sept 1 it reverts to standard <strong>$3 / $15</strong> &mdash; a flat 50% increase on both dimensions.</p>
+      <p>The sticker isn&rsquo;t the whole story. Sonnet 5 ships a new tokenizer that can turn the same text into <strong>up to 35% more billable tokens</strong>, so real bills can climb well past the headline 50%. If you&rsquo;re running Sonnet 5 in production, the next three weeks are the window to audit prompt sizes, cache aggressively, and model out September before the meter changes.</p>
+      <div class="source-links">
+        <a href="https://finopsllm.com/research/sonnet-5-intro-pricing-deadline" class="source-link">FinOps LLM</a>
+        <a href="https://enterprisedna.co/resources/news/anthropic-claude-sonnet-5-pricing-deadline-cost-impact-2026/" class="source-link">Enterprise DNA</a>
+        <a href="https://www.finout.io/blog/claude-sonnet-5-pricing-2026-the-hidden-costs-and-real-savings-behind-the-cost-neutral-launch" class="source-link">Finout</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code Adds Self-Hosted Environments and Zip-Based Plugin Installs</h3>
+      <p>Claude Code&rsquo;s latest changelog brings <strong>self-hosted environments</strong>: <code>claude self-hosted-runner</code> turns your own machines or containers into a place web, mobile, and desktop sessions can run &mdash; on Team and Enterprise plans. It&rsquo;s a real answer for teams that can&rsquo;t send workloads to managed cloud sandboxes for compliance reasons.</p>
+      <p>Also new: <strong>archive plugin source</strong> installs plugins from a zip over HTTPS with no git or npm and optional <strong>SHA-256 pinning</strong>, plus the <strong>removal of the subagent spawn cap</strong> and a stack of fixes &mdash; including stream idle timeouts on custom <code>ANTHROPIC_BASE_URL</code> gateways and connectors falsely flagged as needing re-auth (now a <code>/login</code> hint).</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot (Claude Code)</a>
+        <a href="https://www.gradually.ai/en/changelogs/claude-code/" class="source-link">Gradually</a>
+        <a href="https://claudefa.st/blog/guide/changelog" class="source-link">ClaudeFast Changelog</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Collaboration</span>
+      <h3>Public Sharing Links, Editor Roles, and Artifacts From Claude Tag Sessions</h3>
+      <p>This week also brought collaboration plumbing: <strong>public sharing links</strong> for conversations and <strong>editor roles</strong> that allow shared editing on <strong>Team and Enterprise</strong> plans &mdash; more than one person can now iterate on the same thread with real permissions instead of copy-paste.</p>
+      <p>On top of that, <strong>artifacts</strong> can now be created directly from <strong>Claude Tag</strong> (Claude-in-Slack) sessions, so a conversation that starts in Slack can spin out a live document or app without leaving the flow. Small features individually; together they nudge Claude further from a single-player tool toward a team surface.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+        <a href="https://claudelog.com/claude-news/" class="source-link">ClaudeLog</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">People</span>
+      <h3>Tino Cuéllar Joins Anthropic as Chief Global Affairs Officer</h3>
+      <p><strong>Mariano-Florentino (Tino) Cuéllar</strong> joined Anthropic as <strong>Chief Global Affairs Officer</strong> on Aug 4. A former California Supreme Court justice and current president of the Carnegie Endowment for International Peace, he brings heavy policy and governance weight to a company steering an IPO through a thicket of AI regulation.</p>
+      <p>The hire fits the pattern in this week&rsquo;s product releases too &mdash; DLP inference hooks, org-wide controls, self-hosted runners. Anthropic is staffing and shipping for the part of the market where <em>governance</em>, not just capability, decides the deal.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic Newsroom</a>
+        <a href="https://blog.mean.ceo/anthropic-claude-news-august-2026/" class="source-link">Mean.CEO</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Business</span>
+      <h3>The Enterprise Base Keeps Compounding: 1,000+ Customers at $1M+</h3>
+      <p>The backdrop to the hardware and pricing moves is a revenue curve that&rsquo;s hard to overstate: Anthropic&rsquo;s annualized run-rate has climbed toward roughly <strong>$47B</strong>, and the company says more than <strong>1,000 business customers</strong> now spend at least <strong>$1M a year</strong>, with eight of the Fortune 10 on board.</p>
+      <p>Claude Code alone reportedly draws more than half its revenue from enterprise, with names like Netflix, Spotify, KPMG, and Salesforce cited. Distribution deals keep stacking too &mdash; a multi-year <strong>$200M Snowflake</strong> agreement puts Claude models inside another major data platform. This is the demand that a cheaper, self-designed inference stack is meant to serve.</p>
+      <div class="source-links">
+        <a href="https://sacra.com/c/anthropic/" class="source-link">Sacra</a>
+        <a href="https://www.techi.com/anthropic-ipo/" class="source-link">TECHi</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Chips Plus Pricing: This Is a Margin Story Now</h3>
+      <p>Read today&rsquo;s two big items together &mdash; a custom silicon team targeting 50% cheaper inference, and Sonnet 5&rsquo;s price <em>rising</em> 50% on Sept 1 &mdash; and the strategy is unmistakable. Anthropic is squeezing cost out of the stack it controls while letting introductory subsidies roll off. Both levers point the same way: toward margin, ahead of a public offering.</p>
+      <p>That&rsquo;s the tell of a company transitioning from land-grab to durable business. When you&rsquo;re at a ~$47B run-rate with a confidential IPO on file, the question stops being &ldquo;can we win users&rdquo; and becomes &ldquo;what does each token <em>cost us to serve</em>.&rdquo; Designing your own chips is the most capital-intensive way to answer that &mdash; and the fact that Anthropic is doing it anyway says a lot about how permanent it thinks this demand is. For buyers, the near-term takeaway is simpler: lock in intro pricing while you still can, and watch whether those promised inference savings ever reach the invoice.</p>
+      <div class="source-links">
+        <a href="https://www.techtimes.com/articles/323238/20260805/anthropic-confirms-house-chip-team-co-design-bet-could-cut-claude-inference-costs-half.htm" class="source-link">Tech Times</a>
+        <a href="https://sacra.com/c/anthropic/" class="source-link">Sacra</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
