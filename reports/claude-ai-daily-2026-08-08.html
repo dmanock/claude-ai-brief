@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-08-08">
+  <title>Claude AI Daily Brief — August 8, 2026 | Claude Code Sessions Talk to Each Other, Plugin Security Scanning Ships</title>
+  <meta name="description" content="August 8, 2026: Claude Code adds cross-session messaging and quietly closes a real sandbox bypass, Enterprise gets skill and plugin malware scanning, Opus 5 picks up mid-conversation tool changes and smarter fallbacks, and Fast mode retires on Opus 4.7.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude Code, cross-session messaging, SendMessage, plugin security scanning, inference hooks, DLP, Opus 5, MCP, Claude for Government, sandbox, IPO">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-08-08.html">
+  <meta property="og:title" content="Claude AI Daily Brief — August 8, 2026">
+  <meta property="og:description" content="Claude Code sessions can now message each other (and a real sandbox bypass gets closed), Enterprise adds plugin malware scanning, and Opus 5 gains mid-conversation tool changes.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-08.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — August 8, 2026">
+  <meta name="twitter:description" content="Claude Code sessions talk to each other and a sandbox bypass gets fixed, Enterprise ships plugin malware scanning, and Opus 5 adds mid-conversation tool changes.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-08.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-08-08.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — August 8, 2026",
+    "description": "Claude Code adds cross-session messaging and closes a real sandbox bypass, Enterprise gets skill and plugin malware scanning, Opus 5 picks up mid-conversation tool changes and smarter fallbacks, and Fast mode retires on Opus 4.7.",
+    "datePublished": "2026-08-08T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-08.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-08-08.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Saturday, August 8, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; August 8, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #162</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Claude Code Sessions Can Now Talk to Each Other</strong> &mdash; <code>SendMessage</code> and <code>ListAgents</code> let sessions coordinate across your machines, passing a summary (not files or history) mid-task. The same release quietly closed a <strong>real sandbox bypass</strong> on Linux and macOS.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Enterprise Gets Plugin Malware Scanning</strong> &mdash; A new beta automatically checks third-party <strong>skills and plugins</strong> for malicious content when someone uploads or edits them &mdash; supply-chain security for the marketplace era.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Opus 5 Picks Up Mid-Conversation Tool Changes</strong> &mdash; You can add or remove tools between turns without breaking the prompt cache, plus a new <code>&quot;default&quot;</code> server-side fallback mode. Meanwhile, <strong>Fast mode retires</strong> on Opus 4.7.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Security</span>
+      <h3>Enterprise Adds Skill and Plugin Security Scanning to Catch Malicious Uploads</h3>
+      <p>Anthropic has turned on <strong>skill and plugin security scanning</strong> in beta for Enterprise plans. When someone uploads or edits a third-party skill or plugin, Claude now automatically checks it for malicious content before it can run &mdash; an admin-controlled gate on the growing library of shareable extensions.</p>
+      <p>It&rsquo;s a small line in the release notes with a big implication. As skills and plugins become the way teams package repeatable workflows, they also become a <strong>supply-chain surface</strong>. Scanning uploads is Anthropic acknowledging that a marketplace of executable extensions needs the same hygiene as any package registry.</p>
+      <div class="source-links">
+        <a href="https://support.anthropic.com/en/articles/12138966-release-notes" class="source-link">Anthropic Release Notes</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Enterprise</span>
+      <h3>Inference Hooks Bring Inline Data-Loss Prevention to Every Claude Surface</h3>
+      <p><strong>Inference hooks</strong>, now in beta for Claude Enterprise, let a compliance team inspect and enforce policy on <em>every</em> prompt and tool-call response before it reaches the model &mdash; across chat, Claude Code, Cowork, and more. Each request routes through a signed WebSocket to your DLP server, which returns an allow/deny verdict that Claude enforces in real time.</p>
+      <p>Until now, native inline enforcement was limited to Claude Code&rsquo;s client-side hooks. This closes the gap with one policy layer that also covers tool calls made through <strong>MCP connectors, skills, and plugins</strong>. Shadow mode, role-based exclusions, and percentage rollouts make it deployable without breaking existing work, and it plugs into the same servers as Netskope, Zscaler, Proofpoint, and Palo Alto.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/claude-enterprise-inference-hooks" class="source-link">Anthropic Blog</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code Sessions Learn to Message Each Other &mdash; and a Sandbox Bypass Gets Closed</h3>
+      <p>Claude Code <strong>2.1.224</strong> adds <strong>cross-session messaging</strong>: sessions can now message each other across any of your machines, with <code>ListAgents</code> to discover them (macOS and Linux). A session sends a <em>summary</em> &mdash; not your history or files &mdash; and the other picks it up mid-task, with <code>crossSessionInbound</code> and <code>dialogExpiry</code> settings to hold or auto-deliver messages depending on permissions.</p>
+      <p>The same release closes a <strong>real security hole</strong>: <code>denyRead</code>/<code>denyWrite</code> rules with a path ending in a slash (like <code>~/.aws/</code>) could be silently bypassed on Linux and macOS &mdash; the sandbox thought it was blocking access but wasn&rsquo;t always. Also new: sandbox credential-masking with JWT-aware <code>maskClaims</code> and AWS SigV4 re-signing. If you rely on deny rules, update now.</p>
+      <div class="source-links">
+        <a href="https://www.macrumors.com/2026/08/08/claude-code-adds-cross-session-messaging/" class="source-link">MacRumors</a>
+        <a href="https://9to5mac.com/2026/08/07/claude-code-now-lets-sessions-talk-to-each-other-on-macos/" class="source-link">9to5Mac</a>
+        <a href="https://www.claudehub.fr/en/blog/claude-code-2-1-224-cross-session-messaging-sandbox-fix/" class="source-link">Claude Hub</a>
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">API</span>
+      <h3>Opus 5 Adds Mid-Conversation Tool Changes and a &lsquo;Default&rsquo; Fallback Mode</h3>
+      <p>Two agent-focused beta features are live for <strong>Claude Opus 5</strong>. <strong>Mid-conversation tool changes</strong> (<code>mid-conversation-tool-changes-2026-07-01</code>) let you add or remove tools between turns <em>while preserving the prompt cache</em>, instead of resending a fixed tool list for the life of a session. And the <code>fallbacks</code> parameter gains a <code>&quot;default&quot;</code> mode that applies Anthropic&rsquo;s recommended fallback models by refusal category rather than a list you maintain by hand.</p>
+      <p>One cleanup to note: <strong>Fast mode has been removed from Claude Opus 4.7</strong> &mdash; requests to <code>claude-opus-4-7</code> with <code>speed: &quot;fast&quot;</code> now return an error. If you migrated agents to Opus 5 but left an older code path pinned to 4.7 fast, that path will start failing. Worth a grep before Monday.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/about-claude/models/whats-new-opus-5" class="source-link">Claude Platform Docs</a>
+        <a href="https://byteiota.com/claude-opus-5-api-effort-fast-mode-migration/" class="source-link">byteiota</a>
+        <a href="https://www.explainx.ai/blog/claude-opus-5-developers-migrate-fast-mode-july-2026" class="source-link">explainx.ai</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Public Sector</span>
+      <h3>Claude Code and Cowork Land in Claude for Government on FedRAMP High</h3>
+      <p>Claude Code and Claude Cowork are now in public beta inside <strong>Claude for Government Desktop</strong>, running in a <strong>FedRAMP High</strong> authorized environment on the same app commercial customers use. Agencies can point Cowork at local files to draft memos, review RFPs, and build decks, while conversation history stays on the agency-managed device.</p>
+      <p>The governance layer is the real story: <strong>tamper-evident, hash-chained audit logs</strong>, two-person approval for sensitive operations, SCIM-driven seat and model limits, and billing that ties AI spend to appropriated funds with a hard not-to-exceed cap. Anthropic remains the contracted and billing party, so agencies skip a separate cloud-provider relationship.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government" class="source-link">Anthropic Blog</a>
+        <a href="https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government" class="source-link">Claude Help Center</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">MCP</span>
+      <h3>MCP Crosses 400M Monthly Downloads as the 2026-07-28 Spec Rolls Out</h3>
+      <p>The Model Context Protocol has passed <strong>400M monthly SDK downloads</strong> &mdash; a 4x jump this year &mdash; and Claude now lists over <strong>950 MCP servers</strong> in its connectors directory, used by millions daily. The new <strong>2026-07-28 spec</strong> is one of the biggest yet: a <strong>stateless core</strong> that lets servers run on serverless and edge, a versioned extensions framework for MCP Apps and Tasks, and auth hardened for production OAuth 2.0 and OIDC.</p>
+      <p>Alongside the spec, Claude is shipping the connective tissue: enterprise-managed auth (provision a connector once through your IdP), an observability dashboard for connector developers, and <strong>MCP tunnels</strong> in research preview to reach internal servers without exposing them to the public internet. Intuit, Figma, Zoom, and Netlify are already building on the new spec.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/bringing-mcp-2026-07-28-to-claude" class="source-link">Anthropic Blog</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>The Throughline Is Trust: Anthropic Is Hardening the Edges</h3>
+      <p>Look at today&rsquo;s items as one move, not five. Plugin malware scanning, inference-hook DLP, a quietly patched sandbox bypass, FedRAMP High for government, hardened MCP auth &mdash; every one is about <em>what happens at the boundary</em> where Claude touches your data, your tools, and untrusted third-party code. As agents graduate from answering questions to executing multi-step work with real permissions, the boundary is where the risk lives.</p>
+      <p>That focus isn&rsquo;t incidental. A company steering a confidential IPO through a $965B valuation and toward a public listing later this year doesn&rsquo;t win the biggest, most regulated accounts on capability alone &mdash; it wins them on <em>defensibility</em>. The cross-session messaging feature hints at where the product is going (fleets of agents coordinating work); the sandbox fix and scanning gates are the guardrails that make shipping that safe. The tell of a maturing platform: the flashy feature and the security fix land in the same release.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/claude-enterprise-inference-hooks" class="source-link">Anthropic Blog</a>
+        <a href="https://forgeglobal.com/anthropic_ipo/" class="source-link">Forge Global</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — August 8, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-08.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-08.html</guid>
+      <pubDate>Sat, 08 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Code Sessions Can Now Talk to Each Other</strong> — SendMessage and ListAgents let sessions coordinate across your machines by passing a summary mid-task, and the same release quietly closed a real sandbox bypass on Linux and macOS.</p>
+        <p><strong>2. Enterprise Gets Plugin Malware Scanning</strong> — A new beta automatically checks third-party skills and plugins for malicious content when someone uploads or edits them.</p>
+        <p><strong>3. Opus 5 Picks Up Mid-Conversation Tool Changes</strong> — Add or remove tools between turns without breaking the prompt cache, plus a new "default" server-side fallback mode, while Fast mode retires on Opus 4.7.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-08.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 7, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-07.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-07.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Claude Code & Cowork Reach Government</strong> — Both enter public beta inside Claude for Government Desktop, delivered through a FedRAMP High authorized environment with local history, tamper-evident audit logs, and department-level spend controls.</p>
         <p><strong>3. Claude Adds a "Reflect" Recap</strong> — A new monthly recap plus focus settings (break reminders and quiet hours) roll out in beta on web and Desktop, surfacing your top topics, busiest day, and peak hour.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-10.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 9, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-09.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-09.html</guid>
-      <pubDate>Thu, 09 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Maps Claude's Hidden "J-Space"</strong> — A new interpretability technique, the J-lens, exposes a small internal workspace where Claude holds the concepts it's actively thinking about — including flags like "fake" and "blackmail" before it writes a single word.</p>
-        <p><strong>2. Sonnet 5 Is Now Claude Code's Default</strong> — The latest release makes Claude Sonnet 5 the default model, with a native 1M-token context window and promotional pricing of $2/$10 per million tokens through August 31.</p>
-        <p><strong>3. Background Agents Go Fully Autonomous</strong> — Agents in a worktree now commit, push, and open a draft PR when they finish instead of stopping to ask, and the Explore agent inherits the session model instead of Haiku.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-09.html">Read full report →</a></p>
       ]]></description>
     </item>
 

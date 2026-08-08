@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-08-08",
+    "title": "Claude AI Daily Brief — August 8, 2026 | Claude Code Sessions Talk to Each Other, Plugin Security Scanning Ships",
+    "description": "August 8, 2026: Claude Code adds cross-session messaging and quietly closes a real sandbox bypass, Enterprise gets skill and plugin malware scanning, Opus 5 picks up mid-conversation tool changes and smarter fallbacks, and Fast mode retires on Opus 4.7.",
+    "url": "reports/claude-ai-daily-2026-08-08.html",
+    "headlines": [
+      "Claude Code Sessions Talk to Each Other",
+      "Plugin Security Scanning Ships",
+      "Enterprise Adds Skill and Plugin Security Scanning to Catch Malicious Uploads",
+      "Inference Hooks Bring Inline Data-Loss Prevention to Every Claude Surface",
+      "Claude Code Sessions Learn to Message Each Other &mdash; and a Sandbox Bypass Gets Closed",
+      "Opus 5 Adds Mid-Conversation Tool Changes and a &lsquo;Default&rsquo; Fallback Mode",
+      "Claude Code and Cowork Land in Claude for Government on FedRAMP High",
+      "MCP Crosses 400M Monthly Downloads as the 2026-07-28 Spec Rolls Out",
+      "The Throughline Is Trust: Anthropic Is Hardening the Edges"
+    ],
+    "snippet": "Claude AI Daily Brief — August 8, 2026 | Claude Code Sessions Talk to Each Other, Plugin Security Scanning Ships ● Saturday, August 8, 2026 Claude AI Daily Brief — August 8, 2026 Covering the latest from the platform · Edition #162 TL;DR — Today’s Top 3 Takeaways 1. Claude Code Sessions Can Now Talk"
+  },
+  {
     "date": "2026-08-07",
     "title": "Claude AI Daily Brief — August 7, 2026 | Anthropic Enters the Chip Race, Sonnet 5 Price Hike Looms",
     "description": "August 7, 2026: Anthropic builds an in-house custom silicon team targeting ~50% inference cost cuts, Sonnet 5's intro pricing ends Aug 31 with a 50% jump, Claude Code adds self-hosted runners, and Tino Cuéllar joins as Chief Global Affairs Officer.",
