@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-08-09">
+  <title>Claude AI Daily Brief — August 9, 2026 | Enterprise Entitlements Land, Managed Agents Load GitHub Skills</title>
+  <meta name="description" content="August 9, 2026: Claude Enterprise adds model-level entitlements and spend alerts, Managed Agents can load skills straight from a GitHub repo, Claude Code 2.1.226 ships gateway spend limits and workspace trust prompts, Cowork reaches mobile and web, and Government beta opens access requests.">
+  <meta name="keywords" content="Claude AI, Anthropic, model-level entitlements, spend alerts, Managed Agents, GitHub skills, Claude Code 2.1.226, workspace trust, Cowork mobile, Claude for Government, MCP connectors">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-08-09.html">
+  <meta property="og:title" content="Claude AI Daily Brief — August 9, 2026">
+  <meta property="og:description" content="Enterprise gets model-level entitlements and spend alerts, Managed Agents load skills from GitHub, and Claude Code 2.1.226 tightens spend and trust controls.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-09.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — August 9, 2026">
+  <meta name="twitter:description" content="Enterprise gains model-level entitlements and spend alerts, Managed Agents load skills from GitHub, and Claude Code 2.1.226 adds gateway spend limits.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-09.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-08-09.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — August 9, 2026",
+    "description": "Claude Enterprise adds model-level entitlements and spend alerts, Managed Agents can load skills straight from a GitHub repo, Claude Code 2.1.226 ships gateway spend limits and workspace trust prompts, and Cowork reaches mobile and web.",
+    "datePublished": "2026-08-09T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-09.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-08-09.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Sunday, August 9, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; August 9, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #163</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Enterprise Gains Model-Level Entitlements and Spend Alerts</strong> &mdash; Admins can now gate access <strong>model by model</strong> across Opus 5, Sonnet 5, and Haiku, with richer usage analytics and proactive cost warnings.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Managed Agents Can Load Skills Straight From GitHub</strong> &mdash; Point a session at a repo and skills in the root <code>.claude/skills</code> directory are discovered automatically at startup &mdash; no manual install.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Claude Code 2.1.226 Tightens the Guardrails</strong> &mdash; Gateway spend-limit warnings, workspace trust prompts for <code>claude agents</code>, and Remote Control starts-by-name, alongside a batch of OAuth and session fixes.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Enterprise</span>
+      <h3>Claude Enterprise Adds Model-Level Entitlements, Spend Alerts, and Richer Admin Analytics</h3>
+      <p>Anthropic has rolled out <strong>richer admin analytics, model-level entitlements, and spend alerts</strong> for Claude Enterprise. Admins get deeper visibility into how teams use Claude, the ability to gate access <strong>model by model</strong>, and proactive warnings before costs run past budget.</p>
+      <p>Model-level entitlements are the quiet standout. As the lineup fans out across Opus 5, Sonnet 5, and Haiku tiers &mdash; each with its own price and capability profile &mdash; procurement and platform teams want to say &ldquo;this group gets Opus, that group gets Sonnet&rdquo; without policing it by hand. Pair that with spend alerts and you get the cost-governance layer big buyers ask for before they scale seats.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+        <a href="https://www.vaasblock.com/news/anthropic-claude-enterprise-ai-strategy-2026/" class="source-link">VaaSBlock</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Public Sector</span>
+      <h3>Claude for Government Opens Beta Access Requests</h3>
+      <p>Following this week&rsquo;s launch of Claude Code and Cowork inside a FedRAMP High environment, <strong>Claude for Government is now in beta with new customers able to request access</strong>. Agencies that want Claude running against local files, memos, and RFPs on managed devices can get in the queue, and Anthropic stays the contracted and billing party &mdash; no separate cloud-provider relationship required to start.</p>
+      <p>It&rsquo;s the natural next step after the platform work landed: build the authorized, audit-logged environment first, then open the door to onboard agencies. Expect the government track to keep pulling security and compliance features forward for everyone else.</p>
+      <div class="source-links">
+        <a href="https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government" class="source-link">Claude Help Center</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code 2.1.226 Ships Spend Limits, Workspace Trust, and Remote Control by Name</h3>
+      <p>Claude Code <strong>2.1.226</strong> (August 8) adds <strong>gateway spend-limit support</strong> so you get usage warnings as you approach a cap, <strong>workspace trust prompts</strong> for <code>claude agents</code>, the ability to start <strong>Remote Control</strong> sessions by name, and improved photo handling. Under the hood it fixes a stack of OAuth, session, history, UI, and headless-session bugs.</p>
+      <p>The theme is daily-driver polish: fewer surprise bills, clearer prompts before an agent touches an untrusted workspace, and steadier long-running and headless sessions. None of it is flashy, all of it is the stuff you feel when you live in the terminal.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot (Claude Code)</a>
+        <a href="https://www.gradually.ai/en/changelogs/claude-code/" class="source-link">Claude Code Changelog</a>
+        <a href="https://blog.mean.ceo/claude-code-news-august-2026/" class="source-link">Claude Code News</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Agents</span>
+      <h3>Managed Agents Can Now Load Skills Straight From a GitHub Repo</h3>
+      <p><strong>Claude Managed Agents</strong> sessions can now pull <strong>skills from a GitHub repository</strong>: point a session at a repo and any skills in the root <code>.claude/skills</code> directory are <strong>discovered automatically at session start</strong>. No manual upload, no per-session copying &mdash; your skills live in version control and travel with the codebase.</p>
+      <p>This is a meaningful workflow unlock. Skills become a <strong>reviewable, versioned artifact</strong> in the same repo as the code they operate on, so a team can PR a new skill, roll it back, and know every agent session is running the same definition. It nudges skills from ad-hoc snippets toward proper software you ship and maintain.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Claude Platform Release Notes</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Product</span>
+      <h3>Cowork on Mobile and Web: Approve an Agent From Your Phone</h3>
+      <p><strong>Cowork</strong>, Claude&rsquo;s agent for non-developers, now spans <strong>mobile and web</strong> as well as desktop. Sessions and files follow you across devices, with <strong>background work, scheduled tasks, shared chats and projects, and mobile approvals</strong> so you can green-light an agent action from your phone.</p>
+      <p>The approval-on-mobile piece is the one to watch. It keeps a human in the loop even when the agent runs while you&rsquo;re away from your desk &mdash; kick off a research or file task at your machine, approve the next step on the walk to lunch, check the result on the web later. Cowork is quietly graduating from a desktop utility into an ambient assistant.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+        <a href="https://blog.mean.ceo/anthropic-claude-news-august-2026/" class="source-link">Anthropic News Roundup</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">MCP</span>
+      <h3>Claude&rsquo;s Connectors Directory Passes 950 MCP Servers</h3>
+      <p>Claude now lists <strong>more than 950 MCP servers</strong> in its connectors directory, used by millions of people every day. The catalog keeps swelling as vendors ship official connectors on the back of the new 2026-07-28 spec and its stateless, serverless-friendly core.</p>
+      <p>Nearing four figures, the directory is less a novelty and more the <strong>default integration surface</strong> for Claude. For teams, the practical question has flipped from &ldquo;is there a connector&rdquo; to &ldquo;which of these do we trust&rdquo; &mdash; which is exactly why the enterprise-managed auth and plugin-scanning features from earlier this week showed up when they did.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+        <a href="https://claudelog.com/claude-news/" class="source-link">ClaudeLog</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Claude Is Being Rebuilt for the Org Chart</h3>
+      <p>Read today&rsquo;s items together and a pattern falls out: model-level entitlements, spend alerts, gateway limits in Claude Code, government beta onboarding, versioned skills in GitHub. Every one of them answers a question a <em>buyer</em> asks, not a question a user asks. Who gets which model? What will this cost, and can I be warned first? How do I audit and roll back what my agents can do? That&rsquo;s the vocabulary of procurement, platform teams, and compliance &mdash; the people who decide whether a tool becomes standard-issue across ten thousand seats.</p>
+      <p>The Sonnet 5 price change on <strong>September 1</strong> ($2/$10 rising to $3/$15) is the pressure that makes all of this land: as usage scales and costs climb, the org needs governance, not just capability. Anthropic is answering with the boring, essential plumbing &mdash; entitlements, alerts, audit, versioning. Reportedly steering toward a public listing at a massive valuation, the company doesn&rsquo;t win the largest accounts on model quality alone; it wins them by being <em>governable</em>. The flashy launches get the headlines, but weeks like this &mdash; when the news is mostly controls &mdash; are what turn a clever tool into infrastructure.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+        <a href="https://forgeglobal.com/anthropic_ipo/" class="source-link">Forge Global</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

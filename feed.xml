@@ -8,6 +8,18 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
 
+        <item>
+      <title>Claude AI Daily Brief — August 9, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-09.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-09.html</guid>
+      <pubDate>Sun, 09 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Enterprise Gains Model-Level Entitlements and Spend Alerts</strong> — Admins can now gate access model by model across Opus 5, Sonnet 5, and Haiku, with richer usage analytics and proactive cost warnings.</p>
+        <p><strong>2. Managed Agents Can Load Skills Straight From GitHub</strong> — Point a session at a repo and skills in the root .claude/skills directory are discovered automatically at startup, no manual install.</p>
+        <p><strong>3. Claude Code 2.1.226 Tightens the Guardrails</strong> — Gateway spend-limit warnings, workspace trust prompts for claude agents, and Remote Control starts-by-name, plus a batch of OAuth and session fixes.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-09.html">Read full report →</a></p>
+      ]]></description>
+    </item>
     <item>
       <title>Claude AI Daily Brief — August 8, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-08.html</link>
@@ -356,18 +368,5 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-11.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — July 10, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-10.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-10.html</guid>
-      <pubDate>Fri, 10 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. MCP's Biggest Revision Ships as a Release Candidate</strong> — The Model Context Protocol's largest update since launch is out for review: a stateless HTTP core, server-rendered MCP Apps, a Tasks extension, and OAuth-aligned enterprise auth. Final spec lands July 28.</p>
-        <p><strong>2. Claude Code & Cowork Reach Government</strong> — Both enter public beta inside Claude for Government Desktop, delivered through a FedRAMP High authorized environment with local history, tamper-evident audit logs, and department-level spend controls.</p>
-        <p><strong>3. Claude Adds a "Reflect" Recap</strong> — A new monthly recap plus focus settings (break reminders and quiet hours) roll out in beta on web and Desktop, surfacing your top topics, busiest day, and peak hour.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-10.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
   </channel>
 </rss>

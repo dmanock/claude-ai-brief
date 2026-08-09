@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-08-09",
+    "title": "Claude AI Daily Brief — August 9, 2026 | Enterprise Entitlements Land, Managed Agents Load GitHub Skills",
+    "description": "August 9, 2026: Claude Enterprise adds model-level entitlements and spend alerts, Managed Agents can load skills straight from a GitHub repo, Claude Code 2.1.226 ships gateway spend limits and workspace trust prompts, Cowork reaches mobile and web, and Government beta opens access requests.",
+    "url": "reports/claude-ai-daily-2026-08-09.html",
+    "headlines": [
+      "Enterprise Entitlements Land",
+      "Managed Agents Load GitHub Skills",
+      "Claude Enterprise Adds Model-Level Entitlements, Spend Alerts, and Richer Admin Analytics",
+      "Claude for Government Opens Beta Access Requests",
+      "Claude Code 2.1.226 Ships Spend Limits, Workspace Trust, and Remote Control by Name",
+      "Managed Agents Can Now Load Skills Straight From a GitHub Repo",
+      "Cowork on Mobile and Web: Approve an Agent From Your Phone",
+      "Claude&rsquo;s Connectors Directory Passes 950 MCP Servers",
+      "Claude Is Being Rebuilt for the Org Chart"
+    ],
+    "snippet": "Claude AI Daily Brief — August 9, 2026 | Enterprise Entitlements Land, Managed Agents Load GitHub Skills ● Sunday, August 9, 2026 Claude AI Daily Brief — August 9, 2026 Covering the latest from the platform · Edition #163 TL;DR — Today’s Top 3 Takeaways 1. Enterprise Gains Model-Level Entitlements a"
+  },
+  {
     "date": "2026-08-08",
     "title": "Claude AI Daily Brief — August 8, 2026 | Claude Code Sessions Talk to Each Other, Plugin Security Scanning Ships",
     "description": "August 8, 2026: Claude Code adds cross-session messaging and quietly closes a real sandbox bypass, Enterprise gets skill and plugin malware scanning, Opus 5 picks up mid-conversation tool changes and smarter fallbacks, and Fast mode retires on Opus 4.7.",
