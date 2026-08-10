@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-10",
+    "title": "Claude AI Daily Brief — August 10, 2026 | Claude Code Sessions Go Self-Hosted, Microsoft 365 Gets Write Tools",
+    "description": "August 10, 2026: Claude Code self-hosted environments hit public beta, the Microsoft 365 connector gains write tools, Claude Code adds /fork background sessions and a Focus view, MCP passes 400M monthly SDK downloads with tunnels in research preview, and Cognizant becomes a Global Premier Partner.",
+    "url": "reports/claude-ai-daily-2026-08-10.html",
+    "headlines": [
+      "Claude Code Sessions Go Self-Hosted",
+      "Microsoft 365 Gets Write Tools",
+      "Self-Hosted Environments for Claude Code Enter Public Beta",
+      "Microsoft 365 Connector Gains Write Tools",
+      "Claude Code Adds /fork Background Sessions, a Focus View, and Auto Mode Everywhere",
+      "MCP Passes 400M Monthly SDK Downloads; Tunnels Land in Research Preview",
+      "Cognizant Becomes a Global Premier Partner as the Claude Partner Network Scales",
+      "Anthropic Is Building for the Networks It Doesn&rsquo;t Control"
+    ],
+    "snippet": "Claude AI Daily Brief — August 10, 2026 | Claude Code Sessions Go Self-Hosted, Microsoft 365 Gets Write Tools ● Monday, August 10, 2026 Claude AI Daily Brief — August 10, 2026 Covering the latest from the platform · Edition #164 TL;DR — Today’s Top 3 Takeaways 1. Claude Code Sessions Can Now Run on "
+  },
+  {
     "date": "2026-08-09",
     "title": "Claude AI Daily Brief — August 9, 2026 | Enterprise Entitlements Land, Managed Agents Load GitHub Skills",
     "description": "August 9, 2026: Claude Enterprise adds model-level entitlements and spend alerts, Managed Agents can load skills straight from a GitHub repo, Claude Code 2.1.226 ships gateway spend limits and workspace trust prompts, Cowork reaches mobile and web, and Government beta opens access requests.",

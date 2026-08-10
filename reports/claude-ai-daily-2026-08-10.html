@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-08-10">
+  <title>Claude AI Daily Brief — August 10, 2026 | Claude Code Sessions Go Self-Hosted, Microsoft 365 Gets Write Tools</title>
+  <meta name="description" content="August 10, 2026: Claude Code self-hosted environments hit public beta, the Microsoft 365 connector gains write tools, Claude Code adds /fork background sessions and a Focus view, MCP passes 400M monthly SDK downloads with tunnels in research preview, and Cognizant becomes a Global Premier Partner.">
+  <meta name="keywords" content="Claude AI, Anthropic, self-hosted environments, Claude Code, Microsoft 365 connector, MCP tunnels, 400M SDK downloads, /fork background sessions, Focus view, Cognizant, Claude Partner Network">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-08-10.html">
+  <meta property="og:title" content="Claude AI Daily Brief — August 10, 2026">
+  <meta property="og:description" content="Claude Code sessions can now run on your own infrastructure, the Microsoft 365 connector gains write tools, and MCP passes 400M monthly SDK downloads.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-10.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — August 10, 2026">
+  <meta name="twitter:description" content="Claude Code self-hosted environments hit public beta, Microsoft 365 gains write tools, and MCP passes 400M monthly SDK downloads.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-10.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-08-10.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — August 10, 2026",
+    "description": "Claude Code self-hosted environments hit public beta, the Microsoft 365 connector gains write tools, Claude Code adds /fork background sessions and a Focus view, and MCP passes 400M monthly SDK downloads with tunnels in research preview.",
+    "datePublished": "2026-08-10T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-10.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-08-10.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Monday, August 10, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; August 10, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #164</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Claude Code Sessions Can Now Run on Your Own Infrastructure</strong> &mdash; Self-hosted environments hit <strong>public beta</strong> for Team and Enterprise, keeping checkouts, secrets, and build artifacts on machines you provision.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Microsoft 365 Connector Gains Write Tools</strong> &mdash; Claude can now <strong>draft and send email</strong>, manage calendar events, and create or update files in OneDrive and SharePoint &mdash; not just read them.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Claude Code Adds <code>/fork</code> Background Sessions and a Focus View</strong> &mdash; Branch a conversation into a background session while you keep working, and collapse tool activity into compact summaries.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Claude Code</span>
+      <h3>Self-Hosted Environments for Claude Code Enter Public Beta</h3>
+      <p>Anthropic opened <strong>self-hosted environments for Claude Code</strong> to public beta. Sessions can start from web, mobile, desktop, or routines, then execute <strong>inside your own network</strong> &mdash; next to internal services, toolchains, and security controls &mdash; instead of on Anthropic-hosted infrastructure. Repository checkouts, build artifacts, secrets, and any files a session touches stay on machines you provision.</p>
+      <p>It&rsquo;s aimed squarely at teams whose network, tooling, or compliance rules demand keeping <strong>agent execution</strong> on infrastructure they control. The honest caveat: the conversation itself &mdash; prompts, responses, and tool results &mdash; still goes to Anthropic for inference, and the transcript is stored so a session can resume from another surface. It&rsquo;s off by default, unavailable under ZDR, and expects you to staff engineers to own the runner image and orchestrator.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/run-claude-code-sessions-on-your-own-compute" class="source-link">Claude Blog</a>
+        <a href="https://code.claude.com/docs/en/self-hosted-environments" class="source-link">Claude Code Docs</a>
+        <a href="https://www.unite.ai/claude-code-sessions-can-now-run-on-infrastructure-your-team-controls/" class="source-link">Unite.AI</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Connectors</span>
+      <h3>Microsoft 365 Connector Gains Write Tools</h3>
+      <p>The <strong>Microsoft 365 connector</strong> picked up <strong>write access</strong>. Beyond reading your mailbox and calendar, Claude can now <strong>draft, send, and organize email</strong>, manage calendar events, update mailbox settings, and <strong>create or update files in OneDrive and SharePoint</strong>. It turns the connector from a lookup tool into one that can actually act inside your Microsoft workspace.</p>
+      <p>This is the pattern that makes connectors useful: reads let Claude answer questions, writes let it finish the job. For the millions of teams living in Outlook, Teams, and SharePoint, it closes the loop between &ldquo;summarize this thread&rdquo; and &ldquo;draft the reply and file the doc&rdquo; &mdash; with the usual reminder to keep a human on the approval for anything it sends.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+        <a href="https://suprmind.ai/hub/claude/features/" class="source-link">Suprmind</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code Adds <code>/fork</code> Background Sessions, a Focus View, and Auto Mode Everywhere</h3>
+      <p>The latest Claude Code releases sharpen the multi-session workflow. <code>/fork</code> now <strong>copies your conversation into a new background session</strong> so you can chase a tangent while the original keeps running, and the in-session helper it used to spawn is renamed <code>/subtask</code>. A new <strong>Focus view</strong> declutters the chat by collapsing tool activity into compact summaries. Auto mode is also now on <strong>without opt-in on Bedrock, Vertex AI, and Foundry</strong>.</p>
+      <p>Taken together these are quality-of-life wins for people running several agents at once: branch freely, keep the noise down, and get consistent autonomy defaults no matter which cloud you run on. Bug fixes landed too &mdash; terminal freezes during streaming, spurious prompt-injection warnings, and transcript-jumping are all addressed.</p>
+      <div class="source-links">
+        <a href="https://www.gradually.ai/en/changelogs/claude-code/" class="source-link">Claude Code Changelog</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot (Claude Code)</a>
+        <a href="https://www.havoptic.com/tools/claude-code" class="source-link">Havoptic</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">MCP</span>
+      <h3>MCP Passes 400M Monthly SDK Downloads; Tunnels Land in Research Preview</h3>
+      <p>The Model Context Protocol crossed <strong>400 million monthly SDK downloads</strong> &mdash; a 4x jump this year &mdash; cementing it as the default way to wire agents to apps. On the back of the new <strong>2026-07-28 spec</strong> and its stateless, serverless-friendly core, Anthropic shipped fresh connector capabilities: embedded UI, enterprise-managed auth, observability, and <strong>MCP tunnels</strong> in research preview.</p>
+      <p>Tunnels are the sleeper here. They let Claude reach an MCP server <strong>inside a private network</strong> with no inbound firewall rules and no public endpoint &mdash; the missing piece for connecting to internal systems that were never meant to face the open internet. It&rsquo;s infrastructure plumbing, but it&rsquo;s exactly what regulated teams need before they green-light real integrations.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/bringing-mcp-2026-07-28-to-claude" class="source-link">Claude Blog (MCP)</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Partnerships</span>
+      <h3>Cognizant Becomes a Global Premier Partner as the Claude Partner Network Scales</h3>
+      <p>Cognizant expanded its strategic partnership with Anthropic, joining a small group of <strong>Global Premier Partners</strong> in the Claude Partner Network. The firm is already deploying Claude across regulated industries with hard numbers to show for it &mdash; in insurance, a risk-navigation tool cut hours of manual research to <strong>about a minute</strong>, saving each underwriter roughly eight hours a week. More than 30,000 Cognizant associates have completed Claude training.</p>
+      <p>The deal sits inside a bigger push: Anthropic has put <strong>$100M</strong> into certifying consultants and integrators, and reports that over <strong>40,000 firms</strong> applied to the partner network. The services layer &mdash; the people who actually roll Claude out inside a Fortune 500 &mdash; is becoming as strategic as the model itself.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/cognizant-anthropic" class="source-link">Anthropic News</a>
+        <a href="https://www.anthropic.com/news/services-track-partner-hub" class="source-link">Claude Partner Network</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Anthropic Is Building for the Networks It Doesn&rsquo;t Control</h3>
+      <p>Two of today&rsquo;s items point the same direction: self-hosted environments keep Claude Code execution on your infrastructure, and MCP tunnels let Claude reach servers buried inside a private network. Both are answers to the same objection from big, cautious buyers &mdash; &ldquo;we can&rsquo;t send our internal systems to the public internet, and we can&rsquo;t hand agent execution to your cloud.&rdquo; Anthropic&rsquo;s response isn&rsquo;t to argue; it&rsquo;s to <strong>meet the network where it lives</strong>.</p>
+      <p>That&rsquo;s a telling posture. The M365 write tools and 400M MCP downloads show Claude reaching further into where work actually happens, while the self-hosting and tunnel work concede the parts Anthropic <em>shouldn&rsquo;t</em> control. With Sonnet 5&rsquo;s price rising on <strong>September 1</strong> ($2/$10 to $3/$15), the company can&rsquo;t win the largest accounts on capability alone &mdash; it wins them by being deployable on the customer&rsquo;s terms. The unglamorous work of fitting into someone else&rsquo;s security perimeter is exactly what turns a tool into infrastructure.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/run-claude-code-sessions-on-your-own-compute" class="source-link">Claude Blog</a>
+        <a href="https://claude.com/blog/bringing-mcp-2026-07-28-to-claude" class="source-link">Claude Blog (MCP)</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

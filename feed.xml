@@ -9,6 +9,18 @@
 
 
         <item>
+      <title>Claude AI Daily Brief — August 10, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-10.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-10.html</guid>
+      <pubDate>Mon, 10 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Code Sessions Can Now Run on Your Own Infrastructure</strong> — Self-hosted environments hit public beta for Team and Enterprise, keeping checkouts, secrets, and build artifacts on machines you provision.</p>
+        <p><strong>2. Microsoft 365 Connector Gains Write Tools</strong> — Claude can now draft and send email, manage calendar events, and create or update files in OneDrive and SharePoint, not just read them.</p>
+        <p><strong>3. MCP Passes 400M Monthly SDK Downloads</strong> — Up 4x this year, with MCP tunnels in research preview so Claude can reach servers inside a private network with no public endpoint.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-10.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 9, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-09.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-09.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Claude Code v2.1.207 Kills the Terminal Freeze</strong> — The new release fixes the lag and freezing on long streamed output, rewrites the agent view with colored state words and classifier-written headlines, and cuts the auto-updater's peak memory by roughly 400 MB.</p>
         <p><strong>3. Enterprise MCP Auth Expands Through Okta</strong> — Anthropic's zero-touch connector provisioning keeps rolling out, letting admins push MCP access to every employee on first login, with Hubspot, Ramp, and Webflow among early adopters.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-12.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 11, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-11.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-11.html</guid>
-      <pubDate>Sat, 11 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Code Gets an In-App Desktop Browser</strong> — A built-in Browser pane lets Claude pull up docs and live sites, read them, click through, and debug — even handling logins and OAuth pop-ups — without switching to Chrome.</p>
-        <p><strong>2. VS Code 1.128 Lands Multi-Chat Claude Agent Sessions</strong> — A single session can now hold several related Claude chats, so developers can compare approaches and branch work in parallel, each with its own history, title, and model.</p>
-        <p><strong>3. Auto Mode Reaches Every Major Cloud</strong> — Claude Code turns on auto mode by default across Bedrock, Vertex AI, and Foundry, and moves Bedrock to Claude Opus 4.8, in a broad stability release.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-11.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>
