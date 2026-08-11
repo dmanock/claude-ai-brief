@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-08-11">
+  <title>Claude AI Daily Brief — August 11, 2026 | Anthropic Watermarks Claude Text, Auto Mode Goes Default</title>
+  <meta name="description" content="August 11, 2026: Anthropic will watermark all Claude-generated text worldwide to meet EU AI Act rules, Claude Code auto mode becomes the default on August 14, the MCP 2026-07-28 spec lands in Claude with 950+ connectors, the Workbench and prompt tools retire August 17, and Cowork data shows most users aren't coding.">
+  <meta name="keywords" content="Claude AI, Anthropic, text watermarking, EU AI Act, C2PA, Claude Code auto mode, MCP 2026-07-28, connectors directory, Workbench retirement, code execution REPL, Claude Cowork, Claude for Government">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-08-11.html">
+  <meta property="og:title" content="Claude AI Daily Brief — August 11, 2026">
+  <meta property="og:description" content="Anthropic will watermark all Claude text worldwide under EU AI Act rules, Claude Code auto mode becomes default August 14, and the MCP 2026-07-28 spec lands in Claude.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-11.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — August 11, 2026">
+  <meta name="twitter:description" content="Anthropic to watermark all Claude text worldwide under EU rules, Claude Code auto mode goes default, and MCP 2026-07-28 arrives in Claude.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-11.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-08-11.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — August 11, 2026",
+    "description": "Anthropic will watermark all Claude-generated text worldwide to meet EU AI Act transparency rules, Claude Code auto mode becomes the default on August 14, the MCP 2026-07-28 spec lands in Claude with 950+ connectors, and the Workbench retires August 17.",
+    "datePublished": "2026-08-11T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-11.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-08-11.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Tuesday, August 11, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; August 11, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #165</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Anthropic Will Watermark All Claude Text &mdash; Worldwide</strong> &mdash; To meet the EU AI Act, every Claude model launched after August 2 gets <strong>invisible text watermarks</strong> and C2PA file provenance, applied globally, not just in Europe.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Claude Code Auto Mode Becomes the Default on August 14</strong> &mdash; Pro, Max, and Team plans switch from manual approval prompts to a <strong>classifier that screens every tool call</strong>, pausing only for irreversible or destructive actions.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>The MCP 2026-07-28 Spec Lands in Claude</strong> &mdash; A stateless, serverless-friendly core plus versioned Apps and Tasks extensions, with the connectors directory now past <strong>950 MCP servers</strong>.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Breaking</span>
+      <h3>Anthropic to Watermark All Claude-Generated Text Under EU AI Act Rules</h3>
+      <p>Anthropic confirmed it will embed <strong>imperceptible watermarks</strong> into text produced by Claude models and attach digitally signed provenance metadata to generated files. The move complies with the <strong>EU AI Act&rsquo;s transparency obligations</strong>, which became enforceable on August 2, and with the EU&rsquo;s Code of Practice on Transparency of AI-Generated Content that Anthropic signed alongside roughly 190 other organizations.</p>
+      <p>The key detail: these markings apply <strong>worldwide</strong>, not only to EU users, and the watermark is designed to <strong>survive copy-and-paste</strong>. Text gets an invisible embedded signal readers never see; files use the open <strong>C2PA</strong> standard for signed provenance. Coverage starts with every Claude model launched in the EU on or after August 2, and Anthropic says it&rsquo;s working to extend marking to older models. Skeptics note watermarks can be stripped or paraphrased away &mdash; but as a default, it makes AI text far easier to trace.</p>
+      <div class="source-links">
+        <a href="https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/" class="source-link">TechCrunch</a>
+        <a href="https://www.unite.ai/anthropic-watermarks-claude-text-output-to-meet-eu-transparency-rules/" class="source-link">Unite.AI</a>
+        <a href="https://www.euronews.com/next/2026/08/11/eu-compliance-delivered-globally-anthropic-to-watermark-claudes-output-worldwide" class="source-link">Euronews</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Claude Code</span>
+      <h3>Claude Code Auto Mode Becomes the Default on August 14</h3>
+      <p>Anthropic is flipping Claude Code&rsquo;s default permission mode to <strong>auto</strong> for Pro, Max, and Team plans starting <strong>August 14</strong>. Instead of stopping to ask for manual approval on each action, a <strong>classifier screens every tool call</strong> and lets Claude proceed &mdash; pausing only when an action is judged <strong>irreversible, destructive, or aimed outside your environment</strong>.</p>
+      <p>It&rsquo;s a meaningful shift in defaults: less friction for the common case, but it puts more weight on the classifier&rsquo;s judgment about what counts as risky. Teams that prefer the old behavior can still switch back to manual approvals, and the change follows auto mode already becoming the default on Bedrock, Vertex AI, and Foundry.</p>
+      <div class="source-links">
+        <a href="https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/" class="source-link">TechCrunch</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot (Claude Code)</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">MCP</span>
+      <h3>MCP 2026-07-28 Spec Arrives in Claude; Directory Passes 950 Servers</h3>
+      <p>Claude now supports the <strong>MCP 2026-07-28 spec</strong>, one of the protocol&rsquo;s most significant releases &mdash; it moves from a bidirectional stateful model to a <strong>stateless request/response core</strong>, letting servers deploy on serverless and edge infrastructure. The update brings stronger <strong>OAuth and OIDC</strong> authorization plus <strong>versioned extensions</strong> for Apps and Tasks, so developers can add interactive UIs and long-running work without touching the core protocol.</p>
+      <p>New connector capabilities ride along: embedded UI, enterprise-managed auth, observability, and private network tunnels. Claude now lists <strong>over 950 MCP servers</strong> in its connectors directory, used by millions of people daily, and MCP recently crossed <strong>400M monthly SDK downloads</strong> &mdash; a 4x jump this year that cements it as the default way to wire agents to apps.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/bringing-mcp-2026-07-28-to-claude" class="source-link">Claude Blog (MCP)</a>
+        <a href="https://www.latent.space/p/ainews-anthropic-launches-the-mcp" class="source-link">Latent Space</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Platform</span>
+      <h3>Workbench and Prompt Tools APIs Retire August 17; Code Execution Gains REPL State</h3>
+      <p>Two housekeeping notes for builders. The experimental <strong>prompt tools APIs and the Workbench</strong> are being retired on <strong>August 17</strong>, so anyone relying on those flows should migrate now. On the upside, the Python, TypeScript, Go, Java, Ruby, PHP, and C# SDKs now support <code>code_execution_20260120</code> &mdash; the code execution tool version that adds <strong>REPL state persistence</strong>.</p>
+      <p>Persistent REPL state is the quietly useful part: variables, imports, and intermediate results survive across calls within a session, so multi-step data work and iterative debugging no longer restart from scratch each turn. It&rsquo;s the kind of change that makes agentic, tool-heavy workflows feel far less brittle.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Claude Platform Release Notes</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-developer-platform" class="source-link">Releasebot (Dev Platform)</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Product Data</span>
+      <h3>Cowork Reaches Web and Mobile &mdash; and the Data Shows Most Users Aren&rsquo;t Coding</h3>
+      <p>As Anthropic rolls <strong>Claude Cowork</strong> out to the web at claude.ai and to iOS and Android, its own usage data tells a notable story: <strong>most Cowork users aren&rsquo;t writing code</strong>. The surfaces run on remote sessions hosted on Anthropic&rsquo;s servers, saved to your account, able to keep working and run scheduled tasks with <strong>no device online</strong>.</p>
+      <p>That mix &mdash; document work, research, spreadsheets, file wrangling &mdash; is the tell. Cowork is aimed less at engineers and more at the broader knowledge-work crowd, and unifying chat and Cowork onto one home screen (with projects and artifacts persisting across both) is Anthropic&rsquo;s bet that &ldquo;agent that does the work&rdquo; belongs everywhere, not just in a terminal.</p>
+      <div class="source-links">
+        <a href="https://venturebeat.com/technology/anthropic-brings-claude-cowork-to-mobile-and-web-as-usage-data-shows-most-users-arent-coding" class="source-link">VentureBeat</a>
+        <a href="https://claude.com/blog/cowork-web-mobile" class="source-link">Claude Blog</a>
+        <a href="https://www.infoworld.com/article/4194472/anthropic-expands-claude-cowork-to-web-and-mobile-as-enterprise-use-broadens.html" class="source-link">InfoWorld</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Public Sector</span>
+      <h3>Claude for Government Enters Beta</h3>
+      <p>Anthropic opened <strong>Claude for Government</strong> in beta, a packaging aimed at public-sector teams that need Claude&rsquo;s capabilities inside the compliance and controls their agencies require. It slots alongside the enterprise push &mdash; richer admin analytics, model-level entitlements, and spend alerts for Claude Enterprise &mdash; that gives administrators deeper visibility into usage, cost, and productivity.</p>
+      <p>The through-line with today&rsquo;s watermarking news is hard to miss: Anthropic is leaning into the parts of the market where <strong>provenance, auditability, and governance</strong> are non-negotiable. Government and regulated enterprise are exactly the buyers who care most about where AI output came from and who approved each action.</p>
+      <div class="source-links">
+        <a href="https://blog.mean.ceo/anthropic-claude-news-august-2026/" class="source-link">Anthropic Claude News</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Compliance Is Becoming a Feature, Not a Cost</h3>
+      <p>Watermarking every Claude output worldwide is the headline, but look at what surrounds it. Auto mode ships with a classifier that <em>knows what it&rsquo;s not allowed to do</em>. Claude for Government arrives with governance baked in. Enterprise admins get spend alerts and entitlement controls. Anthropic could have treated the EU AI Act as a regional checkbox &mdash; instead it&rsquo;s applying the transparency machinery <strong>globally</strong> and turning it into a selling point.</p>
+      <p>That&rsquo;s the strategic read. As agents take more autonomous action, the buyers who matter most &mdash; governments, banks, defense, healthcare &mdash; don&rsquo;t just ask &ldquo;is it capable?&rdquo; They ask &ldquo;can I prove what it did, and where the output came from?&rdquo; By making provenance and controls the default rather than an enterprise upsell, Anthropic is betting that <strong>trust infrastructure</strong> is what wins the accounts capability alone can&rsquo;t. Regulation, handled this way, stops being a tax and starts being a moat.</p>
+      <div class="source-links">
+        <a href="https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/" class="source-link">TechCrunch</a>
+        <a href="https://www.euronews.com/next/2026/08/11/eu-compliance-delivered-globally-anthropic-to-watermark-claudes-output-worldwide" class="source-link">Euronews</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

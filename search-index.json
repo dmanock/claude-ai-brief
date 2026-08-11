@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-08-11",
+    "title": "Claude AI Daily Brief — August 11, 2026 | Anthropic Watermarks Claude Text, Auto Mode Goes Default",
+    "description": "August 11, 2026: Anthropic will watermark all Claude-generated text worldwide to meet EU AI Act rules, Claude Code auto mode becomes the default on August 14, the MCP 2026-07-28 spec lands in Claude with 950+ connectors, the Workbench and prompt tools retire August 17, and Cowork data shows most users aren't coding.",
+    "url": "reports/claude-ai-daily-2026-08-11.html",
+    "headlines": [
+      "Anthropic Watermarks Claude Text",
+      "Auto Mode Goes Default",
+      "Anthropic to Watermark All Claude-Generated Text Under EU AI Act Rules",
+      "Claude Code Auto Mode Becomes the Default on August 14",
+      "MCP 2026-07-28 Spec Arrives in Claude; Directory Passes 950 Servers",
+      "Workbench and Prompt Tools APIs Retire August 17; Code Execution Gains REPL State",
+      "Cowork Reaches Web and Mobile &mdash; and the Data Shows Most Users Aren&rsquo;t Coding",
+      "Claude for Government Enters Beta",
+      "Compliance Is Becoming a Feature, Not a Cost"
+    ],
+    "snippet": "Claude AI Daily Brief — August 11, 2026 | Anthropic Watermarks Claude Text, Auto Mode Goes Default ● Tuesday, August 11, 2026 Claude AI Daily Brief — August 11, 2026 Covering the latest from the platform · Edition #165 TL;DR — Today’s Top 3 Takeaways 1. Anthropic Will Watermark All Claude Text — Wor"
+  },
+  {
     "date": "2026-08-10",
     "title": "Claude AI Daily Brief — August 10, 2026 | Claude Code Sessions Go Self-Hosted, Microsoft 365 Gets Write Tools",
     "description": "August 10, 2026: Claude Code self-hosted environments hit public beta, the Microsoft 365 connector gains write tools, Claude Code adds /fork background sessions and a Focus view, MCP passes 400M monthly SDK downloads with tunnels in research preview, and Cognizant becomes a Global Premier Partner.",

@@ -9,6 +9,18 @@
 
 
         <item>
+      <title>Claude AI Daily Brief — August 11, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-11.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-11.html</guid>
+      <pubDate>Tue, 11 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Will Watermark All Claude Text — Worldwide</strong> — To meet the EU AI Act, every Claude model launched after August 2 gets invisible text watermarks and C2PA file provenance, applied globally, not just in Europe.</p>
+        <p><strong>2. Claude Code Auto Mode Becomes the Default on August 14</strong> — Pro, Max, and Team plans switch from manual approval prompts to a classifier that screens every tool call, pausing only for irreversible or destructive actions.</p>
+        <p><strong>3. The MCP 2026-07-28 Spec Lands in Claude</strong> — A stateless, serverless-friendly core plus versioned Apps and Tasks extensions, with the connectors directory now past 950 MCP servers.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-11.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 10, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-10.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-10.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Claude for Government Hits Public Beta</strong> — Claude Code and Cowork land in Claude for Government Desktop on FedRAMP High, with tamper-evident audit logs, spend governance, and Anthropic as the sole contracting party.</p>
         <p><strong>3. Microsoft 365 Write Tools Ship</strong> — With admin consent, Claude can now draft and send email, manage calendar events, and create and update OneDrive and SharePoint files. Teams stays read-only, and it's rolling out Max-first.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-13.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 12, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-12.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-12.html</guid>
-      <pubDate>Sun, 12 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Fable 5 Leaves Subscriptions for Metered Credits</strong> — After a five-day extension, included Fable 5 access ends today on Pro, Max, and Team plans, shifting to prepaid usage credits at $10 per million input and $50 per million output tokens. Anthropic says it's temporary.</p>
-        <p><strong>2. Claude Code v2.1.207 Kills the Terminal Freeze</strong> — The new release fixes the lag and freezing on long streamed output, rewrites the agent view with colored state words and classifier-written headlines, and cuts the auto-updater's peak memory by roughly 400 MB.</p>
-        <p><strong>3. Enterprise MCP Auth Expands Through Okta</strong> — Anthropic's zero-touch connector provisioning keeps rolling out, letting admins push MCP access to every employee on first login, with Hubspot, Ramp, and Webflow among early adopters.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-12.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>
