@@ -9,6 +9,18 @@
 
 
         <item>
+      <title>Claude AI Daily Brief — August 12, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-12.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-12.html</guid>
+      <pubDate>Wed, 12 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Opus 5 Becomes Claude Code's Default</strong> — The latest release makes Opus 5 the default model, adds a Claude Security plugin for vulnerability scanning, and drops an iOS Simulator pane into Claude Code Desktop.</p>
+        <p><strong>2. Compliance API Expands to Cowork and Claude Code</strong> — Enterprise security teams can now pull unified session content and metadata across desktop, web, mobile, and CLI for audits and eDiscovery.</p>
+        <p><strong>3. Sonnet 5's Promo Pricing Ends August 31</strong> — The $2/$10 per-million-token intro rate reverts to standard $3/$15 on September 1.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-12.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 11, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-11.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-11.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Claude Science Grants Close July 15</strong> — Anthropic's AI for Science program is funding up to 50 research projects with up to $30,000 in Claude credits each. Applications close tomorrow, with awards announced by July 31.</p>
         <p><strong>3. LTM Joins the Claude Partner Network</strong> — LTM signed on to accelerate enterprise adoption of Claude, Claude Code, and Claude Cowork, moving clients from pilots to production behind Anthropic's $100M network commitment.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-14.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 13, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-13.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-13.html</guid>
-      <pubDate>Mon, 13 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Cowork Goes Cloud, Mobile &amp; Web</strong> — Claude Cowork moves off the desktop into the cloud, so tasks can start on a laptop, run in the background, and finish with no device online. Anthropic's own usage data shows more than 90% of sessions aren't software development.</p>
-        <p><strong>2. Claude for Government Hits Public Beta</strong> — Claude Code and Cowork land in Claude for Government Desktop on FedRAMP High, with tamper-evident audit logs, spend governance, and Anthropic as the sole contracting party.</p>
-        <p><strong>3. Microsoft 365 Write Tools Ship</strong> — With admin consent, Claude can now draft and send email, manage calendar events, and create and update OneDrive and SharePoint files. Teams stays read-only, and it's rolling out Max-first.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-13.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

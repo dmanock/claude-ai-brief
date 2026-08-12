@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-08-12",
+    "title": "Claude AI Daily Brief — August 12, 2026 | Opus 5 Becomes Claude Code's Default, Compliance API Expands to Cowork",
+    "description": "August 12, 2026: Claude Code ships Opus 5 as its new default with a Security plugin and iOS Simulator pane, the Compliance API expands to cover Cowork and Claude Code, Sonnet 5's promo pricing ends August 31, self-hosted Claude Code environments hit public beta, and Anthropic's ARR nears $70B.",
+    "url": "reports/claude-ai-daily-2026-08-12.html",
+    "headlines": [
+      "Opus 5 Becomes Claude Code's Default",
+      "Compliance API Expands to Cowork",
+      "Opus 5 Ships as Claude Code&rsquo;s New Default, With a Security Plugin and iOS Simulator Pane",
+      "Compliance API Expands to Cover Cowork and Claude Code",
+      "Claude Sonnet 5&rsquo;s Promotional Pricing Ends August 31",
+      "Self-Hosted Claude Code Environments Reach Public Beta",
+      "Claude Code&rsquo;s 50% Weekly Usage Boost Extended Through August 19",
+      "Anthropic Rolls Out Claude for Teachers",
+      "Anthropic Is Hardening the Enterprise Stack While the Numbers Explode"
+    ],
+    "snippet": "Claude AI Daily Brief — August 12, 2026 | Opus 5 Becomes Claude Code's Default, Compliance API Expands to Cowork ● Wednesday, August 12, 2026 Claude AI Daily Brief — August 12, 2026 Covering the latest from the platform · Edition #166 TL;DR — Today’s Top 3 Takeaways 1. Opus 5 Becomes Claude Code’s D"
+  },
+  {
     "date": "2026-08-11",
     "title": "Claude AI Daily Brief — August 11, 2026 | Anthropic Watermarks Claude Text, Auto Mode Goes Default",
     "description": "August 11, 2026: Anthropic will watermark all Claude-generated text worldwide to meet EU AI Act rules, Claude Code auto mode becomes the default on August 14, the MCP 2026-07-28 spec lands in Claude with 950+ connectors, the Workbench and prompt tools retire August 17, and Cowork data shows most users aren't coding.",

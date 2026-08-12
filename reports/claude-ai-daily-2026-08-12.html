@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-08-12">
+  <title>Claude AI Daily Brief — August 12, 2026 | Opus 5 Becomes Claude Code's Default, Compliance API Expands to Cowork</title>
+  <meta name="description" content="August 12, 2026: Claude Code ships Opus 5 as its new default with a Security plugin and iOS Simulator pane, the Compliance API expands to cover Cowork and Claude Code, Sonnet 5's promo pricing ends August 31, self-hosted Claude Code environments hit public beta, and Anthropic's ARR nears $70B.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude Code, Opus 5, Claude Security plugin, Compliance API, Cowork, Claude Sonnet 5 pricing, self-hosted environments, Claude for Teachers, Anthropic valuation, S-1">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-08-12.html">
+  <meta property="og:title" content="Claude AI Daily Brief — August 12, 2026">
+  <meta property="og:description" content="Opus 5 becomes Claude Code's default with a new Security plugin, the Compliance API expands to Cowork and Claude Code, and Sonnet 5's promo pricing ends August 31.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-12.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — August 12, 2026">
+  <meta name="twitter:description" content="Opus 5 becomes Claude Code's default with a Security plugin, the Compliance API expands to Cowork and Claude Code, and Sonnet 5's promo pricing ends August 31.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-12.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-08-12.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — August 12, 2026",
+    "description": "Claude Code ships Opus 5 as its new default with a Security plugin and iOS Simulator pane, the Compliance API expands to cover Cowork and Claude Code, Sonnet 5's promotional pricing ends August 31, and self-hosted Claude Code environments reach public beta.",
+    "datePublished": "2026-08-12T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-12.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-08-12.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Wednesday, August 12, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; August 12, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #166</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Opus 5 Becomes Claude Code&rsquo;s Default</strong> &mdash; The latest release makes <strong>Opus 5</strong> the default model, adds a <strong>Claude Security plugin</strong> for vulnerability scanning, and drops an iOS Simulator pane into Claude Code Desktop.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Compliance API Expands to Cowork and Claude Code</strong> &mdash; Enterprise security teams can now pull <strong>unified session content and metadata</strong> across desktop, web, mobile, and CLI for audits and eDiscovery.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Sonnet 5&rsquo;s Promo Pricing Ends August 31</strong> &mdash; The <strong>$2/$10</strong> per-million-token intro rate reverts to standard <strong>$3/$15</strong> on September 1 &mdash; budget now if Sonnet 5 is in your stack.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Claude Code</span>
+      <h3>Opus 5 Ships as Claude Code&rsquo;s New Default, With a Security Plugin and iOS Simulator Pane</h3>
+      <p>Anthropic&rsquo;s latest Claude Code release makes <strong>Opus 5 the new default model</strong>, folding the faster, more cost-efficient flagship into the terminal for everyday coding work. Alongside it comes a <strong>Claude Security plugin</strong> that scans code for vulnerabilities, plus an <strong>iOS Simulator pane</strong> in Claude Code Desktop so mobile devs can build and preview without leaving the tool.</p>
+      <p>The rest of the release rounds out the agentic story: <strong>background code review</strong>, richer prompt and subagent controls, and safer auto mode and sandbox updates &mdash; landing just ahead of auto mode becoming the default on August 14. A separate bug-fix pass tackled redraw failures, Git detection on Windows, Remote Control resume leaks, self-hosted runner reliability, and memory cleanup.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot (Claude Code)</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Enterprise</span>
+      <h3>Compliance API Expands to Cover Cowork and Claude Code</h3>
+      <p>Anthropic extended its <strong>Compliance API</strong> to cover <strong>Cowork and Claude Code</strong> across desktop, web, mobile, and CLI, in beta for Claude Enterprise customers. Security and governance teams can now pull <strong>unified session content and metadata</strong> from the same API they already use for chat &mdash; a single pipe for audits, retention, and eDiscovery across every surface.</p>
+      <p>It&rsquo;s the logical next move after yesterday&rsquo;s watermarking news: as agents take more autonomous action inside Cowork and the terminal, enterprises need a way to see exactly what happened and when. Putting agentic sessions under the same compliance umbrella as chat is how Anthropic keeps regulated buyers comfortable letting Claude do real work.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic Newsroom</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Pricing</span>
+      <h3>Claude Sonnet 5&rsquo;s Promotional Pricing Ends August 31</h3>
+      <p>A heads-up for anyone with Sonnet 5 in production: the promotional rate of <strong>$2 per million input tokens and $10 per million output</strong> ends <strong>August 31</strong>. Standard pricing of <strong>$3/$15</strong> takes effect September 1 &mdash; a 50% bump on both sides of the meter.</p>
+      <p>For high-volume workloads that&rsquo;s a real line-item change worth modeling now. Sonnet 5 remains the workhorse tier between Haiku and Opus, so the move mostly hits teams running Claude at scale for classification, extraction, and agent loops. Worth a quick look at whether any traffic can shift to Haiku 4.5 without hurting quality.</p>
+      <div class="source-links">
+        <a href="https://benchlm.ai/anthropic/api-pricing" class="source-link">BenchLM (API Pricing)</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Platform</span>
+      <h3>Self-Hosted Claude Code Environments Reach Public Beta</h3>
+      <p>Anthropic opened <strong>self-hosted environments for Claude Code</strong> in public beta, letting teams run sessions on <strong>their own infrastructure</strong> with internal network access, custom tooling, and compliance controls. It supports both fixed and on-demand runners, and is available to <strong>Team and Enterprise</strong> plans.</p>
+      <p>This is the flip side of the Compliance API story: some organizations don&rsquo;t just want to audit agent sessions &mdash; they want the whole thing running inside their own walls. Self-hosted runners plus the new MCP tunnels (which reach internal servers without a public endpoint) give security-conscious shops a path to use Claude Code against private code and data with far less friction.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot (Claude Code)</a>
+        <a href="https://claude.com/blog/bringing-mcp-2026-07-28-to-claude" class="source-link">Claude Blog (MCP)</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Usage</span>
+      <h3>Claude Code&rsquo;s 50% Weekly Usage Boost Extended Through August 19</h3>
+      <p>Good news for heavy users: Anthropic <strong>extended the temporary 50% weekly usage boost</strong> for Claude Code subscribers through <strong>August 19, 2026</strong>. The bump gives Pro and Max coders more headroom against their weekly caps during a stretch where auto mode, background review, and Opus 5 are all pushing usage up.</p>
+      <p>It&rsquo;s a small thing, but a telling one. Every new agentic feature &mdash; auto mode, background code review, subagents &mdash; burns more tokens per session. Extending the boost is Anthropic smoothing the transition so the new defaults don&rsquo;t immediately run people into their limits.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot (Claude Code)</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Education</span>
+      <h3>Anthropic Rolls Out Claude for Teachers</h3>
+      <p>Anthropic launched <strong>Claude for Teachers</strong>, entering the race with OpenAI and Google to put AI in the classroom. The product can incorporate <strong>academic standards from all 50 states</strong>, and teachers can use it to build lesson plans, personalize instructional materials, and lean on data to improve instruction. It&rsquo;s <strong>free for verified U.S. educators</strong>.</p>
+      <p>Education is a deliberate wedge: high trust requirements, real workflows, and a captive audience of future power users. Pairing free educator access with the standards-aware lesson tooling is how Anthropic builds mindshare in a segment where OpenAI and Google are already spending hard.</p>
+      <div class="source-links">
+        <a href="https://kesq.com/stacker-ai/2026/08/11/anthropic-unveils-claude-for-teachers-joining-openai-and-google-in-race-to-dominate-classroom-ai/" class="source-link">KESQ / Stacker</a>
+        <a href="https://blog.mean.ceo/anthropic-claude-news-august-2026/" class="source-link">Anthropic Claude News</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Anthropic Is Hardening the Enterprise Stack While the Numbers Explode</h3>
+      <p>Step back from today&rsquo;s individual releases and one theme snaps into focus. The Compliance API now covers Cowork and Claude Code. Self-hosted environments let teams run agents on their own iron. A Security plugin scans the code Claude writes. None of these are flashy model launches &mdash; they&rsquo;re the plumbing that makes a serious buyer say yes. Meanwhile the business is running hot: trackers put Anthropic&rsquo;s ARR near <strong>$70B</strong> as of this month, its Series H closed at a reported <strong>$965B</strong> valuation, and a confidential S-1 is already on file.</p>
+      <p>Here&rsquo;s the read: capability is table stakes now, and Anthropic is competing on <strong>deployability</strong>. Can you audit it, self-host it, secure it, and prove what it did? Opus 5 as the Claude Code default is the headline feature, but the audit trails, private runners, and security scanning are what actually convert a bank, a government agency, or a defense contractor. When your revenue is compounding this fast, the constraint isn&rsquo;t model quality &mdash; it&rsquo;s how quickly you can make the biggest, most cautious customers comfortable. That&rsquo;s exactly where today&rsquo;s releases aim.</p>
+      <div class="source-links">
+        <a href="https://futuresearch.ai/anthropic-financial-forecast/" class="source-link">FutureSearch</a>
+        <a href="https://sacra.com/c/anthropic/" class="source-link">Sacra</a>
+        <a href="https://venturebeat.com/orchestration/anthropic-launches-claude-opus-5-a-cheaper-ai-model-for-coding-agents-and-enterprise-workflows" class="source-link">VentureBeat</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
