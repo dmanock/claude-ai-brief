@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-08-13",
+    "title": "Claude AI Daily Brief — August 13, 2026 | Claude Code Auto Mode Becomes the Default, Bio Safeguards Loosen",
+    "description": "August 13, 2026: Claude Code auto mode becomes the default on August 14 with a free safety classifier, Anthropic loosens Claude Fable 5 biology safeguards while keeping dual-use work on Opus 5, new Claude models carry EU AI Act watermarks, MCP 2026-07-28 lands, and the Admin API hits beta.",
+    "url": "reports/claude-ai-daily-2026-08-13.html",
+    "headlines": [
+      "Claude Code Auto Mode Becomes the Default",
+      "Bio Safeguards Loosen",
+      "Auto Mode Becomes the Claude Code Default on August 14 &mdash; and the Safety Classifier Is Free",
+      "Anthropic Loosens Claude Fable 5&rsquo;s Biology Safeguards, Keeps Dual-Use on Opus 5",
+      "New Claude Models Carry Hidden Watermarks Under the EU AI Act",
+      "Claude Expands Support for the MCP 2026-07-28 Spec",
+      "Admin API Hits Beta for Enterprise, Plus Cleaner Billing and Memory Headers",
+      "Anthropic Taps Zaelab as an Enterprise Delivery Partner",
+      "Tino Cu&eacute;llar Joins Anthropic as Chief Global Affairs Officer",
+      "Safety Stopped Being a Brake and Became the Product"
+    ],
+    "snippet": "Claude AI Daily Brief — August 13, 2026 | Claude Code Auto Mode Becomes the Default, Bio Safeguards Loosen ● Thursday, August 13, 2026 Claude AI Daily Brief — August 13, 2026 Covering the latest from the platform · Edition #167 TL;DR — Today’s Top 3 Takeaways 1. Claude Code Auto Mode Goes Default To"
+  },
+  {
     "date": "2026-08-12",
     "title": "Claude AI Daily Brief — August 12, 2026 | Opus 5 Becomes Claude Code's Default, Compliance API Expands to Cowork",
     "description": "August 12, 2026: Claude Code ships Opus 5 as its new default with a Security plugin and iOS Simulator pane, the Compliance API expands to cover Cowork and Claude Code, Sonnet 5's promo pricing ends August 31, self-hosted Claude Code environments hit public beta, and Anthropic's ARR nears $70B.",

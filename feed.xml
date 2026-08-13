@@ -9,6 +9,18 @@
 
 
         <item>
+      <title>Claude AI Daily Brief — August 13, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-13.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-13.html</guid>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Code Auto Mode Goes Default Tomorrow</strong> — Starting August 14, new Pro, Max, and Team sessions default to auto mode, where a safety classifier vets each tool call — and Anthropic won't charge for the extra compute.</p>
+        <p><strong>2. Anthropic Loosens Fable 5's Biology Safeguards</strong> — Updated safety systems cut false-positive refusals on biology prompts by ~85%, while genuine dual-use research stays gated to Opus 5.</p>
+        <p><strong>3. New Claude Models Now Watermark Their Text</strong> — Machine-readable watermarks are baked into output from new models to satisfy Article 50 of the EU AI Act.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-13.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 12, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-12.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-12.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Enterprise Admin API Beta Lands</strong> — Claude Enterprise organizations can now manage members programmatically: list and look up by email, change roles, remove members, and handle invites and groups via the API.</p>
         <p><strong>3. Claude Pricing Localizes for India</strong> — Anthropic began tailoring pricing for India, its biggest market after the U.S., lowering a real barrier for developers and smaller teams there.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-15.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 14, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-14.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-14.html</guid>
-      <pubDate>Tue, 14 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Code Ships an Accessibility Update</strong> — A new release adds an opt-in screen reader mode with plain-text rendering, vim insert-mode remaps, and mouse-click support in fullscreen menus, alongside background-agent fixes and memory optimizations.</p>
-        <p><strong>2. Claude Science Grants Close July 15</strong> — Anthropic's AI for Science program is funding up to 50 research projects with up to $30,000 in Claude credits each. Applications close tomorrow, with awards announced by July 31.</p>
-        <p><strong>3. LTM Joins the Claude Partner Network</strong> — LTM signed on to accelerate enterprise adoption of Claude, Claude Code, and Claude Cowork, moving clients from pilots to production behind Anthropic's $100M network commitment.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-14.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

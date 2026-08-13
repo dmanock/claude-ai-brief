@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-08-13">
+  <title>Claude AI Daily Brief — August 13, 2026 | Claude Code Auto Mode Becomes the Default, Bio Safeguards Loosen</title>
+  <meta name="description" content="August 13, 2026: Claude Code auto mode becomes the default on August 14 with a free safety classifier, Anthropic loosens Claude Fable 5 biology safeguards while keeping dual-use work on Opus 5, new Claude models carry EU AI Act watermarks, MCP 2026-07-28 lands, and the Admin API hits beta.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude Code, auto mode, Claude Fable 5, biology safeguards, EU AI Act, watermarks, MCP 2026-07-28, Admin API, Zaelab, Tino Cuellar, enterprise AI">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-08-13.html">
+  <meta property="og:title" content="Claude AI Daily Brief — August 13, 2026">
+  <meta property="og:description" content="Claude Code auto mode becomes the default August 14 with a free safety classifier, Anthropic loosens Fable 5 bio safeguards, and new Claude models carry EU AI Act watermarks.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-13.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — August 13, 2026">
+  <meta name="twitter:description" content="Claude Code auto mode becomes the default August 14 with a free safety classifier, Anthropic loosens Fable 5 bio safeguards, and new Claude models carry EU AI Act watermarks.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-13.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-08-13.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — August 13, 2026",
+    "description": "Claude Code auto mode becomes the default on August 14 with a free safety classifier, Anthropic loosens Claude Fable 5 biology safeguards while keeping dual-use work on Opus 5, new Claude models carry EU AI Act watermarks, MCP 2026-07-28 lands, and the Admin API reaches beta.",
+    "datePublished": "2026-08-13T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-13.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-08-13.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Thursday, August 13, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; August 13, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #167</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Claude Code Auto Mode Goes Default Tomorrow</strong> &mdash; Starting <strong>August 14</strong>, new sessions on Pro, Max, and Team default to auto mode, where a safety classifier vets each tool call &mdash; and Anthropic stops charging for the extra compute.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Anthropic Loosens Fable 5&rsquo;s Biology Safeguards</strong> &mdash; Updated safety systems cut false-positive refusals on biology prompts by <strong>~85%</strong>, while true dual-use research stays gated to <strong>Opus 5</strong>.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>New Claude Models Now Watermark Their Text</strong> &mdash; Machine-readable watermarks are baked into output from new models to satisfy <strong>Article 50 of the EU AI Act</strong>.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Claude Code</span>
+      <h3>Auto Mode Becomes the Claude Code Default on August 14 &mdash; and the Safety Classifier Is Free</h3>
+      <p>The switch flips tomorrow. Starting <strong>August 14</strong>, new Claude Code sessions for <strong>Pro, Max, and Team</strong> users run in <strong>auto mode</strong> unless a user or admin has pinned a different permission setting. Instead of prompting for approval on every action, auto mode routes each tool call through a <strong>classifier</strong> that checks for irreversible, destructive, or out-of-bounds work &mdash; and if it blocks something, Claude tries a safer route or asks.</p>
+      <p>The detail that matters for budgets: Anthropic will <strong>not charge</strong> for the additional compute the classifier consumes. Anthropic plans to roll auto mode out as the default across these plans over the next month, making AI-reviewed autonomy the standard experience rather than an opt-in for the brave.</p>
+      <div class="source-links">
+        <a href="https://9to5mac.com/2026/08/07/psa-claude-code-enabling-auto-mode-as-default-next-week-anthropic-says/" class="source-link">9to5Mac</a>
+        <a href="https://www.helpnetsecurity.com/2026/08/10/anthropic-claude-code-auto-mode/" class="source-link">Help Net Security</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Safety</span>
+      <h3>Anthropic Loosens Claude Fable 5&rsquo;s Biology Safeguards, Keeps Dual-Use on Opus 5</h3>
+      <p>Anthropic updated the safety systems behind <strong>Claude Fable 5</strong> to handle biology-related requests more precisely, cutting <strong>false-positive fallbacks by roughly 85%</strong>. The upshot: researchers and students asking legitimate biology questions hit far fewer unnecessary refusals, a long-standing complaint from scientific users.</p>
+      <p>The tradeoff is deliberate. Anthropic continues to <strong>restrict genuine dual-use biological research</strong>, routing those capabilities only to its more advanced <strong>Opus 5</strong> model with tighter controls. It&rsquo;s a tiered-safety approach &mdash; loosen the everyday model where the risk is low, concentrate the sensitive work behind stronger guardrails.</p>
+      <div class="source-links">
+        <a href="https://www.hokanews.com/2026/08/anthropic-upgrades-claude-ai-safety.html" class="source-link">HokaNews</a>
+        <a href="https://blog.mean.ceo/anthropic-claude-news-august-2026/" class="source-link">Anthropic Claude News</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Policy</span>
+      <h3>New Claude Models Carry Hidden Watermarks Under the EU AI Act</h3>
+      <p>Anthropic began adding <strong>machine-readable watermarks</strong> to text generated by new Claude models on <strong>August 2</strong>, embedding an invisible signal that marks content as AI-generated. The move answers the transparency requirements of <strong>Article 50 of the EU AI Act</strong>, which pushes providers to make synthetic content detectable.</p>
+      <p>For most users the change is invisible &mdash; the watermark doesn&rsquo;t alter what you read. But it hands regulators, publishers, and detection tools a reliable way to identify Claude output, and it puts Anthropic ahead of a compliance curve that every frontier lab now has to navigate in Europe.</p>
+      <div class="source-links">
+        <a href="https://interestingengineering.com/ai-robotics/anthropic-claude-text-invisible-watermarks" class="source-link">Interesting Engineering</a>
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic Newsroom</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Protocol</span>
+      <h3>Claude Expands Support for the MCP 2026-07-28 Spec</h3>
+      <p>Claude now supports the new <strong>MCP 2026-07-28</strong> specification, a meaningful refresh of the Model Context Protocol. The update brings a <strong>stateless core</strong>, stronger <strong>OAuth and OIDC</strong> authorization, and <strong>versioned extensions</strong> for Apps and Tasks &mdash; the connective tissue for agents that reach across tools and services.</p>
+      <p>The stateless core and hardened auth are the tell: MCP is maturing from a clever integration trick into enterprise-grade plumbing. Versioned Apps and Tasks extensions mean builders can evolve connectors without breaking existing ones, which is exactly what you need once real workflows depend on them.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+        <a href="https://claude.com/blog/bringing-mcp-2026-07-28-to-claude" class="source-link">Claude Blog (MCP)</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Platform</span>
+      <h3>Admin API Hits Beta for Enterprise, Plus Cleaner Billing and Memory Headers</h3>
+      <p>The <strong>Admin API</strong> is now in <strong>beta for all Claude Enterprise organizations</strong>, giving IT teams a programmatic way to manage people across their Claude.ai org. Two smaller but welcome changes land alongside it: on the API you&rsquo;re <strong>no longer billed</strong> when a request returns <code>stop_reason: "refusal"</code> with no output generated.</p>
+      <p>On the SDK side, the Python (0.116.0), TypeScript (0.110.0), Go, Java, Ruby, PHP, C#, and CLI clients now send <code>agent-memory-2026-07-22</code> on all memory-store calls, replacing the older <code>managed-agents-2026-04-01</code> header. Housekeeping, but the kind that keeps long-running agent memory clean.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot (Claude)</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Claude Platform Docs</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Partnership</span>
+      <h3>Anthropic Taps Zaelab as an Enterprise Delivery Partner</h3>
+      <p>Anthropic announced a strategic partnership with <strong>Zaelab</strong> to help enterprises turn AI pilots into production-ready deployments. The pitch pairs <strong>Claude models</strong> with Zaelab&rsquo;s decade-plus of enterprise delivery work &mdash; embedding AI into the systems, workflows, and teams that actually run a business.</p>
+      <p>The angle worth noting: the deal extends Zaelab&rsquo;s footprint in the <strong>ServiceNow</strong> ecosystem, positioning AI-native CPQ and CRM solutions on the ServiceNow AI Platform. It&rsquo;s another data point in Anthropic&rsquo;s services-and-partners push &mdash; the last mile between a capable model and a shipped enterprise system.</p>
+      <div class="source-links">
+        <a href="https://www.prnewswire.com/news-releases/anthropic-finds-enterprise-delivery-partner-in-zaelab-302846546.html" class="source-link">PR Newswire</a>
+        <a href="https://www.anthropic.com/news/claude-partner-network" class="source-link">Anthropic Newsroom</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Leadership</span>
+      <h3>Tino Cu&eacute;llar Joins Anthropic as Chief Global Affairs Officer</h3>
+      <p><strong>Mariano-Florentino (Tino) Cu&eacute;llar</strong> is joining Anthropic as <strong>Chief Global Affairs Officer</strong>, a senior hire aimed squarely at the policy, regulatory, and geopolitical front. It&rsquo;s a signal of how central government relations have become as frontier labs scale.</p>
+      <p>The timing tracks: watermarking under the EU AI Act, tiered biosafety controls, and a widening enterprise footprint in regulated sectors all demand a heavyweight to steer global policy. Bringing that expertise in-house is how Anthropic keeps pace with rules that are being written in real time.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic Newsroom</a>
+        <a href="https://blog.mean.ceo/anthropic-claude-news-august-2026/" class="source-link">Anthropic Claude News</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Safety Stopped Being a Brake and Became the Product</h3>
+      <p>Look at today&rsquo;s slate together. Auto mode ships as the Claude Code default with a <strong>free</strong> safety classifier reviewing every action. Fable 5&rsquo;s bio safeguards get <em>looser</em> where the risk is low and <em>tighter</em> where it&rsquo;s real. New models watermark their own text for EU regulators. And Anthropic just hired a Chief Global Affairs Officer to work the policy machinery. These aren&rsquo;t separate stories &mdash; they&rsquo;re one strategy.</p>
+      <p>Here&rsquo;s the read: Anthropic is turning safety from a cost center into a <strong>growth lever</strong>. Making the classifier free removes the last excuse not to run agents autonomously. Tiered biosafety lets scientists actually use the model without gutting the guardrails. Watermarks and a top policy hire clear the regulatory path into Europe and regulated industries. When your competitors treat safety as friction, building it into the product &mdash; and eating the compute cost &mdash; is how you win the customers who were never going to move without it.</p>
+      <div class="source-links">
+        <a href="https://www.helpnetsecurity.com/2026/08/10/anthropic-claude-code-auto-mode/" class="source-link">Help Net Security</a>
+        <a href="https://interestingengineering.com/ai-robotics/anthropic-claude-text-invisible-watermarks" class="source-link">Interesting Engineering</a>
+        <a href="https://www.hokanews.com/2026/08/anthropic-upgrades-claude-ai-safety.html" class="source-link">HokaNews</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
