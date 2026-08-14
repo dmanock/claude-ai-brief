@@ -8,6 +8,18 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
 
+    <item>
+      <title>Claude AI Daily Brief — August 14, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-14.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-14.html</guid>
+      <pubDate>Fri, 14 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Auto Mode Is Now the Claude Code Default</strong> — The switch flipped today for Pro, Max, and Team. Anthropic’s data: the classifier blocked 89% of dangerous commands versus 13.6% for humans clicking approve.</p>
+        <p><strong>2. Sonnet 5’s $2/$10 Pricing Is Permanent</strong> — Anthropic canceled the September 1 increase to $3/$15, erasing a 50% bill hike for high-volume API users.</p>
+        <p><strong>3. Claude Tag Gets Free Proactive Replies</strong> — Claude in Slack now reads full channel context, memory, and standing instructions to decide when to speak, and is ~30% better at knowing when to stay quiet.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-14.html">Read full report →</a></p>
+      ]]></description>
+    </item>
         <item>
       <title>Claude AI Daily Brief — August 13, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-13.html</link>
@@ -354,18 +366,6 @@
         <p><strong>2. Claude Code 2.1.210 Hardens Agents</strong> — A fresh release adds a live elapsed-time counter, strengthens session reliability, and hardens the Agent tool against indirect prompt injection.</p>
         <p><strong>3. Self-Serve HIPAA Configuration Lands</strong> — Eligible admins on Claude Enterprise and the API can now review the BAA, grab the implementation guide, and switch on HIPAA configuration in a single flow.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-16.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 15, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-15.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-15.html</guid>
-      <pubDate>Wed, 15 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude for Teachers Goes Live, Free for K-12</strong> — Anthropic launched a teacher-tuned Claude that ingests all 50 states' academic standards, free for verified U.S. educators, with a Detroit Public Schools pilot and an AFT privacy partnership.</p>
-        <p><strong>2. Enterprise Admin API Beta Lands</strong> — Claude Enterprise organizations can now manage members programmatically: list and look up by email, change roles, remove members, and handle invites and groups via the API.</p>
-        <p><strong>3. Claude Pricing Localizes for India</strong> — Anthropic began tailoring pricing for India, its biggest market after the U.S., lowering a real barrier for developers and smaller teams there.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-15.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

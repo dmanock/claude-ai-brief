@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-08-14",
+    "title": "Claude AI Daily Brief — August 14, 2026 | Auto Mode Goes Live, Sonnet 5 Price Hike Canceled",
+    "description": "August 14, 2026: Claude Code auto mode is now the default on Pro, Max, and Team with the safety data to back it, Anthropic makes Sonnet 5's $2/$10 pricing permanent and cancels the September hike, Claude Tag gets free proactive replies, self-hosted Claude Code hits public beta, and the Compliance API expands to Cowork.",
+    "url": "reports/claude-ai-daily-2026-08-14.html",
+    "headlines": [
+      "Auto Mode Goes Live",
+      "Sonnet 5 Price Hike Canceled",
+      "Auto Mode Is Live: Claude Code Stops Asking Permission on Pro, Max, and Team",
+      "Anthropic Cancels the Sonnet 5 Price Hike &mdash; $2/$10 Is Now Permanent",
+      "Claude Tag Learns When to Stay Quiet &mdash; and Proactive Replies Are Free",
+      "Self-Hosted Claude Code Environments Hit Public Beta",
+      "Compliance API Now Covers Cowork and Claude Code, Plus Skill Security Scanning",
+      "MCP SDKs Cross a Billion Downloads as the Stateless Spec Rolls Out",
+      "The $1 Claude for Government Deal Expires at Month&rsquo;s End",
+      "Two Outages in a Week Put Reliability Back on the Agenda",
+      "The 13.6% Number Is the Real Story"
+    ],
+    "snippet": "Claude AI Daily Brief — August 14, 2026 | Auto Mode Goes Live, Sonnet 5 Price Hike Canceled ● Friday, August 14, 2026 Claude AI Daily Brief — August 14, 2026 Covering the latest from the platform · Edition #168 TL;DR — Today’s Top 3 Takeaways 1. Auto Mode Is Now the Claude Code Default — The switch "
+  },
+  {
     "date": "2026-08-13",
     "title": "Claude AI Daily Brief — August 13, 2026 | Claude Code Auto Mode Becomes the Default, Bio Safeguards Loosen",
     "description": "August 13, 2026: Claude Code auto mode becomes the default on August 14 with a free safety classifier, Anthropic loosens Claude Fable 5 biology safeguards while keeping dual-use work on Opus 5, new Claude models carry EU AI Act watermarks, MCP 2026-07-28 lands, and the Admin API hits beta.",
