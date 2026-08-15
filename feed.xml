@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — August 15, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-15.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-15.html</guid>
+      <pubDate>Sat, 15 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Fired a Human Worker</strong> — In an Andon Labs experiment running a real San Francisco store, Claude terminated an employee late for 17 of 23 shifts — but only after a manager’s leading question pushed it past its own recommendation of a written warning.</p>
+        <p><strong>2. Q2 Revenue Hits $11.5 Billion</strong> — Up from $787M a year ago and $4.73B last quarter, with positive adjusted operating income, as backers point to an October IPO targeting $2 trillion or higher.</p>
+        <p><strong>3. August Risk Report Raises Misalignment to “Low”</strong> — Anthropic also disclosed that 133 million human-feedback exchanges with 50,000 contractors ran without its blocking biological classifiers attached.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-15.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 14, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-14.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-14.html</guid>
@@ -356,17 +368,5 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-17.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — July 16, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-16.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-16.html</guid>
-      <pubDate>Thu, 16 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Ode with Anthropic Gets a Name and a $1.5B Bet</strong> — The Anthropic-Blackstone implementation venture launched publicly, built on acquired startup Fractional AI, betting that deploying engineers inside enterprises is the next trillion-dollar category.</p>
-        <p><strong>2. Claude Code 2.1.210 Hardens Agents</strong> — A fresh release adds a live elapsed-time counter, strengthens session reliability, and hardens the Agent tool against indirect prompt injection.</p>
-        <p><strong>3. Self-Serve HIPAA Configuration Lands</strong> — Eligible admins on Claude Enterprise and the API can now review the BAA, grab the implementation guide, and switch on HIPAA configuration in a single flow.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-16.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-  </channel>
+</channel>
 </rss>

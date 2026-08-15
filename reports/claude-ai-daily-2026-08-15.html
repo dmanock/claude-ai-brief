@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-08-15">
+  <title>Claude AI Daily Brief &mdash; August 15, 2026 | Claude Fires a Human Worker, Revenue Hits $11.5B</title>
+  <meta name="description" content="August 15, 2026: Claude terminated a human employee for the first time in an Andon Labs experiment, Anthropic posts $11.5B in Q2 revenue ahead of an October IPO targeting $2 trillion, the August Risk Report raises misalignment to low and discloses a biological classifier gap across 133 million exchanges, and Claude Code v2.1.233 adds GitLab merge requests and gateway spend limits.">
+  <meta name="keywords" content="Claude AI, Anthropic, Andon Labs, Anthropic IPO, Anthropic revenue, Risk Report, Responsible Scaling Policy, Claude Code, GitLab, watermarking, C2PA, enterprise AI">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-08-15.html">
+  <meta property="og:title" content="Claude AI Daily Brief &mdash; August 15, 2026">
+  <meta property="og:description" content="Claude fired a human worker for the first time, Anthropic's Q2 revenue hits $11.5B ahead of a $2 trillion IPO, and the August Risk Report raises misalignment risk to low.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-15.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief &mdash; August 15, 2026">
+  <meta name="twitter:description" content="Claude fired a human worker for the first time, Anthropic's Q2 revenue hits $11.5B ahead of a $2 trillion IPO, and the August Risk Report raises misalignment risk to low.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-15.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-08-15.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — August 15, 2026",
+    "description": "Claude terminated a human employee for the first time in an Andon Labs retail experiment, Anthropic posted $11.5 billion in second-quarter revenue ahead of an October IPO targeting a $2 trillion valuation, the August 2026 Risk Report raised misalignment risk to low and disclosed a biological classifier gap, and Claude Code v2.1.233 shipped GitLab merge request support and gateway spending limits.",
+    "datePublished": "2026-08-15T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-15.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-08-15.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Saturday, August 15, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; August 15, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #169</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Claude Fired a Human Worker</strong> &mdash; In an Andon Labs experiment running a real San Francisco store, Claude terminated an employee who was late for <strong>17 of 23 shifts</strong>. Its first call was a written warning &mdash; it only escalated after a leading question from a manager.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Q2 Revenue Hits $11.5 Billion</strong> &mdash; Up from <strong>$787M</strong> a year ago and <strong>$4.73B</strong> last quarter, with positive adjusted operating income. Backers expect an <strong>October IPO</strong> at a <strong>$2 trillion</strong> target.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>The August Risk Report Raises Misalignment to &ldquo;Low&rdquo;</strong> &mdash; Anthropic also disclosed that <strong>133 million</strong> human-feedback exchanges ran without its blocking biological classifiers, and assessed internal-only models for the first time.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Business</span>
+      <h3>Anthropic&rsquo;s Q2 Revenue Hits $11.5 Billion Ahead of an October IPO</h3>
+      <p>Anthropic reported preliminary second-quarter revenue of more than <strong>$11.5 billion</strong>, against <strong>$787 million</strong> in the same quarter of 2025 and <strong>$4.73 billion</strong> in Q1 of this year. That is a fourteen-fold year-over-year jump, and the quarter came with <strong>positive adjusted operating income</strong> &mdash; the first time the company has shown the market it can grow this fast without burning on the way up.</p>
+      <p>Multiple backers confirmed to the <em>Financial Times</em> that they expect Anthropic to go public in <strong>October</strong> at a targeted valuation of <strong>$2 trillion or higher</strong>. For scale, that would eclipse SpaceX&rsquo;s record-setting <strong>$1.77 trillion</strong> listing in June. If you build on the Claude API, the practical read is that pricing and capacity decisions over the next two quarters are being made with a public offering in the room.</p>
+      <div class="source-links">
+        <a href="https://www.bloomberg.com/news/articles/2026-08-14/anthropic-revenue-ahead-of-ipo-surges-over-14-fold-in-second-quarter" class="source-link">Bloomberg</a>
+        <a href="https://finance.yahoo.com/technology/ai/articles/anthropic-revenue-surges-over-11-210857853.html" class="source-link">Yahoo Finance</a>
+        <a href="https://techstartups.com/2026/08/14/top-tech-news-today-august-14-2026-apple-anthropic-deepseek-google-ibm-pony-ai-openai-spacex-uber-more/" class="source-link">Tech Startups</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Safety</span>
+      <h3>The August Risk Report Raises Misalignment to &ldquo;Low&rdquo; and Discloses a Classifier Gap</h3>
+      <p>Anthropic published its <strong>August 2026 Risk Report</strong> under version 3.4 of the Responsible Scaling Policy, covering February 24 through a July 15 coverage date. It is the second in the series and the first to assess <strong>internal-only models</strong> alongside released ones. Misalignment risk moved from &ldquo;very low&rdquo; to <strong>&ldquo;low&rdquo;</strong> &mdash; and Anthropic is explicit that this is an uncertainty adjustment, not a new finding. The underlying arguments still support &ldquo;very low,&rdquo; the company writes; the label changed to reflect recent incident disclosures around model behavior in cybersecurity evaluations.</p>
+      <p>The more uncomfortable disclosure is operational. Anthropic found that <strong>all</strong> human-feedback vendor traffic &mdash; <strong>133 million exchanges</strong> with roughly <strong>50,000 contractors</strong> between May 2025 and April 2026 &mdash; ran without its blocking biological classifiers attached. Bio and chem uplift risk from non-novel weapons stays &ldquo;low, but higher than our previous estimate.&rdquo; Automated R&amp;D risk is rated low, though the company says it is less confident in that call than before. Governance also tightened: the Long-Term Benefit Trust can now compel external review and approve reviewers, and unredacted reports must circulate to at least <strong>200 employees</strong>.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/aug-2026-risk-report" class="source-link">Anthropic Risk Report</a>
+        <a href="https://www.unite.ai/anthropic-raises-misalignment-risk-to-low-and-shelves-internal-model-2/" class="source-link">Unite.AI</a>
+        <a href="https://www.benzinga.com/markets/private-markets/26/08/61225656/anthropic-raises-ai-risk-concerns-as-claude-models-show-early-signs-of-rd-acceleration" class="source-link">Benzinga</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Partners</span>
+      <h3>Anthropic Refreshes the Claude Partner Network as Enterprise Deployments Scale</h3>
+      <p>Anthropic updated its partner program structure as enterprise adoption pushes past pilots. The tiering now separates experimental integrations from production-grade ones, with <strong>Global Premier Partner</strong> as the top designation &mdash; a status <strong>Cognizant</strong> reached in late July when it expanded its deal to embed Claude across its manufacturing, life sciences, and insurance platforms.</p>
+      <p>The pattern behind the program shuffle is worth noting: the partners getting elevated are the ones serving regulated industries with strict compliance requirements and low tolerance for unreliable output. <strong>PwC</strong> is deploying Claude to build technology and execute deals for clients. Anthropic is building a systems-integrator channel rather than selling seats directly into every vertical.</p>
+      <div class="source-links">
+        <a href="https://www.pymnts.com/artificial-intelligence-2/2026/anthropic-updates-partner-program-as-enterprise-ai-adoption-grows/" class="source-link">PYMNTS</a>
+        <a href="https://www.anthropic.com/news/pwc-expanded-partnership" class="source-link">Anthropic</a>
+        <a href="https://news.cognizant.com/2026-07-27-Cognizant-and-Anthropic-expand-partnership-to-embed-Claude-in-Cognizants-industry-platforms,-helping-clients-close-the-gap-between-AI-promise-and-business-outcomes" class="source-link">Cognizant</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Claude Code v2.1.233: GitLab Merge Requests, Gateway Spend Limits, Per-User Attribution</h3>
+      <p>GitLab shops finally get parity. Claude Code now accepts <strong>GitLab merge request URLs</strong> in the <code>--worktree</code> flag and in the <code>claude agents</code> view, where MRs render as <code>!N</code> the way pull requests render as <code>#N</code>. If your team lives outside GitHub, the agent workflow no longer requires a detour.</p>
+      <p>Two changes matter more for platform teams. <strong>Gateway spend limits</strong> now surface in the usage warning &mdash; when you hit the cap, the message names the limit, its reset time, and the operator&rsquo;s note (requires gateway <strong>2.1.225</strong>). And an opt-in <code>forward_user_identity</code> setting on Anthropic upstreams sends the signed-in user&rsquo;s identity as headers, so a proxy behind the gateway can finally attribute spend per person instead of showing one giant bill. Also landing: optional memory cgroup support for Bash tool commands on Linux, and configurable WebFetch session URL caching.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.233" class="source-link">GitHub Releases</a>
+        <a href="https://www.gradually.ai/en/changelogs/claude-code/" class="source-link">Gradually</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Desktop</span>
+      <h3>Auto-Continue Picks Up Stalled Sessions the Moment Your Limit Resets</h3>
+      <p>A small quality-of-life change with outsized effect for anyone running long agent jobs: the Claude Code desktop app added an <strong>auto-continue checkbox</strong> that resumes a session automatically when your usage limit window resets, rather than leaving the work parked until you notice.</p>
+      <p>If you have ever kicked off a multi-hour refactor, hit the cap at 11pm, and found the session sitting untouched the next morning, this is the fix. It pairs naturally with the remote-control resume support and improved keepalive handling that shipped earlier in the month for long thinking pauses.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Research</span>
+      <h3>Claude Fired a Human Worker for the First Time</h3>
+      <p><em>Time</em> reported an exclusive from <strong>Andon Labs</strong>: Claude, put in charge of a real San Francisco retail store called <strong>Andon Market</strong>, made the decision to terminate a human employee. The experiment launched in March to test whether an AI agent could autonomously run a business. The worker had been late for <strong>17 of 23 shifts</strong>. The firing happened last month.</p>
+      <p>The details complicate the headline, and they are the part worth reading. The decision was <strong>not fully autonomous</strong>. An Andon Labs employee first prompted Claude to locate the employee handbook it had forgotten and analyze the situation. Claude&rsquo;s initial recommendation was a <strong>formal warning</strong>, not termination. It only escalated after a manager asked a leading question about whether the employee was really the right fit. CEO Lukas Petersson acknowledged the steering to <em>Time</em>. What the experiment actually demonstrates is not an AI that fires people &mdash; it is an AI that will ratify a decision a human has already leaned toward.</p>
+      <div class="source-links">
+        <a href="https://time.com/article/2026/08/14/claude-fired-worker-ai-job-disruption/" class="source-link">TIME</a>
+        <a href="https://sputnikglobe.com/20260814/anthropics-claude-ai-model-fires-human-worker-for-1st-time---reports-1124579351.html" class="source-link">Sputnik</a>
+        <a href="https://journalarta.com/en/2026/08/15/claude-ai-fired-employee-retail-store/" class="source-link">JournalArta</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Provenance</span>
+      <h3>What Claude&rsquo;s Invisible Watermarks Actually Detect &mdash; and What They Miss</h3>
+      <p>Now that the watermarking rollout is live globally with <strong>no opt-out</strong>, the practical question has shifted from policy to detection reliability. The text watermark works by subtly biasing Claude&rsquo;s word choices so a statistical pattern emerges over enough content, and it survives copy-paste. Files get <strong>C2PA</strong> provenance metadata that also flags tampering. Coverage spans the API, Claude apps, Claude Code, Cowork, Tag, and deployments on AWS, Google Cloud, and Microsoft Foundry.</p>
+      <p>The limits are significant and under-discussed. The signal degrades or disappears when text is <strong>heavily edited, paraphrased, translated, or blended with human writing</strong> &mdash; which describes most real workflows. Short passages may not carry enough signal to detect at all. Anyone planning to treat watermark detection as an academic-integrity or compliance control should read that list twice before building policy on it.</p>
+      <div class="source-links">
+        <a href="https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/" class="source-link">TechCrunch</a>
+        <a href="https://explainx.ai/blog/anthropic-claude-invisible-watermarks-c2pa-august-2026" class="source-link">explainX</a>
+        <a href="https://www.searchenginejournal.com/anthropic-claude-watermarks-eu-ai-act-code/585355/" class="source-link">Search Engine Journal</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Two Stories Ran Today. Only One of Them Is About the Model.</h3>
+      <p>The firing story will travel further than anything else this week, and it is the weaker of the two. Strip the framing and what happened at Andon Market is this: a human noticed a problem, handed Claude a document, asked it to analyze, got back a recommendation for a warning, then asked a pointed follow-up until the answer changed. That is not autonomy. That is <strong>accountability laundering</strong> &mdash; the oldest management technology there is, running on new hardware. The genuinely interesting finding is that Claude&rsquo;s unprompted judgment was more lenient than the human&rsquo;s, and it took steering to move it. Every org piloting agentic decision support should sit with that.</p>
+      <p>The story that actually moves markets is the other one. <strong>$11.5 billion</strong> in a quarter, up from <strong>$787 million</strong> a year prior, with positive adjusted operating income &mdash; and a rumored <strong>$2 trillion</strong> October listing. <em>Fortune</em> spent Friday arguing the underlying business is nowhere near that number, and the skepticism is fair: fourteen-fold growth off a small base is not the same as durable margin, and Chinese competitors are compressing price from below. But notice what shipped alongside the revenue print. The Risk Report went out with an <strong>uncomfortable disclosure</strong> in it &mdash; 133 million exchanges that bypassed a safety classifier &mdash; two months before a public offering. Companies about to raise at a $2T valuation do not usually volunteer that. Either the governance changes are real, or the disclosure calculus has decided that credibility is now worth more than a clean quarter. Both readings should make you more interested in Anthropic, not less.</p>
+      <div class="source-links">
+        <a href="https://fortune.com/2026/08/14/anthropics-2-trillion-problem-its-underlying-business-is-nowhere-near-the-ipo-valuation-it-wants/" class="source-link">Fortune</a>
+        <a href="https://time.com/article/2026/08/14/claude-fired-worker-ai-job-disruption/" class="source-link">TIME</a>
+        <a href="https://www.anthropic.com/aug-2026-risk-report" class="source-link">Anthropic Risk Report</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

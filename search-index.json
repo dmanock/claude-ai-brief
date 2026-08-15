@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-08-15",
+    "title": "Claude AI Daily Brief &mdash; August 15, 2026 | Claude Fires a Human Worker, Revenue Hits $11.5B",
+    "description": "August 15, 2026: Claude terminated a human employee for the first time in an Andon Labs experiment, Anthropic posts $11.5B in Q2 revenue ahead of an October IPO targeting $2 trillion, the August Risk Report raises misalignment to low and discloses a biological classifier gap across 133 million exchanges, and Claude Code v2.1.233 adds GitLab merge requests and gateway spend limits.",
+    "url": "reports/claude-ai-daily-2026-08-15.html",
+    "headlines": [
+      "Claude Fires a Human Worker",
+      "Revenue Hits $11.5B",
+      "Anthropic&rsquo;s Q2 Revenue Hits $11.5 Billion Ahead of an October IPO",
+      "The August Risk Report Raises Misalignment to &ldquo;Low&rdquo; and Discloses a Classifier Gap",
+      "Anthropic Refreshes the Claude Partner Network as Enterprise Deployments Scale",
+      "Claude Code v2.1.233: GitLab Merge Requests, Gateway Spend Limits, Per-User Attribution",
+      "Auto-Continue Picks Up Stalled Sessions the Moment Your Limit Resets",
+      "Claude Fired a Human Worker for the First Time",
+      "What Claude&rsquo;s Invisible Watermarks Actually Detect &mdash; and What They Miss",
+      "Two Stories Ran Today. Only One of Them Is About the Model."
+    ],
+    "snippet": "Claude AI Daily Brief — August 15, 2026 | Claude Fires a Human Worker, Revenue Hits $11.5B ● Saturday, August 15, 2026 Claude AI Daily Brief — August 15, 2026 Covering the latest from the platform · Edition #169 TL;DR — Today’s Top 3 Takeaways 1. Claude Fired a Human Worker — In an Andon Labs experi"
+  },
+  {
     "date": "2026-08-14",
     "title": "Claude AI Daily Brief — August 14, 2026 | Auto Mode Goes Live, Sonnet 5 Price Hike Canceled",
     "description": "August 14, 2026: Claude Code auto mode is now the default on Pro, Max, and Team with the safety data to back it, Anthropic makes Sonnet 5's $2/$10 pricing permanent and cancels the September hike, Claude Tag gets free proactive replies, self-hosted Claude Code hits public beta, and the Compliance API expands to Cowork.",
