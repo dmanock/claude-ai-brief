@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-08-16",
+    "title": "Claude AI Daily Brief &mdash; August 16, 2026 | Workbench Retires Tomorrow, IPO Roadshow Opens",
+    "description": "August 16, 2026: The legacy Workbench and the experimental prompt tools APIs retire tomorrow, taking saved prompts and evals with them; Anthropic's IPO roadshow opens with Goldman, JPMorgan and Morgan Stanley on a $60B-plus Nasdaq listing; Claude Code's 50% weekly usage boost expires August 19; and a fourth service incident in eleven days puts reliability back on the agenda.",
+    "url": "reports/claude-ai-daily-2026-08-16.html",
+    "headlines": [
+      "Workbench Retires Tomorrow",
+      "IPO Roadshow Opens",
+      "The IPO Roadshow Opens: Three Banks, $60 Billion, and an October Window",
+      "The $1-Per-Agency Government Deal Closes at Month&rsquo;s End",
+      "A Fourth Incident in Eleven Days Keeps Reliability on the Agenda",
+      "Workbench and the Prompt Tools APIs Retire Tomorrow &mdash; Export Today",
+      "Claude Code&rsquo;s 50% Weekly Usage Boost Expires August 19",
+      "The &ldquo;Global Workspace&rdquo; Paper Is Still Reshaping the Interpretability Conversation",
+      "Managed Agents Load Skills From GitHub &mdash; With No Review Step",
+      "Anthropic Is About to IPO on the Strength of a Market Most People Never See"
+    ],
+    "snippet": "Claude AI Daily Brief — August 16, 2026 | Workbench Retires Tomorrow, IPO Roadshow Opens ● Sunday, August 16, 2026 Claude AI Daily Brief — August 16, 2026 Covering the latest from the platform · Edition #170 TL;DR — Today’s Top 3 Takeaways 1. Workbench Retires Tomorrow — The legacy Workbench and the"
+  },
+  {
     "date": "2026-08-15",
     "title": "Claude AI Daily Brief &mdash; August 15, 2026 | Claude Fires a Human Worker, Revenue Hits $11.5B",
     "description": "August 15, 2026: Claude terminated a human employee for the first time in an Andon Labs experiment, Anthropic posts $11.5B in Q2 revenue ahead of an October IPO targeting $2 trillion, the August Risk Report raises misalignment to low and discloses a biological classifier gap across 133 million exchanges, and Claude Code v2.1.233 adds GitLab merge requests and gateway spend limits.",

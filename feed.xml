@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — August 16, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-16.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-16.html</guid>
+      <pubDate>Sun, 16 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Workbench Retires Tomorrow</strong> — The legacy Workbench and the three experimental prompt tools endpoints go dark August 17, taking saved prompts, prompt versions and evals with them; export from the Console before then.</p>
+        <p><strong>2. The IPO Roadshow Is Open</strong> — Goldman Sachs, JPMorgan and Morgan Stanley are leading an October Nasdaq listing expected to raise more than $60 billion, with institutional meetings running through September.</p>
+        <p><strong>3. Two Clocks Run Out This Week</strong> — Claude Code’s 50% weekly usage boost expires August 19, and the $1-per-agency Claude for Government program closes at month’s end.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-16.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 15, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-15.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-15.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Claude Science Arrives for Researchers</strong> — A new AI workbench wires in the tools scientists use daily, produces auditable artifacts, and gives flexible access to compute.</p>
         <p><strong>3. Sonnet 5 Becomes the Claude Code Default</strong> — The new default ships a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-18.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 17, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-17.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-17.html</guid>
-      <pubDate>Fri, 17 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Code 2.1.211 Ships</strong> — A broad stability release adds opt-in subagent text streaming, hardens permission previews against invisible-character spoofing, and speeds up terminal rendering.</p>
-        <p><strong>2. API Key Expiration Lands in the Console</strong> — You can now set an expiry when creating a key, get emailed reminders before it lapses, and give admins reporting on what's about to expire.</p>
-        <p><strong>3. Fable 5 Stays Free Through July 19</strong> — Anthropic extended the no-extra-cost window for subscribers again, an apparent answer to OpenAI's latest release, before usage moves to prepaid credits.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-17.html">Read full report →</a></p>
       ]]></description>
     </item>
 </channel>
