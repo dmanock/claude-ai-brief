@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-17",
+    "title": "Claude AI Daily Brief &mdash; August 17, 2026 | Workbench Goes Dark Today, Sonnet 5 Price Hike Cancelled",
+    "description": "August 17, 2026: The legacy Workbench and the experimental prompt tools endpoints retire today; Anthropic makes Sonnet 5's $2/$10 introductory pricing permanent and cancels the September increase; a 42-minute authentication outage hit five Claude services Sunday night; Claude in Chrome becomes a full Cowork session; and Claude Code's usage boost expires Wednesday.",
+    "url": "reports/claude-ai-daily-2026-08-17.html",
+    "headlines": [
+      "Workbench Goes Dark Today",
+      "Sonnet 5 Price Hike Cancelled",
+      "Anthropic Cancels the September Price Increase &mdash; Sonnet 5 Stays at $2/$10",
+      "Sunday Night: A 42-Minute Authentication Failure Across Five Services",
+      "Claude in Chrome Becomes a Full Cowork Session",
+      "Today Is the Day: Workbench and the Prompt Tools APIs Retire",
+      "Claude Code&rsquo;s 50% Usage Boost Expires Wednesday",
+      "MCP Gets the 2026-07-28 Spec, and OAuth Finally Stops Fighting Localhost",
+      "Two Small API Changes That Both Reduce Your Bill",
+      "Cognizant Becomes a Global Premier Partner &mdash; With Numbers Attached",
+      "Self-Hosted Environments for Claude Code Hit Public Beta",
+      "Cancelling a Price Increase Two Months Before an IPO Is the Loudest Thing Anthropic Did This Month"
+    ],
+    "snippet": "Claude AI Daily Brief — August 17, 2026 | Workbench Goes Dark Today, Sonnet 5 Price Hike Cancelled ● Monday, August 17, 2026 Claude AI Daily Brief — August 17, 2026 Covering the latest from the platform · Edition #171 TL;DR — Today’s Top 3 Takeaways 1. Workbench Goes Dark Today — The legacy Workbenc"
+  },
+  {
     "date": "2026-08-16",
     "title": "Claude AI Daily Brief &mdash; August 16, 2026 | Workbench Retires Tomorrow, IPO Roadshow Opens",
     "description": "August 16, 2026: The legacy Workbench and the experimental prompt tools APIs retire tomorrow, taking saved prompts and evals with them; Anthropic's IPO roadshow opens with Goldman, JPMorgan and Morgan Stanley on a $60B-plus Nasdaq listing; Claude Code's 50% weekly usage boost expires August 19; and a fourth service incident in eleven days puts reliability back on the agenda.",

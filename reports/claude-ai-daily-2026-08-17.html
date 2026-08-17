@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-08-17">
+  <title>Claude AI Daily Brief &mdash; August 17, 2026 | Workbench Goes Dark Today, Sonnet 5 Price Hike Cancelled</title>
+  <meta name="description" content="August 17, 2026: The legacy Workbench and the experimental prompt tools endpoints retire today; Anthropic makes Sonnet 5's $2/$10 introductory pricing permanent and cancels the September increase; a 42-minute authentication outage hit five Claude services Sunday night; Claude in Chrome becomes a full Cowork session; and Claude Code's usage boost expires Wednesday.">
+  <meta name="keywords" content="Claude AI, Anthropic, Workbench retirement, prompt tools API, Sonnet 5 pricing, Claude outage, Claude in Chrome, Claude Cowork, Claude Code, MCP 2026-07-28, Cognizant, self-hosted environments, enterprise AI">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-08-17.html">
+  <meta property="og:title" content="Claude AI Daily Brief &mdash; August 17, 2026">
+  <meta property="og:description" content="Workbench goes dark today and takes your saved prompts with it, Sonnet 5's $2/$10 pricing is now permanent, and a 42-minute auth outage hit five services Sunday night.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-17.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief &mdash; August 17, 2026">
+  <meta name="twitter:description" content="Workbench goes dark today and takes your saved prompts with it, Sonnet 5's $2/$10 pricing is now permanent, and a 42-minute auth outage hit five services Sunday night.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-17.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-08-17.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — August 17, 2026",
+    "description": "The legacy Workbench and the three experimental prompt tools endpoints retire today, taking saved prompts, versions and evals with them. Anthropic has made Claude Sonnet 5's introductory $2/$10 pricing permanent, cancelling the 50% increase that was scheduled for September 1. A 42-minute authentication failure took down five Claude services on Sunday night. Claude in Chrome's side panel becomes a full Cowork session for Max and Team users, and Claude Code's 50% weekly usage boost expires August 19.",
+    "datePublished": "2026-08-17T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-17.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-08-17.html"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Monday, August 17, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; August 17, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #171</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Workbench Goes Dark Today</strong> &mdash; The legacy Workbench and the three experimental prompt tools endpoints retire <strong>today</strong>. Saved prompts, versions and evals do not carry over. If you have not exported, you are out of runway.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>The September Price Hike Is Cancelled</strong> &mdash; Sonnet 5&rsquo;s introductory <strong>$2/$10 per million tokens</strong> is now permanent. The 50% increase scheduled for September 1 will not happen.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>A 42-Minute Auth Outage Hit Five Services</strong> &mdash; Sunday night, <strong>21:58 to 22:40 UTC</strong>, sign-ins failed across claude.ai, Console, the API, Claude Code and Cowork. Fifth incident this month.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Pricing</span>
+      <h3>Anthropic Cancels the September Price Increase &mdash; Sonnet 5 Stays at $2/$10</h3>
+      <p>The single most consequential number in most teams&rsquo; Q4 budgets just stopped moving. Claude Sonnet 5 launched in June with introductory pricing of <strong>$2 per million input tokens and $10 per million output</strong>, scheduled to rise to <strong>$3/$15 on September 1</strong>. Anthropic has confirmed that increase is off and the introductory rate is now the standard rate. That is a 50% cost spike that a lot of finance teams had already modeled, now simply gone.</p>
+      <p>The competitive read is not subtle. With OpenAI&rsquo;s GPT-5.6 Sol sitting at comparable token economics, there was very little room to raise prices without handing migration a reason to happen. Worth noting how the story looked from the outside two weeks ago: multiple outlets had reported the increase as confirmed. If you built a September migration plan, a cheaper-model fallback path, or a prompt-caching sprint around avoiding the hike, today is the day to re-price that work &mdash; some of it may no longer pay for itself.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/about-claude/pricing" class="source-link">Claude Pricing Docs</a>
+        <a href="https://x.com/claudeai/status/2086891169217122586" class="source-link">@claudeai</a>
+        <a href="https://explainx.ai/blog/anthropic-sonnet-5-permanent-pricing-august-2026" class="source-link">explainX</a>
+        <a href="https://enterprisedna.co/resources/news/anthropic-claude-sonnet-5-pricing-permanent-reversal-august-2026/" class="source-link">Enterprise DNA</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Reliability</span>
+      <h3>Sunday Night: A 42-Minute Authentication Failure Across Five Services</h3>
+      <p>At <strong>21:58 UTC on August 16</strong>, Anthropic began investigating authentication failures hitting claude.ai, Claude Code and Claude Cowork. By 22:07 the incident had widened to degraded performance on claude.ai and platform.claude.com. A fix went out at <strong>22:22</strong>, and all services were confirmed restored at <strong>22:40</strong> &mdash; roughly 42 minutes end to end, touching five products: claude.ai, the Console, the API, Claude Code and Cowork.</p>
+      <p>Short, and handled quickly. But the shape of it is the part worth noting: this was an <strong>auth-layer</strong> failure, not model capacity. Users were not getting slow responses, they were not getting in at all. That is a different failure mode than the model-degradation incidents of August 12, 13 and 14, and it does not degrade gracefully &mdash; there is no fallback to a smaller model when the token exchange itself fails. No root cause has been published. For anyone running Claude in production, the practical lesson is that retry logic tuned for 529s and timeouts will not save you from a 401 storm.</p>
+      <div class="source-links">
+        <a href="https://status.claude.com/" class="source-link">Claude Status</a>
+        <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/" class="source-link">BleepingComputer</a>
+        <a href="https://www.unite.ai/anthropic-outage-disrupts-claude-services-fix-deployed-after-login-failures/" class="source-link">Unite.AI</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Product</span>
+      <h3>Claude in Chrome Becomes a Full Cowork Session</h3>
+      <p>The Claude in Chrome side panel is no longer a separate, forgetful little assistant. Anthropic has turned it into a <strong>full Cowork session</strong>: conversations started in Chrome now save to your Claude history, configured <strong>skills and connectors work in the browser</strong>, and a task begun in Chrome can be picked up from the desktop, web or mobile app without losing context.</p>
+      <p>This is the piece that was missing from the Cowork story. Cowork went to web and mobile earlier this year, but the browser remained a walled garden &mdash; which is awkward, given that for most knowledge workers the browser <em>is</em> the work surface. Now the same skills you have configured for desktop apply while you are reading a vendor portal or a shared doc. Rolling out to <strong>Max and Team</strong> plans, with Pro expected in the coming weeks.</p>
+      <div class="source-links">
+        <a href="https://www.eweek.com/news/claude-cowork-chrome-cross-device-sessions/" class="source-link">eWeek</a>
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic Newsroom</a>
+        <a href="https://www.digitalapplied.com/blog/claude-cowork-web-mobile-expansion-guide-2026" class="source-link">Digital Applied</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Deadline</span>
+      <h3>Today Is the Day: Workbench and the Prompt Tools APIs Retire</h3>
+      <p>The <strong>legacy Workbench</strong> retires for all users <strong>today</strong>, and everything stored inside it goes with it &mdash; <strong>saved prompts, prompt versions, evals and prompt sharing</strong>. None of it migrates to the refreshed Workbench. If you have not run the Export in the Console, do that before you do anything else this morning.</p>
+      <p>Three endpoints go with it: <code>/v1/experimental/generate_prompt</code>, <code>/v1/experimental/improve_prompt</code> and <code>/v1/experimental/templatize_prompt</code>. These return errors rather than degrading, so any pipeline still calling them fails today &mdash; check your CI and any internal prompt-authoring tooling. The replacement Workbench is deliberately <strong>stateless</strong>: drafts live in the browser, nothing persists server-side, and you export requests as code. Cleaner design, but the migration path is out to your own repo, not across to a new UI.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Release Notes</a>
+        <a href="https://support.claude.com/en/articles/8606378-how-do-i-use-the-workbench" class="source-link">Workbench Help</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Limits</span>
+      <h3>Claude Code&rsquo;s 50% Usage Boost Expires Wednesday</h3>
+      <p>The temporary <strong>50% weekly usage increase</strong> for Claude Code subscribers runs through <strong>August 19</strong>. It has now been extended twice, both times announced late, and there is no indication of a third. Unless that changes, weekly ceilings return to standard on Thursday.</p>
+      <p>Two things pair with this. First, a small quality-of-life addition landed on the <strong>desktop app on August 14</strong>: an auto-continue checkbox that resumes a stalled session the moment your usage window resets &mdash; useful precisely because it removes the babysitting from hitting a limit. Second, if you have been treating the boosted ceiling as your normal headroom rather than a bonus, size your plan against the standard number now. That is how teams avoid getting surprised mid-sprint on Thursday morning.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://explainx.ai/blog/claude-usage-limits-2026-timeline-explained" class="source-link">explainX</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">MCP</span>
+      <h3>MCP Gets the 2026-07-28 Spec, and OAuth Finally Stops Fighting Localhost</h3>
+      <p>Claude has expanded support for the new <strong>MCP 2026-07-28 spec</strong>, which brings a stateless core, stronger OAuth and OIDC authorization, and versioned extensions for Apps and Tasks. Alongside it, a run of unglamorous fixes that will quietly reclaim hours: MCP OAuth against strict authorization servers now uses <strong>127.0.0.1 instead of localhost</strong> in the redirect URI, the redirect-mismatch failure against servers with pre-registered OAuth clients (Slack, notably) is fixed, and MCP v2 connections no longer endlessly reopen the <code>subscriptions/listen</code> stream against servers that time out long-held streams.</p>
+      <p>Two more worth knowing. The plugin marketplace now accepts <strong>command sources</strong> &mdash; a local command such as your IDE prints the plugin directory, re-resolved each session and applied without a restart, with <code>mode: "link"</code> using it in place. And gateway streaming responses now send <strong>SSE keepalive pings</strong> during long thinking pauses, which stops idle-timeout disconnects on Vertex and Bedrock upstreams. If you have been blaming your proxy for dropped long-reasoning calls, this is probably your fix.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Release Notes</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Billing</span>
+      <h3>Two Small API Changes That Both Reduce Your Bill</h3>
+      <p>The advisor tool now accepts a <strong><code>max_tokens</code> parameter</strong> to cap the advisor model&rsquo;s output per call. That is a latency win and a direct output-token cost win, and it is the kind of knob you want if you have been paying for advisor verbosity you never read.</p>
+      <p>Separately, and more quietly: on the Claude API you are <strong>no longer billed for a request that returns <code>stop_reason: "refusal"</code></strong> without generating output. Small in isolation. If you run high-volume classification or moderation traffic where refusals are a normal fraction of responses, it is not small at all &mdash; and it removes the mildly absurd situation of paying for a request that produced nothing.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Release Notes</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Releasebot</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Partnerships</span>
+      <h3>Cognizant Becomes a Global Premier Partner &mdash; With Numbers Attached</h3>
+      <p>Cognizant has expanded its Anthropic partnership to embed Claude across its engineering and business platforms, taking <strong>Global Premier Partner</strong> status in the Claude Partner Network. Claude is going into <strong>Flowsource, Neuro AI Engineering and Neuro IT Ops</strong> &mdash; the platforms Cognizant runs for clients in manufacturing, life sciences, insurance, financial services and telecom.</p>
+      <p>What makes this more than a logo swap is the workforce side. More than <strong>30,000 Cognizant associates</strong> have completed Claude training under a new &ldquo;Frontier Certified&rdquo; model, on top of the rollout to roughly <strong>350,000 employees</strong> that began in late 2025. And there are outcome numbers, which partnership announcements usually lack: a contract-intelligence deployment cut review time by up to <strong>40%</strong> with extraction accuracy above <strong>88%</strong>, and a global manufacturer got a working AI-led customer portal inside six months. This is what the enterprise channel looks like when it stops being a pilot.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/cognizant-anthropic" class="source-link">Anthropic</a>
+        <a href="https://news.cognizant.com/2026-07-27-Cognizant-and-Anthropic-expand-partnership-to-embed-Claude-in-Cognizants-industry-platforms,-helping-clients-close-the-gap-between-AI-promise-and-business-outcomes" class="source-link">Cognizant Newsroom</a>
+        <a href="https://cryptobriefing.com/cognizant-anthropic-claude-enterprise-partnership/" class="source-link">Crypto Briefing</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Enterprise</span>
+      <h3>Self-Hosted Environments for Claude Code Hit Public Beta</h3>
+      <p>Claude Code now supports <strong>self-hosted environments</strong> in public beta, letting teams run sessions on their own infrastructure with internal network access, custom tooling and their own compliance controls. Available on <strong>Team and Enterprise</strong> plans. Server-supplied Claude Code hook support has been added for self-hosted runner sessions so behavior matches managed environments, and runner start times have been reduced.</p>
+      <p>The relevant detail for anyone evaluating this: self-hosted is what makes Claude Code usable against codebases that cannot leave the network perimeter, which until now has been a hard stop for a meaningful slice of regulated engineering orgs. Related, on the platform side, <strong>Managed Agents webhooks, multiagent orchestration and self-hosted sandboxes</strong> are now available on Claude Platform on AWS. The theme across all of it is the same &mdash; the agent moves to your infrastructure rather than your code moving to theirs.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Release Notes</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Cancelling a Price Increase Two Months Before an IPO Is the Loudest Thing Anthropic Did This Month</h3>
+      <p>Consider the sequencing. Anthropic is targeting an <strong>October Nasdaq listing</strong>, underwritten by Goldman Sachs, JPMorgan and Morgan Stanley, against a <strong>$965 billion</strong> private mark from May. The institutional roadshow is running right now, through September. And in the middle of that, the company walked away from a <strong>50% price increase</strong> on its highest-volume model &mdash; an increase it had already announced, that the market had already accepted, and that would have landed on the revenue line in the exact quarter public investors will scrutinize first.</p>
+      <p>Companies do not usually leave money on the table on the way to a listing. They do it when the alternative is worse. The stated logic &mdash; GPT-5.6 Sol at comparable pricing leaves no headroom &mdash; is almost certainly right, and it tells you where Anthropic thinks its position actually is. Not in consumer, where Claude sits third at roughly 10% of assistant users. In enterprise API spend, where it holds around 40% and about 54% of the coding market. That share was won on capability and is now defended on price. Which means it is a share that has to be defended continuously, not banked.</p>
+      <p>Read this month&rsquo;s ship list in that light and it stops looking dull. Self-hosted environments. FedRAMP High. Audit logs. Per-user spend attribution. MCP OAuth fixes that make Slack connectors actually work. None of it is screenshot-friendly and all of it raises switching costs for the buyer signing a seven-figure contract. Price is the cheapest moat and the easiest for a competitor to match; integration depth is the expensive one. The genuine risk sits elsewhere entirely &mdash; five incidents this month, including Sunday&rsquo;s auth failure that locked people out rather than merely slowing them down. Enterprises tolerate that from a private vendor. They renegotiate it with a public one.</p>
+      <div class="source-links">
+        <a href="https://www.forbes.com/sites/jonmarkman/2026/08/13/anthropic-eyes-2-trillion-in-october-ipo-a-record-breaking-debut/" class="source-link">Forbes</a>
+        <a href="https://www.startuphub.ai/ai-news/ipo-watch/2026/anthropic-ipo-roadshow-investor-meetings-2026-07-21" class="source-link">StartupHub</a>
+        <a href="https://www.finout.io/blog/claude-sonnet-5-pricing-2026-the-hidden-costs-and-real-savings-behind-the-cost-neutral-launch" class="source-link">Finout</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

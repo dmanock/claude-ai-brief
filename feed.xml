@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — August 17, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-17.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-17.html</guid>
+      <pubDate>Mon, 17 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Workbench Goes Dark Today</strong> — The legacy Workbench and the three experimental prompt tools endpoints retire today, taking saved prompts, versions and evals with them; export from the Console before you do anything else.</p>
+        <p><strong>2. The September Price Hike Is Cancelled</strong> — Sonnet 5’s introductory $2/$10 per million tokens is now permanent, killing the 50% increase that was scheduled for September 1.</p>
+        <p><strong>3. A 42-Minute Auth Outage Hit Five Services</strong> — Sign-ins failed across claude.ai, Console, the API, Claude Code and Cowork from 21:58 to 22:40 UTC Sunday, an auth-layer failure with no graceful fallback.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-17.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 16, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-16.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-16.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Claude for Government Desktop Hits Public Beta</strong> — Claude Code and Claude Cowork arrive inside a FedRAMP High environment, packaged as a desktop app agencies deploy through standard MDM.</p>
         <p><strong>3. Fable 5 Reaches Max and Team Premium Plans</strong> — As the free window closes, Anthropic folds its top creative model into Max and Team Premium at 50% of standard usage limits.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-19.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 18, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-18.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-18.html</guid>
-      <pubDate>Sat, 18 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude for Teachers Launches Free</strong> — Anthropic gives verified US K-12 educators a full year of free premium Claude, teaching skills, and standards-aligned curriculum, with a Detroit Public Schools pilot to study impact.</p>
-        <p><strong>2. Claude Science Arrives for Researchers</strong> — A new AI workbench wires in the tools scientists use daily, produces auditable artifacts, and gives flexible access to compute.</p>
-        <p><strong>3. Sonnet 5 Becomes the Claude Code Default</strong> — The new default ships a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-18.html">Read full report →</a></p>
       ]]></description>
     </item>
 </channel>
