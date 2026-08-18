@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — August 18, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-18.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-18.html</guid>
+      <pubDate>Tue, 18 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Revenue Run Rate Passes $65 Billion</strong> — Preliminary Q2 revenue topped $11.5 billion, a 14x jump year over year, with positive adjusted operating income and investors modeling $100–120 billion by year end.</p>
+        <p><strong>2. Anthropic Raised Its Own Risk Rating</strong> — The August risk report moves catastrophic misalignment from very low to low, driven by uncertainty rather than a failed test, and discloses an unreleased internal model more capable than Mythos 5.</p>
+        <p><strong>3. The Usage Boost Ends Tomorrow</strong> — Claude Code’s temporary 50% weekly increase runs through August 19 with no sign of a third extension; size your plan against the standard ceiling before Thursday.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-18.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 17, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-17.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-17.html</guid>
@@ -356,17 +368,5 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-20.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — July 19, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-19.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-19.html</guid>
-      <pubDate>Sun, 19 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Eyes a ~$10B Meta Compute Deal</strong> — Anthropic is in early talks to lease computing power from Meta over two years, as capacity limits keep throttling its most advanced models.</p>
-        <p><strong>2. Claude for Government Desktop Hits Public Beta</strong> — Claude Code and Claude Cowork arrive inside a FedRAMP High environment, packaged as a desktop app agencies deploy through standard MDM.</p>
-        <p><strong>3. Fable 5 Reaches Max and Team Premium Plans</strong> — As the free window closes, Anthropic folds its top creative model into Max and Team Premium at 50% of standard usage limits.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-19.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-</channel>
+    </channel>
 </rss>

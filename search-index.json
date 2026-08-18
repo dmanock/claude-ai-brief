@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-18",
+    "title": "Claude AI Daily Brief &mdash; August 18, 2026 | Revenue Run Rate Tops $65B, Anthropic Raises Its Own Risk Rating",
+    "description": "August 18, 2026: Anthropic's annualized revenue passes $65 billion with Q2 at $11.5 billion and positive adjusted operating income; the August risk report raises catastrophic misalignment from very low to low and discloses a shelved internal frontier model; Claude Code's 50% usage boost expires tomorrow; the Compliance API now covers Cowork and Claude Code; and text watermarking ships for EU AI Act compliance.",
+    "url": "reports/claude-ai-daily-2026-08-18.html",
+    "headlines": [
+      "Revenue Run Rate Tops $65B",
+      "Anthropic Raises Its Own Risk Rating",
+      "$65 Billion Run Rate, and the First Quarter That Made Money",
+      "The August Risk Report Raises Misalignment to &ldquo;Low&rdquo; &mdash; and Reveals a Model You Cannot Have",
+      "Text Watermarking Ships, Quietly, for the EU AI Act",
+      "Claude for Government Opens in Beta",
+      "Last Full Day of the Usage Boost",
+      "Auto Mode Is the Default Now, and the Test Data Explains Why",
+      "The Compliance API Can Finally See Cowork and Claude Code",
+      "5,800 Community Servers, and a Protocol That Now Runs on Serverless",
+      "Where the 40% Actually Sits",
+      "Publishing Your Own Downgrade During an IPO Roadshow"
+    ],
+    "snippet": "Claude AI Daily Brief — August 18, 2026 | Revenue Run Rate Tops $65B, Anthropic Raises Its Own Risk Rating ● Tuesday, August 18, 2026 Claude AI Daily Brief — August 18, 2026 Covering the latest from the platform · Edition #172 TL;DR — Today’s Top 3 Takeaways 1. Revenue Run Rate Passes $65 Billion — "
+  },
+  {
     "date": "2026-08-17",
     "title": "Claude AI Daily Brief &mdash; August 17, 2026 | Workbench Goes Dark Today, Sonnet 5 Price Hike Cancelled",
     "description": "August 17, 2026: The legacy Workbench and the experimental prompt tools endpoints retire today; Anthropic makes Sonnet 5's $2/$10 introductory pricing permanent and cancels the September increase; a 42-minute authentication outage hit five Claude services Sunday night; Claude in Chrome becomes a full Cowork session; and Claude Code's usage boost expires Wednesday.",
