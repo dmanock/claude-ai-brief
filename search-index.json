@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-19",
+    "title": "Claude AI Daily Brief &mdash; August 19, 2026 | Usage Boost Expires, Reliability Wobbles, Cowork Lands in Chrome",
+    "description": "August 19, 2026: Claude Code's 50% weekly usage boost expires today with no third extension; Claude services show degraded performance again after seven incidents in five days; Cowork lands in the Chrome extension side panel with skills and plugins working in the browser; the MCP connector directory passes 950 servers; skill and plugin security scanning opens in Enterprise beta; and Sonnet 5's $2/$10 pricing remains permanent despite recirculating hike notices.",
+    "url": "reports/claude-ai-daily-2026-08-19.html",
+    "headlines": [
+      "Usage Boost Expires",
+      "Reliability Wobbles",
+      "Cowork Lands in Chrome",
+      "The Usage Boost Runs Out Today",
+      "Degraded Again, After Seven Incidents in Five Days",
+      "No, the September Sonnet 5 Hike Is Not Back On",
+      "Sessions That Resume Themselves, and Sessions That Talk to Each Other",
+      "Skill and Plugin Scanning Arrives &mdash; Because the Supply Chain Grew Up",
+      "The Connector Directory Passes 950",
+      "Cowork Moves Into the Chrome Side Panel",
+      "The $2 Trillion Number, and Who Is Actually Saying It",
+      "The Price Held. The Headroom Did Not."
+    ],
+    "snippet": "Claude AI Daily Brief — August 19, 2026 | Usage Boost Expires, Reliability Wobbles, Cowork Lands in Chrome ● Wednesday, August 19, 2026 Claude AI Daily Brief — August 19, 2026 Covering the latest from the platform · Edition #173 TL;DR — Today’s Top 3 Takeaways 1. The Usage Boost Expires Today — Clau"
+  },
+  {
     "date": "2026-08-18",
     "title": "Claude AI Daily Brief &mdash; August 18, 2026 | Revenue Run Rate Tops $65B, Anthropic Raises Its Own Risk Rating",
     "description": "August 18, 2026: Anthropic's annualized revenue passes $65 billion with Q2 at $11.5 billion and positive adjusted operating income; the August risk report raises catastrophic misalignment from very low to low and discloses a shelved internal frontier model; Claude Code's 50% usage boost expires tomorrow; the Compliance API now covers Cowork and Claude Code; and text watermarking ships for EU AI Act compliance.",

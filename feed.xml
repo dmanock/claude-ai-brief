@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — August 19, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-19.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-19.html</guid>
+      <pubDate>Wed, 19 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. The Usage Boost Expires Today</strong> — Claude Code’s temporary 50% weekly increase runs out today with no third extension announced; ceilings return to standard tomorrow.</p>
+        <p><strong>2. Another Degraded-Performance Day</strong> — Elevated errors on Opus 5 and Haiku 4.5 follow seven separate incidents between August 12 and 16, including a 42-minute multi-service outage.</p>
+        <p><strong>3. Cowork Lands in the Chrome Side Panel</strong> — Skills, plugins and connectors now work in the browser for the first time with no extra setup.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-19.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 18, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-18.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-18.html</guid>
@@ -356,17 +368,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-21.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — July 20, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-20.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-20.html</guid>
-      <pubDate>Mon, 20 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Fable 5's Free Window Is Over — the Meter Starts Today</strong> — Fable 5 usage beyond a plan's included window now bills as metered credits at $10 per million input tokens and $50 per million output.</p>
-        <p><strong>2. Anthropic Inches Toward a Mega-IPO</strong> — Bankers are lining up investor meetings for a possible IPO later this year, with Goldman, Morgan Stanley, and JPMorgan behind a ~$47B revenue run rate and a $965B valuation.</p>
-        <p><strong>3. Enterprise-Managed MCP Connectors Arrive</strong> — Admins provision connectors once for zero-touch user access, with centralized authorization across Claude chat, Code, and Cowork — starting with Okta.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-20.html">Read full report →</a></p>
-      ]]></description>
-    </item>
+
     </channel>
 </rss>
