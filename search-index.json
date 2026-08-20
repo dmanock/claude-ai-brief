@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-20",
+    "title": "Claude AI Daily Brief &mdash; August 20, 2026 | Concise Mode Ships, Three Betas Go GA, Managed Agents Get Domain Limits",
+    "description": "August 20, 2026: Claude Code v2.1.237 ships a built-in Concise output style; the Files API, Agent Skills and Admin API user management all leave beta on the Claude Developer Platform; Managed Agents gain web search domain allowlists, sandbox memory stores and a rebuilt Console session viewer; Claude Code 2.1.236 adds a default-model env var and cross-session idle notifications; Cowork reaches mobile on all paid plans; and the reliability streak runs to eight straight days.",
+    "url": "reports/claude-ai-daily-2026-08-20.html",
+    "headlines": [
+      "Concise Mode Ships",
+      "Three Betas Go GA",
+      "Managed Agents Get Domain Limits",
+      "Claude Code Finally Ships a &ldquo;Concise&rdquo; Output Style",
+      "Files, Skills and Admin User Management All Leave Beta",
+      "Domain Allowlists, Sandbox Memory, and a Rebuilt Session Viewer",
+      "A Default Model You Can Actually Set, and Sessions That Ping You When They Finish",
+      "Auto Mode Gets Harder to Fool",
+      "Cowork Is on Mobile for Every Paid Plan Now",
+      "Eight Straight Days With an Incident",
+      "The Watermark Is Live, and the Real Deadline Is December 2",
+      "Everything Left Beta at Once. That Is Not an Accident."
+    ],
+    "snippet": "Claude AI Daily Brief — August 20, 2026 | Concise Mode Ships, Three Betas Go GA, Managed Agents Get Domain Limits ● Thursday, August 20, 2026 Claude AI Daily Brief — August 20, 2026 Covering the latest from the platform · Edition #174 TL;DR — Today’s Top 3 Takeaways 1. Claude Code Ships a “Concise” "
+  },
+  {
     "date": "2026-08-19",
     "title": "Claude AI Daily Brief &mdash; August 19, 2026 | Usage Boost Expires, Reliability Wobbles, Cowork Lands in Chrome",
     "description": "August 19, 2026: Claude Code's 50% weekly usage boost expires today with no third extension; Claude services show degraded performance again after seven incidents in five days; Cowork lands in the Chrome extension side panel with skills and plugins working in the browser; the MCP connector directory passes 950 servers; skill and plugin security scanning opens in Enterprise beta; and Sonnet 5's $2/$10 pricing remains permanent despite recirculating hike notices.",

@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — August 20, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-20.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-20.html</guid>
+      <pubDate>Thu, 20 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Code Ships a &ldquo;Concise&rdquo; Output Style</strong> — v2.1.237 adds a built-in mode where Claude leads with results and skips the preamble, without cutting the work itself; select it under Output style in /config.</p>
+        <p><strong>2. Three Betas Go GA in One Day</strong> — The Files API, Agent Skills and the Skills API, and Admin API user management all left beta, retiring three beta headers while old requests keep working unchanged.</p>
+        <p><strong>3. Managed Agents Get Domain Allowlists</strong> — Agents can now be restricted to specific sites for web_search and web_fetch, plus memory stores in self-hosted sandboxes and a rebuilt Console session viewer.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-20.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 19, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-19.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-19.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. API Keys Now Expire — and Admins Can Manage People</strong> — The Claude Console lets you set expiration dates on API and Admin keys, and a new Admin API beta lets Enterprise orgs list members, change roles, and manage groups programmatically.</p>
         <p><strong>3. Claude Cowork Moves to the Cloud</strong> — The desktop agent goes multi-device across mobile and web, with background work, scheduled tasks, and approvals from your phone.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-22.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 21, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-21.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-21.html</guid>
-      <pubDate>Tue, 21 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. The $1.5B Copyright Settlement Is Final</strong> — A federal judge granted final approval of Anthropic's landmark settlement with authors, the largest known payout in a U.S. copyright case; writers get ~$3,000 per work and the pirated copies get destroyed.</p>
-        <p><strong>2. Anthropic Opens Rare-Disease Science Grants</strong> — The first focused call under AI for Science offers up to $50K in Claude credits for teams chasing cures for rare genetic diseases, with applications closing August 2.</p>
-        <p><strong>3. Claude Reflect Puts a Mirror on Your AI Habits</strong> — A new beta dashboard shows your busiest days, peak hours, top topics, and recurring tasks, plus digital-wellbeing nudges, for Free, Pro, and Max users.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-21.html">Read full report →</a></p>
       ]]></description>
     </item>
 
