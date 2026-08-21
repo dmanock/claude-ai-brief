@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-21",
+    "title": "Claude AI Daily Brief &mdash; August 21, 2026 | Anthropic Aims Past SpaceX&rsquo;s IPO, Retention Rules Loosen, Browser Use Lands",
+    "description": "August 21, 2026: Anthropic tells investors its IPO will match or beat SpaceX's record raise; the company moves to let enterprises hold covered-model retention data in their own cloud after months of backlash; a new browser_toolset_20260801 gives Claude 27 browser tools running on your own infrastructure; computer use goes GA; Claude Code 2.1.238 unlocks authenticated plugin marketplaces; OpenAI counter-programs on privacy; and Ramp data shows the business-user gap narrowing.",
+    "url": "reports/claude-ai-daily-2026-08-21.html",
+    "headlines": [
+      "Anthropic Aims Past SpaceX&rsquo;s IPO",
+      "Retention Rules Loosen",
+      "Browser Use Lands",
+      "Anthropic to SpaceX: We&rsquo;ll Take That Record",
+      "Enterprises Can Keep Their Retention Data in Their Own Cloud",
+      "Computer Use Ships GA, and Playground Replaces the Workbench",
+      "Browser Use: 27 Tools, All Running on Your Infrastructure",
+      "2.1.238 Unlocks Private Plugin Marketplaces",
+      "OpenAI Aims Straight at the Retention Policy",
+      "Ramp: Anthropic Still Leads Business Users, but the Gap Is Closing",
+      "Three Incidents in 24 Hours",
+      "The Retention Reversal Is the Most Important Thing That Happened This Week"
+    ],
+    "snippet": "Claude AI Daily Brief — August 21, 2026 | Anthropic Aims Past SpaceX’s IPO, Retention Rules Loosen, Browser Use Lands ● Friday, August 21, 2026 Claude AI Daily Brief — August 21, 2026 Covering the latest from the platform · Edition #175 TL;DR — Today’s Top 3 Takeaways 1. Anthropic Tells Investors th"
+  },
+  {
     "date": "2026-08-20",
     "title": "Claude AI Daily Brief &mdash; August 20, 2026 | Concise Mode Ships, Three Betas Go GA, Managed Agents Get Domain Limits",
     "description": "August 20, 2026: Claude Code v2.1.237 ships a built-in Concise output style; the Files API, Agent Skills and Admin API user management all leave beta on the Claude Developer Platform; Managed Agents gain web search domain allowlists, sandbox memory stores and a rebuilt Console session viewer; Claude Code 2.1.236 adds a default-model env var and cross-session idle notifications; Cowork reaches mobile on all paid plans; and the reliability streak runs to eight straight days.",

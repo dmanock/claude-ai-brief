@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — August 21, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-21.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-21.html</guid>
+      <pubDate>Fri, 21 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Tells Investors the IPO Will Match or Beat SpaceX</strong> — That means clearing $75 billion raised at a $1.77 trillion valuation; the CFO is reportedly declining to name a number in briefings.</p>
+        <p><strong>2. The 30-Day Retention Mandate Finally Bends</strong> — A new safety system keeps the requirement for covered models but lets enterprises hold that data in their own cloud, designed with 100+ customers including Salesforce.</p>
+        <p><strong>3. A Browser Use Toolset Lands, and Computer Use Goes GA</strong> — browser_toolset_20260801 gives Claude 27 browser tools that run entirely on your infrastructure, while computer use drops its beta header.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-21.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 20, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-20.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-20.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Claude Code and Cowork Land on Government Desktops</strong> — A public beta puts both agents inside a FedRAMP High environment, with local history, audit logs, and spend controls, plus a limited $1-per-agency deal through August.</p>
         <p><strong>3. Four Labs Agree on How to Score a Jailbreak</strong> — Anthropic, Amazon, Microsoft, and Google publish a shared Cyber Jailbreak Severity scale (CJS-0 to CJS-4) to rate how dangerous an AI jailbreak really is.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-23.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 22, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-22.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-22.html</guid>
-      <pubDate>Wed, 22 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Ode with Anthropic Stands Up a $1.5B Services Firm</strong> — Anthropic, Blackstone, and Hellman & Friedman launched a standalone enterprise AI services company to help big organizations deploy Claude, with Goldman Sachs as a founding partner.</p>
-        <p><strong>2. API Keys Now Expire — and Admins Can Manage People</strong> — The Claude Console lets you set expiration dates on API and Admin keys, and a new Admin API beta lets Enterprise orgs list members, change roles, and manage groups programmatically.</p>
-        <p><strong>3. Claude Cowork Moves to the Cloud</strong> — The desktop agent goes multi-device across mobile and web, with background work, scheduled tasks, and approvals from your phone.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-22.html">Read full report →</a></p>
       ]]></description>
     </item>
 
