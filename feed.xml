@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — August 22, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-22.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-22.html</guid>
+      <pubDate>Sat, 22 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. MCP Publishes a New Roadmap</strong> — Five priority areas, led by agent identity via DPoP and Workload Identity Federation, and progressive tool discovery for servers with hundreds of tools.</p>
+        <p><strong>2. Anthropic&rsquo;s Ode Makes Its First Acquisition</strong> — The services venture backed by Blackstone and Goldman bought Casper Studios, a consultancy that wires Claude into existing enterprise systems, one month after launching.</p>
+        <p><strong>3. The Python SDK Hits 1.0, and It Breaks Things</strong> — httpx becomes httpx2, Python 3.10 is the floor, and Text Completions plus temperature/top_p/top_k on Messages methods are removed.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-22.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 21, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-21.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-21.html</guid>
@@ -356,18 +368,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-24.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — July 23, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-23.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-23.html</guid>
-      <pubDate>Thu, 23 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Voice Mode Finally Runs on Opus and Sonnet</strong> — Claude's voice picker stops being cosmetic; selecting Opus or Sonnet now routes your spoken conversation through that model instead of quietly falling back to Haiku.</p>
-        <p><strong>2. Claude Code and Cowork Land on Government Desktops</strong> — A public beta puts both agents inside a FedRAMP High environment, with local history, audit logs, and spend controls, plus a limited $1-per-agency deal through August.</p>
-        <p><strong>3. Four Labs Agree on How to Score a Jailbreak</strong> — Anthropic, Amazon, Microsoft, and Google publish a shared Cyber Jailbreak Severity scale (CJS-0 to CJS-4) to rate how dangerous an AI jailbreak really is.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-23.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
+    
     </channel>
 </rss>

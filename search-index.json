@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-22",
+    "title": "Claude AI Daily Brief &mdash; August 22, 2026 | MCP Publishes a New Roadmap, Anthropic&rsquo;s Ode Buys Casper Studios, Python SDK Hits 1.0",
+    "description": "August 22, 2026: The Model Context Protocol publishes an updated roadmap built around agent identity, HTTP-native transport and progressive tool discovery; Ode with Anthropic makes its first acquisition in Casper Studios; Citigroup joins the top ranks of Anthropic's IPO banks as a filing nears; the Python SDK ships v1.0 with breaking removals; Claude Code 2.1.239 fixes a Bedrock bug that silently doubled billed API calls; and Claude logs a clean 48 hours on the status page.",
+    "url": "reports/claude-ai-daily-2026-08-22.html",
+    "headlines": [
+      "MCP Publishes a New Roadmap",
+      "Anthropic&rsquo;s Ode Buys Casper Studios",
+      "Python SDK Hits 1.0",
+      "MCP Publishes a New Roadmap, and It Reads Like an Enterprise Punch List",
+      "Ode with Anthropic Buys Casper Studios, One Month In",
+      "Citigroup Joins the Top Bank Lineup as a Filing Nears",
+      "Python SDK v1.0: httpx2, Python 3.10+, and a Pile of Removals",
+      "2.1.239 Fixes a Bedrock Bug That Was Doubling Your Bill",
+      "Sonnet 5 Stays at $2/$10, Permanently",
+      "The Watermark Backlash Is About Detection, Not Transparency",
+      "Two Clean Days on the Status Page",
+      "Nobody Shipped a Model This Week, and That Was the Story"
+    ],
+    "snippet": "Claude AI Daily Brief — August 22, 2026 | MCP Publishes a New Roadmap, Anthropic’s Ode Buys Casper Studios, Python SDK Hits 1.0 ● Saturday, August 22, 2026 Claude AI Daily Brief — August 22, 2026 Covering the latest from the platform · Edition #176 TL;DR — Today’s Top 3 Takeaways 1. MCP Publishes a "
+  },
+  {
     "date": "2026-08-21",
     "title": "Claude AI Daily Brief &mdash; August 21, 2026 | Anthropic Aims Past SpaceX&rsquo;s IPO, Retention Rules Loosen, Browser Use Lands",
     "description": "August 21, 2026: Anthropic tells investors its IPO will match or beat SpaceX's record raise; the company moves to let enterprises hold covered-model retention data in their own cloud after months of backlash; a new browser_toolset_20260801 gives Claude 27 browser tools running on your own infrastructure; computer use goes GA; Claude Code 2.1.238 unlocks authenticated plugin marketplaces; OpenAI counter-programs on privacy; and Ramp data shows the business-user gap narrowing.",
