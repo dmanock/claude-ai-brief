@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-23",
+    "title": "Claude AI Daily Brief &mdash; August 23, 2026 | Mythos 5 Starts Scanning Enterprise Code, $35M Open-Source Defender Fund, Anthropic Hires Google&rsquo;s TPU Founder",
+    "description": "August 23, 2026: Claude Mythos 5 goes to work inside Claude Security, running vulnerability scans on Enterprise codebases with no separate add-on; Anthropic commits $35 million in credits to a new Defender Advantage Fund for open-source security; the Cyber Verification Program expands toward Mythos-class access; Bloomberg reports Anthropic hired Amir Salek, the founder of Google's TPU program, for its compute team; Claude Code posts a second straight quiet release; and the S-1 math behind an October listing comes into focus.",
+    "url": "reports/claude-ai-daily-2026-08-23.html",
+    "headlines": [
+      "Mythos 5 Starts Scanning Enterprise Code",
+      "$35M Open-Source Defender Fund",
+      "Anthropic Hires Google&rsquo;s TPU Founder",
+      "Mythos 5 Goes to Work Inside Claude Security",
+      "The Defender Advantage Fund Puts $35M Behind Open-Source Security",
+      "The Cyber Verification Program Is About to Get Wider",
+      "2.1.240 and 2.1.241: Two Quiet Days in a Row",
+      "Scan in One Product, Patch in Another &mdash; On Purpose",
+      "Anthropic Reportedly Hires the Founder of Google&rsquo;s TPU Program",
+      "What the Defender Ecosystem Actually Looks Like in Production",
+      "The S-1 Math, Now That the Bank Lineup Is Set",
+      "Anthropic Just Published Its Playbook for Shipping a Dangerous Capability"
+    ],
+    "snippet": "Claude AI Daily Brief — August 23, 2026 | Mythos 5 Starts Scanning Enterprise Code, $35M Open-Source Defender Fund, Anthropic Hires Google’s TPU Founder ● Sunday, August 23, 2026 Claude AI Daily Brief — August 23, 2026 Covering the latest from the platform · Edition #177 TL;DR — Today’s Top 3 Takeaw"
+  },
+  {
     "date": "2026-08-22",
     "title": "Claude AI Daily Brief &mdash; August 22, 2026 | MCP Publishes a New Roadmap, Anthropic&rsquo;s Ode Buys Casper Studios, Python SDK Hits 1.0",
     "description": "August 22, 2026: The Model Context Protocol publishes an updated roadmap built around agent identity, HTTP-native transport and progressive tool discovery; Ode with Anthropic makes its first acquisition in Casper Studios; Citigroup joins the top ranks of Anthropic's IPO banks as a filing nears; the Python SDK ships v1.0 with breaking removals; Claude Code 2.1.239 fixes a Bedrock bug that silently doubled billed API calls; and Claude logs a clean 48 hours on the status page.",

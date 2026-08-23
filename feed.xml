@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — August 23, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-23.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-23.html</guid>
+      <pubDate>Sun, 23 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Mythos 5 Starts Scanning Enterprise Code</strong> — The cyber model gated to vetted defenders since April now runs vulnerability scans inside Claude Security, billed as normal token usage, with every patch gated on human review.</p>
+        <p><strong>2. $35 Million in Credits for Open-Source Defense</strong> — The new Defender Advantage Fund pays organizations in Claude credits to patch live vulnerabilities in widely used projects, on top of Project Glasswing&rsquo;s $100M.</p>
+        <p><strong>3. Anthropic Hires the Man Who Built Google&rsquo;s TPU</strong> — Bloomberg reports Amir Salek, founder of Google&rsquo;s custom silicon program and shipper of TPUv1 through v4, joined the compute team as Anthropic works toward its own chips.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-23.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 22, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-22.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-22.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Claude Code Makes Opus 5 the Default</strong> — The coding agent ships Opus 5 as its default, adds nested subagents and dynamic workflows, and tightens sandbox controls and error reporting.</p>
         <p><strong>3. Voice Mode Gets Opus & Sonnet</strong> — Claude's voice mode now runs on Opus and Sonnet with connected tool actions and many more languages, letting you talk through real work and switch models mid-conversation.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-25.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 24, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-24.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-24.html</guid>
-      <pubDate>Fri, 24 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Opus 4.7 Fast Mode Shuts Off Today</strong> — As of July 24, requests to Claude Opus 4.7 with fast mode return an error; migrate that traffic to Claude Opus 4.8.</p>
-        <p><strong>2. Usage Tiers Collapse to Three</strong> — The Developer Platform folds four tiers into Start, Build, and Scale, raises limits everywhere, and stops counting cache-read tokens toward your input-per-minute cap.</p>
-        <p><strong>3. HIPAA Configuration Goes Self-Serve</strong> — Enterprise and API orgs can now review a BAA, download a compliance guide, and enable HIPAA support in one step.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-24.html">Read full report →</a></p>
       ]]></description>
     </item>
     
