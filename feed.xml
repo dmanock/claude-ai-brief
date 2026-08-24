@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — August 24, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-24.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-24.html</guid>
+      <pubDate>Mon, 24 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Goes Down Again, Sixth Time This Month</strong> — Elevated errors opened at 05:06 UTC across Mythos 5, Fable 5, Opus 5 and Opus 4.8, with partial outages on claude.ai, the API, Claude Code and Cowork.</p>
+        <p><strong>2. The September 1 Price Increase Is Cancelled</strong> — Sonnet 5 stays at $2/$10 per million tokens permanently; the scheduled move to $3/$15 will not happen.</p>
+        <p><strong>3. Every Claude Output Now Carries a Watermark</strong> — Machine-readable marking is live on all products shipped since August 2, worldwide, with older models covered by December 2.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-24.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 23, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-23.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-23.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Claude Code Tightens Subagents</strong> — Version 2.1.220 lets subagents nest up to depth 3 by default but adds per-session spawn caps and web-search limits to stop runaway delegation loops.</p>
         <p><strong>3. API Gets Automatic Fallbacks</strong> — Requests flagged by safety classifiers on Opus 5 or Fable 5 can now auto-route to another model, and a new Rate Limits API lets admins query their limits programmatically.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-26.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 25, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-25.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-25.html</guid>
-      <pubDate>Sat, 25 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Opus 5 Lands</strong> — Anthropic's new flagship approaches Fable 5 performance at roughly half the price, with a 1M-token context window, up to 128K output, and a new five-level effort control.</p>
-        <p><strong>2. Claude Code Makes Opus 5 the Default</strong> — The coding agent ships Opus 5 as its default, adds nested subagents and dynamic workflows, and tightens sandbox controls and error reporting.</p>
-        <p><strong>3. Voice Mode Gets Opus & Sonnet</strong> — Claude's voice mode now runs on Opus and Sonnet with connected tool actions and many more languages, letting you talk through real work and switch models mid-conversation.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-25.html">Read full report →</a></p>
       ]]></description>
     </item>
     

@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-08-24",
+    "title": "Claude AI Daily Brief &mdash; August 24, 2026 | Sixth Claude Outage This Month, Sonnet 5 Intro Pricing Made Permanent, Watermarking Goes Live",
+    "description": "August 24, 2026: Claude logs its sixth multi-model outage of the month, with elevated errors across Mythos 5, Fable 5, Opus 5 and Opus 4.8 hitting claude.ai, the API, Claude Code and Cowork; Anthropic cancels the September 1 Sonnet 5 price increase and makes $2/$10 permanent; machine-readable watermarking is now live on every Claude product shipped since August 2; Admin API user management goes GA; Managed Agents gain per-tool domain filters; and Claude Academy opens with 22 free courses.",
+    "url": "reports/claude-ai-daily-2026-08-24.html",
+    "headlines": [
+      "Sixth Claude Outage This Month",
+      "Sonnet 5 Intro Pricing Made Permanent",
+      "Watermarking Goes Live",
+      "Claude Logs Its Sixth Multi-Model Outage of August",
+      "Watermarking Is Live &mdash; and the Deadline for Older Models Is December 2",
+      "Claude Academy Opens With 22 Courses and 355 Resources",
+      "Sonnet 5 Stays at $2/$10 &mdash; the September Hike Is Off",
+      "Admin API User Management Hits GA &mdash; Delete the Beta Header",
+      "Managed Agents Get Per-Tool Domain Filters",
+      "Claude Code Holds at 2.1.241 for a Third Quiet Day",
+      "Zaelab Joins the Enterprise Delivery Bench",
+      "The Watch Item: Where the Public S-1 Actually Is",
+      "Seven Incidents in Twenty-Four Days Is the Number That Ends Up in the S-1"
+    ],
+    "snippet": "Claude AI Daily Brief — August 24, 2026 | Sixth Claude Outage This Month, Sonnet 5 Intro Pricing Made Permanent, Watermarking Goes Live ● Monday, August 24, 2026 Claude AI Daily Brief — August 24, 2026 Covering the latest from the platform · Edition #178 TL;DR — Today’s Top 3 Takeaways 1. Claude Goe"
+  },
+  {
     "date": "2026-08-23",
     "title": "Claude AI Daily Brief &mdash; August 23, 2026 | Mythos 5 Starts Scanning Enterprise Code, $35M Open-Source Defender Fund, Anthropic Hires Google&rsquo;s TPU Founder",
     "description": "August 23, 2026: Claude Mythos 5 goes to work inside Claude Security, running vulnerability scans on Enterprise codebases with no separate add-on; Anthropic commits $35 million in credits to a new Defender Advantage Fund for open-source security; the Cyber Verification Program expands toward Mythos-class access; Bloomberg reports Anthropic hired Amir Salek, the founder of Google's TPU program, for its compute team; Claude Code posts a second straight quiet release; and the S-1 math behind an October listing comes into focus.",
