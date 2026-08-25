@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-08-25">
+  <title>Claude AI Daily Brief &mdash; August 25, 2026 | Sonnet 4.5 Retires September 29, Claude Code Ships an Emergency Linux Fix, Enterprise Gets Inference Hooks</title>
+  <meta name="description" content="August 25, 2026: Claude Sonnet 4.5 retires on September 29 and the migration clock is now five weeks; Claude Code 2.1.243 fixes a startup crash on glibc 2.44 distros after 2.1.242 added contracted-rate cost reporting and per-loop usage; Enterprise gets beta skill and plugin security scanning plus inference hooks for real-time DLP; yesterday's multi-model incident closed at 08:30 UTC after 3 hours 26 minutes; the connectors directory passes 950 MCP servers; and the public S-1 is expected before the month is out.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude Sonnet 4.5 deprecation, Claude Code 2.1.243, glibc 2.44, inference hooks, skill security scanning, MCP 2026-07-28, Claude Cowork Chrome, Anthropic IPO S-1, Deloitte Claude">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-08-25.html">
+  <meta property="og:title" content="Claude AI Daily Brief &mdash; August 25, 2026">
+  <meta property="og:description" content="Sonnet 4.5 retires September 29 and your migration window is five weeks. Claude Code ships an emergency fix for Linux boxes that would not start. And Enterprise finally gets a way to inspect prompts before they reach the model.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-25.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief &mdash; August 25, 2026">
+  <meta name="twitter:description" content="Sonnet 4.5 retires September 29 and your migration window is five weeks. Claude Code ships an emergency fix for Linux boxes that would not start. And Enterprise finally gets a way to inspect prompts before they reach the model.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-25.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-08-25.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — August 25, 2026",
+    "description": "Claude Sonnet 4.5 is scheduled for retirement on September 29, 2026, leaving roughly five weeks for teams still pinned to it to migrate before API calls begin failing. Claude Code shipped 2.1.243 on August 25 as an emergency fix for a startup crash affecting Linux distributions on glibc 2.44, including Arch, CachyOS and Fedora Rawhide, one day after 2.1.242 added a Loops breakdown to /usage, a curated modelPicker setting, separate prompt cache TTLs for the main conversation and subagents, and a modelPricing managed setting that reports contracted per-model rates instead of list price. On the Enterprise side, Anthropic opened beta skill and plugin security scanning for third-party uploads and inference hooks that inspect prompts and tool calls before they reach the model across chat, Claude Code and Cowork. Yesterday's multi-model incident was marked resolved at 08:30 UTC after 3 hours 26 minutes, and August 25 has been clean so far. The connectors directory now lists more than 950 MCP servers ahead of the 2026-07-28 stateless-core spec landing in Claude, Cowork now runs in the Chrome extension side panel with skills and plugins intact, and the public S-1 is expected before the month closes.",
+    "datePublished": "2026-08-25T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-08-25.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-08-25.html"
+  }
+  </script>
+
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style></head>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Tuesday, August 25, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; August 25, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #179</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Sonnet 4.5 Retires September 29 &mdash; Five Weeks Left</strong> &mdash; if any part of your stack still pins <code>claude-sonnet-4-5</code>, the migration window is now measured in weeks, not quarters.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Claude Code 2.1.243 Is an Emergency Linux Fix</strong> &mdash; a startup crash on <strong>glibc 2.44</strong> distros (Arch, CachyOS, Fedora Rawhide) is patched. 2.1.242 the day before added contracted-rate cost reporting and per-loop usage.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Enterprise Gets Inference Hooks and Skill Scanning</strong> &mdash; prompts and tool calls can now be inspected <em>before</em> they reach the model, and third-party skills and plugins are scanned for malicious content.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Deprecation</span>
+      <h3>Sonnet 4.5 Retires on September 29 &mdash; the Clock Is Now Five Weeks</h3>
+      <p><strong>Claude Sonnet 4.5</strong> is scheduled for retirement on <strong>September 29, 2026</strong>. Opus 4.5 remains active. After the retirement date, API calls against the deprecated identifier stop working &mdash; the same hard failure mode that took out <strong>Sonnet 4 and Opus 4 on June 15</strong> and <strong>Opus 4.1 on August 5</strong>.</p>
+      <p>Anthropic gives at least <strong>60 days&rsquo; notice</strong> before retiring a publicly released model, which is generous by industry standards and still not enough time if nobody on your team is watching the deprecations page. The failure pattern is consistent: the main application gets migrated on time, and then something forgotten breaks &mdash; a nightly batch job, an internal eval harness, a Zapier action, a vendor integration that hardcoded a model string two years ago.</p>
+      <p>Concrete action for this week: grep for <code>claude-sonnet-4-5</code> across every repo, config store, notebook and CI secret you control, not just the ones you think are live. Five weeks is comfortable if you start now and unpleasant if you start on September 22.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/about-claude/model-deprecations" class="source-link">Model Deprecations</a>
+        <a href="https://www.narracomm.com/anthropic-sets-retirement-dates-for-multiple-claude-models/" class="source-link">Narracomm</a>
+        <a href="https://www.mindstudio.ai/blog/claude-sonnet-4-opus-4-deprecation-migration-guide" class="source-link">Migration Guide</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Reliability</span>
+      <h3>Yesterday&rsquo;s Incident Closed at 08:30 UTC &mdash; 3 Hours 26 Minutes</h3>
+      <p>Closing the loop on Monday. The multi-model incident opened at <strong>04:50 UTC</strong>, Anthropic identified the cause at <strong>05:27</strong>, error rates began stabilising around <strong>07:47</strong>, and the incident was marked <strong>resolved at 08:30 UTC</strong> &mdash; a total of <strong>3 hours 26 minutes</strong>, affecting Mythos 5, Fable 5, Opus 5 and Opus 4.8.</p>
+      <p>That is longer than the early reporting suggested. The gap between &ldquo;root cause identified&rdquo; at 05:27 and &ldquo;stabilising&rdquo; at 07:47 is <strong>two hours and twenty minutes of known-cause degradation</strong>, which is the interval worth designing around. Knowing what broke and having capacity to absorb the fix are different problems.</p>
+      <p><strong>August 25 has been clean so far</strong> &mdash; third-party monitoring shows claude.ai at 100% uptime over the trailing 24 hours with two minor issues logged. After a month averaging an incident every three days, a quiet Tuesday is worth noting rather than assuming.</p>
+      <div class="source-links">
+        <a href="https://status.claude.com/" class="source-link">Claude Status</a>
+        <a href="https://statusgator.com/services/claude/outage-history" class="source-link">StatusGator History</a>
+        <a href="https://www.ibtimes.sg/claude-hit-multiple-august-outages-it-time-have-backup-ai-92770" class="source-link">IBTimes</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Security</span>
+      <h3>Inference Hooks and Skill Scanning Open in Beta for Enterprise</h3>
+      <p>Two Enterprise-plan features that address the same anxiety from opposite directions. <strong>Skill and plugin security scanning</strong> (beta) checks third-party uploads for malicious content before they land in a workspace. <strong>Inference hooks</strong> (beta) give compliance teams <strong>real-time DLP enforcement across chat, Claude Code, Cowork and more</strong>, inspecting prompts and tool calls <em>before they reach the model</em>.</p>
+      <p>The second one is the structurally important change. Until now, enterprise controls on Claude have mostly been perimeter controls &mdash; who can log in, which connectors are enabled, what gets retained. Inference hooks move the enforcement point inside the request path, which is the only place you can actually catch a customer record on its way into a prompt.</p>
+      <p>It also quietly acknowledges where the risk now lives. With <strong>94 plugins in the marketplace</strong> and skills that activate automatically based on context, the attack surface is no longer &ldquo;what the user typed&rdquo; &mdash; it is whatever a bundled skill decided to pull in on the user&rsquo;s behalf. Scanning the bundle and inspecting the request are both necessary.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Anthropic Release Notes</a>
+        <a href="https://www.constellationr.com/insights/news/anthropic-expands-cowork-plugins-across-enterprise-functions" class="source-link">Constellation Research</a>
+        <a href="https://thenewstack.io/anthropic-brings-plugins-to-cowork/" class="source-link">The New Stack</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Tooling</span>
+      <h3>Claude Code 2.1.243 Fixes a Startup Crash on glibc 2.44</h3>
+      <p>Short release, narrow blast radius, high urgency if it hits you. <strong>2.1.243</strong> (August 25) fixes a <strong>crash on startup on Linux distributions shipping glibc 2.44</strong> &mdash; named examples are <strong>Arch Linux, CachyOS and Fedora Rawhide</strong>. If Claude Code stopped launching for you after a recent system update, this is why, and the fix is available now.</p>
+      <p>The likely trigger is the CLI&rsquo;s move to <strong>native binaries</strong>. Shipping a compiled binary instead of a Node bundle buys startup speed and removes the runtime dependency, at the cost of inheriting the platform&rsquo;s glibc ABI surface. Rolling-release distros hit the new glibc first, which is exactly the population that reported this.</p>
+      <p>Practical note: if you manage Claude Code across a fleet with pinned versions, this is worth an out-of-band bump rather than waiting for your normal upgrade window. A tool that will not start is not a degradation you can route around.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md" class="source-link">GitHub CHANGELOG</a>
+        <a href="https://www.gradually.ai/en/changelogs/claude-code/" class="source-link">Gradually Changelog</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Cost</span>
+      <h3>2.1.242 Makes <code>/cost</code> Use Your Contracted Rates, Not List Price</h3>
+      <p>The day before the Linux fix, <strong>2.1.242</strong> shipped four settings worth adopting. The headline one is <strong><code>modelPricing</code></strong>, a managed setting that makes <code>/cost</code> and telemetry report <strong>your organisation&rsquo;s contracted per-model rates instead of public list price</strong>. If you negotiated an enterprise agreement, every cost number Claude Code has shown you until now has been wrong &mdash; usually high.</p>
+      <p><strong><code>promptCacheTtl</code></strong> and <strong><code>subagentPromptCacheTtl</code></strong> split cache lifetime between the main conversation and subagents, so you can hold a <strong>1-hour cache on the long-running thread while subagents stay at 5 minutes</strong>. That is the right shape: the main conversation accumulates context worth keeping warm, subagents are short and disposable, and paying 1-hour cache-write pricing on both was leaving money on the table.</p>
+      <p>Rounding out the release: <strong><code>modelPicker</code></strong> lets an org curate <code>/model</code> down to an ordered, labelled list &mdash; useful for steering teams off models that are about to retire &mdash; and <strong><code>/usage</code> gained a Loops breakdown</strong> showing run count, total tokens, tokens per run and last run for each loop.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+        <a href="https://code.claude.com/docs/en/whats-new" class="source-link">What&rsquo;s New</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">MCP</span>
+      <h3>950+ MCP Servers in the Directory as the Stateless Spec Lands</h3>
+      <p>The connectors directory now lists <strong>more than 950 MCP servers</strong>, described as in use by millions of people daily. That is the ecosystem number; the more interesting one is the protocol change behind it. The <strong>MCP 2026-07-28 revision</strong> &mdash; <strong>stateless core, standardised extensions, hardened auth</strong> &mdash; is being brought into Claude.</p>
+      <p>Stateless matters more than it sounds. A stateless core means a server no longer has to hold a session open to be useful, which makes MCP servers deployable as ordinary serverless functions behind a load balancer instead of long-lived processes with sticky routing. That removes most of the operational reason a team would decline to expose an internal system over MCP.</p>
+      <p>If you maintain a server, the migration is the work: standardised extensions mean capabilities you previously bolted on non-portably now have a defined home, and hardened auth means some of what you built by hand is now specified. Worth reading the revision before your next server, not after.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/bringing-mcp-2026-07-28-to-claude" class="source-link">MCP 2026-07-28 in Claude</a>
+        <a href="https://platform.claude.com/docs/en/agents-and-tools/mcp-connector" class="source-link">MCP Connector Docs</a>
+        <a href="https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp" class="source-link">Remote MCP Guide</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Product</span>
+      <h3>Cowork Now Runs in the Chrome Extension Side Panel</h3>
+      <p><strong>Claude Cowork</strong> now runs directly in the side panel of Anthropic&rsquo;s Chrome extension, with <strong>skills, plugins and connectors working in the browser for the first time</strong> and no extra setup required. The marketplace it draws on has grown to <strong>94 plugins</strong>.</p>
+      <p>The significance is placement rather than capability. Cowork&rsquo;s pitch has always been aimed at people who do not open a terminal &mdash; and for that audience, a desktop app is still a context switch away from the browser tab where the actual work is happening. Putting the same skills and connectors in a side panel next to the CRM, the invoice, or the shared doc is where that pitch either lands or does not.</p>
+      <div class="source-links">
+        <a href="https://the-decoder.com/anthropic-brings-claude-cowork-to-its-chrome-extension-adding-skills-and-plugins-to-the-browser/" class="source-link">The Decoder</a>
+        <a href="https://claudecowork.im/plugins" class="source-link">Plugin Directory</a>
+        <a href="https://www.reworked.co/collaboration-productivity/anthropic-adds-plugins-to-claude-cowork/" class="source-link">Reworked</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">IPO</span>
+      <h3>The Public S-1 Is Expected Before the Month Closes</h3>
+      <p>Six days left in August, and the expectation is still that Anthropic <strong>publicly files its prospectus by end of month</strong>, following the <strong>June 1 confidential S-1</strong> and a <strong>$965 billion</strong> Series H mark. The roadshow is pencilled for <strong>September</strong>, with a target <strong>October Nasdaq listing</strong>.</p>
+      <p>The date is not arbitrary. SEC guidance requires the public filing at least <strong>15 days before a traditional roadshow</strong> &mdash; so a September roadshow forces the flip in roughly the next two weeks whether the company feels ready or not. Secondary markets are currently pricing an implied valuation of <strong>$1.05 to $1.15 trillion</strong>, well above the last private round.</p>
+      <p>Ticker, exchange, price range and final valuation all remain unannounced. Every revenue figure in circulation is still reporting rather than audited disclosure; the prospectus is the first document that changes that.</p>
+      <div class="source-links">
+        <a href="https://unusualwhales.com/news/anthropic-public-s1-filing-august-2026" class="source-link">Unusual Whales</a>
+        <a href="https://decodethefuture.org/en/anthropic-s1-ipo-filing-explained/" class="source-link">Decode the Future</a>
+        <a href="https://www.bitmex.com/blog/anthropic-ipo-guide" class="source-link">IPO Guide</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Enterprise</span>
+      <h3>The Seat-Count Arms Race: Deloitte 470K, KPMG 276K, Accenture 30K Trained</h3>
+      <p>Worth seeing the professional-services deals as one number rather than three announcements. <strong>Deloitte</strong> is rolling Claude out to <strong>470,000 people</strong> across its global network &mdash; Anthropic&rsquo;s largest enterprise deployment to date. <strong>KPMG</strong> is giving access to all <strong>276,000+</strong> employees. <strong>Accenture</strong> is training roughly <strong>30,000 professionals</strong> and became a premier partner for coding with Claude Code.</p>
+      <p>That is north of three quarters of a million seats at three firms, and the seats are the smaller half of the story. Each of these firms bills clients for AI transformation work, which means every deployed consultant is a distribution channel into the client base. Anthropic is not selling licences here so much as renting the implementation layer of the enterprise software market.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/deloitte-anthropic-partnership" class="source-link">Deloitte Partnership</a>
+        <a href="https://www.anthropic.com/news/anthropic-kpmg" class="source-link">KPMG Alliance</a>
+        <a href="https://anthropic.com/news/anthropic-accenture-partnership" class="source-link">Accenture Expansion</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>The Deprecation Treadmill Is the Tax Nobody Prices Into the Enterprise Pitch</h3>
+      <p>Line up 2026&rsquo;s retirement dates and a rhythm appears. Sonnet 4 and Opus 4 went on <strong>June 15</strong>. Opus 4.1 went on <strong>August 5</strong>. Sonnet 4.5 goes on <strong>September 29</strong>. That is a model family retiring roughly every seven weeks, each with 60 days&rsquo; notice, each requiring somebody to go find every place a string got hardcoded.</p>
+      <p>The 60-day policy is genuinely good practice &mdash; better than several competitors, and clearly documented. But policy quality is not the issue. The issue is cadence. A 60-day window is a comfortable amount of time to migrate <em>one</em> thing. It is a much less comfortable amount of time when the windows overlap, and by late September a large shop will have absorbed three separate migrations in a single quarter while also fielding new model launches it is being encouraged to adopt.</p>
+      <p>Put that next to today&rsquo;s other stories and the tension is clear. Anthropic just shipped <code>modelPicker</code> so organisations can curate which models their teams see &mdash; a tool that exists specifically because model churn has become an internal governance problem. It is signing deals that put Claude in front of <strong>470,000 Deloitte staff</strong> and <strong>276,000 at KPMG</strong>. Those are populations that build things and then stop thinking about them. Every one of those deployments accrues quiet dependencies on specific model identifiers, and the treadmill does not slow down to accommodate them.</p>
+      <p>The honest version of the enterprise pitch would name this cost. Frontier capability and long-term stability are in genuine tension, and Anthropic has &mdash; reasonably, defensibly &mdash; chosen capability. But the buyer signing a five-year transformation programme should be told they are also signing up for a permanent migration function. The firms that handle this well will be the ones that treat model identifiers as configuration from day one, keep a live inventory of every place a model is pinned, and staff the upgrade path as ongoing work rather than an emergency. The ones that do not will discover their inventory on the morning a batch job starts returning errors.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/about-claude/model-deprecations" class="source-link">Model Deprecations</a>
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://www.anthropic.com/news/deloitte-anthropic-partnership" class="source-link">Deloitte Partnership</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

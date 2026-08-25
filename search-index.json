@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-08-25",
+    "title": "Claude AI Daily Brief &mdash; August 25, 2026 | Sonnet 4.5 Retires September 29, Claude Code Ships an Emergency Linux Fix, Enterprise Gets Inference Hooks",
+    "description": "August 25, 2026: Claude Sonnet 4.5 retires on September 29 and the migration clock is now five weeks; Claude Code 2.1.243 fixes a startup crash on glibc 2.44 distros after 2.1.242 added contracted-rate cost reporting and per-loop usage; Enterprise gets beta skill and plugin security scanning plus inference hooks for real-time DLP; yesterday's multi-model incident closed at 08:30 UTC after 3 hours 26 minutes; the connectors directory passes 950 MCP servers; and the public S-1 is expected before the month is out.",
+    "url": "reports/claude-ai-daily-2026-08-25.html",
+    "headlines": [
+      "Sonnet 4.5 Retires September 29",
+      "Claude Code Ships an Emergency Linux Fix",
+      "Enterprise Gets Inference Hooks",
+      "Sonnet 4.5 Retires on September 29 &mdash; the Clock Is Now Five Weeks",
+      "Yesterday&rsquo;s Incident Closed at 08:30 UTC &mdash; 3 Hours 26 Minutes",
+      "Inference Hooks and Skill Scanning Open in Beta for Enterprise",
+      "Claude Code 2.1.243 Fixes a Startup Crash on glibc 2.44",
+      "2.1.242 Makes /cost Use Your Contracted Rates, Not List Price",
+      "950+ MCP Servers in the Directory as the Stateless Spec Lands",
+      "Cowork Now Runs in the Chrome Extension Side Panel",
+      "The Public S-1 Is Expected Before the Month Closes",
+      "The Seat-Count Arms Race: Deloitte 470K, KPMG 276K, Accenture 30K Trained",
+      "The Deprecation Treadmill Is the Tax Nobody Prices Into the Enterprise Pitch"
+    ],
+    "snippet": "Claude AI Daily Brief — August 25, 2026 | Sonnet 4.5 Retires September 29, Claude Code Ships an Emergency Linux Fix, Enterprise Gets Inference Hooks ● Tuesday, August 25, 2026 Claude AI Daily Brief — August 25, 2026 Covering the latest from the platform · Edition #179 TL;DR — Today’s Top 3 Takeaways"
+  },
+  {
     "date": "2026-08-24",
     "title": "Claude AI Daily Brief &mdash; August 24, 2026 | Sixth Claude Outage This Month, Sonnet 5 Intro Pricing Made Permanent, Watermarking Goes Live",
     "description": "August 24, 2026: Claude logs its sixth multi-model outage of the month, with elevated errors across Mythos 5, Fable 5, Opus 5 and Opus 4.8 hitting claude.ai, the API, Claude Code and Cowork; Anthropic cancels the September 1 Sonnet 5 price increase and makes $2/$10 permanent; machine-readable watermarking is now live on every Claude product shipped since August 2; Admin API user management goes GA; Managed Agents gain per-tool domain filters; and Claude Academy opens with 22 free courses.",
