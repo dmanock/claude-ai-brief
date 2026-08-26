@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-26",
+    "title": "Claude AI Daily Brief &mdash; August 26, 2026 | Claude Memory Goes Shared Across Chat and Cowork, Claude Code Ships a Dedicated Agent Tool, Enterprise Data Retention Moves to Your Cloud",
+    "description": "August 26, 2026: Anthropic merged the memory systems behind chat and Claude Cowork so context carries between research and execution, with a readable and editable memory list and sensitive topics off by default; Claude Code 2.1.246 adds a dedicated Agent tool for isolated subagent workflows and an auto mode tab in /permissions; Anthropic plans to let enterprises hold the mandatory 30-day model logs on their own cloud; Citigroup joins Goldman, Morgan Stanley and JPMorgan on the IPO as filing is expected within days; Ode with Anthropic buys Casper Studios; and the status page is clean after Monday&rsquo;s multi-model incident.",
+    "url": "reports/claude-ai-daily-2026-08-26.html",
+    "headlines": [
+      "Claude Memory Goes Shared Across Chat and Cowork",
+      "Claude Code Ships a Dedicated Agent Tool",
+      "Enterprise Data Retention Moves to Your Cloud",
+      "Claude Memory Is Now Shared Across Chat and Cowork",
+      "Enterprises May Soon Keep the Mandatory 30-Day Logs on Their Own Cloud",
+      "Two Clean Days After Monday&rsquo;s Multi-Model Incident",
+      "Claude Code 2.1.246 Ships a Dedicated Agent Tool",
+      "Session Budgets and the Playground Are the Two Console Changes That Stuck",
+      "Thirty-Four Days Until Sonnet 4.5 Retires",
+      "Citigroup Joins the Top of the Syndicate as the Filing Window Narrows",
+      "Ode with Anthropic Buys Casper Studios &mdash; 41 People Who Build Skills and Connectors",
+      "Memory Is the Feature That Makes Switching Costs Real"
+    ],
+    "snippet": "Claude AI Daily Brief — August 26, 2026 | Claude Memory Goes Shared Across Chat and Cowork, Claude Code Ships a Dedicated Agent Tool, Enterprise Data Retention Moves to Your Cloud ● Wednesday, August 26, 2026 Claude AI Daily Brief — August 26, 2026 Covering the latest from the platform · Edition #18"
+  },
+  {
     "date": "2026-08-25",
     "title": "Claude AI Daily Brief &mdash; August 25, 2026 | Sonnet 4.5 Retires September 29, Claude Code Ships an Emergency Linux Fix, Enterprise Gets Inference Hooks",
     "description": "August 25, 2026: Claude Sonnet 4.5 retires on September 29 and the migration clock is now five weeks; Claude Code 2.1.243 fixes a startup crash on glibc 2.44 distros after 2.1.242 added contracted-rate cost reporting and per-loop usage; Enterprise gets beta skill and plugin security scanning plus inference hooks for real-time DLP; yesterday's multi-model incident closed at 08:30 UTC after 3 hours 26 minutes; the connectors directory passes 950 MCP servers; and the public S-1 is expected before the month is out.",
