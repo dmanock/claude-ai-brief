@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-08-27",
+    "title": "Claude AI Daily Brief &mdash; August 27, 2026 | Anthropic Signs $45B Nscale Compute Deal, Claude Code Files Its Own Bug Reports, Mythos 5 Lands in Claude Security",
+    "description": "August 27, 2026: Anthropic commits roughly $45 billion over six years to rent Nvidia Vera Rubin capacity from Nscale&rsquo;s West Virginia data center, its largest compute deal yet and a signal ahead of a targeted October IPO; Claude Code now writes its own feedback reports when a tool keeps failing or Claude notices a mistake; Claude Mythos 5 goes into Claude Security for Enterprise vulnerability scanning alongside a $35M Defender Advantage Fund; the Python SDK hits v1.0 on httpx2 with breaking changes; Admin API user management reaches GA; and Claude Academy opens with 355 free resources.",
+    "url": "reports/claude-ai-daily-2026-08-27.html",
+    "headlines": [
+      "Anthropic Signs $45B Nscale Compute Deal",
+      "Claude Code Files Its Own Bug Reports",
+      "Mythos 5 Lands in Claude Security",
+      "Anthropic Signs a $45 Billion Compute Deal With Nscale",
+      "Claude Mythos 5 Goes Into Claude Security &mdash; Plus a $35M Defender Fund",
+      "The Watermark Is Live on Everything Shipped Since August 2",
+      "Claude Code Now Writes Its Own Feedback Reports",
+      "anthropic-sdk-python Hits v1.0 and Moves to httpx2",
+      "Admin API User Management Goes GA, Mid-Conversation System Messages Land",
+      "Thirty-Three Days Until Sonnet 4.5 Retires",
+      "Claude Academy Opens With 355 Free Resources and No Login Wall",
+      "MCP Has Quietly Become the Default Integration Layer",
+      "Backers Reportedly Targeting $2 Trillion for an October Listing",
+      "$45 Billion for Compute That Arrives in 2027 Is an IPO Document, Not a Capacity Plan"
+    ],
+    "snippet": "Claude AI Daily Brief — August 27, 2026 | Anthropic Signs $45B Nscale Compute Deal, Claude Code Files Its Own Bug Reports, Mythos 5 Lands in Claude Security ● Thursday, August 27, 2026 Claude AI Daily Brief — August 27, 2026 Covering the latest from the platform · Edition #181 TL;DR — Today’s Top 3 "
+  },
+  {
     "date": "2026-08-26",
     "title": "Claude AI Daily Brief &mdash; August 26, 2026 | Claude Memory Goes Shared Across Chat and Cowork, Claude Code Ships a Dedicated Agent Tool, Enterprise Data Retention Moves to Your Cloud",
     "description": "August 26, 2026: Anthropic merged the memory systems behind chat and Claude Cowork so context carries between research and execution, with a readable and editable memory list and sensitive topics off by default; Claude Code 2.1.246 adds a dedicated Agent tool for isolated subagent workflows and an auto mode tab in /permissions; Anthropic plans to let enterprises hold the mandatory 30-day model logs on their own cloud; Citigroup joins Goldman, Morgan Stanley and JPMorgan on the IPO as filing is expected within days; Ode with Anthropic buys Casper Studios; and the status page is clean after Monday&rsquo;s multi-model incident.",

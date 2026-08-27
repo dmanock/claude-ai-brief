@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — August 27, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-27.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-27.html</guid>
+      <pubDate>Thu, 27 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Commits $45 Billion to Nscale</strong> — Six years and roughly 460 megawatts of Nvidia Vera Rubin capacity from a West Virginia build, with none of it serving a request until late 2027.</p>
+        <p><strong>2. Claude Code Now Files Its Own Bug Reports</strong> — Feedback goes upstream automatically when a tool keeps failing, when Claude notices its own mistake, or when a user calls it out.</p>
+        <p><strong>3. Mythos 5 Is Scanning Enterprise Codebases</strong> — Anthropic's most restricted model now powers Claude Security scans with CWE-classified findings and suggested patches, alongside a $35M Defender Advantage Fund.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-27.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 26, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-26.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-26.html</guid>
@@ -356,18 +368,5 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-29.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — July 28, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-28.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-28.html</guid>
-      <pubDate>Tue, 28 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Economic Index Connector Lands</strong> — Anyone can now ask Claude about the Anthropic Economic Index, with answers on occupations, tasks, and geography drawn straight from the public AI-usage dataset.</p>
-        <p><strong>2. Cowork Goes Mobile and Web</strong> — Claude Cowork is in beta on the web and phone for Max users, running tasks in the cloud even when no device is online, with doubled usage limits through August 5.</p>
-        <p><strong>3. API Adds Mid-Conversation Tools</strong> — Developers can now add or remove tools between turns while keeping the prompt cache, plus a new "default" fallback mode for backup models.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-28.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    
-    </channel>
+</channel>
 </rss>
