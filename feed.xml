@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — August 28, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-28.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-28.html</guid>
+      <pubDate>Fri, 28 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Steps Into the Physical World</strong> — The Model Hardware Standard research preview lets AI agents safely operate microscopes, liquid handlers and robotic arms in parallel, cutting lab integration work from months to minutes.</p>
+        <p><strong>2. 10,000 Claude Seats Open for Scientists</strong> — Standard Team seats are free, premium seats run $15/month with 5x usage limits and pricing locked for a year, plus up to $50,000 in AI for Science credits per project.</p>
+        <p><strong>3. Managed Agents Finally Get a Spend Cap</strong> — Session budgets pause a run at a hard limit with a budget_reached stop reason, shipping alongside advisor models, inference geo pinning and GitHub-hosted skills.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-28.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 27, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-27.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-27.html</guid>
@@ -356,17 +368,5 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-30.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — July 29, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-29.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-29.html</guid>
-      <pubDate>Wed, 29 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Mythos Cracks the HAWK Cipher</strong> — A preview model found a real, previously unknown weakness in the HAWK post-quantum scheme, cutting the best key-recovery attack from 2^64 to 2^38 operations in 60 hours, plus a 200-800x faster attack on 7-round AES.</p>
-        <p><strong>2. MCP Goes Stateless in Claude</strong> — The new MCP 2026-07-28 spec brings a request/response core, production OAuth and OIDC, and versioned Apps and Tasks extensions, letting connectors run serverless and at the edge.</p>
-        <p><strong>3. Cognizant Deepens the Alliance</strong> — Cognizant becomes a Global Premier Partner in the Claude Partner Network, embedding Claude across its industry platforms with 30,000+ associates now Claude-trained.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-29.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-</channel>
+  </channel>
 </rss>

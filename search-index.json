@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-08-28",
+    "title": "Claude AI Daily Brief &mdash; August 28, 2026 | Anthropic Moves Into Physical AI With the Model Hardware Standard, 10,000 Free Claude Seats for Scientists, Managed Agents Get Budgets",
+    "description": "August 28, 2026: Anthropic opens a research preview of the Model Hardware Standard, a shared spec letting AI agents safely operate microscopes, liquid handlers and robotic arms and cutting lab integration work from months to minutes; 10,000 free and discounted Claude Team seats open for scientists with premium seats at $15/month and up to $50,000 in AI for Science credits per project; Claude Managed Agents gain session budgets, advisor models, inference geo pinning and GitHub-hosted skills; Cowork's built-in browser rolls out on desktop; MCP 2026-07-28 support lands in Claude; and the IPO filing window narrows to days.",
+    "url": "reports/claude-ai-daily-2026-08-28.html",
+    "headlines": [
+      "Anthropic Moves Into Physical AI With the Model Hardware Standard",
+      "10",
+      "000 Free Claude Seats for Scientists",
+      "Managed Agents Get Budgets",
+      "Anthropic Previews the Model Hardware Standard &mdash; Agents That Drive Real Machines",
+      "10,000 Free and Discounted Claude Seats Open for Scientists",
+      "Cowork Gets Its Own Browser &mdash; No Extension, No Setup",
+      "Managed Agents Ship Four Updates &mdash; Including a Hard Spend Cap",
+      "Claude Is First to Ship MCP 2026-07-28 &mdash; the Stateless Rewrite",
+      "Claude Code Adds a Default Model Setting and Tightens the macOS Sandbox",
+      "Thirty-Two Days Until Sonnet 4.5 Retires",
+      "The Public Filing Window Is Now Measured in Days",
+      "Zoom&rsquo;s Anthropic Stake Is Now Worth $3 Billion",
+      "Anthropic Hires a Google Veteran for the Hardware Push",
+      "Anthropic Is Running the MCP Playbook Again, and This Time the Stakes Are Physical"
+    ],
+    "snippet": "Claude AI Daily Brief — August 28, 2026 | Anthropic Moves Into Physical AI With the Model Hardware Standard, 10,000 Free Claude Seats for Scientists, Managed Agents Get Budgets ● Friday, August 28, 2026 Claude AI Daily Brief — August 28, 2026 Covering the latest from the platform · Edition #182 TL;D"
+  },
+  {
     "date": "2026-08-27",
     "title": "Claude AI Daily Brief &mdash; August 27, 2026 | Anthropic Signs $45B Nscale Compute Deal, Claude Code Files Its Own Bug Reports, Mythos 5 Lands in Claude Security",
     "description": "August 27, 2026: Anthropic commits roughly $45 billion over six years to rent Nvidia Vera Rubin capacity from Nscale&rsquo;s West Virginia data center, its largest compute deal yet and a signal ahead of a targeted October IPO; Claude Code now writes its own feedback reports when a tool keeps failing or Claude notices a mistake; Claude Mythos 5 goes into Claude Security for Enterprise vulnerability scanning alongside a $35M Defender Advantage Fund; the Python SDK hits v1.0 on httpx2 with breaking changes; Admin API user management reaches GA; and Claude Academy opens with 355 free resources.",
