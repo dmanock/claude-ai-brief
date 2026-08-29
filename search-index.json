@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-29",
+    "title": "Claude AI Daily Brief &mdash; August 29, 2026 | Salesforce and Anthropic Launch Claudeforce, Google and Microsoft Passed on Anthropic&rsquo;s $45B Nscale Lease, a $30 Trillion IPO Pitch",
+    "description": "August 29, 2026: Salesforce and Anthropic announce Claudeforce, making Claude the default reasoning model across Agentforce and Slack and shipping a Salesforce plugin with 37 prebuilt sales skills; Semafor reports Google and Microsoft were each in talks for the same 460-megawatt Nscale lease in West Virginia before Anthropic committed $45 billion over six years; Anthropic pitches IPO investors a $30 trillion total addressable market against a reported $2 trillion valuation; Claude for Teachers opens free to schools and districts; computer use, the browser tool, the Skills API and the Files API go generally available; and Claude Code 2.1.250 lands restricted mode and cross-session messaging.",
+    "url": "reports/claude-ai-daily-2026-08-29.html",
+    "headlines": [
+      "Salesforce and Anthropic Launch Claudeforce",
+      "Google and Microsoft Passed on Anthropic&rsquo;s $45B Nscale Lease",
+      "a $30 Trillion IPO Pitch",
+      "Salesforce and Anthropic Launch Claudeforce &mdash; and Salesforce Lends Out Its Suffix",
+      "Claude for Teachers Opens Free to Schools and Districts",
+      "Computer Use, Browser Use, Skills API and Files API Are All GA",
+      "Claude Code 2.1.250 &mdash; Restricted Mode, Cross-Session Messaging, Enterprise Credits",
+      "Admin API Goes GA, and Managed Agents Get Domain Allowlists",
+      "Thirty-One Days Until Sonnet 4.5 Retires",
+      "Anthropic Pitches Investors a $30 Trillion Market",
+      "Two Hyperscalers Looked at the Same Megawatts and Said No",
+      "Claudeforce Is Salesforce Choosing Which Half of Its Business to Defend"
+    ],
+    "snippet": "Claude AI Daily Brief — August 29, 2026 | Salesforce and Anthropic Launch Claudeforce, Google and Microsoft Passed on Anthropic’s $45B Nscale Lease, a $30 Trillion IPO Pitch ● Saturday, August 29, 2026 Claude AI Daily Brief — August 29, 2026 Covering the latest from the platform · Edition #183 TL;DR"
+  },
+  {
     "date": "2026-08-28",
     "title": "Claude AI Daily Brief &mdash; August 28, 2026 | Anthropic Moves Into Physical AI With the Model Hardware Standard, 10,000 Free Claude Seats for Scientists, Managed Agents Get Budgets",
     "description": "August 28, 2026: Anthropic opens a research preview of the Model Hardware Standard, a shared spec letting AI agents safely operate microscopes, liquid handlers and robotic arms and cutting lab integration work from months to minutes; 10,000 free and discounted Claude Team seats open for scientists with premium seats at $15/month and up to $50,000 in AI for Science credits per project; Claude Managed Agents gain session budgets, advisor models, inference geo pinning and GitHub-hosted skills; Cowork's built-in browser rolls out on desktop; MCP 2026-07-28 support lands in Claude; and the IPO filing window narrows to days.",

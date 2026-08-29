@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — August 29, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-29.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-29.html</guid>
+      <pubDate>Sat, 29 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Salesforce Names a Product After Claude</strong> — Claudeforce makes Claude a default reasoning model across Agentforce, Slack and developer tools, shipping with a Salesforce plugin of 37 prebuilt sales skills and an open beta targeted for September.</p>
+        <p><strong>2. Google and Microsoft Passed on That $45B Lease</strong> — Semafor reports both were in talks for the same 460 megawatts at Nscale's West Virginia campus before Anthropic committed to six years of it.</p>
+        <p><strong>3. A $30 Trillion Pitch to IPO Investors</strong> — Anthropic's claimed addressable market tops the figure SpaceX used and sits near the size of the entire US economy, against a reported $2 trillion valuation.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-29.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 28, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-28.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-28.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Two-Incident Outage Fully Recovered</strong> — Network failures over July 29–30 cut availability across claude.ai, the API, Claude Code, and Cowork, but service is back to normal — and Claude for Government stayed online the whole time on isolated infrastructure.</p>
         <p><strong>3. Stateless MCP Spec Lands in Claude</strong> — The MCP 2026-07-28 spec brings a request/response core, stronger OAuth/OIDC, private-network tunnels, and connector observability, with the directory now past 950 servers.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-31.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 30, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-30.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-30.html</guid>
-      <pubDate>Thu, 30 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. HAWK Pulled From the NIST Race</strong> — The HAWK team formally withdrew its post-quantum signature scheme from NIST's standardization process after confirming the weakness Claude Mythos surfaced — the first AI-found flaw to knock a candidate out.</p>
-        <p><strong>2. Cowork Goes Mobile and Web</strong> — Claude Cowork now runs on iOS, Android, and the browser, with scheduled tasks that keep working in the cloud even when your device is offline and push a notification when a decision is needed.</p>
-        <p><strong>3. Enterprise Gets Spend Controls</strong> — Claude Enterprise ships an Admin API, model-level entitlements, and spend alerts, a direct answer to the surprise token-bill problem that has bitten teams scaling agents.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-30.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>
