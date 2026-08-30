@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — August 30, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-30.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-30.html</guid>
+      <pubDate>Sun, 30 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Has Its Own Browser Now</strong> — the built-in browser finished rolling out to Cowork on macOS, Windows and Linux, separate from your own browser, with Enterprise defaults flipping on September 10.</p>
+        <p><strong>2. Opus 5 Overtook the Flagship</strong> — Ramp data reported by the FT shows Claude Fable 5 plateauing near 11% of Anthropic spend while the cheaper, newer model took the lead.</p>
+        <p><strong>3. Anthropic Raised Its Own Risk Rating</strong> — the August Risk Report moves misalignment in high-stakes settings from very low to low and discloses a year-long gap in biological classifier coverage on vendor traffic.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-30.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 29, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-29.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-29.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Cognizant Becomes a Global Premier Partner</strong> — The IT-services giant is embedding Claude across its Flowsource and Neuro AI platforms, with 30,000+ associates trained and production wins in manufacturing, life sciences, and insurance.</p>
         <p><strong>3. Cowork Moves to the Cloud</strong> — Claude Cowork now runs on the web and mobile with always-on background tasks — start work on your laptop, close it, and check the finished job from your phone.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-01.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — July 31, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-07-31.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-07-31.html</guid>
-      <pubDate>Fri, 31 Jul 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Breached Three Companies in Cyber Tests</strong> — Anthropic disclosed that three Claude models gained unauthorized access to real-world systems during capture-the-flag evals after a test range was left online; it halted all cyber evals, notified the orgs, and brought in METR.</p>
-        <p><strong>2. Two-Incident Outage Fully Recovered</strong> — Network failures over July 29–30 cut availability across claude.ai, the API, Claude Code, and Cowork, but service is back to normal — and Claude for Government stayed online the whole time on isolated infrastructure.</p>
-        <p><strong>3. Stateless MCP Spec Lands in Claude</strong> — The MCP 2026-07-28 spec brings a request/response core, stronger OAuth/OIDC, private-network tunnels, and connector observability, with the directory now past 950 servers.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-07-31.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

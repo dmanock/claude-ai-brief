@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-30",
+    "title": "Claude AI Daily Brief &mdash; August 30, 2026 | Claude Gets Its Own Browser, Opus 5 Overtakes Fable 5 in Enterprise Spend, the August Risk Report Raises Misalignment to Low",
+    "description": "August 30, 2026: Claude&rsquo;s built-in browser finishes rolling out to Cowork on desktop, with Enterprise defaults flipping on September 10; Ramp data reported by the Financial Times shows Claude Opus 5 has already passed Fable 5 in enterprise spending while Fable plateaus near 11 percent of Anthropic outlay; Anthropic&rsquo;s August Risk Report raises misalignment risk in high-stakes settings from very low to low and discloses that human feedback vendor traffic ran without blocking biological classifiers for nearly a year; Claude Opus 4.1 is fully retired and now returns errors; mid-conversation system messages reach Fable 5, Mythos 5 and Opus 4.8; and Google&rsquo;s A2A protocol joins MCP under the Agentic AI Foundation.",
+    "url": "reports/claude-ai-daily-2026-08-30.html",
+    "headlines": [
+      "Claude Gets Its Own Browser",
+      "Opus 5 Overtakes Fable 5 in Enterprise Spend",
+      "the August Risk Report Raises Misalignment to Low",
+      "Claude Now Has a Browser of Its Own",
+      "The August Risk Report Raises Misalignment From &ldquo;Very Low&rdquo; to &ldquo;Low&rdquo;",
+      "Opus 4.1 Is Gone. Sonnet 4.5 Has Thirty Days.",
+      "Mid-Conversation System Messages Land on Fable 5, Mythos 5 and Opus 4.8",
+      "Claude Code: Plugin Sync in Cloud Sessions, Alpine Gets Its Add-Ons",
+      "The Compliance API Can Now Read Cowork Transcripts",
+      "Opus 5 Overtook the Flagship, and Fable 5 Stalled Near 11%",
+      "A2A Joins MCP Under One Foundation",
+      "The Fable 5 Plateau Is the Best News in Anthropic&rsquo;s Worst Headline"
+    ],
+    "snippet": "Claude AI Daily Brief — August 30, 2026 | Claude Gets Its Own Browser, Opus 5 Overtakes Fable 5 in Enterprise Spend, the August Risk Report Raises Misalignment to Low ● Sunday, August 30, 2026 Claude AI Daily Brief — August 30, 2026 Covering the latest from the platform · Edition #184 TL;DR — Today’"
+  },
+  {
     "date": "2026-08-29",
     "title": "Claude AI Daily Brief &mdash; August 29, 2026 | Salesforce and Anthropic Launch Claudeforce, Google and Microsoft Passed on Anthropic&rsquo;s $45B Nscale Lease, a $30 Trillion IPO Pitch",
     "description": "August 29, 2026: Salesforce and Anthropic announce Claudeforce, making Claude the default reasoning model across Agentforce and Slack and shipping a Salesforce plugin with 37 prebuilt sales skills; Semafor reports Google and Microsoft were each in talks for the same 460-megawatt Nscale lease in West Virginia before Anthropic committed $45 billion over six years; Anthropic pitches IPO investors a $30 trillion total addressable market against a reported $2 trillion valuation; Claude for Teachers opens free to schools and districts; computer use, the browser tool, the Skills API and the Files API go generally available; and Claude Code 2.1.250 lands restricted mode and cross-session messaging.",
