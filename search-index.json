@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-08-31",
+    "title": "Claude AI Daily Brief &mdash; August 31, 2026 | Sony and Warner Sue Anthropic Over Music Training Data, Claudeforce Makes Claude Slack&rsquo;s Default Model, $45B for 460 Megawatts in West Virginia",
+    "description": "August 31, 2026: Sony Music Publishing and Warner Chappell sued Anthropic in the Northern District of California over allegedly torrented and scraped song catalogs, naming Dario Amodei and Benjamin Mann personally and seeking up to $150,000 per composition; Salesforce and Anthropic announced Claudeforce, making Claude the default model across Slack and shipping a 37-skill Salesforce plugin inside Claude; Anthropic committed $45 billion over six years to lease roughly 460 megawatts from Nscale&rsquo;s West Virginia campus; Claude for Teachers opened as a free Enterprise tier for US K-12 schools and districts; Anthropic moved to let enterprises hold frontier-model retention data in their own cloud; and enterprise-managed MCP authorization reached general availability with Datadog, Notion and Slack.",
+    "url": "reports/claude-ai-daily-2026-08-31.html",
+    "headlines": [
+      "Sony and Warner Sue Anthropic Over Music Training Data",
+      "Claudeforce Makes Claude Slack&rsquo;s Default Model",
+      "$45B for 460 Megawatts in West Virginia",
+      "Sony Music Publishing and Warner Chappell Sue Anthropic &mdash; and Name the Founders",
+      "Claude for Teachers Goes Free for Entire School Districts",
+      "Anthropic Moves to Let Enterprises Hold Their Own Retention Data",
+      "Enterprise-Managed MCP Authorization Hits GA, Adds Datadog, Notion and Slack",
+      "Managed Agents Get Session Budgets, Geo Pinning and Domain Allowlists",
+      "Claudeforce: Claude Becomes Slack&rsquo;s Default Model",
+      "$45 Billion for 460 Megawatts Microsoft Didn&rsquo;t Want",
+      "Anthropic Is Buying Distribution Faster Than It Is Settling Its Debts"
+    ],
+    "snippet": "Claude AI Daily Brief — August 31, 2026 | Sony and Warner Sue Anthropic Over Music Training Data, Claudeforce Makes Claude Slack’s Default Model, $45B for 460 Megawatts in West Virginia ● Monday, August 31, 2026 Claude AI Daily Brief — August 31, 2026 Covering the latest from the platform · Edition "
+  },
+  {
     "date": "2026-08-30",
     "title": "Claude AI Daily Brief &mdash; August 30, 2026 | Claude Gets Its Own Browser, Opus 5 Overtakes Fable 5 in Enterprise Spend, the August Risk Report Raises Misalignment to Low",
     "description": "August 30, 2026: Claude&rsquo;s built-in browser finishes rolling out to Cowork on desktop, with Enterprise defaults flipping on September 10; Ramp data reported by the Financial Times shows Claude Opus 5 has already passed Fable 5 in enterprise spending while Fable plateaus near 11 percent of Anthropic outlay; Anthropic&rsquo;s August Risk Report raises misalignment risk in high-stakes settings from very low to low and discloses that human feedback vendor traffic ran without blocking biological classifiers for nearly a year; Claude Opus 4.1 is fully retired and now returns errors; mid-conversation system messages reach Fable 5, Mythos 5 and Opus 4.8; and Google&rsquo;s A2A protocol joins MCP under the Agentic AI Foundation.",

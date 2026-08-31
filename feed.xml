@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — August 31, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-31.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-31.html</guid>
+      <pubDate>Mon, 31 Aug 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Sony and Warner Sued Anthropic</strong> — Sony Music Publishing and Warner Chappell filed in the Northern District of California alleging a brazen campaign of torrenting and scraping, seeking up to $150,000 per song and naming Dario Amodei and Benjamin Mann as individual defendants.</p>
+        <p><strong>2. Claude Is Now Slack’s Default Model</strong> — Claudeforce makes Claude the default across Slack AI, Slackbot and Agentforce Coworker, while a Salesforce plugin carrying 37 prebuilt sales skills runs inside Claude, with open beta expected in September.</p>
+        <p><strong>3. $45 Billion for 460 Megawatts</strong> — Anthropic committed to a six-year Nscale lease at the West Virginia campus Microsoft exited, running Nvidia Vera Rubin silicon from the end of 2027.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-31.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 30, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-30.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-30.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. API Limits Rise, Tiers Collapse to Three</strong> — Sonnet and Haiku rate limits now match Opus at every tier, the tier ladder consolidates into Start, Build, and Scale, and API keys can finally be given expiration dates.</p>
         <p><strong>3. UST Joins the Top Partner Tier</strong> — Anthropic named UST its second Global Premier Partner, days after Cognizant took the same slot, while Allianz joined the growing roster of enterprise wins.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-02.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 1, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-01.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-01.html</guid>
-      <pubDate>Sat, 01 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Opus 5 Undercuts the Frontier</strong> — Claude Opus 5 lands with near-Fable performance at half the price, a 1M-token context window, and Adaptive Thinking that dials reasoning up or down on its own — built for agents that run for hours.</p>
-        <p><strong>2. Cognizant Becomes a Global Premier Partner</strong> — The IT-services giant is embedding Claude across its Flowsource and Neuro AI platforms, with 30,000+ associates trained and production wins in manufacturing, life sciences, and insurance.</p>
-        <p><strong>3. Cowork Moves to the Cloud</strong> — Claude Cowork now runs on the web and mobile with always-on background tasks — start work on your laptop, close it, and check the finished job from your phone.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-01.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>
