@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 1, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-01.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-01.html</guid>
+      <pubDate>Tue, 01 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. $35 Billion More Compute</strong> — Anthropic signed a cloud deal with Nvidia-backed Lambda for roughly 350 megawatts at a Hut 8 site in Nueces County, Texas, under a structure where Nvidia holds the lease and Lambda operates the chips.</p>
+        <p><strong>2. Judge Voids the Pentagon’s Risk Label</strong> — US District Judge Rita Lin ordered the “supply chain risk” designation removed, finding it unlawful First Amendment retaliation and “arbitrary and capricious,” with the parallel DC case still pending.</p>
+        <p><strong>3. The Sonnet 5 Price Hike Didn’t Land</strong> — the increase to $3/$15 per million tokens scheduled for September 1 was cancelled; the $2/$10 introductory rate is now the standard price.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-01.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — August 31, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-31.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-31.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. The MCP 2026-07-28 Spec Comes to Claude</strong> — A stateless request/response core, MCP Tunnels for private-network servers, a versioned extensions framework for Apps and Tasks, and a developer observability dashboard.</p>
         <p><strong>3. Snowflake Deepens the Governed-AI Push</strong> — Claude powers Cortex Code and Snowflake Intelligence, with Block, Indeed, and Carvana in production — moving reasoning to where governed data already lives.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-03.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 2, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-02.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-02.html</guid>
-      <pubDate>Sun, 02 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Sonnet 5's Cheap Window Is Closing</strong> — The promotional $2/$10 pricing on Claude Sonnet 5 ends August 31, with standard $3/$15 rates kicking in September 1 — and a denser tokenizer means the real cost jump can be bigger than the list price suggests.</p>
-        <p><strong>2. API Limits Rise, Tiers Collapse to Three</strong> — Sonnet and Haiku rate limits now match Opus at every tier, the tier ladder consolidates into Start, Build, and Scale, and API keys can finally be given expiration dates.</p>
-        <p><strong>3. UST Joins the Top Partner Tier</strong> — Anthropic named UST its second Global Premier Partner, days after Cognizant took the same slot, while Allianz joined the growing roster of enterprise wins.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-02.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

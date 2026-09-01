@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-01",
+    "title": "Claude AI Daily Brief &mdash; September 1, 2026 | Anthropic Signs $35B Cloud Deal With Nvidia-Backed Lambda, Judge Voids Pentagon Risk Label, Sonnet 5 Price Hike Cancelled",
+    "description": "September 1, 2026: Anthropic agreed to a $35 billion computing deal with Nvidia-backed Lambda for a 350-megawatt Hut 8 data center in Nueces County, Texas; a federal judge ruled the Pentagon&rsquo;s &lsquo;supply chain risk&rsquo; designation of Anthropic unlawful retaliation and ordered it removed; Bloomberg reports Anthropic will file publicly for an IPO within weeks in what could be the largest listing in market history; China accused Anthropic of misconduct and set conditions for September AI talks; the Sonnet 5 price increase scheduled to land today was cancelled and $2/$10 per MTok is now standard; and Claude Code shipped model-switch hooks, spend-limit visibility and Remote Control subagent streaming.",
+    "url": "reports/claude-ai-daily-2026-09-01.html",
+    "headlines": [
+      "Anthropic Signs $35B Cloud Deal With Nvidia-Backed Lambda",
+      "Judge Voids Pentagon Risk Label",
+      "Sonnet 5 Price Hike Cancelled",
+      "Federal Judge Rules the Pentagon&rsquo;s &ldquo;Supply Chain Risk&rdquo; Label Unlawful",
+      "The Mega-IPO Moves From Confidential to Public, and Soon",
+      "China Names Anthropic While Setting Terms for September AI Talks",
+      "The Sonnet 5 Price Increase Scheduled for Today Is Not Happening",
+      "Model-Switch Hooks, Spend Visibility and Live Subagent Streaming",
+      "$35 Billion to Lambda, With Nvidia Holding the Lease",
+      "The Claude Science Research Cohort Starts Running Today",
+      "Anthropic&rsquo;s IPO Is Now a Geopolitics Trade"
+    ],
+    "snippet": "Claude AI Daily Brief — September 1, 2026 | Anthropic Signs $35B Cloud Deal With Nvidia-Backed Lambda, Judge Voids Pentagon Risk Label, Sonnet 5 Price Hike Cancelled ● Tuesday, September 1, 2026 Claude AI Daily Brief — September 1, 2026 Covering the latest from the platform · Edition #186 TL;DR — To"
+  },
+  {
     "date": "2026-08-31",
     "title": "Claude AI Daily Brief &mdash; August 31, 2026 | Sony and Warner Sue Anthropic Over Music Training Data, Claudeforce Makes Claude Slack&rsquo;s Default Model, $45B for 460 Megawatts in West Virginia",
     "description": "August 31, 2026: Sony Music Publishing and Warner Chappell sued Anthropic in the Northern District of California over allegedly torrented and scraped song catalogs, naming Dario Amodei and Benjamin Mann personally and seeking up to $150,000 per composition; Salesforce and Anthropic announced Claudeforce, making Claude the default model across Slack and shipping a 37-skill Salesforce plugin inside Claude; Anthropic committed $45 billion over six years to lease roughly 460 megawatts from Nscale&rsquo;s West Virginia campus; Claude for Teachers opened as a free Enterprise tier for US K-12 schools and districts; Anthropic moved to let enterprises hold frontier-model retention data in their own cloud; and enterprise-managed MCP authorization reached general availability with Datadog, Notion and Slack.",
