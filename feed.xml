@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 2, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-02.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-02.html</guid>
+      <pubDate>Wed, 02 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Fable 5.1 and Mythos 5.1 Ship</strong> — the same underlying model deployed at two safeguard levels; Fable 5.1 scores 52.6% on Terminal-Bench-Science against 24.7% for Fable 5, 29.0% for Opus 5 and 22.4% for GPT-5.6 Sol.</p>
+        <p><strong>2. Cache Reads Fall 75%</strong> — input and output rates are unchanged at $10/$50 per million tokens, but cache reads drop to $0.25, cutting typical workloads about 25% and highly agentic work up to 45%.</p>
+        <p><strong>3. Cyber Safeguards Loosened</strong> — Fable 5.1 may now be used to identify software vulnerabilities though not to develop exploits, and Claude Code sessions should see roughly 60% fewer safeguard interventions.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-02.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — September 1, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-01.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-01.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Opus 4.1 Retires Tomorrow</strong> — Claude Opus 4.1 is deprecated August 5; Anthropic points remaining users to Opus 4.8. Claude Code also shipped v2.1.221 with a new Focus view.</p>
         <p><strong>3. Cognizant Becomes a Global Premier Partner</strong> — The IT giant reaches the top tier of the Claude Partner Network, with 30,000+ associates Claude-trained and Claude embedded across its industry platforms.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-04.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 3, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-03.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-03.html</guid>
-      <pubDate>Mon, 03 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude in Slack Retires Today</strong> — The old per-user app goes offline, replaced by the multiplayer Claude Tag: one shared @Claude per channel on Opus 4.8, with persistent memory and async task execution.</p>
-        <p><strong>2. The MCP 2026-07-28 Spec Comes to Claude</strong> — A stateless request/response core, MCP Tunnels for private-network servers, a versioned extensions framework for Apps and Tasks, and a developer observability dashboard.</p>
-        <p><strong>3. Snowflake Deepens the Governed-AI Push</strong> — Claude powers Cortex Code and Snowflake Intelligence, with Block, Indeed, and Carvana in production — moving reasoning to where governed data already lives.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-03.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

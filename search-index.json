@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-02",
+    "title": "Claude AI Daily Brief &mdash; September 2, 2026 | Fable 5.1 and Mythos 5.1 Land, Cache Reads Drop 75%, Cyber Safeguards Loosen for Vulnerability Discovery",
+    "description": "September 2, 2026: Anthropic shipped Claude Fable 5.1 and Claude Mythos 5.1 &mdash; the same model at two safeguard levels &mdash; cutting cache reads 75% to $0.25 per million tokens for a 25&ndash;45% effective price drop; Fable 5.1 posts 52.6% on Terminal-Bench-Science against Fable 5&rsquo;s 24.7% and beats Opus 5 and GPT-5.6 Sol across the board; cyber safeguards now fire about 60% less often and permit vulnerability discovery; Enterprise Frontier Safeguards bring zero-data-retention privacy to enterprise customers this fall; new anti-distillation mechanisms block context editing for new API accounts; and Anthropic published a Venus elevation map, protein binder results, and GPU kernel optimizations produced by the models themselves.",
+    "url": "reports/claude-ai-daily-2026-09-02.html",
+    "headlines": [
+      "Fable 5.1 and Mythos 5.1 Land",
+      "Cache Reads Drop 75%",
+      "Cyber Safeguards Loosen for Vulnerability Discovery",
+      "Fable 5.1 and Mythos 5.1: One Model, Two Sets of Safeguards",
+      "Enterprise Frontier Safeguards Answers the Data Retention Complaint",
+      "Anti-Distillation Lands, and the EU Watermark Gets a Detector",
+      "Cache Reads Drop 75% and That Is the Whole Price Story",
+      "60% Fewer Cyber Interventions, and Vulnerability Discovery Is Now Allowed",
+      "A Venus Map, Protein Binders, and a 2.5x Speedup on Genomics Models",
+      "Twenty-Two Early Partners, and Claudeforce Opens This Month",
+      "The Release Where Anthropic Priced the Model Against Itself"
+    ],
+    "snippet": "Claude AI Daily Brief — September 2, 2026 | Fable 5.1 and Mythos 5.1 Land, Cache Reads Drop 75%, Cyber Safeguards Loosen for Vulnerability Discovery ● Wednesday, September 2, 2026 Claude AI Daily Brief — September 2, 2026 Covering the latest from the platform · Edition #187 TL;DR — Today’s Top 3 Tak"
+  },
+  {
     "date": "2026-09-01",
     "title": "Claude AI Daily Brief &mdash; September 1, 2026 | Anthropic Signs $35B Cloud Deal With Nvidia-Backed Lambda, Judge Voids Pentagon Risk Label, Sonnet 5 Price Hike Cancelled",
     "description": "September 1, 2026: Anthropic agreed to a $35 billion computing deal with Nvidia-backed Lambda for a 350-megawatt Hut 8 data center in Nueces County, Texas; a federal judge ruled the Pentagon&rsquo;s &lsquo;supply chain risk&rsquo; designation of Anthropic unlawful retaliation and ordered it removed; Bloomberg reports Anthropic will file publicly for an IPO within weeks in what could be the largest listing in market history; China accused Anthropic of misconduct and set conditions for September AI talks; the Sonnet 5 price increase scheduled to land today was cancelled and $2/$10 per MTok is now standard; and Claude Code shipped model-switch hooks, spend-limit visibility and Remote Control subagent streaming.",
