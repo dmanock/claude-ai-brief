@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 3, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-03.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-03.html</guid>
+      <pubDate>Thu, 03 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claudeforce Hits Its Beta Window</strong> — Salesforce in Claude moves from select pilot customers to open beta this month with 37 prebuilt sales skills, and Claude becomes a default reasoning model across Agentforce, Slack and Salesforce developer tools.</p>
+        <p><strong>2. Project Glasswing Puts $35M Behind Open Source</strong> — a $35 million fund plus up to $100 million in model credits and $4 million in donations, with AWS, Apple, Google and Microsoft in one consortium and 10,000+ high and critical vulnerabilities already flagged.</p>
+        <p><strong>3. MHS Extends MCP to Machines</strong> — the Model Hardware Standard research preview gives agents a standard interface to robotic arms, microscopes, liquid handlers and lasers, with per-device safety limits declared in the spec.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-03.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — September 2, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-02.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-02.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Opus 4.1 Retires Today</strong> — The opus-4-1 endpoint goes offline. Migrate to Opus 4.8 or the newer Opus 5, which Claude Code just made the default Opus model.</p>
         <p><strong>3. Cowork's Doubled Limits End Tonight</strong> — The promo tied to the mobile and web rollout closes at 11:59pm PT. Separately, MCP crossed 400M monthly SDK downloads, cementing it as the agent-integration standard.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-05.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 4, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-04.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-04.html</guid>
-      <pubDate>Tue, 04 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Gets In-Country Inference in India</strong> — Via Amazon Bedrock, requests to Claude will be processed on servers inside India, letting banks, insurers, and government keep regulated data within the country's borders.</p>
-        <p><strong>2. Opus 4.1 Retires Tomorrow</strong> — Claude Opus 4.1 is deprecated August 5; Anthropic points remaining users to Opus 4.8. Claude Code also shipped v2.1.221 with a new Focus view.</p>
-        <p><strong>3. Cognizant Becomes a Global Premier Partner</strong> — The IT giant reaches the top tier of the Claude Partner Network, with 30,000+ associates Claude-trained and Claude embedded across its industry platforms.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-04.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

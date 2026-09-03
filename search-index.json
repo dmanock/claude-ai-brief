@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-03",
+    "title": "Claude AI Daily Brief &mdash; September 3, 2026 | Claudeforce Beta Window Opens, Project Glasswing Puts $35M Behind Open Source, MHS Extends MCP to Machines",
+    "description": "September 3, 2026: The Salesforce partnership moves from pilot to open beta this month with 37 prebuilt sales skills shipping inside Claude; Project Glasswing backs open-source security with a $35M fund, $100M in model credits and an AWS-Apple-Google-Microsoft consortium after Mythos Preview flagged 10,000+ high and critical vulnerabilities; the Model Hardware Standard research preview extends MCP to microscopes, robotic arms and liquid handlers; MCP crosses 400M monthly SDK downloads on the new stateless core spec; Claude Academy opens 20 free courses with LinkedIn badges; two short API incidents hit Sonnet 5 and credit purchases; Sony Music Publishing and Warner Chappell file a multi-billion-dollar copyright suit; and Anthropic sits at roughly $47B ARR against a $965B valuation.",
+    "url": "reports/claude-ai-daily-2026-09-03.html",
+    "headlines": [
+      "Claudeforce Beta Window Opens",
+      "Project Glasswing Puts $35M Behind Open Source",
+      "MHS Extends MCP to Machines",
+      "Claudeforce Reaches the Month It Was Promised For",
+      "Project Glasswing: $35M, Four Rivals, and 10,000 Vulnerabilities",
+      "The Model Hardware Standard Points Agents at Physical Machines",
+      "MCP Crosses 400M Monthly Downloads on a Stateless Core",
+      "Two Short Incidents, One of Them the Kind That Actually Hurts",
+      "Claude Academy Opens With 20 Free Courses and No Signup Wall",
+      "Sony and Warner Chappell Open a Second Front on Training Data",
+      "Three Standards, One Consortium, and a Very Large Number With a Lawsuit Attached"
+    ],
+    "snippet": "Claude AI Daily Brief — September 3, 2026 | Claudeforce Beta Window Opens, Project Glasswing Puts $35M Behind Open Source, MHS Extends MCP to Machines ● Thursday, September 3, 2026 Claude AI Daily Brief — September 3, 2026 Covering the latest from the platform · Edition #188 TL;DR — Today’s Top 3 Ta"
+  },
+  {
     "date": "2026-09-02",
     "title": "Claude AI Daily Brief &mdash; September 2, 2026 | Fable 5.1 and Mythos 5.1 Land, Cache Reads Drop 75%, Cyber Safeguards Loosen for Vulnerability Discovery",
     "description": "September 2, 2026: Anthropic shipped Claude Fable 5.1 and Claude Mythos 5.1 &mdash; the same model at two safeguard levels &mdash; cutting cache reads 75% to $0.25 per million tokens for a 25&ndash;45% effective price drop; Fable 5.1 posts 52.6% on Terminal-Bench-Science against Fable 5&rsquo;s 24.7% and beats Opus 5 and GPT-5.6 Sol across the board; cyber safeguards now fire about 60% less often and permit vulnerability discovery; Enterprise Frontier Safeguards bring zero-data-retention privacy to enterprise customers this fall; new anti-distillation mechanisms block context editing for new API accounts; and Anthropic published a Venus elevation map, protein binder results, and GPU kernel optimizations produced by the models themselves.",
