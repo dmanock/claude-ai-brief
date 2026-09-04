@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-09-04",
+    "title": "Claude AI Daily Brief &mdash; September 4, 2026 | Claude, ChatGPT and Grok Go Down Together, Enterprise Frontier Safeguards Moves Logs Into Customer Clouds, Claude Code Ships Fullscreen Diff Panel",
+    "description": "September 4, 2026: Claude suffered a three-hour six-minute outage on September 3 alongside simultaneous ChatGPT and Grok failures, with 6,000+ Downdetector reports and Claude Code hit hardest; Enterprise Frontier Safeguards pairs zero data retention with misuse detection by storing monitoring data in the customer's own S3, Azure Blob or GCS under customer keys; Anthropic's $65B Series H at a $965B post-money valuation sits atop roughly fifteen gigawatts of contracted compute across Amazon, Google, Broadcom, SpaceX and Microsoft; Claude Code adds a fullscreen diff panel, managedMcpServers, unattended headless permissions and GitLab merge request support; self-hosted Claude Code environments enter public beta for Team and Enterprise; seven SDKs gain persistent REPL state; the Claude Partner Network passes 40,000 firm applications and 10,000 certified consultants; and 80% of Anthropic's own production code is now authored by Claude.",
+    "url": "reports/claude-ai-daily-2026-09-04.html",
+    "headlines": [
+      "Claude",
+      "ChatGPT and Grok Go Down Together",
+      "Enterprise Frontier Safeguards Moves Logs Into Customer Clouds",
+      "Claude Code Ships Fullscreen Diff Panel",
+      "Three Chatbots, One Bad Afternoon",
+      "Enterprise Frontier Safeguards Puts the Logs in Your Bucket",
+      "$65B Raised, and Roughly Fifteen Gigawatts Contracted",
+      "A Fullscreen Diff Panel, and MCP Servers Your Org Controls",
+      "Self-Hosted Claude Code Sessions, on Runners You Provision",
+      "Persistent REPL State Lands Across Seven SDKs",
+      "40,000 Firms Applied. 10,000 Consultants Are Certified.",
+      "80% of Anthropic&rsquo;s Own Production Code Is Written by Claude",
+      "The Trust Boundary Is Moving, and Yesterday Explained Why"
+    ],
+    "snippet": "Claude AI Daily Brief — September 4, 2026 | Claude, ChatGPT and Grok Go Down Together, Enterprise Frontier Safeguards Moves Logs Into Customer Clouds, Claude Code Ships Fullscreen Diff Panel ● Friday, September 4, 2026 Claude AI Daily Brief — September 4, 2026 Covering the latest from the platform ·"
+  },
+  {
     "date": "2026-09-03",
     "title": "Claude AI Daily Brief &mdash; September 3, 2026 | Claudeforce Beta Window Opens, Project Glasswing Puts $35M Behind Open Source, MHS Extends MCP to Machines",
     "description": "September 3, 2026: The Salesforce partnership moves from pilot to open beta this month with 37 prebuilt sales skills shipping inside Claude; Project Glasswing backs open-source security with a $35M fund, $100M in model credits and an AWS-Apple-Google-Microsoft consortium after Mythos Preview flagged 10,000+ high and critical vulnerabilities; the Model Hardware Standard research preview extends MCP to microscopes, robotic arms and liquid handlers; MCP crosses 400M monthly SDK downloads on the new stateless core spec; Claude Academy opens 20 free courses with LinkedIn badges; two short API incidents hit Sonnet 5 and credit purchases; Sony Music Publishing and Warner Chappell file a multi-billion-dollar copyright suit; and Anthropic sits at roughly $47B ARR against a $965B valuation.",

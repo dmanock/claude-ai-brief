@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 4, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-04.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-04.html</guid>
+      <pubDate>Fri, 04 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Three Chatbots, One Bad Afternoon</strong> — Claude went down for three hours and six minutes on September 3 with more than 6,000 Downdetector reports, and ChatGPT and Grok failed in the same window. Claude Code was the most-reported affected surface.</p>
+        <p><strong>2. Enterprise Frontier Safeguards Moves Your Logs Into Your Cloud</strong> — zero data retention paired with misuse detection, storing activity data in the customer's own S3, Azure Blob or Google Cloud Storage under customer-controlled keys. Anthropic retains read access.</p>
+        <p><strong>3. Claude Code Ships a Fullscreen Diff Panel</strong> — plus managedMcpServers for org-wide MCP provisioning, --permission-prompts none for unattended headless hosts, and GitLab merge request support.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-04.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — September 3, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-03.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-03.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Enterprise Inference Hooks Land in Beta</strong> — Compliance teams get real-time DLP enforcement across chat, Claude Code, and Cowork, inspecting prompts and tool calls before they reach the model.</p>
         <p><strong>3. Connectors Flow Straight Into Claude Code</strong> — Claude.ai connectors are now auto-available in Claude Code and Artifacts, Microsoft 365 gains server-side write tools, and the 50% usage boost runs through Aug 19.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-06.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 5, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-05.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-05.html</guid>
-      <pubDate>Wed, 05 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Names Its First Global Affairs Chief</strong> — Former California Supreme Court Justice Tino Cuéllar joins as Chief Global Affairs Officer to lead policy and government relations worldwide, reporting to President Daniela Amodei.</p>
-        <p><strong>2. Opus 4.1 Retires Today</strong> — The opus-4-1 endpoint goes offline. Migrate to Opus 4.8 or the newer Opus 5, which Claude Code just made the default Opus model.</p>
-        <p><strong>3. Cowork's Doubled Limits End Tonight</strong> — The promo tied to the mobile and web rollout closes at 11:59pm PT. Separately, MCP crossed 400M monthly SDK downloads, cementing it as the agent-integration standard.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-05.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>
