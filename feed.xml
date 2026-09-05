@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 5, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-05.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-05.html</guid>
+      <pubDate>Sat, 05 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Malware Is Draining Claude Accounts</strong> — commodity infostealers including Vidar, LummaC2, StealC, RedLine, Acreed and Atomic Stealer are lifting active session cookies off users' own machines and bypassing MFA entirely. Anthropic is force-signing accounts out and refunding unauthorized usage.</p>
+        <p><strong>2. The &ldquo;Good Enough&rdquo; Squeeze Is Real</strong> — the New York Times reports Corporate America is standardizing on free open-weight models for routine production workloads, putting margin pressure on Anthropic and OpenAI from below rather than from a better frontier model.</p>
+        <p><strong>3. Salesforce in Claude Opens Beta This Month</strong> — the first Claudeforce product ships with 37 prebuilt sales skills, live revenue context and governed pipeline updates from inside Claude.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-05.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — September 4, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-04.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-04.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Sonnet 5's Price Hike Is 24 Days Out</strong> — Intro pricing of $2/$10 per million tokens ends Aug 31; standard $3/$15 kicks in Sept 1, and a new tokenizer can add up to 35% more billable tokens on top.</p>
         <p><strong>3. Claude Code Gets Self-Hosted Runners</strong> — claude self-hosted-runner turns your own machines or containers into a place web, mobile, and desktop sessions can run, plus zip-based plugin installs and no subagent spawn cap.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-07.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 6, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-06.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-06.html</guid>
-      <pubDate>Thu, 06 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Code v2.1.223 Ships</strong> — New owner/* wildcards let admins allow or block every repo under a GitHub org, workflow agents warn on restricted subagent models, and cloud sessions show a /teleport hint to continue locally.</p>
-        <p><strong>2. Enterprise Inference Hooks Land in Beta</strong> — Compliance teams get real-time DLP enforcement across chat, Claude Code, and Cowork, inspecting prompts and tool calls before they reach the model.</p>
-        <p><strong>3. Connectors Flow Straight Into Claude Code</strong> — Claude.ai connectors are now auto-available in Claude Code and Artifacts, Microsoft 365 gains server-side write tools, and the 50% usage boost runs through Aug 19.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-06.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>
