@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 6, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-06.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-06.html</guid>
+      <pubDate>Sun, 06 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. The IPO Slips to Mid-October</strong> — Reuters reports Anthropic will begin marketing its IPO in mid-October at the earliest, completing the listing days before the U.S. midterms, with the prospectus pushed to late September against talk of a $2 trillion listing.</p>
+        <p><strong>2. Zero Data Retention Gets Rebuilt</strong> — Enterprise Frontier Safeguards stores misuse-monitoring data in the customer's own S3, Azure Blob or Google Cloud Storage under customer keys, with no routine human review, though Anthropic retains read access, making it zero data custody rather than zero retention.</p>
+        <p><strong>3. Commerce Agents Ship as Open Source</strong> — an Apache-2.0 blueprint for shopping and merchant agents across retail, travel, telecom and ticketing, with Shopify and Priceline live and no payment protocol, checkout or ad layer included.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-06.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — September 5, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-05.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-05.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Enterprise Gets Plugin Malware Scanning</strong> — A new beta automatically checks third-party skills and plugins for malicious content when someone uploads or edits them.</p>
         <p><strong>3. Opus 5 Picks Up Mid-Conversation Tool Changes</strong> — Add or remove tools between turns without breaking the prompt cache, plus a new "default" server-side fallback mode, while Fast mode retires on Opus 4.7.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-08.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 7, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-07.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-07.html</guid>
-      <pubDate>Fri, 07 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Enters the Chip Race</strong> — The company confirmed an in-house custom silicon team that will co-design chips and Claude models together, targeting roughly 50% cuts in per-token inference costs.</p>
-        <p><strong>2. Sonnet 5's Price Hike Is 24 Days Out</strong> — Intro pricing of $2/$10 per million tokens ends Aug 31; standard $3/$15 kicks in Sept 1, and a new tokenizer can add up to 35% more billable tokens on top.</p>
-        <p><strong>3. Claude Code Gets Self-Hosted Runners</strong> — claude self-hosted-runner turns your own machines or containers into a place web, mobile, and desktop sessions can run, plus zip-based plugin installs and no subagent spawn cap.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-07.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

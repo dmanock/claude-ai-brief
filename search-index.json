@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-09-06",
+    "title": "Claude AI Daily Brief &mdash; September 6, 2026 | IPO Slips to Mid-October, Enterprise Frontier Safeguards Rewrites Zero Data Retention, Commerce Agents Go Apache-2.0",
+    "description": "September 6, 2026: Reuters reports Anthropic&rsquo;s IPO launch has shifted toward mid-October with the prospectus now expected late September, pushing a potential $2 trillion listing to days before the U.S. midterms; Enterprise Frontier Safeguards replaces classic zero data retention by moving monitoring logs into customer-controlled S3, Azure Blob or Google Cloud Storage while Anthropic retains read access for misuse detection; the Apache-2.0 Claude Commerce Agents blueprint ships shopping and merchant reference implementations with Shopify and Priceline already live and no checkout or ad layer included; Claude for Teachers opens free Enterprise access to U.S. K-12 districts with SSO, role-based access control and a FERPA-aligned data processing addendum; the Claude Developer Platform adds a thinking.display updates mode, takes Admin API user management out of beta and lets Managed Agents restrict web tool domains; Claude Code reaches v2.1.261 with a side-by-side diff panel; a three-hour multi-model outage on September 3 hit Claude, ChatGPT and Grok simultaneously; and the cancelled Sonnet 5 price increase holds at $2/$10 per million tokens.",
+    "url": "reports/claude-ai-daily-2026-09-06.html",
+    "headlines": [
+      "IPO Slips to Mid-October",
+      "Enterprise Frontier Safeguards Rewrites Zero Data Retention",
+      "Commerce Agents Go Apache-2.0",
+      "The IPO Moves to Mid-October, and Lands Next to an Election",
+      "Enterprise Frontier Safeguards: Your Logs, Your Bucket, Their Read Access",
+      "Claude for Teachers Goes District-Wide, and It Is Free",
+      "Claude Commerce Agents Ship Under Apache-2.0, With the Wallet Left Out",
+      "Four Platform Changes Worth Ten Minutes of Your Monday",
+      "Claude Code Hits v2.1.261, and the Diff Panel Is the Quiet Win",
+      "Three Labs Went Down at Once, and Nobody Has Explained Why",
+      "September 1 Came and Went, and Sonnet 5 Still Costs $2",
+      "Same Model, Different Permissions: Anthropic Is Selling Governance Now"
+    ],
+    "snippet": "Claude AI Daily Brief — September 6, 2026 | IPO Slips to Mid-October, Enterprise Frontier Safeguards Rewrites Zero Data Retention, Commerce Agents Go Apache-2.0 ● Sunday, September 6, 2026 Claude AI Daily Brief — September 6, 2026 Covering the latest from the platform · Edition #191 TL;DR — Today’s "
+  },
+  {
     "date": "2026-09-05",
     "title": "Claude AI Daily Brief &mdash; September 5, 2026 | Infostealer Malware Hijacks Claude Sessions, Open-Source &ldquo;Good Enough&rdquo; Threat Hits Margins, Salesforce in Claude Opens Beta",
     "description": "September 5, 2026: Anthropic is warning users that commodity infostealer malware has stolen active Claude session cookies and drained account usage, bypassing MFA entirely, with Vidar, LummaC2, StealC, RedLine, Acreed and Atomic Stealer implicated; the New York Times reports Corporate America is standardizing on free open-weight models, putting margin pressure on Anthropic and OpenAI from the 'good enough' end of the market; Salesforce in Claude enters open beta this month with 37 prebuilt sales skills under the Claudeforce partnership; Claude Fable 5.1 cuts cache reads 75% to $0.25 per million tokens for roughly 25% lower typical costs and up to 45% on agentic workloads; Claude Academy opens 355 free tutorials across five product paths with LinkedIn-ready badges; Cowork gains a built-in Chromium browser and unified memory shared with chat; and an October IPO at a reported $2 trillion target moves into view against a $65 billion run rate.",
