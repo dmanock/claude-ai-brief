@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 7, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-07.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-07.html</guid>
+      <pubDate>Mon, 07 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Cowork Leaves the Laptop</strong> — Claude Cowork now runs on web and mobile, sessions run remotely in beta with files and state synced to your Claude account, and scheduled tasks execute server-side with no device online.</p>
+        <p><strong>2. Workflows Turn the Plan Into a Script</strong> — Claude Code ships Workflows as a research preview, writing an orchestration script that a runtime executes in the background with parallel subagents, while bashOutputMaxChars and taskOutputMaxChars raise inline output to 128K characters.</p>
+        <p><strong>3. MCP Goes Stateless</strong> — the 2026-07-28 specification replaces the bidirectional stateful core with plain request/response, moves method and tool names into HTTP headers for edge routing and authorization, and adds MCP Apps and a Tasks extension.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-07.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — September 6, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-06.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-06.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Managed Agents Can Load Skills Straight From GitHub</strong> — Point a session at a repo and skills in the root .claude/skills directory are discovered automatically at startup, no manual install.</p>
         <p><strong>3. Claude Code 2.1.226 Tightens the Guardrails</strong> — Gateway spend-limit warnings, workspace trust prompts for claude agents, and Remote Control starts-by-name, plus a batch of OAuth and session fixes.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-09.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 8, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-08.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-08.html</guid>
-      <pubDate>Sat, 08 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Code Sessions Can Now Talk to Each Other</strong> — SendMessage and ListAgents let sessions coordinate across your machines by passing a summary mid-task, and the same release quietly closed a real sandbox bypass on Linux and macOS.</p>
-        <p><strong>2. Enterprise Gets Plugin Malware Scanning</strong> — A new beta automatically checks third-party skills and plugins for malicious content when someone uploads or edits them.</p>
-        <p><strong>3. Opus 5 Picks Up Mid-Conversation Tool Changes</strong> — Add or remove tools between turns without breaking the prompt cache, plus a new "default" server-side fallback mode, while Fast mode retires on Opus 4.7.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-08.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

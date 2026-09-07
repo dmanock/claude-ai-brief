@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-09-07">
+  <title>Claude AI Daily Brief &mdash; September 7, 2026 | Cowork Leaves the Laptop, Workflows Turn Plans Into Scripts, MCP Goes Stateless</title>
+  <meta name="description" content="September 7, 2026: Claude Cowork now runs on web and mobile with remote sessions in beta, session state synced to your Claude account and scheduled tasks executing server-side with no device online; Claude in Chrome begins auto-approving actions a classifier judges consistent with your original request, borrowing the mechanism from Claude Code auto mode; Claudeforce moves from pilot customers toward open beta this month with Claude traffic fully contained inside the Salesforce virtual private cloud; Claude Code ships Workflows as a research preview, writing orchestration scripts that run in the background rather than reasoning turn by turn, raises inline command and task output to 128K characters via bashOutputMaxChars and taskOutputMaxChars, and adds an Organization policy line to /status and claude doctor; Automated Security Reviews put /security-review in the terminal and a vulnerability scanner on every pull request; the 2026-07-28 MCP specification replaces the stateful bidirectional core with stateless request/response, moves method and tool names into HTTP headers, and adds MCP Apps and a Tasks extension; and the Claude Partner Network passes 40,000 applicant firms and 10,000 certified consultants six months after launch.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude Cowork, Claude in Chrome, Claude Code, Workflows, Automated Security Reviews, Model Context Protocol, MCP, Claudeforce, Salesforce, Claude Partner Network, Admin API, agentic AI, Anthropic IPO">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-09-07.html">
+  <meta property="og:title" content="Claude AI Daily Brief &mdash; September 7, 2026">
+  <meta property="og:description" content="Cowork leaves the laptop and runs server-side. Claude Code Workflows turn the plan into a script you can edit. MCP drops its stateful core and becomes ordinary HTTP.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-09-07.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief &mdash; September 7, 2026">
+  <meta name="twitter:description" content="Cowork leaves the laptop and runs server-side. Claude Code Workflows turn the plan into a script you can edit. MCP drops its stateful core and becomes ordinary HTTP.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-09-07.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-09-07.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — September 7, 2026",
+    "description": "Claude Cowork has expanded beyond the desktop application to web and mobile, with sessions able to run remotely in beta, files and session state saved to the user's Claude account and synced across devices, work continuing after the laptop closes, and scheduled tasks running server-side with no device online; Cowork on desktop also now carries a browser in the side panel that navigates, reads, clicks and types when a task requires a website, while chat and Cowork share a single home for Projects and Artifacts. In Claude in Chrome, Claude now automatically approves actions it determines to be safe using the same classifier mechanism as auto mode in Claude Code, checking each navigation or text entry against the user's original request and blocking anything that does not match. Claudeforce, the expanded Salesforce and Anthropic partnership announced August 26, is moving from select pilot customers toward an open beta expected in September, with Claude delivered through Amazon Bedrock inside the Salesforce Trust Boundary so that traffic is fully contained in the Salesforce virtual private cloud, early adopters including CrowdStrike and RBC Wealth Management, and Claude serving as the default model powering Slackbot, Slack Code and Claude Tag for governed Salesforce actions. Claude Code shipped Workflows as a research preview, in which Claude writes an orchestration script that a runtime executes in the background rather than working through a task turn by turn, breaking work into subtasks, running them in parallel and validating results before returning an answer, aimed at widespread bug investigations, large migrations, security audits and architecture analysis. The same Claude Code release train added bashOutputMaxChars and taskOutputMaxChars settings that raise inline command and background-task output up to 128K characters before it is spilled to a file, and added an Organization policy line to /status and claude doctor explaining why a policy could not be loaded, alongside skill diagnostics, VS Code workflow improvements, model selection and Remote Control fixes and startup reliability work. Automated Security Reviews are available to all Claude Code users through a /security-review command for ad-hoc terminal analysis and a GitHub Actions integration that scans every pull request on open for SQL injection, cross-site scripting, authentication and authorization flaws, insecure data handling and dependency vulnerabilities, applying customizable rules to filter false positives and posting inline comments. The 2026-07-28 Model Context Protocol specification replaces the bidirectional stateful protocol core with a stateless request/response model in which every request is self-describing and method and tool names travel in HTTP headers so gateways can route and authorize on headers alone, adds server-rendered interfaces through MCP Apps and long-running work through a Tasks extension, and proposes MCP Server Cards exposing metadata at .well-known URLs for discovery without connection, against an ecosystem of more than 200 community-built servers. And the Claude Partner Network, launched March 12 with an initial $100 million commitment and anchor partners including Accenture, Deloitte, PwC, KPMG, Cognizant and Infosys, has drawn more than 40,000 applicant firms and certified more than 10,000 consultants, with Accenture alone training 30,000 professionals.",
+    "datePublished": "2026-09-07T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-09-07.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-09-07.html"
+  }
+  </script>
+
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style></head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Monday, September 7, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; September 7, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #192</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Cowork Leaves the Laptop</strong> &mdash; web and mobile, remote sessions in beta, state synced to your account, and scheduled tasks that run with no device online.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Workflows Turn the Plan Into a Script</strong> &mdash; Claude Code writes an orchestration script and a runtime executes it in the background. Inline output limits jump to 128K.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>MCP Goes Stateless</strong> &mdash; the new spec drops the bidirectional core for plain request/response, with tool names in HTTP headers so gateways can route on them.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Product</span>
+      <h3>Cowork Leaves the Laptop, and That Is the Whole Story</h3>
+      <p><strong>Claude Cowork now runs on web and mobile</strong>, not just the desktop app. Sessions can <strong>run remotely in beta</strong>, with files and session state saved to your Claude account and <strong>synced across devices</strong>. The practical consequence is stated plainly in the release notes and is easy to skim past: <strong>work continues when you close your laptop</strong>, and <strong>scheduled tasks run server-side with no device online</strong>.</p>
+      <p>That last clause is a different product from what shipped originally. A desktop agent is a program you run; a server-side session is a job that runs whether or not you are there. Everything downstream changes with it &mdash; how you think about long tasks, whether a recurring brief actually fires at 6 AM, what happens to a half-finished migration when the battery dies. <strong>Chat and Cowork now also share one home for Projects and Artifacts</strong>, which removes the most persistent complaint about having two surfaces.</p>
+      <p>Two smaller additions travel with it. Cowork on desktop has a <strong>browser built into the side panel</strong> &mdash; when a task needs a website, Claude opens it there and navigates, reads, clicks and types in view. And <strong>memory now records topics as you chat</strong> rather than summarizing after the fact, so mentioning that a deadline moved means the next conversation already knows without a &ldquo;remember this.&rdquo; Incremental on its own. Considerably less incremental once sessions outlive the device.</p>
+      <div class="source-links">
+        <a href="https://support.claude.com/en/articles/12138966-release-notes" class="source-link">Claude Release Notes</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+        <a href="https://coworkerai.io/changelog" class="source-link">Cowork Changelog</a>
+        <a href="https://coworkflows.com/en/updates/" class="source-link">Cowork Updates</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Agents</span>
+      <h3>Claude in Chrome Starts Approving Its Own Clicks</h3>
+      <p>In <strong>Claude in Chrome</strong>, Claude will now <strong>automatically approve actions it determines to be safe</strong>, using the same mechanism that powers auto mode in Claude Code. A <strong>classifier reviews each action before it happens</strong> &mdash; navigating to a new site, entering text into a page &mdash; and checks it against <strong>what you originally asked for</strong>. Actions that do not match the request are blocked rather than surfaced for approval.</p>
+      <p>Anyone who has driven a browser agent through a ten-step task knows why this shipped. Confirming every click destroys the value of delegation, and users who click &ldquo;approve&rdquo; forty times in a row stop reading the dialog by number six. Approval fatigue is not a UX inconvenience; it is a <strong>security failure mode</strong>, because the one prompt that mattered arrives after you have already been trained to dismiss it.</p>
+      <p>The design bet is that <strong>intent-matching is a better filter than human attention</strong>, and it is a defensible bet. It also relocates the trust boundary. The question is no longer &ldquo;did the user approve this&rdquo; but &ldquo;does the classifier correctly infer the scope of the original request&rdquo; &mdash; which is a harder problem on a page whose content the model is also reading. Worth watching how it handles instructions embedded in the page itself.</p>
+      <div class="source-links">
+        <a href="https://support.claude.com/en/articles/12138966-release-notes" class="source-link">Claude Release Notes</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Releasebot</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Anthropic Release Notes</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Enterprise</span>
+      <h3>Claudeforce Reaches the Open Beta Window</h3>
+      <p><strong>Claudeforce</strong> &mdash; the expanded Salesforce and Anthropic partnership announced <strong>August 26</strong> &mdash; is at the point in its rollout where it stops being a press release. The published sequence was <strong>select pilot customers first, open beta in September, additional prebuilt skills through the quarter</strong>. We are in that window now, and the pilot names are the interesting part: <strong>CrowdStrike and RBC Wealth Management</strong>, a security vendor and a wealth manager, which is not the customer profile you lead with unless the compliance story holds.</p>
+      <p>The architecture is the reason it does. Claude is delivered <strong>through Amazon Bedrock inside the Salesforce Trust Boundary</strong>, making Anthropic the <strong>first LLM provider whose traffic is fully contained in the Salesforce virtual private cloud</strong>. For a regulated buyer, that sentence does more work than any benchmark &mdash; the data does not leave the perimeter that has already been audited.</p>
+      <p>The distribution footprint is broader than the CRM. Claude acts as a <strong>reasoning model for the Atlas Reasoning Engine</strong>, powers <strong>Agentforce Vibes and Agentforce Coworker by default</strong>, is selectable in Agent Builder, and is the <strong>default model behind Slackbot, Slack Code and Claude Tag</strong> for executing governed Salesforce actions from chat. Being the default inside someone else&rsquo;s workflow is a better position than winning a model evaluation, because nobody has to choose you.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership" class="source-link">Anthropic</a>
+        <a href="https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/" class="source-link">Salesforce</a>
+        <a href="https://www.apexhours.com/claudeforce-explained-what-salesforce-anthropic-actually-ship/" class="source-link">Apex Hours</a>
+        <a href="https://www.hpcwire.com/aiwire/2026/08/27/salesforce-and-anthropic-launch-claudeforce-enterprise-ai-partnership/" class="source-link">AIwire</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Workflows Move the Plan Out of Claude&rsquo;s Head and Into a Script</h3>
+      <p><strong>Workflows are available in Claude Code as a research preview</strong>, letting you define and run <strong>multistep agentic plans</strong>. The mechanic is worth stating precisely, because it is not another planning mode. When you ask for a workflow, Claude does not perform the work in the conversation &mdash; it <strong>writes an orchestration script, and a runtime executes that script later, in the background</strong>. Claude breaks the job into subtasks, <strong>runs them in parallel</strong>, and validates results before presenting an answer.</p>
+      <p>The reason this matters is that a plan held in context is a plan you cannot inspect, cannot diff, and cannot re-run. A plan written to a script is <strong>an artifact you can edit</strong>. That is the difference between trusting an agent and reviewing one, and it is the same move that made CI pipelines legible twenty years ago &mdash; take the implicit sequence out of somebody&rsquo;s head and put it in a file under version control.</p>
+      <p>The target workloads are the ones that break single-pass agents: <strong>widespread bug investigations, large migrations, security audits, performance reviews and architecture analysis</strong> across a codebase too big for one context window. Claude can plan the work and then fan out large numbers of parallel subagents in a single session. Research preview means expect rough edges, but this is the shape of the thing.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Claude Code Updates</a>
+        <a href="https://www.infoq.com/news/2026/06/dynamic-workflows-claude-code/" class="source-link">InfoQ</a>
+        <a href="https://alexop.dev/posts/claude-code-workflows-deterministic-orchestration/" class="source-link">alexop.dev</a>
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Changelog</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Settings</span>
+      <h3>128K of Inline Output, and a Straight Answer About Org Policy</h3>
+      <p>Two Claude Code settings landed this week that will not headline anything and will save you real time. <code>bashOutputMaxChars</code> and <code>taskOutputMaxChars</code> <strong>raise how much command and background-task output Claude receives inline</strong> before it gets spilled to a file &mdash; <strong>up to 128K characters</strong>. If you have watched Claude truncate a test run at the interesting part and then spend three turns reading the overflow file back, this is the fix.</p>
+      <p>The second is smaller and more humane. <code>/status</code> and <code>claude doctor</code> now include an <strong>Organization policy line that explains why your org&rsquo;s policy could not be loaded</strong>. Enterprise misconfiguration debugging has historically been an exercise in guessing, usually ending in a support ticket. A diagnostic that names its own failure is the kind of thing that quietly removes an entire category of them. <strong>Skill diagnostics</strong> shipped in the same window.</p>
+      <p>The rest of the release train is maintenance, and there is a lot of it: <strong>VS Code workflow improvements, model selection, Remote Control, startup reliability</strong>, plus a long list of bug and performance fixes covering agent crashes, session management, and plugin and configuration problems. Nothing glamorous. A tool shipping this fast needs exactly this kind of week.</p>
+      <div class="source-links">
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Claude Code Updates</a>
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://claudefa.st/blog/guide/changelog" class="source-link">ClaudeFast Changelog</a>
+        <a href="https://releasebot.io/updates/anthropic" class="source-link">Anthropic Release Notes</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Security</span>
+      <h3>Security Review Is a Command Now, and a GitHub Action</h3>
+      <p><strong>Automated Security Reviews are available to all Claude Code users</strong>, in two forms. A <code>/security-review</code> command runs analysis <strong>directly from the terminal</strong>, before you commit. And a <strong>GitHub Actions integration analyzes every pull request when it opens</strong>, reviewing the diff and <strong>posting inline comments</strong> with concerns and recommended fixes.</p>
+      <p>The detection set is the standard list, which is the right list: <strong>SQL injection, cross-site scripting, authentication and authorization flaws, insecure data handling, and dependency vulnerabilities</strong>. Nothing exotic. These are the bugs that actually cause breaches, and they are also the bugs an accelerated codebase produces more of, simply because more code is arriving per week than review capacity grew to match.</p>
+      <p>The feature to look at hardest is the <strong>customizable rules that filter false positives</strong>. Every automated scanner dies the same death &mdash; noise, then distrust, then a team-wide habit of ignoring the bot. Whether this one survives contact with a real repository depends entirely on how well that filtering works in month three, not on what it catches in week one. Worth wiring up on a branch before you put it on <code>main</code>.</p>
+      <div class="source-links">
+        <a href="https://claude.com/blog/automate-security-reviews-with-claude-code" class="source-link">Anthropic</a>
+        <a href="https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code" class="source-link">Help Center</a>
+        <a href="https://devops.com/anthropic-adds-automated-security-reviews-to-claude-code/" class="source-link">DevOps.com</a>
+        <a href="https://derivai.substack.com/p/automated-security-code-reviews-claude-code-github-actions" class="source-link">Deriv Engineering</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Protocol</span>
+      <h3>MCP Goes Stateless, and That Changes Who Can Host It</h3>
+      <p>The <strong>2026-07-28 Model Context Protocol specification</strong> is published, with updated SDKs, and the headline change is architectural: MCP is transforming <strong>from a bidirectional stateful protocol into a stateless request/response protocol</strong>. Every request is <strong>self-describing</strong>, with optional discovery calls for clients that want capabilities up front. <strong>Method and tool names travel in HTTP headers</strong>, so gateways can route and authorize on headers directly without parsing a body.</p>
+      <p>That last detail is the one with consequences. A stateful protocol needs a connection-aware server; a stateless one <strong>scales on ordinary HTTP infrastructure</strong> &mdash; load balancers, CDNs, API gateways, the boring machinery every company already operates. It also means your existing authorization layer can enforce &ldquo;this key may call these tools&rdquo; at the edge, which was awkward when the tool name was buried in a session.</p>
+      <p>Two extensions ship alongside: <strong>MCP Apps</strong> for server-rendered interfaces, and a <strong>Tasks extension</strong> for long-running work &mdash; the same problem Claude Code Workflows is solving, addressed at the protocol layer. On the roadmap is <strong>MCP Server Cards</strong>, a proposal for exposing server metadata at <code>.well-known</code> URLs so browsers, crawlers and registries can <strong>discover capabilities without connecting</strong>. With <strong>200+ community servers</strong> already live, discoverability is the next real bottleneck.</p>
+      <div class="source-links">
+        <a href="https://blog.modelcontextprotocol.io/posts/2026-07-28/" class="source-link">MCP Specification</a>
+        <a href="https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/" class="source-link">Release Candidate Notes</a>
+        <a href="https://blog.cloudflare.com/mcp-v2/" class="source-link">Cloudflare</a>
+        <a href="https://workos.com/blog/everything-your-team-needs-to-know-about-mcp-in-2026" class="source-link">WorkOS</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Channel</span>
+      <h3>The Partner Network at Six Months: 40,000 Firms Applied</h3>
+      <p>The <strong>Claude Partner Network</strong> launched <strong>March 12</strong> with an initial <strong>$100 million commitment</strong> covering training courses, certifications, dedicated technical support and joint market development. Six months on, the numbers are worth logging: <strong>more than 40,000 firms have applied</strong>, <strong>more than 10,000 consultants hold a Claude certification</strong>, and <strong>Accenture alone is training 30,000 professionals</strong> on the model.</p>
+      <p>The anchor list reads like a systems-integrator roll call &mdash; <strong>Accenture, Deloitte, Cognizant, Infosys, PwC, KPMG, Slalom, Tribe AI, Turing</strong>. That is not an AI-native crowd. It is the group that gets paid to move enterprises from a pilot everyone is excited about to a deployment nobody talks about because it just runs, and their involvement is a reasonable proxy for whether large-scale Claude implementations are actually happening.</p>
+      <p>The strategic read is unsexy and probably correct. Frontier labs do not lose enterprise deals on capability; they lose them on <strong>implementation capacity</strong> &mdash; the buyer wants it and has nobody to build it. Ten thousand certified consultants is a distribution channel that a competitor cannot replicate with a better benchmark, and it compounds, because every one of them has an incentive to propose Claude on the next engagement.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/news/claude-partner-network" class="source-link">Anthropic</a>
+        <a href="https://www.anthropic.com/news/services-track-partner-hub" class="source-link">Services Track &amp; Partner Hub</a>
+        <a href="https://www.channelinsider.com/ai/anthropic-claude-partner-network-launch/" class="source-link">Channel Insider</a>
+        <a href="https://channellife.news/story/anthropic-commits-usd-100m-to-claude-partner-push" class="source-link">ChannelLife</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Anthropic Is Shipping the Runtime, Not the Model</h3>
+      <p>Line up today&rsquo;s items and none of them are about intelligence. <strong>Cowork sessions now run server-side and survive a closed laptop.</strong> <strong>Workflows write a script that a background runtime executes later.</strong> <strong>MCP drops its stateful core so requests survive a load balancer.</strong> <strong>A Tasks extension handles work that outlives a request.</strong> <strong>A classifier approves browser actions so no human has to be present for step seven.</strong> Every one of those is a statement about <strong>execution</strong>, not reasoning. Not a single one required a better model.</p>
+      <p>What is being built here is a <strong>runtime</strong> &mdash; the unglamorous layer that decides where work runs, how long it may run, what it is allowed to touch, and what happens when the user walks away. That layer has a name in every previous computing era. It was the operating system, then the application server, then the container orchestrator. It is never the exciting part of the stack and it is almost always where the durable margin ends up sitting.</p>
+      <p>The tell is that these pieces are converging from directions that did not coordinate. Claude Code needed long-running orchestration and built Workflows. Cowork needed sessions that outlast a device and moved them to the server. MCP, a separate specification with an independent community, needed to scale on ordinary infrastructure and threw out statefulness to get there &mdash; then added a Tasks extension for exactly the same long-running problem. <strong>When three teams solve the same problem in the same quarter, the problem is the roadmap.</strong></p>
+      <p>It also explains the safety architecture, which otherwise looks like a grab bag. <strong>Auto-approval classifiers, containment rules, domain allowlists, org policy diagnostics, /security-review on every pull request</strong> &mdash; these are not model behaviors, they are <strong>runtime permissions</strong>. You only need them once the agent is running somewhere you are not watching. The security work and the infrastructure work are the same project seen from two angles, and the sequencing is deliberate: you cannot sell unattended execution to a regulated buyer without an answer for what constrains it.</p>
+      <p>Which is the frame to carry into the late-September prospectus. A filing has to explain what the business is, and &ldquo;we have the best model&rdquo; is a weak claim in a market where the lead changes every eleven weeks and open weights handle the commodity tier for nothing. <strong>&ldquo;We run the agents&rdquo; is a much stronger one</strong> &mdash; it is where the switching costs live, where the compute obligations get justified, and where 300,000 business customers and 40% of enterprise LLM spend actually come from. The model is what gets the meeting. The runtime is what keeps the account.</p>
+      <div class="source-links">
+        <a href="https://support.claude.com/en/articles/12138966-release-notes" class="source-link">Claude Release Notes</a>
+        <a href="https://blog.modelcontextprotocol.io/posts/2026-07-28/" class="source-link">MCP Specification</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Claude Code Updates</a>
+        <a href="https://www.getpanto.ai/blog/anthropic-ai-statistics" class="source-link">Anthropic Statistics</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>

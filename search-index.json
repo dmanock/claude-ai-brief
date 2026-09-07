@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-09-07",
+    "title": "Claude AI Daily Brief &mdash; September 7, 2026 | Cowork Leaves the Laptop, Workflows Turn Plans Into Scripts, MCP Goes Stateless",
+    "description": "September 7, 2026: Claude Cowork now runs on web and mobile with remote sessions in beta, session state synced to your Claude account and scheduled tasks executing server-side with no device online; Claude in Chrome begins auto-approving actions a classifier judges consistent with your original request, borrowing the mechanism from Claude Code auto mode; Claudeforce moves from pilot customers toward open beta this month with Claude traffic fully contained inside the Salesforce virtual private cloud; Claude Code ships Workflows as a research preview, writing orchestration scripts that run in the background rather than reasoning turn by turn, raises inline command and task output to 128K characters via bashOutputMaxChars and taskOutputMaxChars, and adds an Organization policy line to /status and claude doctor; Automated Security Reviews put /security-review in the terminal and a vulnerability scanner on every pull request; the 2026-07-28 MCP specification replaces the stateful bidirectional core with stateless request/response, moves method and tool names into HTTP headers, and adds MCP Apps and a Tasks extension; and the Claude Partner Network passes 40,000 applicant firms and 10,000 certified consultants six months after launch.",
+    "url": "reports/claude-ai-daily-2026-09-07.html",
+    "headlines": [
+      "Cowork Leaves the Laptop",
+      "Workflows Turn Plans Into Scripts",
+      "MCP Goes Stateless",
+      "Cowork Leaves the Laptop, and That Is the Whole Story",
+      "Claude in Chrome Starts Approving Its Own Clicks",
+      "Claudeforce Reaches the Open Beta Window",
+      "Workflows Move the Plan Out of Claude&rsquo;s Head and Into a Script",
+      "128K of Inline Output, and a Straight Answer About Org Policy",
+      "Security Review Is a Command Now, and a GitHub Action",
+      "MCP Goes Stateless, and That Changes Who Can Host It",
+      "The Partner Network at Six Months: 40,000 Firms Applied",
+      "Anthropic Is Shipping the Runtime, Not the Model"
+    ],
+    "snippet": "Claude AI Daily Brief — September 7, 2026 | Cowork Leaves the Laptop, Workflows Turn Plans Into Scripts, MCP Goes Stateless ● Monday, September 7, 2026 Claude AI Daily Brief — September 7, 2026 Covering the latest from the platform · Edition #192 TL;DR — Today’s Top 3 Takeaways 1. Cowork Leaves the "
+  },
+  {
     "date": "2026-09-06",
     "title": "Claude AI Daily Brief &mdash; September 6, 2026 | IPO Slips to Mid-October, Enterprise Frontier Safeguards Rewrites Zero Data Retention, Commerce Agents Go Apache-2.0",
     "description": "September 6, 2026: Reuters reports Anthropic&rsquo;s IPO launch has shifted toward mid-October with the prospectus now expected late September, pushing a potential $2 trillion listing to days before the U.S. midterms; Enterprise Frontier Safeguards replaces classic zero data retention by moving monitoring logs into customer-controlled S3, Azure Blob or Google Cloud Storage while Anthropic retains read access for misuse detection; the Apache-2.0 Claude Commerce Agents blueprint ships shopping and merchant reference implementations with Shopify and Priceline already live and no checkout or ad layer included; Claude for Teachers opens free Enterprise access to U.S. K-12 districts with SSO, role-based access control and a FERPA-aligned data processing addendum; the Claude Developer Platform adds a thinking.display updates mode, takes Admin API user management out of beta and lets Managed Agents restrict web tool domains; Claude Code reaches v2.1.261 with a side-by-side diff panel; a three-hour multi-model outage on September 3 hit Claude, ChatGPT and Grok simultaneously; and the cancelled Sonnet 5 price increase holds at $2/$10 per million tokens.",
