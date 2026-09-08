@@ -9,6 +9,19 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 8, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-08.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-08.html</guid>
+      <pubDate>Tue, 08 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. The IPO Slips to Mid-October</strong> — Anthropic's prospectus is now expected late September rather than this week, with marketing beginning mid-October at the earliest and the listing completing days before the US midterm elections.</p>
+        <p><strong>2. Tools Can Change Mid-Conversation</strong> — a new beta header lets the tool list change between turns on the Claude API, but the tools array sits earliest in the hashed request prefix, so editing it invalidates the prompt cache for the entire conversation.</p>
+        <p><strong>3. Commerce Agents Ship as Apache-2.0</strong> — free reference implementations for shopping and merchant agents across retail, travel, telecom and ticketing, deliberately stopping short of checkout so merchants retain payment control.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-08.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — September 7, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-07.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-07.html</guid>
@@ -354,18 +367,6 @@
         <p><strong>2. Microsoft 365 Connector Gains Write Tools</strong> — Claude can now draft and send email, manage calendar events, and create or update files in OneDrive and SharePoint, not just read them.</p>
         <p><strong>3. MCP Passes 400M Monthly SDK Downloads</strong> — Up 4x this year, with MCP tunnels in research preview so Claude can reach servers inside a private network with no public endpoint.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-10.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 9, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-09.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-09.html</guid>
-      <pubDate>Sun, 09 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Enterprise Gains Model-Level Entitlements and Spend Alerts</strong> — Admins can now gate access model by model across Opus 5, Sonnet 5, and Haiku, with richer usage analytics and proactive cost warnings.</p>
-        <p><strong>2. Managed Agents Can Load Skills Straight From GitHub</strong> — Point a session at a repo and skills in the root .claude/skills directory are discovered automatically at startup, no manual install.</p>
-        <p><strong>3. Claude Code 2.1.226 Tightens the Guardrails</strong> — Gateway spend-limit warnings, workspace trust prompts for claude agents, and Remote Control starts-by-name, plus a batch of OAuth and session fixes.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-09.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>

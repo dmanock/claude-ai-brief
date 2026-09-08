@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-09-08",
+    "title": "Claude AI Daily Brief &mdash; September 8, 2026 | IPO Slips to Mid-October, Tools Change Mid-Conversation, Commerce Agents Go Open Source",
+    "description": "September 8, 2026: Anthropic's IPO timeline shifts toward mid-October with the prospectus now expected late September, days ahead of the US midterms, following a $65B Series H at a $965B post-money valuation and $47B run-rate revenue; the Claude API adds mid-conversation tool changes in beta behind the mid-conversation-tool-changes-2026-07-01 header, letting the tool list change between turns at the cost of invalidating the entire cached prefix; Claude Commerce Agents ship as an Apache-2.0 blueprint with reference shopping and merchant agents for retail, travel, telecom and ticketing ahead of the holiday season; Claude for iOS gains a usage details button and a Claude Code customization section under the Code tab; Managed Agents can now restrict web_search and web_fetch to allowed_domains or blocked_domains and the Admin API user-management endpoints leave beta for Claude Enterprise organizations; Claude Code makes Fable 5.1 the default Fable model and adds a SendFeedback tool and Console auth flag; Cognizant reaches Global Premier Partner status with 30,000 trained associates and production results including up to 40% less contract-review time; and Fable 5.1 cache reads fall 75% to $0.25 per million tokens.",
+    "url": "reports/claude-ai-daily-2026-09-08.html",
+    "headlines": [
+      "IPO Slips to Mid-October",
+      "Tools Change Mid-Conversation",
+      "Commerce Agents Go Open Source",
+      "The IPO Moves to Mid-October, and the Calendar Is the Message",
+      "Claude Commerce Agents Ship as Apache-2.0, Just in Time for Q4",
+      "Claude for iOS Learns to Show You the Meter",
+      "Tools Can Change Mid-Conversation. Your Cache Will Notice.",
+      "Agents Get a Domain Allowlist, Admin API Leaves Beta",
+      "Fable 5.1 Becomes the Default, and Claude Files Its Own Bug Reports",
+      "Cognizant Hits Global Premier, and Brings Numbers With It",
+      "Cache Reads Fall 75 Percent, and Agentic Bills Fall With Them",
+      "The Cached Prefix Is the Unit of Competition Now"
+    ],
+    "snippet": "Claude AI Daily Brief — September 8, 2026 | IPO Slips to Mid-October, Tools Change Mid-Conversation, Commerce Agents Go Open Source ● Tuesday, September 8, 2026 Claude AI Daily Brief — September 8, 2026 Covering the latest from the platform · Edition #193 TL;DR — Today’s Top 3 Takeaways 1. The IPO S"
+  },
+  {
     "date": "2026-09-07",
     "title": "Claude AI Daily Brief &mdash; September 7, 2026 | Cowork Leaves the Laptop, Workflows Turn Plans Into Scripts, MCP Goes Stateless",
     "description": "September 7, 2026: Claude Cowork now runs on web and mobile with remote sessions in beta, session state synced to your Claude account and scheduled tasks executing server-side with no device online; Claude in Chrome begins auto-approving actions a classifier judges consistent with your original request, borrowing the mechanism from Claude Code auto mode; Claudeforce moves from pilot customers toward open beta this month with Claude traffic fully contained inside the Salesforce virtual private cloud; Claude Code ships Workflows as a research preview, writing orchestration scripts that run in the background rather than reasoning turn by turn, raises inline command and task output to 128K characters via bashOutputMaxChars and taskOutputMaxChars, and adds an Organization policy line to /status and claude doctor; Automated Security Reviews put /security-review in the terminal and a vulnerability scanner on every pull request; the 2026-07-28 MCP specification replaces the stateful bidirectional core with stateless request/response, moves method and tool names into HTTP headers, and adds MCP Apps and a Tasks extension; and the Claude Partner Network passes 40,000 applicant firms and 10,000 certified consultants six months after launch.",
