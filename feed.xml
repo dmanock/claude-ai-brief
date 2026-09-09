@@ -9,6 +9,19 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 9, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-09.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-09.html</guid>
+      <pubDate>Wed, 09 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Safeguards Replace Data Retention</strong> — Enterprise Frontier Safeguards pairs zero data retention with automated misuse detection running against logs stored in the customer's own S3, Azure Blob or Google Cloud Storage under their own keys, built with more than 100 customers and offered at no charge.</p>
+        <p><strong>2. Agents Get Budgets and Borders</strong> — Claude Managed Agents gain hard per-session spend caps that pause at a budget_reached stop reason, geo-pinned inference via model.inference_geo at 1.1x for in-region, and automatic skill discovery from .claude/skills in a mounted GitHub repository.</p>
+        <p><strong>3. Claude Goes Free for K-12</strong> — Claude for Teachers opens as a free Enterprise offering for US schools and districts with SSO, role-based access control and standards alignment across all fifty states, free for a year to organizations signing up by June 30, 2027.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-09.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — September 8, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-08.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-08.html</guid>
@@ -357,17 +370,5 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-11.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — August 10, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-10.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-10.html</guid>
-      <pubDate>Mon, 10 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Code Sessions Can Now Run on Your Own Infrastructure</strong> — Self-hosted environments hit public beta for Team and Enterprise, keeping checkouts, secrets, and build artifacts on machines you provision.</p>
-        <p><strong>2. Microsoft 365 Connector Gains Write Tools</strong> — Claude can now draft and send email, manage calendar events, and create or update files in OneDrive and SharePoint, not just read them.</p>
-        <p><strong>3. MCP Passes 400M Monthly SDK Downloads</strong> — Up 4x this year, with MCP tunnels in research preview so Claude can reach servers inside a private network with no public endpoint.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-10.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-  </channel>
+    </channel>
 </rss>

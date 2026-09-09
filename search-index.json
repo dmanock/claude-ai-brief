@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-09-09",
+    "title": "Claude AI Daily Brief &mdash; September 9, 2026 | Enterprise Safeguards Replace Data Retention, Agents Get Budgets and Borders, Claude Goes Free for K-12",
+    "description": "September 9, 2026: Anthropic replaces its enterprise data retention policy with Enterprise Frontier Safeguards, pairing zero data retention with automated misuse detection against logs held in the customer's own S3, Azure Blob or Google Cloud Storage under the customer's own keys, built with more than 100 customers, offered at no charge and rolling out in phases later this fall; Claude Managed Agents gain hard session spend caps that pause at a budget_reached stop reason, geo-pinned inference via model.inference_geo set to us at 1.1x or global at standard rate, and automatic discovery of skills from .claude/skills in a mounted GitHub repository; Claude for Teachers opens as a free Enterprise offering for US K-12 schools and districts with SSO, role-based access control and standards alignment across all 50 states, free for a year to organizations signing up by June 30, 2027; the Life Sciences Verification Program launches in partnership with the US government so verified professionals can use Mythos 5.1 under relaxed biology safeguards, with first participants enrolled; Claude Code ships 2.1.266 restoring CLAUDE_CODE_USE_GATEWAY after a regression, following /skill-doctor context diagnostics and organization policy reporting in /status; the scheduled Sonnet 5 price increase to $3/$15 is cancelled and $2/$10 becomes the standard price, an anthropic-workspace-id response header lands, and fast mode is removed from Opus 4.7; Salesforce and Anthropic's Claudeforce heads to open beta with 37 prebuilt sales skills; and Claude draws fresh downtime reports after twenty-one incidents between August 12 and September 2.",
+    "url": "reports/claude-ai-daily-2026-09-09.html",
+    "headlines": [
+      "Enterprise Safeguards Replace Data Retention",
+      "Agents Get Budgets and Borders",
+      "Claude Goes Free for K-12",
+      "Anthropic Stops Keeping Your Logs and Starts Watching Them in Your Bucket",
+      "Claude for Teachers Goes Free for Every US School District",
+      "The Life Sciences Verification Program Opens the Biology Boundary, Selectively",
+      "Managed Agents Get a Spend Cap, a Passport, and Your Repo&rsquo;s Skills",
+      "The Sonnet 5 Price Increase Is Cancelled",
+      "2.1.266 Fixes the Gateway Regression, and Skills Learn to Audit Themselves",
+      "Claudeforce Moves Toward Open Beta With 37 Prebuilt Sales Skills",
+      "Another Morning of Downtime Reports, and the Status Page Says Nothing",
+      "The Constraint Is the Product Now"
+    ],
+    "snippet": "Claude AI Daily Brief — September 9, 2026 | Enterprise Safeguards Replace Data Retention, Agents Get Budgets and Borders, Claude Goes Free for K-12 ● Wednesday, September 9, 2026 Claude AI Daily Brief — September 9, 2026 Covering the latest from the platform · Edition #194 TL;DR — Today’s Top 3 Take"
+  },
+  {
     "date": "2026-09-08",
     "title": "Claude AI Daily Brief &mdash; September 8, 2026 | IPO Slips to Mid-October, Tools Change Mid-Conversation, Commerce Agents Go Open Source",
     "description": "September 8, 2026: Anthropic's IPO timeline shifts toward mid-October with the prospectus now expected late September, days ahead of the US midterms, following a $65B Series H at a $965B post-money valuation and $47B run-rate revenue; the Claude API adds mid-conversation tool changes in beta behind the mid-conversation-tool-changes-2026-07-01 header, letting the tool list change between turns at the cost of invalidating the entire cached prefix; Claude Commerce Agents ship as an Apache-2.0 blueprint with reference shopping and merchant agents for retail, travel, telecom and ticketing ahead of the holiday season; Claude for iOS gains a usage details button and a Claude Code customization section under the Code tab; Managed Agents can now restrict web_search and web_fetch to allowed_domains or blocked_domains and the Admin API user-management endpoints leave beta for Claude Enterprise organizations; Claude Code makes Fable 5.1 the default Fable model and adds a SendFeedback tool and Console auth flag; Cognizant reaches Global Premier Partner status with 30,000 trained associates and production results including up to 40% less contract-review time; and Fable 5.1 cache reads fall 75% to $0.25 per million tokens.",
