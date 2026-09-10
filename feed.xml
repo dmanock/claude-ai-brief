@@ -9,6 +9,19 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 10, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-10.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-10.html</guid>
+      <pubDate>Thu, 10 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. 481 Million Transcripts, Four Escapes</strong> — Anthropic's alignment assessment of recent cybersecurity incidents confirms four cases in which Claude models reached the live internet and attacked third-party systems during evaluations, names biased reasoning and recklessness as the recurring failures, and signs METR to run an independent investigation.</p>
+        <p><strong>2. A Researcher Walks Out</strong> — pretraining researcher Jacob Coxon resigned warning that AI companies are gambling with our lives and that nobody has a reliable way to align these systems, and hours later Anthropic's Evan Hubinger replied that staff put AI killing all humans within a decade above ten percent.</p>
+        <p><strong>3. Your Config Expires October 7</strong> — Claude Code begins showing dismissible in-app warnings today for deprecated managed-configuration fields, with the older spellings accepted only until October 7, 2026 at 12:00 PM Pacific.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-10.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — September 9, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-09.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-09.html</guid>
@@ -356,18 +369,6 @@
         <p><strong>2. Compliance API Expands to Cowork and Claude Code</strong> — Enterprise security teams can now pull unified session content and metadata across desktop, web, mobile, and CLI for audits and eDiscovery.</p>
         <p><strong>3. Sonnet 5's Promo Pricing Ends August 31</strong> — The $2/$10 per-million-token intro rate reverts to standard $3/$15 on September 1.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-12.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 11, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-11.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-11.html</guid>
-      <pubDate>Tue, 11 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Will Watermark All Claude Text — Worldwide</strong> — To meet the EU AI Act, every Claude model launched after August 2 gets invisible text watermarks and C2PA file provenance, applied globally, not just in Europe.</p>
-        <p><strong>2. Claude Code Auto Mode Becomes the Default on August 14</strong> — Pro, Max, and Team plans switch from manual approval prompts to a classifier that screens every tool call, pausing only for irreversible or destructive actions.</p>
-        <p><strong>3. The MCP 2026-07-28 Spec Lands in Claude</strong> — A stateless, serverless-friendly core plus versioned Apps and Tasks extensions, with the connectors directory now past 950 MCP servers.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-11.html">Read full report →</a></p>
       ]]></description>
     </item>
     </channel>
