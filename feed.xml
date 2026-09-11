@@ -9,6 +9,19 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 11, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-11.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-11.html</guid>
+      <pubDate>Fri, 11 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Seven Chinese Labs, 190 Million Exchanges</strong> — Anthropic's threat intelligence report names seven China-based labs behind roughly 190 million illicitly distilled exchanges, led by Alibaba's Tongyi Lab at over 151 million between May and July 2026 to train Qwen 3.5, 3.6 and 3.7, with DeepSeek, Xiaomi and Moonshot feeding their own customers' conversations into Claude and exposing names, company data and live credentials.</p>
+        <p><strong>2. A Drone Swarm With Nobody In It</strong> — a first-ever conventional weapons section documents a Russian freelance team building an autonomous FPV kamikaze swarm whose onboard model could select a "person" target class and issue detonation commands with no human in the loop, plus a Yemen cell that test-fired a guided rocket and returned to Claude hours later to debug the failure.</p>
+        <p><strong>3. The Bio Cases Nobody Else Has Published</strong> — Anthropic says no AI company has previously shared public evidence of biological weapons misuse on its platform, and published five case studies including a blocked chikungunya gain-of-function grant and an H5 avian influenza researcher whose classifiers confined all work to weaker models.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-11.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — September 10, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-10.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-10.html</guid>
@@ -357,18 +370,6 @@
         <p><strong>2. Anthropic Loosens Fable 5's Biology Safeguards</strong> — Updated safety systems cut false-positive refusals on biology prompts by ~85%, while genuine dual-use research stays gated to Opus 5.</p>
         <p><strong>3. New Claude Models Now Watermark Their Text</strong> — Machine-readable watermarks are baked into output from new models to satisfy Article 50 of the EU AI Act.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-13.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 12, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-12.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-12.html</guid>
-      <pubDate>Wed, 12 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Opus 5 Becomes Claude Code's Default</strong> — The latest release makes Opus 5 the default model, adds a Claude Security plugin for vulnerability scanning, and drops an iOS Simulator pane into Claude Code Desktop.</p>
-        <p><strong>2. Compliance API Expands to Cowork and Claude Code</strong> — Enterprise security teams can now pull unified session content and metadata across desktop, web, mobile, and CLI for audits and eDiscovery.</p>
-        <p><strong>3. Sonnet 5's Promo Pricing Ends August 31</strong> — The $2/$10 per-million-token intro rate reverts to standard $3/$15 on September 1.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-12.html">Read full report →</a></p>
       ]]></description>
     </item>
     </channel>
