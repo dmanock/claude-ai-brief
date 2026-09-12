@@ -9,6 +9,19 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 12, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-12.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-12.html</guid>
+      <pubDate>Sat, 12 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Beijing Calls It "Distorting Facts"</strong> — China's foreign ministry issued the first state-level response to Anthropic's threat intelligence report, with spokesperson Mao Ning saying Beijing "advocates AI for good" and accusing Anthropic of "distorting facts," after the report named Alibaba, Moonshot AI, DeepSeek, Xiaomi and Zhipu behind roughly 190 million extracted Claude exchanges.</p>
+        <p><strong>2. Your Plugin Now Gets a Score</strong> — Anthropic shipped plugin evals for Claude Code: <code>claude plugin eval</code> runs a plugin against realistic prompts with six grader types, four of them free, and runs every case a second time with the plugin unloaded, so the delta between arms is the only number that proves the plugin contributed anything.</p>
+        <p><strong>3. Claude Code Stopped Printing Your Secrets</strong> — version 2.1.268 fixed plugin and marketplace errors that printed tokens from git source URLs and MCP commands that printed secrets resolved from environment placeholders, alongside deny-rule fixes for symlinked paths and a 300-second WebFetch deadline.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-12.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — September 11, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-11.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-11.html</guid>
@@ -358,18 +371,6 @@
         <p><strong>2. Sonnet 5’s $2/$10 Pricing Is Permanent</strong> — Anthropic canceled the September 1 increase to $3/$15, erasing a 50% bill hike for high-volume API users.</p>
         <p><strong>3. Claude Tag Gets Free Proactive Replies</strong> — Claude in Slack now reads full channel context, memory, and standing instructions to decide when to speak, and is ~30% better at knowing when to stay quiet.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-14.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-        <item>
-      <title>Claude AI Daily Brief — August 13, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-13.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-13.html</guid>
-      <pubDate>Thu, 13 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Code Auto Mode Goes Default Tomorrow</strong> — Starting August 14, new Pro, Max, and Team sessions default to auto mode, where a safety classifier vets each tool call — and Anthropic won't charge for the extra compute.</p>
-        <p><strong>2. Anthropic Loosens Fable 5's Biology Safeguards</strong> — Updated safety systems cut false-positive refusals on biology prompts by ~85%, while genuine dual-use research stays gated to Opus 5.</p>
-        <p><strong>3. New Claude Models Now Watermark Their Text</strong> — Machine-readable watermarks are baked into output from new models to satisfy Article 50 of the EU AI Act.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-13.html">Read full report →</a></p>
       ]]></description>
     </item>
     </channel>

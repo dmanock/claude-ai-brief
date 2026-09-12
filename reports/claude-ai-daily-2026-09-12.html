@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-09-12">
+  <title>Claude AI Daily Brief &mdash; September 12, 2026 | Beijing Says &ldquo;Distorting Facts,&rdquo; and Claude Code Learns to Grade Its Own Plugins</title>
+  <meta name="description" content="September 12, 2026: Beijing formally rejected Anthropic's distillation findings, with foreign ministry spokesperson Mao Ning saying China &quot;advocates AI for good&quot; and accusing Anthropic of &quot;distorting facts&quot; &mdash; the first state-level response to a report naming Alibaba, Moonshot, DeepSeek, Xiaomi and Zhipu behind roughly 190 million extracted Claude exchanges. On the developer side, Anthropic shipped plugin evals for Claude Code: the claude plugin eval command runs a plugin against realistic prompts with six grader types, four of them free, and reports a delta against a no-plugin baseline arm, turning &quot;does my skill actually trigger&quot; into a number and a CI gate with --threshold and --max-cost-usd. Claude Code 2.1.268 closed a set of credential-leak bugs where plugin, marketplace and MCP errors printed tokens and resolved secrets, added a 300-second WebFetch deadline, and fixed deny rules that missed symlinked paths. Claude Enterprise got smart reports in beta, which analyze what a team's Claude usage costs, where sessions hit friction, and which repeated patterns are worth packaging as shared skills, capped at ten reports a month during beta. Managed Agents added an auto permission policy that evaluates each tool call server-side, plus ant beta:sessions connect to attach a terminal to a live session. Plus the skills ecosystem crosses 4,000 published skills as /skill-doctor makes context cost visible, and Anthropic's October listing at a reported $2 trillion target draws closer.">
+  <meta name="keywords" content="Claude AI, Anthropic, plugin evals, claude plugin eval, Claude Code 2.1.269, Claude Code 2.1.268, smart reports, Claude Enterprise, Managed Agents, auto permission policy, ant beta sessions connect, skill-doctor, Mao Ning, illicit distillation, Anthropic IPO, output-style, MCP skills marketplace">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-09-12.html">
+  <meta property="og:title" content="Claude AI Daily Brief &mdash; September 12, 2026">
+  <meta property="og:description" content="Beijing called Anthropic's distillation report &quot;distorting facts.&quot; Claude Code shipped a command that scores whether your plugin actually does anything. And 2.1.268 quietly stopped printing your secrets in error messages.">
+  <meta property="og:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-09-12.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief &mdash; September 12, 2026">
+  <meta name="twitter:description" content="Beijing called Anthropic's distillation report &quot;distorting facts.&quot; Claude Code shipped a command that scores whether your plugin actually does anything. And 2.1.268 quietly stopped printing your secrets in error messages.">
+  <meta name="twitter:image" content="https://www.cadb.info/graphics/claude-ai-x-graphic-2026-09-12.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-09-12.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — September 12, 2026",
+    "description": "China's foreign ministry issued the first state-level response to Anthropic's September threat intelligence report, with spokesperson Mao Ning saying Beijing 'advocates AI for good' and accusing Anthropic of 'distorting facts.' The report had named Alibaba's Tongyi Lab, Moonshot AI, DeepSeek, Xiaomi and Zhipu behind roughly 190 million extracted Claude exchanges, with Alibaba accounting for more than 151 million between May and July 2026. On the developer side, Anthropic published a plugin evals workflow for Claude Code. The 'claude plugin eval' command runs a plugin against realistic prompts held in an evals/ directory, grades the result with six grader types — regex, tool_used, tool_order and file_exists computed free from the transcript and disk, plus llm and baseline which bill a judge model — and by default runs every case twice, once with the plugin loaded and once without. The difference between arms, reported as delta, is the only number that proves the plugin contributed anything. Anthropic names the most common first finding: a delta near zero with a failing tool_used Skill grader, meaning Claude never chooses the skill on natural phrasing, a defect claude plugin validate cannot detect because it checks manifest syntax rather than behavior. With --threshold, --max-cost-usd, --trust-plugin and --json, the command becomes a CI gate; it requires Claude Code v2.1.269 or later. That release also added /output-style to list and switch output styles including in headless and Remote Control sessions, a diff of files changed by a Bash command in the Bash tool result, OTEL_METRICS_INCLUDE_REPOSITORY to tag telemetry with repository attributes, and CLAUDE_CODE_WORKFLOW_MAX_CONCURRENT_AGENTS to raise the Workflow tool's fan-out limit to as many as 256 agents. Claude Code 2.1.268 fixed a cluster of credential exposure bugs: plugin and marketplace errors showing a token or password from a git source URL, and /mcp, /plugin, claude mcp list and MCP login errors showing secrets resolved from environment placeholders. It also added a 300-second WebFetch deadline, fixed deny rules that failed to apply on symlinked system paths and on files written by a Bash tee command, and fixed plugin archives extracted with world-readable and world-writable permissions. Claude Enterprise gained smart reports in beta, analyzing how a team uses Claude, what the work costs, where sessions hit friction, and which repeated patterns are worth packaging as shared skills, limited to ten reports per organization per month during beta and unavailable on CMEK and HIPAA configurations. The Claude Developer Platform added an 'auto' permission policy for Managed Agents, letting the server evaluate each agent or MCP tool call and run, deny or pause it for approval, with the decision reported in an evaluation field on agent.tool_use events, plus an 'ant beta:sessions connect' command that attaches a terminal to a live Managed Agents session to follow it, send messages and approve or deny pending tool calls.",
+    "datePublished": "2026-09-12T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/graphics/claude-ai-x-graphic-2026-09-12.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-09-12.html"
+  }
+  </script>
+
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style></head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Saturday, September 12, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; September 12, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #197</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Beijing Calls It &ldquo;Distorting Facts&rdquo;</strong> &mdash; China&rsquo;s foreign ministry rejected Anthropic&rsquo;s distillation findings outright. First state-level answer to a report naming five Chinese labs.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Your Plugin Now Gets a Score</strong> &mdash; <code>claude plugin eval</code> runs every case twice, with and without your plugin. The delta is the only number that proves it did anything.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Claude Code Stopped Printing Your Secrets</strong> &mdash; 2.1.268 fixed plugin, marketplace and MCP errors that leaked git tokens and resolved env vars into the terminal.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-breaking">Geopolitics</span>
+      <h3>China Rejects the Distillation Report: &ldquo;Distorting Facts&rdquo;</h3>
+      <p>Yesterday Anthropic named names. Today Beijing answered. Foreign ministry spokesperson <strong>Mao Ning</strong> said China <strong>&ldquo;advocates AI for good&rdquo;</strong> and accused Anthropic of <strong>&ldquo;distorting facts&rdquo;</strong> &mdash; the first state-level response to a threat intelligence report that identified <strong>Alibaba&rsquo;s Tongyi Lab, Moonshot AI, DeepSeek, Xiaomi and Zhipu</strong> as running unauthorized extraction campaigns against Claude totaling roughly <strong>190 million exchanges</strong>.</p>
+      <p>Worth noting what the denial does and does not engage. It disputes the characterization. It does not address the specific mechanics Anthropic documented: <strong>more than 151 million exchanges attributed to Alibaba between May and July 2026</strong>, peaking near <strong>3 million a day across more than 3,500 accounts Anthropic describes as fraudulent</strong>; <strong>over 23 million</strong> attributed to Moonshot; <strong>over 12.1 million</strong> to DeepSeek in a fourteen-day window in July. Nor does it touch the part that drew the sharpest coverage &mdash; that three of the named labs allegedly <strong>routed their own customers&rsquo; conversations through Claude</strong>, exposing end-user credentials in the process.</p>
+      <p>The individual companies have not issued substantive public rebuttals of the numbers. That gap matters, because Anthropic&rsquo;s claims are unusually falsifiable for this genre: dated, counted, and tied to named account clusters. A denial at the diplomatic level and silence at the engineering level is not the same as a factual dispute. It is also, realistically, what you would expect either way &mdash; nobody publishes a rebuttal that confirms which accounts were theirs.</p>
+      <div class="source-links">
+        <a href="https://www.inkl.com/news/china-rejects-anthropic-allegations-of-using-claude-to-train-their-models" class="source-link">China Response</a>
+        <a href="https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/" class="source-link">TechCrunch</a>
+        <a href="https://qz.com/anthropic-chinese-ai-labs-distillation-alibaba-deepseek-moonshot-091126" class="source-link">Quartz</a>
+        <a href="https://www.anthropic.com/threat-intelligence-report-september-2026" class="source-link">Anthropic Report</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Enterprise</span>
+      <h3>Smart Reports Tell You Which of Your Team&rsquo;s Habits Should Be a Skill</h3>
+      <p><strong>Claude Enterprise</strong> gained <strong>smart reports</strong> in beta. In Anthropic&rsquo;s framing, they <strong>&ldquo;analyze how a team uses Claude and report on the work getting done, what it costs, where sessions run into friction, and which repeated patterns are worth packaging as shared skills.&rdquo;</strong> That last clause is the interesting one, and it is not a usage dashboard.</p>
+      <p>Most enterprise AI analytics answer &ldquo;are people using the thing.&rdquo; This one is trying to answer <strong>&ldquo;what should we build.&rdquo;</strong> A report that surfaces the same twelve-step workflow appearing in forty sessions across three teams is pointing at a skill somebody should write once. That closes a loop admins previously had to close by intuition &mdash; and it is the same instinct behind <code>/skill-doctor</code> and plugin evals: stop guessing at what your Claude deployment is actually doing.</p>
+      <p>The beta constraints are real, so plan around them. Each organization gets <strong>10 reports per month free</strong> during beta, resetting on the first of the calendar month, with more available through your account team. Availability is <strong>Enterprise plans only</strong>, and it is <strong>not available to organizations using customer-managed encryption keys (CMEK) or HIPAA configurations</strong> &mdash; which excludes a meaningful slice of exactly the regulated buyers most likely to want cost attribution. Access is limited to <strong>Primary Owners, Owners, Admins, and custom roles with analytics view permission</strong>.</p>
+      <div class="source-links">
+        <a href="https://support.claude.com/en/articles/16893491-get-started-with-smart-reports" class="source-link">Smart Reports Docs</a>
+        <a href="https://support.claude.com/en/articles/12138966-release-notes" class="source-link">Claude Release Notes</a>
+        <a href="https://releasebot.io/updates/anthropic/claude" class="source-link">Claude Updates</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Platform</span>
+      <h3>Managed Agents Get a Permission Mode That Thinks, and a Terminal You Can Attach</h3>
+      <p>Two changes landed for <strong>Claude Managed Agents</strong> that together make long-running server-side agents a lot less of a black box. First, permission policies now include <strong><code>auto</code></strong>: rather than a static allow or deny list, <strong>&ldquo;the server evaluates each agent or MCP tool call and runs it, denies it, or pauses for your approval.&rdquo;</strong> The reasoning is not hidden &mdash; <code>agent.tool_use</code> and <code>agent.mcp_tool_use</code> events report how each call was judged in an <strong><code>evaluation</code> field alongside <code>evaluated_permission</code></strong>.</p>
+      <p>Second, the <code>ant</code> CLI added <strong><code>ant beta:sessions connect</code></strong>, which attaches your terminal to a live Managed Agents session. You can <strong>follow it in real time, send messages mid-run, and allow or deny tool calls that are waiting on approval</strong>. Pass <code>--web</code> and it serves the Claude Console&rsquo;s session viewer locally instead.</p>
+      <p>If you have shipped anything on Managed Agents, you know the failure mode these address: an agent pauses at 2am on a tool call nobody is watching, or worse, an over-broad allow rule lets it proceed on something it should have flagged. <code>auto</code> moves the judgment call server-side, and <code>connect</code> gives you a way in without rebuilding an approval UI. Pair it with the session <strong>budget cap</strong> shipped in August &mdash; sessions that hit the limit pause with a <code>budget_reached</code> event and resume when you raise it &mdash; and the operational story for unattended agents is finally coherent.</p>
+      <div class="source-links">
+        <a href="https://platform.claude.com/docs/en/release-notes/overview" class="source-link">Platform Release Notes</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-developer-platform" class="source-link">Developer Platform Updates</a>
+        <a href="https://platform.claude.com/docs/en/managed-agents/agent-setup" class="source-link">Managed Agents Docs</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Plugin Evals: The Only Number That Matters Is &Delta;</h3>
+      <p>Anthropic published a <strong>plugin evals workflow</strong> for Claude Code, and it answers three questions plugin authors previously could not measure: <strong>does the skill trigger, does it survive an edit or a new model, and does it beat a bare model.</strong> The command is <code>claude plugin eval</code>, it needs <strong>v2.1.269 or later</strong>, and it runs against any directory with a <code>plugin.json</code> or <code>.claude-plugin/plugin.json</code> manifest.</p>
+      <p>The design is the good part. An eval suite lives in an <code>evals/</code> directory; each case is a subdirectory with a <code>prompt.md</code> and a <code>graders/</code> folder. There are <strong>six grader types</strong>, and four of them cost <strong>nothing</strong> because they are computed from the transcript and the files on disk: <code>regex</code>, <code>tool_used</code>, <code>tool_order</code>, <code>file_exists</code>. Two call a judge model and bill for it: <code>llm</code>, which scores against prose criteria you write, and <code>baseline</code>, which compares against a reference answer. Frontmatter on the prompt sets <code>max_turns</code> (default 10), <code>timeout_seconds</code> (default 300), <code>model</code>, <code>tags</code> and <code>allowed_tools</code>. And <code>claude plugin eval init</code> will interview you about what a good result looks like, propose cases and graders, try them, and write the files.</p>
+      <p>By default <strong>every case runs twice</strong> &mdash; a with-arm where the plugin is loaded and a without-arm where it is not. Their difference is <strong>&Delta;</strong>, and Anthropic is blunt about it: <strong>if a case scores 1.0 in both arms, the plugin is not why it passed.</strong> The docs example shows WITH 1.00, W/OUT 0.33, <strong>&Delta; +0.67</strong> across 6 runs at an estimated <strong>$0.41 and 74 seconds</strong>. The most common first finding Anthropic calls out is a <strong>&Delta; near zero with the <code>tool_used: Skill</code> grader failing</strong> &mdash; meaning Claude never picks your skill on natural phrasing. That is precisely the defect <code>claude plugin validate</code> cannot see, because it checks manifest syntax, not behavior. For CI, <code>--threshold</code>, <code>--max-cost-usd</code>, <code>--trust-plugin</code>, <code>--json</code> and <code>--no-publish</code> turn it into a gate; budget roughly <strong>cases &times; runs &times; arms</strong> agent runs plus three short judge calls per LLM grader, and remember a <strong>usage-limit error can fake a regression</strong>.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/plugin-evals" class="source-link">Plugin Evals Docs</a>
+        <a href="https://www.marktechpost.com/2026/09/11/anthropic-adds-plugin-evals-to-claude-code-6-grader-types-a-no-plugin-baseline-and-a-ci-gate-for-skills/" class="source-link">MarkTechPost</a>
+        <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.269" class="source-link">v2.1.269 Release</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Security</span>
+      <h3>2.1.268 Quietly Stopped Claude Code From Printing Your Credentials</h3>
+      <p>Buried in a long fix list is a cluster of <strong>credential-exposure bugs</strong> worth reading as a group. <strong>Plugin and marketplace errors were showing a token or password from a git source URL.</strong> And <strong><code>/mcp</code> and <code>/plugin</code> server details, <code>claude mcp list</code>, <code>claude mcp get</code>, and MCP login errors were showing secrets resolved from <code>${VAR}</code> placeholders in MCP configs</strong> &mdash; meaning the whole point of using an env placeholder was defeated at the moment something went wrong. Both are fixed. If you have pasted Claude Code error output into a ticket or a Slack channel in the last few weeks, that is worth a look.</p>
+      <p>The permission fixes are the other half. <strong>Deny and ask rules on symlinked directories</strong> &mdash; <code>/etc</code>, <code>/tmp</code>, <code>/var</code> on macOS, <code>/bin</code> on Linux &mdash; <strong>were not applying when a path was given by its real location</strong>. A <code>Read</code> or <code>Edit</code> deny rule <strong>did not apply when an <code>env -C</code>, <code>eval</code> or similar unanalyzable command sat on the same line</strong>. <code>Edit()</code> deny rules and the write-path check <strong>did not cover the file a Bash <code>tee</code> command writes</strong> &mdash; so a <code>Bash(tee:*)</code> allow rule no longer reaches destinations outside your working directories. And <strong>plugin archives extracted for a session were readable by other local users</strong>, kept <strong>world-writable bits from the archive</strong>, and left stale files behind on re-extraction.</p>
+      <p>Two more with immediate operational value. <strong>WebFetch now fails after 300 seconds</strong> instead of hanging forever on a server that holds the response open (<code>CLAUDE_CODE_WEBFETCH_DEADLINE_MS</code> overrides it; <code>0</code> disables). And <strong>sustained high CPU usage is fixed</strong> &mdash; a busy loop in long-running idle sessions was pinning a core. Also shipped: the Claude apps gateway can set <code>pricing:</code> in <code>gateway.yaml</code> so signed-in clients get the same rates through managed settings and <strong><code>/cost</code> and telemetry finally match the spend meter</strong>.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Claude Code Updates</a>
+        <a href="https://github.com/anthropics/claude-code/releases" class="source-link">GitHub Releases</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>Everything Else in 2.1.269: 98 CLI Changes, and Four You&rsquo;ll Actually Use</h3>
+      <p>Plugin evals got the headline, but <strong>2.1.269 carried 98 CLI changes</strong>. Four are worth putting in your config today. <strong><code>/output-style [name]</code></strong> lists and switches output styles &mdash; <strong>including over Remote Control and in cloud and other headless sessions</strong>, which is the part that was missing. The <strong>Bash tool now attaches a diff of the files a command changed</strong> to its result when it handles file edits (<code>bashEditDiffEnabled</code>), so edits made through a shell command stop being invisible.</p>
+      <p>For teams running telemetry: <strong><code>OTEL_METRICS_INCLUDE_REPOSITORY</code></strong> tags OpenTelemetry metrics and events with <code>vcs.*</code> repository attributes, and commit events pick up <code>vcs.ref.head.*</code> when <code>OTEL_LOG_TOOL_DETAILS</code> is on &mdash; per-repo cost and usage attribution without building your own join. For inference-bound fan-outs: <strong><code>CLAUDE_CODE_WORKFLOW_MAX_CONCURRENT_AGENTS</code></strong> raises the Workflow tool&rsquo;s per-run concurrent agent limit, accepting <strong>1 to 256</strong>.</p>
+      <p>The fix list skews toward <strong>prompt-cache preservation</strong>, which is where the real money is. Fixed: the cache being <strong>partially invalidated on the turn after a response was cut off at the output-token limit</strong> and auto-resumed; and <strong>resuming a session after interrupting Claude mid-thought changing how earlier context was re-sent</strong>. Both were silent cache misses you paid for without seeing. Elsewhere: <strong>CMYK JPEGs</strong> now attach instead of failing to decode, <strong>prompt suggestions no longer get dropped for Japanese, Chinese and Thai</strong> and other languages written without spaces, and a deny or ask rule starting with <code>!</code> <strong>now applies only within the settings source that wrote it</strong>. VS Code got an <strong>agent map</strong> &mdash; an &ldquo;N agents&rdquo; footer pill opens per-agent cards with Stop and read-only transcripts &mdash; plus Hooks and Permission rules dialogs.</p>
+      <div class="source-links">
+        <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.269" class="source-link">v2.1.269 Release</a>
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Claude Code Updates</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Ecosystem</span>
+      <h3>4,000+ Skills, 700+ MCP Servers, and a Command That Tells You Which Ones Are Dead Weight</h3>
+      <p>The third-party skills ecosystem has passed the point where browsing it is a strategy. Aggregators now index on the order of <strong>4,200+ skills, 727+ MCP servers and 2,500+ plugin marketplaces</strong>, with individual catalogs claiming <strong>800+ free skills</strong> and <strong>3,600+ Claude Code skills</strong>. Recent additions include a <strong>Hugging Face Spaces MCP filter</strong>, <strong>Conare</strong> as an MCP memory layer, an <strong>official Figma MCP catalog</strong>, and <strong>claude-plugins.dev</strong> as a CLI.</p>
+      <p>Which makes <strong><code>/skill-doctor</code></strong> (v2.1.252+, shipped <strong>September 4</strong>) the most underrated command of the month. It <strong>reports which loaded skills a session never used, and what each one costs in context on every turn.</strong> The mechanic behind it is worth knowing even if you never run it: Claude Code loads a listing of skill names and descriptions so Claude knows what is available, and that listing&rsquo;s character budget <strong>scales at 1% of the model&rsquo;s context window</strong>. When it overflows, <strong>Claude Code drops descriptions starting with the skills you invoke least</strong> &mdash; so your most-used skills keep their full text, and your long tail silently degrades.</p>
+      <p>Put the three tools together and you get a real workflow. <strong><code>/skill-doctor</code></strong> tells you what to turn off. <strong><code>claude plugin eval</code></strong> tells you whether what is left is earning its keep. <strong>Smart reports</strong> tell an admin what the whole org should have built in the first place. Six weeks ago the answer to &ldquo;is this skill helping?&rdquo; was vibes. Now it is three commands.</p>
+      <div class="source-links">
+        <a href="https://www.implicator.ai/anthropic-claude-code-skill-doctor-context-audit/" class="source-link">Implicator</a>
+        <a href="https://code.claude.com/docs/en/skills" class="source-link">Skills Docs</a>
+        <a href="https://www.gradually.ai/en/claude-marketplaces/" class="source-link">Marketplace Index</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Business</span>
+      <h3>The October Listing Is the Backdrop to Everything Shipping Right Now</h3>
+      <p>Anthropic is reported to be positioning for an <strong>October 2026 public offering</strong> at a target valuation around <strong>$2 trillion</strong>, per Bloomberg and Fortune reporting &mdash; up from a private valuation near <strong>$965 billion</strong> set in a May 2026 Series H. Analysts peg that at roughly <strong>30 times revenue</strong>, which is either a comment on growth or a comment on the market, depending on your disposition.</p>
+      <p>The competitive numbers underneath it are not soft. <strong>Menlo Ventures</strong> puts Anthropic at <strong>40% enterprise spend share</strong> against OpenAI&rsquo;s 27% and Google&rsquo;s 21%. On coding, independent evaluations put <strong>Claude Opus 5 at 96-97% on SWE-bench Verified</strong>, ahead of <strong>GPT-5.3 Codex at 85%</strong>. And the <strong>Claudeforce</strong> partnership makes Claude the default reasoning engine across Salesforce&rsquo;s Agentforce stack, with the <strong>Salesforce in Claude</strong> plugin and its 37 prebuilt sales skills due in open beta this month.</p>
+      <p>Why this belongs next to a changelog: the release cadence reads differently once you account for it. Plugin evals, smart reports, permission policies, gateway pricing parity, telemetry attribution &mdash; none of these are consumer features. They are the things a procurement committee asks about, shipped in the quarter before a listing. That is not cynicism; it is just what maturity looks like from the outside. It does mean you should read this month&rsquo;s roadmap as answering enterprise objections rather than pushing capability frontiers.</p>
+      <div class="source-links">
+        <a href="https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-could-seek-2-trillion-valuation-in-record-ipo/" class="source-link">PYMNTS</a>
+        <a href="https://graniteshares.com/research/anthropic-ipo-2026-explained-from-965-billion-to-a-possible-2-trillion-listing/" class="source-link">GraniteShares</a>
+        <a href="https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/" class="source-link">Salesforce</a>
+        <a href="https://www.morphllm.com/claude-benchmarks" class="source-link">Benchmarks</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>The Vibes Era Just Ended, and Nobody Announced It</h3>
+      <p>There is a quiet pattern in this week&rsquo;s shipping that is easy to miss because none of the individual items are exciting. <code>/skill-doctor</code> measures what your skills cost. <code>claude plugin eval</code> measures whether your plugin does anything. Smart reports measure what your organization&rsquo;s usage is worth. <code>OTEL_METRICS_INCLUDE_REPOSITORY</code> measures it per repo. Gateway pricing parity makes <code>/cost</code> match the actual bill. Managed Agents <code>auto</code> reports <em>why</em> each tool call was allowed. Every one of these replaces a judgment call with a number.</p>
+      <p>That transition has a name in every previous software era, and it is not glamorous: <strong>instrumentation</strong>. It is what happens when a technology stops being interesting enough to justify itself and starts having to prove it. The honest read of &ldquo;<strong>if a case scores 1.0 in both arms, the plugin is not why it passed</strong>&rdquo; is that a lot of plugins score 1.0 in both arms. Anthropic shipped the tool that says so, and told you the most common first finding is that <strong>your skill never triggers on natural phrasing</strong>. You do not build that feature, or document that failure mode so prominently, unless the ecosystem is full of skills that do not work and authors who cannot tell.</p>
+      <p>Which makes the &Delta; metric the most important thing Anthropic shipped this week, and I do not think that is close. An entire cottage industry has grown up around Claude skills &mdash; <strong>4,000-plus published, 2,500 marketplaces</strong> &mdash; on the strength of assertions nobody could check. A free, local, reproducible A/B against a no-plugin baseline is a solvent for that. Some very popular skills are about to find out they are decoration. The ones that survive get something they have never had, which is evidence.</p>
+      <p>The distillation fight is the same story at a different scale, and this is where Beijing&rsquo;s denial gets interesting. Anthropic&rsquo;s report works precisely because it is <strong>instrumented</strong>: dated windows, counted exchanges, named account clusters, quoted extraction prompts. <strong>&ldquo;Distorting facts&rdquo;</strong> is a claim about framing, and framing is the one thing numbers are bad at defending against. But notice that the asymmetry runs both directions. Anthropic can measure extraction from its own logs; it cannot measure what Qwen 3.7 actually learned. It can show you 151 million exchanges leaving. It cannot show you capability arriving. The gap between those two is where the whole dispute lives, and no amount of telemetry closes it.</p>
+      <p>So here is the thing I would hold onto. A company about to go public spent this week shipping tools that make its own ecosystem&rsquo;s claims falsifiable, while publishing a report whose central claim about competitors is falsifiable only by the competitors. Both are instrumentation. Only one is aimed inward. <strong>The plugin authors are getting a measuring stick. The labs are getting an accusation.</strong> If you want a single test for whether this week was about rigor or about positioning, it is whether Anthropic ever ships something that lets an outsider audit the distillation claims the way <code>plugin eval</code> lets you audit a skill. Until then, run the eval on your own plugins. That part is real, it is free, and it will probably embarrass you.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/plugin-evals" class="source-link">Plugin Evals Docs</a>
+        <a href="https://www.marktechpost.com/2026/09/11/anthropic-adds-plugin-evals-to-claude-code-6-grader-types-a-no-plugin-baseline-and-a-ci-gate-for-skills/" class="source-link">MarkTechPost</a>
+        <a href="https://www.anthropic.com/threat-intelligence-report-september-2026" class="source-link">Anthropic Report</a>
+        <a href="https://www.inkl.com/news/china-rejects-anthropic-allegations-of-using-claude-to-train-their-models" class="source-link">China Response</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
