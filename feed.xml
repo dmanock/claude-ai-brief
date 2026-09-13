@@ -9,6 +9,19 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 13, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-13.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-13.html</guid>
+      <pubDate>Sun, 13 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. The Pentagon Clock Runs Out This Month</strong> — the Defense Department's supply-chain-risk designation stands and removal of Anthropic products from all Defense Department systems is due to complete by the end of September, with contractors still expected to comply, despite a federal judge ruling the blacklisting rested partly on capabilities Claude did not have and despite Commerce Secretary Howard Lutnick calling the administration's issues with Anthropic resolved.</p>
+        <p><strong>2. Brussels Gets Mythos, Three Months Late and One Version Behind</strong> — the EU cybersecurity agency ENISA is now testing Mythos 5, more than three months after Anthropic proposed access in late May, following months of wrangling over scope complicated by White House restrictions on foreign access to Mythos and Fable; ENISA does not receive the current iteration, Mythos 5.1.</p>
+        <p><strong>3. Walked From $6B, Lined Up $15B</strong> — Anthropic decided against a roughly $6 billion acquisition of Israeli startup Decart after due diligence, which would have been its largest deal, while finalizing an expansion of its revolving credit facility to $15 billion led by Morgan Stanley with Goldman Sachs, JPMorgan Chase and Citigroup — the same four banks leading the IPO.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-13.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — September 12, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-12.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-12.html</guid>
@@ -359,18 +372,6 @@
         <p><strong>2. Q2 Revenue Hits $11.5 Billion</strong> — Up from $787M a year ago and $4.73B last quarter, with positive adjusted operating income, as backers point to an October IPO targeting $2 trillion or higher.</p>
         <p><strong>3. August Risk Report Raises Misalignment to “Low”</strong> — Anthropic also disclosed that 133 million human-feedback exchanges with 50,000 contractors ran without its blocking biological classifiers attached.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-15.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 14, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-14.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-14.html</guid>
-      <pubDate>Fri, 14 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Auto Mode Is Now the Claude Code Default</strong> — The switch flipped today for Pro, Max, and Team. Anthropic’s data: the classifier blocked 89% of dangerous commands versus 13.6% for humans clicking approve.</p>
-        <p><strong>2. Sonnet 5’s $2/$10 Pricing Is Permanent</strong> — Anthropic canceled the September 1 increase to $3/$15, erasing a 50% bill hike for high-volume API users.</p>
-        <p><strong>3. Claude Tag Gets Free Proactive Replies</strong> — Claude in Slack now reads full channel context, memory, and standing instructions to decide when to speak, and is ~30% better at knowing when to stay quiet.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-14.html">Read full report →</a></p>
       ]]></description>
     </item>
     </channel>
