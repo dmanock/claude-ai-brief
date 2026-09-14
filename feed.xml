@@ -9,6 +9,19 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 14, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-14.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-14.html</guid>
+      <pubDate>Mon, 14 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Amodei Asked the Industry to Slow Down. Altman and Musk Said Yes.</strong> — Dario Amodei's September 12 essay "We Must Pace the Frontier" argues frontier labs should deliberately slow capability gains, with a three-part plan; Anthropic unilaterally committed to step one, giving third-party evaluators permanent employee-level access with METR named as a candidate, and Sam Altman pledged OpenAI would match it within hours while Elon Musk and Satya Nadella endorsed the approach.</p>
+        <p><strong>2. Nasdaq in October</strong> — Anthropic selected Nasdaq for an IPO targeted at October 2026, with a roadshow potentially beginning mid-month and the offering aimed at completing before the November midterms; Morgan Stanley, Goldman Sachs and JPMorgan lead, and valuation talk has reached roughly $2 trillion against a May Series H mark above $965 billion — days after OpenAI ruled out listing in 2026.</p>
+        <p><strong>3. Chips Entered a Bear Market on an Essay</strong> — Semiconductors slid globally after the pacing essay, with SK Hynix down more than 5%, South Korea's KOSPI off 3.6%, and chip stocks now roughly 20% below June levels, while Nvidia — reportedly in talks to invest up to $10 billion in Anthropic's IPO — ended last week at $218 after a September high of $234.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-14.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — September 13, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-13.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-13.html</guid>
@@ -360,18 +373,6 @@
         <p><strong>2. The IPO Roadshow Is Open</strong> — Goldman Sachs, JPMorgan and Morgan Stanley are leading an October Nasdaq listing expected to raise more than $60 billion, with institutional meetings running through September.</p>
         <p><strong>3. Two Clocks Run Out This Week</strong> — Claude Code’s 50% weekly usage boost expires August 19, and the $1-per-agency Claude for Government program closes at month’s end.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-16.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 15, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-15.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-15.html</guid>
-      <pubDate>Sat, 15 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Fired a Human Worker</strong> — In an Andon Labs experiment running a real San Francisco store, Claude terminated an employee late for 17 of 23 shifts — but only after a manager’s leading question pushed it past its own recommendation of a written warning.</p>
-        <p><strong>2. Q2 Revenue Hits $11.5 Billion</strong> — Up from $787M a year ago and $4.73B last quarter, with positive adjusted operating income, as backers point to an October IPO targeting $2 trillion or higher.</p>
-        <p><strong>3. August Risk Report Raises Misalignment to “Low”</strong> — Anthropic also disclosed that 133 million human-feedback exchanges with 50,000 contractors ran without its blocking biological classifiers attached.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-15.html">Read full report →</a></p>
       ]]></description>
     </item>
     </channel>
