@@ -9,6 +9,19 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 15, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-15.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-15.html</guid>
+      <pubDate>Tue, 15 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Is the $13.7B Mystery Customer</strong> — The Information reported that Anthropic is the previously unnamed buyer behind RUM Group's six-year, roughly $13.7 billion GPU services contract drawing on the Maysville, Georgia data center; RUM Group, which has long-standing ties to the Trump administration and says it still needs financing to fulfill the deal, issued a 10-year warrant for up to 50.8 million shares at $0.01 each, half of which only vests if the customer commits to another 400–500 megawatts at a second facility under construction.</p>
+        <p><strong>2. Three Labs Have Been Drafting Their Own Regulator Since July</strong> — the Washington Post and The Information reported that Anthropic, OpenAI and Google have held regular working-group meetings since at least July, most recently last week, on a shared AI standards body modeled on FINRA and seeded by a July essay from Demis Hassabis; the proposal centers on pre-release testing protocols, independent evaluations and standardized risk assessments, explicitly without government involvement, and nothing has been finalized.</p>
+        <p><strong>3. Claude Code Shipped Twice in One Day</strong> — version 2.1.271 added fast mode in Claude Code Remote sessions, mouse support in the /config panel in fullscreen, a self-hosted-runner --drain-marker-file option, and per-command allowed_domains for Bash, PowerShell and Monitor in auto mode with sandboxing, while 2.1.272 followed with terminal capability-query fixes, faster rendering on large diffs and long transcripts, styled Markdown artifacts, and artifact watching raised from 5 to 10.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-15.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — September 14, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-14.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-14.html</guid>
@@ -361,18 +374,6 @@
         <p><strong>2. The September Price Hike Is Cancelled</strong> — Sonnet 5’s introductory $2/$10 per million tokens is now permanent, killing the 50% increase that was scheduled for September 1.</p>
         <p><strong>3. A 42-Minute Auth Outage Hit Five Services</strong> — Sign-ins failed across claude.ai, Console, the API, Claude Code and Cowork from 21:58 to 22:40 UTC Sunday, an auth-layer failure with no graceful fallback.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-17.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 16, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-16.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-16.html</guid>
-      <pubDate>Sun, 16 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Workbench Retires Tomorrow</strong> — The legacy Workbench and the three experimental prompt tools endpoints go dark August 17, taking saved prompts, prompt versions and evals with them; export from the Console before then.</p>
-        <p><strong>2. The IPO Roadshow Is Open</strong> — Goldman Sachs, JPMorgan and Morgan Stanley are leading an October Nasdaq listing expected to raise more than $60 billion, with institutional meetings running through September.</p>
-        <p><strong>3. Two Clocks Run Out This Week</strong> — Claude Code’s 50% weekly usage boost expires August 19, and the $1-per-agency Claude for Government program closes at month’s end.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-16.html">Read full report →</a></p>
       ]]></description>
     </item>
     </channel>
