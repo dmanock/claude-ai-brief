@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 16, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-16.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-16.html</guid>
+      <pubDate>Wed, 16 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Huang Rejects the Antitrust Waiver, Zuckerberg Agrees</strong> — Nvidia CEO Jensen Huang called the antitrust exemption underpinning Anthropic's proposed coordinated slowdown "completely unnecessary," arguing that labs already have the power to test longer before shipping and that "safety is an engineering problem, testing is an engineering problem"; Meta CEO Mark Zuckerberg sided with him the same day, giving the pacing coalition its first serious opposition since Amodei's September 12 essay.</p>
+        <p><strong>2. Claude for Financial Advisors Ships With Schwab and BlackRock</strong> — Anthropic released a plugin bundling connectors to Charles Schwab, BlackRock, Addepar, Envestnet, iCapital, Orion, SS&amp;C Black Diamond, Wealthbox, Wealth.com, Vanguard and Zocks with workflow skills, using a data-custody architecture that keeps client records on each firm's own servers; investment recommendations and compliance determinations stay behind human review, Enterprise is recommended for RIAs because of its audit logs, and firms requesting a license before October receive a one-time usage credit.</p>
+        <p><strong>3. Claude Code 2.1.273 Lands and Anthropic's CI Hits 25x</strong> — The release added five opt-in LLM gateway hint headers behind CLAUDE_CODE_GATEWAY_HINT_HEADERS, a notification when an MCP server disconnects and reconnection gives up, remote-control session forking from the Claude app, and fixes for a subshell hiding a dangerous rm in bypass mode and for unanalyzable Bash commands skipping the permission prompt; separately, Anthropic's engineering blog disclosed that CI jobs grew 25-fold in six months while Claude authored roughly 80% of new production code.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-16.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — September 15, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-15.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-15.html</guid>
@@ -20,7 +32,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-15.html">Read full report →</a></p>
       ]]></description>
     </item>
-
     <item>
       <title>Claude AI Daily Brief — September 14, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-14.html</link>
@@ -33,7 +44,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-14.html">Read full report →</a></p>
       ]]></description>
     </item>
-
     <item>
       <title>Claude AI Daily Brief — September 13, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-13.html</link>
@@ -46,7 +56,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-13.html">Read full report →</a></p>
       ]]></description>
     </item>
-
     <item>
       <title>Claude AI Daily Brief — September 12, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-12.html</link>
@@ -59,7 +68,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-12.html">Read full report →</a></p>
       ]]></description>
     </item>
-
     <item>
       <title>Claude AI Daily Brief — September 11, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-11.html</link>
@@ -72,7 +80,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-11.html">Read full report →</a></p>
       ]]></description>
     </item>
-
     <item>
       <title>Claude AI Daily Brief — September 10, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-10.html</link>
@@ -85,7 +92,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-10.html">Read full report →</a></p>
       ]]></description>
     </item>
-
     <item>
       <title>Claude AI Daily Brief — September 9, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-09.html</link>
@@ -98,7 +104,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-09.html">Read full report →</a></p>
       ]]></description>
     </item>
-
     <item>
       <title>Claude AI Daily Brief — September 8, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-08.html</link>
@@ -111,7 +116,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-08.html">Read full report →</a></p>
       ]]></description>
     </item>
-
     <item>
       <title>Claude AI Daily Brief — September 7, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-07.html</link>
@@ -364,17 +368,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-18.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — August 17, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-17.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-17.html</guid>
-      <pubDate>Mon, 17 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Workbench Goes Dark Today</strong> — The legacy Workbench and the three experimental prompt tools endpoints retire today, taking saved prompts, versions and evals with them; export from the Console before you do anything else.</p>
-        <p><strong>2. The September Price Hike Is Cancelled</strong> — Sonnet 5’s introductory $2/$10 per million tokens is now permanent, killing the 50% increase that was scheduled for September 1.</p>
-        <p><strong>3. A 42-Minute Auth Outage Hit Five Services</strong> — Sign-ins failed across claude.ai, Console, the API, Claude Code and Cowork from 21:58 to 22:40 UTC Sunday, an auth-layer failure with no graceful fallback.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-17.html">Read full report →</a></p>
-      ]]></description>
-    </item>
+
     </channel>
 </rss>

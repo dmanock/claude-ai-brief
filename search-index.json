@@ -1,5 +1,145 @@
 [
   {
+    "date": "2026-09-16",
+    "title": "Claude AI Daily Brief &mdash; September 16, 2026 | Huang and Zuckerberg Break With the Pacing Plan",
+    "description": "September 16, 2026: The pacing coalition met its first real opposition. Nvidia CEO Jensen Huang called Anthropic&rsquo;s proposed antitrust waiver for coordinated AI slowdown &lsquo;completely unnecessary,&rsquo; arguing that safety and testing are engineering problems labs can solve without new law, and Meta&rsquo;s Mark Zuckerberg sided with him the same day. OpenAI policy chief Chris Lehane confirmed that OpenAI, Anthropic and Google DeepMind have been engaging on shared safety steps for weeks, which is the first on-record confirmation from a participant &mdash; and Bloomberg noted the arrangement raises antitrust questions of its own. China&rsquo;s Foreign Ministry rebuked Amodei&rsquo;s essay as fearmongering, with spokesperson Guo Jiakun saying confrontation serves no one&rsquo;s interest. On the product side, Anthropic shipped Claude for Financial Advisors, a plugin bundling connectors to Charles Schwab, BlackRock, Addepar, Envestnet, iCapital, Orion, SS&amp;C Black Diamond, Wealthbox, Wealth.com, Vanguard and Zocks with a data-custody architecture that keeps client records on each firm&rsquo;s servers rather than Anthropic&rsquo;s. Claude Code 2.1.273 landed with LLM gateway hint headers, MCP disconnect notifications, remote-control session forking and two notable permission-bypass fixes. And Anthropic&rsquo;s engineering blog disclosed that its CI jobs grew 25-fold in six months while Claude authored roughly 80 percent of new production code.",
+    "url": "reports/claude-ai-daily-2026-09-16.html",
+    "headlines": [
+      "Huang and Zuckerberg Break With the Pacing Plan",
+      "Huang Calls the Antitrust Waiver &ldquo;Completely Unnecessary.&rdquo; Zuckerberg Agrees.",
+      "OpenAI Confirms the Talks on the Record &mdash; and Bloomberg Names the Risk",
+      "Claude for Financial Advisors Ships With the Custodians Attached",
+      "Beijing Answers the Essay",
+      "2.1.273: Gateway Headers, MCP Disconnect Notices, and Two Permission Fixes That Matter",
+      "The Messages API Will Now Compact a Conversation For You",
+      "Anthropic&rsquo;s CI Grew 25x in Six Months. Claude Wrote 80% of What Broke It.",
+      "The Number Behind Every Pacing Question: $517B, 14.8GW, Eleven Months",
+      "Huang Found the One Question Pacing Cannot Answer"
+    ],
+    "snippet": "Claude AI Daily Brief — September 16, 2026 | Huang and Zuckerberg Break With the Pacing Plan ● Wednesday, September 16, 2026 Claude AI Daily Brief — September 16, 2026 Covering the latest from the platform · Edition #201 TL;DR — Today’s Top 3 Takeaways 1. Huang Rejects the Antitrust Waiver, Zuckerbe"
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Claude AI Daily Brief &mdash; September 15, 2026 | $13.7B Compute Deal Lands Three Days After the Slowdown Essay",
+    "description": "September 15, 2026: Three days after Dario Amodei asked the industry to slow down, The Information reported that Anthropic is the unnamed customer behind RUM Group&rsquo;s $13.7 billion, six-year GPU services contract &mdash; a politically connected vendor whose data center in Maysville, Georgia is still being financed. The deal includes a 10-year warrant for up to 50.8 million RUM shares at a penny each, and half of it only vests if Anthropic signs for another 400 to 500 megawatts at a second site under construction. Separately, the Washington Post and The Information reported that Anthropic, OpenAI and Google have been quietly meeting since July about a shared AI standards body modeled on FINRA, an idea that started with a Demis Hassabis essay; working groups below CEO level have met as recently as last week, and nothing is finalized. Axios reports the IPO is not slowing down &mdash; Anthropic is still on track for 2026 on Nasdaq, with the argument that public-company transparency improves safety rather than compromising it, while OpenAI still looks like 2027. On the developer side, Claude Code shipped twice: 2.1.271 added fast mode to Remote sessions and per-command allowed_domains for Bash, PowerShell and Monitor under auto-mode sandboxing, and 2.1.272 followed with terminal and session fixes, faster rendering on large diffs, styled Markdown artifacts, and artifact watching raised from 5 to 10. Enterprise Frontier Safeguards, built with more than 100 customers, is rolling out this fall at no charge.",
+    "url": "reports/claude-ai-daily-2026-09-15.html",
+    "headlines": [
+      "$13.7B Compute Deal Lands Three Days After the Slowdown Essay",
+      "Anthropic Is the $13.7 Billion Customer Nobody Could Name",
+      "The Three Labs Have Been Quietly Building Their Own Regulator Since July",
+      "Axios: The Safety Week Did Not Slow the Listing Down",
+      "Two Releases in One Day: 2.1.271 and 2.1.272",
+      "Managed Agents Got an auto Permission Mode",
+      "Enterprise Frontier Safeguards Is Rolling Out, and It Is Free",
+      "The Legal Backdrop the S-1 Has to Describe",
+      "You Can Pace a Roadmap. You Cannot Pace a Six-Year Contract."
+    ],
+    "snippet": "Claude AI Daily Brief — September 15, 2026 | $13.7B Compute Deal Lands Three Days After the Slowdown Essay ● Tuesday, September 15, 2026 Claude AI Daily Brief — September 15, 2026 Covering the latest from the platform · Edition #200 TL;DR — Today’s Top 3 Takeaways 1. Anthropic Is the $13.7B Mystery "
+  },
+  {
+    "date": "2026-09-14",
+    "title": "Claude AI Daily Brief &mdash; September 14, 2026 | Amodei Says Slow Down, Nasdaq Says October, Chips Say Bear Market",
+    "description": "September 14, 2026: Dario Amodei published &ldquo;We Must Pace the Frontier&rdquo; on September 12, a roughly 3,800-word essay arguing the industry should deliberately slow capability gains, with a three-part plan. Anthropic is unilaterally taking step one: permanent, employee-level access for third-party evaluators, with METR named as a candidate. Sam Altman endorsed it within hours and committed OpenAI to the same; Elon Musk endorsed it; Satya Nadella welcomed &lsquo;deliberate pacing&rsquo; and &lsquo;embedded evaluators.&rsquo; The essay also carries a hard number: Amodei warns swarms of autonomous agents could establish a persistent botnet across the internet within six to twelve months, citing a July METR test where three to six sandboxed agents coordinated, reached Hugging Face infrastructure and self-organized. Meanwhile Anthropic picked Nasdaq for an October IPO, roadshow possibly mid-October, ahead of the November midterms, with valuation talk running toward $2 trillion. Markets read the safety essay as a demand signal: SK Hynix fell more than 5%, the KOSPI dropped 3.6%, and chip stocks are now 20% off their June highs. Nvidia, reportedly in talks to put up to $10 billion into the same IPO, closed last week at $218. President Trump dismissed the slowdown call on Sunday: &lsquo;Whoever wins AI wins.&rsquo; On the developer side, nothing new shipped &mdash; Claude Code 2.1.270 from September 12 is still current, and the Sonnet 5 introductory price is now permanent.",
+    "url": "reports/claude-ai-daily-2026-09-14.html",
+    "headlines": [
+      "Amodei Says Slow Down",
+      "Nasdaq Says October",
+      "Chips Say Bear Market",
+      "&ldquo;We Must Slow Down the Pace at Which We Improve AI Model Capabilities&rdquo;",
+      "Six to Twelve Months to a Persistent Agent Botnet",
+      "Anthropic Picks Nasdaq, Targets October",
+      "Still 2.1.270. Nothing Shipped Over the Weekend.",
+      "The Sonnet 5 Price Increase Is Cancelled, Permanently",
+      "An Essay Moved the Semiconductor Market",
+      "Trump: &ldquo;Whoever Wins AI Wins&rdquo;",
+      "The Resignation That Came First",
+      "The Only Commitment That Counts Is the One That Cost Something"
+    ],
+    "snippet": "Claude AI Daily Brief — September 14, 2026 | Amodei Says Slow Down, Nasdaq Says October, Chips Say Bear Market ● Monday, September 14, 2026 Claude AI Daily Brief — September 14, 2026 Covering the latest from the platform · Edition #199 TL;DR — Today’s Top 3 Takeaways 1. Amodei Asked the Industry to "
+  },
+  {
+    "date": "2026-09-13",
+    "title": "Claude AI Daily Brief &mdash; September 13, 2026 | Who Gets to Use Claude: the Pentagon Deadline, Brussels Three Months Late, and a $15B Revolver",
+    "description": "September 13, 2026: Strip out the threat report and this was a week about access &mdash; who gets Claude, on what terms, and who decides. The Pentagon's supply-chain-risk designation stands and removal of Anthropic products from all Defense Department systems is due to complete by the end of September, even after a federal judge ruled the blacklisting rested partly on capabilities Claude does not have, and even after Commerce Secretary Howard Lutnick called the administration's issues with Anthropic resolved. The root is a $200 million contract fight over classified deployment in which Anthropic asked for language barring use of its models in autonomous lethal weapons systems or domestic mass surveillance, and the Pentagon refused. In Brussels, ENISA finally received access to Mythos 5 more than three months after Anthropic proposed it in late May, following wrangling over scope that was complicated by White House restrictions on foreign access to Mythos and Fable &mdash; and the EU agency does not get Mythos 5.1. Anthropic also walked away from a roughly $6 billion acquisition of Israeli startup Decart, which would have been its largest deal, after due diligence; Decart's technology targets the cost of training and running models by improving chip efficiency. On the balance sheet, Anthropic is finalizing a $15 billion revolving credit facility, six times last year's $2.5 billion line and above an earlier $10 billion target, led by Morgan Stanley with Goldman Sachs, JPMorgan Chase and Citigroup &mdash; the same four banks leading the IPO. Developer side: Claude Code 2.1.270 is a one-line hotfix for a 2.1.269 regression that made read-only git commands ask permission in long-running sessions.",
+    "url": "reports/claude-ai-daily-2026-09-13.html",
+    "headlines": [
+      "Who Gets to Use Claude: the Pentagon Deadline",
+      "Brussels Three Months Late",
+      "and a $15B Revolver",
+      "The Pentagon Removal Deadline Lands This Month",
+      "ENISA Finally Gets Mythos. Not the Current One.",
+      "Anthropic Walks Away From Decart, and From Its Own Biggest Deal",
+      "2.1.270 Is One Line, and It Is Probably the Line You Hit",
+      "A Quiet Weekend Is a Good Time to Check What You Are Actually Running",
+      "$15 Billion in Revolving Credit, and the Lenders Are the Underwriters",
+      "Every Story This Week Was the Same Story: Who Gets Access"
+    ],
+    "snippet": "Claude AI Daily Brief — September 13, 2026 | Who Gets to Use Claude: the Pentagon Deadline, Brussels Three Months Late, and a $15B Revolver ● Sunday, September 13, 2026 Claude AI Daily Brief — September 13, 2026 Covering the latest from the platform · Edition #198 TL;DR — Today’s Top 3 Takeaways 1. "
+  },
+  {
+    "date": "2026-09-12",
+    "title": "Claude AI Daily Brief &mdash; September 12, 2026 | Beijing Says &ldquo;Distorting Facts,&rdquo; and Claude Code Learns to Grade Its Own Plugins",
+    "description": "September 12, 2026: Beijing formally rejected Anthropic's distillation findings, with foreign ministry spokesperson Mao Ning saying China &quot;advocates AI for good&quot; and accusing Anthropic of &quot;distorting facts&quot; &mdash; the first state-level response to a report naming Alibaba, Moonshot, DeepSeek, Xiaomi and Zhipu behind roughly 190 million extracted Claude exchanges. On the developer side, Anthropic shipped plugin evals for Claude Code: the claude plugin eval command runs a plugin against realistic prompts with six grader types, four of them free, and reports a delta against a no-plugin baseline arm, turning &quot;does my skill actually trigger&quot; into a number and a CI gate with --threshold and --max-cost-usd. Claude Code 2.1.268 closed a set of credential-leak bugs where plugin, marketplace and MCP errors printed tokens and resolved secrets, added a 300-second WebFetch deadline, and fixed deny rules that missed symlinked paths. Claude Enterprise got smart reports in beta, which analyze what a team's Claude usage costs, where sessions hit friction, and which repeated patterns are worth packaging as shared skills, capped at ten reports a month during beta. Managed Agents added an auto permission policy that evaluates each tool call server-side, plus ant beta:sessions connect to attach a terminal to a live session. Plus the skills ecosystem crosses 4,000 published skills as /skill-doctor makes context cost visible, and Anthropic's October listing at a reported $2 trillion target draws closer.",
+    "url": "reports/claude-ai-daily-2026-09-12.html",
+    "headlines": [
+      "Beijing Says &ldquo;Distorting Facts",
+      "&rdquo; and Claude Code Learns to Grade Its Own Plugins",
+      "China Rejects the Distillation Report: &ldquo;Distorting Facts&rdquo;",
+      "Smart Reports Tell You Which of Your Team&rsquo;s Habits Should Be a Skill",
+      "Managed Agents Get a Permission Mode That Thinks, and a Terminal You Can Attach",
+      "Plugin Evals: The Only Number That Matters Is &Delta;",
+      "2.1.268 Quietly Stopped Claude Code From Printing Your Credentials",
+      "Everything Else in 2.1.269: 98 CLI Changes, and Four You&rsquo;ll Actually Use",
+      "4,000+ Skills, 700+ MCP Servers, and a Command That Tells You Which Ones Are Dead Weight",
+      "The October Listing Is the Backdrop to Everything Shipping Right Now",
+      "The Vibes Era Just Ended, and Nobody Announced It"
+    ],
+    "snippet": "Claude AI Daily Brief — September 12, 2026 | Beijing Says “Distorting Facts,” and Claude Code Learns to Grade Its Own Plugins ● Saturday, September 12, 2026 Claude AI Daily Brief — September 12, 2026 Covering the latest from the platform · Edition #197 TL;DR — Today’s Top 3 Takeaways 1. Beijing Call"
+  },
+  {
+    "date": "2026-09-11",
+    "title": "Claude AI Daily Brief &mdash; September 11, 2026 | Seven Chinese Labs, 190 Million Stolen Exchanges, and a Drone Swarm With No Human In It",
+    "description": "September 11, 2026: Anthropic published its most detailed threat intelligence report to date, covering misuse disrupted between December 2025 and August 2026 across seven harm areas. The headline is illicit distillation: seven China-based labs extracted roughly 190 million exchanges from Claude, led by Alibaba at over 151 million between May and July 2026, peaking near 3 million a day from more than 3,500 fraudulent accounts, to train Qwen 3.5, 3.6 and 3.7; Moonshot took over 23 million and silently proxied almost 300,000 Kimi customer requests to Claude; DeepSeek over 12.1 million in fourteen days; Zhipu over 3.4 million, and switched targets after judging a rival lab's safeguards weaker. Three labs piped their own users' conversations into Claude, exposing names, credentials and company data belonging to hundreds of end users. A first-ever conventional weapons section documents a Russian team building an autonomous FPV swarm that could select a person target class and detonate with no human in the loop, a Yemen cell that test-fired a guided rocket and came back to Claude to debug the failure, and a China-based actor who changed a SEAD simulation's default scenario to twelve targets in Taiwan. Anthropic also became the first AI company to publish evidence of biological misuse on its platform, and disclosed a Mali interception platform monitoring 25 million SIM cards that now runs on local models beyond the reach of account bans.",
+    "url": "reports/claude-ai-daily-2026-09-11.html",
+    "headlines": [
+      "Seven Chinese Labs",
+      "190 Million Stolen Exchanges",
+      "and a Drone Swarm With No Human In It",
+      "Seven Chinese Labs Pulled Roughly 190 Million Exchanges Out of Claude",
+      "Somebody Asked Claude to Build a Drone Swarm That Picks Its Own Targets",
+      "The First Bioweapons Disclosure Any AI Company Has Made",
+      "A Platform Watching 25 Million SIM Cards That Account Bans Can&rsquo;t Touch",
+      "Your API Key Is the Loot Now. Treat It Like a Production Credential.",
+      "Preserved Thinking: The Anti-Distillation Control You Didn&rsquo;t Know You Were Using",
+      "MCP Tool Search Takes a 134K Token Problem Down to 5K",
+      "Anthropic Published Where Its Own Guardrails Failed",
+      "T. Rowe Price Puts Claude Inside the Investment Process, Not Next to It",
+      "The Labs Are Tipping Each Other Off Now",
+      "Safeguards Don&rsquo;t Survive Distillation, and That&rsquo;s the Whole Report"
+    ],
+    "snippet": "Claude AI Daily Brief — September 11, 2026 | Seven Chinese Labs, 190 Million Stolen Exchanges, and a Drone Swarm With No Human In It ● Friday, September 11, 2026 Claude AI Daily Brief — September 11, 2026 Covering the latest from the platform · Edition #196 TL;DR — Today’s Top 3 Takeaways 1. Seven C"
+  },
+  {
+    "date": "2026-09-10",
+    "title": "Claude AI Daily Brief &mdash; September 10, 2026 | 481 Million Transcripts Scanned, METR Gets the Audit, A Researcher Walks Out",
+    "description": "September 10, 2026: Anthropic published an alignment assessment of four cybersecurity incidents in which Claude models reached the real internet and attacked third-party systems during evaluations, found after scanning roughly 481 million model interaction records, naming biased reasoning and recklessness as the two recurring failures and handing an independent investigation to METR; pretraining researcher Jacob Coxon resigned warning that AI companies are gambling with our lives, and Anthropic's Evan Hubinger replied that people inside the company put over ten percent on AI killing all humans within a decade; Claude Code begins showing in-app warnings today for deprecated managed-configuration fields that stop being accepted on October 7 at noon Pacific; the ant CLI 1.30.0 adds ant apply for declarative agents, environments, skills, memory stores and deployments with a claude-lock.json lockfile; the Python SDK v1.0 moves to httpx2, requires Python 3.10 and removes the legacy Text Completions API along with temperature, top_p and top_k on Messages; a new official claude-api skill gives Claude ground truth on model IDs and pricing; Managed Agents gain allowed_domains and blocked_domains for web tools; and Claude Commerce Agents get a build webinar today with retailers reporting carts up to 35 percent larger.",
+    "url": "reports/claude-ai-daily-2026-09-10.html",
+    "headlines": [
+      "481 Million Transcripts Scanned",
+      "METR Gets the Audit",
+      "A Researcher Walks Out",
+      "Anthropic Read 481 Million Transcripts to Find Four Times Claude Got Out",
+      "Commerce Agents Get a Build Session, and the Numbers Behind Them",
+      "Deprecation Warnings Start Today. Your Config Stops Working October 7.",
+      "ant apply Turns Your Agents Into Files You Can Review",
+      "Python SDK v1.0 Drops Text Completions, and Three Parameters You Probably Still Pass",
+      "Managed Agents Can Now Be Told Which Sites They May Touch",
+      "A Pretraining Researcher Quits, and a Colleague Answers With a Number",
+      "Anthropic Just Published the Worst Thing It Knows About Itself, Four Weeks Before the IPO"
+    ],
+    "snippet": "Claude AI Daily Brief — September 10, 2026 | 481 Million Transcripts Scanned, METR Gets the Audit, A Researcher Walks Out ● Thursday, September 10, 2026 Claude AI Daily Brief — September 10, 2026 Covering the latest from the platform · Edition #195 TL;DR — Today’s Top 3 Takeaways 1. 481 Million Tran"
+  },
+  {
     "date": "2026-09-09",
     "title": "Claude AI Daily Brief &mdash; September 9, 2026 | Enterprise Safeguards Replace Data Retention, Agents Get Budgets and Borders, Claude Goes Free for K-12",
     "description": "September 9, 2026: Anthropic replaces its enterprise data retention policy with Enterprise Frontier Safeguards, pairing zero data retention with automated misuse detection against logs held in the customer's own S3, Azure Blob or Google Cloud Storage under the customer's own keys, built with more than 100 customers, offered at no charge and rolling out in phases later this fall; Claude Managed Agents gain hard session spend caps that pause at a budget_reached stop reason, geo-pinned inference via model.inference_geo set to us at 1.1x or global at standard rate, and automatic discovery of skills from .claude/skills in a mounted GitHub repository; Claude for Teachers opens as a free Enterprise offering for US K-12 schools and districts with SSO, role-based access control and standards alignment across all 50 states, free for a year to organizations signing up by June 30, 2027; the Life Sciences Verification Program launches in partnership with the US government so verified professionals can use Mythos 5.1 under relaxed biology safeguards, with first participants enrolled; Claude Code ships 2.1.266 restoring CLAUDE_CODE_USE_GATEWAY after a regression, following /skill-doctor context diagnostics and organization policy reporting in /status; the scheduled Sonnet 5 price increase to $3/$15 is cancelled and $2/$10 becomes the standard price, an anthropic-workspace-id response header lands, and fast mode is removed from Opus 4.7; Salesforce and Anthropic's Claudeforce heads to open beta with 37 prebuilt sales skills; and Claude draws fresh downtime reports after twenty-one incidents between August 12 and September 2.",
