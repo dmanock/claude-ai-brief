@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-09-17",
+    "title": "Claude AI Daily Brief &mdash; September 17, 2026 | Cowork Disappears Into Claude",
+    "description": "September 17, 2026: Anthropic retired Claude Cowork as a separate product and folded its agentic capabilities into the default Claude chat interface, launching Claude Docs and Claude Slides in beta and bringing Claude Design into any conversation. Rolling out to Pro and Max on web, desktop and mobile over the coming weeks, with Team and Free to follow and Enterprise admins getting at least 30 days notice. Anthropic head of public policy Sarah Heck told POLITICO&rsquo;s Decoded Summit that AI safety cannot run on an honor code and that companies cannot check their own homework, while saying Anthropic talks to the White House daily. King Charles III convened AI leaders at Dumfries House in Scotland, with Nvidia, OpenAI, Google DeepMind and Anthropic represented. Anthropic will open a Singapore office in October led by Dale Finlay, hired out of OpenAI. Claude Code 2.1.274 shipped with a critical-memory warning, a stack of MCP transport fixes, and v2 MCP as the default on Bedrock, Vertex and Foundry. And the third-party evaluators Anthropic and OpenAI promised to embed say they want the terms in writing first.",
+    "url": "reports/claude-ai-daily-2026-09-17.html",
+    "headlines": [
+      "Cowork Disappears Into Claude",
+      "Cowork Is Now Just Claude &mdash; and Docs and Slides Arrive With It",
+      "Anthropic&rsquo;s Policy Chief: No Honor Code, No Self-Grading",
+      "The King Gets a Meeting the Regulators Haven&rsquo;t",
+      "Anthropic Opens Singapore in October, Hires OpenAI&rsquo;s Regional Lead to Run It",
+      "2.1.274: The MCP Transport Release",
+      "Three Security Fixes in 2.1.274 You Should Read Before Upgrading Anything Else",
+      "The Auditors Anthropic Promised to Embed Would Like the Terms in Writing",
+      "Most of the Lawmakers Regulating AI Have Never Used It",
+      "Anthropic Just Deleted the Word &ldquo;Agent&rdquo; From Its Own Interface"
+    ],
+    "snippet": "Claude AI Daily Brief — September 17, 2026 | Cowork Disappears Into Claude ● Thursday, September 17, 2026 Claude AI Daily Brief — September 17, 2026 Covering the latest from the platform · Edition #202 TL;DR — Today’s Top 3 Takeaways 1. Cowork Is Gone. It’s Just Claude Now. — Anthropic retired the C"
+  },
+  {
     "date": "2026-09-16",
     "title": "Claude AI Daily Brief &mdash; September 16, 2026 | Huang and Zuckerberg Break With the Pacing Plan",
     "description": "September 16, 2026: The pacing coalition met its first real opposition. Nvidia CEO Jensen Huang called Anthropic&rsquo;s proposed antitrust waiver for coordinated AI slowdown &lsquo;completely unnecessary,&rsquo; arguing that safety and testing are engineering problems labs can solve without new law, and Meta&rsquo;s Mark Zuckerberg sided with him the same day. OpenAI policy chief Chris Lehane confirmed that OpenAI, Anthropic and Google DeepMind have been engaging on shared safety steps for weeks, which is the first on-record confirmation from a participant &mdash; and Bloomberg noted the arrangement raises antitrust questions of its own. China&rsquo;s Foreign Ministry rebuked Amodei&rsquo;s essay as fearmongering, with spokesperson Guo Jiakun saying confrontation serves no one&rsquo;s interest. On the product side, Anthropic shipped Claude for Financial Advisors, a plugin bundling connectors to Charles Schwab, BlackRock, Addepar, Envestnet, iCapital, Orion, SS&amp;C Black Diamond, Wealthbox, Wealth.com, Vanguard and Zocks with a data-custody architecture that keeps client records on each firm&rsquo;s servers rather than Anthropic&rsquo;s. Claude Code 2.1.273 landed with LLM gateway hint headers, MCP disconnect notifications, remote-control session forking and two notable permission-bypass fixes. And Anthropic&rsquo;s engineering blog disclosed that its CI jobs grew 25-fold in six months while Claude authored roughly 80 percent of new production code.",

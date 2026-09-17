@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 17, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-17.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-17.html</guid>
+      <pubDate>Thu, 17 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Cowork Is Gone — It's Just Claude Now</strong> — Anthropic retired Claude Cowork as a separate product and folded its agentic capabilities into the default chat interface, removing the Chat-versus-Cowork toggle so Claude itself decides when a conversation becomes a longer-running project; existing chats, projects, artifacts, connectors and skills carry over, the rollout starts with Pro and Max on web, desktop and mobile, Team and Free follow, Enterprise admins get at least 30 days notice, and Claude Code stays separate for developers working in terminals and IDEs.</p>
+        <p><strong>2. Claude Docs and Claude Slides Ship in Beta</strong> — Launched alongside the merge with Claude Design now working inside any conversation, the two are web-native working documents rather than files generated at the end of a chat: they live at a single shareable link, support simultaneous editing and comments, stay editable from a phone, and export to PowerPoint or PDF for Slides and Microsoft Word or Google Docs for Docs.</p>
+        <p><strong>3. Anthropic's Policy Chief Rejects the Honor Code</strong> — At POLITICO's Decoded Summit in Washington, head of public policy Sarah Heck said there is no world where people accept AI companies doing safety on an honor code and that "we can't be checking our own homework," rejecting the self-regulation posture congressional Republicans have relied on while noting Anthropic speaks with the White House daily; separately, Claude Code 2.1.274 shipped with an MCP transport overhaul and three security-relevant permission and secret-redaction fixes.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-17.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — September 16, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-16.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-16.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Another Degraded-Performance Day</strong> — Elevated errors on Opus 5 and Haiku 4.5 follow seven separate incidents between August 12 and 16, including a 42-minute multi-service outage.</p>
         <p><strong>3. Cowork Lands in the Chrome Side Panel</strong> — Skills, plugins and connectors now work in the browser for the first time with no extra setup.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-19.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 18, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-18.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-18.html</guid>
-      <pubDate>Tue, 18 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Revenue Run Rate Passes $65 Billion</strong> — Preliminary Q2 revenue topped $11.5 billion, a 14x jump year over year, with positive adjusted operating income and investors modeling $100–120 billion by year end.</p>
-        <p><strong>2. Anthropic Raised Its Own Risk Rating</strong> — The August risk report moves catastrophic misalignment from very low to low, driven by uncertainty rather than a failed test, and discloses an unreleased internal model more capable than Mythos 5.</p>
-        <p><strong>3. The Usage Boost Ends Tomorrow</strong> — Claude Code’s temporary 50% weekly increase runs through August 19 with no sign of a third extension; size your plan against the standard ceiling before Thursday.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-18.html">Read full report →</a></p>
       ]]></description>
     </item>
 
