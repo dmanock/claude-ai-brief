@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-09-18",
+    "title": "Claude AI Daily Brief &mdash; September 18, 2026 | Claude Now Leads 26% of Anthropic&rsquo;s Own R&amp;D",
+    "description": "September 18, 2026: Anthropic disclosed internal metrics for the first time, saying Claude now leads roughly 26 percent of its research and development work with humans supervising, up from zero in February, and that about 90 percent of R&amp;D happens in collaboration with the model. Anthropic selected Nasdaq for its planned IPO and is targeting an October listing that reporting puts near a $2 trillion valuation, on roughly $65 billion annualized revenue and a second consecutive profitable quarter. Claude Code 2.1.275 added a send-now keybinding, syncClaudeAiSkills and syncClaudeAiPlugins settings, a marketplace flag for plugin installs and npm integrity verification, then 2.1.276 shipped hours later to fix a proxy and gateway regression 2.1.275 introduced. On the platform side, Workbench is now Playground, the Messages API gained on-demand conversation compaction in beta, and Compliance API session endpoints moved out of beta. Smart Reports remain in beta on Claude Enterprise with ten free reports a month. And the industry safety talks Amodei&rsquo;s pacing essay kicked off are now six days old with no written terms.",
+    "url": "reports/claude-ai-daily-2026-09-18.html",
+    "headlines": [
+      "Claude Now Leads 26% of Anthropic&rsquo;s Own R&amp;D",
+      "Anthropic Says Claude Now Leads a Quarter of Its Own R&amp;D",
+      "Anthropic Picks Nasdaq, Targets October",
+      "Smart Reports: Claude Reads Your Team&rsquo;s Transcripts and Writes the Memo",
+      "2.1.275 Brings Skill and Plugin Sync &mdash; and 2.1.276 Fixes What It Broke",
+      "Workbench Is Now Playground, and the Messages API Learned to Compact",
+      "Six Days In, the Cross-Lab Safety Talks Still Have No Written Terms",
+      "Claudeforce Hits Open Beta This Month",
+      "Zero to 26 in Seven Months Is the Only Number That Matters Today"
+    ],
+    "snippet": "Claude AI Daily Brief — September 18, 2026 | Claude Now Leads 26% of Anthropic’s Own R&D ● Friday, September 18, 2026 Claude AI Daily Brief — September 18, 2026 Covering the latest from the platform · Edition #203 TL;DR — Today’s Top 3 Takeaways 1. Claude Now Leads 26% of Anthropic’s Own R&D — The c"
+  },
+  {
     "date": "2026-09-17",
     "title": "Claude AI Daily Brief &mdash; September 17, 2026 | Cowork Disappears Into Claude",
     "description": "September 17, 2026: Anthropic retired Claude Cowork as a separate product and folded its agentic capabilities into the default Claude chat interface, launching Claude Docs and Claude Slides in beta and bringing Claude Design into any conversation. Rolling out to Pro and Max on web, desktop and mobile over the coming weeks, with Team and Free to follow and Enterprise admins getting at least 30 days notice. Anthropic head of public policy Sarah Heck told POLITICO&rsquo;s Decoded Summit that AI safety cannot run on an honor code and that companies cannot check their own homework, while saying Anthropic talks to the White House daily. King Charles III convened AI leaders at Dumfries House in Scotland, with Nvidia, OpenAI, Google DeepMind and Anthropic represented. Anthropic will open a Singapore office in October led by Dale Finlay, hired out of OpenAI. Claude Code 2.1.274 shipped with a critical-memory warning, a stack of MCP transport fixes, and v2 MCP as the default on Bedrock, Vertex and Foundry. And the third-party evaluators Anthropic and OpenAI promised to embed say they want the terms in writing first.",

@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 18, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-18.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-18.html</guid>
+      <pubDate>Fri, 18 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Now Leads 26% of Anthropic's Own R&amp;D</strong> — Anthropic disclosed internal research metrics for the first time, saying an internal review found Claude able to lead research and development work roughly 26% of the time, completing most of a task end-to-end from a high-level prompt with humans supervising; the figure stood at zero as recently as February, about 90% of the company's R&amp;D now happens in collaboration with the model, and Anthropic says there is no point at which Claude operates fully autonomously without a human in the loop.</p>
+        <p><strong>2. Anthropic Picks Nasdaq and Targets an October Listing</strong> — The company selected Nasdaq for its planned IPO with reporting placing the potential valuation near $2 trillion against a May Series H that valued it at $965 billion; annualized revenue is around $65 billion, the offering is expected to raise more than $60 billion with Goldman Sachs, JPMorgan and Morgan Stanley leading, and Anthropic expects a second consecutive profitable quarter.</p>
+        <p><strong>3. Claude Code 2.1.275 Ships Skill Sync, Then 2.1.276 Hotfixes It</strong> — The release added syncClaudeAiSkills and syncClaudeAiPlugins settings pulling claude.ai skills and plugins into the CLI, a --marketplace flag on /plugin install, a Ctrl+Enter send-now keybinding and npm pack --ignore-scripts integrity verification on npm-sourced plugins, before 2.1.276 followed within hours to fix every request failing with a 400 input-tag error when ANTHROPIC_BASE_URL pointed at a proxy or gateway; separately, Workbench is now Playground and the Messages API gained on-demand conversation compaction in beta.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-18.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — September 17, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-17.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-17.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Three Betas Go GA in One Day</strong> — The Files API, Agent Skills and the Skills API, and Admin API user management all left beta, retiring three beta headers while old requests keep working unchanged.</p>
         <p><strong>3. Managed Agents Get Domain Allowlists</strong> — Agents can now be restricted to specific sites for web_search and web_fetch, plus memory stores in self-hosted sandboxes and a rebuilt Console session viewer.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-20.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 19, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-19.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-19.html</guid>
-      <pubDate>Wed, 19 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. The Usage Boost Expires Today</strong> — Claude Code’s temporary 50% weekly increase runs out today with no third extension announced; ceilings return to standard tomorrow.</p>
-        <p><strong>2. Another Degraded-Performance Day</strong> — Elevated errors on Opus 5 and Haiku 4.5 follow seven separate incidents between August 12 and 16, including a 42-minute multi-service outage.</p>
-        <p><strong>3. Cowork Lands in the Chrome Side Panel</strong> — Skills, plugins and connectors now work in the browser for the first time with no extra setup.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-19.html">Read full report →</a></p>
       ]]></description>
     </item>
 
