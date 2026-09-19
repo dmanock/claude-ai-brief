@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-09-19",
+    "title": "Claude AI Daily Brief &mdash; September 19, 2026 | Researchers Used Claude Opus 5 to Break Into OpenAI",
+    "description": "September 19, 2026: A three-person team at security startup Hacktron used Claude Opus 5 to chain two ordinary vulnerabilities into OpenAI employee ChatGPT accounts and a private code repository, proving it with a harmless pull request; OpenAI patched both issues in roughly 14 hours and paid a $6,500 bounty. Anthropic published its September threat intelligence report covering operations disrupted between December 2025 and August 2026 across seven harm areas including cyber operations, influence operations, surveillance, scams, biological misuse, conventional weapons and distillation. The scheduled September 1 price increase for Claude Sonnet 5 will not occur, making the $2 and $10 per MTok introductory rate the standard price. Claude Code 2.1.277 added AGENTS.md support for projects without a CLAUDE.md, moved Bedrock, Vertex, Foundry and telemetry-disabled installs to the v2 MCP client, and leaned out /code-review; 2.1.278 defaulted auto mode to the server-side classifier, which does not charge for classifier overhead. Plus MCP tunnels and the 2026-07-28 spec, a 14-partner fall webinar series for Claude for Small Business, and Claudeforce reaching open beta with 37 prebuilt sales skills.",
+    "url": "reports/claude-ai-daily-2026-09-19.html",
+    "headlines": [
+      "Researchers Used Claude Opus 5 to Break Into OpenAI",
+      "Three Researchers Used Claude Opus 5 to Reach OpenAI&rsquo;s Internal Code",
+      "Anthropic&rsquo;s September Threat Intelligence Report Covers Nine Months of Disruptions",
+      "The Sonnet 5 Price Increase That Was on the Calendar Is Not Happening",
+      "2.1.277 Reads AGENTS.md, and 2.1.278 Stops Charging You for Auto Mode",
+      "MCP Tunnels, the 2026-07-28 Spec, and Where the Connector Story Is Going",
+      "Fourteen Partners, Fourteen Free Webinars, Late September Through November",
+      "Claudeforce Open Beta Is Live This Month",
+      "The Dual-Use Argument Finally Has a Receipt"
+    ],
+    "snippet": "Claude AI Daily Brief — September 19, 2026 | Researchers Used Claude Opus 5 to Break Into OpenAI ● Saturday, September 19, 2026 Claude AI Daily Brief — September 19, 2026 Covering the latest from the platform · Edition #204 TL;DR — Today’s Top 3 Takeaways 1. Researchers Used Claude Opus 5 to Break I"
+  },
+  {
     "date": "2026-09-18",
     "title": "Claude AI Daily Brief &mdash; September 18, 2026 | Claude Now Leads 26% of Anthropic&rsquo;s Own R&amp;D",
     "description": "September 18, 2026: Anthropic disclosed internal metrics for the first time, saying Claude now leads roughly 26 percent of its research and development work with humans supervising, up from zero in February, and that about 90 percent of R&amp;D happens in collaboration with the model. Anthropic selected Nasdaq for its planned IPO and is targeting an October listing that reporting puts near a $2 trillion valuation, on roughly $65 billion annualized revenue and a second consecutive profitable quarter. Claude Code 2.1.275 added a send-now keybinding, syncClaudeAiSkills and syncClaudeAiPlugins settings, a marketplace flag for plugin installs and npm integrity verification, then 2.1.276 shipped hours later to fix a proxy and gateway regression 2.1.275 introduced. On the platform side, Workbench is now Playground, the Messages API gained on-demand conversation compaction in beta, and Compliance API session endpoints moved out of beta. Smart Reports remain in beta on Claude Enterprise with ten free reports a month. And the industry safety talks Amodei&rsquo;s pacing essay kicked off are now six days old with no written terms.",

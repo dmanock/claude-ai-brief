@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 19, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-19.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-19.html</guid>
+      <pubDate>Sat, 19 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Researchers Used Claude Opus 5 to Break Into OpenAI</strong> — A three-person team at security startup Hacktron AI used Claude to develop an exploit chain that reached OpenAI employee ChatGPT accounts and a private code repository, proving access with a harmless pull request in under 72 hours; the chain combined an image upload filter that failed to recognize certain formats, a known memory-corruption flaw in an image-processing library and an identity-configuration gap, and the researchers say an earlier Claude model could not produce a reliable exploit while Claude Opus 5 produced a working ARM64 exploit within hours. OpenAI patched both issues in roughly 14 hours and paid a $6,500 bounty through Bugcrowd.</p>
+        <p><strong>2. Anthropic Publishes Its September Threat Intelligence Report</strong> — The report covers operations Anthropic's Threat Intelligence team identified and disrupted between December 2025 and August 2026 across seven harm areas: cyber operations, influence operations, surveillance, scams and fraud, biological misuse, conventional weapons development and distillation; it is presented as case studies rather than aggregate counts, with disrupted cases involving Claude Haiku, Sonnet and Opus and no misuse cases involving Fable or Mythos-class models aside from a single illicit distillation case.</p>
+        <p><strong>3. The Scheduled Sonnet 5 Price Increase Is Cancelled</strong> — The introductory pricing for Claude Sonnet 5 of $2 per million input tokens and $10 per million output tokens is now the standard price, and the increase to $3 and $15 scheduled for September 1, 2026 will not occur; separately, Claude Code 2.1.277 added AGENTS.md support for projects without a CLAUDE.md and moved Bedrock, Vertex, Foundry and telemetry-disabled installs to the v2 MCP client, while 2.1.278 defaulted auto mode to the server-side classifier, which does not charge for classifier overhead.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-19.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — September 18, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-18.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-18.html</guid>
@@ -356,18 +368,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-21.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — August 20, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-20.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-20.html</guid>
-      <pubDate>Thu, 20 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Code Ships a &ldquo;Concise&rdquo; Output Style</strong> — v2.1.237 adds a built-in mode where Claude leads with results and skips the preamble, without cutting the work itself; select it under Output style in /config.</p>
-        <p><strong>2. Three Betas Go GA in One Day</strong> — The Files API, Agent Skills and the Skills API, and Admin API user management all left beta, retiring three beta headers while old requests keep working unchanged.</p>
-        <p><strong>3. Managed Agents Get Domain Allowlists</strong> — Agents can now be restricted to specific sites for web_search and web_fetch, plus memory stores in self-hosted sandboxes and a rebuilt Console session viewer.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-20.html">Read full report →</a></p>
-      ]]></description>
-    </item>
+
 
     </channel>
 </rss>
