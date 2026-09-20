@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-09-20",
+    "title": "Claude AI Daily Brief &mdash; September 20, 2026 | Anthropic&rsquo;s IPO Slips to November as Valuation Estimates Swing",
+    "description": "September 20, 2026: Anthropic has pushed its listing from October to November while targeting a valuation of up to $2 trillion, with outside estimates now ranging from $1.5 trillion to $4 trillion amid pressure from OpenAI and Chinese open-weight models. A social account tied to China Central Television escalated its criticism of Anthropic, framing 13 privacy policy revisions since 2023 as enabling cross-border data transfers and sharing with US intelligence agencies. Anthropic disclosed that Claude now leads roughly a quarter of its own research and development work, up from none in February, with about 30,000 agents running research and engineering tasks in August and roughly one in 47,000 agent decisions blocked by real-time monitoring. Plus Claude Code Projects in beta with parallel cloud threads, MCP Tool Search cutting context usage by up to 85 percent, personal and service account keys in the Console, auto permission policies for Managed Agents, and Smart Reports landing in beta for Enterprise with 10 free reports a month.",
+    "url": "reports/claude-ai-daily-2026-09-20.html",
+    "headlines": [
+      "Anthropic&rsquo;s IPO Slips to November as Valuation Estimates Swing",
+      "The IPO Moved to November, and the Valuation Range Got Wider Instead of Narrower",
+      "A CCTV-Linked Account Published a 13-Revision Audit of Anthropic&rsquo;s Privacy Policy",
+      "Claude Leads About a Quarter of Anthropic&rsquo;s R&amp;D, and Anthropic Published the Oversight Numbers Too",
+      "Projects Is in Beta, and It Is a Coordinator Rather Than a Folder",
+      "Tool Search Turns a 77K-Token Startup Cost Into Under 9K",
+      "Scoped API Keys, Agent Permission Policies, and an SDK That Drops Text Completions",
+      "Smart Reports Reads 28 Days of Your Team&rsquo;s Transcripts and Tells You What to Package",
+      "MCP Adoption Went From Zero to 95% of Tool Calls in Seven Weeks",
+      "Two Disclosures, One Prospectus"
+    ],
+    "snippet": "Claude AI Daily Brief — September 20, 2026 | Anthropic’s IPO Slips to November as Valuation Estimates Swing ● Sunday, September 20, 2026 Claude AI Daily Brief — September 20, 2026 Covering the latest from the platform · Edition #205 TL;DR — Today’s Top 3 Takeaways 1. Anthropic’s IPO Slips to Novembe"
+  },
+  {
     "date": "2026-09-19",
     "title": "Claude AI Daily Brief &mdash; September 19, 2026 | Researchers Used Claude Opus 5 to Break Into OpenAI",
     "description": "September 19, 2026: A three-person team at security startup Hacktron used Claude Opus 5 to chain two ordinary vulnerabilities into OpenAI employee ChatGPT accounts and a private code repository, proving it with a harmless pull request; OpenAI patched both issues in roughly 14 hours and paid a $6,500 bounty. Anthropic published its September threat intelligence report covering operations disrupted between December 2025 and August 2026 across seven harm areas including cyber operations, influence operations, surveillance, scams, biological misuse, conventional weapons and distillation. The scheduled September 1 price increase for Claude Sonnet 5 will not occur, making the $2 and $10 per MTok introductory rate the standard price. Claude Code 2.1.277 added AGENTS.md support for projects without a CLAUDE.md, moved Bedrock, Vertex, Foundry and telemetry-disabled installs to the v2 MCP client, and leaned out /code-review; 2.1.278 defaulted auto mode to the server-side classifier, which does not charge for classifier overhead. Plus MCP tunnels and the 2026-07-28 spec, a 14-partner fall webinar series for Claude for Small Business, and Claudeforce reaching open beta with 37 prebuilt sales skills.",

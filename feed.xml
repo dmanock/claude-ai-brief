@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 20, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-20.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-20.html</guid>
+      <pubDate>Sun, 20 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic's IPO Slips to November</strong> — The company pushed its planned listing from October to November while targeting a valuation of up to $2 trillion, with outside estimates now spanning $1.5 trillion to $4 trillion amid renewed enterprise traction at OpenAI, per-token price compression from Chinese and Meta open-weight models, and rising infrastructure costs; annualized revenue reached roughly $65 billion as of July, up from a $47 billion run rate in May and $10 billion for all of last year, and is projected to pass $120 billion by year end.</p>
+        <p><strong>2. A CCTV-Linked Account Published a 13-Revision Audit of Anthropic's Privacy Policy</strong> — A social media account tied to China Central Television escalated its criticism of Anthropic, walking through 13 privacy policy revisions since 2023 and arguing they enable cross-border data transfers from users in Canada, Brazil, South Korea and the EU to the United States, expanded listed data sources from three to six between June 2024 and September 2025, and permit sharing with US intelligence agencies; Anthropic previously told the US Senate that analysis of 28.8 million conversations and 25,000 accounts informed its findings on alleged model distillation by Chinese firms.</p>
+        <p><strong>3. Claude Now Leads About a Quarter of Anthropic's Own R&amp;D</strong> — The share of research and development work Claude leads under human supervision went from none in February to roughly 26% in August, with approximately 30,000 agents running research and engineering tasks that month and real-time monitoring blocking 0.002% of more than one billion agent decisions; Anthropic tied the disclosure explicitly to recursive self-improvement. Plus Claude Code Projects in beta with parallel cloud threads, MCP Tool Search cutting startup context from ~77K tokens to ~8.7K, personal and service account keys in the Console, auto permission policies for Managed Agents, and Smart Reports in beta for Enterprise with 10 free reports a month.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-20.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — September 19, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-19.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-19.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. Anthropic&rsquo;s Ode Makes Its First Acquisition</strong> — The services venture backed by Blackstone and Goldman bought Casper Studios, a consultancy that wires Claude into existing enterprise systems, one month after launching.</p>
         <p><strong>3. The Python SDK Hits 1.0, and It Breaks Things</strong> — httpx becomes httpx2, Python 3.10 is the floor, and Text Completions plus temperature/top_p/top_k on Messages methods are removed.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-22.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 21, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-21.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-21.html</guid>
-      <pubDate>Fri, 21 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Tells Investors the IPO Will Match or Beat SpaceX</strong> — That means clearing $75 billion raised at a $1.77 trillion valuation; the CFO is reportedly declining to name a number in briefings.</p>
-        <p><strong>2. The 30-Day Retention Mandate Finally Bends</strong> — A new safety system keeps the requirement for covered models but lets enterprises hold that data in their own cloud, designed with 100+ customers including Salesforce.</p>
-        <p><strong>3. A Browser Use Toolset Lands, and Computer Use Goes GA</strong> — browser_toolset_20260801 gives Claude 27 browser tools that run entirely on your infrastructure, while computer use drops its beta header.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-21.html">Read full report →</a></p>
       ]]></description>
     </item>
 
