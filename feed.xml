@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 21, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-21.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-21.html</guid>
+      <pubDate>Mon, 21 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. An Antitrust Suit Turns the Slowdown Pact Into a Legal Exhibit</strong> — A complaint filed in the US District Court for the Northern District of California accuses Anthropic, OpenAI, SpaceXAI and Google of violating antitrust law by agreeing to coordinate a deceleration of AI development, with the alleged consumer harm framed as reduced value from paid AI subscriptions; the coordinating act the plaintiffs point at is September 12, when Dario Amodei published an essay urging industry-wide cooperation on pacing capability work and Sam Altman, Elon Musk and Demis Hassabis each publicly agreed the same day. The case is at the pleading stage and the court has made no finding that any agreement was reached or that antitrust law was violated.</p>
+        <p><strong>2. The IPO Timeline Firms Up Around November</strong> — Anthropic is targeting a November listing moved back from October, with marketing of the offering expected to begin around mid-October and roughly $100 billion in proceeds sought against a valuation target of up to $2 trillion; the stated reason for the delay is getting a complete set of third-quarter results in front of investors before the roadshow, against a revenue run rate that went from about $9 billion at the end of 2025 to roughly $65 billion by the end of July. The prospectus is not yet public and timing, size and pricing remain undetermined.</p>
+        <p><strong>3. Mythos Opens to Vetted Biology Teams</strong> — Anthropic opened applications for the Life Sciences Verification Program in beta, giving verified life science organizations access to Mythos, Opus and Sonnet under safeguards tuned to permit drug discovery, research biology, clinical development and manufacturing work currently blocked in generally available Fable models, with applicants passing a review of research credentials, security standards and ethical oversight before applying for Standard Use or High-risk Use grants. Plus Claude Code 2.1.278 defaulting auto mode to the server-side classifier with no overhead charge, AGENTS.md support, remote-control session forking, MCP disconnect notifications, Messages API conversation compaction in beta, Python SDK v1.0 on httpx2, Salesforce in Claude reaching open beta with 37 sales skills, and a 14-partner small business webinar series.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-21.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — September 20, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-20.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-20.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. $35 Million in Credits for Open-Source Defense</strong> — The new Defender Advantage Fund pays organizations in Claude credits to patch live vulnerabilities in widely used projects, on top of Project Glasswing&rsquo;s $100M.</p>
         <p><strong>3. Anthropic Hires the Man Who Built Google&rsquo;s TPU</strong> — Bloomberg reports Amir Salek, founder of Google&rsquo;s custom silicon program and shipper of TPUv1 through v4, joined the compute team as Anthropic works toward its own chips.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-23.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 22, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-22.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-22.html</guid>
-      <pubDate>Sat, 22 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. MCP Publishes a New Roadmap</strong> — Five priority areas, led by agent identity via DPoP and Workload Identity Federation, and progressive tool discovery for servers with hundreds of tools.</p>
-        <p><strong>2. Anthropic&rsquo;s Ode Makes Its First Acquisition</strong> — The services venture backed by Blackstone and Goldman bought Casper Studios, a consultancy that wires Claude into existing enterprise systems, one month after launching.</p>
-        <p><strong>3. The Python SDK Hits 1.0, and It Breaks Things</strong> — httpx becomes httpx2, Python 3.10 is the floor, and Text Completions plus temperature/top_p/top_k on Messages methods are removed.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-22.html">Read full report →</a></p>
       ]]></description>
     </item>
 

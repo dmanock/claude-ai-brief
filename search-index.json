@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-09-21",
+    "title": "Claude AI Daily Brief &mdash; September 21, 2026 | Antitrust Suit Turns the AI Slowdown Pact Into a Legal Exhibit",
+    "description": "September 21, 2026: A federal antitrust complaint filed in the Northern District of California accuses Anthropic, OpenAI, SpaceXAI and Google of illegally agreeing to slow AI development, pointing at the September 12 exchange between Dario Amodei, Sam Altman, Elon Musk and Demis Hassabis as the coordinating event. Anthropic's IPO timeline firmed up around a November listing with roadshow marketing expected mid-October and roughly $100 billion in proceeds against a $2 trillion target, pending Q3 results. The Life Sciences Verification Program opened applications in beta, giving vetted biology teams access to Claude Mythos for the first time under permissive safeguards. Plus Claude Code 2.1.278 moving auto mode to the server-side classifier with no overhead charge, AGENTS.md support, Messages API conversation compaction in beta, Python SDK v1.0, Salesforce in Claude reaching open beta, and a 14-partner small business webinar series.",
+    "url": "reports/claude-ai-daily-2026-09-21.html",
+    "headlines": [
+      "Antitrust Suit Turns the AI Slowdown Pact Into a Legal Exhibit",
+      "The Slowdown Essay Is Now Exhibit A in a Federal Antitrust Complaint",
+      "November, Mid-October Roadshow, $100 Billion in Proceeds",
+      "Mythos Opens to Verified Biology Teams for the First Time",
+      "2.1.278 Stops Charging You for Auto Mode&rsquo;s Own Overhead",
+      "The Messages API Will Now Compact a Conversation On Demand",
+      "Salesforce in Claude Reaches Open Beta With 37 Prebuilt Sales Skills",
+      "Fourteen Partners, Free Webinars, and a Ten-City Workshop Tour",
+      "The Safety Argument Just Acquired a Price Tag"
+    ],
+    "snippet": "Claude AI Daily Brief — September 21, 2026 | Antitrust Suit Turns the AI Slowdown Pact Into a Legal Exhibit ● Monday, September 21, 2026 Claude AI Daily Brief — September 21, 2026 Covering the latest from the platform · Edition #206 TL;DR — Today’s Top 3 Takeaways 1. An Antitrust Suit Turns the Slow"
+  },
+  {
     "date": "2026-09-20",
     "title": "Claude AI Daily Brief &mdash; September 20, 2026 | Anthropic&rsquo;s IPO Slips to November as Valuation Estimates Swing",
     "description": "September 20, 2026: Anthropic has pushed its listing from October to November while targeting a valuation of up to $2 trillion, with outside estimates now ranging from $1.5 trillion to $4 trillion amid pressure from OpenAI and Chinese open-weight models. A social account tied to China Central Television escalated its criticism of Anthropic, framing 13 privacy policy revisions since 2023 as enabling cross-border data transfers and sharing with US intelligence agencies. Anthropic disclosed that Claude now leads roughly a quarter of its own research and development work, up from none in February, with about 30,000 agents running research and engineering tasks in August and roughly one in 47,000 agent decisions blocked by real-time monitoring. Plus Claude Code Projects in beta with parallel cloud threads, MCP Tool Search cutting context usage by up to 85 percent, personal and service account keys in the Console, auto permission policies for Managed Agents, and Smart Reports landing in beta for Enterprise with 10 free reports a month.",
