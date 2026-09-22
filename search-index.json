@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-09-22",
+    "title": "Claude AI Daily Brief &mdash; September 22, 2026 | Claude Goes Down Across Regions as Accenture Becomes the First Embedded Evaluator",
+    "description": "September 22, 2026: A widespread Claude outage hit users across multiple regions, with Downdetector logging more than 1,600 reports and elevated errors on Mythos 5.1, Fable 5.1 and Opus 5 before services returned to normal with no cause disclosed. Anthropic named Accenture as its first embedded evaluation partner, with both companies expecting to invest at least $1 billion each over five years to put independent evaluators inside the lab with employee-level access. And Anthropic disclosed that Claude now leads 26 percent of its own model research and development, with roughly 90 percent done in collaboration with the model. Plus Claude Code's claude.ai skill sync and send-now key, the Compliance API reaching Claude in Chrome transcripts, Salesforce in Claude's open beta, and Snowflake Cortex momentum.",
+    "url": "reports/claude-ai-daily-2026-09-22.html",
+    "headlines": [
+      "Claude Goes Down Across Regions as Accenture Becomes the First Embedded Evaluator",
+      "Claude Went Down for Thousands of Users, and Nobody Has Said Why",
+      "Accenture Is the First Evaluator Anthropic Will Let Inside the Building",
+      "Claude Is Now Leading a Quarter of the Work That Builds Claude",
+      "Your claude.ai Skills Now Follow You Into the Terminal",
+      "The Compliance API Can Now See What Claude Did in Your Browser",
+      "Snowflake Says the Reasoning Is Moving to Where the Data Already Lives",
+      "The Enterprise Lead Is Real but Thinner Than the Headlines Suggest",
+      "Two Kinds of Trust, and Only One of Them Got an Audit This Week"
+    ],
+    "snippet": "Claude AI Daily Brief — September 22, 2026 | Claude Goes Down Across Regions as Accenture Becomes the First Embedded Evaluator ● Tuesday, September 22, 2026 Claude AI Daily Brief — September 22, 2026 Covering the latest from the platform · Edition #207 TL;DR — Today’s Top 3 Takeaways 1. Claude Went "
+  },
+  {
     "date": "2026-09-21",
     "title": "Claude AI Daily Brief &mdash; September 21, 2026 | Antitrust Suit Turns the AI Slowdown Pact Into a Legal Exhibit",
     "description": "September 21, 2026: A federal antitrust complaint filed in the Northern District of California accuses Anthropic, OpenAI, SpaceXAI and Google of illegally agreeing to slow AI development, pointing at the September 12 exchange between Dario Amodei, Sam Altman, Elon Musk and Demis Hassabis as the coordinating event. Anthropic's IPO timeline firmed up around a November listing with roadshow marketing expected mid-October and roughly $100 billion in proceeds against a $2 trillion target, pending Q3 results. The Life Sciences Verification Program opened applications in beta, giving vetted biology teams access to Claude Mythos for the first time under permissive safeguards. Plus Claude Code 2.1.278 moving auto mode to the server-side classifier with no overhead charge, AGENTS.md support, Messages API conversation compaction in beta, Python SDK v1.0, Salesforce in Claude reaching open beta, and a 14-partner small business webinar series.",

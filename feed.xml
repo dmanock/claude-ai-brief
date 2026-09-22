@@ -9,6 +9,18 @@
 
 
     <item>
+      <title>Claude AI Daily Brief — September 22, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-22.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-22.html</guid>
+      <pubDate>Tue, 22 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Went Down Across Multiple Regions</strong> — A widespread outage disrupted access for users across multiple regions, with Downdetector logging more than 1,600 reports and elevated error rates on requests to Claude Mythos 5.1, Claude Fable 5.1 and Claude Opus 5; complaints skewed toward Claude Chat at roughly 60%, followed by the mobile app at about 24% and Claude Code at about 8%. Services have since returned to normal across Claude.ai, Claude Code, the API and Console, and Anthropic did not disclose a confirmed technical cause for the incident.</p>
+        <p><strong>2. Accenture Becomes the First Embedded Evaluator</strong> — Anthropic named Accenture as its first embedded evaluation partner, delivering on the commitment in Dario Amodei's "We Must Pace the Frontier" essay to put independent evaluators inside the company; the work will be led by Faculty, Accenture's specialist AI business, and covers model evaluation and red-teaming, alignment assessments and safeguard testing, with both companies expecting to invest at least $1 billion each over five years. Embedded evaluators get access comparable to an employee's, and Anthropic is funding the work directly for now while calling for pooled or government funding and citing dialogue with METR and other nonprofits.</p>
+        <p><strong>3. Claude Now Leads 26% of Anthropic's Model R&amp;D</strong> — The company disclosed that Claude leads 26% of its model research and development, meaning it completes most of a given task end-to-end from a high-level prompt under human supervision, with roughly 90% of R&amp;D done in collaboration with the model; it landed alongside an Anthropic proposal for public metrics measuring the pace of AI development inside frontier labs. Plus Claude Code syncing claude.ai skills and plugins into terminal sessions, a send-now key on ctrl+enter, auto mode defaulting to the server-side classifier with no overhead charge, the Compliance API returning Claude in Chrome transcripts in beta for Enterprise, Salesforce in Claude reaching open beta with 37 sales skills, and Snowflake Cortex momentum on governed enterprise data.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-22.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+    <item>
       <title>Claude AI Daily Brief — September 21, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-21.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-21.html</guid>
@@ -354,18 +366,6 @@
         <p><strong>2. The September 1 Price Increase Is Cancelled</strong> — Sonnet 5 stays at $2/$10 per million tokens permanently; the scheduled move to $3/$15 will not happen.</p>
         <p><strong>3. Every Claude Output Now Carries a Watermark</strong> — Machine-readable marking is live on all products shipped since August 2, worldwide, with older models covered by December 2.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-24.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 23, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-23.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-23.html</guid>
-      <pubDate>Sun, 23 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Mythos 5 Starts Scanning Enterprise Code</strong> — The cyber model gated to vetted defenders since April now runs vulnerability scans inside Claude Security, billed as normal token usage, with every patch gated on human review.</p>
-        <p><strong>2. $35 Million in Credits for Open-Source Defense</strong> — The new Defender Advantage Fund pays organizations in Claude credits to patch live vulnerabilities in widely used projects, on top of Project Glasswing&rsquo;s $100M.</p>
-        <p><strong>3. Anthropic Hires the Man Who Built Google&rsquo;s TPU</strong> — Bloomberg reports Amir Salek, founder of Google&rsquo;s custom silicon program and shipper of TPUv1 through v4, joined the compute team as Anthropic works toward its own chips.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-23.html">Read full report →</a></p>
       ]]></description>
     </item>
 
