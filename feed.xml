@@ -7,6 +7,19 @@
     <language>en-us</language>
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Claude AI Daily Brief — September 23, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-23.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-23.html</guid>
+      <pubDate>Wed, 23 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Opus 5.5 Launches</strong> — Anthropic shipped Claude Opus 5.5 at $4/$20 per million tokens, a 40% cost cut on typical workloads that still beat Claude Fable 5.1 on Terminal-Bench 4.0, FrontierCode v1.1 and CursorBench 4.0, with an 85% drop in sandbox circumvention attempts and the company's best behavioral audit score yet; it's live now on Claude, AWS, Google Cloud and Azure.</p>
+        <p><strong>2. Three Labs Cut Prices Inside 48 Hours</strong> — xAI's Grok 4.7 undercut Opus 5.5 at $2 per million input tokens roughly 90 minutes later and rolled into GitHub Copilot the same day, and OpenAI answered within two days with GPT-6 Sol and Luna priced at roughly half its prior generation, days after a federal antitrust complaint accused the same labs of coordinating an AI slowdown.</p>
+        <p><strong>3. Claude Code 2.1.280 Makes Opus 5.5 the Default</strong> — the release switches Pro and Team Standard plans from Sonnet to Opus outright and raises rate limits across paid tiers, but ships breaking changes: adaptive thinking is now always on, forced tool use can error, and older computer-use tool calls get rejected. Plus customer results from GitHub, Spotify and Optiver showing 40-to-50% cost cuts at matched quality.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-23.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
 
     <item>
       <title>Claude AI Daily Brief — September 22, 2026</title>
@@ -354,18 +367,6 @@
         <p><strong>2. Claude Code 2.1.243 Is an Emergency Linux Fix</strong> — Patches a startup crash on glibc 2.44 distros including Arch, CachyOS and Fedora Rawhide; 2.1.242 made /cost report contracted rates instead of list price.</p>
         <p><strong>3. Enterprise Gets Inference Hooks and Skill Scanning</strong> — Prompts and tool calls can now be inspected before they reach the model across chat, Claude Code and Cowork, with third-party skills and plugins scanned for malicious content.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-25.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 24, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-24.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-24.html</guid>
-      <pubDate>Mon, 24 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Goes Down Again, Sixth Time This Month</strong> — Elevated errors opened at 05:06 UTC across Mythos 5, Fable 5, Opus 5 and Opus 4.8, with partial outages on claude.ai, the API, Claude Code and Cowork.</p>
-        <p><strong>2. The September 1 Price Increase Is Cancelled</strong> — Sonnet 5 stays at $2/$10 per million tokens permanently; the scheduled move to $3/$15 will not happen.</p>
-        <p><strong>3. Every Claude Output Now Carries a Watermark</strong> — Machine-readable marking is live on all products shipped since August 2, worldwide, with older models covered by December 2.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-24.html">Read full report →</a></p>
       ]]></description>
     </item>
 

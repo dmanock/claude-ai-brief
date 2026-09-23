@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-23",
+    "title": "Claude AI Daily Brief &mdash; September 23, 2026 | Claude Opus 5.5 Launches as Three Labs Cut Prices in 48 Hours",
+    "description": "September 23, 2026: Anthropic launched Claude Opus 5.5, cutting typical costs 40% while beating Fable 5.1 on agentic coding and computer-use benchmarks, with an 85% drop in sandbox circumvention attempts. Claude Code 2.1.280 makes it the default Opus and ships breaking changes for adaptive thinking and computer-use tools. Within 48 hours, xAI's Grok 4.7 and OpenAI's GPT-6 Sol and Luna undercut the new pricing, days after a federal antitrust complaint accused the same labs of coordinating an AI slowdown.",
+    "url": "reports/claude-ai-daily-2026-09-23.html",
+    "headlines": [
+      "Claude Opus 5.5 Launches as Three Labs Cut Prices in 48 Hours",
+      "Claude Opus 5.5 Undercuts Its Own Flagship by 40 Percent",
+      "The Safety Numbers Anthropic Chose to Lead With",
+      "2.1.280 Makes Opus 5.5 the Default, and Breaks a Few Things on the Way In",
+      "Fast Mode, Cheaper Cache, and a Context Window That Didn&rsquo;t Shrink",
+      "GitHub, Spotify and Optiver Ran the Numbers Before Anthropic Published Them",
+      "Grok 4.7 Rolled Into GitHub Copilot the Same Day Opus 5.5 Shipped",
+      "Three Labs Cut Prices in 48 Hours, Which Is Exactly What the Antitrust Complaint Said Wouldn&rsquo;t Happen"
+    ],
+    "snippet": "Claude AI Daily Brief — September 23, 2026 | Claude Opus 5.5 Launches as Three Labs Cut Prices in 48 Hours ● Wednesday, September 23, 2026 Claude AI Daily Brief — September 23, 2026 Covering the latest from the platform · Edition #208 TL;DR — Today’s Top 3 Takeaways 1. Claude Opus 5.5 Launches — 40%"
+  },
+  {
     "date": "2026-09-22",
     "title": "Claude AI Daily Brief &mdash; September 22, 2026 | Claude Goes Down Across Regions as Accenture Becomes the First Embedded Evaluator",
     "description": "September 22, 2026: A widespread Claude outage hit users across multiple regions, with Downdetector logging more than 1,600 reports and elevated errors on Mythos 5.1, Fable 5.1 and Opus 5 before services returned to normal with no cause disclosed. Anthropic named Accenture as its first embedded evaluation partner, with both companies expecting to invest at least $1 billion each over five years to put independent evaluators inside the lab with employee-level access. And Anthropic disclosed that Claude now leads 26 percent of its own model research and development, with roughly 90 percent done in collaboration with the model. Plus Claude Code's claude.ai skill sync and send-now key, the Compliance API reaching Claude in Chrome transcripts, Salesforce in Claude's open beta, and Snowflake Cortex momentum.",

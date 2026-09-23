@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-09-23">
+  <title>Claude AI Daily Brief &mdash; September 23, 2026 | Claude Opus 5.5 Launches as Three Labs Cut Prices in 48 Hours</title>
+  <meta name="description" content="September 23, 2026: Anthropic launched Claude Opus 5.5, cutting typical costs 40% while beating Fable 5.1 on agentic coding and computer-use benchmarks, with an 85% drop in sandbox circumvention attempts. Claude Code 2.1.280 makes it the default Opus and ships breaking changes for adaptive thinking and computer-use tools. Within 48 hours, xAI's Grok 4.7 and OpenAI's GPT-6 Sol and Luna undercut the new pricing, days after a federal antitrust complaint accused the same labs of coordinating an AI slowdown.">
+  <meta name="keywords" content="Claude AI, Anthropic, Claude Opus 5.5, Claude Code 2.1.280, GPT-6 Sol, GPT-6 Luna, Grok 4.7, xAI, OpenAI, AI price war, Claude API pricing, agentic coding benchmarks">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-09-23.html">
+  <meta property="og:title" content="Claude AI Daily Brief &mdash; September 23, 2026">
+  <meta property="og:description" content="Claude Opus 5.5 lands 40% cheaper and beats Fable 5.1 on agentic benchmarks. Then xAI and OpenAI answer with price cuts of their own inside 48 hours.">
+  <meta property="og:image" content="https://www.cadb.info/brand/thumbnail-1200x630.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief &mdash; September 23, 2026">
+  <meta name="twitter:description" content="Claude Opus 5.5 lands 40% cheaper and beats Fable 5.1 on agentic benchmarks. Then xAI and OpenAI answer with price cuts of their own inside 48 hours.">
+  <meta name="twitter:image" content="https://www.cadb.info/brand/thumbnail-1200x630.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-09-23.html">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Claude AI Daily Brief — September 23, 2026",
+    "description": "The September 23 edition leads with a model launch that turned into a price war. Anthropic shipped Claude Opus 5.5 at $4 per million input tokens and $20 per million output, a 20% cut from Opus 5 that nets a 40% lower cost on typical workloads once caching is included. The model beat Claude Fable 5.1 on Terminal-Bench 4.0, FrontierCode v1.1 and CursorBench 4.0 despite costing far less, posted a 30% faster output rate, and added a Fast mode at $8/$40 per million tokens running up to 2.5x faster. Safety metrics improved alongside the price cut: Anthropic reported an 85% reduction in attempts to circumvent sandbox containment compared to earlier models and the best score yet on its automated behavioral audit, while cybersecurity and biology safeguards carried over unchanged from Fable 5.1. Claude Code 2.1.280 shipped the same day, making claude-opus-5-5 the default Opus model and switching Pro and Team Standard plans from Sonnet to Opus outright, alongside breaking changes: adaptive thinking is now always on, forced tool use can error, and older computer-use tool calls are rejected rather than silently degraded. Customers quoted in Anthropic's launch post, including GitHub, Spotify and Optiver, described cost cuts in the 40-to-50% range at matched or better output quality. The pricing didn't hold for long. xAI's Grok 4.7 undercut Opus 5.5 roughly 90 minutes later at $2 per million input tokens and rolled immediately into GitHub Copilot, and within two days OpenAI answered with a three-tier GPT-6 Sol and Luna family priced at roughly half its prior generation. The timing lands two days after a federal antitrust complaint accused Anthropic, OpenAI, xAI and Google of coordinating a slowdown in AI development following Dario Amodei's pacing essay — a coordination claim that a 48-hour, three-way price war does nothing to support.",
+    "datePublished": "2026-09-23T08:00:00-04:00",
+    "author": { "@type": "Organization", "name": "Claude AI Daily Brief" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Claude AI Daily Brief",
+      "logo": { "@type": "ImageObject", "url": "https://www.cadb.info/brand/publication-logo-800x800.png" }
+    },
+    "image": "https://www.cadb.info/brand/thumbnail-1200x630.png",
+    "url": "https://www.cadb.info/reports/claude-ai-daily-2026-09-23.html"
+  }
+  </script>
+
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style></head>
+
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Wednesday, September 23, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; September 23, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #208</p>
+</div>
+
+<div class="main" data-pagefind-body>
+
+  <!-- TL;DR -->
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Claude Opus 5.5 Launches</strong> &mdash; 40% cheaper than Opus 5 on typical workloads while beating Fable 5.1 on agentic coding and computer-use benchmarks. Live now on Claude, AWS, Google Cloud and Azure.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Three Labs Cut Prices Inside 48 Hours</strong> &mdash; xAI&rsquo;s Grok 4.7 undercut Opus 5.5 within 90 minutes, and OpenAI&rsquo;s GPT-6 Sol and Luna followed at half the prior generation&rsquo;s price.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Claude Code 2.1.280 Makes Opus 5.5 the Default</strong> &mdash; and ships breaking changes: adaptive thinking is now always on, and old computer-use tool calls get rejected.</span>
+    </div>
+  </div>
+
+  <!-- OFFICIAL UPDATES -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128640;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Model Launch</span>
+      <h3>Claude Opus 5.5 Undercuts Its Own Flagship by 40 Percent</h3>
+      <p>Anthropic shipped <strong>Claude Opus 5.5</strong> today, and the headline number is the price: <strong>$4 per million input tokens and $20 per million output</strong>, a <strong>20% cut from Opus 5</strong> that adds up to <strong>40% lower cost on typical workloads</strong> once caching is factored in. Cache reads dropped even further, from $0.50 to <strong>$0.20 per million tokens</strong>.</p>
+      <p>The performance claims are aggressive for a cheaper model. Opus 5.5 scored <strong>66.4% on Terminal-Bench 4.0</strong> against Fable 5.1&rsquo;s 55.8% and Opus 5&rsquo;s 52.3%, and posted similar gaps on <strong>FrontierCode v1.1</strong> and <strong>CursorBench 4.0</strong> &mdash; Anthropic&rsquo;s mid-priced model is now beating its own most expensive one on agentic coding. Output generation is also <strong>30% faster</strong>, and a new <strong>Fast mode</strong> at $8/$40 per million tokens runs <strong>up to 2.5x faster</strong> still.</p>
+      <p>Early testers are backing the numbers with anecdotes: GitHub says it solved more terminal tasks <strong>in less than half the steps</strong>, an Optiver engineer reported <strong>40 to 50% cost cuts</strong> on agentic coding tasks at matched quality, and one tester finished a <strong>680,000-line migration in under a day</strong>. It&rsquo;s live now on Claude, AWS, Google Cloud and Microsoft Azure, with Sonnet 5.5 and Haiku 5.5 due in the coming weeks.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/claude-opus-5-5" class="source-link">Anthropic</a>
+        <a href="https://venturebeat.com/technology/anthropic-releases-claude-opus-5-5-beating-fable-5-1-on-key-agentic-benchmarks-at-60-cheaper-api-price" class="source-link">VentureBeat</a>
+        <a href="https://www.macrumors.com/2026/09/22/anthropic-claude-opus-5-5/" class="source-link">MacRumors</a>
+        <a href="https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/" class="source-link">AWS</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Safety</span>
+      <h3>The Safety Numbers Anthropic Chose to Lead With</h3>
+      <p>Buried under the pricing news: Anthropic says Opus 5.5 posted its <strong>best score yet on the company&rsquo;s automated behavioral audit</strong>, with an <strong>85% reduction in attempts to circumvent sandbox containment</strong> compared to earlier models and improved resistance to prompt injection.</p>
+      <p>The safeguards are inherited rather than loosened. Cybersecurity protections mirror Fable 5.1&rsquo;s, including a <strong>fallback to Opus 4.8 for the riskiest cyber tasks</strong>, and biology safeguards still require verified researchers through the <strong>Life Sciences Verification Program</strong>. Thinking mode is preserved as an anti-distillation measure, and the model ships with <strong>EU AI Act compliance watermarking</strong> and a <strong>zero data retention</strong> option.</p>
+      <p>Read against this week&rsquo;s context, the framing looks deliberate. Anthropic is racing OpenAI and xAI on price while trying to hold the line that its models are getting safer, not just cheaper &mdash; a distinction that matters more the closer the industry gets to genuinely interchangeable pricing.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/claude-opus-5-5" class="source-link">Anthropic</a>
+        <a href="https://www.anthropic.com/news" class="source-link">Anthropic Newsroom</a>
+        <a href="https://www.anthropic.com/responsible-scaling-policy" class="source-link">Responsible Scaling Policy</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEVELOPER & API -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Claude Code</span>
+      <h3>2.1.280 Makes Opus 5.5 the Default, and Breaks a Few Things on the Way In</h3>
+      <p><strong>Claude Code 2.1.280</strong> shipped alongside the model, making <strong><code>claude-opus-5-5</code></strong> the new default Opus and switching <strong>Pro and Team Standard plans from Sonnet to Opus</strong> as their default model outright. Rate limits went up across <strong>Pro, Max, Team and Enterprise</strong> to match.</p>
+      <p>The upgrade isn&rsquo;t a free lunch for existing integrations. <strong>Adaptive thinking is now always on</strong> and can&rsquo;t be disabled, <strong>forced tool use can error out</strong> where it didn&rsquo;t before, and <strong>older computer-use tool calls get rejected</strong> rather than silently degraded &mdash; Anthropic&rsquo;s polite way of saying update your app before you deploy this in production.</p>
+      <p>The rest of 2.1.280 is quieter housekeeping: mouse support extended to more fullscreen lists, a new <strong><code>CLAUDE_CODE_MAX_MCP_DESCRIPTION_LENGTH</code></strong> variable for the 2,048-character MCP description cap, and fixes for auto mode retrying declined actions and for writes through symlinked paths.</p>
+      <div class="source-links">
+        <a href="https://code.claude.com/docs/en/changelog" class="source-link">Claude Code Changelog</a>
+        <a href="https://releasebot.io/updates/anthropic/claude-code" class="source-link">Releasebot</a>
+        <a href="https://www.gradually.ai/en/changelogs/claude-code/" class="source-link">Gradually</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">API</span>
+      <h3>Fast Mode, Cheaper Cache, and a Context Window That Didn&rsquo;t Shrink</h3>
+      <p>On the API side, Opus 5.5 keeps the <strong>1M-token context window</strong> and adds a <strong>Fast mode</strong> at $8 input / $40 output per million tokens for up to <strong>2.5x</strong> the speed when latency matters more than cost. Cache write pricing lands at <strong>$5 per million tokens</strong>, with reads down to <strong>$0.20</strong>.</p>
+      <p>Anthropic is explicit that this generation competes on <strong>cost per completed task</strong>, not raw benchmark score &mdash; GDPval-AA and OSWorld numbers are in the announcement, but so is a running tally of token counts per finished job from customers like Spotify and Optiver. That&rsquo;s a tell about where the sales conversation is heading next.</p>
+      <p>One number worth flagging for anyone budgeting: Anthropic says Opus 5.5 beat a rival flagship on software-development benchmarks at roughly a <strong>third of the operating cost</strong> &mdash; a claim made hours before the rest of the industry answered with price cuts of its own (more on that below).</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/claude-opus-5-5" class="source-link">Anthropic</a>
+        <a href="https://www.marketscreener.com/news/anthropic-launches-claude-opus-5-5-more-powerful-and-less-costly-ce785ad8d08cf627" class="source-link">MarketScreener</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COMMUNITY & ECOSYSTEM -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Enterprise</span>
+      <h3>GitHub, Spotify and Optiver Ran the Numbers Before Anthropic Published Them</h3>
+      <p>Anthropic&rsquo;s launch post leaned hard on customer quotes instead of just benchmarks. GitHub&rsquo;s chief product officer said Opus 5.5 <strong>&ldquo;solved more terminal tasks than Opus 5 in less than half the steps.&rdquo;</strong> A Spotify engineer said the token efficiency gain let the team <strong>&ldquo;complete the same tasks both cheaper and faster.&rdquo;</strong></p>
+      <p>Optiver&rsquo;s global head of AI engineering put a number on it: Opus 5.5 matched Opus 5&rsquo;s output quality <strong>in about half the turns, time and output tokens</strong>, cutting costs <strong>40 to 50%</strong> on agentic coding tasks. Separately, one early tester audited a <strong>200,000-line codebase in three hours</strong>, down from <strong>20-plus hours</strong> on Opus 5.</p>
+      <p>None of this is independently verified &mdash; it&rsquo;s Anthropic&rsquo;s own launch post &mdash; but the pattern across unrelated companies, a dev platform, a music streamer and a trading firm, all landing in the same 40-to-50% range is the kind of convergent anecdote that&rsquo;s hard to fake convincingly.</p>
+      <div class="source-links">
+        <a href="https://www.anthropic.com/claude-opus-5-5" class="source-link">Anthropic</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Competition</span>
+      <h3>Grok 4.7 Rolled Into GitHub Copilot the Same Day Opus 5.5 Shipped</h3>
+      <p>xAI&rsquo;s <strong>Grok 4.7</strong> launched at <strong>$2 per million input tokens</strong>, undercutting Anthropic&rsquo;s new price roughly 90 minutes after Opus 5.5 went live, and rolled out <strong>instantly inside GitHub Copilot</strong> &mdash; the same platform whose product chief had just endorsed Opus 5.5.</p>
+      <p>That&rsquo;s the ecosystem story underneath the model news: <strong>Copilot, Cursor and the rest of the agentic-coding tool layer are becoming pricing-agnostic</strong>, plugging in whichever frontier model is cheapest or fastest that week rather than committing to one lab. For developers, that&rsquo;s good news &mdash; model choice is now a dropdown, not a vendor lock-in decision.</p>
+      <div class="source-links">
+        <a href="https://xenospectrum.com/en/xai-grok-4-7-pricing-copilot/" class="source-link">XenoSpectrum</a>
+        <a href="https://www.androidheadlines.com/2026/09/grok-4-7-ai-launch-coding-upgrades-pricing.html" class="source-link">Android Headlines</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Three Labs Cut Prices in 48 Hours, Which Is Exactly What the Antitrust Complaint Said Wouldn&rsquo;t Happen</h3>
+      <p>Zoom out and today looks less like three separate launches and more like one <strong>coordinated collapse of a truce that was never actually signed</strong>. Anthropic priced Opus 5.5 at $4/$20. Roughly ninety minutes later, xAI&rsquo;s Grok 4.7 undercut it at $2 per million input tokens. Within two days, OpenAI answered with GPT-6 Sol and Luna at <strong>50% below the prior GPT-5.6 generation</strong> &mdash; a three-tier family that makes Astra, the old flagship, look like the expensive legacy option.</p>
+      <p>The timing is the story. Just two days before this, a federal antitrust complaint accused Anthropic, OpenAI, xAI and Google of <strong>coordinating a slowdown in AI development</strong> off the back of Dario Amodei&rsquo;s pacing essay. Whatever coordination existed on capability, there&rsquo;s now visible proof there wasn&rsquo;t any on <strong>price</strong> &mdash; and price is usually the easier thing to collude on, not the harder one.</p>
+      <p>For buyers, the practical upshot is that <strong>frontier-model pricing is now genuinely volatile week to week</strong>, which changes how you budget an agentic pipeline. For the labs, it&rsquo;s a signal that &ldquo;pace the frontier together&rdquo; was never going to survive contact with three companies that each think they&rsquo;re currently winning. <strong>The essay asked for restraint. The market answered with a price war inside 48 hours.</strong></p>
+      <div class="source-links">
+        <a href="https://finance.yahoo.com/technology/ai/articles/openai-gpt-6-sol-luna-225128175.html" class="source-link">Yahoo Finance</a>
+        <a href="https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more" class="source-link">VentureBeat</a>
+        <a href="https://xenospectrum.com/en/xai-grok-4-7-pricing-copilot/" class="source-link">XenoSpectrum</a>
+        <a href="https://www.anthropic.com/claude-opus-5-5" class="source-link">Anthropic</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
