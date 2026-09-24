@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — September 24, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-24.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-24.html</guid>
+      <pubDate>Thu, 24 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Finds a New CRISPR-Like Enzyme System</strong> — Anthropic's life sciences lab set roughly 950 Claude agents loose on a DNA sequence database for 21 hours and 210 million tokens, reviewing over 200,000 reverse transcriptases before flagging a system called ART, with CRISPR-like repeat arrays; the function is still unknown and all physical lab work was done by human scientists.</p>
+        <p><strong>2. Gene-Editing Stocks Fell Within Hours</strong> — CRISPR Therapeutics, Beam Therapeutics, Editas Medicine, Intellia and Prime Medicine all dropped on the news, Prime Medicine down as much as 12%, despite Anthropic calling the finding "early results" with an unproven function.</p>
+        <p><strong>3. Claude Helped Make claude.ai 3x Faster</strong> — Anthropic detailed an August sprint that merged over 3,000 changes to claude.ai and its desktop app with zero rollbacks, with Claude itself opening pull requests and writing fixes under human review. Plus Claude Code 2.1.281 ships Bedrock guardrails and MCP upgrades.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-24.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — September 23, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-23.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-23.html</guid>
@@ -355,18 +368,6 @@
         <p><strong>2. Claude Code 2.1.246 Adds a Dedicated Agent Tool</strong> — Roughly 61 CLI changes, including a first-class path for launching isolated subagents on multi-step tasks and an auto mode tab in /permissions for auditing classifier rules.</p>
         <p><strong>3. Enterprise Retention Is Moving to Your Cloud</strong> — The 30-day log requirement for frontier models stays, but Anthropic plans to let customers satisfy it on their own infrastructure, built with 100+ customers including Salesforce.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-26.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 25, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-25.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-25.html</guid>
-      <pubDate>Tue, 25 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Sonnet 4.5 Retires September 29</strong> — Five weeks to migrate before API calls on the old identifier fail hard, the same pattern that hit Sonnet 4 and Opus 4 in June and Opus 4.1 on August 5.</p>
-        <p><strong>2. Claude Code 2.1.243 Is an Emergency Linux Fix</strong> — Patches a startup crash on glibc 2.44 distros including Arch, CachyOS and Fedora Rawhide; 2.1.242 made /cost report contracted rates instead of list price.</p>
-        <p><strong>3. Enterprise Gets Inference Hooks and Skill Scanning</strong> — Prompts and tool calls can now be inspected before they reach the model across chat, Claude Code and Cowork, with third-party skills and plugins scanned for malicious content.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-25.html">Read full report →</a></p>
       ]]></description>
     </item>
 

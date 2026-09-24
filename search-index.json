@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-24",
+    "title": "Claude AI Daily Brief &mdash; September 24, 2026 | Claude's Biology Lab Finds a CRISPR-Like System, Spooks Gene-Editing Stocks",
+    "description": "September 24, 2026: Anthropic says 950 Claude agents spent 21 hours scanning 200,000+ enzymes and flagged a new CRISPR-like system called ART, and gene-editing stocks fell within hours. Claude Code 2.1.281 ships Bedrock guardrails and MCP upgrades, and Anthropic reveals Claude itself helped make claude.ai 3x faster in a 3,000-change sprint.",
+    "url": "reports/claude-ai-daily-2026-09-24.html",
+    "headlines": [
+      "Claude's Biology Lab Finds a CRISPR-Like System",
+      "Spooks Gene-Editing Stocks",
+      "Claude&rsquo;s Biology Lab Finds a System That Looks Like CRISPR",
+      "The Skepticism Anthropic Left in the Fine Print",
+      "2.1.281 Quietly Ships the Enterprise Plumbing",
+      "Claude Helped Make claude.ai 3x Faster",
+      "Gene-Editing Stocks Didn&rsquo;t Wait for Peer Review",
+      "The Restraint Was for the Essay, Not the Roadmap"
+    ],
+    "snippet": "Claude AI Daily Brief — September 24, 2026 | Claude's Biology Lab Finds a CRISPR-Like System, Spooks Gene-Editing Stocks ● Thursday, September 24, 2026 Claude AI Daily Brief — September 24, 2026 Covering the latest from the platform · Edition #209 TL;DR — Today’s Top 3 Takeaways 1. Claude Finds a Ne"
+  },
+  {
     "date": "2026-09-23",
     "title": "Claude AI Daily Brief &mdash; September 23, 2026 | Claude Opus 5.5 Launches as Three Labs Cut Prices in 48 Hours",
     "description": "September 23, 2026: Anthropic launched Claude Opus 5.5, cutting typical costs 40% while beating Fable 5.1 on agentic coding and computer-use benchmarks, with an 85% drop in sandbox circumvention attempts. Claude Code 2.1.280 makes it the default Opus and ships breaking changes for adaptive thinking and computer-use tools. Within 48 hours, xAI's Grok 4.7 and OpenAI's GPT-6 Sol and Luna undercut the new pricing, days after a federal antitrust complaint accused the same labs of coordinating an AI slowdown.",
