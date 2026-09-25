@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-25",
+    "title": "Claude AI Daily Brief &mdash; September 25, 2026 | Akamai's $11.6B Bet on Anthropic Lands the Same Week the White House Brands Amodei an \"AI Doomer\"",
+    "description": "September 25, 2026: Akamai signs an $11.6B (up to $20B) compute deal with Anthropic and its stock jumps 20%+. A Trump-allied White House memo brands Dario Amodei the face of AI 'doomerism' ahead of Anthropic's IPO, and separately the administration asks OpenAI and Anthropic to delay giving the UK AI Safety Institute early model access. Plus Opus 5.5 lands on AWS and wins back developers, and scientists push back on Claude's CRISPR-like enzyme claim.",
+    "url": "reports/claude-ai-daily-2026-09-25.html",
+    "headlines": [
+      "Akamai's $11.6B Bet on Anthropic Lands the Same Week the White House Brands Amodei an \"AI Doomer\"",
+      "Akamai Lands an $11.6B Anthropic Deal, Stock Jumps 20%+",
+      "White House Asks OpenAI and Anthropic to Slow-Walk UK Access",
+      "Claude Opus 5.5 Is Now Live on AWS Bedrock",
+      "Vibe Check: Opus 5.5 Is Pulling Codex Converts Back",
+      "Google, OpenAI and Anthropic Try to Hire Their Own Regulator",
+      "Scientists Push Back: &ldquo;CRISPR-Like&rdquo; Isn&rsquo;t CRISPR-Capable",
+      "Anthropic's IPO Week Is a Study in Contrasts"
+    ],
+    "snippet": "Claude AI Daily Brief — September 25, 2026 | Akamai's $11.6B Bet on Anthropic Lands the Same Week the White House Brands Amodei an \"AI Doomer\" ● Friday, September 25, 2026 Claude AI Daily Brief — September 25, 2026 Covering the latest from the platform · Edition #210 TL;DR — Today’s Top 3 Takeaways "
+  },
+  {
     "date": "2026-09-24",
     "title": "Claude AI Daily Brief &mdash; September 24, 2026 | Claude's Biology Lab Finds a CRISPR-Like System, Spooks Gene-Editing Stocks",
     "description": "September 24, 2026: Anthropic says 950 Claude agents spent 21 hours scanning 200,000+ enzymes and flagged a new CRISPR-like system called ART, and gene-editing stocks fell within hours. Claude Code 2.1.281 ships Bedrock guardrails and MCP upgrades, and Anthropic reveals Claude itself helped make claude.ai 3x faster in a 3,000-change sprint.",

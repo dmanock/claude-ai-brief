@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — September 25, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-25.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-25.html</guid>
+      <pubDate>Fri, 25 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Akamai Locks In an $11.6B Anthropic Compute Deal</strong> — a seven-year deal that can grow to roughly $20B, with Akamai shares jumping more than 20% and Anthropic getting a warrant for up to 5% of the company.</p>
+        <p><strong>2. White House Memo Brands Amodei the Face of AI "Doomerism"</strong> — days before Anthropic's expected blockbuster IPO, while the administration separately asks OpenAI and Anthropic to delay giving the UK AI Safety Institute early access to new models.</p>
+        <p><strong>3. Google, OpenAI and Anthropic Court Sriram Krishnan</strong> — to run a new self-regulatory "Frontier AI Standards Agency" that would set shared safety-testing standards across labs.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-25.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — September 24, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-24.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-24.html</guid>
@@ -358,19 +371,5 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-27.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — August 26, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-26.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-26.html</guid>
-      <pubDate>Wed, 26 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Chat and Cowork Now Share One Memory</strong> — Context built in a conversation carries into the agent that does the work, memories write as topics mid-conversation, and every stored topic is readable, editable and deletable.</p>
-        <p><strong>2. Claude Code 2.1.246 Adds a Dedicated Agent Tool</strong> — Roughly 61 CLI changes, including a first-class path for launching isolated subagents on multi-step tasks and an auto mode tab in /permissions for auditing classifier rules.</p>
-        <p><strong>3. Enterprise Retention Is Moving to Your Cloud</strong> — The 30-day log requirement for frontier models stays, but Anthropic plans to let customers satisfy it on their own infrastructure, built with 100+ customers including Salesforce.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-26.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-
     </channel>
 </rss>
