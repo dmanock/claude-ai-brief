@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — September 26, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-26.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-26.html</guid>
+      <pubDate>Sat, 26 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic's Founders Move to Lock In 50.1% Voting Control</strong> — before the company's expected $2 trillion IPO, in a structure that mirrors what Mark Zuckerberg built at Meta.</p>
+        <p><strong>2. Claude Opus 5 and OpenAI's Astra Crack WWII Codes Nobody Could</strong> — two researchers used rival AI models to solve Enigma messages that had stumped cryptanalysts since 2005.</p>
+        <p><strong>3. Meta's Muse Is Stealing the AI Spotlight</strong> — reportedly outpacing ChatGPT's early adoption numbers, the same week Opus 5.5 and new GPT-6 models shipped.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-26.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — September 25, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-25.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-25.html</guid>
@@ -357,18 +370,6 @@
         <p><strong>2. 10,000 Claude Seats Open for Scientists</strong> — Standard Team seats are free, premium seats run $15/month with 5x usage limits and pricing locked for a year, plus up to $50,000 in AI for Science credits per project.</p>
         <p><strong>3. Managed Agents Finally Get a Spend Cap</strong> — Session budgets pause a run at a hard limit with a budget_reached stop reason, shipping alongside advisor models, inference geo pinning and GitHub-hosted skills.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-28.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 27, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-27.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-27.html</guid>
-      <pubDate>Thu, 27 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Commits $45 Billion to Nscale</strong> — Six years and roughly 460 megawatts of Nvidia Vera Rubin capacity from a West Virginia build, with none of it serving a request until late 2027.</p>
-        <p><strong>2. Claude Code Now Files Its Own Bug Reports</strong> — Feedback goes upstream automatically when a tool keeps failing, when Claude notices its own mistake, or when a user calls it out.</p>
-        <p><strong>3. Mythos 5 Is Scanning Enterprise Codebases</strong> — Anthropic's most restricted model now powers Claude Security scans with CWE-classified findings and suggested patches, alongside a $35M Defender Advantage Fund.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-27.html">Read full report →</a></p>
       ]]></description>
     </item>
     </channel>
