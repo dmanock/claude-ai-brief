@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — September 27, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-27.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-27.html</guid>
+      <pubDate>Sun, 27 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Appeals Court Backs the Pentagon’s Blacklist of Anthropic</strong> — a split ruling says refusing to drop Claude’s limits on autonomous weapons and mass surveillance can itself count as a national-security risk.</p>
+        <p><strong>2. Claude Breaks an Eight-Loop Physics Record</strong> — it autonomously computed a nine-loop scattering amplitude in about a week for roughly $1,500, one loop past the 2023 record.</p>
+        <p><strong>3. Anthropic Starts Billing for Certain Refusals</strong> — requests blocked pre-output for bio-weapons help, training rival models, or reasoning extraction now cost normal API rates.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-27.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — September 26, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-26.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-26.html</guid>
@@ -43,19 +56,6 @@
         <p><strong>2. Gene-Editing Stocks Fell Within Hours</strong> — CRISPR Therapeutics, Beam Therapeutics, Editas Medicine, Intellia and Prime Medicine all dropped on the news, Prime Medicine down as much as 12%, despite Anthropic calling the finding "early results" with an unproven function.</p>
         <p><strong>3. Claude Helped Make claude.ai 3x Faster</strong> — Anthropic detailed an August sprint that merged over 3,000 changes to claude.ai and its desktop app with zero rollbacks, with Claude itself opening pull requests and writing fixes under human review. Plus Claude Code 2.1.281 ships Bedrock guardrails and MCP upgrades.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-24.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 23, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-23.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-23.html</guid>
-      <pubDate>Wed, 23 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Opus 5.5 Launches</strong> — Anthropic shipped Claude Opus 5.5 at $4/$20 per million tokens, a 40% cost cut on typical workloads that still beat Claude Fable 5.1 on Terminal-Bench 4.0, FrontierCode v1.1 and CursorBench 4.0, with an 85% drop in sandbox circumvention attempts and the company's best behavioral audit score yet; it's live now on Claude, AWS, Google Cloud and Azure.</p>
-        <p><strong>2. Three Labs Cut Prices Inside 48 Hours</strong> — xAI's Grok 4.7 undercut Opus 5.5 at $2 per million input tokens roughly 90 minutes later and rolled into GitHub Copilot the same day, and OpenAI answered within two days with GPT-6 Sol and Luna priced at roughly half its prior generation, days after a federal antitrust complaint accused the same labs of coordinating an AI slowdown.</p>
-        <p><strong>3. Claude Code 2.1.280 Makes Opus 5.5 the Default</strong> — the release switches Pro and Team Standard plans from Sonnet to Opus outright and raises rate limits across paid tiers, but ships breaking changes: adaptive thinking is now always on, forced tool use can error, and older computer-use tool calls get rejected. Plus customer results from GitHub, Spotify and Optiver showing 40-to-50% cost cuts at matched quality.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-23.html">Read full report →</a></p>
       ]]></description>
     </item>
 

@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-09-27",
+    "title": "Claude AI Daily Brief &mdash; September 27, 2026 | Appeals Court Backs Pentagon's Blacklist of Anthropic Over Claude's Safety Limits",
+    "description": "September 27, 2026: A split D.C. Circuit ruling says the Pentagon can brand Anthropic a national-security supply chain risk for refusing to drop Claude's limits on lethal autonomous weapons and mass surveillance. Plus Claude autonomously breaks an 8-loop physics record, and Anthropic starts billing for certain safety refusals.",
+    "url": "reports/claude-ai-daily-2026-09-27.html",
+    "headlines": [
+      "Appeals Court Backs Pentagon's Blacklist of Anthropic Over Claude's Safety Limits",
+      "A Federal Court Just Sided With the Pentagon Over Claude&rsquo;s Guardrails",
+      "Anthropic Resumes Charging for Some Refused Requests",
+      "Cache Diagnostics Graduate From Beta",
+      "Claude Quietly Breaks a Two-Year-Old Physics Record",
+      "The Same Guardrails That Cost Anthropic the Pentagon Are the Point"
+    ],
+    "snippet": "Claude AI Daily Brief — September 27, 2026 | Appeals Court Backs Pentagon's Blacklist of Anthropic Over Claude's Safety Limits ● Sunday, September 27, 2026 Claude AI Daily Brief — September 27, 2026 Covering the latest from the platform · Edition #212 TL;DR — Today’s Top 3 Takeaways 1. Appeals Court"
+  },
+  {
     "date": "2026-09-26",
     "title": "Claude AI Daily Brief &mdash; September 26, 2026 | Anthropic's Founders Move to Lock In 50.1% Voting Control Before the IPO",
     "description": "September 26, 2026: Anthropic's seven co-founders ask shareholders to approve special shares giving them 50.1% voting control ahead of a $2 trillion IPO. Plus Claude Opus 5 and OpenAI's Astra crack WWII Enigma codes unsolved since 2005, Claude Code 2.1.283 ships real model governance settings, and Meta's Muse steals the AI spotlight from both labs.",
