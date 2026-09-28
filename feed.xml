@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — September 28, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-28.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-28.html</guid>
+      <pubDate>Mon, 28 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Launches the Claude Marketplace</strong> — a directory of 2,000+ plugins, connectors and Claude-powered products, deliberately open to any developer, no partner program required.</p>
+        <p><strong>2. The Developer On-Ramp Opened Two Days Earlier</strong> — a self-serve submission portal with safety scanning and post-launch analytics feeds that same marketplace.</p>
+        <p><strong>3. Claude Tag Now Uses Your Own Connectors in Slack</strong> — personal Google Drive, calendar and CRM logins now work inside shared team channels.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-28.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — September 27, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-27.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-27.html</guid>
@@ -358,18 +371,6 @@
         <p><strong>2. Google and Microsoft Passed on That $45B Lease</strong> — Semafor reports both were in talks for the same 460 megawatts at Nscale's West Virginia campus before Anthropic committed to six years of it.</p>
         <p><strong>3. A $30 Trillion Pitch to IPO Investors</strong> — Anthropic's claimed addressable market tops the figure SpaceX used and sits near the size of the entire US economy, against a reported $2 trillion valuation.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-29.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Claude AI Daily Brief — August 28, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-28.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-28.html</guid>
-      <pubDate>Fri, 28 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Steps Into the Physical World</strong> — The Model Hardware Standard research preview lets AI agents safely operate microscopes, liquid handlers and robotic arms in parallel, cutting lab integration work from months to minutes.</p>
-        <p><strong>2. 10,000 Claude Seats Open for Scientists</strong> — Standard Team seats are free, premium seats run $15/month with 5x usage limits and pricing locked for a year, plus up to $50,000 in AI for Science credits per project.</p>
-        <p><strong>3. Managed Agents Finally Get a Spend Cap</strong> — Session budgets pause a run at a hard limit with a budget_reached stop reason, shipping alongside advisor models, inference geo pinning and GitHub-hosted skills.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-28.html">Read full report →</a></p>
       ]]></description>
     </item>
     </channel>

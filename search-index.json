@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-28",
+    "title": "Claude AI Daily Brief &mdash; September 28, 2026 | Anthropic Opens a 2,000-Tool Claude Marketplace",
+    "description": "September 28, 2026: Anthropic launches the Claude Marketplace with 2,000+ plugins and connectors, backed by a new developer submission portal and personal connectors in Claude Tag. Plus how Claude is cutting Ebola situation reports from a day to under an hour in the DRC.",
+    "url": "reports/claude-ai-daily-2026-09-28.html",
+    "headlines": [
+      "Anthropic Opens a 2",
+      "000-Tool Claude Marketplace",
+      "Anthropic Turns Claude Into a 2,000-Tool Marketplace",
+      "The On-Ramp for That Marketplace Opened Two Days Earlier",
+      "Claude Tag Can Now Use Your Own Connectors in a Channel",
+      "In the DRC, Claude Turned a Day of Paperwork Into Under an Hour",
+      "A Platform Launch and a Proof Point, in the Same Week"
+    ],
+    "snippet": "Claude AI Daily Brief — September 28, 2026 | Anthropic Opens a 2,000-Tool Claude Marketplace ● Monday, September 28, 2026 Claude AI Daily Brief — September 28, 2026 Covering the latest from the platform · Edition #213 TL;DR — Today’s Top 3 Takeaways 1. Anthropic Launches the Claude Marketplace — a d"
+  },
+  {
     "date": "2026-09-27",
     "title": "Claude AI Daily Brief &mdash; September 27, 2026 | Appeals Court Backs Pentagon's Blacklist of Anthropic Over Claude's Safety Limits",
     "description": "September 27, 2026: A split D.C. Circuit ruling says the Pentagon can brand Anthropic a national-security supply chain risk for refusing to drop Claude's limits on lethal autonomous weapons and mass surveillance. Plus Claude autonomously breaks an 8-loop physics record, and Anthropic starts billing for certain safety refusals.",
