@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-29",
+    "title": "Claude AI Daily Brief &mdash; September 29, 2026 | Anthropic&rsquo;s IPO Prospectus Goes Public",
+    "description": "September 29, 2026: Anthropic&rsquo;s IPO prospectus goes public with $4.6B in 2025 revenue and 80 pages of risk factors, and Claude Sonnet 5.5 launches at $2/$10 with breaking API changes for Sonnet 5 users.",
+    "url": "reports/claude-ai-daily-2026-09-29.html",
+    "headlines": [
+      "Anthropic&rsquo;s IPO Prospectus Goes Public",
+      "Anthropic&rsquo;s IPO Prospectus Is Public, and It Is Blunt",
+      "Claude Sonnet 5.5 Arrives at the Same Price",
+      "The Prospectus Spends 80 Pages Worrying",
+      "Moving From Sonnet 5? Some Requests Now Return 400s",
+      "That 70.6% Comes With an Asterisk Called Effort",
+      "Copilot and Cursor Shipped It Day One, and Testers Are Checking the Math",
+      "Big Headline, Fine Print Underneath"
+    ],
+    "snippet": "Claude AI Daily Brief — September 29, 2026 | Anthropic’s IPO Prospectus Goes Public ● Tuesday, September 29, 2026 Claude AI Daily Brief — September 29, 2026 Covering the latest from the platform · Edition #214 TL;DR — Today’s Top 3 Takeaways 1. Anthropic’s IPO Prospectus Goes Public — $4.6B in 2025 "
+  },
+  {
     "date": "2026-09-28",
     "title": "Claude AI Daily Brief &mdash; September 28, 2026 | Anthropic Opens a 2,000-Tool Claude Marketplace",
     "description": "September 28, 2026: Anthropic launches the Claude Marketplace with 2,000+ plugins and connectors, backed by a new developer submission portal and personal connectors in Claude Tag. Plus how Claude is cutting Ebola situation reports from a day to under an hour in the DRC.",

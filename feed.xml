@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — September 29, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-29.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-29.html</guid>
+      <pubDate>Tue, 29 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic’s IPO Prospectus Goes Public</strong> — $4.6B in 2025 revenue, an $8B+ operating loss, and roughly 80 pages of risk factors.</p>
+        <p><strong>2. Claude Sonnet 5.5 Is Live</strong> — Same $2/$10 pricing, 1M context, 30%+ faster output, and 70.6% on Terminal-Bench 4.0.</p>
+        <p><strong>3. Sonnet 5.5 Breaks Some Sonnet 5 API Calls</strong> — Disabled thinking, forced tool choice and manual budgets now return errors; migrate before you switch.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-29.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — September 28, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-28.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-28.html</guid>
@@ -72,7 +85,6 @@
       ]]></description>
     </item>
 
-
     <item>
       <title>Claude AI Daily Brief — September 22, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-22.html</link>
@@ -85,6 +97,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-22.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 21, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-21.html</link>
@@ -97,6 +110,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-21.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 20, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-20.html</link>
@@ -109,6 +123,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-20.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 19, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-19.html</link>
@@ -121,6 +136,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-19.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 18, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-18.html</link>
@@ -133,6 +149,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-18.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 17, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-17.html</link>
@@ -145,6 +162,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-17.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 16, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-16.html</link>
@@ -157,6 +175,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-16.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 15, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-15.html</link>
@@ -169,6 +188,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-15.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 14, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-14.html</link>
@@ -181,6 +201,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-14.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 13, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-13.html</link>
@@ -193,6 +214,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-13.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 12, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-12.html</link>
@@ -205,6 +227,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-12.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 11, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-11.html</link>
@@ -217,6 +240,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-11.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 10, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-10.html</link>
@@ -229,6 +253,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-10.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 9, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-09.html</link>
@@ -241,6 +266,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-09.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 8, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-08.html</link>
@@ -253,6 +279,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-08.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 7, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-07.html</link>
@@ -265,6 +292,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-07.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 6, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-06.html</link>
@@ -277,6 +305,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-06.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 5, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-05.html</link>
@@ -289,6 +318,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-05.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 4, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-04.html</link>
@@ -301,6 +331,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-04.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 3, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-03.html</link>
@@ -313,6 +344,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-03.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 2, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-02.html</link>
@@ -325,6 +357,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-02.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — September 1, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-01.html</link>
@@ -337,6 +370,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-01.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — August 31, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-31.html</link>
@@ -349,6 +383,7 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-31.html">Read full report →</a></p>
       ]]></description>
     </item>
+
     <item>
       <title>Claude AI Daily Brief — August 30, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-30.html</link>
@@ -361,17 +396,6 @@
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-30.html">Read full report →</a></p>
       ]]></description>
     </item>
-    <item>
-      <title>Claude AI Daily Brief — August 29, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-29.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-29.html</guid>
-      <pubDate>Sat, 29 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Salesforce Names a Product After Claude</strong> — Claudeforce makes Claude a default reasoning model across Agentforce, Slack and developer tools, shipping with a Salesforce plugin of 37 prebuilt sales skills and an open beta targeted for September.</p>
-        <p><strong>2. Google and Microsoft Passed on That $45B Lease</strong> — Semafor reports both were in talks for the same 460 megawatts at Nscale's West Virginia campus before Anthropic committed to six years of it.</p>
-        <p><strong>3. A $30 Trillion Pitch to IPO Investors</strong> — Anthropic's claimed addressable market tops the figure SpaceX used and sits near the size of the entire US economy, against a reported $2 trillion valuation.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-29.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-    </channel>
+
+  </channel>
 </rss>
