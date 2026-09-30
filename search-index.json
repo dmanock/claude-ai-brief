@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-09-30",
+    "title": "Claude AI Daily Brief &mdash; September 30, 2026 | Claude Outage and the GLM-5.3 Cyber Warning",
+    "description": "September 30, 2026: Claude suffers a partial outage across Claude.ai, Claude Code and Cowork, Anthropic warns open-weight GLM-5.3 matches Mythos-class cyber skills with weak safeguards, and Anthropic opens a public survey on what people want from AI.",
+    "url": "reports/claude-ai-daily-2026-09-30.html",
+    "headlines": [
+      "Claude Outage and the GLM-5.3 Cyber Warning",
+      "Claude Suffers a Partial Outage Across Claude.ai, Claude Code and Cowork",
+      "Anthropic: Open-Weight GLM-5.3 Brings Mythos-Class Cyber Skills to Everyone",
+      "&ldquo;What Do You Want From AI?&rdquo; Anthropic Opens a Public Survey",
+      "Claude Code 2.1.285 Ships Desktop and Plugin Controls",
+      "Plugin Directory Gives Developers a Self-Serve Path to Launch",
+      "Outage Day Puts Claude-Dependent Workflows in the Spotlight",
+      "Sonnet 5.5 Is Now the Default Conversation in Dev Circles",
+      "Capability Is Spreading Faster Than Guardrails"
+    ],
+    "snippet": "Claude AI Daily Brief — September 30, 2026 | Claude Outage and the GLM-5.3 Cyber Warning ● Wednesday, September 30, 2026 Claude AI Daily Brief — September 30, 2026 Covering the latest from the platform · Edition #215 TL;DR — Today’s Top 3 Takeaways 1. Claude Goes Down for Thousands — Partial outage "
+  },
+  {
     "date": "2026-09-29",
     "title": "Claude AI Daily Brief &mdash; September 29, 2026 | Anthropic&rsquo;s IPO Prospectus Goes Public",
     "description": "September 29, 2026: Anthropic&rsquo;s IPO prospectus goes public with $4.6B in 2025 revenue and 80 pages of risk factors, and Claude Sonnet 5.5 launches at $2/$10 with breaking API changes for Sonnet 5 users.",

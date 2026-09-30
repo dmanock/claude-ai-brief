@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — September 30, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-30.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-30.html</guid>
+      <pubDate>Wed, 30 Sep 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Goes Down for Thousands</strong> — Partial outage hit Claude.ai, Claude Code and Cowork on Sept 29, with 11,800+ Down Detector reports.</p>
+        <p><strong>2. Anthropic Warns on GLM-5.3</strong> — An open-weight model now matches Mythos-class cyber skills, and its safeguards fall to simple attacks 64-100% of the time.</p>
+        <p><strong>3. Anthropic Asks: What Do You Want From AI?</strong> — A new public study uses Anthropic Interviewer to gather views on AI's benefits and risks.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-30.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — September 29, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-29.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-29.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Claude Is Now Slack’s Default Model</strong> — Claudeforce makes Claude the default across Slack AI, Slackbot and Agentforce Coworker, while a Salesforce plugin carrying 37 prebuilt sales skills runs inside Claude, with open beta expected in September.</p>
         <p><strong>3. $45 Billion for 460 Megawatts</strong> — Anthropic committed to a six-year Nscale lease at the West Virginia campus Microsoft exited, running Nvidia Vera Rubin silicon from the end of 2027.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-31.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — August 30, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-08-30.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-08-30.html</guid>
-      <pubDate>Sun, 30 Aug 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Has Its Own Browser Now</strong> — the built-in browser finished rolling out to Cowork on macOS, Windows and Linux, separate from your own browser, with Enterprise defaults flipping on September 10.</p>
-        <p><strong>2. Opus 5 Overtook the Flagship</strong> — Ramp data reported by the FT shows Claude Fable 5 plateauing near 11% of Anthropic spend while the cheaper, newer model took the lead.</p>
-        <p><strong>3. Anthropic Raised Its Own Risk Rating</strong> — the August Risk Report moves misalignment in high-stakes settings from very low to low and discloses a year-long gap in biological classifier coverage on vendor traffic.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-08-30.html">Read full report →</a></p>
       ]]></description>
     </item>
 
