@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-10-01",
+    "title": "Claude AI Daily Brief &mdash; October 1, 2026 | Claude for Government Goes GA, White House AI Risk Clash",
+    "description": "October 1, 2026: Claude for Government goes generally available with FedRAMP High, Nvidia's Jensen Huang and Meta's Mark Zuckerberg push back on Dario Amodei's AI risk warnings at the White House, and SemiAnalysis says about 90% of Anthropic's business is agentic AI.",
+    "url": "reports/claude-ai-daily-2026-10-01.html",
+    "headlines": [
+      "Claude for Government Goes GA",
+      "White House AI Risk Clash",
+      "Claude for Government Is Now Generally Available",
+      "Claude Code CLI and Microsoft 365 Hit Government Early Access",
+      "Governance Controls Are the Real Feature for Gov Devs",
+      "Claude Marketplace Gives Builders a Distribution Channel",
+      "Huang and Zuckerberg Challenge Amodei at the White House",
+      "Claude Agents Find a Novel Enzyme System in Phage DNA",
+      "Agents Pay the Bills, and Washington Is Watching"
+    ],
+    "snippet": "Claude AI Daily Brief — October 1, 2026 | Claude for Government Goes GA, White House AI Risk Clash ● Thursday, October 1, 2026 Claude AI Daily Brief — October 1, 2026 Covering the latest from the platform · Edition #216 TL;DR — Today’s Top 3 Takeaways 1. Claude for Government Goes GA — FedRAMP High "
+  },
+  {
     "date": "2026-09-30",
     "title": "Claude AI Daily Brief &mdash; September 30, 2026 | Claude Outage and the GLM-5.3 Cyber Warning",
     "description": "September 30, 2026: Claude suffers a partial outage across Claude.ai, Claude Code and Cowork, Anthropic warns open-weight GLM-5.3 matches Mythos-class cyber skills with weak safeguards, and Anthropic opens a public survey on what people want from AI.",
