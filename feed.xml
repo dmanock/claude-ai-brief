@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 2, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-02.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-02.html</guid>
+      <pubDate>Fri, 02 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Eyes a Mid-November IPO</strong> — Reports say a pre-IPO investor day lands Oct 14, with a valuation target near $2 trillion.</p>
+        <p><strong>2. Barclays Scales Claude</strong> — 120,000 emails a day routed by Claude, and Claude Code aimed at 50% of developers by year end.</p>
+        <p><strong>3. Claude Code 2.1.287 Ships Claude Mods</strong> — Plugins can now change deeper behavior, plus sturdier Remote Control reconnects.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-02.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 1, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-01.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-01.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Cache Reads Fall 75%</strong> — $0.25 per MTok drops typical cost about 25% and heavy agentic work up to 45%, with no change to input or output rates.</p>
         <p><strong>3. Cyber Safeguards Loosened</strong> — Fable 5.1 can now find software vulnerabilities (not write exploits), and Claude Code sessions see roughly 60% fewer interventions.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-02.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 1, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-01.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-01.html</guid>
-      <pubDate>Tue, 01 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. $35 Billion More Compute</strong> — Anthropic signed a cloud deal with Nvidia-backed Lambda for a 350MW Hut 8 site in Nueces County, Texas.</p>
-        <p><strong>2. Judge Voids the Pentagon’s Risk Label</strong> — the “supply chain risk” designation was ruled unlawful retaliation and ordered removed.</p>
-        <p><strong>3. The Sonnet 5 Price Hike Didn’t Land</strong> — today’s scheduled jump to $3/$15 was cancelled; $2/$10 per MTok is now the standard rate.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-01.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>
