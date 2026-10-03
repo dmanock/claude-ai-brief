@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 3, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-03.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-03.html</guid>
+      <pubDate>Sat, 03 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Launches $100M Frontier Academy</strong> — Anthropic is putting $100M behind training 10,000 enterprise Claude engineers by the end of 2027.</p>
+        <p><strong>2. Sonnet 4.5 Retires Nov. 30</strong> — Anthropic points developers to Sonnet 5.5 as the replacement.</p>
+        <p><strong>3. Claude Code 2.1.288 Fixes the Annoying Stuff</strong> — Smarter resume, compaction and timeout recovery, plus Cowork and MCP fixes.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-03.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 2, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-02.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-02.html</guid>
@@ -384,17 +397,5 @@
       ]]></description>
     </item>
 
-    <item>
-      <title>Claude AI Daily Brief — September 2, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-02.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-02.html</guid>
-      <pubDate>Wed, 02 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Fable 5.1 and Mythos 5.1 Ship</strong> — one model, two safeguard levels; the science benchmark more than doubled and Opus 5 got beaten across the board.</p>
-        <p><strong>2. Cache Reads Fall 75%</strong> — $0.25 per MTok drops typical cost about 25% and heavy agentic work up to 45%, with no change to input or output rates.</p>
-        <p><strong>3. Cyber Safeguards Loosened</strong> — Fable 5.1 can now find software vulnerabilities (not write exploits), and Claude Code sessions see roughly 60% fewer interventions.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-02.html">Read full report →</a></p>
-      ]]></description>
-    </item>
   </channel>
 </rss>
