@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-10-04",
+    "title": "Claude AI Daily Brief &mdash; October 4, 2026 | Claude Code Mods, Barclays Scales Claude",
+    "description": "October 4, 2026: Claude Code mods let developers rewrite the agent with TypeScript, Barclays widens its Claude rollout, and Sonnet 5.5 posts a 70.6% Terminal-Bench 4.0 score at $2/$10 per million tokens.",
+    "url": "reports/claude-ai-daily-2026-10-04.html",
+    "headlines": [
+      "Claude Code Mods",
+      "Barclays Scales Claude",
+      "Barclays Widens Its Claude Rollout",
+      "Sonnet 5.5 Is Faster and Cheaper, With Haiku 5.5 on the Way",
+      "Claude Code Mods Let You Rewrite the Agent",
+      "Claude Code 2.1.289 Tightens Permissions and Plugins",
+      "Plugin Directory Portal Opens to Third-Party Developers",
+      "Two Recent Incidents, Both Resolved",
+      "Customization Is the New Moat"
+    ],
+    "snippet": "Claude AI Daily Brief — October 4, 2026 | Claude Code Mods, Barclays Scales Claude ● Sunday, October 4, 2026 Claude AI Daily Brief — October 4, 2026 Covering the latest from the platform · Edition #219 TL;DR — Today’s Top 3 Takeaways 1. Claude Code Mods Let You Rewrite the Agent — Anthropic’s new Ty"
+  },
+  {
     "date": "2026-10-03",
     "title": "Claude AI Daily Brief &mdash; October 3, 2026 | $100M Frontier Academy, Sonnet 4.5 Retires Nov. 30",
     "description": "October 3, 2026: Anthropic launches a $100M Claude Frontier Academy to train 10,000 engineers, Claude Sonnet 4.5 gets a November 30 retirement date, and Claude Code 2.1.288 ships reliability fixes.",
