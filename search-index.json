@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-05",
+    "title": "Claude AI Daily Brief &mdash; October 5, 2026 | $100M Frontier Academy, Claude Security",
+    "description": "October 5, 2026: Anthropic commits $100M to train 10,000 Claude engineers, launches Claude Security for enterprise code scanning, and starts processing Claude requests inside India.",
+    "url": "reports/claude-ai-daily-2026-10-05.html",
+    "headlines": [
+      "$100M Frontier Academy",
+      "Claude Security",
+      "Claude Frontier Academy: $100M to Train 10,000 Engineers",
+      "Claude Security Scans Enterprise Codebases",
+      "Fable 5.1 and Mythos 5.1: Same Model, Different Guardrails",
+      "India Endpoint Keeps Claude Requests In-Country",
+      "Releasebot Shows Mods as the Latest Claude Code Change",
+      "Anthropic Asks Users to Share Voice Data for Training",
+      "Anthropic Reports a Claude Threat to Florida Police",
+      "Anthropic Is Betting on People and Places, Not Just Models"
+    ],
+    "snippet": "Claude AI Daily Brief — October 5, 2026 | $100M Frontier Academy, Claude Security ● Monday, October 5, 2026 Claude AI Daily Brief — October 5, 2026 Covering the latest from the platform · Edition #220 TL;DR — Today’s Top 3 Takeaways 1. Anthropic Puts $100M Into 10,000 Claude Engineers — Claude Front"
+  },
+  {
     "date": "2026-10-04",
     "title": "Claude AI Daily Brief &mdash; October 4, 2026 | Claude Code Mods, Barclays Scales Claude",
     "description": "October 4, 2026: Claude Code mods let developers rewrite the agent with TypeScript, Barclays widens its Claude rollout, and Sonnet 5.5 posts a 70.6% Terminal-Bench 4.0 score at $2/$10 per million tokens.",
