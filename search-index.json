@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-06",
+    "title": "Claude AI Daily Brief &mdash; October 6, 2026 | Meta &amp; Microsoft Cut Claude, Gov GA",
+    "description": "October 6, 2026: Meta and Microsoft scale back internal Claude use, Claude Code 2.1.289 ships fixes, and Claude for Government reaches general availability with FedRAMP High.",
+    "url": "reports/claude-ai-daily-2026-10-06.html",
+    "headlines": [
+      "Meta &amp; Microsoft Cut Claude",
+      "Gov GA",
+      "Claude for Government Is Generally Available",
+      "Claude Agents Discover a Novel Enzyme System",
+      "Claude Code 2.1.289 Fixes Freezes and Auth Annoyances",
+      "Sonnet 5.5 Is the Fast, Cheaper Option",
+      "Meta and Microsoft Steer Staff Away From Claude",
+      "Big Tech Wants Its Own Stack. Everyone Else Wants What Ships."
+    ],
+    "snippet": "Claude AI Daily Brief — October 6, 2026 | Meta & Microsoft Cut Claude, Gov GA ● Tuesday, October 6, 2026 Claude AI Daily Brief — October 6, 2026 Covering the latest from the platform · Edition #221 TL;DR — Today’s Top 3 Takeaways 1. Meta and Microsoft Scale Back Claude — Meta halves Claude Code user"
+  },
+  {
     "date": "2026-10-05",
     "title": "Claude AI Daily Brief &mdash; October 5, 2026 | $100M Frontier Academy, Claude Security",
     "description": "October 5, 2026: Anthropic commits $100M to train 10,000 Claude engineers, launches Claude Security for enterprise code scanning, and starts processing Claude requests inside India.",

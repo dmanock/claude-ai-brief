@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 6, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-06.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-06.html</guid>
+      <pubDate>Tue, 06 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Meta and Microsoft Scale Back Claude</strong> — Meta halves Claude Code users to 30,000. Microsoft trims expected spend by a third.</p>
+        <p><strong>2. Claude Code 2.1.289 Ships Fixes</strong> — Terminal freeze, plugin loading and symlink permission fixes, plus an auth revert.</p>
+        <p><strong>3. Claude for Government Goes GA</strong> — FedRAMP High authorization for federal and state agencies.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-06.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 5, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-05.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-05.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Zero Data Retention Gets Rebuilt</strong> — Enterprise Frontier Safeguards puts monitoring logs in your own cloud bucket under your own keys. Anthropic can still read them.</p>
         <p><strong>3. Commerce Agents Ship as Open Source</strong> — an Apache-2.0 blueprint for shopping and merchant agents, with Shopify and Priceline already live. No checkout, no ad layer.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-06.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 5, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-05.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-05.html</guid>
-      <pubDate>Sat, 05 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Malware Is Draining Claude Accounts</strong> — commodity infostealers are lifting session cookies off users’ own machines and walking straight past MFA. Anthropic is force-signing people out and refunding the usage.</p>
-        <p><strong>2. The “Good Enough” Squeeze Is Real</strong> — the New York Times says Corporate America is quietly standardizing on free open-weight models, and the margin pressure lands on Anthropic and OpenAI both.</p>
-        <p><strong>3. Salesforce in Claude Opens Beta This Month</strong> — 37 prebuilt sales skills, live pipeline context, governed CRM actions, all from inside Claude.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-05.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>
