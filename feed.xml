@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 8, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-08.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-08.html</guid>
+      <pubDate>Thu, 08 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Haiku 5.5 Launches</strong> — $0.10/$0.50 per million tokens, 1M context.</p>
+        <p><strong>2. Cyber Program Gets Three Tiers</strong> — Glasswing tally tops 129,000 verified flaws.</p>
+        <p><strong>3. Max and Team Plans Get API Credits</strong> — Monthly Platform credits, plus Google Workspace beta.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-08.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 7, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-07.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-07.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Tools Can Change Mid-Conversation</strong> — a new beta header lets the tool list change between turns. The catch: editing it invalidates the entire cached prefix.</p>
         <p><strong>3. Commerce Agents Ship as Apache-2.0</strong> — free reference code for shopping and merchant agents, timed to land before the holiday season.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-08.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 7, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-07.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-07.html</guid>
-      <pubDate>Mon, 07 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Cowork Leaves the Laptop</strong> — web and mobile, remote sessions in beta, state synced to your account, and scheduled tasks that run with no device online.</p>
-        <p><strong>2. Workflows Turn the Plan Into a Script</strong> — Claude Code writes an orchestration script and a runtime executes it in the background. Inline output limits jump to 128K.</p>
-        <p><strong>3. MCP Goes Stateless</strong> — the new spec drops the bidirectional core for plain request/response, with tool names in HTTP headers so gateways can route on them.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-07.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>
