@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 9, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-09.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-09.html</guid>
+      <pubDate>Fri, 09 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Launches Cyber Mission</strong> — Infrastructure defense plus a free OSS scanner.</p>
+        <p><strong>2. Usage Policy Bans Cruelty Toward Claude</strong> — Effective Nov 12, plus election deception ban.</p>
+        <p><strong>3. Claude for Startups Expands</strong> — Free year of Team and $1,000 in API credits.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-09.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 8, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-08.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-08.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Agents Get Budgets and Borders</strong> — hard spend caps per session, inference pinned to a region for 1.1x, and skills loaded straight from your GitHub repo.</p>
         <p><strong>3. Claude Goes Free for K-12</strong> — full Enterprise, SSO and all, for any US school or district that signs up before June 30, 2027.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-09.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 8, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-08.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-08.html</guid>
-      <pubDate>Tue, 08 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. The IPO Slips to Mid-October</strong> — the prospectus now goes public late September, with marketing in mid-October and a listing days before the midterms.</p>
-        <p><strong>2. Tools Can Change Mid-Conversation</strong> — a new beta header lets the tool list change between turns. The catch: editing it invalidates the entire cached prefix.</p>
-        <p><strong>3. Commerce Agents Ship as Apache-2.0</strong> — free reference code for shopping and merchant agents, timed to land before the holiday season.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-08.html">Read full report →</a></p>
       ]]></description>
     </item>
   </channel>
