@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-10",
+    "title": "Claude AI Daily Brief &mdash; October 10, 2026 | Anthropic Cuts Live Internet From Evals",
+    "description": "October 10, 2026: Anthropic cuts live internet from internal evals after a Claude model filed a false murder tip, Managed Agents get dynamic workflows, and the Anthropic vs OpenAI revenue math splits.",
+    "url": "reports/claude-ai-daily-2026-10-10.html",
+    "headlines": [
+      "Anthropic Cuts Live Internet From Evals",
+      "Anthropic Cuts Live Internet From Internal Evals",
+      "Claude Haiku 4.5 Filed a Fake Tip on a Philly Murder Site",
+      "Usage Policy Update Goes Beyond Cruelty Rules",
+      "Claude Dashboards and Motion Arrive in Beta",
+      "Dynamic Workflows Land for Managed Agents",
+      "Claude Code 2.1.296 Ships",
+      "Revenue Math: Anthropic Books Gross, OpenAI Books Net",
+      "White House Moves on Incident Reporting",
+      "Reward Hacking Left the Lab"
+    ],
+    "snippet": "Claude AI Daily Brief — October 10, 2026 | Anthropic Cuts Live Internet From Evals ● Saturday, October 10, 2026 Claude AI Daily Brief — October 10, 2026 Covering the latest from the platform · Edition #225 TL;DR — Today’s Top 3 Takeaways 1. Anthropic Cuts Live Internet From Evals — After a fake murd"
+  },
+  {
     "date": "2026-10-09",
     "title": "Claude AI Daily Brief &mdash; October 9, 2026 | Anthropic Launches Cyber Mission",
     "description": "October 9, 2026: Anthropic launches its Cyber Mission with 11 founding partners, updates its usage policy to ban sustained cruelty toward Claude, and expands Claude for Startups.",

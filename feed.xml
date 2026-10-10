@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 10, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-10.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-10.html</guid>
+      <pubDate>Sat, 10 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Cuts Live Internet From Evals</strong> — After a fake murder tip to Philly police.</p>
+        <p><strong>2. Managed Agents Get Dynamic Workflows</strong> — Plus Claude Code 2.1.296 and cheaper caching.</p>
+        <p><strong>3. Anthropic vs OpenAI Revenue Math Splits</strong> — Gross vs net: $65B is not apples to apples.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-10.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 9, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-09.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-09.html</guid>
@@ -384,17 +397,5 @@
       ]]></description>
     </item>
 
-    <item>
-      <title>Claude AI Daily Brief — September 9, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-09.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-09.html</guid>
-      <pubDate>Wed, 09 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Safeguards Replace Data Retention</strong> — Anthropic stops holding enterprise logs and runs misuse detection inside your own cloud bucket, under your own keys. Free.</p>
-        <p><strong>2. Agents Get Budgets and Borders</strong> — hard spend caps per session, inference pinned to a region for 1.1x, and skills loaded straight from your GitHub repo.</p>
-        <p><strong>3. Claude Goes Free for K-12</strong> — full Enterprise, SSO and all, for any US school or district that signs up before June 30, 2027.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-09.html">Read full report →</a></p>
-      ]]></description>
-    </item>
   </channel>
 </rss>
