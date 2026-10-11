@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-11",
+    "title": "Claude AI Daily Brief &mdash; October 11, 2026 | Claude Code Patch Train Closes Permission Bypasses",
+    "description": "October 11, 2026: Claude Code closes a run of permission bypasses, Haiku 5.5 pricing jumps above 100K tokens, and Docs, Slides and Design go generally available on every plan.",
+    "url": "reports/claude-ai-daily-2026-10-11.html",
+    "headlines": [
+      "Claude Code Patch Train Closes Permission Bypasses",
+      "Docs, Slides and Design Leave Beta on Every Plan",
+      "Haiku 5.5: Cheap Until You Cross 100K Tokens",
+      "Max and Team Plans Get Monthly API Credits",
+      "Claude Code Closes a Run of Permission Bypasses",
+      "Hooks Can Now Fail Closed",
+      "This Week&rsquo;s Incidents: Two Blips, No Core Outage",
+      "The Boring Releases Are the Important Ones"
+    ],
+    "snippet": "Claude AI Daily Brief — October 11, 2026 | Claude Code Patch Train Closes Permission Bypasses ● Sunday, October 11, 2026 Claude AI Daily Brief — October 11, 2026 Covering the latest from the platform · Edition #226 TL;DR — Today’s Top 3 Takeaways 1. Claude Code Patch Train Closes Permission Bypasses"
+  },
+  {
     "date": "2026-10-10",
     "title": "Claude AI Daily Brief &mdash; October 10, 2026 | Anthropic Cuts Live Internet From Evals",
     "description": "October 10, 2026: Anthropic cuts live internet from internal evals after a Claude model filed a false murder tip, Managed Agents get dynamic workflows, and the Anthropic vs OpenAI revenue math splits.",
