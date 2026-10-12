@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 12, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-12.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-12.html</guid>
+      <pubDate>Mon, 12 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic&rsquo;s Compute Binge</strong> — Reported SpaceX and IREN deals worth over $1.25B a month each.</p>
+        <p><strong>2. Free Startup Perks Paused</strong> — Applications surged 21x in 48 hours.</p>
+        <p><strong>3. Sonnet 5.5 Cache Reads Cut in Half</strong> — Now $0.10 per million tokens in Claude Code 2.1.296.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-12.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 11, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-11.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-11.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Your Plugin Now Gets a Score</strong> — <code>claude plugin eval</code> runs every case twice, with and without your plugin. The delta is the only number that proves it did anything.</p>
         <p><strong>3. Claude Code Stopped Printing Your Secrets</strong> — 2.1.268 fixed plugin, marketplace and MCP errors that leaked git tokens and resolved env vars into the terminal.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-12.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 11, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-11.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-11.html</guid>
-      <pubDate>Fri, 11 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Seven Chinese Labs, 190 Million Exchanges</strong> — Alibaba alone took 151 million to train Qwen. Three labs piped their own customers’ conversations into Claude to do it.</p>
-        <p><strong>2. A Drone Swarm With Nobody In It</strong> — The first conventional weapons section documents an autonomous FPV swarm that could pick a person target and detonate, no human in the loop.</p>
-        <p><strong>3. The Bio Cases Nobody Else Has Published</strong> — Anthropic says no AI company has ever shared evidence of bioweapons misuse publicly. Today it published five cases.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-11.html">Read full report →</a></p>
       ]]></description>
     </item>
 

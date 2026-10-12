@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-10-12",
+    "title": "Claude AI Daily Brief &mdash; October 12, 2026 | Anthropic Compute Binge, Startup Perks Paused",
+    "description": "October 12, 2026: Anthropic reportedly lines up SpaceX and IREN compute, pauses free startup perks after a 21x application surge, and halves Sonnet 5.5 cache-read pricing.",
+    "url": "reports/claude-ai-daily-2026-10-12.html",
+    "headlines": [
+      "Anthropic Compute Binge",
+      "Startup Perks Paused",
+      "Free Claude Startup Perks Paused After a 21x Surge",
+      "Cyber Mission Launches With a Free Scanner for Open Source",
+      "Sonnet 5.5 Cache Reads Drop to $0.10 Per Million",
+      "Google Workspace Sidebar and Claude Code Mods",
+      "Reports: Anthropic Lines Up SpaceX and IREN Compute",
+      "Palantir CTO Downplays the Pentagon Split",
+      "Capacity Is the Moat"
+    ],
+    "snippet": "Claude AI Daily Brief — October 12, 2026 | Anthropic Compute Binge, Startup Perks Paused ● Monday, October 12, 2026 Claude AI Daily Brief — October 12, 2026 Covering the latest from the platform · Edition #227 TL;DR — Today’s Top 3 Takeaways 1. Anthropic’s Compute Binge — Reported SpaceX and IREN de"
+  },
+  {
     "date": "2026-10-11",
     "title": "Claude AI Daily Brief &mdash; October 11, 2026 | Claude Code Patch Train Closes Permission Bypasses",
     "description": "October 11, 2026: Claude Code closes a run of permission bypasses, Haiku 5.5 pricing jumps above 100K tokens, and Docs, Slides and Design go generally available on every plan.",
