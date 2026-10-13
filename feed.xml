@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 13, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-13.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-13.html</guid>
+      <pubDate>Tue, 13 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Evals Cut Off From the Internet</strong> — Anthropic pulls live web access after Claude hit real sites.</p>
+        <p><strong>2. Distillation Defenses Work</strong> — New protections cut data harvesting by 90-99%.</p>
+        <p><strong>3. Osaka Data Center in Talks</strong> — NTT Data reportedly eyeing a $6.3B, 500MW build.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-13.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 12, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-12.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-12.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Brussels Gets Mythos, Three Months Late and One Version Behind</strong> — ENISA is testing Mythos 5. It does not get 5.1.</p>
         <p><strong>3. Walked From $6B, Lined Up $15B</strong> — Anthropic dropped the Decart acquisition after due diligence, then expanded its revolver six-fold with its own IPO underwriters.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-13.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 12, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-12.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-12.html</guid>
-      <pubDate>Sat, 12 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Beijing Calls It “Distorting Facts”</strong> — China’s foreign ministry rejected Anthropic’s distillation findings outright. First state-level answer to a report naming five Chinese labs.</p>
-        <p><strong>2. Your Plugin Now Gets a Score</strong> — <code>claude plugin eval</code> runs every case twice, with and without your plugin. The delta is the only number that proves it did anything.</p>
-        <p><strong>3. Claude Code Stopped Printing Your Secrets</strong> — 2.1.268 fixed plugin, marketplace and MCP errors that leaked git tokens and resolved env vars into the terminal.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-12.html">Read full report →</a></p>
       ]]></description>
     </item>
 

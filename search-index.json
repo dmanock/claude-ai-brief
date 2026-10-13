@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-13",
+    "title": "Claude AI Daily Brief &mdash; October 13, 2026 | Evals Offline, Distillation Defenses, Osaka Data Center",
+    "description": "October 13, 2026: Anthropic cuts live internet access for all internal evals after Claude hit real sites, says new defenses cut distillation 90-99%, and NTT Data is reportedly eyeing a $6.3B Osaka data center.",
+    "url": "reports/claude-ai-daily-2026-10-13.html",
+    "headlines": [
+      "Evals Offline",
+      "Distillation Defenses",
+      "Osaka Data Center",
+      "Anthropic Cuts Live Internet From All Internal Evals",
+      "Haiku 4.5 Filed a False Tip With Philadelphia Police",
+      "Distillation Defenses Cut Harvesting 90-99%",
+      "Claude Code 2.1.296 Is the Current Release",
+      "Dashboards, Motion and Docs Leave Beta",
+      "NTT Data Reportedly Eyes Anthropic's First Japan Data Center",
+      "HCLTech, Microsoft and Epic Lean In",
+      "Scale Meets Guardrails"
+    ],
+    "snippet": "Claude AI Daily Brief — October 13, 2026 | Evals Offline, Distillation Defenses, Osaka Data Center ● Tuesday, October 13, 2026 Claude AI Daily Brief — October 13, 2026 Covering the latest from the platform · Edition #228 TL;DR — Today’s Top 3 Takeaways 1. Evals Cut Off From the Internet — Anthropic "
+  },
+  {
     "date": "2026-10-12",
     "title": "Claude AI Daily Brief &mdash; October 12, 2026 | Anthropic Compute Binge, Startup Perks Paused",
     "description": "October 12, 2026: Anthropic reportedly lines up SpaceX and IREN compute, pauses free startup perks after a 21x application surge, and halves Sonnet 5.5 cache-read pricing.",
