@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-14",
+    "title": "Claude AI Daily Brief &mdash; October 14, 2026 | IPO Investor Day, Scion Replaces Git, Evaluator Fight",
+    "description": "October 14, 2026: Anthropic reportedly holds its pre-IPO investor day, unveils Scion to replace Git as merges hit 30,000 a day, and Reuters says Anthropic and OpenAI pushed to control what outside evaluators publish.",
+    "url": "reports/claude-ai-daily-2026-10-14.html",
+    "headlines": [
+      "IPO Investor Day",
+      "Scion Replaces Git",
+      "Evaluator Fight",
+      "Anthropic Reportedly Holds Pre-IPO Investor Day Today",
+      "Scion: Anthropic Replaces Git in Its Monorepo",
+      "What Scion Means for Agent-Heavy Teams",
+      "Claude Code 2.1.296 Remains the Latest We Can Confirm",
+      "Labs Reportedly Pushed to Control Evaluator Publications",
+      "Open-Source Risk Comments and UK AISI Access",
+      "IREN Deal, Startup Perks Pause",
+      "Growth Is Stressing Everything"
+    ],
+    "snippet": "Claude AI Daily Brief — October 14, 2026 | IPO Investor Day, Scion Replaces Git, Evaluator Fight ● Wednesday, October 14, 2026 Claude AI Daily Brief — October 14, 2026 Covering the latest from the platform · Edition #229 TL;DR — Today’s Top 3 Takeaways 1. Investor Day Today — Anthropic reportedly me"
+  },
+  {
     "date": "2026-10-13",
     "title": "Claude AI Daily Brief &mdash; October 13, 2026 | Evals Offline, Distillation Defenses, Osaka Data Center",
     "description": "October 13, 2026: Anthropic cuts live internet access for all internal evals after Claude hit real sites, says new defenses cut distillation 90-99%, and NTT Data is reportedly eyeing a $6.3B Osaka data center.",

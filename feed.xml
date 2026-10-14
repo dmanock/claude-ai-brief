@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 14, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-14.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-14.html</guid>
+      <pubDate>Wed, 14 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Investor Day Today</strong> — Anthropic reportedly meets IPO investors in San Francisco.</p>
+        <p><strong>2. Scion Replaces Git</strong> — Merges hit 30,000 a day, so Anthropic built its own source control.</p>
+        <p><strong>3. Evaluator Publishing Fight</strong> — Anthropic and OpenAI reportedly sought control over what reviewers publish.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-14.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 13, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-13.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-13.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Nasdaq in October</strong> — Anthropic picked its venue, with a roadshow possibly mid-October and valuation talk running toward $2 trillion. Days after OpenAI ruled out listing this year.</p>
         <p><strong>3. Chips Entered a Bear Market on an Essay</strong> — SK Hynix fell over 5%, the KOSPI dropped 3.6%, and semis are 20% off June. Nvidia is reportedly still writing a $10B check into the IPO.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-14.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 13, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-13.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-13.html</guid>
-      <pubDate>Sun, 13 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. The Pentagon Clock Runs Out This Month</strong> — Claude comes off every Defense Department system by end of September, even after a judge ruled the blacklisting was partly baseless.</p>
-        <p><strong>2. Brussels Gets Mythos, Three Months Late and One Version Behind</strong> — ENISA is testing Mythos 5. It does not get 5.1.</p>
-        <p><strong>3. Walked From $6B, Lined Up $15B</strong> — Anthropic dropped the Decart acquisition after due diligence, then expanded its revolver six-fold with its own IPO underwriters.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-13.html">Read full report →</a></p>
       ]]></description>
     </item>
 
