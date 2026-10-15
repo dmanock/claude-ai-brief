@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 15, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-15.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-15.html</guid>
+      <pubDate>Thu, 15 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Q3 Revenue Hits $16.8B</strong> — Anthropic reportedly tells IPO investors it turned an adjusted profit.</p>
+        <p><strong>2. EU Opens AI Act Probes</strong> — The AI Office sends first information requests to Anthropic and OpenAI.</p>
+        <p><strong>3. Singapore Office Opens</strong> — Anthropic signs an AI safety MOU and opens its fifth APAC office.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-15.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 14, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-14.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-14.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Three Labs Have Been Drafting Their Own Regulator Since July</strong> — Anthropic, OpenAI and Google have met regularly about a FINRA-style standards body that would test frontier models before release. No government involved.</p>
         <p><strong>3. Claude Code Shipped Twice in One Day</strong> — 2.1.271 brought fast mode to Remote and per-command <code>allowed_domains</code> to sandboxed Bash. 2.1.272 followed hours later with terminal and session fixes.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-15.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 14, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-14.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-14.html</guid>
-      <pubDate>Mon, 14 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Amodei Asked the Industry to Slow Down. Altman and Musk Said Yes.</strong> — “We Must Pace the Frontier” landed Saturday with a three-part plan and one unilateral commitment: permanent, employee-level access for outside evaluators.</p>
-        <p><strong>2. Nasdaq in October</strong> — Anthropic picked its venue, with a roadshow possibly mid-October and valuation talk running toward $2 trillion. Days after OpenAI ruled out listing this year.</p>
-        <p><strong>3. Chips Entered a Bear Market on an Essay</strong> — SK Hynix fell over 5%, the KOSPI dropped 3.6%, and semis are 20% off June. Nvidia is reportedly still writing a $10B check into the IPO.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-14.html">Read full report →</a></p>
       ]]></description>
     </item>
 
