@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-16",
+    "title": "Claude AI Daily Brief &mdash; October 16, 2026 | Accenture Caps Claude Spend, METR Gets Inside, Scion Replaces Git",
+    "description": "October 16, 2026: Accenture reportedly caps central Claude funding at $29 per employee per month, Anthropic embeds six METR evaluators with internal-tools access, and Anthropic replaces Git with its Scion version-control system.",
+    "url": "reports/claude-ai-daily-2026-10-16.html",
+    "headlines": [
+      "Accenture Caps Claude Spend",
+      "METR Gets Inside",
+      "Scion Replaces Git",
+      "Six METR Evaluators Embedded Inside Anthropic",
+      "Frontier Red Team: Small Open Models Months From IoT Self-Replication",
+      "Anthropic Replaces Git With Scion",
+      "Claude Code Reaches v2.1.301",
+      "Accenture Caps Central Claude Funding at $29 Per Employee",
+      "Labs Sought Control Over Outside Evaluators' Reports",
+      "Anthropic Cuts Live Internet From Internal Evals",
+      "The Bill and the Audit"
+    ],
+    "snippet": "Claude AI Daily Brief — October 16, 2026 | Accenture Caps Claude Spend, METR Gets Inside, Scion Replaces Git ● Friday, October 16, 2026 Claude AI Daily Brief — October 16, 2026 Covering the latest from the platform · Edition #231 TL;DR — Today’s Top 3 Takeaways 1. Accenture Caps Claude Spend — Accen"
+  },
+  {
     "date": "2026-10-15",
     "title": "Claude AI Daily Brief &mdash; October 15, 2026 | Q3 Revenue Hits $16.8B, EU AI Act Probes, Singapore Office",
     "description": "October 15, 2026: Anthropic reportedly told IPO investors Q3 revenue hit $16.8B and it turned an adjusted profit, the EU AI Office opened its first AI Act probes into Anthropic and OpenAI, and Anthropic opened a Singapore office.",

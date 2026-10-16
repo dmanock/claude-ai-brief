@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 16, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-16.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-16.html</guid>
+      <pubDate>Fri, 16 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Accenture Caps Claude Spend</strong> — Accenture reportedly limits central Claude funding to $29 per employee a month.</p>
+        <p><strong>2. METR Moves Inside Anthropic</strong> — Six outside evaluators get internal-tools access and publishing independence.</p>
+        <p><strong>3. Scion Replaces Git</strong> — Anthropic swaps Git for Scion as agents push 30,000 merges a day.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-16.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 15, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-15.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-15.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Claude for Financial Advisors Ships With Schwab and BlackRock</strong> — Anthropic released a plugin bundling connectors to Charles Schwab, BlackRock, Addepar, Envestnet, iCapital, Orion, SS&amp;C Black Diamond, Wealthbox, Wealth.com, Vanguard and Zocks with workflow skills, using a data-custody architecture that keeps client records on each firm's own servers; investment recommendations and compliance determinations stay behind human review, Enterprise is recommended for RIAs because of its audit logs, and firms requesting a license before October receive a one-time usage credit.</p>
         <p><strong>3. Claude Code 2.1.273 Lands and Anthropic's CI Hits 25x</strong> — The release added five opt-in LLM gateway hint headers behind CLAUDE_CODE_GATEWAY_HINT_HEADERS, a notification when an MCP server disconnects and reconnection gives up, remote-control session forking from the Claude app, and fixes for a subshell hiding a dangerous rm in bypass mode and for unanalyzable Bash commands skipping the permission prompt; separately, Anthropic's engineering blog disclosed that CI jobs grew 25-fold in six months while Claude authored roughly 80% of new production code.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-16.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 15, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-15.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-15.html</guid>
-      <pubDate>Tue, 15 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Is the $13.7B Mystery Customer</strong> — Three days after the slowdown essay, Anthropic turns out to be the unnamed buyer in RUM Group’s six-year GPU contract. Half the warrant only vests if Anthropic buys another 400–500MW.</p>
-        <p><strong>2. Three Labs Have Been Drafting Their Own Regulator Since July</strong> — Anthropic, OpenAI and Google have met regularly about a FINRA-style standards body that would test frontier models before release. No government involved.</p>
-        <p><strong>3. Claude Code Shipped Twice in One Day</strong> — 2.1.271 brought fast mode to Remote and per-command <code>allowed_domains</code> to sandboxed Bash. 2.1.272 followed hours later with terminal and session fixes.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-15.html">Read full report →</a></p>
       ]]></description>
     </item>
 
