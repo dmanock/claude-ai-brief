@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-10-17",
+    "title": "Claude AI Daily Brief &mdash; October 17, 2026 | Claude Cracks a NIST Curve Mystery, Redesigns Quantum Circuits, Code Gets 3x Faster",
+    "description": "October 17, 2026: Claude traced the seeds of NIST elliptic curves to 1990s Unix timestamps, Anthropic says Claude beat published quantum circuit designs on eight tasks, and Claude Code's local first-token latency fell from 4.07s to 1.33s.",
+    "url": "reports/claude-ai-daily-2026-10-17.html",
+    "headlines": [
+      "Claude Cracks a NIST Curve Mystery",
+      "Redesigns Quantum Circuits",
+      "Code Gets 3x Faster",
+      "Claude Traces NIST Curve Seeds to 1990s Timestamps",
+      "Claude Finds Better Quantum Circuit Designs",
+      "Claude Code Latency Drops Nearly 3x",
+      "Claude Code v2.1.300 Ships",
+      "Live Internet Stays Off for Anthropic's Internal Evals",
+      "Research Agent, Meet Guardrails"
+    ],
+    "snippet": "Claude AI Daily Brief — October 17, 2026 | Claude Cracks a NIST Curve Mystery, Redesigns Quantum Circuits, Code Gets 3x Faster ● Saturday, October 17, 2026 Claude AI Daily Brief — October 17, 2026 Covering the latest from the platform · Edition #232 TL;DR — Today’s Top 3 Takeaways 1. Claude Cracks N"
+  },
+  {
     "date": "2026-10-16",
     "title": "Claude AI Daily Brief &mdash; October 16, 2026 | Accenture Caps Claude Spend, METR Gets Inside, Scion Replaces Git",
     "description": "October 16, 2026: Accenture reportedly caps central Claude funding at $29 per employee per month, Anthropic embeds six METR evaluators with internal-tools access, and Anthropic replaces Git with its Scion version-control system.",

@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 17, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-17.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-17.html</guid>
+      <pubDate>Sat, 17 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Cracks NIST Curve Mystery</strong> — Anthropic says Claude traced curve seeds to 1990s Unix timestamps.</p>
+        <p><strong>2. Claude Redesigns Quantum Circuits</strong> — New designs beat published versions on eight tasks, some by 10x or more.</p>
+        <p><strong>3. Claude Code Gets About 3x Faster</strong> — Local first-token latency drops from 4.07s to 1.33s.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-17.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 16, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-16.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-16.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Claude Docs and Claude Slides Ship in Beta</strong> — Launched alongside the merge with Claude Design now working inside any conversation, the two are web-native working documents rather than files generated at the end of a chat: they live at a single shareable link, support simultaneous editing and comments, stay editable from a phone, and export to PowerPoint or PDF for Slides and Microsoft Word or Google Docs for Docs.</p>
         <p><strong>3. Anthropic's Policy Chief Rejects the Honor Code</strong> — At POLITICO's Decoded Summit in Washington, head of public policy Sarah Heck said there is no world where people accept AI companies doing safety on an honor code and that "we can't be checking our own homework," rejecting the self-regulation posture congressional Republicans have relied on while noting Anthropic speaks with the White House daily; separately, Claude Code 2.1.274 shipped with an MCP transport overhaul and three security-relevant permission and secret-redaction fixes.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-17.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 16, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-16.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-16.html</guid>
-      <pubDate>Wed, 16 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Huang Rejects the Antitrust Waiver, Zuckerberg Agrees</strong> — Nvidia CEO Jensen Huang called the antitrust exemption underpinning Anthropic's proposed coordinated slowdown "completely unnecessary," arguing that labs already have the power to test longer before shipping and that "safety is an engineering problem, testing is an engineering problem"; Meta CEO Mark Zuckerberg sided with him the same day, giving the pacing coalition its first serious opposition since Amodei's September 12 essay.</p>
-        <p><strong>2. Claude for Financial Advisors Ships With Schwab and BlackRock</strong> — Anthropic released a plugin bundling connectors to Charles Schwab, BlackRock, Addepar, Envestnet, iCapital, Orion, SS&amp;C Black Diamond, Wealthbox, Wealth.com, Vanguard and Zocks with workflow skills, using a data-custody architecture that keeps client records on each firm's own servers; investment recommendations and compliance determinations stay behind human review, Enterprise is recommended for RIAs because of its audit logs, and firms requesting a license before October receive a one-time usage credit.</p>
-        <p><strong>3. Claude Code 2.1.273 Lands and Anthropic's CI Hits 25x</strong> — The release added five opt-in LLM gateway hint headers behind CLAUDE_CODE_GATEWAY_HINT_HEADERS, a notification when an MCP server disconnects and reconnection gives up, remote-control session forking from the Claude app, and fixes for a subshell hiding a dangerous rm in bypass mode and for unanalyzable Bash commands skipping the permission prompt; separately, Anthropic's engineering blog disclosed that CI jobs grew 25-fold in six months while Claude authored roughly 80% of new production code.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-16.html">Read full report →</a></p>
       ]]></description>
     </item>
 
