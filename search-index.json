@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-18",
+    "title": "Claude AI Daily Brief &mdash; October 18, 2026 | Fable 5.5 Rumors, Code Review Goes GA, Claude Design Sunset Date",
+    "description": "October 18, 2026: Leaks point to Claude Fable 5.5 arriving next week, Code Review exits preview with 3x faster runs, and Anthropic sets December 14 to close standalone Claude Design.",
+    "url": "reports/claude-ai-daily-2026-10-18.html",
+    "headlines": [
+      "Fable 5.5 Rumors",
+      "Code Review Goes GA",
+      "Claude Design Sunset Date",
+      "Code Review Is Now Generally Available",
+      "Standalone Claude Design Closes December 14",
+      "Opus 5.5 Fast Mode Exits Preview",
+      "Claude Code 2.1.300 to 2.1.302",
+      "Claude Fable 5.5 Reportedly Reaches Partners",
+      "FT: Negotiating Ethics for Claude Agents, Plus IPO Prep",
+      "Follow-Up: Live Internet Still Off for Internal Evals",
+      "Clearing the Shelf"
+    ],
+    "snippet": "Claude AI Daily Brief — October 18, 2026 | Fable 5.5 Rumors, Code Review Goes GA, Claude Design Sunset Date ● Sunday, October 18, 2026 Claude AI Daily Brief — October 18, 2026 Covering the latest from the platform · Edition #233 TL;DR — Today’s Top 3 Takeaways 1. Fable 5.5 Rumored for Next Week — Le"
+  },
+  {
     "date": "2026-10-17",
     "title": "Claude AI Daily Brief &mdash; October 17, 2026 | Claude Cracks a NIST Curve Mystery, Redesigns Quantum Circuits, Code Gets 3x Faster",
     "description": "October 17, 2026: Claude traced the seeds of NIST elliptic curves to 1990s Unix timestamps, Anthropic says Claude beat published quantum circuit designs on eight tasks, and Claude Code's local first-token latency fell from 4.07s to 1.33s.",
