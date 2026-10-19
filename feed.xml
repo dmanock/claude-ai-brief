@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 19, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-19.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-19.html</guid>
+      <pubDate>Mon, 19 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Public Benefit Fund</strong> — Anthropic pledges 5% of its shares to a new public benefit fund. About 20% of equity now earmarked for public good.</p>
+        <p><strong>2. Musk Says Give Shares to the Public</strong> — Musk answered the fund news on X, saying he would hand his shares to the public. No details on how or when.</p>
+        <p><strong>3. Claude Code 2.1.299 Fixes Gateway Key Leak</strong> — Claude Code sent third-party gateway API keys to Anthropic on routine requests. 2.1.299 stops it.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-19.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 18, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-18.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-18.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Anthropic Publishes Its September Threat Intelligence Report</strong> — The report covers operations Anthropic's Threat Intelligence team identified and disrupted between December 2025 and August 2026 across seven harm areas: cyber operations, influence operations, surveillance, scams and fraud, biological misuse, conventional weapons development and distillation; it is presented as case studies rather than aggregate counts, with disrupted cases involving Claude Haiku, Sonnet and Opus and no misuse cases involving Fable or Mythos-class models aside from a single illicit distillation case.</p>
         <p><strong>3. The Scheduled Sonnet 5 Price Increase Is Cancelled</strong> — The introductory pricing for Claude Sonnet 5 of $2 per million input tokens and $10 per million output tokens is now the standard price, and the increase to $3 and $15 scheduled for September 1, 2026 will not occur; separately, Claude Code 2.1.277 added AGENTS.md support for projects without a CLAUDE.md and moved Bedrock, Vertex, Foundry and telemetry-disabled installs to the v2 MCP client, while 2.1.278 defaulted auto mode to the server-side classifier, which does not charge for classifier overhead.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-19.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 18, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-18.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-18.html</guid>
-      <pubDate>Fri, 18 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Now Leads 26% of Anthropic's Own R&amp;D</strong> — Anthropic disclosed internal research metrics for the first time, saying an internal review found Claude able to lead research and development work roughly 26% of the time, completing most of a task end-to-end from a high-level prompt with humans supervising; the figure stood at zero as recently as February, about 90% of the company's R&amp;D now happens in collaboration with the model, and Anthropic says there is no point at which Claude operates fully autonomously without a human in the loop.</p>
-        <p><strong>2. Anthropic Picks Nasdaq and Targets an October Listing</strong> — The company selected Nasdaq for its planned IPO with reporting placing the potential valuation near $2 trillion against a May Series H that valued it at $965 billion; annualized revenue is around $65 billion, the offering is expected to raise more than $60 billion with Goldman Sachs, JPMorgan and Morgan Stanley leading, and Anthropic expects a second consecutive profitable quarter.</p>
-        <p><strong>3. Claude Code 2.1.275 Ships Skill Sync, Then 2.1.276 Hotfixes It</strong> — The release added syncClaudeAiSkills and syncClaudeAiPlugins settings pulling claude.ai skills and plugins into the CLI, a --marketplace flag on /plugin install, a Ctrl+Enter send-now keybinding and npm pack --ignore-scripts integrity verification on npm-sourced plugins, before 2.1.276 followed within hours to fix every request failing with a 400 input-tag error when ANTHROPIC_BASE_URL pointed at a proxy or gateway; separately, Workbench is now Playground and the Messages API gained on-demand conversation compaction in beta.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-18.html">Read full report →</a></p>
       ]]></description>
     </item>
 

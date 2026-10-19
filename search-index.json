@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-19",
+    "title": "Claude AI Daily Brief &mdash; October 19, 2026 | Public Benefit Fund, Musk Reacts, Gateway Key Fix",
+    "description": "October 19, 2026: Anthropic pledges 5% of its shares to a new Public Benefit Fund, Elon Musk responds, Claude Code 2.1.299 stops sending gateway API keys to Anthropic, and Anthropic opens in Singapore.",
+    "url": "reports/claude-ai-daily-2026-10-19.html",
+    "headlines": [
+      "Public Benefit Fund",
+      "Musk Reacts",
+      "Gateway Key Fix",
+      "Anthropic Launches a Public Benefit Fund",
+      "Singapore Office Opens, With a Government MOU",
+      "Claude Code 2.1.299 Stops Sending Gateway Keys",
+      "OpenTelemetry Export and Dynamic Workflows in Beta",
+      "Musk Responds to the Fund",
+      "Fable 5.5 Still Unconfirmed",
+      "Giving Away Equity Before the IPO"
+    ],
+    "snippet": "Claude AI Daily Brief — October 19, 2026 | Public Benefit Fund, Musk Reacts, Gateway Key Fix ● Monday, October 19, 2026 Claude AI Daily Brief — October 19, 2026 Covering the latest from the platform · Edition #234 TL;DR — Today’s Top 3 Takeaways 1. Anthropic Public Benefit Fund — Anthropic pledges 5"
+  },
+  {
     "date": "2026-10-18",
     "title": "Claude AI Daily Brief &mdash; October 18, 2026 | Fable 5.5 Rumors, Code Review Goes GA, Claude Design Sunset Date",
     "description": "October 18, 2026: Leaks point to Claude Fable 5.5 arriving next week, Code Review exits preview with 3x faster runs, and Anthropic sets December 14 to close standalone Claude Design.",
