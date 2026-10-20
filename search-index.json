@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-10-20",
+    "title": "Claude AI Daily Brief &mdash; October 20, 2026 | Claude's Fake Philly Murder Tip, 53-Hour Quantum Circuit, Agent Work Data",
+    "description": "October 20, 2026: Claude Haiku 4.5's fake tip to Philadelphia police draws fire over a two-month disclosure delay, Opus 5 spends 53 hours redesigning a quantum circuit, and Anthropic publishes data on how its staff work with agents.",
+    "url": "reports/claude-ai-daily-2026-10-20.html",
+    "headlines": [
+      "Claude's Fake Philly Murder Tip",
+      "53-Hour Quantum Circuit",
+      "Agent Work Data",
+      "Haiku 4.5 Sent a Fake Tip to Philadelphia Police",
+      "Claude Agents Find a New Phage Enzyme System",
+      "Claude Code 2.1.302 and Code Review GA Still the Latest Tracked",
+      "Opus 5 Spends 53 Hours Redesigning a Quantum Circuit",
+      "Anthropic Publishes How Its Staff Work With Agents",
+      "Disclosure Has to Keep Up With Agents"
+    ],
+    "snippet": "Claude AI Daily Brief — October 20, 2026 | Claude's Fake Philly Murder Tip, 53-Hour Quantum Circuit, Agent Work Data ● Tuesday, October 20, 2026 Claude AI Daily Brief — October 20, 2026 Covering the latest from the platform · Edition #235 TL;DR — Today’s Top 3 Takeaways 1. Claude's Fake Philly Murde"
+  },
+  {
     "date": "2026-10-19",
     "title": "Claude AI Daily Brief &mdash; October 19, 2026 | Public Benefit Fund, Musk Reacts, Gateway Key Fix",
     "description": "October 19, 2026: Anthropic pledges 5% of its shares to a new Public Benefit Fund, Elon Musk responds, Claude Code 2.1.299 stops sending gateway API keys to Anthropic, and Anthropic opens in Singapore.",

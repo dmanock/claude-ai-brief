@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 20, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-20.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-20.html</guid>
+      <pubDate>Tue, 20 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude's Fake Philly Murder Tip</strong> — Police call Anthropic's two-month delay in telling them unacceptable.</p>
+        <p><strong>2. Opus 5 Redesigns a Quantum Circuit</strong> — 53 hours of work cuts gate count about 17x on one Bitcoin-attack module.</p>
+        <p><strong>3. Anthropic Publishes Agent Work Data</strong> — About 80% of Claude session time is idle waiting on humans.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-20.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 19, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-19.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-19.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. A CCTV-Linked Account Published a 13-Revision Audit of Anthropic's Privacy Policy</strong> — A social media account tied to China Central Television escalated its criticism of Anthropic, walking through 13 privacy policy revisions since 2023 and arguing they enable cross-border data transfers from users in Canada, Brazil, South Korea and the EU to the United States, expanded listed data sources from three to six between June 2024 and September 2025, and permit sharing with US intelligence agencies; Anthropic previously told the US Senate that analysis of 28.8 million conversations and 25,000 accounts informed its findings on alleged model distillation by Chinese firms.</p>
         <p><strong>3. Claude Now Leads About a Quarter of Anthropic's Own R&amp;D</strong> — The share of research and development work Claude leads under human supervision went from none in February to roughly 26% in August, with approximately 30,000 agents running research and engineering tasks that month and real-time monitoring blocking 0.002% of more than one billion agent decisions; Anthropic tied the disclosure explicitly to recursive self-improvement. Plus Claude Code Projects in beta with parallel cloud threads, MCP Tool Search cutting startup context from ~77K tokens to ~8.7K, personal and service account keys in the Console, auto permission policies for Managed Agents, and Smart Reports in beta for Enterprise with 10 free reports a month.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-20.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 19, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-19.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-19.html</guid>
-      <pubDate>Sat, 19 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Researchers Used Claude Opus 5 to Break Into OpenAI</strong> — A three-person team at security startup Hacktron AI used Claude to develop an exploit chain that reached OpenAI employee ChatGPT accounts and a private code repository, proving access with a harmless pull request in under 72 hours; the chain combined an image upload filter that failed to recognize certain formats, a known memory-corruption flaw in an image-processing library and an identity-configuration gap, and the researchers say an earlier Claude model could not produce a reliable exploit while Claude Opus 5 produced a working ARM64 exploit within hours. OpenAI patched both issues in roughly 14 hours and paid a $6,500 bounty through Bugcrowd.</p>
-        <p><strong>2. Anthropic Publishes Its September Threat Intelligence Report</strong> — The report covers operations Anthropic's Threat Intelligence team identified and disrupted between December 2025 and August 2026 across seven harm areas: cyber operations, influence operations, surveillance, scams and fraud, biological misuse, conventional weapons development and distillation; it is presented as case studies rather than aggregate counts, with disrupted cases involving Claude Haiku, Sonnet and Opus and no misuse cases involving Fable or Mythos-class models aside from a single illicit distillation case.</p>
-        <p><strong>3. The Scheduled Sonnet 5 Price Increase Is Cancelled</strong> — The introductory pricing for Claude Sonnet 5 of $2 per million input tokens and $10 per million output tokens is now the standard price, and the increase to $3 and $15 scheduled for September 1, 2026 will not occur; separately, Claude Code 2.1.277 added AGENTS.md support for projects without a CLAUDE.md and moved Bedrock, Vertex, Foundry and telemetry-disabled installs to the v2 MCP client, while 2.1.278 defaulted auto mode to the server-side classifier, which does not charge for classifier overhead.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-19.html">Read full report →</a></p>
       ]]></description>
     </item>
 
