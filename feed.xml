@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 21, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-21.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-21.html</guid>
+      <pubDate>Wed, 21 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Amodei Defends Safety Record</strong> — Anthropic's CEO answers critics and stands by its China sales restrictions.</p>
+        <p><strong>2. Anthropic Pledges 5% to Public Benefit Fund</strong> — Shares committed ahead of a possible record IPO.</p>
+        <p><strong>3. Claude Designs Scorpion Toxin Binders</strong> — 17 of 211 protein designs met binding criteria in lab tests.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-21.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 20, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-20.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-20.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. The IPO Timeline Firms Up Around November</strong> — Anthropic is targeting a November listing moved back from October, with marketing of the offering expected to begin around mid-October and roughly $100 billion in proceeds sought against a valuation target of up to $2 trillion; the stated reason for the delay is getting a complete set of third-quarter results in front of investors before the roadshow, against a revenue run rate that went from about $9 billion at the end of 2025 to roughly $65 billion by the end of July. The prospectus is not yet public and timing, size and pricing remain undetermined.</p>
         <p><strong>3. Mythos Opens to Vetted Biology Teams</strong> — Anthropic opened applications for the Life Sciences Verification Program in beta, giving verified life science organizations access to Mythos, Opus and Sonnet under safeguards tuned to permit drug discovery, research biology, clinical development and manufacturing work currently blocked in generally available Fable models, with applicants passing a review of research credentials, security standards and ethical oversight before applying for Standard Use or High-risk Use grants. Plus Claude Code 2.1.278 defaulting auto mode to the server-side classifier with no overhead charge, AGENTS.md support, remote-control session forking, MCP disconnect notifications, Messages API conversation compaction in beta, Python SDK v1.0 on httpx2, Salesforce in Claude reaching open beta with 37 sales skills, and a 14-partner small business webinar series.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-21.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 20, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-20.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-20.html</guid>
-      <pubDate>Sun, 20 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic's IPO Slips to November</strong> — The company pushed its planned listing from October to November while targeting a valuation of up to $2 trillion, with outside estimates now spanning $1.5 trillion to $4 trillion amid renewed enterprise traction at OpenAI, per-token price compression from Chinese and Meta open-weight models, and rising infrastructure costs; annualized revenue reached roughly $65 billion as of July, up from a $47 billion run rate in May and $10 billion for all of last year, and is projected to pass $120 billion by year end.</p>
-        <p><strong>2. A CCTV-Linked Account Published a 13-Revision Audit of Anthropic's Privacy Policy</strong> — A social media account tied to China Central Television escalated its criticism of Anthropic, walking through 13 privacy policy revisions since 2023 and arguing they enable cross-border data transfers from users in Canada, Brazil, South Korea and the EU to the United States, expanded listed data sources from three to six between June 2024 and September 2025, and permit sharing with US intelligence agencies; Anthropic previously told the US Senate that analysis of 28.8 million conversations and 25,000 accounts informed its findings on alleged model distillation by Chinese firms.</p>
-        <p><strong>3. Claude Now Leads About a Quarter of Anthropic's Own R&amp;D</strong> — The share of research and development work Claude leads under human supervision went from none in February to roughly 26% in August, with approximately 30,000 agents running research and engineering tasks that month and real-time monitoring blocking 0.002% of more than one billion agent decisions; Anthropic tied the disclosure explicitly to recursive self-improvement. Plus Claude Code Projects in beta with parallel cloud threads, MCP Tool Search cutting startup context from ~77K tokens to ~8.7K, personal and service account keys in the Console, auto permission policies for Managed Agents, and Smart Reports in beta for Enterprise with 10 free reports a month.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-20.html">Read full report →</a></p>
       ]]></description>
     </item>
 
