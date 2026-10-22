@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-10-22",
+    "title": "Claude AI Daily Brief &mdash; October 22, 2026 | Claude Duet Background Agent, New API Version Drops Temperature, Claude Code 2.1.307",
+    "description": "October 22, 2026: Anthropic previews Claude Duet, a background work agent, the Claude API gets its first new version since 2023 with sampling parameters removed, and Claude Code 2.1.307 ships with 43 changes.",
+    "url": "reports/claude-ai-daily-2026-10-22.html",
+    "headlines": [
+      "Claude Duet Background Agent",
+      "New API Version Drops Temperature",
+      "Claude Code 2.1.307",
+      "Anthropic Previews Claude Duet, a Background Work Agent",
+      "Anthropic Shuts Off Live Internet for All Internal Evals",
+      "Claude API Version 2026-10-21 Removes Sampling Parameters",
+      "Claude Code 2.1.307 Brings 43 Changes",
+      "Duet Draws Early Reaction From Crypto Circles",
+      "Autonomy Is the Product and the Risk"
+    ],
+    "snippet": "Claude AI Daily Brief — October 22, 2026 | Claude Duet Background Agent, New API Version Drops Temperature, Claude Code 2.1.307 ● Thursday, October 22, 2026 Claude AI Daily Brief — October 22, 2026 Covering the latest from the platform · Edition #237 TL;DR — Today’s Top 3 Takeaways 1. Claude Duet Pr"
+  },
+  {
     "date": "2026-10-21",
     "title": "Claude AI Daily Brief &mdash; October 21, 2026 | Amodei Defends Safety Record, 5% Public Benefit Fund, Claude Scorpion Toxin Binders",
     "description": "October 21, 2026: Dario Amodei defends Anthropic's safety record and China restrictions, Anthropic pledges 5% of its shares to a public benefit fund, and Claude helps design protein binders for scorpion neurotoxins.",
