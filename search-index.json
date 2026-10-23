@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-23",
+    "title": "Claude AI Daily Brief &mdash; October 23, 2026 | Claude Security Scans Continuously, Claude Hits Google Cloud, Claude Designs Scorpion Toxin Binders",
+    "description": "October 23, 2026: Claude Security goes continuous in public beta for Enterprise, Anthropic-managed Claude lands on Google Cloud with Opus 5.5 fast mode, and Claude designs protein binders against scorpion neurotoxins.",
+    "url": "reports/claude-ai-daily-2026-10-23.html",
+    "headlines": [
+      "Claude Security Scans Continuously",
+      "Claude Hits Google Cloud",
+      "Claude Designs Scorpion Toxin Binders",
+      "Claude Security Now Scans Continuously and Tracks Fixes",
+      "Claude Designs Protein Binders Against Scorpion Neurotoxins",
+      "Anthropic-Managed Claude Launches on Google Cloud",
+      "New SDKs Switch to Apache 2.0, Profiles Gain Enforcement Fields",
+      "Replit Makes OpenAI Its Default, but Claude Stays Available",
+      "Analysts: Duet Is Restrained, Enterprises Are Not Ready",
+      "Agents Are Moving Into the Stack"
+    ],
+    "snippet": "Claude AI Daily Brief — October 23, 2026 | Claude Security Scans Continuously, Claude Hits Google Cloud, Claude Designs Scorpion Toxin Binders ● Friday, October 23, 2026 Claude AI Daily Brief — October 23, 2026 Covering the latest from the platform · Edition #238 TL;DR — Today’s Top 3 Takeaways 1. C"
+  },
+  {
     "date": "2026-10-22",
     "title": "Claude AI Daily Brief &mdash; October 22, 2026 | Claude Duet Background Agent, New API Version Drops Temperature, Claude Code 2.1.307",
     "description": "October 22, 2026: Anthropic previews Claude Duet, a background work agent, the Claude API gets its first new version since 2023 with sampling parameters removed, and Claude Code 2.1.307 ships with 43 changes.",
