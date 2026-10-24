@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-24",
+    "title": "Claude AI Daily Brief &mdash; October 24, 2026 | Claude Duet Preview, Agent Skills Go to Linux Foundation, Anthropic IPO Filing Watch",
+    "description": "October 24, 2026: Claude Duet opens as a research preview, Anthropic donates the Agent Skills standard to the Linux Foundation, Claude Code 2.1.310 ships, and Anthropic's public IPO filing is reportedly imminent.",
+    "url": "reports/claude-ai-daily-2026-10-24.html",
+    "headlines": [
+      "Claude Duet Preview",
+      "Agent Skills Go to Linux Foundation",
+      "Anthropic IPO Filing Watch",
+      "Claude Duet Opens as a Research Preview",
+      "Agent Skills Standard Donated to the Linux Foundation",
+      "Claude Code 2.1.310 Brings Monitor to Bedrock, Vertex and Foundry",
+      "Admin Controls Land: Web Fetch Toggle, Claude Tag API, Inference Hooks GA",
+      "Anthropic&rsquo;s Public IPO Filing Is Reportedly Close",
+      "Duet Enters a Crowded Proactive-Agent Field",
+      "Neutral Standards, Gated Agents"
+    ],
+    "snippet": "Claude AI Daily Brief — October 24, 2026 | Claude Duet Preview, Agent Skills Go to Linux Foundation, Anthropic IPO Filing Watch ● Saturday, October 24, 2026 Claude AI Daily Brief — October 24, 2026 Covering the latest from the platform · Edition #239 TL;DR — Today’s Top 3 Takeaways 1. Claude Duet Op"
+  },
+  {
     "date": "2026-10-23",
     "title": "Claude AI Daily Brief &mdash; October 23, 2026 | Claude Security Scans Continuously, Claude Hits Google Cloud, Claude Designs Scorpion Toxin Binders",
     "description": "October 23, 2026: Claude Security goes continuous in public beta for Enterprise, Anthropic-managed Claude lands on Google Cloud with Opus 5.5 fast mode, and Claude designs protein binders against scorpion neurotoxins.",

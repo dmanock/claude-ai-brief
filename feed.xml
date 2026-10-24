@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 24, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-24.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-24.html</guid>
+      <pubDate>Sat, 24 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Duet Opens as a Research Preview</strong> — Background agent on Opus 5.5 for Pro and Max waitlist.</p>
+        <p><strong>2. Agent Skills Standard Goes to Linux Foundation</strong> — Anthropic donates the name, logo, GitHub org and domain.</p>
+        <p><strong>3. Anthropic IPO Filing Reportedly Imminent</strong> — Sources say a public S-1 could land as soon as Friday.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-24.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 23, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-23.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-23.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. White House Memo Brands Amodei the Face of AI "Doomerism"</strong> — days before Anthropic's expected blockbuster IPO, while the administration separately asks OpenAI and Anthropic to delay giving the UK AI Safety Institute early access to new models.</p>
         <p><strong>3. Google, OpenAI and Anthropic Court Sriram Krishnan</strong> — to run a new self-regulatory "Frontier AI Standards Agency" that would set shared safety-testing standards across labs.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-25.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 24, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-24.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-24.html</guid>
-      <pubDate>Thu, 24 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Finds a New CRISPR-Like Enzyme System</strong> — Anthropic's life sciences lab set roughly 950 Claude agents loose on a DNA sequence database for 21 hours and 210 million tokens, reviewing over 200,000 reverse transcriptases before flagging a system called ART, with CRISPR-like repeat arrays; the function is still unknown and all physical lab work was done by human scientists.</p>
-        <p><strong>2. Gene-Editing Stocks Fell Within Hours</strong> — CRISPR Therapeutics, Beam Therapeutics, Editas Medicine, Intellia and Prime Medicine all dropped on the news, Prime Medicine down as much as 12%, despite Anthropic calling the finding "early results" with an unproven function.</p>
-        <p><strong>3. Claude Helped Make claude.ai 3x Faster</strong> — Anthropic detailed an August sprint that merged over 3,000 changes to claude.ai and its desktop app with zero rollbacks, with Claude itself opening pull requests and writing fixes under human review. Plus Claude Code 2.1.281 ships Bedrock guardrails and MCP upgrades.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-24.html">Read full report →</a></p>
       ]]></description>
     </item>
 
