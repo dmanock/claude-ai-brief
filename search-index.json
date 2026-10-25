@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-25",
+    "title": "Claude AI Daily Brief &mdash; October 25, 2026 | Enterprise Chat + Cowork GA, First New API Version Since 2023, Claude on Google Cloud",
+    "description": "October 25, 2026: Claude Enterprise merges chat and Cowork, the Claude API ships its first new version since 2023 and drops sampling parameters, and the Anthropic-managed Claude Platform goes GA on Google Cloud.",
+    "url": "reports/claude-ai-daily-2026-10-25.html",
+    "headlines": [
+      "Enterprise Chat + Cowork GA",
+      "First New API Version Since 2023",
+      "Claude on Google Cloud",
+      "Claude Enterprise Merges Chat and Cowork",
+      "Anthropic Details Duet&rsquo;s Safety, Privacy and Security Setup",
+      "Claude API 2026-10-21: First New Version Since 2023",
+      "Anthropic-Managed Claude Platform GA on Google Cloud",
+      "Guidance on Folding Subagents Into One Agent Loop",
+      "Claude Code 2.1.309 Tightens Sandbox and Permissions",
+      "Fewer Knobs, More Guardrails"
+    ],
+    "snippet": "Claude AI Daily Brief — October 25, 2026 | Enterprise Chat + Cowork GA, First New API Version Since 2023, Claude on Google Cloud ● Sunday, October 25, 2026 Claude AI Daily Brief — October 25, 2026 Covering the latest from the platform · Edition #240 TL;DR — Today’s Top 3 Takeaways 1. Claude Enterpri"
+  },
+  {
     "date": "2026-10-24",
     "title": "Claude AI Daily Brief &mdash; October 24, 2026 | Claude Duet Preview, Agent Skills Go to Linux Foundation, Anthropic IPO Filing Watch",
     "description": "October 24, 2026: Claude Duet opens as a research preview, Anthropic donates the Agent Skills standard to the Linux Foundation, Claude Code 2.1.310 ships, and Anthropic's public IPO filing is reportedly imminent.",

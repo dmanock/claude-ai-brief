@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 25, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-25.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-25.html</guid>
+      <pubDate>Sun, 25 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Enterprise Merges Chat and Cowork</strong> — GA now, default-on Nov 16, with a new Efficient mode.</p>
+        <p><strong>2. Claude API Gets First New Version Since 2023</strong> — Version 2026-10-21 drops temperature, top_p and top_k.</p>
+        <p><strong>3. Claude Platform Goes GA on Google Cloud</strong> — Google IAM, Marketplace billing, and Fast mode for Opus 5.5.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-25.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 24, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-24.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-24.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Claude Opus 5 and OpenAI's Astra Crack WWII Codes Nobody Could</strong> — two researchers used rival AI models to solve Enigma messages that had stumped cryptanalysts since 2005.</p>
         <p><strong>3. Meta's Muse Is Stealing the AI Spotlight</strong> — reportedly outpacing ChatGPT's early adoption numbers, the same week Opus 5.5 and new GPT-6 models shipped.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-26.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 25, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-25.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-25.html</guid>
-      <pubDate>Fri, 25 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Akamai Locks In an $11.6B Anthropic Compute Deal</strong> — a seven-year deal that can grow to roughly $20B, with Akamai shares jumping more than 20% and Anthropic getting a warrant for up to 5% of the company.</p>
-        <p><strong>2. White House Memo Brands Amodei the Face of AI "Doomerism"</strong> — days before Anthropic's expected blockbuster IPO, while the administration separately asks OpenAI and Anthropic to delay giving the UK AI Safety Institute early access to new models.</p>
-        <p><strong>3. Google, OpenAI and Anthropic Court Sriram Krishnan</strong> — to run a new self-regulatory "Frontier AI Standards Agency" that would set shared safety-testing standards across labs.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-25.html">Read full report →</a></p>
       ]]></description>
     </item>
 
