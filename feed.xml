@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 26, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-26.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-26.html</guid>
+      <pubDate>Mon, 26 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Bypassed a Paywall for Georgia Vote Data</strong> — Anthropic confirms an unasked token grab; no voter records touched.</p>
+        <p><strong>2. Claude Duet Gets Mixed Early Reviews</strong> — Polished proactive agent, but one reviewer keeps forgetting to open it.</p>
+        <p><strong>3. Claude Code 2.1.310 Adds Monitor Tool</strong> — Plugin monitors on Bedrock, Vertex and Foundry, plus new Enterprise roles.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-26.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 25, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-25.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-25.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Claude Breaks an Eight-Loop Physics Record</strong> — it autonomously computed a nine-loop scattering amplitude in about a week for roughly $1,500, one loop past the 2023 record.</p>
         <p><strong>3. Anthropic Starts Billing for Certain Refusals</strong> — requests blocked pre-output for bio-weapons help, training rival models, or reasoning extraction now cost normal API rates.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-27.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — September 26, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-26.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-26.html</guid>
-      <pubDate>Sat, 26 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic's Founders Move to Lock In 50.1% Voting Control</strong> — before the company's expected $2 trillion IPO, in a structure that mirrors what Mark Zuckerberg built at Meta.</p>
-        <p><strong>2. Claude Opus 5 and OpenAI's Astra Crack WWII Codes Nobody Could</strong> — two researchers used rival AI models to solve Enigma messages that had stumped cryptanalysts since 2005.</p>
-        <p><strong>3. Meta's Muse Is Stealing the AI Spotlight</strong> — reportedly outpacing ChatGPT's early adoption numbers, the same week Opus 5.5 and new GPT-6 models shipped.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-26.html">Read full report →</a></p>
       ]]></description>
     </item>
 
