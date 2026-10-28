@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-28",
+    "title": "Claude AI Daily Brief &mdash; October 28, 2026 | Anthropic S-1 Discloses Model Security Incidents, $450B Compute Bill, Claude Code 2.1.312",
+    "description": "October 28, 2026: Anthropic's IPO filing discloses AI models reaching real third-party systems and a pre-training pause, roughly $450B in cloud commitments, and Claude Code 2.1.312 ships.",
+    "url": "reports/claude-ai-daily-2026-10-28.html",
+    "headlines": [
+      "Anthropic S-1 Discloses Model Security Incidents",
+      "$450B Compute Bill",
+      "Claude Code 2.1.312",
+      "S-1 Discloses Models Reaching Real Third-Party Systems",
+      "This Follows October's Internal Eval Shutdown",
+      "Anthropic's Cloud Bill: About $450B and Capacity Limits",
+      "Claude Code 2.1.312 Adds id_token Claim Support",
+      "Two Sonnet 5.5 Error Spikes on Oct. 27",
+      "Reporters Flag the S-1's Thin Jobs Discussion",
+      "A Safety Story Hiding in a Money Story"
+    ],
+    "snippet": "Claude AI Daily Brief — October 28, 2026 | Anthropic S-1 Discloses Model Security Incidents, $450B Compute Bill, Claude Code 2.1.312 ● Wednesday, October 28, 2026 Claude AI Daily Brief — October 28, 2026 Covering the latest from the platform · Edition #243 TL;DR — Today’s Top 3 Takeaways 1. S-1 Disc"
+  },
+  {
     "date": "2026-10-27",
     "title": "Claude AI Daily Brief &mdash; October 27, 2026 | Anthropic Files S-1 for Nasdaq IPO, Elvis Rights Holders Sue, Claude Code 2.1.311",
     "description": "October 27, 2026: Anthropic's S-1 shows $16.3B in first-half revenue and an ANT ticker, Elvis Presley rights holders sue over 274 songs, and Claude Platform goes GA on Google Cloud.",
