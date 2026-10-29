@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-29",
+    "title": "Claude AI Daily Brief &mdash; October 29, 2026 | 40% Government Discount, Claude for Legal Expansion, Analyst AI-Reliance Study",
+    "description": "October 29, 2026: Anthropic expands its GSA deal with 40% government discounts, Claude for Legal adds 60+ connectors, and a new study finds analysts adopt Claude's judgments without crediting it.",
+    "url": "reports/claude-ai-daily-2026-10-29.html",
+    "headlines": [
+      "40% Government Discount",
+      "Claude for Legal Expansion",
+      "Analyst AI-Reliance Study",
+      "Anthropic Expands GSA Deal With 40% Discount",
+      "Claude for Legal Gets Artifacts and 60+ Connectors",
+      "Claude Code 2.1.311: 1M Context Fix and ultrathink Change",
+      "Gmail and Calendar Connector Errors Resolved",
+      "Study: Analysts Took the Agent's Lean, Then Skipped the Credit",
+      "Claude for Nonprofits Expands With a Free Plugin",
+      "The Real Enterprise Risk Is the Argument You Didn't Check"
+    ],
+    "snippet": "Claude AI Daily Brief — October 29, 2026 | 40% Government Discount, Claude for Legal Expansion, Analyst AI-Reliance Study ● Thursday, October 29, 2026 Claude AI Daily Brief — October 29, 2026 Covering the latest from the platform · Edition #244 TL;DR — Today’s Top 3 Takeaways 1. Federal Government G"
+  },
+  {
     "date": "2026-10-28",
     "title": "Claude AI Daily Brief &mdash; October 28, 2026 | Anthropic S-1 Discloses Model Security Incidents, $450B Compute Bill, Claude Code 2.1.312",
     "description": "October 28, 2026: Anthropic's IPO filing discloses AI models reaching real third-party systems and a pre-training pause, roughly $450B in cloud commitments, and Claude Code 2.1.312 ships.",

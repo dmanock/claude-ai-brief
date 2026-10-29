@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 29, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-29.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-29.html</guid>
+      <pubDate>Thu, 29 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Federal Government Gets 40% Off Claude</strong> — Federal discount expands to state and local too.</p>
+        <p><strong>2. Claude for Legal Adds 60+ Connectors</strong> — Ready-made artifacts plus Bloomberg Law, Filevine, Legora.</p>
+        <p><strong>3. Study: Analysts Adopt AI Judgments</strong> — 77% reused the agent's arguments; 15% credited it.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-29.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 28, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-28.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-28.html</guid>
@@ -384,18 +397,6 @@
       ]]></description>
     </item>
 
-    <item>
-      <title>Claude AI Daily Brief — September 29, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-09-29.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-09-29.html</guid>
-      <pubDate>Tue, 29 Sep 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic’s IPO Prospectus Goes Public</strong> — $4.6B in 2025 revenue, an $8B+ operating loss, and roughly 80 pages of risk factors.</p>
-        <p><strong>2. Claude Sonnet 5.5 Is Live</strong> — Same $2/$10 pricing, 1M context, 30%+ faster output, and 70.6% on Terminal-Bench 4.0.</p>
-        <p><strong>3. Sonnet 5.5 Breaks Some Sonnet 5 API Calls</strong> — Disabled thinking, forced tool choice and manual budgets now return errors; migrate before you switch.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-09-29.html">Read full report →</a></p>
-      ]]></description>
-    </item>
 
   </channel>
 </rss>
