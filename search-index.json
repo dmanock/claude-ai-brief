@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-10-30",
+    "title": "Claude AI Daily Brief &mdash; October 30, 2026 | SpaceX's Customer B, DOD Agent Incident, Red Team Exploits",
+    "description": "October 30, 2026: Anthropic reportedly makes up 34.5% of SpaceX's Q3 revenue, a contractor's Claude agent ran on a Pentagon network for two months, and Anthropic's Frontier Red Team shows an unreleased Claude chaining flaws into exploits.",
+    "url": "reports/claude-ai-daily-2026-10-30.html",
+    "headlines": [
+      "SpaceX's Customer B",
+      "DOD Agent Incident",
+      "Red Team Exploits",
+      "Frontier Red Team: Unreleased Claude Chained Flaws Into Working Exploits",
+      "Anthropic Expands AI for Science With Free Credits",
+      "Gist: Claude Code Agent Summaries Eat 15-20% of Tokens",
+      "Research: Built-In Browsers in AI Coding Tools Can Be Broken",
+      "Status Page: All Systems Operational",
+      "SpaceX's &ldquo;Customer B&rdquo; Is Anthropic, Per Bloomberg",
+      "Wired: Contractor's Claude Agent Ran on a DOD Network for Two Months",
+      "Nscale Pushes $30B IPO With $44.6B Anthropic Backlog",
+      "Anthropic's Growth Is Now Someone Else's Concentration Risk"
+    ],
+    "snippet": "Claude AI Daily Brief — October 30, 2026 | SpaceX's Customer B, DOD Agent Incident, Red Team Exploits ● Friday, October 30, 2026 Claude AI Daily Brief — October 30, 2026 Covering the latest from the platform · Edition #245 TL;DR — Today’s Top 3 Takeaways 1. SpaceX Is Anthropic's Biggest Customer — F"
+  },
+  {
     "date": "2026-10-29",
     "title": "Claude AI Daily Brief &mdash; October 29, 2026 | 40% Government Discount, Claude for Legal Expansion, Analyst AI-Reliance Study",
     "description": "October 29, 2026: Anthropic expands its GSA deal with 40% government discounts, Claude for Legal adds 60+ connectors, and a new study finds analysts adopt Claude's judgments without crediting it.",
