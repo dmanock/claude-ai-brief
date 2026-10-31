@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — October 31, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-31.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-31.html</guid>
+      <pubDate>Sat, 31 Oct 2026 08:00:00 -0400</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Backdoored Claude Code Extension Hits Cursor</strong> — A tampered listing was live ~11 hours and reached up to 5,000 users.</p>
+        <p><strong>2. Anthropic IPO Eyed Before Thanksgiving</strong> — S-1 is filed; the stock is expected to list on Nasdaq as ANT.</p>
+        <p><strong>3. AI for Science Adds 20 Partners</strong> — Sloan, Simons, NSF and more get free Claude credits for researchers.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-31.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 30, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-30.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-30.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Barclays Scales Claude</strong> — 120,000 emails a day routed by Claude, and Claude Code aimed at 50% of developers by year end.</p>
         <p><strong>3. Claude Code 2.1.287 Ships Claude Mods</strong> — Plugins can now change deeper behavior, plus sturdier Remote Control reconnects.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-02.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 1, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-01.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-01.html</guid>
-      <pubDate>Thu, 01 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude for Government Goes GA</strong> — FedRAMP High environment, no seat fees, hard spend caps for federal and state agencies.</p>
-        <p><strong>2. Huang and Zuckerberg Press Amodei</strong> — At a Sept 29 White House meeting, rivals pushed back on Anthropic's AI risk warnings.</p>
-        <p><strong>3. 90% of Anthropic's Business Is Agentic</strong> — SemiAnalysis says agents drive the revenue; two clients were nearly 25% of 2025 sales.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-01.html">Read full report →</a></p>
       ]]></description>
     </item>
 

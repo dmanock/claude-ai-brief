@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-10-31",
+    "title": "Claude AI Daily Brief &mdash; October 31, 2026 | Backdoored Claude Code Extension Hits Cursor Users, Anthropic IPO Eyes Pre-Thanksgiving Debut",
+    "description": "October 31, 2026: A tampered Claude Code extension in Cursor's marketplace tried to plant an SSH backdoor, Anthropic's IPO is expected before Thanksgiving, and AI for Science adds 20 partners.",
+    "url": "reports/claude-ai-daily-2026-10-31.html",
+    "headlines": [
+      "Backdoored Claude Code Extension Hits Cursor Users",
+      "Anthropic IPO Eyes Pre-Thanksgiving Debut",
+      "Anthropic's IPO Is Expected Before Thanksgiving",
+      "AI for Science Adds 20 Partners",
+      "Tampered Claude Code Extension Hit Cursor Users",
+      "Claude Code 2.1.312 Adds Gateway Identity Controls",
+      "AI Trade Takes a Beating on Friday",
+      "No Claude Incidents on Oct. 29 or 30",
+      "Marketplaces Are the Soft Spot"
+    ],
+    "snippet": "Claude AI Daily Brief — October 31, 2026 | Backdoored Claude Code Extension Hits Cursor Users, Anthropic IPO Eyes Pre-Thanksgiving Debut ● Saturday, October 31, 2026 Claude AI Daily Brief — October 31, 2026 Covering the latest from the platform · Edition #246 TL;DR — Today’s Top 3 Takeaways 1. Backd"
+  },
+  {
     "date": "2026-10-30",
     "title": "Claude AI Daily Brief &mdash; October 30, 2026 | SpaceX's Customer B, DOD Agent Incident, Red Team Exploits",
     "description": "October 30, 2026: Anthropic reportedly makes up 34.5% of SpaceX's Q3 revenue, a contractor's Claude agent ran on a Pentagon network for two months, and Anthropic's Frontier Red Team shows an unreleased Claude chaining flaws into exploits.",
