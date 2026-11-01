@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-11-01",
+    "title": "Claude AI Daily Brief &mdash; November 1, 2026 | Anthropic Confirms Claude Code Game-Clone Rule, IPO Roadshow Could Start Nov. 9",
+    "description": "November 1, 2026: Anthropic confirms a Claude Code rule against cloning existing games, Bloomberg says the IPO roadshow could start the week of Nov. 9, and Opus 4.8 fast mode gets a Nov. 30 shutoff date.",
+    "url": "reports/claude-ai-daily-2026-11-01.html",
+    "headlines": [
+      "Anthropic Confirms Claude Code Game-Clone Rule",
+      "IPO Roadshow Could Start Nov. 9",
+      "Anthropic Confirms a Claude Code Rule Against Cloning Games",
+      "IPO Roadshow Could Start the Week of Nov. 9",
+      "Opus 4.8 Fast Mode Gets a Shutoff Date",
+      "New Write Guardrail and a Telemetry Rollback",
+      "Usage and Cost Analytics API Lands in Beta",
+      "Devs Say the Guardrails Catch More Than Clones",
+      "Studios Pull Playtests Over Clone Fears",
+      "Prompt-Level Guardrails Are a Blunt Tool"
+    ],
+    "snippet": "Claude AI Daily Brief — November 1, 2026 | Anthropic Confirms Claude Code Game-Clone Rule, IPO Roadshow Could Start Nov. 9 ● Sunday, November 1, 2026 Claude AI Daily Brief — November 1, 2026 Covering the latest from the platform · Edition #247 TL;DR — Today’s Top 3 Takeaways 1. Anthropic Confirms Cl"
+  },
+  {
     "date": "2026-10-31",
     "title": "Claude AI Daily Brief &mdash; October 31, 2026 | Backdoored Claude Code Extension Hits Cursor Users, Anthropic IPO Eyes Pre-Thanksgiving Debut",
     "description": "October 31, 2026: A tampered Claude Code extension in Cursor's marketplace tried to plant an SSH backdoor, Anthropic's IPO is expected before Thanksgiving, and AI for Science adds 20 partners.",

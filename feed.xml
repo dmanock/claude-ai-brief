@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 1, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-01.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-01.html</guid>
+      <pubDate>Sun, 01 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Confirms Claude Code Game-Clone Rule</strong> — Two prompt sentences steer Opus 5.5 away from recreating existing games.</p>
+        <p><strong>2. IPO Roadshow Could Start Week of Nov. 9</strong> — Bloomberg: debut targeted before Thanksgiving; no price range yet.</p>
+        <p><strong>3. Opus 4.8 Fast Mode Ends Nov. 30</strong> — Claude Code 2.1.316 removes it; Anthropic points users to Opus 5.5.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-01.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — October 31, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-31.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-31.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Sonnet 4.5 Retires Nov. 30</strong> — Anthropic points developers to Sonnet 5.5 as the replacement.</p>
         <p><strong>3. Claude Code 2.1.288 Fixes the Annoying Stuff</strong> — Smarter resume, compaction and timeout recovery, plus Cowork and MCP fixes.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-03.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 2, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-02.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-02.html</guid>
-      <pubDate>Fri, 02 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Eyes a Mid-November IPO</strong> — Reports say a pre-IPO investor day lands Oct 14, with a valuation target near $2 trillion.</p>
-        <p><strong>2. Barclays Scales Claude</strong> — 120,000 emails a day routed by Claude, and Claude Code aimed at 50% of developers by year end.</p>
-        <p><strong>3. Claude Code 2.1.287 Ships Claude Mods</strong> — Plugins can now change deeper behavior, plus sturdier Remote Control reconnects.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-02.html">Read full report →</a></p>
       ]]></description>
     </item>
 
