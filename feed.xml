@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 2, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-02.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-02.html</guid>
+      <pubDate>Sun, 01 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Hidden Mythos 5.5 Reference Spotted</strong> — A page header on Anthropic's site names a model with no date or pricing.</p>
+        <p><strong>2. Ultra Plan Drops the 5-Hour Cap</strong> — Verified $200 users lose the rolling cap; Max 20x is now Ultra.</p>
+        <p><strong>3. Opus 5.5 Tops SemiAnalysis GDPx</strong> — The new agent benchmark scores the best model at just 12%.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-02.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 1, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-01.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-01.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Barclays Puts Claude in Half Its Dev Teams</strong> — The bank is widening Claude across about 16,000 staff.</p>
         <p><strong>3. Sonnet 5.5 Hits 70.6% on Terminal-Bench 4.0</strong> — 30%+ faster at $2/$10 per million tokens, with Haiku 5.5 coming soon.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-04.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 3, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-03.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-03.html</guid>
-      <pubDate>Sat, 03 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Launches $100M Frontier Academy</strong> — Anthropic is putting $100M behind training 10,000 enterprise Claude engineers by the end of 2027.</p>
-        <p><strong>2. Sonnet 4.5 Retires Nov. 30</strong> — Anthropic points developers to Sonnet 5.5 as the replacement.</p>
-        <p><strong>3. Claude Code 2.1.288 Fixes the Annoying Stuff</strong> — Smarter resume, compaction and timeout recovery, plus Cowork and MCP fixes.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-03.html">Read full report →</a></p>
       ]]></description>
     </item>
 
