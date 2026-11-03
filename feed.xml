@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 3, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-03.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-03.html</guid>
+      <pubDate>Tue, 03 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Message Threads Hit API Beta</strong> — Send only new messages, cutting latency about 35% in long sessions.</p>
+        <p><strong>2. Older Claude Models Get Watermarks</strong> — Mythos 5, Opus 4.7, Opus 4.6 and Sonnet 4.6 join on Nov 3.</p>
+        <p><strong>3. CrowdStrike Guards Claude Cowork</strong> — Falcon AIDR is being built natively into Cowork for agent security.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-03.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 2, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-02.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-02.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Claude Security Hunts Enterprise Code Bugs</strong> — Multi-stage scanning with confidence scores. Enterprise only for now.</p>
         <p><strong>3. Claude Now Processes Requests Inside India</strong> — In-country inference via Amazon Bedrock for regulated sectors.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-05.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 4, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-04.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-04.html</guid>
-      <pubDate>Sun, 04 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Code Mods Let You Rewrite the Agent</strong> — TypeScript mods can rewrite prompts, gate tool calls and swap built-in features.</p>
-        <p><strong>2. Barclays Puts Claude in Half Its Dev Teams</strong> — The bank is widening Claude across about 16,000 staff.</p>
-        <p><strong>3. Sonnet 5.5 Hits 70.6% on Terminal-Bench 4.0</strong> — 30%+ faster at $2/$10 per million tokens, with Haiku 5.5 coming soon.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-04.html">Read full report →</a></p>
       ]]></description>
     </item>
 

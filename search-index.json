@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-03",
+    "title": "Claude AI Daily Brief &mdash; November 3, 2026 | Message Threads Beta, Watermarks Reach Older Models",
+    "description": "November 3, 2026: Message threads enter API beta with ~35% lower latency, invisible watermarks reach four older Claude models, and CrowdStrike brings Falcon AIDR into Claude Cowork.",
+    "url": "reports/claude-ai-daily-2026-11-03.html",
+    "headlines": [
+      "Message Threads Beta",
+      "Watermarks Reach Older Models",
+      "CrowdStrike Brings Falcon AIDR Into Claude Cowork",
+      "Invisible Watermarks Reach Four Older Models",
+      "Message Threads Enter Public Beta",
+      "Opus 4.8 Fast Mode Sunset Is Four Weeks Out",
+      "Agent Skills Donated to the Agentic AI Foundation",
+      "GSA Partnership Widens Claude Across Government",
+      "Trust Plumbing Is the Product Now"
+    ],
+    "snippet": "Claude AI Daily Brief — November 3, 2026 | Message Threads Beta, Watermarks Reach Older Models ● Tuesday, November 3, 2026 Claude AI Daily Brief — November 3, 2026 Covering the latest from the platform · Edition #249 TL;DR — Today’s Top 3 Takeaways 1. Message Threads Hit API Beta — Send only new mes"
+  },
+  {
     "date": "2026-11-02",
     "title": "Claude AI Daily Brief &mdash; November 2, 2026 | Mythos 5.5 Spotted, Ultra Plan Drops the 5-Hour Cap",
     "description": "November 2, 2026: A hidden Claude Mythos 5.5 reference surfaces on Anthropic's site, the Ultra plan drops its rolling five-hour cap, and Opus 5.5 tops SemiAnalysis' new GDPx agent benchmark.",
