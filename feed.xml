@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 4, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-04.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-04.html</guid>
+      <pubDate>Wed, 04 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Helps Design Anthropic Chips</strong> — IPO pitch says Claude cuts chip design time; claims unverified.</p>
+        <p><strong>2. IPO Filing Shows $895B Compute Bill</strong> — Reported commitments are nearly $895B across compute and infrastructure.</p>
+        <p><strong>3. Claude Code Won't Clone Games</strong> — Prompt rule blocks recreating specific existing games, even renamed.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-04.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 3, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-03.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-03.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Claude Code 2.1.289 Ships Fixes</strong> — Terminal freeze, plugin loading and symlink permission fixes, plus an auth revert.</p>
         <p><strong>3. Claude for Government Goes GA</strong> — FedRAMP High authorization for federal and state agencies.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-06.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 5, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-05.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-05.html</guid>
-      <pubDate>Mon, 05 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Puts $100M Into 10,000 Claude Engineers</strong> — Claude Frontier Academy trains Frontier Deployed Engineers through 2027.</p>
-        <p><strong>2. Claude Security Hunts Enterprise Code Bugs</strong> — Multi-stage scanning with confidence scores. Enterprise only for now.</p>
-        <p><strong>3. Claude Now Processes Requests Inside India</strong> — In-country inference via Amazon Bedrock for regulated sectors.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-05.html">Read full report →</a></p>
       ]]></description>
     </item>
 

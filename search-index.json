@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-11-04",
+    "title": "Claude AI Daily Brief &mdash; November 4, 2026 | Claude Designs Chips, IPO Filing Shows $895B Compute Bill",
+    "description": "November 4, 2026: Anthropic tells IPO investors Claude helps design its chips, the S-1 reportedly shows nearly $895B in compute commitments, and Claude Code quietly refuses to clone existing games.",
+    "url": "reports/claude-ai-daily-2026-11-04.html",
+    "headlines": [
+      "Claude Designs Chips",
+      "IPO Filing Shows $895B Compute Bill",
+      "Anthropic Tells IPO Investors Claude Helps Design Its Chips",
+      "IPO Filing Reportedly Shows Nearly $895B in Compute Commitments",
+      "Claude Code 2.1.317 and 2.1.318 Ship",
+      "Claude Code Now Refuses to Recreate Existing Games",
+      "Users Push Back on Expanded Claude Watermarks",
+      "Receipts, Please: Chips, Commitments and Claims"
+    ],
+    "snippet": "Claude AI Daily Brief — November 4, 2026 | Claude Designs Chips, IPO Filing Shows $895B Compute Bill ● Wednesday, November 4, 2026 Claude AI Daily Brief — November 4, 2026 Covering the latest from the platform · Edition #250 TL;DR — Today’s Top 3 Takeaways 1. Claude Helps Design Anthropic Chips — IP"
+  },
+  {
     "date": "2026-11-03",
     "title": "Claude AI Daily Brief &mdash; November 3, 2026 | Message Threads Beta, Watermarks Reach Older Models",
     "description": "November 3, 2026: Message threads enter API beta with ~35% lower latency, invisible watermarks reach four older Claude models, and CrowdStrike brings Falcon AIDR into Claude Cowork.",
