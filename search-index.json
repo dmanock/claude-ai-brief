@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-11-06",
+    "title": "Claude AI Daily Brief &mdash; November 6, 2026 | Claude Personal Finance Launches, Enterprise Security Center Lands",
+    "description": "November 6, 2026: Claude launches Personal Finance in US beta with read-only bank linking, Claude Enterprise adds a security center and Cowork EDR support, Claude Marketplace adds 25+ partner agents, and Anthropic's game-cloning rule draws developer pushback.",
+    "url": "reports/claude-ai-daily-2026-11-06.html",
+    "headlines": [
+      "Claude Personal Finance Launches",
+      "Enterprise Security Center Lands",
+      "Personal Finance Arrives in Claude (Beta)",
+      "Claude Enterprise Adds Security Controls",
+      "Claude Marketplace Adds 25+ Partner Agents",
+      "Watermarks and Message Threads on the Platform",
+      "Claude Code Holds at 2.1.318",
+      "Game-Cloning Rule Draws Developer Pushback",
+      "FlashProve: Proving Which Model Answered",
+      "Trust Is the Product Now"
+    ],
+    "snippet": "Claude AI Daily Brief — November 6, 2026 | Claude Personal Finance Launches, Enterprise Security Center Lands ● Friday, November 6, 2026 Claude AI Daily Brief — November 6, 2026 Covering the latest from the platform · Edition #252 TL;DR — Today’s Top 3 Takeaways 1. Claude Launches Personal Finance ("
+  },
+  {
     "date": "2026-11-05",
     "title": "Claude AI Daily Brief &mdash; November 5, 2026 | Anthropic S-1: $17B Quarter, $567M Loss, $895B Compute Bill",
     "description": "November 5, 2026: Anthropic's amended S-1 shows about $17B in Q3 revenue but a $567M operating loss, Cowork adds EDR monitoring, a new Usage Policy bans distillation from Nov. 12, and Claude Code 2.1.316-318 ships.",

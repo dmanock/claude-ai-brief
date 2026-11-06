@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 6, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-06.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-06.html</guid>
+      <pubDate>Fri, 06 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Launches Personal Finance (Beta)</strong> — US Pro, Max and Ultra users can link bank accounts for read-only spending answers via Plaid.</p>
+        <p><strong>2. Claude Enterprise Gets a Security Center</strong> — Beta security center, GA inference hooks, central admin controls, plus Cowork EDR support.</p>
+        <p><strong>3. Claude Marketplace Adds 25+ Partner Agents</strong> — Enterprises can apply committed Anthropic spend to new security, productivity and creative tools.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-06.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 5, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-05.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-05.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Cyber Program Gets Three Tiers</strong> — Glasswing tally tops 129,000 verified flaws.</p>
         <p><strong>3. Max and Team Plans Get API Credits</strong> — Monthly Platform credits, plus Google Workspace beta.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-08.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 7, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-07.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-07.html</guid>
-      <pubDate>Wed, 07 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Gives Startups a Free Year</strong> — Claude Team seats plus $1,000 in API credits.</p>
-        <p><strong>2. Flagged Claude Chat Leads to Arrest</strong> — Anthropic staff alerted Florida police to a credible threat.</p>
-        <p><strong>3. Frontier Academy Names First Partners</strong> — Accenture, Deloitte, McKinsey and more join the $100M program.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-07.html">Read full report →</a></p>
       ]]></description>
     </item>
 
