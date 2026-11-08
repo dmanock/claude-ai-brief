@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-11-08",
+    "title": "Claude AI Daily Brief &mdash; November 8, 2026 | Claude Code Secrets Leak, Dispatch Extension Flaw, 2.1.319",
+    "description": "November 8, 2026: Researchers find secrets in 1,122 public copies of Claude Code's local settings file, a browser-extension flaw hit Claude Dispatch, and Claude Code 2.1.319 adds background MCP tasks.",
+    "url": "reports/claude-ai-daily-2026-11-08.html",
+    "headlines": [
+      "Claude Code Secrets Leak",
+      "Dispatch Extension Flaw",
+      "2.1.319",
+      "Enterprise Projects Get Cost-Code Tags (Beta)",
+      "Personal Finance and Security Center Still Fresh",
+      "Claude Code 2.1.319: Background MCP Tasks",
+      "Opus 4.8 Fast Mode Goes Away Nov. 30",
+      "\"Don't Ask Again\" File Exposes Secrets in 1,122 Public Repos",
+      "Malicious Extension Could Drive Claude Dispatch",
+      "Convenience Settings Are Attack Surface"
+    ],
+    "snippet": "Claude AI Daily Brief — November 8, 2026 | Claude Code Secrets Leak, Dispatch Extension Flaw, 2.1.319 ● Sunday, November 8, 2026 Claude AI Daily Brief — November 8, 2026 Covering the latest from the platform · Edition #254 TL;DR — Today’s Top 3 Takeaways 1. Claude Code Settings File Leaks Secrets — "
+  },
+  {
     "date": "2026-11-07",
     "title": "Claude AI Daily Brief &mdash; November 7, 2026 | Anthropic IPO Filing Is Public, Claude Code Loosens Game Rule",
     "description": "November 7, 2026: Anthropic's public S-1 is out with a Nasdaq listing planned as ANT, Claude Code 2.1.317 loosens its game-cloning rule, and the Console adds an IP allowlist and Admin API member sign-out.",

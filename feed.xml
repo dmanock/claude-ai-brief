@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 8, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-08.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-08.html</guid>
+      <pubDate>Sun, 08 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Code Settings File Leaks Secrets</strong> — Apiiro found 1,122 public GitHub copies of settings.local.json holding passwords and keys.</p>
+        <p><strong>2. Extension Flaw Hit Claude Dispatch</strong> — A malicious browser extension could send Dispatch instructions to Claude Desktop.</p>
+        <p><strong>3. Claude Code 2.1.319 Runs MCP Tasks in Background</strong> — Plus a new permission setting that denies instead of prompting.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-08.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 7, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-07.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-07.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Managed Agents Get Dynamic Workflows</strong> — Plus Claude Code 2.1.296 and cheaper caching.</p>
         <p><strong>3. Anthropic vs OpenAI Revenue Math Splits</strong> — Gross vs net: $65B is not apples to apples.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-10.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 9, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-09.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-09.html</guid>
-      <pubDate>Fri, 09 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Launches Cyber Mission</strong> — Infrastructure defense plus a free OSS scanner.</p>
-        <p><strong>2. Usage Policy Bans Cruelty Toward Claude</strong> — Effective Nov 12, plus election deception ban.</p>
-        <p><strong>3. Claude for Startups Expands</strong> — Free year of Team and $1,000 in API credits.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-09.html">Read full report →</a></p>
       ]]></description>
     </item>
 
