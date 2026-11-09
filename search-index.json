@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-11-09",
+    "title": "Claude AI Daily Brief &mdash; November 9, 2026 | Game-Clone Rule Fix, Console IP Allowlist, Personal Finance",
+    "description": "November 9, 2026: Claude now offers original games instead of refusing genre requests, Console adds an IP allowlist and Admin API force sign-out, and Personal Finance and spend tags round out a quiet news day.",
+    "url": "reports/claude-ai-daily-2026-11-09.html",
+    "headlines": [
+      "Game-Clone Rule Fix",
+      "Console IP Allowlist",
+      "Personal Finance",
+      "Console Gets an IP Allowlist (Beta)",
+      "Personal Finance Beta Is Live",
+      "Message Threads (Beta) and Text Watermarks",
+      "Claude Code 2.1.317 Tweaks the Game-Copy Rule",
+      "Claude Now Offers an Original Game Instead of a Clone",
+      "Last Week's Security Stories Still Worth Acting On",
+      "Boring Features Close Enterprise Deals"
+    ],
+    "snippet": "Claude AI Daily Brief — November 9, 2026 | Game-Clone Rule Fix, Console IP Allowlist, Personal Finance ● Monday, November 9, 2026 Claude AI Daily Brief — November 9, 2026 Covering the latest from the platform · Edition #255 TL;DR — Today’s Top 3 Takeaways 1. Claude Offers Original Games, Not Refusal"
+  },
+  {
     "date": "2026-11-08",
     "title": "Claude AI Daily Brief &mdash; November 8, 2026 | Claude Code Secrets Leak, Dispatch Extension Flaw, 2.1.319",
     "description": "November 8, 2026: Researchers find secrets in 1,122 public copies of Claude Code's local settings file, a browser-extension flaw hit Claude Dispatch, and Claude Code 2.1.319 adds background MCP tasks.",

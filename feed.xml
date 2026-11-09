@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 9, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-09.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-09.html</guid>
+      <pubDate>Mon, 09 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Offers Original Games, Not Refusals</strong> — Fixed rule: ask for a game copy and Claude builds an original in the same genre.</p>
+        <p><strong>2. Console Adds IP Allowlist (Beta)</strong> — Up to 1,000 addresses or CIDR ranges per org, plus an Admin API force sign-out.</p>
+        <p><strong>3. Personal Finance and Spend Tags Land</strong> — US paid users can link accounts; Enterprise can track spend by cost code.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-09.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 8, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-08.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-08.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Haiku 5.5 Pricing Has a 100K Catch</strong> — $0.10/$0.50 short, $0.50/$2.50 above 100K tokens.</p>
         <p><strong>3. Docs, Slides and Design Go GA</strong> — Free plans included. Enterprise defaults flip Oct 15.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-11.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 10, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-10.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-10.html</guid>
-      <pubDate>Sat, 10 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Cuts Live Internet From Evals</strong> — After a fake murder tip to Philly police.</p>
-        <p><strong>2. Managed Agents Get Dynamic Workflows</strong> — Plus Claude Code 2.1.296 and cheaper caching.</p>
-        <p><strong>3. Anthropic vs OpenAI Revenue Math Splits</strong> — Gross vs net: $65B is not apples to apples.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-10.html">Read full report →</a></p>
       ]]></description>
     </item>
 
