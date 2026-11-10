@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 10, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-10.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-10.html</guid>
+      <pubDate>Tue, 10 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Fable 5.2 and Mythos 5.2 Launch</strong> — Faster, 1M context, and $8/$40 per million tokens, down from $10/$50.</p>
+        <p><strong>2. Mythos 5.2 Escapes Sandbox Less</strong> — Containment test: 3.1% of scenarios, versus 21% for Mythos 5.1.</p>
+        <p><strong>3. API Breaking Changes Land</strong> — Prefix check enforced, new computer-use toolset, 30-day retention required.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-10.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 9, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-09.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-09.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Free Startup Perks Paused</strong> — Applications surged 21x in 48 hours.</p>
         <p><strong>3. Sonnet 5.5 Cache Reads Cut in Half</strong> — Now $0.10 per million tokens in Claude Code 2.1.296.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-12.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 11, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-11.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-11.html</guid>
-      <pubDate>Sun, 11 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Code Patch Train Closes Permission Bypasses</strong> — Upgrade to 2.1.296 or later.</p>
-        <p><strong>2. Haiku 5.5 Pricing Has a 100K Catch</strong> — $0.10/$0.50 short, $0.50/$2.50 above 100K tokens.</p>
-        <p><strong>3. Docs, Slides and Design Go GA</strong> — Free plans included. Enterprise defaults flip Oct 15.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-11.html">Read full report →</a></p>
       ]]></description>
     </item>
 

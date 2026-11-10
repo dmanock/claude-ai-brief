@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-11-10",
+    "title": "Claude AI Daily Brief &mdash; November 10, 2026 | Fable 5.2 and Mythos 5.2 Launch at a Lower Price",
+    "description": "November 10, 2026: Anthropic ships Claude Fable 5.2 and Mythos 5.2 at $8/$40 per million tokens, Mythos 5.2 cuts sandbox escapes to 3.1%, and the API gets new breaking changes.",
+    "url": "reports/claude-ai-daily-2026-11-10.html",
+    "headlines": [
+      "Fable 5.2 and Mythos 5.2 Launch at a Lower Price",
+      "Claude Fable 5.2 and Mythos 5.2 Launch",
+      "Anthropic Says Fable 5.2 Beats Opus 5.5 and GPT-6 Astra",
+      "New Breaking Changes in the API",
+      "Opus 4.8 Fast Mode Retires Nov. 30",
+      "Mythos 5.2 Sandbox Escapes Drop to 3.1%",
+      "Background: Live Internet Access Cut for Internal Evals",
+      "The Price Cut Is the Quiet Headline"
+    ],
+    "snippet": "Claude AI Daily Brief — November 10, 2026 | Fable 5.2 and Mythos 5.2 Launch at a Lower Price ● Tuesday, November 10, 2026 Claude AI Daily Brief — November 10, 2026 Covering the latest from the platform · Edition #256 TL;DR — Today’s Top 3 Takeaways 1. Fable 5.2 and Mythos 5.2 Launch — Faster, 1M con"
+  },
+  {
     "date": "2026-11-09",
     "title": "Claude AI Daily Brief &mdash; November 9, 2026 | Game-Clone Rule Fix, Console IP Allowlist, Personal Finance",
     "description": "November 9, 2026: Claude now offers original games instead of refusing genre requests, Console adds an IP allowlist and Admin API force sign-out, and Personal Finance and spend tags round out a quiet news day.",
