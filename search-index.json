@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-11",
+    "title": "Claude AI Daily Brief &mdash; November 11, 2026 | Claude Moves Into the Office as Anthropic Starts Its IPO Roadshow",
+    "description": "November 11, 2026: Anthropic launches Claude Meetings, Sheets and Whiteboards in beta, kicks off its IPO roadshow at $70-$78 a share, and Claude Code makes Fable 5.2 the default.",
+    "url": "reports/claude-ai-daily-2026-11-11.html",
+    "headlines": [
+      "Claude Moves Into the Office as Anthropic Starts Its IPO Roadshow",
+      "Claude Moves Into the Office: Meetings, Sheets and Whiteboards",
+      "Anthropic Launches Its IPO Roadshow",
+      "Claude for Teachers Gets Enforceable Privacy Terms",
+      "Claude Code v2.1.321 Makes Fable 5.2 the Default",
+      "Claude Data and Interactive Connectors Roll Out",
+      "Microsoft Dips, AI Skeptics Circle the IPO",
+      "Meetings Ships With Guardrails for Outside Guests",
+      "Anthropic Wants to Be Your Whole Office Before It Rings the Bell"
+    ],
+    "snippet": "Claude AI Daily Brief — November 11, 2026 | Claude Moves Into the Office as Anthropic Starts Its IPO Roadshow ● Wednesday, November 11, 2026 Claude AI Daily Brief — November 11, 2026 Covering the latest from the platform · Edition #257 TL;DR — Today’s Top 3 Takeaways 1. Claude Moves Into the Office "
+  },
+  {
     "date": "2026-11-10",
     "title": "Claude AI Daily Brief &mdash; November 10, 2026 | Fable 5.2 and Mythos 5.2 Launch at a Lower Price",
     "description": "November 10, 2026: Anthropic ships Claude Fable 5.2 and Mythos 5.2 at $8/$40 per million tokens, Mythos 5.2 cuts sandbox escapes to 3.1%, and the API gets new breaking changes.",

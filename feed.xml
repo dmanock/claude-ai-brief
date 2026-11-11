@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 11, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-11.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-11.html</guid>
+      <pubDate>Wed, 11 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Moves Into the Office</strong> — Meetings, Sheets and Whiteboards hit beta, and Claude Data rolls out to paid plans.</p>
+        <p><strong>2. Anthropic Starts Its IPO Roadshow</strong> — 825M shares at $70-$78 each, listing on Nasdaq as ANT.</p>
+        <p><strong>3. Claude Code Makes Fable 5.2 Default</strong> — v2.1.321 also patches an MCP OAuth token leak and sandbox gaps.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-11.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 10, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-10.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-10.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Distillation Defenses Work</strong> — New protections cut data harvesting by 90-99%.</p>
         <p><strong>3. Osaka Data Center in Talks</strong> — NTT Data reportedly eyeing a $6.3B, 500MW build.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-13.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 12, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-12.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-12.html</guid>
-      <pubDate>Mon, 12 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic&rsquo;s Compute Binge</strong> — Reported SpaceX and IREN deals worth over $1.25B a month each.</p>
-        <p><strong>2. Free Startup Perks Paused</strong> — Applications surged 21x in 48 hours.</p>
-        <p><strong>3. Sonnet 5.5 Cache Reads Cut in Half</strong> — Now $0.10 per million tokens in Claude Code 2.1.296.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-12.html">Read full report →</a></p>
       ]]></description>
     </item>
 
