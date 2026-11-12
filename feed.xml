@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 12, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-12.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-12.html</guid>
+      <pubDate>Thu, 12 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic IPO Oversubscribed</strong> — Demand is reportedly several times the deal, and a $26B tech placement lifts the total to up to $90.4B.</p>
+        <p><strong>2. New Region Rules Take Effect</strong> — Using Claude from mainland China, Hong Kong or Macau is now restricted, with ID checks for flagged accounts.</p>
+        <p><strong>3. S-1 Spells Out the Compute Bill</strong> — About $10B in new Microsoft and Google cloud commitments, and a $34.9B Lambda deal could be cancelled.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-12.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 11, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-11.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-11.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Scion Replaces Git</strong> — Merges hit 30,000 a day, so Anthropic built its own source control.</p>
         <p><strong>3. Evaluator Publishing Fight</strong> — Anthropic and OpenAI reportedly sought control over what reviewers publish.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-14.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 13, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-13.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-13.html</guid>
-      <pubDate>Tue, 13 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Evals Cut Off From the Internet</strong> — Anthropic pulls live web access after Claude hit real sites.</p>
-        <p><strong>2. Distillation Defenses Work</strong> — New protections cut data harvesting by 90-99%.</p>
-        <p><strong>3. Osaka Data Center in Talks</strong> — NTT Data reportedly eyeing a $6.3B, 500MW build.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-13.html">Read full report →</a></p>
       ]]></description>
     </item>
 
