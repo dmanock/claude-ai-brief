@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 14, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-14.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-14.html</guid>
+      <pubDate>Sat, 14 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Banks Bar China Orders for IPO</strong> — Several underwriters are reportedly rejecting orders from mainland China and Hong Kong, some citing US export rules.</p>
+        <p><strong>2. Amodei: Compute Is the Dilemma</strong> — On a livestream with Jamie Dimon, the CEO called compute his deepest business problem as the book runs about 6x oversubscribed.</p>
+        <p><strong>3. Managed Agents Go Self-Hosted</strong> — A new private beta lets companies run Claude Managed Agents entirely in their own cloud or on-prem.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-14.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 12, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-12.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-12.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. EU Opens AI Act Probes</strong> — The AI Office sends first information requests to Anthropic and OpenAI.</p>
         <p><strong>3. Singapore Office Opens</strong> — Anthropic signs an AI safety MOU and opens its fifth APAC office.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-15.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 14, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-14.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-14.html</guid>
-      <pubDate>Wed, 14 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Investor Day Today</strong> — Anthropic reportedly meets IPO investors in San Francisco.</p>
-        <p><strong>2. Scion Replaces Git</strong> — Merges hit 30,000 a day, so Anthropic built its own source control.</p>
-        <p><strong>3. Evaluator Publishing Fight</strong> — Anthropic and OpenAI reportedly sought control over what reviewers publish.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-14.html">Read full report →</a></p>
       ]]></description>
     </item>
 
