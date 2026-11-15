@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 15, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-15.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-15.html</guid>
+      <pubDate>Sun, 15 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. IPO Prices Wednesday</strong> — Anthropic prices Nov. 18 and ANT starts trading on Nasdaq Nov. 19, with a $70 to $78 range on 825 million shares.</p>
+        <p><strong>2. Claude Ported Itself to AMD</strong> — Per the IPO deck, Claude Mythos Preview moved Claude onto AMD MI355 GPUs in three days, a job Anthropic pegs at 6 to 12 months for humans.</p>
+        <p><strong>3. Wall Street Eyes $270B+ by 2028</strong> — Bank models see revenue jumping fivefold from 2026 as the book hits 6x, though some investors doubt the lead lasts.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-15.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 14, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-14.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-14.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Claude Redesigns Quantum Circuits</strong> — New designs beat published versions on eight tasks, some by 10x or more.</p>
         <p><strong>3. Claude Code Gets About 3x Faster</strong> — Local first-token latency drops from 4.07s to 1.33s.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-17.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 16, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-16.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-16.html</guid>
-      <pubDate>Fri, 16 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Accenture Caps Claude Spend</strong> — Accenture reportedly limits central Claude funding to $29 per employee a month.</p>
-        <p><strong>2. METR Moves Inside Anthropic</strong> — Six outside evaluators get internal-tools access and publishing independence.</p>
-        <p><strong>3. Scion Replaces Git</strong> — Anthropic swaps Git for Scion as agents push 30,000 merges a day.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-16.html">Read full report →</a></p>
       ]]></description>
     </item>
 

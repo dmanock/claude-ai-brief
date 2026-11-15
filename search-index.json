@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-15",
+    "title": "Claude AI Daily Brief &mdash; November 15, 2026 | IPO Week Arrives as Claude Ports Itself to AMD",
+    "description": "November 15, 2026: Anthropic's IPO prices Wednesday with ANT trading Thursday, Claude reportedly ported itself to AMD MI355 GPUs in three days, and banks model $270B+ in 2028 revenue.",
+    "url": "reports/claude-ai-daily-2026-11-15.html",
+    "headlines": [
+      "IPO Week Arrives as Claude Ports Itself to AMD",
+      "IPO Week Arrives: Pricing Wednesday, ANT Trades Thursday",
+      "Claude Mythos Preview Ported Claude to AMD GPUs in Three Days",
+      "API Docs Now Define Ramp Limits",
+      "Adobe Adds an MCP Server for Photoshop",
+      "Nonprofits Sue to Halt Frontier AI Buildout",
+      "A Rough Week on the Status Page",
+      "Investors Flock to the IPO but Question How Long the Lead Lasts",
+      "The Real Moat Might Be Portability"
+    ],
+    "snippet": "Claude AI Daily Brief — November 15, 2026 | IPO Week Arrives as Claude Ports Itself to AMD ● Sunday, November 15, 2026 Claude AI Daily Brief — November 15, 2026 Covering the latest from the platform · Edition #261 TL;DR — Today’s Top 3 Takeaways 1. IPO Prices Wednesday — Anthropic prices Nov. 18 and"
+  },
+  {
     "date": "2026-11-14",
     "title": "Claude AI Daily Brief &mdash; November 14, 2026 | Banks Bar China IPO Orders as Amodei Flags Compute Crunch",
     "description": "November 14, 2026: Banks reportedly reject Anthropic IPO orders from China and Hong Kong, Dario Amodei calls compute his deepest business dilemma, and self-hosted Claude Managed Agents enters private beta.",
