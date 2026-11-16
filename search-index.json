@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-11-16",
+    "title": "Claude AI Daily Brief &mdash; November 16, 2026 | Anthropic Says It Hit Its AI-Acceleration Threshold",
+    "description": "November 16, 2026: Anthropic's S-1 says it has met its scaling-policy threshold for AI-accelerated progress, a Monday outage hit Sonnet 5.5 and Fable 5.2, and IPO pricing is two days out.",
+    "url": "reports/claude-ai-daily-2026-11-16.html",
+    "headlines": [
+      "Anthropic Says It Hit Its AI-Acceleration Threshold",
+      "Anthropic Says It Has Met Its AI-Acceleration Threshold",
+      "IPO Countdown: Pricing Wednesday, ANT Trades Thursday",
+      "Rate Limit and Usage Docs Get a Cleanup",
+      "Claude Code Week in Review: Code Mode, Fast Vertex, Sandbox Change",
+      "Monday Outage Hits Sonnet 5.5 and Fable 5.2",
+      "CNN Profiles Claude Code Creator Boris Cherny",
+      "Anthropic's $3.4B Bet on Its Own Power",
+      "Anthropic Holds the Key to the AI Trade",
+      "Safety Policy Is Now Investor Disclosure"
+    ],
+    "snippet": "Claude AI Daily Brief — November 16, 2026 | Anthropic Says It Hit Its AI-Acceleration Threshold ● Monday, November 16, 2026 Claude AI Daily Brief — November 16, 2026 Covering the latest from the platform · Edition #262 TL;DR — Today’s Top 3 Takeaways 1. Anthropic Says It Hit Its AI-Acceleration Thre"
+  },
+  {
     "date": "2026-11-15",
     "title": "Claude AI Daily Brief &mdash; November 15, 2026 | IPO Week Arrives as Claude Ports Itself to AMD",
     "description": "November 15, 2026: Anthropic's IPO prices Wednesday with ANT trading Thursday, Claude reportedly ported itself to AMD MI355 GPUs in three days, and banks model $270B+ in 2028 revenue.",

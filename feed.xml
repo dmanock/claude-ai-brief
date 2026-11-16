@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 16, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-16.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-16.html</guid>
+      <pubDate>Mon, 16 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Says It Hit Its AI-Acceleration Threshold</strong> — The latest S-1 says Anthropic has determined it meets its scaling-policy bar for dramatically accelerated AI progress, based on expected future models.</p>
+        <p><strong>2. Monday Outage Hits Sonnet 5.5 and Fable 5.2</strong> — About 75 minutes of elevated errors across claude.ai, the API, Claude Code and Cowork, the seventh incident this month.</p>
+        <p><strong>3. IPO Pricing Is Two Days Out</strong> — Anthropic prices Wednesday with the book about 6x covered and an $81B revenue run rate as of Oct. 31.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-16.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 15, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-15.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-15.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Code Review Goes GA</strong> — Reviews are about 3x faster, mostly 6-10 minutes, with Quick, Standard and Deep modes.</p>
         <p><strong>3. Claude Design Gets a Sunset Date</strong> — Claude Code 2.1.302 says standalone Claude Design closes December 14.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-18.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 17, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-17.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-17.html</guid>
-      <pubDate>Sat, 17 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Cracks NIST Curve Mystery</strong> — Anthropic says Claude traced curve seeds to 1990s Unix timestamps.</p>
-        <p><strong>2. Claude Redesigns Quantum Circuits</strong> — New designs beat published versions on eight tasks, some by 10x or more.</p>
-        <p><strong>3. Claude Code Gets About 3x Faster</strong> — Local first-token latency drops from 4.07s to 1.33s.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-17.html">Read full report →</a></p>
       ]]></description>
     </item>
 
