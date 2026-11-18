@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 18, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-18.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-18.html</guid>
+      <pubDate>Wed, 18 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Prices Its IPO Tonight</strong> — The final price lands this evening on a $70 to $78 range, with the book reportedly about 7x covered; ANT trades Thursday.</p>
+        <p><strong>2. Mythos Ported AMD GPU Kernels in 3 Days</strong> — Anthropic told investors Claude Mythos Preview did work that used to take dozens of engineers six to 12 months.</p>
+        <p><strong>3. Bug Disclosure Window Cut to 30 Days</strong> — Anthropic shortened its coordinated disclosure window for high-severity vulnerabilities from 90 days to 30.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-18.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 17, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-17.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-17.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Opus 5 Redesigns a Quantum Circuit</strong> — 53 hours of work cuts gate count about 17x on one Bitcoin-attack module.</p>
         <p><strong>3. Anthropic Publishes Agent Work Data</strong> — About 80% of Claude session time is idle waiting on humans.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-20.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 19, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-19.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-19.html</guid>
-      <pubDate>Mon, 19 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Anthropic Public Benefit Fund</strong> — Anthropic pledges 5% of its shares to a new public benefit fund. About 20% of equity now earmarked for public good.</p>
-        <p><strong>2. Musk Says Give Shares to the Public</strong> — Musk answered the fund news on X, saying he would hand his shares to the public. No details on how or when.</p>
-        <p><strong>3. Claude Code 2.1.299 Fixes Gateway Key Leak</strong> — Claude Code sent third-party gateway API keys to Anthropic on routine requests. 2.1.299 stops it.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-19.html">Read full report →</a></p>
       ]]></description>
     </item>
 

@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-11-18",
+    "title": "Claude AI Daily Brief &mdash; November 18, 2026 | Pricing Night for Anthropic's IPO",
+    "description": "November 18, 2026: Anthropic sets its IPO price tonight with the book reportedly ~7x covered, Claude Mythos Preview ported AMD GPU kernels in three days, and Anthropic cuts its bug disclosure window to 30 days.",
+    "url": "reports/claude-ai-daily-2026-11-18.html",
+    "headlines": [
+      "Pricing Night for Anthropic's IPO",
+      "Pricing Night: Anthropic Sets Its IPO Price Today",
+      "Mythos Preview Ported AMD GPU Kernels in Three Days",
+      "Anthropic Cuts Bug Disclosure Window to 30 Days",
+      "Text Watermarking Extends to Older Claude Models",
+      "Claude Code Adds an Experimental Code Mode",
+      "New API &lsquo;Ramp Limits&rsquo; Can 429 Bursty Traffic",
+      "Backdoored Claude Code Extension Hit About 5,000 Devs",
+      "Masayoshi Son: Skipping Anthropic Was a Mistake",
+      "FT: &lsquo;Anthropic Direct&rsquo; and $900B in Compute Deals",
+      "Sonnet 5.5 Tops a 16-Agent HPC Coding Benchmark",
+      "Vals Study Flags Opus 5.5 in a Targeting Test",
+      "Index Fast-Track Could Bring Forced Buying",
+      "The Price Is the Easy Part"
+    ],
+    "snippet": "Claude AI Daily Brief — November 18, 2026 | Pricing Night for Anthropic's IPO ● Wednesday, November 18, 2026 Claude AI Daily Brief — November 18, 2026 Covering the latest from the platform · Edition #264 TL;DR — Today’s Top 3 Takeaways 1. Anthropic Prices Its IPO Tonight — The final price lands this"
+  },
+  {
     "date": "2026-11-17",
     "title": "Claude AI Daily Brief &mdash; November 17, 2026 | Wall Street Wobbles Into Anthropic Pricing",
     "description": "November 17, 2026: Tech stocks slid Monday as Anthropic's IPO pricing nears, the prospectus shows founders keep 50.1% voting control, and Coatue sits on a $5.75B paper gain.",
