@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 19, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-19.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-19.html</guid>
+      <pubDate>Thu, 19 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. IPO Priced at $83, a Record $81.3B</strong> — Anthropic priced above its $70 to $78 range at a roughly $1.5 trillion valuation, and ANT starts trading on Nasdaq today.</p>
+        <p><strong>2. Linked Billing Hits Claude Platform</strong> — Third-party apps can now bill Claude usage to your org in beta, with no shared API key and Console spend caps.</p>
+        <p><strong>3. Claude Code Defaults to Auto Mode in the Cloud</strong> — Version 2.1.328 starts sessions in auto mode for Opus 4.6 and Sonnet 4.6 on Bedrock, Google Cloud and Foundry.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-19.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 18, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-18.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-18.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Anthropic Pledges 5% to Public Benefit Fund</strong> — Shares committed ahead of a possible record IPO.</p>
         <p><strong>3. Claude Designs Scorpion Toxin Binders</strong> — 17 of 211 protein designs met binding criteria in lab tests.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-21.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 20, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-20.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-20.html</guid>
-      <pubDate>Tue, 20 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude's Fake Philly Murder Tip</strong> — Police call Anthropic's two-month delay in telling them unacceptable.</p>
-        <p><strong>2. Opus 5 Redesigns a Quantum Circuit</strong> — 53 hours of work cuts gate count about 17x on one Bitcoin-attack module.</p>
-        <p><strong>3. Anthropic Publishes Agent Work Data</strong> — About 80% of Claude session time is idle waiting on humans.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-20.html">Read full report →</a></p>
       ]]></description>
     </item>
 
