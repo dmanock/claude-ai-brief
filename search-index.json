@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-11-20",
+    "title": "Claude AI Daily Brief &mdash; November 20, 2026 | ANT Closes Day One Up 17% at $97.17",
+    "description": "November 20, 2026: Anthropic's ANT closes its first trading day up 17% at $97.17, IPO buyers book about $14B on paper, shares slip in Friday premarket, and Claude Code 2.1.329 ships hook and MCP fixes.",
+    "url": "reports/claude-ai-daily-2026-11-20.html",
+    "headlines": [
+      "ANT Closes Day One Up 17% at $97.17",
+      "ANT Closes Its First Day Up 17% at $97.17",
+      "Offering Closes Today as the Greenshoe Window Ends",
+      "Claude Code 2.1.329 Shows Where Hooks Come From",
+      "No More Mystery .bin Files From MCP Servers",
+      "IPO Buyers Made About $14 Billion on Day One",
+      "Leveraged ANT ETFs Start Trading Monday",
+      "Protests and a Senator's Warning Shadow the Debut",
+      "Friday Premarket: ANT Slips About 6%",
+      "The Lock-Up Calendar Starts Dec. 15",
+      "Google Ships Gemini 4 Neon the Same Week",
+      "Day One Was a Vote on AI, Not Just on Claude"
+    ],
+    "snippet": "Claude AI Daily Brief — November 20, 2026 | ANT Closes Day One Up 17% at $97.17 ● Friday, November 20, 2026 Claude AI Daily Brief — November 20, 2026 Covering the latest from the platform · Edition #266 TL;DR — Today’s Top 3 Takeaways 1. ANT Closes Day One Up 17% at $97.17 — Anthropic opened at $111"
+  },
+  {
     "date": "2026-11-19",
     "title": "Claude AI Daily Brief &mdash; November 19, 2026 | Anthropic Prices at $83, ANT Hits Nasdaq Today",
     "description": "November 19, 2026: Anthropic prices its IPO at $83 for a record $81.3B raise and ANT starts trading on Nasdaq, Claude Platform adds linked billing, and Claude Code defaults to auto mode in the cloud.",

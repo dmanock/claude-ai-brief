@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 20, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-20.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-20.html</guid>
+      <pubDate>Fri, 20 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. ANT Closes Day One Up 17% at $97.17</strong> — Anthropic opened at $111.50, gave back about half the pop, and ended near a $1.28 trillion market value on a brutal day for tech.</p>
+        <p><strong>2. Premarket Slide as the Selloff Rolls On</strong> — ANT trades around $90.50 early Friday, down about 6% but still above the $83 IPO price.</p>
+        <p><strong>3. Claude Code 2.1.329 Lands</strong> — Hook sources now show in the trust dialog, /teleport starts a fresh session, and old-protocol HTTP MCP servers reconnect on their own.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-20.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 19, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-19.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-19.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. New API Version Drops Sampling Parameters</strong> — 2026-10-21 rejects temperature, top_p and top_k with a 400.</p>
         <p><strong>3. Claude Code 2.1.307 Ships 43 Changes</strong> — Adds an API-migration command and safety_event telemetry.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-22.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 21, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-21.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-21.html</guid>
-      <pubDate>Wed, 21 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Amodei Defends Safety Record</strong> — Anthropic's CEO answers critics and stands by its China sales restrictions.</p>
-        <p><strong>2. Anthropic Pledges 5% to Public Benefit Fund</strong> — Shares committed ahead of a possible record IPO.</p>
-        <p><strong>3. Claude Designs Scorpion Toxin Binders</strong> — 17 of 211 protein designs met binding criteria in lab tests.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-21.html">Read full report →</a></p>
       ]]></description>
     </item>
 
