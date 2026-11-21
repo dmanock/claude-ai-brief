@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 21, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-21.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-21.html</guid>
+      <pubDate>Sat, 21 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Anthropic Researcher Claims Claude-Assisted Riemann Proof</strong> — Levent Alpöge says he and Claude proved the 1859 conjecture, plus GRH, in Lean. Independent checks are underway.</p>
+        <p><strong>2. ANT Falls 8.5% to $88.91</strong> — Friday's low of $83.05 came five cents above the IPO price as the Nasdaq wiped out its 2026 gains.</p>
+        <p><strong>3. Apple Is Building Its Own AI Agent</strong> — A Bloomberg report says Apple is developing an agent for apps, browsing and coding to rival OpenAI and Anthropic.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-21.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 20, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-20.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-20.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Anthropic-Managed Claude Lands on Google Cloud</strong> — Google IAM, Marketplace billing, and Opus 5.5 fast mode.</p>
         <p><strong>3. Claude Designs Binders for Scorpion Toxins</strong> — 17 of 211 tested designs bound, in toxin-gene tests only.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-23.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 22, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-22.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-22.html</guid>
-      <pubDate>Thu, 22 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Duet Previews as a Background Agent</strong> — Watches your apps, drafts replies, and asks before it acts.</p>
-        <p><strong>2. New API Version Drops Sampling Parameters</strong> — 2026-10-21 rejects temperature, top_p and top_k with a 400.</p>
-        <p><strong>3. Claude Code 2.1.307 Ships 43 Changes</strong> — Adds an API-migration command and safety_event telemetry.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-22.html">Read full report →</a></p>
       ]]></description>
     </item>
 

@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-21",
+    "title": "Claude AI Daily Brief &mdash; November 21, 2026 | Anthropic Researcher Claims Claude-Assisted Riemann Proof",
+    "description": "November 21, 2026: An Anthropic mathematician says he and Claude proved the Riemann hypothesis in Lean, ANT falls 8.5% to $88.91 as its Friday low tests the $83 IPO price, and a report says Apple is building its own AI agent.",
+    "url": "reports/claude-ai-daily-2026-11-21.html",
+    "headlines": [
+      "Anthropic Researcher Claims Claude-Assisted Riemann Proof",
+      "Anthropic Mathematician Says He and Claude Proved the Riemann Hypothesis",
+      "Top Mathematicians: Promising, Not Yet Verified",
+      "Claude Code 2.1.329: /tasks Now Shows Scheduled Work",
+      "An Anthropic Engineer's Warning on &ldquo;Comprehension Debt&rdquo;",
+      "Stanford Posts an All-Human Rival Proof, Then Hits Snags",
+      "Apple Is Building Its Own AI Agent, Report Says",
+      "ANT Falls 8.5% to $88.91 on Day Two",
+      "The Bear Case Shows Up: 18x Revenue and Rising Compute",
+      "A Short, Busy Week Ahead",
+      "Wall Street Sold, Math Bought"
+    ],
+    "snippet": "Claude AI Daily Brief — November 21, 2026 | Anthropic Researcher Claims Claude-Assisted Riemann Proof ● Saturday, November 21, 2026 Claude AI Daily Brief — November 21, 2026 Covering the latest from the platform · Edition #267 TL;DR — Today’s Top 3 Takeaways 1. Anthropic Researcher Claims Claude-Ass"
+  },
+  {
     "date": "2026-11-20",
     "title": "Claude AI Daily Brief &mdash; November 20, 2026 | ANT Closes Day One Up 17% at $97.17",
     "description": "November 20, 2026: Anthropic's ANT closes its first trading day up 17% at $97.17, IPO buyers book about $14B on paper, shares slip in Friday premarket, and Claude Code 2.1.329 ships hook and MCP fixes.",
