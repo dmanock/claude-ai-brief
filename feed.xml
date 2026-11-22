@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 22, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-22.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-22.html</guid>
+      <pubDate>Sun, 22 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Lean Groups Back the Claude-Assisted Riemann Proof</strong> — The Lean FRO and Mathlib Initiative say Levent Alpöge's 17-million-line proof checks out. A human-readable paper is still to come.</p>
+        <p><strong>2. Computer Use Comes to Team and Enterprise</strong> — A beta lets Claude see and work in allowed desktop apps, rolling out gradually across Desktop, web and mobile.</p>
+        <p><strong>3. Leveraged ANT ETFs Debut Monday</strong> — Defiance's ANTC and ANTQ plus three more leveraged and inverse funds are set to list as a holiday-shortened week begins.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-22.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 21, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-21.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-21.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Agent Skills Standard Goes to Linux Foundation</strong> — Anthropic donates the name, logo, GitHub org and domain.</p>
         <p><strong>3. Anthropic IPO Filing Reportedly Imminent</strong> — Sources say a public S-1 could land as soon as Friday.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-24.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 23, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-23.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-23.html</guid>
-      <pubDate>Fri, 23 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Security Now Scans Continuously</strong> — Enterprise public beta tracks fixes and adds threat models.</p>
-        <p><strong>2. Anthropic-Managed Claude Lands on Google Cloud</strong> — Google IAM, Marketplace billing, and Opus 5.5 fast mode.</p>
-        <p><strong>3. Claude Designs Binders for Scorpion Toxins</strong> — 17 of 211 tested designs bound, in toxin-gene tests only.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-23.html">Read full report →</a></p>
       ]]></description>
     </item>
 
