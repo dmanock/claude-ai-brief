@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-11-24",
+    "title": "Claude AI Daily Brief &mdash; November 24, 2026 | Claude Ship Lets AI Agents Approve Code",
+    "description": "November 24, 2026: Anthropic launches Claude Ship, agents that review, fix and approve pull requests. Plus a Claude-authored VP vs VNP proof nobody has checked yet, and ANT lags Monday's tech rally as Form 4s show the Amodeis sold $561M.",
+    "url": "reports/claude-ai-daily-2026-11-24.html",
+    "headlines": [
+      "Claude Ship Lets AI Agents Approve Code",
+      "Claude Ship: Agents That Review, Fix and Approve Your PRs",
+      "Enterprise Frontier Safeguards Now Works With Zero Data Retention",
+      "Claude Code 2.1.331 Brings Code Mode to the Clouds",
+      "Managed Plugin Marketplaces Will Auto-Update After Nov. 30",
+      "A Claude-Authored VP &ne; VNP Proof Lands, Unchecked",
+      "The Amodeis Each Sold $280M of Stock in the IPO",
+      "ANT Misses the Rally, Closes at $87.64",
+      "The Approve Button Is the New Frontier",
+      "Proofs Without Reviewers"
+    ],
+    "snippet": "Claude AI Daily Brief — November 24, 2026 | Claude Ship Lets AI Agents Approve Code ● Tuesday, November 24, 2026 Claude AI Daily Brief — November 24, 2026 Covering the latest from the platform · Edition #270 TL;DR — Today’s Top 3 Takeaways 1. Claude Ship Lets AI Approve Your PRs — Code Review goes G"
+  },
+  {
     "date": "2026-11-23",
     "title": "Claude AI Daily Brief &mdash; November 23, 2026 | Leveraged ANT ETFs Hit the Tape as Anthropic Bounces",
     "description": "November 23, 2026: Four leveraged Anthropic ETFs start trading, ANT bounces premarket after nearly round-tripping to its IPO price, and Claude Code 2.1.330 adds Enterprise Admin Console sign-in.",

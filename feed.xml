@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 24, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-24.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-24.html</guid>
+      <pubDate>Tue, 24 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Ship Lets AI Approve Your PRs</strong> — Code Review goes GA, plus beta agents that fix PRs and approve changes that pass your team's policy.</p>
+        <p><strong>2. Claude Claims VP ≠ VNP, Unchecked</strong> — A Claude-authored proof with Lean code is out, but no human mathematician has reviewed it yet.</p>
+        <p><strong>3. ANT Lags as Founders' Sales Surface</strong> — Shares fell 1.4% to $87.64 in a tech rally; filings show the Amodeis sold $561M at the IPO.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-24.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 23, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-23.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-23.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Claude Duet Gets Mixed Early Reviews</strong> — Polished proactive agent, but one reviewer keeps forgetting to open it.</p>
         <p><strong>3. Claude Code 2.1.310 Adds Monitor Tool</strong> — Plugin monitors on Bedrock, Vertex and Foundry, plus new Enterprise roles.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-26.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 25, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-25.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-25.html</guid>
-      <pubDate>Sun, 25 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Enterprise Merges Chat and Cowork</strong> — GA now, default-on Nov 16, with a new Efficient mode.</p>
-        <p><strong>2. Claude API Gets First New Version Since 2023</strong> — Version 2026-10-21 drops temperature, top_p and top_k.</p>
-        <p><strong>3. Claude Platform Goes GA on Google Cloud</strong> — Google IAM, Marketplace billing, and Fast mode for Opus 5.5.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-25.html">Read full report →</a></p>
       ]]></description>
     </item>
 
