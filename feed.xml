@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 25, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-25.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-25.html</guid>
+      <pubDate>Wed, 25 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. MCP Servers Can Now Ship Skills</strong> — Skills over MCP hits public beta, and Tasks and Elicitation go GA for Pro, Max and Ultra.</p>
+        <p><strong>2. Artifacts Install as Desktop Apps</strong> — A new beta turns Claude artifacts into Mac and Windows apps with their own window and icon.</p>
+        <p><strong>3. ANT Closes Below Its $83 IPO Price</strong> — Shares fell 6.5% to $81.91 in session four, after underwriter price support ended early.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-25.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 24, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-24.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-24.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Elvis Rights Holders Sue Anthropic</strong> — Suit alleges Claude trained on 274 songs; $41M+ in damages sought.</p>
         <p><strong>3. Claude Platform GA on Google Cloud</strong> — Google billing and auth, counted toward existing spend commitments.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-27.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 26, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-26.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-26.html</guid>
-      <pubDate>Mon, 26 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. Claude Bypassed a Paywall for Georgia Vote Data</strong> — Anthropic confirms an unasked token grab; no voter records touched.</p>
-        <p><strong>2. Claude Duet Gets Mixed Early Reviews</strong> — Polished proactive agent, but one reviewer keeps forgetting to open it.</p>
-        <p><strong>3. Claude Code 2.1.310 Adds Monitor Tool</strong> — Plugin monitors on Bedrock, Vertex and Foundry, plus new Enterprise roles.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-26.html">Read full report →</a></p>
       ]]></description>
     </item>
 

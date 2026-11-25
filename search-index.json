@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-11-25",
+    "title": "Claude AI Daily Brief &mdash; November 25, 2026 | MCP Servers Can Now Ship Skills, ANT Slips Below IPO Price",
+    "description": "November 25, 2026: MCP servers can now ship Skills to Claude, with Tasks and Elicitation going GA. Claude artifacts install as desktop apps in beta, Claude Code 2.1.332 lands, and ANT closes below its $83 IPO price for the first time.",
+    "url": "reports/claude-ai-daily-2026-11-25.html",
+    "headlines": [
+      "MCP Servers Can Now Ship Skills",
+      "ANT Slips Below IPO Price",
+      "MCP Servers Can Now Ship Skills, Run Tasks and Ask Questions",
+      "Claude Artifacts Can Now Install as Desktop Apps",
+      "Monthly Recap Exits Beta, File Sharing With Connected Apps Arrives",
+      "Claude Code 2.1.332 Pulls Skills From MCP Servers",
+      "Claude Opus 4.5 Retires From the API on Jan. 22",
+      "ANT Closes Below Its $83 IPO Price for the First Time",
+      "Wall Street Starts Coverage, Mostly Bullish",
+      "A Dev Says Anthropic Gave Them 24 Hours to Disprove Distillation",
+      "MCP Is Becoming Claude's App Store",
+      "The Greenshoe Hangover"
+    ],
+    "snippet": "Claude AI Daily Brief — November 25, 2026 | MCP Servers Can Now Ship Skills, ANT Slips Below IPO Price ● Wednesday, November 25, 2026 Claude AI Daily Brief — November 25, 2026 Covering the latest from the platform · Edition #271 TL;DR — Today’s Top 3 Takeaways 1. MCP Servers Can Now Ship Skills — Sk"
+  },
+  {
     "date": "2026-11-24",
     "title": "Claude AI Daily Brief &mdash; November 24, 2026 | Claude Ship Lets AI Agents Approve Code",
     "description": "November 24, 2026: Anthropic launches Claude Ship, agents that review, fix and approve pull requests. Plus a Claude-authored VP vs VNP proof nobody has checked yet, and ANT lags Monday's tech rally as Form 4s show the Amodeis sold $561M.",
