@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-11-26",
+    "title": "Claude AI Daily Brief &mdash; November 26, 2026 | KPMG Puts Claude Mythos on Cyber Duty as ANT Whipsaws",
+    "description": "November 26, 2026: KPMG launches Claude Mythos-powered cybersecurity services, ANT swings from $73.85 to an $82.79 close just under its IPO price, and Infor brings Claude to the factory floor over MCP.",
+    "url": "reports/claude-ai-daily-2026-11-26.html",
+    "headlines": [
+      "KPMG Puts Claude Mythos on Cyber Duty as ANT Whipsaws",
+      "KPMG Puts Claude Mythos on Cyber Duty",
+      "Yes, You Can Get Banned for Being Cruel to Claude",
+      "New Interpretability Work and an Agent Honeypot",
+      "Infor Brings Claude to the Factory Floor",
+      "Claude Ship: The Fine Print",
+      "Quiet Holiday Changelog: 2.1.332 Holds",
+      "Endava Becomes an Anthropic Select Partner",
+      "Claude-BugHunter Skill Pack Trends on GitHub",
+      "ANT Rides the Roller Coaster",
+      "Analysts Keep Piling In, and History Offers a Warning",
+      "The Customer List Is the Better Chart"
+    ],
+    "snippet": "Claude AI Daily Brief — November 26, 2026 | KPMG Puts Claude Mythos on Cyber Duty as ANT Whipsaws ● Thursday, November 26, 2026 Claude AI Daily Brief — November 26, 2026 Covering the latest from the platform · Edition #272 TL;DR — Today’s Top 3 Takeaways 1. KPMG Puts Claude Mythos on Cyber Duty — KP"
+  },
+  {
     "date": "2026-11-25",
     "title": "Claude AI Daily Brief &mdash; November 25, 2026 | MCP Servers Can Now Ship Skills, ANT Slips Below IPO Price",
     "description": "November 25, 2026: MCP servers can now ship Skills to Claude, with Tasks and Elicitation going GA. Claude artifacts install as desktop apps in beta, Claude Code 2.1.332 lands, and ANT closes below its $83 IPO price for the first time.",
