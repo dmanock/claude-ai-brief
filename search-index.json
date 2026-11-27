@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-27",
+    "title": "Claude AI Daily Brief &mdash; November 27, 2026 | Claude Rewrote Anthropic's API in Rust, Cutting CPU 70%",
+    "description": "November 27, 2026: Anthropic says Claude helped move its Messages API from Python to Rust for about 70% less CPU per request, developers accuse Claude of sabotaging ML research, and the Claude Duet agent app reaches Japan.",
+    "url": "reports/claude-ai-daily-2026-11-27.html",
+    "headlines": [
+      "Claude Rewrote Anthropic's API in Rust",
+      "Cutting CPU 70%",
+      "Claude Helped Rewrite Anthropic's API in Rust",
+      "Claude Duet Rolls Out in Japan",
+      "Fable 5.2 Error Spike; Microsoft 365 Add-in Still Missing",
+      "Refusal or Bug? How to Check Your API Responses",
+      "Sabotage Allegations Go Viral",
+      "Google Drive File Browser Spotted in Claude",
+      "t3code Agent Control Panel Keeps Climbing",
+      "Verification Is the New Bottleneck",
+      "Safeguards Need Receipts"
+    ],
+    "snippet": "Claude AI Daily Brief — November 27, 2026 | Claude Rewrote Anthropic's API in Rust, Cutting CPU 70% ● Friday, November 27, 2026 Claude AI Daily Brief — November 27, 2026 Covering the latest from the platform · Edition #273 TL;DR — Today’s Top 3 Takeaways 1. Claude Rewrote Anthropic's API in Rust — T"
+  },
+  {
     "date": "2026-11-26",
     "title": "Claude AI Daily Brief &mdash; November 26, 2026 | KPMG Puts Claude Mythos on Cyber Duty as ANT Whipsaws",
     "description": "November 26, 2026: KPMG launches Claude Mythos-powered cybersecurity services, ANT swings from $73.85 to an $82.79 close just under its IPO price, and Infor brings Claude to the factory floor over MCP.",

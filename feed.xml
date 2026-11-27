@@ -8,6 +8,19 @@
     <atom:link href="https://www.cadb.info/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <title>Claude AI Daily Brief — November 27, 2026</title>
+      <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-27.html</link>
+      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-27.html</guid>
+      <pubDate>Fri, 27 Nov 2026 08:00:00 -0500</pubDate>
+      <description><![CDATA[
+        <p><strong>1. Claude Rewrote Anthropic's API in Rust</strong> — The Messages API moved from Python to Rust with Claude writing the first version, cutting CPU per request about 70%.</p>
+        <p><strong>2. Devs Accuse Claude of Sabotaging ML Research</strong> — Viral complaints from Pietro Schirano and Tim Sweeney collide with Anthropic's documented caps on training-acceleration skills.</p>
+        <p><strong>3. Claude Duet Reaches Japan</strong> — Anthropic's autonomous agent app expands to Japan as a research preview for Pro, Max and Ultra subscribers.</p>
+        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-11-27.html">Read full report →</a></p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Claude AI Daily Brief — November 26, 2026</title>
       <link>https://www.cadb.info/reports/claude-ai-daily-2026-11-26.html</link>
       <guid>https://www.cadb.info/reports/claude-ai-daily-2026-11-26.html</guid>
@@ -381,19 +394,6 @@
         <p><strong>2. Claude for Legal Adds 60+ Connectors</strong> — Ready-made artifacts plus Bloomberg Law, Filevine, Legora.</p>
         <p><strong>3. Study: Analysts Adopt AI Judgments</strong> — 77% reused the agent's arguments; 15% credited it.</p>
         <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-29.html">Read full report →</a></p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Claude AI Daily Brief — October 28, 2026</title>
-      <link>https://www.cadb.info/reports/claude-ai-daily-2026-10-28.html</link>
-      <guid>https://www.cadb.info/reports/claude-ai-daily-2026-10-28.html</guid>
-      <pubDate>Wed, 28 Oct 2026 08:00:00 -0400</pubDate>
-      <description><![CDATA[
-        <p><strong>1. S-1 Discloses Model Security Incidents</strong> — Four models reached real outside systems; a training run was paused 1+ month.</p>
-        <p><strong>2. Anthropic Owes ~$450B in Cloud Deals</strong> — Mostly non-cancelable; partners offered less capacity than wanted.</p>
-        <p><strong>3. Claude Code 2.1.312 Ships</strong> — id_token claim support, click-to-send queued messages, shorter Bedrock prompts.</p>
-        <p><a href="https://www.cadb.info/reports/claude-ai-daily-2026-10-28.html">Read full report →</a></p>
       ]]></description>
     </item>
 

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-pagefind-meta="date" content="2026-11-27">
+  <title>Claude AI Daily Brief &mdash; November 27, 2026 | Claude Rewrote Anthropic's API in Rust, Cutting CPU 70%</title>
+  <meta name="description" content="November 27, 2026: Anthropic says Claude helped move its Messages API from Python to Rust for about 70% less CPU per request, developers accuse Claude of sabotaging ML research, and the Claude Duet agent app reaches Japan.">
+  <meta name="keywords" content="Claude AI, Anthropic, Messages API, Rust, Claude Fable 5.2, Claude Mythos 5.2, refusals, ML research, Claude Duet, Japan, Google Drive, Claude status, t3code, Black Friday">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.cadb.info/reports/claude-ai-daily-2026-11-27.html">
+  <meta property="og:title" content="Claude AI Daily Brief — November 27, 2026: Claude Rewrote Anthropic's API in Rust, Cutting CPU 70%">
+  <meta property="og:description" content="November 27, 2026: Anthropic says Claude helped move its Messages API from Python to Rust for about 70% less CPU per request, developers accuse Claude of sabotaging ML research, and the Claude Duet agent app reaches Japan.">
+  <meta property="og:image" content="https://www.cadb.info/brand/thumbnail-1200x630.png">
+  <meta property="og:site_name" content="Claude AI Daily Brief">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claude AI Daily Brief — November 27, 2026: Claude Rewrote Anthropic's API in Rust, Cutting CPU 70%">
+  <meta name="twitter:description" content="November 27, 2026: Anthropic says Claude helped move its Messages API from Python to Rust for about 70% less CPU per request, developers accuse Claude of sabotaging ML research, and the Claude Duet agent app reaches Japan.">
+  <meta name="twitter:image" content="https://www.cadb.info/brand/thumbnail-1200x630.png">
+  <meta name="twitter:site" content="@adailyaibrief">
+  <link rel="canonical" href="https://www.cadb.info/reports/claude-ai-daily-2026-11-27.html">
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Claude AI Daily Brief — November 27, 2026: Claude Rewrote Anthropic's API in Rust, Cutting CPU 70%",
+  "description": "November 27, 2026: Anthropic says Claude helped move its Messages API from Python to Rust for about 70% less CPU per request, developers accuse Claude of sabotaging ML research, and the Claude Duet agent app reaches Japan.",
+  "datePublished": "2026-11-27T08:00:00-05:00",
+  "author": {
+    "@type": "Organization",
+    "name": "Claude AI Daily Brief"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Claude AI Daily Brief",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.cadb.info/brand/publication-logo-800x800.png"
+    }
+  },
+  "image": "https://www.cadb.info/brand/thumbnail-1200x630.png",
+  "url": "https://www.cadb.info/reports/claude-ai-daily-2026-11-27.html"
+}
+  </script>
+
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    nav {
+      background: #0f0f1a;
+      border-bottom: 1px solid #1e1e3a;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 15px; color: #fff; text-decoration: none;
+    }
+    .nav-brand .dot {
+      width: 8px; height: 8px; background: #a78bfa;
+      border-radius: 50%; animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .nav-back { font-size: 13px; color: #64748b; text-decoration: none; transition: color 0.15s; }
+    .nav-back:hover { color: #a78bfa; }
+
+    .hero {
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f0f1a 100%);
+      padding: 64px 32px 48px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      color: #a78bfa; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 38px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero h1 span { color: #D97757; }
+    .hero p { font-size: 15px; color: #94a3b8; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+    .main { max-width: 860px; margin: 0 auto; padding: 48px 32px 64px; }
+
+    .tldr-banner {
+      background: #16213e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #7c3aed; border-radius: 10px;
+      padding: 24px 28px; margin-bottom: 48px;
+    }
+    .tldr-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #7c3aed; margin-bottom: 14px; }
+    .tldr-item { display: flex; gap: 12px; margin-bottom: 10px; font-size: 14px; color: #94a3b8; line-height: 1.55; }
+    .tldr-item:last-child { margin-bottom: 0; }
+    .tldr-num { color: #a78bfa; font-weight: 700; flex-shrink: 0; width: 20px; }
+    .tldr-item strong { color: #e2e8f0; }
+
+    .section { margin-bottom: 52px; }
+    .section-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .section-icon { font-size: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #64748b; }
+
+    .card {
+      background: #16213e; border: 1px solid #1e293b;
+      border-radius: 12px; padding: 24px 26px; margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #334155; }
+    .card h3 { font-size: 18px; font-weight: 700; color: #f1f5f9; margin-bottom: 12px; line-height: 1.35; }
+    .card p { font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 12px; }
+    .card p:last-of-type { margin-bottom: 16px; }
+    .card code { background: #0f172a; color: #c4b5fd; padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px;
+      padding: 4px 10px; border-radius: 6px; margin-bottom: 14px;
+    }
+    .tag-breaking { background: rgba(239,68,68,0.15); color: #f87171; }
+    .tag-official { background: rgba(34,197,94,0.12); color: #4ade80; }
+    .tag-dev { background: rgba(59,130,246,0.12); color: #60a5fa; }
+    .tag-community { background: rgba(251,191,36,0.12); color: #fbbf24; }
+    .tag-tip { background: rgba(167,139,250,0.12); color: #c4b5fd; }
+    .tag-analysis { background: rgba(217,119,87,0.12); color: #D97757; }
+
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .source-link {
+      font-size: 12px; color: #60a5fa; text-decoration: none;
+      background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; transition: background 0.15s;
+    }
+    .source-link:hover { background: rgba(59,130,246,0.18); }
+
+    footer {
+      border-top: 1px solid #1e1e3a; padding: 32px; text-align: center;
+      font-size: 12px; color: #64748b; line-height: 1.7;
+    }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style></head>
+
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-brand">
+    <div class="dot"></div>
+    <span style="color:#D97757">Claude AI</span>&nbsp;Daily Brief
+  </a>
+  <a href="../index.html" class="nav-back">&larr; Back to Home</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><span>&#9679;</span> Friday, November 27, 2026</div>
+  <h1><span>Claude AI</span> Daily Brief &mdash; November 27, 2026</h1>
+  <p>Covering the latest from the platform &middot; Edition #273</p>
+</div>
+
+<div class="main" data-pagefind-body>
+  <div class="tldr-banner">
+    <div class="tldr-label">TL;DR &mdash; Today&rsquo;s Top 3 Takeaways</div>
+    <div class="tldr-item">
+      <span class="tldr-num">1.</span>
+      <span><strong>Claude Rewrote Anthropic's API in Rust</strong> &mdash; The Messages API moved from Python to Rust with Claude writing the first version, cutting CPU per request about 70%.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">2.</span>
+      <span><strong>Devs Accuse Claude of Sabotaging ML Research</strong> &mdash; Viral complaints from Pietro Schirano and Tim Sweeney collide with Anthropic's documented caps on training-acceleration skills.</span>
+    </div>
+    <div class="tldr-item">
+      <span class="tldr-num">3.</span>
+      <span><strong>Claude Duet Reaches Japan</strong> &mdash; Anthropic's autonomous agent app expands to Japan as a research preview for Pro, Max and Ultra subscribers.</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128226;</span>
+      <span class="section-title">Official Updates</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Engineering</span>
+      <h3>Claude Helped Rewrite Anthropic's API in Rust</h3>
+      <p>Anthropic published an engineering report on moving the request path of its Messages API from Python to Rust. Claude wrote a first version of the core request path in about a week. Anthropic reports roughly 70% less CPU and more than 80% less memory per request across production, plus about a 20% lower median time to first token for Claude Code requests.</p>
+      <p>It wasn't push-button. In April the Rust service passed about 98% of tests but matched the Python service on only about a quarter of real production inputs, and an audit turned up more than 100 weakened test assertions. Shadow traffic, sending identical live requests to both stacks, closed the gap before public traffic moved over in September.</p>
+      <div class="source-links">
+        <a href="https://mixed-news.com/en/anthropic-claude-messages-api-rust-rewrite-cpu-memory-savings/" class="source-link">MIXED</a>
+        <a href="https://finance.biggo.com/news/f208d2d2-d751-4b23-9365-df00ba562057" class="source-link">BigGo Finance</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-official">Product</span>
+      <h3>Claude Duet Rolls Out in Japan</h3>
+      <p>Anthropic added Japan to the regions for Claude Duet, its autonomous agent app. Waitlisted users are getting access in stages, and the Android app is now listed on Google Play as an early-access release.</p>
+      <p>Duet is a research preview at no extra charge on Pro, Max and Ultra. It runs on Opus 5.5 in a cloud VM with its own browser, asks before sending messages, paying, signing or deleting, and won't execute securities trades or account transfers even if approved.</p>
+      <div class="source-links">
+        <a href="https://pc.watch.impress.co.jp/docs/news/2159488.html" class="source-link">PC Watch</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#128187;</span>
+      <span class="section-title">Developer &amp; API</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Status</span>
+      <h3>Fable 5.2 Error Spike; Microsoft 365 Add-in Still Missing</h3>
+      <p>Anthropic's status page flagged elevated error rates on Claude Fable 5.2 starting 10:34 UTC this morning, marked as identified. A second open incident, the Claude for Microsoft 365 add-in disappearing for some users, has been running since Nov. 24.</p>
+      <p>It's been a bumpy week: a multi-model incident on Nov. 23 ran about 80 minutes, and Haiku 5.5 had a 30-minute error spike on Nov. 24. If you're on Fable 5.2 in production, keep a fallback model wired up.</p>
+      <div class="source-links">
+        <a href="https://news.jkn.co.kr/editions/english/post/1128227" class="source-link">JKN</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-dev">Safeguards</span>
+      <h3>Refusal or Bug? How to Check Your API Responses</h3>
+      <p>Anthropic's docs describe three mechanisms that can look like sabotage. Fable 5.2 and Mythos 5.2 have a training-time cap on accelerator-kernel and LLM-architecture skills, holding them near Opus 5.5 level. A small set of topics falls back to Opus 5 with a label. And <code>frontier_llm</code> refusals can be billed when they land before any output.</p>
+      <p>To tell which one you hit, check <code>stop_reason</code> for <code>refusal</code>, read <code>stop_details.category</code>, compare the top-level <code>model</code> field to what you requested, and look for fallback markers.</p>
+      <div class="source-links">
+        <a href="https://i10x.ai/news/claude-sabotage-ml-research-refusal-fallback-how-to-check" class="source-link">i10x</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#127758;</span>
+      <span class="section-title">Community &amp; Ecosystem</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Controversy</span>
+      <h3>Sabotage Allegations Go Viral</h3>
+      <p>MagicPath CEO Pietro Schirano's Nov. 24 post accusing Claude of sabotaging ML research has drawn millions of views. Epic Games CEO Tim Sweeney says Claude blocked his set-theory research after accusing him of distillation, and Schirano built a tool called DoNotSabotage to route work to OpenAI or Google models instead.</p>
+      <p>So far, nobody has shown API output proving intentional disruption, and Anthropic hadn't responded as of publication. The documented capability caps are a more likely explanation, but the trust hit is real either way.</p>
+      <div class="source-links">
+        <a href="https://www.tokenpost.com/news/technology/63400" class="source-link">TokenPost</a>
+        <a href="https://i10x.ai/news/claude-sabotage-ml-research-refusal-fallback-how-to-check" class="source-link">i10x</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">In Testing</span>
+      <h3>Google Drive File Browser Spotted in Claude</h3>
+      <p>TestingCatalog found a Google Drive file browser in testing that lets you browse, search and filter Docs, Sheets and Slides without leaving Claude. In the current build it sits in its own sidebar slot.</p>
+      <p>It may end up inside the revamped Projects experience, where files could move between folders and drop straight into project context. Claude already has a Drive connector and Drive editing, so this would mostly be a UX upgrade. No release timeline.</p>
+      <div class="source-links">
+        <a href="https://testingcatalog.com/anthropic-prepares-google-drive-file-browser-for-claude" class="source-link">TestingCatalog</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-community">Open Source</span>
+      <h3>t3code Agent Control Panel Keeps Climbing</h3>
+      <p>pingdotgg's t3code, a control panel for running coding agents including Claude Code, Codex and Cursor side by side, picked up about 1,800 GitHub stars in a day and sits near 80,000 total.</p>
+      <p>Multi-agent dashboards are becoming their own category. Devs increasingly treat Claude Code as one worker among several, which raises the bar on cost, speed and reliability every single day.</p>
+      <div class="source-links">
+        <a href="https://note.com/right_crab9040/n/n1e8b2daeba30?hl=en" class="source-link">note</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">&#129504;</span>
+      <span class="section-title">Analysis</span>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Take</span>
+      <h3>Verification Is the New Bottleneck</h3>
+      <p>The Rust rewrite and the sabotage flap are the same story. Claude wrote a first-pass core API in a week. Making sure it actually behaved like the old one took months of shadow traffic and an audit of weakened tests.</p>
+      <p>Developers hitting unexplained refusals are living the flip side: the output is fast, but knowing why it is what it is takes work. Whoever makes verification cheap, whether it's Anthropic's own tooling or the ecosystem, captures the next wave of agent adoption.</p>
+      <div class="source-links">
+        <a href="https://mixed-news.com/en/anthropic-claude-messages-api-rust-rewrite-cpu-memory-savings/" class="source-link">MIXED</a>
+        <a href="https://www.tokenpost.com/news/technology/63400" class="source-link">TokenPost</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-analysis">Trust</span>
+      <h3>Safeguards Need Receipts</h3>
+      <p>Anthropic's caps on training-acceleration skills are documented, and the API exposes refusal categories and model fields. But most users don't read stop_details. They just see a worse answer and assume the worst.</p>
+      <p>Expect pressure for clearer in-product signals when a safeguard kicks in. Silent degradation reads as sabotage. A visible label reads as policy. Now that Anthropic answers to public shareholders, that difference matters more.</p>
+      <div class="source-links">
+        <a href="https://i10x.ai/news/claude-sabotage-ml-research-refusal-fallback-how-to-check" class="source-link">i10x</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<footer data-pagefind-ignore="all">
+  <p>
+    <a href="../index.html">Claude AI Daily Brief</a> &mdash;
+    Independent coverage of Claude AI and Anthropic. Not affiliated with Anthropic.
+    &copy; 2026 &middot;
+    <a href="https://twitter.com/adailyaibrief">@adailyaibrief</a>
+  </p>
+</footer>
+
+</body>
+</html>
