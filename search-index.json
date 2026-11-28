@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-11-28",
+    "title": "Claude AI Daily Brief &mdash; November 28, 2026 | Anthropic Says Claude Isn't Trained to Sabotage",
+    "description": "November 28, 2026: Anthropic denies Claude sabotages ML research and blames overcaution, ANT stock jumps 11% back above its IPO price, and a hedge fund chart claims Anthropic's own Claude use is a third of the total.",
+    "url": "reports/claude-ai-daily-2026-11-28.html",
+    "headlines": [
+      "Anthropic Says Claude Isn't Trained to Sabotage",
+      "Anthropic Answers the Sabotage Claims: &ldquo;Overcaution,&rdquo; Not Sabotage",
+      "ANT Rallies 11% to $91.88, Back Above the $83 IPO Price",
+      "Amodei's Slowdown Call Shadows the Stock Rebound",
+      "Claude Code 2.1.332: Skills From MCP Servers",
+      "Seeing &ldquo;Sabotage&rdquo;? Prune the Rules Claude Wrote",
+      "Fable 5.2 Errors Resolved; M365 Add-in Fix in Progress",
+      "SALP Chart: Anthropic Is Its Own Biggest Claude Customer?",
+      "The Sabotage Pile-On Kept Growing Before the Reply",
+      "Copyright Settlement Checks Start Landing",
+      "The June Admission Is the Real Story",
+      "Wall Street Shrugged"
+    ],
+    "snippet": "Claude AI Daily Brief — November 28, 2026 | Anthropic Says Claude Isn't Trained to Sabotage ● Saturday, November 28, 2026 Claude AI Daily Brief — November 28, 2026 Covering the latest from the platform · Edition #274 TL;DR — Today’s Top 3 Takeaways 1. Anthropic: Claude Isn't Trained to Sabotage — St"
+  },
+  {
     "date": "2026-11-27",
     "title": "Claude AI Daily Brief &mdash; November 27, 2026 | Claude Rewrote Anthropic's API in Rust, Cutting CPU 70%",
     "description": "November 27, 2026: Anthropic says Claude helped move its Messages API from Python to Rust for about 70% less CPU per request, developers accuse Claude of sabotaging ML research, and the Claude Duet agent app reaches Japan.",
